@@ -1,0 +1,588 @@
+﻿{
+	"spreadsheetDocumentEditorControl": {
+		"fileLabel": {
+			"text": "Файл"
+		},
+		"homeLabel": {
+			"text": "Главен"
+		},
+		"editLabel": {
+			"text": "Редактиране"
+		},
+		"insertLabel": {
+			"text": "Вмъкване"
+		},
+		"reviewLabel": {
+			"text": "Коментари"
+		},
+		"createXlsxDocumentButton": {
+			"title": "Създайте нов XLSX документ"
+		},
+		"uploadXlsxFileButton": {
+			"title": "Изтеглете и отворете XLSX файл"
+		},
+		"downloadXlsxFileButton": {
+			"title": "Качете XLSX файл"
+		},
+		"exportXlsxToPdfButton": {
+			"title": "Експортирайте XLSX в PDF"
+		},
+		"showMobileMenuButton": {
+			"title": "Още"
+		},
+		"boldTextButton": {
+			"title": "Удебелен"
+		},
+		"italicTextButton": {
+			"title": "Курсив"
+		},
+		"underlineTextButton": {
+			"title": "Подчертано"
+		},
+		"strikethroughTextButton": {
+			"title": "Зачеркнато"
+		},
+		"fontColorButton": {
+			"title": "Цвят на шрифта"
+		},
+		"fillColorButton": {
+			"title": "Цвят на запълване"
+		},
+		"copyStyleButton": {
+			"title": "Стил художник"
+		},
+		"alignLeftButton": {
+			"title": "Подравнете вляво"
+		},
+		"alignCenterButton": {
+			"title": "Подравняване в центъра"
+		},
+		"alignRightButton": {
+			"title": "Подравняване надясно"
+		},
+		"topAlignButton": {
+			"title": "Подравняване отгоре"
+		},
+		"middleAlignButton": {
+			"title": "Подравняване в центъра"
+		},
+		"bottomAlignButton": {
+			"title": "Подравнете отдолу"
+		},
+		"textWrappingButton": {
+			"title": "Пренасяне на текст"
+		},
+		"currencyNumberFormatButton": {
+			"title": "Формат на финансовото число"
+		},
+		"increaseDecimalButton": {
+			"title": "Увеличете десетичния знак"
+		},
+		"decreaseDecimalButton": {
+			"title": "Намаляване на десетичния знак"
+		},
+		"percentNumberFormatButton": {
+			"title": "Процентен формат"
+		},
+		"numberFormatDropDown": {
+			"General": {
+				"text": "Общи"
+			},
+			"Number": {
+				"text": "Числен"
+			},
+			"Currency": {
+				"text": "Пари"
+			},
+			"Date": {
+				"text": "Дата"
+			},
+			"Time": {
+				"text": "Време"
+			},
+			"Percentage": {
+				"text": "Процент"
+			},
+			"Scientific": {
+				"text": "Експоненциален"
+			},
+			"Text": {
+				"text": "Текст"
+			}
+		},
+		"showFormulasButton": {
+			"title": "Показване на формули"
+		},
+		"searchTextButton": {
+			"title": "Намерете текст"
+		},
+		"undoButton": {
+			"title": "Отказ"
+		},
+		"redoButton": {
+			"title": "Повторете"
+		},
+		"cutContentButton": {
+			"title": "Изрязване на съдържание"
+		},
+		"copyContentButton": {
+			"title": "Копиране на съдържание"
+		},
+		"pasteContentButton": {
+			"title": "Поставяне на съдържание"
+		},
+		"clearContentButton": {
+			"title": "Ясно съдържание"
+		},
+		"clearFormatButton": {
+			"title": "Изчистване на формат"
+		},
+		"deleteRowsButton": {
+			"title": "Изтриване на редове"
+		},
+		"deleteColumnsButton": {
+			"title": "Изтриване на колони"
+		},
+		"deleteCellsAndShiftLeftButton": {
+			"title": "Изтриване на клетки и преместване наляво"
+		},
+		"deleteCellsAndShiftUpButton": {
+			"title": "Изтрийте клетките и преместете нагоре"
+		},
+		"deletePictureButton": {
+			"title": "Изтриване на снимка"
+		},
+		"mergeCellsButton": {
+			"title": "Сливане на клетки"
+		},
+		"unmergeCellsButton": {
+			"title": "Премахване на обединяването на клетки"
+		},
+		"fillCells": {
+			"title": "Попълване на клетки"
+		},
+		"allBordersButton": {
+			"title": "Всички граници"
+		},
+		"thickOutsideBordersButton": {
+			"title": "Дебели външни граници"
+		},
+		"autoFitRowHeightButton": {
+			"title": "AutoFit височината на реда"
+		},
+		"autoFitColumnWidthButton": {
+			"title": "Автоматично напасване на ширината на колоната"
+		},
+		"insertRowsButton": {
+			"title": "Вмъкване на редове"
+		},
+		"insertColumnsButton": {
+			"title": "Вмъкване на колони"
+		},
+		"insertCellsAndShiftRightButton": {
+			"title": "Вмъкване на клетка и преместване надясно"
+		},
+		"insertCellsAndShiftDownButton": {
+			"title": "Вмъкване на клетка и преместване надолу"
+		},
+		"insertSheetButton": {
+			"title": "Вмъкване на лист"
+		},
+		"insertFunctionButton": {
+			"title": "Вмъкване на функция"
+		},
+		"insertCommentButton": {
+			"title": "Вмъкнете коментар"
+		},
+		"insertPictureButton": {
+			"title": "Добавете снимка"
+		},
+		"editCommentButton": {
+			"title": "Редактиране на коментар"
+		},
+		"deleteCommentButton": {
+			"title": "Изтриване на коментара"
+		},
+		"previousCommentButton": {
+			"title": "Предишен коментар"
+		},
+		"nextCommentButton": {
+			"title": "Следващ коментар"
+		},
+		"formulaPanel-cancelChangeButton": {
+			"title": "Връщане на промените"
+		},
+		"formulaPanel-applyChangeButton": {
+			"title": "Прилагане на промените"
+		},
+		"formulaPanel-fullScreenButton": {
+			"title": "Цял екран"
+		},
+		"scrollToFirstWorksheetButton": {
+			"title": "Превъртете до първия лист"
+		},
+		"scrollToLastWorksheetButton": {
+			"title": "Превъртете до последния лист"
+		},
+		"addWorksheetButton": {
+			"title": "Добавяне на лист"
+		},
+		"showWorksheetListButton": {
+			"title": "Показване на списък с листове"
+		},
+		"copyWorksheetButton": {
+			"title": "Копирай лист"
+		},
+		"deleteWorksheetButton": {
+			"title": "Изтриване на лист"
+		},
+		"renameWorksheetButton": {
+			"title": "Преименуване на лист"
+		},
+		"moveWorksheetButton": {
+			"title": "Преместване на лист"
+		},
+		"zoomOutButton": {
+			"title": "Намаляване"
+		},
+		"zoomValueLabel": {
+			"text": "100%"
+		},
+		"zoomInButton": {
+			"title": "Увеличаване"
+		},
+		"enUsCurrencyNumberFormatButton": {
+			"title": "$ Английски (САЩ)"
+		},
+		"enUkCurrencyNumberFormatButton": {
+			"title": "£ Английски (Обединеното кралство)"
+		},
+		"euCurrencyNumberFormatButton": {
+			"title": "€ Евро (€ 123)"
+		},
+		"ruCurrencyNumberFormatButton": {
+			"title": "₽ Руски"
+		},
+		"chCurrencyNumberFormatButton": {
+			"title": "¥ Китайски"
+		},
+		"enInCurrencyNumberFormatButton": {
+			"title": "₹ Английски (Индия)"
+		},
+		"fillCellsDownButton": {
+			"title": "Попълнете"
+		},
+		"fillCellsUpButton": {
+			"title": "Напълнете"
+		},
+		"fillCellsLeftButton": {
+			"title": "Попълване отляво"
+		},
+		"fillCellsRightButton": {
+			"title": "Попълнете надясно"
+		},
+		"noBordersButton": {
+			"title": "Без граници"
+		},
+		"outsideBordersButton": {
+			"title": "Външни граници"
+		},
+		"bottomBorderButton": {
+			"title": "Долна граница"
+		},
+		"topBorderButton": {
+			"title": "Горна граница"
+		},
+		"rightBorderButton": {
+			"title": "Дясна граница"
+		},
+		"leftBorderButton": {
+			"title": "Лява граница"
+		},
+		"thickBottomBorderButton": {
+			"title": "Дебела долна граница"
+		},
+		"thickLeftBorderButton": {
+			"title": "Дебела лява граница"
+		},
+		"doubleBottomBorderButton": {
+			"title": "Двойна долна рамка"
+		},
+		"doubleLeftBorderButton": {
+			"title": "Двойна лява граница"
+		},
+		"borderColorButton": {
+			"title": "Цвят на границата"
+		},
+		"copyLabel": {
+			"text": "Копирай"
+		},
+		"cutLabel": {
+			"text": "Изрежи"
+		},
+		"pasteLabel": {
+			"text": "Поставяне"
+		},
+		"clearContentsLabel": {
+			"text": "Изчистване на съдържанието"
+		},
+		"insertCellAndShiftRightLabel": {
+			"text": "Вмъкване на клетка и преместване надясно"
+		},
+		"insertCellAndShiftDownLabel": {
+			"text": "Вмъкване на клетка и преместване надолу"
+		},
+		"insertEntireRowLabel": {
+			"text": "Вмъкване на цял ред"
+		},
+		"insertEntireColumnLabel": {
+			"text": "Вмъкване на цяла колона"
+		},
+		"deleteImageLabel": {
+			"text": "Изтриване"
+		},
+		"deleteCellAndShiftLeftLabel": {
+			"text": "Изтриване на клетка и преместване наляво"
+		},
+		"deleteCellAndShiftUpLabel": {
+			"text": "Изтриване на клетка и преместване нагоре"
+		},
+		"deleteEntireRowLabel": {
+			"text": "Изтриване на целия ред"
+		},
+		"deleteEntireColumnLabel": {
+			"text": "Изтриване на цялата колона"
+		},
+		"insertRowsLabel": {
+			"text": "Вмъкване на редове"
+		},
+		"deleteRowsLabel": {
+			"text": "Изтриване на редове"
+		},
+		"insertColumnsLabel": {
+			"text": "Вмъкване на колони"
+		},
+		"deleteColumnsLabel": {
+			"text": "Изтриване на колони"
+		},
+		"insertCommentLabel": {
+			"text": "Вмъкване на коментар..."
+		},
+		"editCommentLabel": {
+			"text": "Редактиране на коментар..."
+		},
+		"deleteCommentLabel": {
+			"text": "Изтриване на коментар"
+		},
+		"showHideCommentLabel": {
+			"text": "Показване/скриване на коментара"
+		},
+		"hideCommentLabel": {
+			"text": "Скриване на коментара"
+		},
+		"hideRowsLabel": {
+			"text": "Скриване на редове"
+		},
+		"unhideRowsLabel": {
+			"text": "Показване на редове"
+		},
+		"hideColumnsLabel": {
+			"text": "Скриване на колоните"
+		},
+		"unhideColumnsLabel": {
+			"text": "Показване на колони"
+		},
+		"insertCommentDialog": {
+			"authorLabel": {
+				"text": "Автор:"
+			},
+			"showAuthorLabel": {
+				"text": "Покажи автора"
+			},
+			"commentLabel": {
+				"text": "Коментар:"
+			},
+			"okButton": {
+				"value": "ОК"
+			},
+			"cancelButton": {
+				"value": "Отказ"
+			}
+		},
+		"commentEditDialog": {
+			"authorLabel": {
+				"text": "Автор:"
+			},
+			"showAuthorLabel": {
+				"text": "Покажи автора"
+			},
+			"commentLabel": {
+				"text": "Коментар:"
+			},
+			"okButton": {
+				"value": "ОК"
+			},
+			"cancelButton": {
+				"value": "Отказ"
+			}
+		},
+		"renameWorksheetDialog": {
+			"nameLabel": {
+				"text": "Име:"
+			},
+			"okButton": {
+				"value": "ОК"
+			},
+			"cancelButton": {
+				"value": "Отказ"
+			}
+		},
+		"moveWorksheetDialog": {
+			"moveUpButton": {
+				"value": "Преместване нагоре"
+			},
+			"moveDownButton": {
+				"value": "Преместване надолу"
+			},
+			"okButton": {
+				"value": "ОК"
+			},
+			"cancelButton": {
+				"value": "Отказ"
+			}
+		},
+		"findTextDialog": {
+			"findTextLabel": {
+				"text": "Намерете текст"
+			},
+			"findWhatLabel": {
+				"text": "Намерете:"
+			},
+			"withinLabel": {
+				"text": "Търсене на:"
+			},
+			"Sheet": {
+				"text": "На лист"
+			},
+			"Workbook": {
+				"text": "В книгата"
+			},
+			"searchLabel": {
+				"text": "Търсене на:"
+			},
+			"ByRows": {
+				"text": "В редове"
+			},
+			"ByColumns": {
+				"text": "В колони"
+			},
+			"lookInLabel": {
+				"text": "Област за търсене:"
+			},
+			"Formulas": {
+				"text": "Формули"
+			},
+			"Values": {
+				"text": "Стойности"
+			},
+			"Comments": {
+				"text": "Коментари"
+			},
+			"matchCaseLabel": {
+				"text": "малки и малки букви"
+			},
+			"matchEntireContentLabel": {
+				"text": "Точно съвпадение"
+			},
+			"findNextButton": {
+				"value": "Намиране на следващия"
+			},
+			"closeButton": {
+				"value": "Затвори"
+			}
+		},
+		"selectFunctionDialog": {
+			"categoryLabel": {
+				"text": "Категория:"
+			},
+			"categoryDropDown": {
+				"All": {
+					"text": "Всички"
+				},
+				"Financial": {
+					"text": "Финансови"
+				},
+				"DateAndTime": {
+					"text": "Дата и час"
+				},
+				"MathAndTrig": {
+					"text": "Мат"
+				},
+				"Statistical": {
+					"text": "Статистически"
+				},
+				"LookupAndReference": {
+					"text": "Препратки и масиви"
+				},
+				"Text": {
+					"text": "Текст"
+				},
+				"Logical": {
+					"text": "Булев"
+				},
+				"Information": {
+					"text": "Информационни"
+				},
+				"Engineering": {
+					"text": "Инженеринг"
+				}
+			},
+			"selectFunctionLabel": {
+				"text": "Изберете функция:"
+			},
+			"okButton": {
+				"value": "ОК"
+			},
+			"cancelButton": {
+				"value": "Отказ"
+			}
+		}
+	},
+	"strings": {
+		"vssde-documentIsOpening": "Документът се отваря...",
+		"vssde-numberFormat-general": "Общи",
+		"vssde-numberFormat-number": "Числен",
+		"vssde-numberFormat-date": "Дата",
+		"vssde-numberFormat-time": "Време",
+		"vssde-numberFormat-currency": "Пари",
+		"vssde-numberFormat-percentage": "Процент",
+		"vssde-numberFormat-scientific": "Експоненциален",
+		"vssde-numberFormat-text": "Текст",
+		"vssde-numberFormat-custom": "По избор",
+		"vssde-findTextPanel-sheet": "На лист",
+		"vssde-findTextPanel-workbook": "В книгата",
+		"vssde-findTextPanel-byRows": "В редове",
+		"vssde-findTextPanel-byColumns": "В колони",
+		"vssde-findTextPanel-formulas": "Формули",
+		"vssde-findTextPanel-values": "Стойности",
+		"vssde-findTextPanel-comments": "Коментари",
+		"vssde-findTextPanel-textIsNotFound": "Текстът '{0}' не е намерен.",
+		"vssde-selectFunctionPanel-all": "Всички",
+		"vssde-createXlsxDocument": "Създайте нов XLSX документ",
+		"vssde-uploadXlsxFile": "Качете XLSX файл",
+		"vssde-downloadXlsxFile": "Качете XLSX файл",
+		"vssde-exportXlsxToPdf": "Експортирайте XLSX в PDF",
+		"vssde-fileSizeExceedsLimit": "Размерът на качения файл надвишава максималния размер ({0} байта).",
+		"vssde-createXlsxDocumentConfirmation": "Искате ли да създадете нова работна книга?",
+		"vssde-insertCommentDialog-title": "Вмъкнете коментар",
+		"vssde-dialog-okButton": "ОК",
+		"vssde-dialog-cancelButton": "Отказ",
+		"vssde-editCommentDialog-title": "Редактиране на коментар",
+		"vssde-renameWorksheetDialog-title": "Преименуване на лист",
+		"vssde-moveWorksheetDialog-title": "Преместване на лист",
+		"vssde-findTextDialog-title": "Намерете текст",
+		"vssde-findTextDialog-findNextButton": "Намиране на следващия",
+		"vssde-dialog-closeButton": "Затвори",
+		"vssde-selectFunctionDialog-title": "Вмъкване на функция"
+	}
+}

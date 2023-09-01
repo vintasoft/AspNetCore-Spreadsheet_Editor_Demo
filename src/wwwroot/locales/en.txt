@@ -1,0 +1,588 @@
+﻿{
+	"spreadsheetDocumentEditorControl": {
+		"fileLabel": {
+			"text": "File"
+		},
+		"homeLabel": {
+			"text": "Home"
+		},
+		"editLabel": {
+			"text": "Edit"
+		},
+		"insertLabel": {
+			"text": "Insert"
+		},
+		"reviewLabel": {
+			"text": "Review"
+		},
+		"createXlsxDocumentButton": {
+			"title": "Create new XLSX document"
+		},
+		"uploadXlsxFileButton": {
+			"title": "Upload and open XLSX file"
+		},
+		"downloadXlsxFileButton": {
+			"title": "Download XLSX file"
+		},
+		"exportXlsxToPdfButton": {
+			"title": "Export XLSX to PDF"
+		},
+		"showMobileMenuButton": {
+			"title": "More"
+		},
+		"boldTextButton": {
+			"title": "Bold text"
+		},
+		"italicTextButton": {
+			"title": "Italic text"
+		},
+		"underlineTextButton": {
+			"title": "Underline text"
+		},
+		"strikethroughTextButton": {
+			"title": "Strikethrough text"
+		},
+		"fontColorButton": {
+			"title": "Font color"
+		},
+		"fillColorButton": {
+			"title": "Fill color"
+		},
+		"copyStyleButton": {
+			"title": "Style Painter"
+		},
+		"alignLeftButton": {
+			"title": "Align left"
+		},
+		"alignCenterButton": {
+			"title": "Center"
+		},
+		"alignRightButton": {
+			"title": "Align right"
+		},
+		"topAlignButton": {
+			"title": "Top align"
+		},
+		"middleAlignButton": {
+			"title": "Middle align"
+		},
+		"bottomAlignButton": {
+			"title": "Bottom align"
+		},
+		"textWrappingButton": {
+			"title": "Text wrapping"
+		},
+		"currencyNumberFormatButton": {
+			"title": "Currency number format"
+		},
+		"increaseDecimalButton": {
+			"title": "Increase decimal"
+		},
+		"decreaseDecimalButton": {
+			"title": "Decrease decimal"
+		},
+		"percentNumberFormatButton": {
+			"title": "Percent number format"
+		},
+		"numberFormatDropDown": {
+			"General": {
+				"text": "General"
+			},
+			"Number": {
+				"text": "Number"
+			},
+			"Currency": {
+				"text": "Currency"
+			},
+			"Date": {
+				"text": "Date"
+			},
+			"Time": {
+				"text": "Time"
+			},
+			"Percentage": {
+				"text": "Percentage"
+			},
+			"Scientific": {
+				"text": "Scientific"
+			},
+			"Text": {
+				"text": "Text"
+			}
+		},
+		"showFormulasButton": {
+			"title": "Show formulas"
+		},
+		"searchTextButton": {
+			"title": "Search text"
+		},
+		"undoButton": {
+			"title": "Undo"
+		},
+		"redoButton": {
+			"title": "Redo"
+		},
+		"cutContentButton": {
+			"title": "Cut content"
+		},
+		"copyContentButton": {
+			"title": "Copy content"
+		},
+		"pasteContentButton": {
+			"title": "Paste content"
+		},
+		"clearContentButton": {
+			"title": "Clear content"
+		},
+		"clearFormatButton": {
+			"title": "Clear format"
+		},
+		"deleteRowsButton": {
+			"title": "Delete rows"
+		},
+		"deleteColumnsButton": {
+			"title": "Delete columns"
+		},
+		"deleteCellsAndShiftLeftButton": {
+			"title": "Delete cells and shift left"
+		},
+		"deleteCellsAndShiftUpButton": {
+			"title": "Delete cells and shift up"
+		},
+		"deletePictureButton": {
+			"title": "Delete picture"
+		},
+		"mergeCellsButton": {
+			"title": "Merge cells"
+		},
+		"unmergeCellsButton": {
+			"title": "Unmerge cells"
+		},
+		"fillCells": {
+			"title": "Fill Cells"
+		},
+		"allBordersButton": {
+			"title": "All Borders"
+		},
+		"thickOutsideBordersButton": {
+			"title": "Thick Outside Borders"
+		},
+		"autoFitRowHeightButton": {
+			"title": "AutoFit the row height"
+		},
+		"autoFitColumnWidthButton": {
+			"title": "AutoFit the column width"
+		},
+		"insertRowsButton": {
+			"title": "Insert rows"
+		},
+		"insertColumnsButton": {
+			"title": "Insert columns"
+		},
+		"insertCellsAndShiftRightButton": {
+			"title": "Insert cell and shift right"
+		},
+		"insertCellsAndShiftDownButton": {
+			"title": "Insert cell and shift down"
+		},
+		"insertSheetButton": {
+			"title": "Insert worksheet"
+		},
+		"insertFunctionButton": {
+			"title": "Insert function"
+		},
+		"insertCommentButton": {
+			"title": "Insert comment"
+		},
+		"insertPictureButton": {
+			"title": "Add picture"
+		},
+		"editCommentButton": {
+			"title": "Edit comment"
+		},
+		"deleteCommentButton": {
+			"title": "Delete comment"
+		},
+		"previousCommentButton": {
+			"title": "Previous comment"
+		},
+		"nextCommentButton": {
+			"title": "Next comment"
+		},
+		"formulaPanel-cancelChangeButton": {
+			"title": "Cancel change"
+		},
+		"formulaPanel-applyChangeButton": {
+			"title": "Apply change"
+		},
+		"formulaPanel-fullScreenButton": {
+			"title": "Full screen"
+		},
+		"scrollToFirstWorksheetButton": {
+			"title": "Scroll to the first worksheet"
+		},
+		"scrollToLastWorksheetButton": {
+			"title": "Scroll to the last worksheet"
+		},
+		"addWorksheetButton": {
+			"title": "Add worksheet"
+		},
+		"showWorksheetListButton": {
+			"title": "Show worksheet list"
+		},
+		"copyWorksheetButton": {
+			"title": "Copy worksheet"
+		},
+		"deleteWorksheetButton": {
+			"title": "Delete worksheet"
+		},
+		"renameWorksheetButton": {
+			"title": "Rename worksheet"
+		},
+		"moveWorksheetButton": {
+			"title": "Move worksheet"
+		},
+		"zoomOutButton": {
+			"title": "Zoom out"
+		},
+		"zoomValueLabel": {
+			"text": "100%"
+		},
+		"zoomInButton": {
+			"title": "Zoom in"
+		},
+		"enUsCurrencyNumberFormatButton": {
+			"title": "$ English (USA)"
+		},
+		"enUkCurrencyNumberFormatButton": {
+			"title": "£ English (United Kingdom)"
+		},
+		"euCurrencyNumberFormatButton": {
+			"title": "€ Euro (€ 123)"
+		},
+		"ruCurrencyNumberFormatButton": {
+			"title": "₽ Russian"
+		},
+		"chCurrencyNumberFormatButton": {
+			"title": "¥ Chinese"
+		},
+		"enInCurrencyNumberFormatButton": {
+			"title": "₹ English (India)"
+		},
+		"fillCellsDownButton": {
+			"title": "Fill Down"
+		},
+		"fillCellsUpButton": {
+			"title": "Fill Up"
+		},
+		"fillCellsLeftButton": {
+			"title": "Fill Left"
+		},
+		"fillCellsRightButton": {
+			"title": "Fill Right"
+		},
+		"noBordersButton": {
+			"title": "No Borders"
+		},
+		"outsideBordersButton": {
+			"title": "Outside Borders"
+		},
+		"bottomBorderButton": {
+			"title": "Bottom Border"
+		},
+		"topBorderButton": {
+			"title": "Top Border"
+		},
+		"rightBorderButton": {
+			"title": "Right Border"
+		},
+		"leftBorderButton": {
+			"title": "Left Border"
+		},
+		"thickBottomBorderButton": {
+			"title": "Thick Bottom Border"
+		},
+		"thickLeftBorderButton": {
+			"title": "Thick Left Border"
+		},
+		"doubleBottomBorderButton": {
+			"title": "Double Bottom Border"
+		},
+		"doubleLeftBorderButton": {
+			"title": "Double Left Border"
+		},
+		"borderColorButton": {
+			"title": "Border color"
+		},
+		"copyLabel": {
+			"text": "Copy"
+		},
+		"cutLabel": {
+			"text": "Cut"
+		},
+		"pasteLabel": {
+			"text": "Paste"
+		},
+		"clearContentsLabel": {
+			"text": "Clear Contents"
+		},
+		"insertCellAndShiftRightLabel": {
+			"text": "Insert cell and shift right"
+		},
+		"insertCellAndShiftDownLabel": {
+			"text": "Insert cell and shift down"
+		},
+		"insertEntireRowLabel": {
+			"text": "Insert entire row"
+		},
+		"insertEntireColumnLabel": {
+			"text": "Insert entire column"
+		},
+		"deleteImageLabel": {
+			"text": "Delete"
+		},
+		"deleteCellAndShiftLeftLabel": {
+			"text": "Delete cell and shift left"
+		},
+		"deleteCellAndShiftUpLabel": {
+			"text": "Delete cell and shift up"
+		},
+		"deleteEntireRowLabel": {
+			"text": "Delete entire row"
+		},
+		"deleteEntireColumnLabel": {
+			"text": "Delete entire column"
+		},
+		"insertRowsLabel": {
+			"text": "Insert Rows"
+		},
+		"deleteRowsLabel": {
+			"text": "Delete Rows"
+		},
+		"insertColumnsLabel": {
+			"text": "Insert Columns"
+		},
+		"deleteColumnsLabel": {
+			"text": "Delete Columns"
+		},
+		"insertCommentLabel": {
+			"text": "Insert Comment..."
+		},
+		"editCommentLabel": {
+			"text": "Edit Comment..."
+		},
+		"deleteCommentLabel": {
+			"text": "Delete Comment"
+		},
+		"showHideCommentLabel": {
+			"text": "Show/Hide Comment"
+		},
+		"hideCommentLabel": {
+			"text": "Hide Comment"
+		},
+		"hideRowsLabel": {
+			"text": "Hide Rows"
+		},
+		"unhideRowsLabel": {
+			"text": "Unhide Rows"
+		},
+		"hideColumnsLabel": {
+			"text": "Hide Columns"
+		},
+		"unhideColumnsLabel": {
+			"text": "Unhide Columns"
+		},
+		"insertCommentDialog": {
+			"authorLabel": {
+				"text": "Author:"
+			},
+			"showAuthorLabel": {
+				"text": "Show Author"
+			},
+			"commentLabel": {
+				"text": "Comment:"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Cancel"
+			}
+		},
+		"commentEditDialog": {
+			"authorLabel": {
+				"text": "Author:"
+			},
+			"showAuthorLabel": {
+				"text": "Show Author"
+			},
+			"commentLabel": {
+				"text": "Comment:"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Cancel"
+			}
+		},
+		"renameWorksheetDialog": {
+			"nameLabel": {
+				"text": "Name:"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Cancel"
+			}
+		},
+		"moveWorksheetDialog": {
+			"moveUpButton": {
+				"value": "Move up"
+			},
+			"moveDownButton": {
+				"value": "Move down"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Cancel"
+			}
+		},
+		"findTextDialog": {
+			"findTextLabel": {
+				"text": "Find Text"
+			},
+			"findWhatLabel": {
+				"text": "Find What: "
+			},
+			"withinLabel": {
+				"text": "Within: "
+			},
+			"Sheet": {
+				"text": "Sheet"
+			},
+			"Workbook": {
+				"text": "Workbook"
+			},
+			"searchLabel": {
+				"text": "Search: "
+			},
+			"ByRows": {
+				"text": "By Rows"
+			},
+			"ByColumns": {
+				"text": "By Columns"
+			},
+			"lookInLabel": {
+				"text": "Look in: "
+			},
+			"Formulas": {
+				"text": "Formulas"
+			},
+			"Values": {
+				"text": "Values"
+			},
+			"Comments": {
+				"text": "Comments"
+			},
+			"matchCaseLabel": {
+				"text": "Match case"
+			},
+			"matchEntireContentLabel": {
+				"text": "Match entire content"
+			},
+			"findNextButton": {
+				"value": "Find Next"
+			},
+			"closeButton": {
+				"value": "Close"
+			}
+		},
+		"selectFunctionDialog": {
+			"categoryLabel": {
+				"text": "Category:"
+			},
+			"categoryDropDown": {
+				"All": {
+					"text": "All"
+				},
+				"Financial": {
+					"text": "Financial"
+				},
+				"DateAndTime": {
+					"text": "DateAndTime"
+				},
+				"MathAndTrig": {
+					"text": "MathAndTrig"
+				},
+				"Statistical": {
+					"text": "Statistical"
+				},
+				"LookupAndReference": {
+					"text": "LookupAndReference"
+				},
+				"Text": {
+					"text": "Text"
+				},
+				"Logical": {
+					"text": "Logical"
+				},
+				"Information": {
+					"text": "Information"
+				},
+				"Engineering": {
+					"text": "Engineering"
+				}
+			},
+			"selectFunctionLabel": {
+				"text": "Select Function:"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Cancel"
+			}
+		}
+	},
+	"strings": {
+		"vssde-documentIsOpening": "Document is opening...",
+		"vssde-numberFormat-general": "General",
+		"vssde-numberFormat-number": "Number",
+		"vssde-numberFormat-date": "Date",
+		"vssde-numberFormat-time": "Time",
+		"vssde-numberFormat-currency": "Currency",
+		"vssde-numberFormat-percentage": "Percentage",
+		"vssde-numberFormat-scientific": "Scientific",
+		"vssde-numberFormat-text": "Text",
+		"vssde-numberFormat-custom": "Custom",
+		"vssde-findTextPanel-sheet": "Sheet",
+		"vssde-findTextPanel-workbook": "Workbook",
+		"vssde-findTextPanel-byRows": "By Rows",
+		"vssde-findTextPanel-byColumns": "By Columns",
+		"vssde-findTextPanel-formulas": "Formulas",
+		"vssde-findTextPanel-values": "Values",
+		"vssde-findTextPanel-comments": "Comments",
+		"vssde-findTextPanel-textIsNotFound": "Text '{0}' is not found.",
+		"vssde-selectFunctionPanel-all": "All",
+		"vssde-createXlsxDocument": "Create new XLSX document",
+		"vssde-uploadXlsxFile": "Upload XLSX file",
+		"vssde-downloadXlsxFile": "Download XLSX file",
+		"vssde-exportXlsxToPdf": "Export XLSX to PDF",
+		"vssde-fileSizeExceedsLimit": "The size of uploaded file exceeds the maximum size ({0} bytes).",
+		"vssde-createXlsxDocumentConfirmation": "Want to create a new workbook?",
+		"vssde-insertCommentDialog-title": "Insert comment",
+		"vssde-dialog-okButton": "OK",
+		"vssde-dialog-cancelButton": "Cancel",
+		"vssde-editCommentDialog-title": "Edit comment",
+		"vssde-renameWorksheetDialog-title": "Rename Worksheet",
+		"vssde-moveWorksheetDialog-title": "Move Worksheet",
+		"vssde-findTextDialog-title": "Find Text",
+		"vssde-findTextDialog-findNextButton": "Find Next",
+		"vssde-dialog-closeButton": "Close",
+		"vssde-selectFunctionDialog-title": "Insert Function"
+	}
+}

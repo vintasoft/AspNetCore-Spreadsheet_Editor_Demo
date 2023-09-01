@@ -1,0 +1,588 @@
+﻿{
+	"spreadsheetDocumentEditorControl": {
+		"fileLabel": {
+			"text": "Tệp"
+		},
+		"homeLabel": {
+			"text": "Chính"
+		},
+		"editLabel": {
+			"text": "Đang chỉnh sửa"
+		},
+		"insertLabel": {
+			"text": "Chèn"
+		},
+		"reviewLabel": {
+			"text": "Nhận xét"
+		},
+		"createXlsxDocumentButton": {
+			"title": "Tạo tài liệu XLSX mới"
+		},
+		"uploadXlsxFileButton": {
+			"title": "Tải xuống và mở tệp XLSX"
+		},
+		"downloadXlsxFileButton": {
+			"title": "Tải lên tệp XLSX"
+		},
+		"exportXlsxToPdfButton": {
+			"title": "Xuất XLSX sang PDF"
+		},
+		"showMobileMenuButton": {
+			"title": "Thêm"
+		},
+		"boldTextButton": {
+			"title": "Đậm"
+		},
+		"italicTextButton": {
+			"title": "Chữ nghiêng"
+		},
+		"underlineTextButton": {
+			"title": "Gạch chân"
+		},
+		"strikethroughTextButton": {
+			"title": "Vượt qua"
+		},
+		"fontColorButton": {
+			"title": "Màu phông chữ"
+		},
+		"fillColorButton": {
+			"title": "Đổ màu"
+		},
+		"copyStyleButton": {
+			"title": "họa sĩ phong cách"
+		},
+		"alignLeftButton": {
+			"title": "Căn trái"
+		},
+		"alignCenterButton": {
+			"title": "Căn giữa"
+		},
+		"alignRightButton": {
+			"title": "Căn phải"
+		},
+		"topAlignButton": {
+			"title": "Căn hàng trên cùng"
+		},
+		"middleAlignButton": {
+			"title": "Căn giữa"
+		},
+		"bottomAlignButton": {
+			"title": "Căn đáy"
+		},
+		"textWrappingButton": {
+			"title": "Gói văn bản"
+		},
+		"currencyNumberFormatButton": {
+			"title": "Định dạng số tài chính"
+		},
+		"increaseDecimalButton": {
+			"title": "Tăng số thập phân"
+		},
+		"decreaseDecimalButton": {
+			"title": "Giảm số thập phân"
+		},
+		"percentNumberFormatButton": {
+			"title": "Định dạng phần trăm"
+		},
+		"numberFormatDropDown": {
+			"General": {
+				"text": "Chung"
+			},
+			"Number": {
+				"text": "Số"
+			},
+			"Currency": {
+				"text": "Tiền"
+			},
+			"Date": {
+				"text": "Ngày"
+			},
+			"Time": {
+				"text": "Thời gian"
+			},
+			"Percentage": {
+				"text": "Phần trăm"
+			},
+			"Scientific": {
+				"text": "Số mũ"
+			},
+			"Text": {
+				"text": "Văn bản"
+			}
+		},
+		"showFormulasButton": {
+			"title": "Hiển thị công thức"
+		},
+		"searchTextButton": {
+			"title": "Tìm văn bản"
+		},
+		"undoButton": {
+			"title": "Hủy bỏ"
+		},
+		"redoButton": {
+			"title": "Lặp lại"
+		},
+		"cutContentButton": {
+			"title": "Cắt nội dung"
+		},
+		"copyContentButton": {
+			"title": "Sao chép nội dung"
+		},
+		"pasteContentButton": {
+			"title": "Dán nội dung"
+		},
+		"clearContentButton": {
+			"title": "Xóa nội dung"
+		},
+		"clearFormatButton": {
+			"title": "Xóa định dạng"
+		},
+		"deleteRowsButton": {
+			"title": "Xóa hàng"
+		},
+		"deleteColumnsButton": {
+			"title": "Xóa cột"
+		},
+		"deleteCellsAndShiftLeftButton": {
+			"title": "Xóa ô và dịch chuyển sang trái"
+		},
+		"deleteCellsAndShiftUpButton": {
+			"title": "Xóa ô và dịch chuyển lên"
+		},
+		"deletePictureButton": {
+			"title": "Xóa ảnh"
+		},
+		"mergeCellsButton": {
+			"title": "Hợp nhất các ô"
+		},
+		"unmergeCellsButton": {
+			"title": "Hủy hợp nhất các ô"
+		},
+		"fillCells": {
+			"title": "Điền ô"
+		},
+		"allBordersButton": {
+			"title": "Tất cả đường viền"
+		},
+		"thickOutsideBordersButton": {
+			"title": "Đường viền ngoài dày"
+		},
+		"autoFitRowHeightButton": {
+			"title": "AutoFit chiều cao hàng"
+		},
+		"autoFitColumnWidthButton": {
+			"title": "AutoFit chiều rộng cột"
+		},
+		"insertRowsButton": {
+			"title": "Chèn hàng"
+		},
+		"insertColumnsButton": {
+			"title": "Chèn cột"
+		},
+		"insertCellsAndShiftRightButton": {
+			"title": "Chèn ô và di chuyển sang phải"
+		},
+		"insertCellsAndShiftDownButton": {
+			"title": "Chèn ô và di chuyển xuống dưới"
+		},
+		"insertSheetButton": {
+			"title": "Chèn trang tính"
+		},
+		"insertFunctionButton": {
+			"title": "Chèn chức năng"
+		},
+		"insertCommentButton": {
+			"title": "Chèn nhận xét"
+		},
+		"insertPictureButton": {
+			"title": "Thêm ảnh"
+		},
+		"editCommentButton": {
+			"title": "Chỉnh sửa nhận xét"
+		},
+		"deleteCommentButton": {
+			"title": "Xóa bình luận"
+		},
+		"previousCommentButton": {
+			"title": "Nhận xét trước"
+		},
+		"nextCommentButton": {
+			"title": "Nhận xét tiếp theo"
+		},
+		"formulaPanel-cancelChangeButton": {
+			"title": "Hoàn nguyên các thay đổi"
+		},
+		"formulaPanel-applyChangeButton": {
+			"title": "Áp dụng thay đổi"
+		},
+		"formulaPanel-fullScreenButton": {
+			"title": "Toàn màn hình"
+		},
+		"scrollToFirstWorksheetButton": {
+			"title": "Cuộn đến trang tính đầu tiên"
+		},
+		"scrollToLastWorksheetButton": {
+			"title": "Cuộn đến trang tính cuối cùng"
+		},
+		"addWorksheetButton": {
+			"title": "Thêm trang tính"
+		},
+		"showWorksheetListButton": {
+			"title": "Hiển thị danh sách trang tính"
+		},
+		"copyWorksheetButton": {
+			"title": "Sao chép tờ"
+		},
+		"deleteWorksheetButton": {
+			"title": "Xóa trang tính"
+		},
+		"renameWorksheetButton": {
+			"title": "Đổi tên Trang tính"
+		},
+		"moveWorksheetButton": {
+			"title": "Di chuyển Trang tính"
+		},
+		"zoomOutButton": {
+			"title": "Thu nhỏ"
+		},
+		"zoomValueLabel": {
+			"text": "100%"
+		},
+		"zoomInButton": {
+			"title": "Phóng to"
+		},
+		"enUsCurrencyNumberFormatButton": {
+			"title": "$ Tiếng Anh (Mỹ)"
+		},
+		"enUkCurrencyNumberFormatButton": {
+			"title": "£ Tiếng Anh (Vương quốc Anh)"
+		},
+		"euCurrencyNumberFormatButton": {
+			"title": "€ Euro (€123)"
+		},
+		"ruCurrencyNumberFormatButton": {
+			"title": "₽ kiểu Nga"
+		},
+		"chCurrencyNumberFormatButton": {
+			"title": "¥ Trung Quốc"
+		},
+		"enInCurrencyNumberFormatButton": {
+			"title": "$ Tiếng Anh (Ấn Độ)"
+		},
+		"fillCellsDownButton": {
+			"title": "Điền xuống"
+		},
+		"fillCellsUpButton": {
+			"title": "Lấp đầy"
+		},
+		"fillCellsLeftButton": {
+			"title": "Điền vào bên trái"
+		},
+		"fillCellsRightButton": {
+			"title": "Điền đúng"
+		},
+		"noBordersButton": {
+			"title": "Không biên giới"
+		},
+		"outsideBordersButton": {
+			"title": "Giới hạn bên ngoài"
+		},
+		"bottomBorderButton": {
+			"title": "Đường viền dưới cùng"
+		},
+		"topBorderButton": {
+			"title": "Đường viền trên cùng"
+		},
+		"rightBorderButton": {
+			"title": "Đường viền bên phải"
+		},
+		"leftBorderButton": {
+			"title": "Đường viền trái"
+		},
+		"thickBottomBorderButton": {
+			"title": "Viền Đáy Dày"
+		},
+		"thickLeftBorderButton": {
+			"title": "Đường viền dày bên trái"
+		},
+		"doubleBottomBorderButton": {
+			"title": "Đường viền đáy đôi"
+		},
+		"doubleLeftBorderButton": {
+			"title": "Đường viền đôi bên trái"
+		},
+		"borderColorButton": {
+			"title": "Màu viền"
+		},
+		"copyLabel": {
+			"text": "Sao chép"
+		},
+		"cutLabel": {
+			"text": "Cắt"
+		},
+		"pasteLabel": {
+			"text": "Dán"
+		},
+		"clearContentsLabel": {
+			"text": "Xóa nội dung"
+		},
+		"insertCellAndShiftRightLabel": {
+			"text": "Chèn ô và di chuyển sang phải"
+		},
+		"insertCellAndShiftDownLabel": {
+			"text": "Chèn ô và di chuyển xuống dưới"
+		},
+		"insertEntireRowLabel": {
+			"text": "Chèn toàn bộ hàng"
+		},
+		"insertEntireColumnLabel": {
+			"text": "Chèn toàn bộ cột"
+		},
+		"deleteImageLabel": {
+			"text": "Xóa"
+		},
+		"deleteCellAndShiftLeftLabel": {
+			"text": "Xóa ô và di chuyển sang trái"
+		},
+		"deleteCellAndShiftUpLabel": {
+			"text": "Xóa ô và di chuyển lên"
+		},
+		"deleteEntireRowLabel": {
+			"text": "Xóa toàn bộ dòng"
+		},
+		"deleteEntireColumnLabel": {
+			"text": "Xóa toàn bộ cột"
+		},
+		"insertRowsLabel": {
+			"text": "Chèn hàng"
+		},
+		"deleteRowsLabel": {
+			"text": "Xóa hàng"
+		},
+		"insertColumnsLabel": {
+			"text": "Chèn cột"
+		},
+		"deleteColumnsLabel": {
+			"text": "Xóa cột"
+		},
+		"insertCommentLabel": {
+			"text": "Chèn nhận xét..."
+		},
+		"editCommentLabel": {
+			"text": "Chỉnh sửa nhận xét..."
+		},
+		"deleteCommentLabel": {
+			"text": "Xóa nhận xét"
+		},
+		"showHideCommentLabel": {
+			"text": "Hiển thị/Ẩn bình luận"
+		},
+		"hideCommentLabel": {
+			"text": "Ẩn bình luận"
+		},
+		"hideRowsLabel": {
+			"text": "Ẩn hàng"
+		},
+		"unhideRowsLabel": {
+			"text": "Hiển thị hàng"
+		},
+		"hideColumnsLabel": {
+			"text": "Ẩn cột"
+		},
+		"unhideColumnsLabel": {
+			"text": "Hiển thị cột"
+		},
+		"insertCommentDialog": {
+			"authorLabel": {
+				"text": "Tác giả:"
+			},
+			"showAuthorLabel": {
+				"text": "Hiển thị tác giả"
+			},
+			"commentLabel": {
+				"text": "Bình luận:"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Hủy"
+			}
+		},
+		"commentEditDialog": {
+			"authorLabel": {
+				"text": "Tác giả:"
+			},
+			"showAuthorLabel": {
+				"text": "Hiển thị tác giả"
+			},
+			"commentLabel": {
+				"text": "Bình luận:"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Hủy"
+			}
+		},
+		"renameWorksheetDialog": {
+			"nameLabel": {
+				"text": "Tên:"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Hủy"
+			}
+		},
+		"moveWorksheetDialog": {
+			"moveUpButton": {
+				"value": "Tiến lên"
+			},
+			"moveDownButton": {
+				"value": "Di chuyển xuống"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Hủy"
+			}
+		},
+		"findTextDialog": {
+			"findTextLabel": {
+				"text": "Tìm văn bản"
+			},
+			"findWhatLabel": {
+				"text": "Tìm:"
+			},
+			"withinLabel": {
+				"text": "Tìm kiếm:"
+			},
+			"Sheet": {
+				"text": "Trên trang tính"
+			},
+			"Workbook": {
+				"text": "Trong sách"
+			},
+			"searchLabel": {
+				"text": "Tìm kiếm:"
+			},
+			"ByRows": {
+				"text": "Theo dòng"
+			},
+			"ByColumns": {
+				"text": "Trong cột"
+			},
+			"lookInLabel": {
+				"text": "Khu vực tìm kiếm:"
+			},
+			"Formulas": {
+				"text": "Công thức"
+			},
+			"Values": {
+				"text": "Giá trị"
+			},
+			"Comments": {
+				"text": "Nhận xét"
+			},
+			"matchCaseLabel": {
+				"text": "phân biệt chữ hoa chữ thường"
+			},
+			"matchEntireContentLabel": {
+				"text": "Kết hợp chính xác"
+			},
+			"findNextButton": {
+				"value": "Tìm Tiếp theo"
+			},
+			"closeButton": {
+				"value": "Đóng"
+			}
+		},
+		"selectFunctionDialog": {
+			"categoryLabel": {
+				"text": "Danh mục:"
+			},
+			"categoryDropDown": {
+				"All": {
+					"text": "Tất cả"
+				},
+				"Financial": {
+					"text": "Tài chính"
+				},
+				"DateAndTime": {
+					"text": "Ngày giờ"
+				},
+				"MathAndTrig": {
+					"text": "Toán học"
+				},
+				"Statistical": {
+					"text": "Thống kê"
+				},
+				"LookupAndReference": {
+					"text": "Tham khảo và mảng"
+				},
+				"Text": {
+					"text": "Văn bản"
+				},
+				"Logical": {
+					"text": "Boolean"
+				},
+				"Information": {
+					"text": "Thông tin"
+				},
+				"Engineering": {
+					"text": "Kỹ thuật"
+				}
+			},
+			"selectFunctionLabel": {
+				"text": "Chọn một chức năng:"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Hủy"
+			}
+		}
+	},
+	"strings": {
+		"vssde-documentIsOpening": "Tài liệu đang mở...",
+		"vssde-numberFormat-general": "Chung",
+		"vssde-numberFormat-number": "Số",
+		"vssde-numberFormat-date": "Ngày",
+		"vssde-numberFormat-time": "Thời gian",
+		"vssde-numberFormat-currency": "Tiền",
+		"vssde-numberFormat-percentage": "Phần trăm",
+		"vssde-numberFormat-scientific": "Số mũ",
+		"vssde-numberFormat-text": "Văn bản",
+		"vssde-numberFormat-custom": "Tùy chỉnh",
+		"vssde-findTextPanel-sheet": "Trên trang tính",
+		"vssde-findTextPanel-workbook": "Trong sách",
+		"vssde-findTextPanel-byRows": "Theo dòng",
+		"vssde-findTextPanel-byColumns": "Trong cột",
+		"vssde-findTextPanel-formulas": "Công thức",
+		"vssde-findTextPanel-values": "Giá trị",
+		"vssde-findTextPanel-comments": "Nhận xét",
+		"vssde-findTextPanel-textIsNotFound": "Không tìm thấy văn bản '{0}'.",
+		"vssde-selectFunctionPanel-all": "Tất cả",
+		"vssde-createXlsxDocument": "Tạo tài liệu XLSX mới",
+		"vssde-uploadXlsxFile": "Tải lên tệp XLSX",
+		"vssde-downloadXlsxFile": "Tải lên tệp XLSX",
+		"vssde-exportXlsxToPdf": "Xuất XLSX sang PDF",
+		"vssde-fileSizeExceedsLimit": "Kích thước của tệp đã tải lên vượt quá kích thước tối đa ({0} byte).",
+		"vssde-createXlsxDocumentConfirmation": "Bạn muốn tạo một sổ làm việc mới?",
+		"vssde-insertCommentDialog-title": "Chèn nhận xét",
+		"vssde-dialog-okButton": "OK",
+		"vssde-dialog-cancelButton": "Hủy",
+		"vssde-editCommentDialog-title": "Chỉnh sửa nhận xét",
+		"vssde-renameWorksheetDialog-title": "Đổi tên trang tính",
+		"vssde-moveWorksheetDialog-title": "Di chuyển Trang tính",
+		"vssde-findTextDialog-title": "Tìm văn bản",
+		"vssde-findTextDialog-findNextButton": "Tìm Tiếp theo",
+		"vssde-dialog-closeButton": "Đóng",
+		"vssde-selectFunctionDialog-title": "Chèn chức năng"
+	}
+}

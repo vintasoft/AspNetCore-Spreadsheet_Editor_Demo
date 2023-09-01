@@ -1,0 +1,588 @@
+﻿{
+	"spreadsheetDocumentEditorControl": {
+		"fileLabel": {
+			"text": "Fil"
+		},
+		"homeLabel": {
+			"text": "Huvudsida"
+		},
+		"editLabel": {
+			"text": "Redigering"
+		},
+		"insertLabel": {
+			"text": "Infoga"
+		},
+		"reviewLabel": {
+			"text": "Kommentarer"
+		},
+		"createXlsxDocumentButton": {
+			"title": "Skapa nytt XLSX-dokument"
+		},
+		"uploadXlsxFileButton": {
+			"title": "Ladda ner och öppna XLSX-fil"
+		},
+		"downloadXlsxFileButton": {
+			"title": "Ladda upp XLSX-fil"
+		},
+		"exportXlsxToPdfButton": {
+			"title": "Exportera XLSX till PDF"
+		},
+		"showMobileMenuButton": {
+			"title": "Mer"
+		},
+		"boldTextButton": {
+			"title": "Fet"
+		},
+		"italicTextButton": {
+			"title": "Kursiv"
+		},
+		"underlineTextButton": {
+			"title": "Understruken"
+		},
+		"strikethroughTextButton": {
+			"title": "Korsad"
+		},
+		"fontColorButton": {
+			"title": "Teckensnittsfärg"
+		},
+		"fillColorButton": {
+			"title": "Fyllfärg"
+		},
+		"copyStyleButton": {
+			"title": "Stilmålare"
+		},
+		"alignLeftButton": {
+			"title": "Vänsterjustera"
+		},
+		"alignCenterButton": {
+			"title": "Justera centrera"
+		},
+		"alignRightButton": {
+			"title": "Högerjustera"
+		},
+		"topAlignButton": {
+			"title": "Justera uppåt"
+		},
+		"middleAlignButton": {
+			"title": "Justera centrera"
+		},
+		"bottomAlignButton": {
+			"title": "Justera botten"
+		},
+		"textWrappingButton": {
+			"title": "Sätt in text"
+		},
+		"currencyNumberFormatButton": {
+			"title": "Finansnummerformat"
+		},
+		"increaseDecimalButton": {
+			"title": "Öka decimaltal"
+		},
+		"decreaseDecimalButton": {
+			"title": "Minska decimaltal"
+		},
+		"percentNumberFormatButton": {
+			"title": "Procentformat"
+		},
+		"numberFormatDropDown": {
+			"General": {
+				"text": "Allmänt"
+			},
+			"Number": {
+				"text": "Numerisk"
+			},
+			"Currency": {
+				"text": "Pengar"
+			},
+			"Date": {
+				"text": "Datum"
+			},
+			"Time": {
+				"text": "Tid"
+			},
+			"Percentage": {
+				"text": "Procentandel"
+			},
+			"Scientific": {
+				"text": "Exponentiell"
+			},
+			"Text": {
+				"text": "Text"
+			}
+		},
+		"showFormulasButton": {
+			"title": "Visa formler"
+		},
+		"searchTextButton": {
+			"title": "Hitta text"
+		},
+		"undoButton": {
+			"title": "Avbryt"
+		},
+		"redoButton": {
+			"title": "Upprepa"
+		},
+		"cutContentButton": {
+			"title": "Klippt innehåll"
+		},
+		"copyContentButton": {
+			"title": "Kopiera innehåll"
+		},
+		"pasteContentButton": {
+			"title": "Klistra innehåll"
+		},
+		"clearContentButton": {
+			"title": "Tydligt innehåll"
+		},
+		"clearFormatButton": {
+			"title": "Rensa format"
+		},
+		"deleteRowsButton": {
+			"title": "Ta bort rader"
+		},
+		"deleteColumnsButton": {
+			"title": "Ta bort kolumner"
+		},
+		"deleteCellsAndShiftLeftButton": {
+			"title": "Ta bort celler och flytta åt vänster"
+		},
+		"deleteCellsAndShiftUpButton": {
+			"title": "Ta bort celler och flytta uppåt"
+		},
+		"deletePictureButton": {
+			"title": "Ta bort bild"
+		},
+		"mergeCellsButton": {
+			"title": "Sammanfoga celler"
+		},
+		"unmergeCellsButton": {
+			"title": "Ta bort sammanslagningen av celler"
+		},
+		"fillCells": {
+			"title": "Fyll celler"
+		},
+		"allBordersButton": {
+			"title": "Alla gränser"
+		},
+		"thickOutsideBordersButton": {
+			"title": "Tjocka yttre kanter"
+		},
+		"autoFitRowHeightButton": {
+			"title": "Autopassa radhöjden"
+		},
+		"autoFitColumnWidthButton": {
+			"title": "Autopassa kolumnbredden"
+		},
+		"insertRowsButton": {
+			"title": "Infoga rader"
+		},
+		"insertColumnsButton": {
+			"title": "Infoga kolumner"
+		},
+		"insertCellsAndShiftRightButton": {
+			"title": "Infoga cell och flytta åt höger"
+		},
+		"insertCellsAndShiftDownButton": {
+			"title": "Infoga cell och flytta nedåt"
+		},
+		"insertSheetButton": {
+			"title": "Infoga ark"
+		},
+		"insertFunctionButton": {
+			"title": "Infoga funktion"
+		},
+		"insertCommentButton": {
+			"title": "Infoga kommentar"
+		},
+		"insertPictureButton": {
+			"title": "Lägg till bild"
+		},
+		"editCommentButton": {
+			"title": "Redigera kommentar"
+		},
+		"deleteCommentButton": {
+			"title": "Ta bort kommentar"
+		},
+		"previousCommentButton": {
+			"title": "Föregående kommentar"
+		},
+		"nextCommentButton": {
+			"title": "Nästa kommentar"
+		},
+		"formulaPanel-cancelChangeButton": {
+			"title": "Återställ ändringar"
+		},
+		"formulaPanel-applyChangeButton": {
+			"title": "Tillämpa ändringar"
+		},
+		"formulaPanel-fullScreenButton": {
+			"title": "Fullskärm"
+		},
+		"scrollToFirstWorksheetButton": {
+			"title": "Bläddra till första arket"
+		},
+		"scrollToLastWorksheetButton": {
+			"title": "Bläddra till sista arket"
+		},
+		"addWorksheetButton": {
+			"title": "Lägg till ark"
+		},
+		"showWorksheetListButton": {
+			"title": "Visa arklista"
+		},
+		"copyWorksheetButton": {
+			"title": "Kopiera ark"
+		},
+		"deleteWorksheetButton": {
+			"title": "Ta bort ark"
+		},
+		"renameWorksheetButton": {
+			"title": "Byt namn på ark"
+		},
+		"moveWorksheetButton": {
+			"title": "Flytta ark"
+		},
+		"zoomOutButton": {
+			"title": "Zooma ut"
+		},
+		"zoomValueLabel": {
+			"text": "100%"
+		},
+		"zoomInButton": {
+			"title": "Zooma in"
+		},
+		"enUsCurrencyNumberFormatButton": {
+			"title": "$ engelska (USA)"
+		},
+		"enUkCurrencyNumberFormatButton": {
+			"title": "£ engelska (Storbritannien)"
+		},
+		"euCurrencyNumberFormatButton": {
+			"title": "€ Euro (€ 123)"
+		},
+		"ruCurrencyNumberFormatButton": {
+			"title": "₽ ryska"
+		},
+		"chCurrencyNumberFormatButton": {
+			"title": "¥ kinesiska"
+		},
+		"enInCurrencyNumberFormatButton": {
+			"title": "₹ engelska (Indien)"
+		},
+		"fillCellsDownButton": {
+			"title": "Fyll ner"
+		},
+		"fillCellsUpButton": {
+			"title": "Fyll på"
+		},
+		"fillCellsLeftButton": {
+			"title": "Fyll vänster"
+		},
+		"fillCellsRightButton": {
+			"title": "Fyll höger"
+		},
+		"noBordersButton": {
+			"title": "Inga gränser"
+		},
+		"outsideBordersButton": {
+			"title": "Ytre gränser"
+		},
+		"bottomBorderButton": {
+			"title": "Nedre kant"
+		},
+		"topBorderButton": {
+			"title": "Top Border"
+		},
+		"rightBorderButton": {
+			"title": "Höger gräns"
+		},
+		"leftBorderButton": {
+			"title": "Vänster gräns"
+		},
+		"thickBottomBorderButton": {
+			"title": "Tjock bottenkant"
+		},
+		"thickLeftBorderButton": {
+			"title": "Tjock vänsterkant"
+		},
+		"doubleBottomBorderButton": {
+			"title": "Dubbel bottenkant"
+		},
+		"doubleLeftBorderButton": {
+			"title": "Dubbel vänsterkant"
+		},
+		"borderColorButton": {
+			"title": "Gräns ​​färg"
+		},
+		"copyLabel": {
+			"text": "Kopiera"
+		},
+		"cutLabel": {
+			"text": "Klipp ut"
+		},
+		"pasteLabel": {
+			"text": "Klistra in"
+		},
+		"clearContentsLabel": {
+			"text": "Rensa innehåll"
+		},
+		"insertCellAndShiftRightLabel": {
+			"text": "Infoga cell och flytta åt höger"
+		},
+		"insertCellAndShiftDownLabel": {
+			"text": "Infoga cell och flytta nedåt"
+		},
+		"insertEntireRowLabel": {
+			"text": "Infoga hela raden"
+		},
+		"insertEntireColumnLabel": {
+			"text": "Infoga hela kolumnen"
+		},
+		"deleteImageLabel": {
+			"text": "Ta bort"
+		},
+		"deleteCellAndShiftLeftLabel": {
+			"text": "Ta bort cell och flytta vänster"
+		},
+		"deleteCellAndShiftUpLabel": {
+			"text": "Ta bort cell och flytta uppåt"
+		},
+		"deleteEntireRowLabel": {
+			"text": "Ta bort hela raden"
+		},
+		"deleteEntireColumnLabel": {
+			"text": "Ta bort hela kolumnen"
+		},
+		"insertRowsLabel": {
+			"text": "Infoga rader"
+		},
+		"deleteRowsLabel": {
+			"text": "Ta bort rader"
+		},
+		"insertColumnsLabel": {
+			"text": "Infoga kolumner"
+		},
+		"deleteColumnsLabel": {
+			"text": "Ta bort kolumner"
+		},
+		"insertCommentLabel": {
+			"text": "Infoga kommentar..."
+		},
+		"editCommentLabel": {
+			"text": "Redigera kommentar..."
+		},
+		"deleteCommentLabel": {
+			"text": "Ta bort kommentar"
+		},
+		"showHideCommentLabel": {
+			"text": "Visa/dölj kommentar"
+		},
+		"hideCommentLabel": {
+			"text": "Dölj kommentar"
+		},
+		"hideRowsLabel": {
+			"text": "Göm rader"
+		},
+		"unhideRowsLabel": {
+			"text": "Visa rader"
+		},
+		"hideColumnsLabel": {
+			"text": "Dölj kolumner"
+		},
+		"unhideColumnsLabel": {
+			"text": "Visa kolumner"
+		},
+		"insertCommentDialog": {
+			"authorLabel": {
+				"text": "Författare:"
+			},
+			"showAuthorLabel": {
+				"text": "Visa författare"
+			},
+			"commentLabel": {
+				"text": "Kommentar:"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Avbryt"
+			}
+		},
+		"commentEditDialog": {
+			"authorLabel": {
+				"text": "Författare:"
+			},
+			"showAuthorLabel": {
+				"text": "Visa författare"
+			},
+			"commentLabel": {
+				"text": "Kommentar:"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Avbryt"
+			}
+		},
+		"renameWorksheetDialog": {
+			"nameLabel": {
+				"text": "Namn:"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Avbryt"
+			}
+		},
+		"moveWorksheetDialog": {
+			"moveUpButton": {
+				"value": "Flytta upp"
+			},
+			"moveDownButton": {
+				"value": "Flytta ner"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Avbryt"
+			}
+		},
+		"findTextDialog": {
+			"findTextLabel": {
+				"text": "Hitta text"
+			},
+			"findWhatLabel": {
+				"text": "Sök:"
+			},
+			"withinLabel": {
+				"text": "Sök efter:"
+			},
+			"Sheet": {
+				"text": "På ark"
+			},
+			"Workbook": {
+				"text": "I boken"
+			},
+			"searchLabel": {
+				"text": "Sök efter:"
+			},
+			"ByRows": {
+				"text": "I rader"
+			},
+			"ByColumns": {
+				"text": "I kolumner"
+			},
+			"lookInLabel": {
+				"text": "Sökområde:"
+			},
+			"Formulas": {
+				"text": "Formler"
+			},
+			"Values": {
+				"text": "Värden"
+			},
+			"Comments": {
+				"text": "Kommentarer"
+			},
+			"matchCaseLabel": {
+				"text": "skiftlägeskänslig"
+			},
+			"matchEntireContentLabel": {
+				"text": "Exakt matchning"
+			},
+			"findNextButton": {
+				"value": "Hitta nästa"
+			},
+			"closeButton": {
+				"value": "Stäng"
+			}
+		},
+		"selectFunctionDialog": {
+			"categoryLabel": {
+				"text": "Kategori:"
+			},
+			"categoryDropDown": {
+				"All": {
+					"text": "Alla"
+				},
+				"Financial": {
+					"text": "Finansiellt"
+				},
+				"DateAndTime": {
+					"text": "Datum och tid"
+				},
+				"MathAndTrig": {
+					"text": "Matte"
+				},
+				"Statistical": {
+					"text": "Statistisk"
+				},
+				"LookupAndReference": {
+					"text": "Referenser och arrayer"
+				},
+				"Text": {
+					"text": "Text"
+				},
+				"Logical": {
+					"text": "Booleskt"
+				},
+				"Information": {
+					"text": "Informativt"
+				},
+				"Engineering": {
+					"text": "Engineering"
+				}
+			},
+			"selectFunctionLabel": {
+				"text": "Välj en funktion:"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Avbryt"
+			}
+		}
+	},
+	"strings": {
+		"vssde-documentIsOpening": "Dokumentet öppnas...",
+		"vssde-numberFormat-general": "Allmänt",
+		"vssde-numberFormat-number": "Numerisk",
+		"vssde-numberFormat-date": "Datum",
+		"vssde-numberFormat-time": "Tid",
+		"vssde-numberFormat-currency": "Pengar",
+		"vssde-numberFormat-percentage": "Procentandel",
+		"vssde-numberFormat-scientific": "Exponentiell",
+		"vssde-numberFormat-text": "Text",
+		"vssde-numberFormat-custom": "Anpassad",
+		"vssde-findTextPanel-sheet": "På ark",
+		"vssde-findTextPanel-workbook": "I boken",
+		"vssde-findTextPanel-byRows": "I rader",
+		"vssde-findTextPanel-byColumns": "I kolumner",
+		"vssde-findTextPanel-formulas": "Formler",
+		"vssde-findTextPanel-values": "Värden",
+		"vssde-findTextPanel-comments": "Kommentarer",
+		"vssde-findTextPanel-textIsNotFound": "Texten '{0}' hittades inte.",
+		"vssde-selectFunctionPanel-all": "Alla",
+		"vssde-createXlsxDocument": "Skapa nytt XLSX-dokument",
+		"vssde-uploadXlsxFile": "Ladda upp XLSX-fil",
+		"vssde-downloadXlsxFile": "Ladda upp XLSX-fil",
+		"vssde-exportXlsxToPdf": "Exportera XLSX till PDF",
+		"vssde-fileSizeExceedsLimit": "Storleken på den uppladdade filen överstiger den maximala storleken ({0} byte).",
+		"vssde-createXlsxDocumentConfirmation": "Vill du skapa en ny arbetsbok?",
+		"vssde-insertCommentDialog-title": "Infoga kommentar",
+		"vssde-dialog-okButton": "OK",
+		"vssde-dialog-cancelButton": "Avbryt",
+		"vssde-editCommentDialog-title": "Redigera kommentar",
+		"vssde-renameWorksheetDialog-title": "Byt namn på ark",
+		"vssde-moveWorksheetDialog-title": "Flytta ark",
+		"vssde-findTextDialog-title": "Hitta text",
+		"vssde-findTextDialog-findNextButton": "Hitta nästa",
+		"vssde-dialog-closeButton": "Stäng",
+		"vssde-selectFunctionDialog-title": "Infoga funktion"
+	}
+}

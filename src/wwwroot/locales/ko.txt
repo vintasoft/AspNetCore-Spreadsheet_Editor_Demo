@@ -1,0 +1,588 @@
+﻿{
+	"spreadsheetDocumentEditorControl": {
+		"fileLabel": {
+			"text": "파일"
+		},
+		"homeLabel": {
+			"text": "메인"
+		},
+		"editLabel": {
+			"text": "편집 중"
+		},
+		"insertLabel": {
+			"text": "삽입"
+		},
+		"reviewLabel": {
+			"text": "설명"
+		},
+		"createXlsxDocumentButton": {
+			"title": "새 XLSX 문서 만들기"
+		},
+		"uploadXlsxFileButton": {
+			"title": "XLSX 파일 다운로드 및 열기"
+		},
+		"downloadXlsxFileButton": {
+			"title": "XLSX 파일 업로드"
+		},
+		"exportXlsxToPdfButton": {
+			"title": "XLSX를 PDF로 내보내기"
+		},
+		"showMobileMenuButton": {
+			"title": "더보기"
+		},
+		"boldTextButton": {
+			"title": "굵게"
+		},
+		"italicTextButton": {
+			"title": "기울임꼴"
+		},
+		"underlineTextButton": {
+			"title": "밑줄"
+		},
+		"strikethroughTextButton": {
+			"title": "교차"
+		},
+		"fontColorButton": {
+			"title": "글꼴 색상"
+		},
+		"fillColorButton": {
+			"title": "채우기 색상"
+		},
+		"copyStyleButton": {
+			"title": "스타일 페인터"
+		},
+		"alignLeftButton": {
+			"title": "왼쪽 정렬"
+		},
+		"alignCenterButton": {
+			"title": "가운데 정렬"
+		},
+		"alignRightButton": {
+			"title": "오른쪽 정렬"
+		},
+		"topAlignButton": {
+			"title": "상단 정렬"
+		},
+		"middleAlignButton": {
+			"title": "가운데 정렬"
+		},
+		"bottomAlignButton": {
+			"title": "하단 정렬"
+		},
+		"textWrappingButton": {
+			"title": "텍스트 줄 바꿈"
+		},
+		"currencyNumberFormatButton": {
+			"title": "금융 번호 형식"
+		},
+		"increaseDecimalButton": {
+			"title": "소수점 늘리기"
+		},
+		"decreaseDecimalButton": {
+			"title": "소수점 감소"
+		},
+		"percentNumberFormatButton": {
+			"title": "백분율 형식"
+		},
+		"numberFormatDropDown": {
+			"General": {
+				"text": "일반"
+			},
+			"Number": {
+				"text": "숫자"
+			},
+			"Currency": {
+				"text": "돈"
+			},
+			"Date": {
+				"text": "날짜"
+			},
+			"Time": {
+				"text": "시간"
+			},
+			"Percentage": {
+				"text": "퍼센트"
+			},
+			"Scientific": {
+				"text": "지수"
+			},
+			"Text": {
+				"text": "텍스트"
+			}
+		},
+		"showFormulasButton": {
+			"title": "수식 표시"
+		},
+		"searchTextButton": {
+			"title": "텍스트 찾기"
+		},
+		"undoButton": {
+			"title": "취소"
+		},
+		"redoButton": {
+			"title": "반복"
+		},
+		"cutContentButton": {
+			"title": "내용 잘라내기"
+		},
+		"copyContentButton": {
+			"title": "내용 복사"
+		},
+		"pasteContentButton": {
+			"title": "내용 붙여넣기"
+		},
+		"clearContentButton": {
+			"title": "콘텐츠 지우기"
+		},
+		"clearFormatButton": {
+			"title": "포맷 지우기"
+		},
+		"deleteRowsButton": {
+			"title": "행 삭제"
+		},
+		"deleteColumnsButton": {
+			"title": "컬럼 삭제"
+		},
+		"deleteCellsAndShiftLeftButton": {
+			"title": "셀을 삭제하고 왼쪽으로 이동"
+		},
+		"deleteCellsAndShiftUpButton": {
+			"title": "셀을 삭제하고 위로 이동"
+		},
+		"deletePictureButton": {
+			"title": "사진 삭제"
+		},
+		"mergeCellsButton": {
+			"title": "셀 병합"
+		},
+		"unmergeCellsButton": {
+			"title": "셀 병합 해제"
+		},
+		"fillCells": {
+			"title": "셀 채우기"
+		},
+		"allBordersButton": {
+			"title": "모든 테두리"
+		},
+		"thickOutsideBordersButton": {
+			"title": "두꺼운 외부 테두리"
+		},
+		"autoFitRowHeightButton": {
+			"title": "행 높이 자동 맞춤"
+		},
+		"autoFitColumnWidthButton": {
+			"title": "열 너비 자동 맞춤"
+		},
+		"insertRowsButton": {
+			"title": "행 삽입"
+		},
+		"insertColumnsButton": {
+			"title": "열 삽입"
+		},
+		"insertCellsAndShiftRightButton": {
+			"title": "셀을 삽입하고 오른쪽으로 이동"
+		},
+		"insertCellsAndShiftDownButton": {
+			"title": "셀 삽입 및 아래로 이동"
+		},
+		"insertSheetButton": {
+			"title": "시트 삽입"
+		},
+		"insertFunctionButton": {
+			"title": "함수 삽입"
+		},
+		"insertCommentButton": {
+			"title": "설명 삽입"
+		},
+		"insertPictureButton": {
+			"title": "사진 추가"
+		},
+		"editCommentButton": {
+			"title": "댓글 편집"
+		},
+		"deleteCommentButton": {
+			"title": "댓글 삭제"
+		},
+		"previousCommentButton": {
+			"title": "이전 댓글"
+		},
+		"nextCommentButton": {
+			"title": "다음 댓글"
+		},
+		"formulaPanel-cancelChangeButton": {
+			"title": "변경 사항 되돌리기"
+		},
+		"formulaPanel-applyChangeButton": {
+			"title": "변경 사항 적용"
+		},
+		"formulaPanel-fullScreenButton": {
+			"title": "전체 화면"
+		},
+		"scrollToFirstWorksheetButton": {
+			"title": "첫 번째 시트로 스크롤"
+		},
+		"scrollToLastWorksheetButton": {
+			"title": "마지막 시트로 스크롤"
+		},
+		"addWorksheetButton": {
+			"title": "시트 추가"
+		},
+		"showWorksheetListButton": {
+			"title": "시트 목록 보기"
+		},
+		"copyWorksheetButton": {
+			"title": "카피 시트"
+		},
+		"deleteWorksheetButton": {
+			"title": "시트 삭제"
+		},
+		"renameWorksheetButton": {
+			"title": "시트 이름 바꾸기"
+		},
+		"moveWorksheetButton": {
+			"title": "시트 이동"
+		},
+		"zoomOutButton": {
+			"title": "축소"
+		},
+		"zoomValueLabel": {
+			"text": "100%"
+		},
+		"zoomInButton": {
+			"title": "확대"
+		},
+		"enUsCurrencyNumberFormatButton": {
+			"title": "$ 영어(미국)"
+		},
+		"enUkCurrencyNumberFormatButton": {
+			"title": "₩ 영어(영국)"
+		},
+		"euCurrencyNumberFormatButton": {
+			"title": "€ 유로 (€ 123)"
+		},
+		"ruCurrencyNumberFormatButton": {
+			"title": "₽ 러시아어"
+		},
+		"chCurrencyNumberFormatButton": {
+			"title": "¥ 중국어"
+		},
+		"enInCurrencyNumberFormatButton": {
+			"title": "$ 영어(인도)"
+		},
+		"fillCellsDownButton": {
+			"title": "채우기"
+		},
+		"fillCellsUpButton": {
+			"title": "채우기"
+		},
+		"fillCellsLeftButton": {
+			"title": "왼쪽 채우기"
+		},
+		"fillCellsRightButton": {
+			"title": "오른쪽 채우기"
+		},
+		"noBordersButton": {
+			"title": "국경 없음"
+		},
+		"outsideBordersButton": {
+			"title": "외부 경계"
+		},
+		"bottomBorderButton": {
+			"title": "하단 테두리"
+		},
+		"topBorderButton": {
+			"title": "위쪽 테두리"
+		},
+		"rightBorderButton": {
+			"title": "오른쪽 테두리"
+		},
+		"leftBorderButton": {
+			"title": "왼쪽 테두리"
+		},
+		"thickBottomBorderButton": {
+			"title": "두꺼운 하단 테두리"
+		},
+		"thickLeftBorderButton": {
+			"title": "두꺼운 왼쪽 테두리"
+		},
+		"doubleBottomBorderButton": {
+			"title": "이중 하단 테두리"
+		},
+		"doubleLeftBorderButton": {
+			"title": "이중 왼쪽 테두리"
+		},
+		"borderColorButton": {
+			"title": "테두리 색상"
+		},
+		"copyLabel": {
+			"text": "복사"
+		},
+		"cutLabel": {
+			"text": "잘라내기"
+		},
+		"pasteLabel": {
+			"text": "붙여넣기"
+		},
+		"clearContentsLabel": {
+			"text": "내용 지우기"
+		},
+		"insertCellAndShiftRightLabel": {
+			"text": "셀을 삽입하고 오른쪽으로 이동"
+		},
+		"insertCellAndShiftDownLabel": {
+			"text": "셀 삽입 및 아래로 이동"
+		},
+		"insertEntireRowLabel": {
+			"text": "전체 행 삽입"
+		},
+		"insertEntireColumnLabel": {
+			"text": "전체 열 삽입"
+		},
+		"deleteImageLabel": {
+			"text": "삭제"
+		},
+		"deleteCellAndShiftLeftLabel": {
+			"text": "셀을 삭제하고 왼쪽으로 이동"
+		},
+		"deleteCellAndShiftUpLabel": {
+			"text": "셀을 삭제하고 위로 이동"
+		},
+		"deleteEntireRowLabel": {
+			"text": "전체 줄 삭제"
+		},
+		"deleteEntireColumnLabel": {
+			"text": "열 전체 삭제"
+		},
+		"insertRowsLabel": {
+			"text": "행 삽입"
+		},
+		"deleteRowsLabel": {
+			"text": "행 삭제"
+		},
+		"insertColumnsLabel": {
+			"text": "열 삽입"
+		},
+		"deleteColumnsLabel": {
+			"text": "열 삭제"
+		},
+		"insertCommentLabel": {
+			"text": "댓글 삽입..."
+		},
+		"editCommentLabel": {
+			"text": "댓글 수정..."
+		},
+		"deleteCommentLabel": {
+			"text": "댓글 삭제"
+		},
+		"showHideCommentLabel": {
+			"text": "댓글 표시/숨기기"
+		},
+		"hideCommentLabel": {
+			"text": "댓글 숨기기"
+		},
+		"hideRowsLabel": {
+			"text": "행 숨기기"
+		},
+		"unhideRowsLabel": {
+			"text": "행 표시"
+		},
+		"hideColumnsLabel": {
+			"text": "열 숨기기"
+		},
+		"unhideColumnsLabel": {
+			"text": "열 보기"
+		},
+		"insertCommentDialog": {
+			"authorLabel": {
+				"text": "작가:"
+			},
+			"showAuthorLabel": {
+				"text": "작성자 표시"
+			},
+			"commentLabel": {
+				"text": "논평:"
+			},
+			"okButton": {
+				"value": "확인"
+			},
+			"cancelButton": {
+				"value": "취소"
+			}
+		},
+		"commentEditDialog": {
+			"authorLabel": {
+				"text": "작가:"
+			},
+			"showAuthorLabel": {
+				"text": "작성자 표시"
+			},
+			"commentLabel": {
+				"text": "논평:"
+			},
+			"okButton": {
+				"value": "확인"
+			},
+			"cancelButton": {
+				"value": "취소"
+			}
+		},
+		"renameWorksheetDialog": {
+			"nameLabel": {
+				"text": "이름:"
+			},
+			"okButton": {
+				"value": "확인"
+			},
+			"cancelButton": {
+				"value": "취소"
+			}
+		},
+		"moveWorksheetDialog": {
+			"moveUpButton": {
+				"value": "위로 이동"
+			},
+			"moveDownButton": {
+				"value": "아래로 이동"
+			},
+			"okButton": {
+				"value": "확인"
+			},
+			"cancelButton": {
+				"value": "취소"
+			}
+		},
+		"findTextDialog": {
+			"findTextLabel": {
+				"text": "텍스트 찾기"
+			},
+			"findWhatLabel": {
+				"text": "찾기:"
+			},
+			"withinLabel": {
+				"text": "검색 대상:"
+			},
+			"Sheet": {
+				"text": "시트에"
+			},
+			"Workbook": {
+				"text": "책에서"
+			},
+			"searchLabel": {
+				"text": "검색 대상:"
+			},
+			"ByRows": {
+				"text": "인라인"
+			},
+			"ByColumns": {
+				"text": "열"
+			},
+			"lookInLabel": {
+				"text": "검색 영역:"
+			},
+			"Formulas": {
+				"text": "공식"
+			},
+			"Values": {
+				"text": "값"
+			},
+			"Comments": {
+				"text": "설명"
+			},
+			"matchCaseLabel": {
+				"text": "대소문자 구분"
+			},
+			"matchEntireContentLabel": {
+				"text": "완전 일치"
+			},
+			"findNextButton": {
+				"value": "다음 찾기"
+			},
+			"closeButton": {
+				"value": "닫기"
+			}
+		},
+		"selectFunctionDialog": {
+			"categoryLabel": {
+				"text": "범주:"
+			},
+			"categoryDropDown": {
+				"All": {
+					"text": "모두"
+				},
+				"Financial": {
+					"text": "금융"
+				},
+				"DateAndTime": {
+					"text": "날짜 및 시간"
+				},
+				"MathAndTrig": {
+					"text": "수학"
+				},
+				"Statistical": {
+					"text": "통계"
+				},
+				"LookupAndReference": {
+					"text": "참조 및 배열"
+				},
+				"Text": {
+					"text": "텍스트"
+				},
+				"Logical": {
+					"text": "부울"
+				},
+				"Information": {
+					"text": "정보"
+				},
+				"Engineering": {
+					"text": "엔지니어링"
+				}
+			},
+			"selectFunctionLabel": {
+				"text": "기능 선택:"
+			},
+			"okButton": {
+				"value": "확인"
+			},
+			"cancelButton": {
+				"value": "취소"
+			}
+		}
+	},
+	"strings": {
+		"vssde-documentIsOpening": "문서를 여는 중...",
+		"vssde-numberFormat-general": "일반",
+		"vssde-numberFormat-number": "숫자",
+		"vssde-numberFormat-date": "날짜",
+		"vssde-numberFormat-time": "시간",
+		"vssde-numberFormat-currency": "돈",
+		"vssde-numberFormat-percentage": "퍼센트",
+		"vssde-numberFormat-scientific": "지수",
+		"vssde-numberFormat-text": "텍스트",
+		"vssde-numberFormat-custom": "사용자 정의",
+		"vssde-findTextPanel-sheet": "시트에",
+		"vssde-findTextPanel-workbook": "책에서",
+		"vssde-findTextPanel-byRows": "인라인",
+		"vssde-findTextPanel-byColumns": "열",
+		"vssde-findTextPanel-formulas": "공식",
+		"vssde-findTextPanel-values": "값",
+		"vssde-findTextPanel-comments": "설명",
+		"vssde-findTextPanel-textIsNotFound": "텍스트 '{0}'을(를) 찾을 수 없습니다.",
+		"vssde-selectFunctionPanel-all": "모두",
+		"vssde-createXlsxDocument": "새 XLSX 문서 만들기",
+		"vssde-uploadXlsxFile": "XLSX 파일 업로드",
+		"vssde-downloadXlsxFile": "XLSX 파일 업로드",
+		"vssde-exportXlsxToPdf": "XLSX를 PDF로 내보내기",
+		"vssde-fileSizeExceedsLimit": "업로드된 파일의 크기가 최대 크기({0}바이트)를 초과합니다.",
+		"vssde-createXlsxDocumentConfirmation": "새 통합 문서를 만들고 싶나요?",
+		"vssde-insertCommentDialog-title": "설명 삽입",
+		"vssde-dialog-okButton": "확인",
+		"vssde-dialog-cancelButton": "취소",
+		"vssde-editCommentDialog-title": "댓글 편집",
+		"vssde-renameWorksheetDialog-title": "시트 이름 바꾸기",
+		"vssde-moveWorksheetDialog-title": "시트 이동",
+		"vssde-findTextDialog-title": "텍스트 찾기",
+		"vssde-findTextDialog-findNextButton": "다음 찾기",
+		"vssde-dialog-closeButton": "닫기",
+		"vssde-selectFunctionDialog-title": "함수 삽입"
+	}
+}

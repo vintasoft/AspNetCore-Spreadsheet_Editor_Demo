@@ -1,0 +1,588 @@
+﻿{
+	"spreadsheetDocumentEditorControl": {
+		"fileLabel": {
+			"text": "Tiedosto"
+		},
+		"homeLabel": {
+			"text": "Pää"
+		},
+		"editLabel": {
+			"text": "Muokkaus"
+		},
+		"insertLabel": {
+			"text": "Lisää"
+		},
+		"reviewLabel": {
+			"text": "Kommentit"
+		},
+		"createXlsxDocumentButton": {
+			"title": "Luo uusi XLSX-dokumentti"
+		},
+		"uploadXlsxFileButton": {
+			"title": "Lataa ja avaa XLSX-tiedosto"
+		},
+		"downloadXlsxFileButton": {
+			"title": "Lataa XLSX-tiedosto"
+		},
+		"exportXlsxToPdfButton": {
+			"title": "Vie XLSX PDF-muotoon"
+		},
+		"showMobileMenuButton": {
+			"title": "Lisää"
+		},
+		"boldTextButton": {
+			"title": "Lihavoitu"
+		},
+		"italicTextButton": {
+			"title": "Kursivoitu"
+		},
+		"underlineTextButton": {
+			"title": "Alleviivattu"
+		},
+		"strikethroughTextButton": {
+			"title": "Ristetty"
+		},
+		"fontColorButton": {
+			"title": "Fontin väri"
+		},
+		"fillColorButton": {
+			"title": "Täyttöväri"
+		},
+		"copyStyleButton": {
+			"title": "Tyylimaalari"
+		},
+		"alignLeftButton": {
+			"title": "Tasaa vasemmalle"
+		},
+		"alignCenterButton": {
+			"title": "Tasaa keskelle"
+		},
+		"alignRightButton": {
+			"title": "Tasaa oikealle"
+		},
+		"topAlignButton": {
+			"title": "Tasaa alkuun"
+		},
+		"middleAlignButton": {
+			"title": "Tasaa keskelle"
+		},
+		"bottomAlignButton": {
+			"title": "Tasaa alas"
+		},
+		"textWrappingButton": {
+			"title": "Rivitä teksti"
+		},
+		"currencyNumberFormatButton": {
+			"title": "Talousluvun muoto"
+		},
+		"increaseDecimalButton": {
+			"title": "Lisää desimaalilukua"
+		},
+		"decreaseDecimalButton": {
+			"title": "Pienennä desimaalilukua"
+		},
+		"percentNumberFormatButton": {
+			"title": "Prosenttimuoto"
+		},
+		"numberFormatDropDown": {
+			"General": {
+				"text": "Yleistä"
+			},
+			"Number": {
+				"text": "Numeerinen"
+			},
+			"Currency": {
+				"text": "Raha"
+			},
+			"Date": {
+				"text": "Päivämäärä"
+			},
+			"Time": {
+				"text": "Aika"
+			},
+			"Percentage": {
+				"text": "Prosentti"
+			},
+			"Scientific": {
+				"text": "Eksponentiaalinen"
+			},
+			"Text": {
+				"text": "Teksti"
+			}
+		},
+		"showFormulasButton": {
+			"title": "Näytä kaavat"
+		},
+		"searchTextButton": {
+			"title": "Etsi tekstiä"
+		},
+		"undoButton": {
+			"title": "Peruuta"
+		},
+		"redoButton": {
+			"title": "Toista"
+		},
+		"cutContentButton": {
+			"title": "Leikattu sisältö"
+		},
+		"copyContentButton": {
+			"title": "Kopioi sisältö"
+		},
+		"pasteContentButton": {
+			"title": "Tahnan sisältö"
+		},
+		"clearContentButton": {
+			"title": "Selkeä sisältö"
+		},
+		"clearFormatButton": {
+			"title": "Tyhjennä muoto"
+		},
+		"deleteRowsButton": {
+			"title": "Poista rivit"
+		},
+		"deleteColumnsButton": {
+			"title": "Poista sarakkeet"
+		},
+		"deleteCellsAndShiftLeftButton": {
+			"title": "Poista solut ja siirrä vasemmalle"
+		},
+		"deleteCellsAndShiftUpButton": {
+			"title": "Poista solut ja siirrä ylös"
+		},
+		"deletePictureButton": {
+			"title": "Poista kuva"
+		},
+		"mergeCellsButton": {
+			"title": "Yhdistää soluja"
+		},
+		"unmergeCellsButton": {
+			"title": "Pura solujen yhdistäminen"
+		},
+		"fillCells": {
+			"title": "Täytä solut"
+		},
+		"allBordersButton": {
+			"title": "Kaikki reunat"
+		},
+		"thickOutsideBordersButton": {
+			"title": "Paksut ulkoreunat"
+		},
+		"autoFitRowHeightButton": {
+			"title": "Sovita rivin korkeus automaattisesti"
+		},
+		"autoFitColumnWidthButton": {
+			"title": "Sovita sarakkeen leveys automaattisesti"
+		},
+		"insertRowsButton": {
+			"title": "Lisää rivejä"
+		},
+		"insertColumnsButton": {
+			"title": "Lisää sarakkeita"
+		},
+		"insertCellsAndShiftRightButton": {
+			"title": "Lisää solu ja siirry oikealle"
+		},
+		"insertCellsAndShiftDownButton": {
+			"title": "Lisää solu ja siirry alas"
+		},
+		"insertSheetButton": {
+			"title": "Lisää taulukko"
+		},
+		"insertFunctionButton": {
+			"title": "Lisää funktio"
+		},
+		"insertCommentButton": {
+			"title": "Lisää kommentti"
+		},
+		"insertPictureButton": {
+			"title": "Lisää kuva"
+		},
+		"editCommentButton": {
+			"title": "Muokkaa kommenttia"
+		},
+		"deleteCommentButton": {
+			"title": "Poista kommentti"
+		},
+		"previousCommentButton": {
+			"title": "Edellinen kommentti"
+		},
+		"nextCommentButton": {
+			"title": "Seuraava kommentti"
+		},
+		"formulaPanel-cancelChangeButton": {
+			"title": "Palauta muutokset"
+		},
+		"formulaPanel-applyChangeButton": {
+			"title": "Ota muutokset käyttöön"
+		},
+		"formulaPanel-fullScreenButton": {
+			"title": "Koko näyttö"
+		},
+		"scrollToFirstWorksheetButton": {
+			"title": "Vieritä ensimmäiseen arkkiin"
+		},
+		"scrollToLastWorksheetButton": {
+			"title": "Vieritä viimeiseen arkkiin"
+		},
+		"addWorksheetButton": {
+			"title": "Lisää arkki"
+		},
+		"showWorksheetListButton": {
+			"title": "Näytä taulukkoluettelo"
+		},
+		"copyWorksheetButton": {
+			"title": "Kopioi arkki"
+		},
+		"deleteWorksheetButton": {
+			"title": "Poista taulukko"
+		},
+		"renameWorksheetButton": {
+			"title": "Nimeä taulukko uudelleen"
+		},
+		"moveWorksheetButton": {
+			"title": "Siirrä taulukkoa"
+		},
+		"zoomOutButton": {
+			"title": "Loitonna"
+		},
+		"zoomValueLabel": {
+			"text": "100%"
+		},
+		"zoomInButton": {
+			"title": "Lähennä"
+		},
+		"enUsCurrencyNumberFormatButton": {
+			"title": "$ englanti (USA)"
+		},
+		"enUkCurrencyNumberFormatButton": {
+			"title": "£ englanti (Iso-Britannia)"
+		},
+		"euCurrencyNumberFormatButton": {
+			"title": "€ euroa (123 €)"
+		},
+		"ruCurrencyNumberFormatButton": {
+			"title": "₽ venäjää"
+		},
+		"chCurrencyNumberFormatButton": {
+			"title": "¥ kiinalainen"
+		},
+		"enInCurrencyNumberFormatButton": {
+			"title": "₹ englanti (Intia)"
+		},
+		"fillCellsDownButton": {
+			"title": "Täytä"
+		},
+		"fillCellsUpButton": {
+			"title": "Täytä"
+		},
+		"fillCellsLeftButton": {
+			"title": "Täytä vasen"
+		},
+		"fillCellsRightButton": {
+			"title": "Täytä oikealle"
+		},
+		"noBordersButton": {
+			"title": "Ei rajoja"
+		},
+		"outsideBordersButton": {
+			"title": "Ulkorajat"
+		},
+		"bottomBorderButton": {
+			"title": "Alareuna"
+		},
+		"topBorderButton": {
+			"title": "Yläreuna"
+		},
+		"rightBorderButton": {
+			"title": "Oikea reuna"
+		},
+		"leftBorderButton": {
+			"title": "Vasen reuna"
+		},
+		"thickBottomBorderButton": {
+			"title": "Paksu alareuna"
+		},
+		"thickLeftBorderButton": {
+			"title": "Paksu vasen reuna"
+		},
+		"doubleBottomBorderButton": {
+			"title": "Kaksoispohjareuna"
+		},
+		"doubleLeftBorderButton": {
+			"title": "Kaksoisvasen reuna"
+		},
+		"borderColorButton": {
+			"title": "Reunuksen väri"
+		},
+		"copyLabel": {
+			"text": "Kopioi"
+		},
+		"cutLabel": {
+			"text": "Leikkaus"
+		},
+		"pasteLabel": {
+			"text": "Liitä"
+		},
+		"clearContentsLabel": {
+			"text": "Kirkas sisältö"
+		},
+		"insertCellAndShiftRightLabel": {
+			"text": "Lisää solu ja siirry oikealle"
+		},
+		"insertCellAndShiftDownLabel": {
+			"text": "Lisää solu ja siirry alas"
+		},
+		"insertEntireRowLabel": {
+			"text": "Lisää koko rivi"
+		},
+		"insertEntireColumnLabel": {
+			"text": "Lisää koko sarake"
+		},
+		"deleteImageLabel": {
+			"text": "Poista"
+		},
+		"deleteCellAndShiftLeftLabel": {
+			"text": "Poista solu ja siirrä vasemmalle"
+		},
+		"deleteCellAndShiftUpLabel": {
+			"text": "Poista solu ja siirry ylöspäin"
+		},
+		"deleteEntireRowLabel": {
+			"text": "Poista koko rivi"
+		},
+		"deleteEntireColumnLabel": {
+			"text": "Poista koko sarake"
+		},
+		"insertRowsLabel": {
+			"text": "Lisää rivejä"
+		},
+		"deleteRowsLabel": {
+			"text": "Poista rivit"
+		},
+		"insertColumnsLabel": {
+			"text": "Lisää sarakkeita"
+		},
+		"deleteColumnsLabel": {
+			"text": "Poista sarakkeet"
+		},
+		"insertCommentLabel": {
+			"text": "Lisää kommentti..."
+		},
+		"editCommentLabel": {
+			"text": "Muokkaa kommenttia..."
+		},
+		"deleteCommentLabel": {
+			"text": "Poista kommentti"
+		},
+		"showHideCommentLabel": {
+			"text": "Näytä/piilota kommentti"
+		},
+		"hideCommentLabel": {
+			"text": "Piilota kommentti"
+		},
+		"hideRowsLabel": {
+			"text": "Piilota rivit"
+		},
+		"unhideRowsLabel": {
+			"text": "Näytä rivit"
+		},
+		"hideColumnsLabel": {
+			"text": "Piilota sarakkeet"
+		},
+		"unhideColumnsLabel": {
+			"text": "Näytä sarakkeet"
+		},
+		"insertCommentDialog": {
+			"authorLabel": {
+				"text": "Tekijä:"
+			},
+			"showAuthorLabel": {
+				"text": "Näytä tekijä"
+			},
+			"commentLabel": {
+				"text": "Kommentti:"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Peruuta"
+			}
+		},
+		"commentEditDialog": {
+			"authorLabel": {
+				"text": "Tekijä:"
+			},
+			"showAuthorLabel": {
+				"text": "Näytä tekijä"
+			},
+			"commentLabel": {
+				"text": "Kommentti:"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Peruuta"
+			}
+		},
+		"renameWorksheetDialog": {
+			"nameLabel": {
+				"text": "Nimi:"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Peruuta"
+			}
+		},
+		"moveWorksheetDialog": {
+			"moveUpButton": {
+				"value": "Siirrä ylös"
+			},
+			"moveDownButton": {
+				"value": "Siirrä alas"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Peruuta"
+			}
+		},
+		"findTextDialog": {
+			"findTextLabel": {
+				"text": "Etsi tekstiä"
+			},
+			"findWhatLabel": {
+				"text": "Etsi:"
+			},
+			"withinLabel": {
+				"text": "Hae:"
+			},
+			"Sheet": {
+				"text": "Arkille"
+			},
+			"Workbook": {
+				"text": "Kirjassa"
+			},
+			"searchLabel": {
+				"text": "Hae:"
+			},
+			"ByRows": {
+				"text": "Riveissä"
+			},
+			"ByColumns": {
+				"text": "Sarakkeissa"
+			},
+			"lookInLabel": {
+				"text": "Hakualue:"
+			},
+			"Formulas": {
+				"text": "Kaavat"
+			},
+			"Values": {
+				"text": "Arvot"
+			},
+			"Comments": {
+				"text": "Kommentit"
+			},
+			"matchCaseLabel": {
+				"text": "kirjainkoolla on merkitystä"
+			},
+			"matchEntireContentLabel": {
+				"text": "Tarkka vastaavuus"
+			},
+			"findNextButton": {
+				"value": "Etsi seuraava"
+			},
+			"closeButton": {
+				"value": "Sulje"
+			}
+		},
+		"selectFunctionDialog": {
+			"categoryLabel": {
+				"text": "Luokka:"
+			},
+			"categoryDropDown": {
+				"All": {
+					"text": "Kaikki"
+				},
+				"Financial": {
+					"text": "Talous"
+				},
+				"DateAndTime": {
+					"text": "Päivämäärä ja aika"
+				},
+				"MathAndTrig": {
+					"text": "Math"
+				},
+				"Statistical": {
+					"text": "Tilastollinen"
+				},
+				"LookupAndReference": {
+					"text": "Viitteet ja taulukot"
+				},
+				"Text": {
+					"text": "Teksti"
+				},
+				"Logical": {
+					"text": "Totuusarvo"
+				},
+				"Information": {
+					"text": "Tietoa"
+				},
+				"Engineering": {
+					"text": "Suunnittelu"
+				}
+			},
+			"selectFunctionLabel": {
+				"text": "Valitse funktio:"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Peruuta"
+			}
+		}
+	},
+	"strings": {
+		"vssde-documentIsOpening": "Asiakirja avataan...",
+		"vssde-numberFormat-general": "Yleistä",
+		"vssde-numberFormat-number": "Numeerinen",
+		"vssde-numberFormat-date": "Päivämäärä",
+		"vssde-numberFormat-time": "Aika",
+		"vssde-numberFormat-currency": "Raha",
+		"vssde-numberFormat-percentage": "Prosentti",
+		"vssde-numberFormat-scientific": "Eksponentiaalinen",
+		"vssde-numberFormat-text": "Teksti",
+		"vssde-numberFormat-custom": "Mukautettu",
+		"vssde-findTextPanel-sheet": "Arkille",
+		"vssde-findTextPanel-workbook": "Kirjassa",
+		"vssde-findTextPanel-byRows": "Riveissä",
+		"vssde-findTextPanel-byColumns": "Sarakkeissa",
+		"vssde-findTextPanel-formulas": "Kaavat",
+		"vssde-findTextPanel-values": "Arvot",
+		"vssde-findTextPanel-comments": "Kommentit",
+		"vssde-findTextPanel-textIsNotFound": "Tekstiä '{0}' ei löydy.",
+		"vssde-selectFunctionPanel-all": "Kaikki",
+		"vssde-createXlsxDocument": "Luo uusi XLSX-dokumentti",
+		"vssde-uploadXlsxFile": "Lataa XLSX-tiedosto",
+		"vssde-downloadXlsxFile": "Lataa XLSX-tiedosto",
+		"vssde-exportXlsxToPdf": "Vie XLSX PDF-muotoon",
+		"vssde-fileSizeExceedsLimit": "Ladatun tiedoston koko ylittää enimmäiskoon ({0} tavua).",
+		"vssde-createXlsxDocumentConfirmation": "Haluatko luoda uuden työkirjan?",
+		"vssde-insertCommentDialog-title": "Lisää kommentti",
+		"vssde-dialog-okButton": "OK",
+		"vssde-dialog-cancelButton": "Peruuta",
+		"vssde-editCommentDialog-title": "Muokkaa kommenttia",
+		"vssde-renameWorksheetDialog-title": "Nimeä taulukko uudelleen",
+		"vssde-moveWorksheetDialog-title": "Siirrä taulukkoa",
+		"vssde-findTextDialog-title": "Etsi tekstiä",
+		"vssde-findTextDialog-findNextButton": "Etsi seuraava",
+		"vssde-dialog-closeButton": "Sulje",
+		"vssde-selectFunctionDialog-title": "Lisää funktio"
+	}
+}

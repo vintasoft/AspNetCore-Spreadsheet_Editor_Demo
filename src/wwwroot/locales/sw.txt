@@ -1,0 +1,588 @@
+﻿{
+	"spreadsheetDocumentEditorControl": {
+		"fileLabel": {
+			"text": "Faili"
+		},
+		"homeLabel": {
+			"text": "Nyumbani"
+		},
+		"editLabel": {
+			"text": "Hariri"
+		},
+		"insertLabel": {
+			"text": "Ingiza"
+		},
+		"reviewLabel": {
+			"text": "Kagua"
+		},
+		"createXlsxDocumentButton": {
+			"title": "Unda hati mpya ya XLSX"
+		},
+		"uploadXlsxFileButton": {
+			"title": "Pakia na ufungue faili ya XLSX"
+		},
+		"downloadXlsxFileButton": {
+			"title": "Pakua faili ya XLSX"
+		},
+		"exportXlsxToPdfButton": {
+			"title": "Hamisha XLSX hadi PDF"
+		},
+		"showMobileMenuButton": {
+			"title": "Zaidi"
+		},
+		"boldTextButton": {
+			"title": "Maandishi mazito"
+		},
+		"italicTextButton": {
+			"title": "Maandishi ya italiki"
+		},
+		"underlineTextButton": {
+			"title": "Pigia mstari maandishi"
+		},
+		"strikethroughTextButton": {
+			"title": "Maandishi ya kuvutia"
+		},
+		"fontColorButton": {
+			"title": "Rangi ya herufi"
+		},
+		"fillColorButton": {
+			"title": "Jaza rangi"
+		},
+		"copyStyleButton": {
+			"title": "Mchoraji wa Sinema"
+		},
+		"alignLeftButton": {
+			"title": "Pangilia kushoto"
+		},
+		"alignCenterButton": {
+			"title": "Kituo"
+		},
+		"alignRightButton": {
+			"title": "Pangilia kulia"
+		},
+		"topAlignButton": {
+			"title": "Pangilia juu"
+		},
+		"middleAlignButton": {
+			"title": "Panga katikati"
+		},
+		"bottomAlignButton": {
+			"title": "Pangilia chini"
+		},
+		"textWrappingButton": {
+			"title": "Ufungaji wa maandishi"
+		},
+		"currencyNumberFormatButton": {
+			"title": "Umbizo la nambari ya sarafu"
+		},
+		"increaseDecimalButton": {
+			"title": "Ongeza desimali"
+		},
+		"decreaseDecimalButton": {
+			"title": "Punguza desimali"
+		},
+		"percentNumberFormatButton": {
+			"title": "Asilimia ya muundo wa nambari"
+		},
+		"numberFormatDropDown": {
+			"General": {
+				"text": "Mkuu"
+			},
+			"Number": {
+				"text": "Nambari"
+			},
+			"Currency": {
+				"text": "Sarafu"
+			},
+			"Date": {
+				"text": "Tarehe"
+			},
+			"Time": {
+				"text": "Muda"
+			},
+			"Percentage": {
+				"text": "Asilimia"
+			},
+			"Scientific": {
+				"text": "Kisayansi"
+			},
+			"Text": {
+				"text": "Maandishi"
+			}
+		},
+		"showFormulasButton": {
+			"title": "Onyesha fomula"
+		},
+		"searchTextButton": {
+			"title": "Tafuta maandishi"
+		},
+		"undoButton": {
+			"title": "Tendua"
+		},
+		"redoButton": {
+			"title": "Rudia"
+		},
+		"cutContentButton": {
+			"title": "Kata maudhui"
+		},
+		"copyContentButton": {
+			"title": "Nakili maudhui"
+		},
+		"pasteContentButton": {
+			"title": "Bandika yaliyomo"
+		},
+		"clearContentButton": {
+			"title": "Futa maudhui"
+		},
+		"clearFormatButton": {
+			"title": "Futa umbizo"
+		},
+		"deleteRowsButton": {
+			"title": "Futa safu"
+		},
+		"deleteColumnsButton": {
+			"title": "Futa safu wima"
+		},
+		"deleteCellsAndShiftLeftButton": {
+			"title": "Futa visanduku na usogeze kushoto"
+		},
+		"deleteCellsAndShiftUpButton": {
+			"title": "Futa visanduku na usogeze juu"
+		},
+		"deletePictureButton": {
+			"title": "Futa picha"
+		},
+		"mergeCellsButton": {
+			"title": "Unganisha seli"
+		},
+		"unmergeCellsButton": {
+			"title": "Tenganisha seli"
+		},
+		"fillCells": {
+			"title": "Jaza Seli"
+		},
+		"allBordersButton": {
+			"title": "Mipaka Yote"
+		},
+		"thickOutsideBordersButton": {
+			"title": "Nene Nje ya Mipaka"
+		},
+		"autoFitRowHeightButton": {
+			"title": "Weka kiotomati urefu wa safu mlalo"
+		},
+		"autoFitColumnWidthButton": {
+			"title": "Weka kiotomatiki upana wa safu"
+		},
+		"insertRowsButton": {
+			"title": "Weka safu"
+		},
+		"insertColumnsButton": {
+			"title": "Ingiza safu wima"
+		},
+		"insertCellsAndShiftRightButton": {
+			"title": "Ingiza kisanduku na usogeze kulia"
+		},
+		"insertCellsAndShiftDownButton": {
+			"title": "Ingiza kisanduku na usogeze chini"
+		},
+		"insertSheetButton": {
+			"title": "Weka karatasi"
+		},
+		"insertFunctionButton": {
+			"title": "Weka kipengele"
+		},
+		"insertCommentButton": {
+			"title": "Weka maoni"
+		},
+		"insertPictureButton": {
+			"title": "Ongeza picha"
+		},
+		"editCommentButton": {
+			"title": "Hariri maoni"
+		},
+		"deleteCommentButton": {
+			"title": "Futa maoni"
+		},
+		"previousCommentButton": {
+			"title": "Maoni yaliyotangulia"
+		},
+		"nextCommentButton": {
+			"title": "Maoni yanayofuata"
+		},
+		"formulaPanel-cancelChangeButton": {
+			"title": "Ghairi mabadiliko"
+		},
+		"formulaPanel-applyChangeButton": {
+			"title": "Omba mabadiliko"
+		},
+		"formulaPanel-fullScreenButton": {
+			"title": "Skrini nzima"
+		},
+		"scrollToFirstWorksheetButton": {
+			"title": "Tembeza hadi lahakazi ya kwanza"
+		},
+		"scrollToLastWorksheetButton": {
+			"title": "Tembeza hadi lahakazi ya mwisho"
+		},
+		"addWorksheetButton": {
+			"title": "Ongeza karatasi ya kazi"
+		},
+		"showWorksheetListButton": {
+			"title": "Onyesha orodha ya karatasi"
+		},
+		"copyWorksheetButton": {
+			"title": "Nakili karatasi ya kazi"
+		},
+		"deleteWorksheetButton": {
+			"title": "Futa laha ya kazi"
+		},
+		"renameWorksheetButton": {
+			"title": "Badilisha jina la karatasi"
+		},
+		"moveWorksheetButton": {
+			"title": "Hamisha laha kazi"
+		},
+		"zoomOutButton": {
+			"title": "Kuza nje"
+		},
+		"zoomValueLabel": {
+			"text": "100%"
+		},
+		"zoomInButton": {
+			"title": "Vuta karibu"
+		},
+		"enUsCurrencyNumberFormatButton": {
+			"title": "$ Kiingereza (Marekani)"
+		},
+		"enUkCurrencyNumberFormatButton": {
+			"title": "£ Kiingereza (Uingereza)"
+		},
+		"euCurrencyNumberFormatButton": {
+			"title": "Euro Euro (€ 123)"
+		},
+		"ruCurrencyNumberFormatButton": {
+			"title": "₽ Kirusi"
+		},
+		"chCurrencyNumberFormatButton": {
+			"title": "¥ Kichina"
+		},
+		"enInCurrencyNumberFormatButton": {
+			"title": "₹ Kiingereza (India)"
+		},
+		"fillCellsDownButton": {
+			"title": "Jaza Chini"
+		},
+		"fillCellsUpButton": {
+			"title": "Jaza"
+		},
+		"fillCellsLeftButton": {
+			"title": "Jaza Kushoto"
+		},
+		"fillCellsRightButton": {
+			"title": "Jaza Kulia"
+		},
+		"noBordersButton": {
+			"title": "Hakuna Mipaka"
+		},
+		"outsideBordersButton": {
+			"title": "Nje ya Mipaka"
+		},
+		"bottomBorderButton": {
+			"title": "Mpaka wa Chini"
+		},
+		"topBorderButton": {
+			"title": "Mpaka wa Juu"
+		},
+		"rightBorderButton": {
+			"title": "Mpaka wa kulia"
+		},
+		"leftBorderButton": {
+			"title": "Mpaka wa Kushoto"
+		},
+		"thickBottomBorderButton": {
+			"title": "Mpaka Nene wa Chini"
+		},
+		"thickLeftBorderButton": {
+			"title": "Mpaka Nene wa Kushoto"
+		},
+		"doubleBottomBorderButton": {
+			"title": "Mpaka wa Chini Mbili"
+		},
+		"doubleLeftBorderButton": {
+			"title": "Mpaka wa Kushoto Mbili"
+		},
+		"borderColorButton": {
+			"title": "Rangi ya mpaka"
+		},
+		"copyLabel": {
+			"text": "Nakili"
+		},
+		"cutLabel": {
+			"text": "Kata"
+		},
+		"pasteLabel": {
+			"text": "Bandika"
+		},
+		"clearContentsLabel": {
+			"text": "Wazi Yaliyomo"
+		},
+		"insertCellAndShiftRightLabel": {
+			"text": "Ingiza kisanduku na usogeze kulia"
+		},
+		"insertCellAndShiftDownLabel": {
+			"text": "Ingiza kisanduku na usogeze chini"
+		},
+		"insertEntireRowLabel": {
+			"text": "Weka safu mlalo nzima"
+		},
+		"insertEntireColumnLabel": {
+			"text": "Ingiza safu wima nzima"
+		},
+		"deleteImageLabel": {
+			"text": "Futa"
+		},
+		"deleteCellAndShiftLeftLabel": {
+			"text": "Futa kisanduku na usogeze kushoto"
+		},
+		"deleteCellAndShiftUpLabel": {
+			"text": "Futa kisanduku na usogeze juu"
+		},
+		"deleteEntireRowLabel": {
+			"text": "Futa safu mlalo nzima"
+		},
+		"deleteEntireColumnLabel": {
+			"text": "Futa safu wima nzima"
+		},
+		"insertRowsLabel": {
+			"text": "Ingiza Safu"
+		},
+		"deleteRowsLabel": {
+			"text": "Futa Safu"
+		},
+		"insertColumnsLabel": {
+			"text": "Ingiza Safu"
+		},
+		"deleteColumnsLabel": {
+			"text": "Futa Safu"
+		},
+		"insertCommentLabel": {
+			"text": "Weka Maoni..."
+		},
+		"editCommentLabel": {
+			"text": "Hariri Maoni..."
+		},
+		"deleteCommentLabel": {
+			"text": "Futa Maoni"
+		},
+		"showHideCommentLabel": {
+			"text": "Onyesha/Ficha Maoni"
+		},
+		"hideCommentLabel": {
+			"text": "Ficha Maoni"
+		},
+		"hideRowsLabel": {
+			"text": "Ficha Safu"
+		},
+		"unhideRowsLabel": {
+			"text": "Fichua Safu"
+		},
+		"hideColumnsLabel": {
+			"text": "Ficha Safu"
+		},
+		"unhideColumnsLabel": {
+			"text": "Onyesha Safu"
+		},
+		"insertCommentDialog": {
+			"authorLabel": {
+				"text": "Mwandishi:"
+			},
+			"showAuthorLabel": {
+				"text": "Onyesha Mwandishi"
+			},
+			"commentLabel": {
+				"text": "Maoni:"
+			},
+			"okButton": {
+				"value": "sawa"
+			},
+			"cancelButton": {
+				"value": "Ghairi"
+			}
+		},
+		"commentEditDialog": {
+			"authorLabel": {
+				"text": "Mwandishi:"
+			},
+			"showAuthorLabel": {
+				"text": "Onyesha Mwandishi"
+			},
+			"commentLabel": {
+				"text": "Maoni:"
+			},
+			"okButton": {
+				"value": "sawa"
+			},
+			"cancelButton": {
+				"value": "Ghairi"
+			}
+		},
+		"renameWorksheetDialog": {
+			"nameLabel": {
+				"text": "Jina:"
+			},
+			"okButton": {
+				"value": "sawa"
+			},
+			"cancelButton": {
+				"value": "Ghairi"
+			}
+		},
+		"moveWorksheetDialog": {
+			"moveUpButton": {
+				"value": "Sogeza juu"
+			},
+			"moveDownButton": {
+				"value": "Sogeza chini"
+			},
+			"okButton": {
+				"value": "sawa"
+			},
+			"cancelButton": {
+				"value": "Ghairi"
+			}
+		},
+		"findTextDialog": {
+			"findTextLabel": {
+				"text": "Tafuta Maandishi"
+			},
+			"findWhatLabel": {
+				"text": "Tafuta Nini:"
+			},
+			"withinLabel": {
+				"text": "Ndani:"
+			},
+			"Sheet": {
+				"text": "Laha"
+			},
+			"Workbook": {
+				"text": "Kitabu cha kazi"
+			},
+			"searchLabel": {
+				"text": "Tafuta:"
+			},
+			"ByRows": {
+				"text": "Kwa Safu"
+			},
+			"ByColumns": {
+				"text": "Kwa Safu"
+			},
+			"lookInLabel": {
+				"text": "Angalia ndani:"
+			},
+			"Formulas": {
+				"text": "Mifumo"
+			},
+			"Values": {
+				"text": "Maadili"
+			},
+			"Comments": {
+				"text": "Maoni"
+			},
+			"matchCaseLabel": {
+				"text": "Kesi ya mechi"
+			},
+			"matchEntireContentLabel": {
+				"text": "Linganisha maudhui yote"
+			},
+			"findNextButton": {
+				"value": "Tafuta Inayofuata"
+			},
+			"closeButton": {
+				"value": "Funga"
+			}
+		},
+		"selectFunctionDialog": {
+			"categoryLabel": {
+				"text": "Kategoria:"
+			},
+			"categoryDropDown": {
+				"All": {
+					"text": "Wote"
+				},
+				"Financial": {
+					"text": "Kifedha"
+				},
+				"DateAndTime": {
+					"text": "TareheNaMuda"
+				},
+				"MathAndTrig": {
+					"text": "MathAndTrig"
+				},
+				"Statistical": {
+					"text": "Takwimu"
+				},
+				"LookupAndReference": {
+					"text": "LookupAndReference"
+				},
+				"Text": {
+					"text": "Maandishi"
+				},
+				"Logical": {
+					"text": "Mantiki"
+				},
+				"Information": {
+					"text": "Habari"
+				},
+				"Engineering": {
+					"text": "Uhandisi"
+				}
+			},
+			"selectFunctionLabel": {
+				"text": "Chagua Kitendaji:"
+			},
+			"okButton": {
+				"value": "sawa"
+			},
+			"cancelButton": {
+				"value": "Ghairi"
+			}
+		}
+	},
+	"strings": {
+		"vssde-documentIsOpening": "Hati inafunguliwa...",
+		"vssde-numberFormat-general": "Mkuu",
+		"vssde-numberFormat-number": "Nambari",
+		"vssde-numberFormat-date": "Tarehe",
+		"vssde-numberFormat-time": "Muda",
+		"vssde-numberFormat-currency": "Sarafu",
+		"vssde-numberFormat-percentage": "Asilimia",
+		"vssde-numberFormat-scientific": "Kisayansi",
+		"vssde-numberFormat-text": "Maandishi",
+		"vssde-numberFormat-custom": "Desturi",
+		"vssde-findTextPanel-sheet": "Laha",
+		"vssde-findTextPanel-workbook": "Kitabu cha kazi",
+		"vssde-findTextPanel-byRows": "Kwa Safu",
+		"vssde-findTextPanel-byColumns": "Kwa Safu",
+		"vssde-findTextPanel-formulas": "Mifumo",
+		"vssde-findTextPanel-values": "Maadili",
+		"vssde-findTextPanel-comments": "Maoni",
+		"vssde-findTextPanel-textIsNotFound": "Maandishi '{0}' hayapatikani.",
+		"vssde-selectFunctionPanel-all": "Wote",
+		"vssde-createXlsxDocument": "Unda hati mpya ya XLSX",
+		"vssde-uploadXlsxFile": "Pakia faili ya XLSX",
+		"vssde-downloadXlsxFile": "Pakua faili ya XLSX",
+		"vssde-exportXlsxToPdf": "Hamisha XLSX hadi PDF",
+		"vssde-fileSizeExceedsLimit": "Saizi ya faili iliyopakiwa inazidi ukubwa wa juu zaidi (baiti {0}).",
+		"vssde-createXlsxDocumentConfirmation": "Je, ungependa kuunda kitabu kipya cha kazi?",
+		"vssde-insertCommentDialog-title": "Weka maoni",
+		"vssde-dialog-okButton": "sawa",
+		"vssde-dialog-cancelButton": "Ghairi",
+		"vssde-editCommentDialog-title": "Hariri maoni",
+		"vssde-renameWorksheetDialog-title": "Badilisha Jina la Karatasi ya Kazi",
+		"vssde-moveWorksheetDialog-title": "Hamisha Karatasi ya Kazi",
+		"vssde-findTextDialog-title": "Tafuta Maandishi",
+		"vssde-findTextDialog-findNextButton": "Tafuta Inayofuata",
+		"vssde-dialog-closeButton": "Funga",
+		"vssde-selectFunctionDialog-title": "Ingiza Kazi"
+	}
+}

@@ -1,0 +1,588 @@
+﻿{
+	"spreadsheetDocumentEditorControl": {
+		"fileLabel": {
+			"text": "Soubor"
+		},
+		"homeLabel": {
+			"text": "Hlavní"
+		},
+		"editLabel": {
+			"text": "Úpravy"
+		},
+		"insertLabel": {
+			"text": "Vložit"
+		},
+		"reviewLabel": {
+			"text": "Komentáře"
+		},
+		"createXlsxDocumentButton": {
+			"title": "Vytvořte nový dokument XLSX"
+		},
+		"uploadXlsxFileButton": {
+			"title": "Stáhněte a otevřete soubor XLSX"
+		},
+		"downloadXlsxFileButton": {
+			"title": "Nahrajte soubor XLSX"
+		},
+		"exportXlsxToPdfButton": {
+			"title": "Export XLSX do PDF"
+		},
+		"showMobileMenuButton": {
+			"title": "Více"
+		},
+		"boldTextButton": {
+			"title": "Tučné"
+		},
+		"italicTextButton": {
+			"title": "kurzíva"
+		},
+		"underlineTextButton": {
+			"title": "Podtrženo"
+		},
+		"strikethroughTextButton": {
+			"title": "Zkřížené"
+		},
+		"fontColorButton": {
+			"title": "Barva písma"
+		},
+		"fillColorButton": {
+			"title": "Barva výplně"
+		},
+		"copyStyleButton": {
+			"title": "Stylový malíř"
+		},
+		"alignLeftButton": {
+			"title": "Zarovnat doleva"
+		},
+		"alignCenterButton": {
+			"title": "Zarovnat na střed"
+		},
+		"alignRightButton": {
+			"title": "Zarovnat doprava"
+		},
+		"topAlignButton": {
+			"title": "Zarovnat nahoru"
+		},
+		"middleAlignButton": {
+			"title": "Zarovnat na střed"
+		},
+		"bottomAlignButton": {
+			"title": "Zarovnat dolů"
+		},
+		"textWrappingButton": {
+			"title": "Zalamování textu"
+		},
+		"currencyNumberFormatButton": {
+			"title": "Formát finančního čísla"
+		},
+		"increaseDecimalButton": {
+			"title": "Zvětšit desetinné místo"
+		},
+		"decreaseDecimalButton": {
+			"title": "Snížit desetinné místo"
+		},
+		"percentNumberFormatButton": {
+			"title": "Formát procent"
+		},
+		"numberFormatDropDown": {
+			"General": {
+				"text": "Obecné"
+			},
+			"Number": {
+				"text": "Číselné"
+			},
+			"Currency": {
+				"text": "Peníze"
+			},
+			"Date": {
+				"text": "Datum"
+			},
+			"Time": {
+				"text": "Čas"
+			},
+			"Percentage": {
+				"text": "procento"
+			},
+			"Scientific": {
+				"text": "Exponenciální"
+			},
+			"Text": {
+				"text": "Text"
+			}
+		},
+		"showFormulasButton": {
+			"title": "Zobrazit vzorce"
+		},
+		"searchTextButton": {
+			"title": "Najít text"
+		},
+		"undoButton": {
+			"title": "Zrušit"
+		},
+		"redoButton": {
+			"title": "Opakujte"
+		},
+		"cutContentButton": {
+			"title": "Oříznutý obsah"
+		},
+		"copyContentButton": {
+			"title": "Kopírovat obsah"
+		},
+		"pasteContentButton": {
+			"title": "Obsah vložit"
+		},
+		"clearContentButton": {
+			"title": "Přehledný obsah"
+		},
+		"clearFormatButton": {
+			"title": "Vymazat formát"
+		},
+		"deleteRowsButton": {
+			"title": "Smazat řádky"
+		},
+		"deleteColumnsButton": {
+			"title": "Smazat sloupce"
+		},
+		"deleteCellsAndShiftLeftButton": {
+			"title": "Smažte buňky a posuňte se doleva"
+		},
+		"deleteCellsAndShiftUpButton": {
+			"title": "Odstraňte buňky a posuňte se nahoru"
+		},
+		"deletePictureButton": {
+			"title": "Smazat obrázek"
+		},
+		"mergeCellsButton": {
+			"title": "Spojit buňky"
+		},
+		"unmergeCellsButton": {
+			"title": "Zrušte sloučení buněk"
+		},
+		"fillCells": {
+			"title": "Vyplňte buňky"
+		},
+		"allBordersButton": {
+			"title": "Všechny hranice"
+		},
+		"thickOutsideBordersButton": {
+			"title": "Tlusté vnější okraje"
+		},
+		"autoFitRowHeightButton": {
+			"title": "Automaticky přizpůsobit výšku řádku"
+		},
+		"autoFitColumnWidthButton": {
+			"title": "Automaticky přizpůsobit šířku sloupce"
+		},
+		"insertRowsButton": {
+			"title": "Vložit řádky"
+		},
+		"insertColumnsButton": {
+			"title": "Vložit sloupce"
+		},
+		"insertCellsAndShiftRightButton": {
+			"title": "Vložte buňku a posuňte se doprava"
+		},
+		"insertCellsAndShiftDownButton": {
+			"title": "Vložte buňku a posuňte se dolů"
+		},
+		"insertSheetButton": {
+			"title": "Vložit list"
+		},
+		"insertFunctionButton": {
+			"title": "Funkce vložení"
+		},
+		"insertCommentButton": {
+			"title": "Vložit komentář"
+		},
+		"insertPictureButton": {
+			"title": "Přidat obrázek"
+		},
+		"editCommentButton": {
+			"title": "Upravit komentář"
+		},
+		"deleteCommentButton": {
+			"title": "Smazat komentář"
+		},
+		"previousCommentButton": {
+			"title": "Předchozí komentář"
+		},
+		"nextCommentButton": {
+			"title": "Další komentář"
+		},
+		"formulaPanel-cancelChangeButton": {
+			"title": "Vrátit změny"
+		},
+		"formulaPanel-applyChangeButton": {
+			"title": "Použít změny"
+		},
+		"formulaPanel-fullScreenButton": {
+			"title": "Celá obrazovka"
+		},
+		"scrollToFirstWorksheetButton": {
+			"title": "Posuňte se na první list"
+		},
+		"scrollToLastWorksheetButton": {
+			"title": "Posunout na poslední list"
+		},
+		"addWorksheetButton": {
+			"title": "Přidat list"
+		},
+		"showWorksheetListButton": {
+			"title": "Zobrazit seznam listů"
+		},
+		"copyWorksheetButton": {
+			"title": "Kopírovat list"
+		},
+		"deleteWorksheetButton": {
+			"title": "Smazat list"
+		},
+		"renameWorksheetButton": {
+			"title": "Přejmenovat list"
+		},
+		"moveWorksheetButton": {
+			"title": "Přesunout list"
+		},
+		"zoomOutButton": {
+			"title": "Oddálit"
+		},
+		"zoomValueLabel": {
+			"text": "100%"
+		},
+		"zoomInButton": {
+			"title": "Přiblížit"
+		},
+		"enUsCurrencyNumberFormatButton": {
+			"title": "$ angličtina (USA)"
+		},
+		"enUkCurrencyNumberFormatButton": {
+			"title": "£ angličtina (Spojené království)"
+		},
+		"euCurrencyNumberFormatButton": {
+			"title": "€ Euro (123 €)"
+		},
+		"ruCurrencyNumberFormatButton": {
+			"title": "₽ ruština"
+		},
+		"chCurrencyNumberFormatButton": {
+			"title": "¥ čínština"
+		},
+		"enInCurrencyNumberFormatButton": {
+			"title": "₹ angličtina (Indie)"
+		},
+		"fillCellsDownButton": {
+			"title": "Vyplňte"
+		},
+		"fillCellsUpButton": {
+			"title": "Vyplnit"
+		},
+		"fillCellsLeftButton": {
+			"title": "Vyplnit doleva"
+		},
+		"fillCellsRightButton": {
+			"title": "Vyplnit vpravo"
+		},
+		"noBordersButton": {
+			"title": "Žádné hranice"
+		},
+		"outsideBordersButton": {
+			"title": "Vnější hranice"
+		},
+		"bottomBorderButton": {
+			"title": "Dolní okraj"
+		},
+		"topBorderButton": {
+			"title": "Horní okraj"
+		},
+		"rightBorderButton": {
+			"title": "Pravá hranice"
+		},
+		"leftBorderButton": {
+			"title": "Levá hranice"
+		},
+		"thickBottomBorderButton": {
+			"title": "Tlustý spodní okraj"
+		},
+		"thickLeftBorderButton": {
+			"title": "Tlustý levý okraj"
+		},
+		"doubleBottomBorderButton": {
+			"title": "Dvojité spodní ohraničení"
+		},
+		"doubleLeftBorderButton": {
+			"title": "Dvojité levé ohraničení"
+		},
+		"borderColorButton": {
+			"title": "Barva ohraničení"
+		},
+		"copyLabel": {
+			"text": "Kopírovat"
+		},
+		"cutLabel": {
+			"text": "Vyjmout"
+		},
+		"pasteLabel": {
+			"text": "Vložit"
+		},
+		"clearContentsLabel": {
+			"text": "Jasný obsah"
+		},
+		"insertCellAndShiftRightLabel": {
+			"text": "Vložte buňku a posuňte se doprava"
+		},
+		"insertCellAndShiftDownLabel": {
+			"text": "Vložte buňku a posuňte se dolů"
+		},
+		"insertEntireRowLabel": {
+			"text": "Vložit celý řádek"
+		},
+		"insertEntireColumnLabel": {
+			"text": "Vložit celý sloupec"
+		},
+		"deleteImageLabel": {
+			"text": "Smazat"
+		},
+		"deleteCellAndShiftLeftLabel": {
+			"text": "Smazat buňku a přesunout se doleva"
+		},
+		"deleteCellAndShiftUpLabel": {
+			"text": "Smazat buňku a přejít nahoru"
+		},
+		"deleteEntireRowLabel": {
+			"text": "Smazat celý řádek"
+		},
+		"deleteEntireColumnLabel": {
+			"text": "Smazat celý sloupec"
+		},
+		"insertRowsLabel": {
+			"text": "Vložit řádky"
+		},
+		"deleteRowsLabel": {
+			"text": "Smazat řádky"
+		},
+		"insertColumnsLabel": {
+			"text": "Vložit sloupce"
+		},
+		"deleteColumnsLabel": {
+			"text": "Smazat sloupce"
+		},
+		"insertCommentLabel": {
+			"text": "Vložit komentář..."
+		},
+		"editCommentLabel": {
+			"text": "Upravit komentář..."
+		},
+		"deleteCommentLabel": {
+			"text": "Smazat komentář"
+		},
+		"showHideCommentLabel": {
+			"text": "Zobrazit/skrýt komentář"
+		},
+		"hideCommentLabel": {
+			"text": "Skrýt komentář"
+		},
+		"hideRowsLabel": {
+			"text": "Skrýt řádky"
+		},
+		"unhideRowsLabel": {
+			"text": "Zobrazit řádky"
+		},
+		"hideColumnsLabel": {
+			"text": "Skrýt sloupce"
+		},
+		"unhideColumnsLabel": {
+			"text": "Zobrazit sloupce"
+		},
+		"insertCommentDialog": {
+			"authorLabel": {
+				"text": "Autor:"
+			},
+			"showAuthorLabel": {
+				"text": "Zobrazit autora"
+			},
+			"commentLabel": {
+				"text": "Komentář:"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Zrušit"
+			}
+		},
+		"commentEditDialog": {
+			"authorLabel": {
+				"text": "Autor:"
+			},
+			"showAuthorLabel": {
+				"text": "Zobrazit autora"
+			},
+			"commentLabel": {
+				"text": "Komentář:"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Zrušit"
+			}
+		},
+		"renameWorksheetDialog": {
+			"nameLabel": {
+				"text": "Jméno:"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Zrušit"
+			}
+		},
+		"moveWorksheetDialog": {
+			"moveUpButton": {
+				"value": "Posunout nahoru"
+			},
+			"moveDownButton": {
+				"value": "Přesunout dolů"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Zrušit"
+			}
+		},
+		"findTextDialog": {
+			"findTextLabel": {
+				"text": "Najít text"
+			},
+			"findWhatLabel": {
+				"text": "Najít:"
+			},
+			"withinLabel": {
+				"text": "Hledat:"
+			},
+			"Sheet": {
+				"text": "Na listu"
+			},
+			"Workbook": {
+				"text": "V knize"
+			},
+			"searchLabel": {
+				"text": "Hledat:"
+			},
+			"ByRows": {
+				"text": "V řádcích"
+			},
+			"ByColumns": {
+				"text": "Ve sloupcích"
+			},
+			"lookInLabel": {
+				"text": "Oblast vyhledávání:"
+			},
+			"Formulas": {
+				"text": "Vzorce"
+			},
+			"Values": {
+				"text": "Hodnoty"
+			},
+			"Comments": {
+				"text": "Komentáře"
+			},
+			"matchCaseLabel": {
+				"text": "rozlišují se malá a velká písmena"
+			},
+			"matchEntireContentLabel": {
+				"text": "Přesná shoda"
+			},
+			"findNextButton": {
+				"value": "Najít další"
+			},
+			"closeButton": {
+				"value": "Zavřít"
+			}
+		},
+		"selectFunctionDialog": {
+			"categoryLabel": {
+				"text": "Kategorie:"
+			},
+			"categoryDropDown": {
+				"All": {
+					"text": "Vše"
+				},
+				"Financial": {
+					"text": "Finanční"
+				},
+				"DateAndTime": {
+					"text": "Datum a čas"
+				},
+				"MathAndTrig": {
+					"text": "Matematika"
+				},
+				"Statistical": {
+					"text": "Statistické"
+				},
+				"LookupAndReference": {
+					"text": "Odkazy a pole"
+				},
+				"Text": {
+					"text": "Text"
+				},
+				"Logical": {
+					"text": "Boolean"
+				},
+				"Information": {
+					"text": "Informační"
+				},
+				"Engineering": {
+					"text": "Inženýrství"
+				}
+			},
+			"selectFunctionLabel": {
+				"text": "Vyberte funkci:"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Zrušit"
+			}
+		}
+	},
+	"strings": {
+		"vssde-documentIsOpening": "Dokument se otevírá...",
+		"vssde-numberFormat-general": "Obecné",
+		"vssde-numberFormat-number": "Číselné",
+		"vssde-numberFormat-date": "Datum",
+		"vssde-numberFormat-time": "Čas",
+		"vssde-numberFormat-currency": "Peníze",
+		"vssde-numberFormat-percentage": "procento",
+		"vssde-numberFormat-scientific": "Exponenciální",
+		"vssde-numberFormat-text": "Text",
+		"vssde-numberFormat-custom": "Vlastní",
+		"vssde-findTextPanel-sheet": "Na listu",
+		"vssde-findTextPanel-workbook": "V knize",
+		"vssde-findTextPanel-byRows": "V řádcích",
+		"vssde-findTextPanel-byColumns": "Ve sloupcích",
+		"vssde-findTextPanel-formulas": "Vzorce",
+		"vssde-findTextPanel-values": "Hodnoty",
+		"vssde-findTextPanel-comments": "Komentáře",
+		"vssde-findTextPanel-textIsNotFound": "Text '{0}' nebyl nalezen.",
+		"vssde-selectFunctionPanel-all": "Vše",
+		"vssde-createXlsxDocument": "Vytvořte nový dokument XLSX",
+		"vssde-uploadXlsxFile": "Nahrajte soubor XLSX",
+		"vssde-downloadXlsxFile": "Nahrajte soubor XLSX",
+		"vssde-exportXlsxToPdf": "Export XLSX do PDF",
+		"vssde-fileSizeExceedsLimit": "Velikost nahraného souboru překračuje maximální velikost ({0} bajtů).",
+		"vssde-createXlsxDocumentConfirmation": "Chcete vytvořit nový sešit?",
+		"vssde-insertCommentDialog-title": "Vložit komentář",
+		"vssde-dialog-okButton": "OK",
+		"vssde-dialog-cancelButton": "Zrušit",
+		"vssde-editCommentDialog-title": "Upravit komentář",
+		"vssde-renameWorksheetDialog-title": "Přejmenovat list",
+		"vssde-moveWorksheetDialog-title": "Přesunout list",
+		"vssde-findTextDialog-title": "Najít text",
+		"vssde-findTextDialog-findNextButton": "Najít další",
+		"vssde-dialog-closeButton": "Zavřít",
+		"vssde-selectFunctionDialog-title": "Funkce vložení"
+	}
+}

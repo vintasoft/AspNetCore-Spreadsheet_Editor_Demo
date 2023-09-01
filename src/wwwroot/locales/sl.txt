@@ -1,0 +1,588 @@
+﻿{
+	"spreadsheetDocumentEditorControl": {
+		"fileLabel": {
+			"text": "Mapa"
+		},
+		"homeLabel": {
+			"text": "Domov"
+		},
+		"editLabel": {
+			"text": "Uredi"
+		},
+		"insertLabel": {
+			"text": "Vstavi"
+		},
+		"reviewLabel": {
+			"text": "Pregled"
+		},
+		"createXlsxDocumentButton": {
+			"title": "Ustvari nov dokument XLSX"
+		},
+		"uploadXlsxFileButton": {
+			"title": "Naložite in odprite datoteko XLSX"
+		},
+		"downloadXlsxFileButton": {
+			"title": "Prenesite datoteko XLSX"
+		},
+		"exportXlsxToPdfButton": {
+			"title": "Izvozi XLSX v PDF"
+		},
+		"showMobileMenuButton": {
+			"title": "Več"
+		},
+		"boldTextButton": {
+			"title": "Krepko besedilo"
+		},
+		"italicTextButton": {
+			"title": "Ležeče besedilo"
+		},
+		"underlineTextButton": {
+			"title": "Podčrtaj besedilo"
+		},
+		"strikethroughTextButton": {
+			"title": "Prečrtano besedilo"
+		},
+		"fontColorButton": {
+			"title": "Barva pisave"
+		},
+		"fillColorButton": {
+			"title": "Barva polnila"
+		},
+		"copyStyleButton": {
+			"title": "Stilski slikar"
+		},
+		"alignLeftButton": {
+			"title": "Poravnajte levo"
+		},
+		"alignCenterButton": {
+			"title": "Center"
+		},
+		"alignRightButton": {
+			"title": "Poravnaj desno"
+		},
+		"topAlignButton": {
+			"title": "Zgornja poravnava"
+		},
+		"middleAlignButton": {
+			"title": "Sredinska poravnava"
+		},
+		"bottomAlignButton": {
+			"title": "Poravnaj spodaj"
+		},
+		"textWrappingButton": {
+			"title": "Prelom besedila"
+		},
+		"currencyNumberFormatButton": {
+			"title": "Format številke valute"
+		},
+		"increaseDecimalButton": {
+			"title": "Povečaj decimalko"
+		},
+		"decreaseDecimalButton": {
+			"title": "Zmanjšaj decimalko"
+		},
+		"percentNumberFormatButton": {
+			"title": "Oblika odstotnega števila"
+		},
+		"numberFormatDropDown": {
+			"General": {
+				"text": "Splošno"
+			},
+			"Number": {
+				"text": "Številka"
+			},
+			"Currency": {
+				"text": "Valuta"
+			},
+			"Date": {
+				"text": "Datum"
+			},
+			"Time": {
+				"text": "Čas"
+			},
+			"Percentage": {
+				"text": "Odstotek"
+			},
+			"Scientific": {
+				"text": "Znanstveno"
+			},
+			"Text": {
+				"text": "Besedilo"
+			}
+		},
+		"showFormulasButton": {
+			"title": "Prikaži formule"
+		},
+		"searchTextButton": {
+			"title": "Iskanje besedila"
+		},
+		"undoButton": {
+			"title": "Razveljavi"
+		},
+		"redoButton": {
+			"title": "Ponovi"
+		},
+		"cutContentButton": {
+			"title": "Izrežite vsebino"
+		},
+		"copyContentButton": {
+			"title": "Kopiraj vsebino"
+		},
+		"pasteContentButton": {
+			"title": "Prilepi vsebino"
+		},
+		"clearContentButton": {
+			"title": "Jasna vsebina"
+		},
+		"clearFormatButton": {
+			"title": "Jasna oblika"
+		},
+		"deleteRowsButton": {
+			"title": "Izbriši vrstice"
+		},
+		"deleteColumnsButton": {
+			"title": "Izbriši stolpce"
+		},
+		"deleteCellsAndShiftLeftButton": {
+			"title": "Izbrišite celice in premaknite levo"
+		},
+		"deleteCellsAndShiftUpButton": {
+			"title": "Izbrišite celice in premaknite navzgor"
+		},
+		"deletePictureButton": {
+			"title": "Izbriši sliko"
+		},
+		"mergeCellsButton": {
+			"title": "Spoji celice"
+		},
+		"unmergeCellsButton": {
+			"title": "Razdruži celice"
+		},
+		"fillCells": {
+			"title": "Izpolnite celice"
+		},
+		"allBordersButton": {
+			"title": "Vse meje"
+		},
+		"thickOutsideBordersButton": {
+			"title": "Debele zunanje meje"
+		},
+		"autoFitRowHeightButton": {
+			"title": "Samodejno prilagodi višino vrstice"
+		},
+		"autoFitColumnWidthButton": {
+			"title": "Samodejno prilagodi širino stolpca"
+		},
+		"insertRowsButton": {
+			"title": "Vstavi vrstice"
+		},
+		"insertColumnsButton": {
+			"title": "Vstavi stolpce"
+		},
+		"insertCellsAndShiftRightButton": {
+			"title": "Vstavi celico in premakni desno"
+		},
+		"insertCellsAndShiftDownButton": {
+			"title": "Vstavi celico in premakni navzdol"
+		},
+		"insertSheetButton": {
+			"title": "Vstavi delovni list"
+		},
+		"insertFunctionButton": {
+			"title": "Vstavi funkcijo"
+		},
+		"insertCommentButton": {
+			"title": "Vstavi komentar"
+		},
+		"insertPictureButton": {
+			"title": "Dodaj sliko"
+		},
+		"editCommentButton": {
+			"title": "Uredi komentar"
+		},
+		"deleteCommentButton": {
+			"title": "Izbriši komentar"
+		},
+		"previousCommentButton": {
+			"title": "Prejšnji komentar"
+		},
+		"nextCommentButton": {
+			"title": "Naslednji komentar"
+		},
+		"formulaPanel-cancelChangeButton": {
+			"title": "Prekliči spremembo"
+		},
+		"formulaPanel-applyChangeButton": {
+			"title": "Uporabi spremembo"
+		},
+		"formulaPanel-fullScreenButton": {
+			"title": "Celozaslonski način"
+		},
+		"scrollToFirstWorksheetButton": {
+			"title": "Pomaknite se do prvega delovnega lista"
+		},
+		"scrollToLastWorksheetButton": {
+			"title": "Pomaknite se do zadnjega delovnega lista"
+		},
+		"addWorksheetButton": {
+			"title": "Dodaj delovni list"
+		},
+		"showWorksheetListButton": {
+			"title": "Pokaži seznam delovnih listov"
+		},
+		"copyWorksheetButton": {
+			"title": "Kopiraj delovni list"
+		},
+		"deleteWorksheetButton": {
+			"title": "Izbriši delovni list"
+		},
+		"renameWorksheetButton": {
+			"title": "Preimenuj delovni list"
+		},
+		"moveWorksheetButton": {
+			"title": "Premakni delovni list"
+		},
+		"zoomOutButton": {
+			"title": "Pomanjšanje"
+		},
+		"zoomValueLabel": {
+			"text": "100 %"
+		},
+		"zoomInButton": {
+			"title": "Približaj"
+		},
+		"enUsCurrencyNumberFormatButton": {
+			"title": "$ angleščina (ZDA)"
+		},
+		"enUkCurrencyNumberFormatButton": {
+			"title": "£ angleščina (Združeno kraljestvo)"
+		},
+		"euCurrencyNumberFormatButton": {
+			"title": "€ evro (123 €)"
+		},
+		"ruCurrencyNumberFormatButton": {
+			"title": "₽ ruski"
+		},
+		"chCurrencyNumberFormatButton": {
+			"title": "¥ kitajski"
+		},
+		"enInCurrencyNumberFormatButton": {
+			"title": "₹ angleščina (Indija)"
+		},
+		"fillCellsDownButton": {
+			"title": "Izpolni navzdol"
+		},
+		"fillCellsUpButton": {
+			"title": "Napolniti"
+		},
+		"fillCellsLeftButton": {
+			"title": "Izpolnite levo"
+		},
+		"fillCellsRightButton": {
+			"title": "Izpolni desno"
+		},
+		"noBordersButton": {
+			"title": "Brez meja"
+		},
+		"outsideBordersButton": {
+			"title": "Zunaj meja"
+		},
+		"bottomBorderButton": {
+			"title": "Spodnja meja"
+		},
+		"topBorderButton": {
+			"title": "Zgornja meja"
+		},
+		"rightBorderButton": {
+			"title": "Desna meja"
+		},
+		"leftBorderButton": {
+			"title": "Leva meja"
+		},
+		"thickBottomBorderButton": {
+			"title": "Debela spodnja obroba"
+		},
+		"thickLeftBorderButton": {
+			"title": "Debela leva obroba"
+		},
+		"doubleBottomBorderButton": {
+			"title": "Dvojna spodnja obroba"
+		},
+		"doubleLeftBorderButton": {
+			"title": "Dvojna leva obroba"
+		},
+		"borderColorButton": {
+			"title": "Barva obrobe"
+		},
+		"copyLabel": {
+			"text": "Kopirati"
+		},
+		"cutLabel": {
+			"text": "Cut"
+		},
+		"pasteLabel": {
+			"text": "Prilepi"
+		},
+		"clearContentsLabel": {
+			"text": "Počisti vsebino"
+		},
+		"insertCellAndShiftRightLabel": {
+			"text": "Vstavi celico in premakni desno"
+		},
+		"insertCellAndShiftDownLabel": {
+			"text": "Vstavi celico in premakni navzdol"
+		},
+		"insertEntireRowLabel": {
+			"text": "Vstavi celotno vrstico"
+		},
+		"insertEntireColumnLabel": {
+			"text": "Vstavi celoten stolpec"
+		},
+		"deleteImageLabel": {
+			"text": "Izbriši"
+		},
+		"deleteCellAndShiftLeftLabel": {
+			"text": "Izbriši celico in premakni levo"
+		},
+		"deleteCellAndShiftUpLabel": {
+			"text": "Izbriši celico in premakni navzgor"
+		},
+		"deleteEntireRowLabel": {
+			"text": "Izbriši celotno vrstico"
+		},
+		"deleteEntireColumnLabel": {
+			"text": "Izbriši celoten stolpec"
+		},
+		"insertRowsLabel": {
+			"text": "Vstavi vrstice"
+		},
+		"deleteRowsLabel": {
+			"text": "Izbriši vrstice"
+		},
+		"insertColumnsLabel": {
+			"text": "Vstavi stolpce"
+		},
+		"deleteColumnsLabel": {
+			"text": "Izbriši stolpce"
+		},
+		"insertCommentLabel": {
+			"text": "Vstavi komentar ..."
+		},
+		"editCommentLabel": {
+			"text": "Uredi komentar ..."
+		},
+		"deleteCommentLabel": {
+			"text": "Izbriši komentar"
+		},
+		"showHideCommentLabel": {
+			"text": "Prikaži/skrij komentar"
+		},
+		"hideCommentLabel": {
+			"text": "Skrij komentar"
+		},
+		"hideRowsLabel": {
+			"text": "Skrij vrstice"
+		},
+		"unhideRowsLabel": {
+			"text": "Razkrij vrstice"
+		},
+		"hideColumnsLabel": {
+			"text": "Skrij stolpce"
+		},
+		"unhideColumnsLabel": {
+			"text": "Razkrij stolpce"
+		},
+		"insertCommentDialog": {
+			"authorLabel": {
+				"text": "Avtor:"
+			},
+			"showAuthorLabel": {
+				"text": "Prikaži avtorja"
+			},
+			"commentLabel": {
+				"text": "Komentar:"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Prekliči"
+			}
+		},
+		"commentEditDialog": {
+			"authorLabel": {
+				"text": "Avtor:"
+			},
+			"showAuthorLabel": {
+				"text": "Prikaži avtorja"
+			},
+			"commentLabel": {
+				"text": "Komentar:"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Prekliči"
+			}
+		},
+		"renameWorksheetDialog": {
+			"nameLabel": {
+				"text": "Ime:"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Prekliči"
+			}
+		},
+		"moveWorksheetDialog": {
+			"moveUpButton": {
+				"value": "Pomakni se navzgor"
+			},
+			"moveDownButton": {
+				"value": "Premik navzdol"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Prekliči"
+			}
+		},
+		"findTextDialog": {
+			"findTextLabel": {
+				"text": "Poiščite besedilo"
+			},
+			"findWhatLabel": {
+				"text": "Najdi kaj:"
+			},
+			"withinLabel": {
+				"text": "Znotraj:"
+			},
+			"Sheet": {
+				"text": "List"
+			},
+			"Workbook": {
+				"text": "Delovni zvezek"
+			},
+			"searchLabel": {
+				"text": "Iskanje:"
+			},
+			"ByRows": {
+				"text": "Po vrsticah"
+			},
+			"ByColumns": {
+				"text": "Po stolpcih"
+			},
+			"lookInLabel": {
+				"text": "Poglej v:"
+			},
+			"Formulas": {
+				"text": "Formule"
+			},
+			"Values": {
+				"text": "Vrednote"
+			},
+			"Comments": {
+				"text": "Komentarji"
+			},
+			"matchCaseLabel": {
+				"text": "Primer vžigalice"
+			},
+			"matchEntireContentLabel": {
+				"text": "Ujemanje celotne vsebine"
+			},
+			"findNextButton": {
+				"value": "Najdi Naprej"
+			},
+			"closeButton": {
+				"value": "Zapri"
+			}
+		},
+		"selectFunctionDialog": {
+			"categoryLabel": {
+				"text": "Kategorija:"
+			},
+			"categoryDropDown": {
+				"All": {
+					"text": "Vse"
+				},
+				"Financial": {
+					"text": "Finančna"
+				},
+				"DateAndTime": {
+					"text": "Datum in čas"
+				},
+				"MathAndTrig": {
+					"text": "Matematika in trigonometrija"
+				},
+				"Statistical": {
+					"text": "Statistični"
+				},
+				"LookupAndReference": {
+					"text": "Iskanje in referenca"
+				},
+				"Text": {
+					"text": "Besedilo"
+				},
+				"Logical": {
+					"text": "Logično"
+				},
+				"Information": {
+					"text": "Informacije"
+				},
+				"Engineering": {
+					"text": "Inženiring"
+				}
+			},
+			"selectFunctionLabel": {
+				"text": "Izberite funkcijo:"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Prekliči"
+			}
+		}
+	},
+	"strings": {
+		"vssde-documentIsOpening": "Dokument se odpira ...",
+		"vssde-numberFormat-general": "Splošno",
+		"vssde-numberFormat-number": "Številka",
+		"vssde-numberFormat-date": "Datum",
+		"vssde-numberFormat-time": "Čas",
+		"vssde-numberFormat-currency": "Valuta",
+		"vssde-numberFormat-percentage": "Odstotek",
+		"vssde-numberFormat-scientific": "Znanstveno",
+		"vssde-numberFormat-text": "Besedilo",
+		"vssde-numberFormat-custom": "Po meri",
+		"vssde-findTextPanel-sheet": "List",
+		"vssde-findTextPanel-workbook": "Delovni zvezek",
+		"vssde-findTextPanel-byRows": "Po vrsticah",
+		"vssde-findTextPanel-byColumns": "Po stolpcih",
+		"vssde-findTextPanel-formulas": "Formule",
+		"vssde-findTextPanel-values": "Vrednote",
+		"vssde-findTextPanel-comments": "Komentarji",
+		"vssde-findTextPanel-textIsNotFound": "Besedila '{0}' ni mogoče najti.",
+		"vssde-selectFunctionPanel-all": "Vse",
+		"vssde-createXlsxDocument": "Ustvari nov dokument XLSX",
+		"vssde-uploadXlsxFile": "Naloži datoteko XLSX",
+		"vssde-downloadXlsxFile": "Prenesite datoteko XLSX",
+		"vssde-exportXlsxToPdf": "Izvozi XLSX v PDF",
+		"vssde-fileSizeExceedsLimit": "Velikost naložene datoteke presega največjo velikost ({0} bajtov).",
+		"vssde-createXlsxDocumentConfirmation": "Želite ustvariti nov delovni zvezek?",
+		"vssde-insertCommentDialog-title": "Vstavi komentar",
+		"vssde-dialog-okButton": "OK",
+		"vssde-dialog-cancelButton": "Prekliči",
+		"vssde-editCommentDialog-title": "Uredi komentar",
+		"vssde-renameWorksheetDialog-title": "Preimenuj delovni list",
+		"vssde-moveWorksheetDialog-title": "Premakni delovni list",
+		"vssde-findTextDialog-title": "Poiščite besedilo",
+		"vssde-findTextDialog-findNextButton": "Najdi Naprej",
+		"vssde-dialog-closeButton": "Zapri",
+		"vssde-selectFunctionDialog-title": "Vstavi funkcijo"
+	}
+}

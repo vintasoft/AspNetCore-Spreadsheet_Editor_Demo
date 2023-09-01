@@ -1,0 +1,588 @@
+﻿{
+	"spreadsheetDocumentEditorControl": {
+		"fileLabel": {
+			"text": "Lêer"
+		},
+		"homeLabel": {
+			"text": "Hoof"
+		},
+		"editLabel": {
+			"text": "Redigeer"
+		},
+		"insertLabel": {
+			"text": "Voeg in"
+		},
+		"reviewLabel": {
+			"text": "Kommentaar"
+		},
+		"createXlsxDocumentButton": {
+			"title": "Skep nuwe XLSX-dokument"
+		},
+		"uploadXlsxFileButton": {
+			"title": "Laai XLSX-lêer af en maak oop"
+		},
+		"downloadXlsxFileButton": {
+			"title": "Laai XLSX-lêer op"
+		},
+		"exportXlsxToPdfButton": {
+			"title": "Voer XLSX uit na PDF"
+		},
+		"showMobileMenuButton": {
+			"title": "Meer"
+		},
+		"boldTextButton": {
+			"title": "vetgedruk"
+		},
+		"italicTextButton": {
+			"title": "kursief"
+		},
+		"underlineTextButton": {
+			"title": "Onderstreep"
+		},
+		"strikethroughTextButton": {
+			"title": "Gekruis"
+		},
+		"fontColorButton": {
+			"title": "Lettertipe kleur"
+		},
+		"fillColorButton": {
+			"title": "Vulkleur"
+		},
+		"copyStyleButton": {
+			"title": "Styl skilder"
+		},
+		"alignLeftButton": {
+			"title": "Belyn links"
+		},
+		"alignCenterButton": {
+			"title": "Belyn sentrum"
+		},
+		"alignRightButton": {
+			"title": "Belyn regs"
+		},
+		"topAlignButton": {
+			"title": "Belyn bo"
+		},
+		"middleAlignButton": {
+			"title": "Belyn sentrum"
+		},
+		"bottomAlignButton": {
+			"title": "Belyn onder"
+		},
+		"textWrappingButton": {
+			"title": "Wrap teks"
+		},
+		"currencyNumberFormatButton": {
+			"title": "Finansiële nommerformaat"
+		},
+		"increaseDecimalButton": {
+			"title": "Verhoog desimale"
+		},
+		"decreaseDecimalButton": {
+			"title": "Verminder desimale"
+		},
+		"percentNumberFormatButton": {
+			"title": "Persentasie-formaat"
+		},
+		"numberFormatDropDown": {
+			"General": {
+				"text": "Algemeen"
+			},
+			"Number": {
+				"text": "Numeries"
+			},
+			"Currency": {
+				"text": "Geld"
+			},
+			"Date": {
+				"text": "Datum"
+			},
+			"Time": {
+				"text": "Tyd"
+			},
+			"Percentage": {
+				"text": "Persentasie"
+			},
+			"Scientific": {
+				"text": "Eksponensieel"
+			},
+			"Text": {
+				"text": "Teks"
+			}
+		},
+		"showFormulasButton": {
+			"title": "Wys formules"
+		},
+		"searchTextButton": {
+			"title": "Vind teks"
+		},
+		"undoButton": {
+			"title": "Kanselleer"
+		},
+		"redoButton": {
+			"title": "Herhaal"
+		},
+		"cutContentButton": {
+			"title": "Sny inhoud"
+		},
+		"copyContentButton": {
+			"title": "Kopieer inhoud"
+		},
+		"pasteContentButton": {
+			"title": "Plak inhoud"
+		},
+		"clearContentButton": {
+			"title": "Duidelike inhoud"
+		},
+		"clearFormatButton": {
+			"title": "Vee formaat uit"
+		},
+		"deleteRowsButton": {
+			"title": "Vee rye uit"
+		},
+		"deleteColumnsButton": {
+			"title": "Vee kolomme uit"
+		},
+		"deleteCellsAndShiftLeftButton": {
+			"title": "Vee selle uit en skuif links"
+		},
+		"deleteCellsAndShiftUpButton": {
+			"title": "Vee selle uit en skuif op"
+		},
+		"deletePictureButton": {
+			"title": "Vee prent uit"
+		},
+		"mergeCellsButton": {
+			"title": "Voeg selle saam"
+		},
+		"unmergeCellsButton": {
+			"title": "Ontbind selle"
+		},
+		"fillCells": {
+			"title": "Vul selle"
+		},
+		"allBordersButton": {
+			"title": "Alle grense"
+		},
+		"thickOutsideBordersButton": {
+			"title": "Dik buitenste rande"
+		},
+		"autoFitRowHeightButton": {
+			"title": "Pas die ryhoogte outomaties aan"
+		},
+		"autoFitColumnWidthButton": {
+			"title": "Pas die kolomwydte outomaties aan"
+		},
+		"insertRowsButton": {
+			"title": "Voeg rye in"
+		},
+		"insertColumnsButton": {
+			"title": "Voeg kolomme in"
+		},
+		"insertCellsAndShiftRightButton": {
+			"title": "Voeg sel in en beweeg regs"
+		},
+		"insertCellsAndShiftDownButton": {
+			"title": "Voeg sel in en beweeg af"
+		},
+		"insertSheetButton": {
+			"title": "Voeg blad in"
+		},
+		"insertFunctionButton": {
+			"title": "Voeg funksie in"
+		},
+		"insertCommentButton": {
+			"title": "Voeg opmerking in"
+		},
+		"insertPictureButton": {
+			"title": "Voeg prentjie by"
+		},
+		"editCommentButton": {
+			"title": "Wysig opmerking"
+		},
+		"deleteCommentButton": {
+			"title": "Vee opmerking uit"
+		},
+		"previousCommentButton": {
+			"title": "Vorige opmerking"
+		},
+		"nextCommentButton": {
+			"title": "Volgende opmerking"
+		},
+		"formulaPanel-cancelChangeButton": {
+			"title": "Stel veranderinge terug"
+		},
+		"formulaPanel-applyChangeButton": {
+			"title": "Pas veranderinge toe"
+		},
+		"formulaPanel-fullScreenButton": {
+			"title": "Volskerm"
+		},
+		"scrollToFirstWorksheetButton": {
+			"title": "Blaai na eerste blad"
+		},
+		"scrollToLastWorksheetButton": {
+			"title": "Blaai na laaste blad"
+		},
+		"addWorksheetButton": {
+			"title": "Voeg blad by"
+		},
+		"showWorksheetListButton": {
+			"title": "Wys vellys"
+		},
+		"copyWorksheetButton": {
+			"title": "Kopieer blad"
+		},
+		"deleteWorksheetButton": {
+			"title": "Vee blad uit"
+		},
+		"renameWorksheetButton": {
+			"title": "Hernoem blad"
+		},
+		"moveWorksheetButton": {
+			"title": "Skuif blad"
+		},
+		"zoomOutButton": {
+			"title": "Zoom uit"
+		},
+		"zoomValueLabel": {
+			"text": "100%"
+		},
+		"zoomInButton": {
+			"title": "Zoom in"
+		},
+		"enUsCurrencyNumberFormatButton": {
+			"title": "$ Engels (VSA)"
+		},
+		"enUkCurrencyNumberFormatButton": {
+			"title": "£ Engels (Verenigde Koninkryk)"
+		},
+		"euCurrencyNumberFormatButton": {
+			"title": "€ Euro (€ 123)"
+		},
+		"ruCurrencyNumberFormatButton": {
+			"title": "₽ Russies"
+		},
+		"chCurrencyNumberFormatButton": {
+			"title": "¥ Sjinees"
+		},
+		"enInCurrencyNumberFormatButton": {
+			"title": "₹ Engels (Indië)"
+		},
+		"fillCellsDownButton": {
+			"title": "Vul af"
+		},
+		"fillCellsUpButton": {
+			"title": "Vul op"
+		},
+		"fillCellsLeftButton": {
+			"title": "Vul links in"
+		},
+		"fillCellsRightButton": {
+			"title": "Vul regs in"
+		},
+		"noBordersButton": {
+			"title": "Geen grense nie"
+		},
+		"outsideBordersButton": {
+			"title": "Buitenste grense"
+		},
+		"bottomBorderButton": {
+			"title": "Onderste grens"
+		},
+		"topBorderButton": {
+			"title": "Bogrens"
+		},
+		"rightBorderButton": {
+			"title": "Regtergrens"
+		},
+		"leftBorderButton": {
+			"title": "Linkergrens"
+		},
+		"thickBottomBorderButton": {
+			"title": "Dik onderste rand"
+		},
+		"thickLeftBorderButton": {
+			"title": "Dik linkerrand"
+		},
+		"doubleBottomBorderButton": {
+			"title": "Dubbel onderrand"
+		},
+		"doubleLeftBorderButton": {
+			"title": "Dubbele linkerrand"
+		},
+		"borderColorButton": {
+			"title": "Rand kleur"
+		},
+		"copyLabel": {
+			"text": "Kopieer"
+		},
+		"cutLabel": {
+			"text": "Sny"
+		},
+		"pasteLabel": {
+			"text": "Plak"
+		},
+		"clearContentsLabel": {
+			"text": "Maak inhoud skoon"
+		},
+		"insertCellAndShiftRightLabel": {
+			"text": "Voeg sel in en beweeg regs"
+		},
+		"insertCellAndShiftDownLabel": {
+			"text": "Voeg sel in en beweeg af"
+		},
+		"insertEntireRowLabel": {
+			"text": "Voeg hele reël in"
+		},
+		"insertEntireColumnLabel": {
+			"text": "Voeg hele kolom in"
+		},
+		"deleteImageLabel": {
+			"text": "Vee uit"
+		},
+		"deleteCellAndShiftLeftLabel": {
+			"text": "Vee sel uit en beweeg links"
+		},
+		"deleteCellAndShiftUpLabel": {
+			"text": "Vee sel uit en beweeg op"
+		},
+		"deleteEntireRowLabel": {
+			"text": "Vee hele reël uit"
+		},
+		"deleteEntireColumnLabel": {
+			"text": "Vee hele kolom uit"
+		},
+		"insertRowsLabel": {
+			"text": "Voeg rye in"
+		},
+		"deleteRowsLabel": {
+			"text": "Vee rye uit"
+		},
+		"insertColumnsLabel": {
+			"text": "Voeg kolomme in"
+		},
+		"deleteColumnsLabel": {
+			"text": "Vee kolomme uit"
+		},
+		"insertCommentLabel": {
+			"text": "Voeg opmerking in..."
+		},
+		"editCommentLabel": {
+			"text": "Wysig opmerking..."
+		},
+		"deleteCommentLabel": {
+			"text": "Vee opmerking uit"
+		},
+		"showHideCommentLabel": {
+			"text": "Wys/Versteek opmerking"
+		},
+		"hideCommentLabel": {
+			"text": "Versteek opmerking"
+		},
+		"hideRowsLabel": {
+			"text": "Versteek rye"
+		},
+		"unhideRowsLabel": {
+			"text": "Wys rye"
+		},
+		"hideColumnsLabel": {
+			"text": "Versteek kolomme"
+		},
+		"unhideColumnsLabel": {
+			"text": "Wys kolomme"
+		},
+		"insertCommentDialog": {
+			"authorLabel": {
+				"text": "Skrywer:"
+			},
+			"showAuthorLabel": {
+				"text": "Wys skrywer"
+			},
+			"commentLabel": {
+				"text": "Opmerking:"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Kanselleer"
+			}
+		},
+		"commentEditDialog": {
+			"authorLabel": {
+				"text": "Skrywer:"
+			},
+			"showAuthorLabel": {
+				"text": "Wys skrywer"
+			},
+			"commentLabel": {
+				"text": "Opmerking:"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Kanselleer"
+			}
+		},
+		"renameWorksheetDialog": {
+			"nameLabel": {
+				"text": "Naam:"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Kanselleer"
+			}
+		},
+		"moveWorksheetDialog": {
+			"moveUpButton": {
+				"value": "Beweeg op"
+			},
+			"moveDownButton": {
+				"value": "Beweeg af"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Kanselleer"
+			}
+		},
+		"findTextDialog": {
+			"findTextLabel": {
+				"text": "Vind teks"
+			},
+			"findWhatLabel": {
+				"text": "Vind:"
+			},
+			"withinLabel": {
+				"text": "Soek vir:"
+			},
+			"Sheet": {
+				"text": "Op blad"
+			},
+			"Workbook": {
+				"text": "In die boek"
+			},
+			"searchLabel": {
+				"text": "Soek vir:"
+			},
+			"ByRows": {
+				"text": "In reëls"
+			},
+			"ByColumns": {
+				"text": "In kolomme"
+			},
+			"lookInLabel": {
+				"text": "Soekgebied:"
+			},
+			"Formulas": {
+				"text": "Formules"
+			},
+			"Values": {
+				"text": "Waardes"
+			},
+			"Comments": {
+				"text": "Kommentaar"
+			},
+			"matchCaseLabel": {
+				"text": "hooflettergevoelig"
+			},
+			"matchEntireContentLabel": {
+				"text": "Presiese passing"
+			},
+			"findNextButton": {
+				"value": "Vind volgende"
+			},
+			"closeButton": {
+				"value": "Maak toe"
+			}
+		},
+		"selectFunctionDialog": {
+			"categoryLabel": {
+				"text": "Kategorie:"
+			},
+			"categoryDropDown": {
+				"All": {
+					"text": "Almal"
+				},
+				"Financial": {
+					"text": "Finansieel"
+				},
+				"DateAndTime": {
+					"text": "Datum en tyd"
+				},
+				"MathAndTrig": {
+					"text": "Wiskunde"
+				},
+				"Statistical": {
+					"text": "Statisties"
+				},
+				"LookupAndReference": {
+					"text": "Verwysings en skikkings"
+				},
+				"Text": {
+					"text": "Teks"
+				},
+				"Logical": {
+					"text": "Boolean"
+				},
+				"Information": {
+					"text": "Informatief"
+				},
+				"Engineering": {
+					"text": "Ingenieurswese"
+				}
+			},
+			"selectFunctionLabel": {
+				"text": "Kies 'n funksie:"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Kanselleer"
+			}
+		}
+	},
+	"strings": {
+		"vssde-documentIsOpening": "Dokument word oopgemaak...",
+		"vssde-numberFormat-general": "Algemeen",
+		"vssde-numberFormat-number": "Numeries",
+		"vssde-numberFormat-date": "Datum",
+		"vssde-numberFormat-time": "Tyd",
+		"vssde-numberFormat-currency": "Geld",
+		"vssde-numberFormat-percentage": "Persentasie",
+		"vssde-numberFormat-scientific": "Eksponensieel",
+		"vssde-numberFormat-text": "Teks",
+		"vssde-numberFormat-custom": "Gepasmaak",
+		"vssde-findTextPanel-sheet": "Op blad",
+		"vssde-findTextPanel-workbook": "In die boek",
+		"vssde-findTextPanel-byRows": "In reëls",
+		"vssde-findTextPanel-byColumns": "In kolomme",
+		"vssde-findTextPanel-formulas": "Formules",
+		"vssde-findTextPanel-values": "Waardes",
+		"vssde-findTextPanel-comments": "Kommentaar",
+		"vssde-findTextPanel-textIsNotFound": "Teks '{0}' is nie gevind nie.",
+		"vssde-selectFunctionPanel-all": "Almal",
+		"vssde-createXlsxDocument": "Skep nuwe XLSX-dokument",
+		"vssde-uploadXlsxFile": "Laai XLSX-lêer op",
+		"vssde-downloadXlsxFile": "Laai XLSX-lêer op",
+		"vssde-exportXlsxToPdf": "Voer XLSX uit na PDF",
+		"vssde-fileSizeExceedsLimit": "Die grootte van opgelaaide lêer oorskry die maksimum grootte ({0} grepe).",
+		"vssde-createXlsxDocumentConfirmation": "Wil jy 'n nuwe werkboek skep?",
+		"vssde-insertCommentDialog-title": "Voeg opmerking in",
+		"vssde-dialog-okButton": "OK",
+		"vssde-dialog-cancelButton": "Kanselleer",
+		"vssde-editCommentDialog-title": "Wysig opmerking",
+		"vssde-renameWorksheetDialog-title": "Hernoem blad",
+		"vssde-moveWorksheetDialog-title": "Skuif blad",
+		"vssde-findTextDialog-title": "Vind teks",
+		"vssde-findTextDialog-findNextButton": "Vind volgende",
+		"vssde-dialog-closeButton": "Maak toe",
+		"vssde-selectFunctionDialog-title": "Voeg funksie in"
+	}
+}

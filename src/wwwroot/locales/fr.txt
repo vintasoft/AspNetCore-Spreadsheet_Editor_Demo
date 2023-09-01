@@ -1,0 +1,588 @@
+﻿{
+	"spreadsheetDocumentEditorControl": {
+		"fileLabel": {
+			"text": "Fichier"
+		},
+		"homeLabel": {
+			"text": "Principal"
+		},
+		"editLabel": {
+			"text": "Modification"
+		},
+		"insertLabel": {
+			"text": "Insérer"
+		},
+		"reviewLabel": {
+			"text": "Commentaires"
+		},
+		"createXlsxDocumentButton": {
+			"title": "Créer un nouveau document XLSX"
+		},
+		"uploadXlsxFileButton": {
+			"title": "Télécharger et ouvrir le fichier XLSX"
+		},
+		"downloadXlsxFileButton": {
+			"title": "Télécharger le fichier XLSX"
+		},
+		"exportXlsxToPdfButton": {
+			"title": "Exporter XLSX en PDF"
+		},
+		"showMobileMenuButton": {
+			"title": "Plus"
+		},
+		"boldTextButton": {
+			"title": "Gras"
+		},
+		"italicTextButton": {
+			"title": "Italique"
+		},
+		"underlineTextButton": {
+			"title": "Souligné"
+		},
+		"strikethroughTextButton": {
+			"title": "Croisé"
+		},
+		"fontColorButton": {
+			"title": "Couleur de la police"
+		},
+		"fillColorButton": {
+			"title": "Couleur de remplissage"
+		},
+		"copyStyleButton": {
+			"title": "Peintre de styles"
+		},
+		"alignLeftButton": {
+			"title": "Aligner à gauche"
+		},
+		"alignCenterButton": {
+			"title": "Aligner au centre"
+		},
+		"alignRightButton": {
+			"title": "Aligner à droite"
+		},
+		"topAlignButton": {
+			"title": "Aligner en haut"
+		},
+		"middleAlignButton": {
+			"title": "Aligner au centre"
+		},
+		"bottomAlignButton": {
+			"title": "Aligner en bas"
+		},
+		"textWrappingButton": {
+			"title": "Envelopper le texte"
+		},
+		"currencyNumberFormatButton": {
+			"title": "Format du numéro financier"
+		},
+		"increaseDecimalButton": {
+			"title": "Augmenter la décimale"
+		},
+		"decreaseDecimalButton": {
+			"title": "Diminuer la décimale"
+		},
+		"percentNumberFormatButton": {
+			"title": "Format de pourcentage"
+		},
+		"numberFormatDropDown": {
+			"General": {
+				"text": "Général"
+			},
+			"Number": {
+				"text": "Numérique"
+			},
+			"Currency": {
+				"text": "Argent"
+			},
+			"Date": {
+				"text": "Date"
+			},
+			"Time": {
+				"text": "Heure"
+			},
+			"Percentage": {
+				"text": "Pourcentage"
+			},
+			"Scientific": {
+				"text": "Exponentielle"
+			},
+			"Text": {
+				"text": "Texte"
+			}
+		},
+		"showFormulasButton": {
+			"title": "Afficher les formules"
+		},
+		"searchTextButton": {
+			"title": "Rechercher du texte"
+		},
+		"undoButton": {
+			"title": "Annuler"
+		},
+		"redoButton": {
+			"title": "Répéter"
+		},
+		"cutContentButton": {
+			"title": "Couper le contenu"
+		},
+		"copyContentButton": {
+			"title": "Copier le contenu"
+		},
+		"pasteContentButton": {
+			"title": "Coller le contenu"
+		},
+		"clearContentButton": {
+			"title": "Contenu clair"
+		},
+		"clearFormatButton": {
+			"title": "Effacer le format"
+		},
+		"deleteRowsButton": {
+			"title": "Supprimer des lignes"
+		},
+		"deleteColumnsButton": {
+			"title": "Supprimer les colonnes"
+		},
+		"deleteCellsAndShiftLeftButton": {
+			"title": "Supprimer les cellules et décaler vers la gauche"
+		},
+		"deleteCellsAndShiftUpButton": {
+			"title": "Supprimer des cellules et passer au niveau supérieur"
+		},
+		"deletePictureButton": {
+			"title": "Supprimer l'image"
+		},
+		"mergeCellsButton": {
+			"title": "Fusionner des cellules"
+		},
+		"unmergeCellsButton": {
+			"title": "Annuler la fusion des cellules"
+		},
+		"fillCells": {
+			"title": "Remplir les cellules"
+		},
+		"allBordersButton": {
+			"title": "Toutes les bordures"
+		},
+		"thickOutsideBordersButton": {
+			"title": "Bordures extérieures épaisses"
+		},
+		"autoFitRowHeightButton": {
+			"title": "Ajuster automatiquement la hauteur de ligne"
+		},
+		"autoFitColumnWidthButton": {
+			"title": "Ajuster automatiquement la largeur de la colonne"
+		},
+		"insertRowsButton": {
+			"title": "Insérer des lignes"
+		},
+		"insertColumnsButton": {
+			"title": "Insérer des colonnes"
+		},
+		"insertCellsAndShiftRightButton": {
+			"title": "Insérer une cellule et se déplacer vers la droite"
+		},
+		"insertCellsAndShiftDownButton": {
+			"title": "Insérer une cellule et descendre"
+		},
+		"insertSheetButton": {
+			"title": "Insérer une feuille"
+		},
+		"insertFunctionButton": {
+			"title": "Insérer une fonction"
+		},
+		"insertCommentButton": {
+			"title": "Insérer un commentaire"
+		},
+		"insertPictureButton": {
+			"title": "Ajouter une image"
+		},
+		"editCommentButton": {
+			"title": "Modifier le commentaire"
+		},
+		"deleteCommentButton": {
+			"title": "Supprimer le commentaire"
+		},
+		"previousCommentButton": {
+			"title": "Commentaire précédent"
+		},
+		"nextCommentButton": {
+			"title": "Commentaire suivant"
+		},
+		"formulaPanel-cancelChangeButton": {
+			"title": "Annuler les modifications"
+		},
+		"formulaPanel-applyChangeButton": {
+			"title": "Appliquer les modifications"
+		},
+		"formulaPanel-fullScreenButton": {
+			"title": "Plein écran"
+		},
+		"scrollToFirstWorksheetButton": {
+			"title": "Faites défiler jusqu'à la première feuille"
+		},
+		"scrollToLastWorksheetButton": {
+			"title": "Faire défiler jusqu'à la dernière feuille"
+		},
+		"addWorksheetButton": {
+			"title": "Ajouter une feuille"
+		},
+		"showWorksheetListButton": {
+			"title": "Afficher la liste des feuilles"
+		},
+		"copyWorksheetButton": {
+			"title": "Copier la feuille"
+		},
+		"deleteWorksheetButton": {
+			"title": "Supprimer la feuille"
+		},
+		"renameWorksheetButton": {
+			"title": "Renommer la feuille"
+		},
+		"moveWorksheetButton": {
+			"title": "Déplacer la feuille"
+		},
+		"zoomOutButton": {
+			"title": "Zoom arrière"
+		},
+		"zoomValueLabel": {
+			"text": "100%"
+		},
+		"zoomInButton": {
+			"title": "Zoomer"
+		},
+		"enUsCurrencyNumberFormatButton": {
+			"title": "$ Anglais (États-Unis)"
+		},
+		"enUkCurrencyNumberFormatButton": {
+			"title": "£ Anglais (Royaume-Uni)"
+		},
+		"euCurrencyNumberFormatButton": {
+			"title": "€ Euro (123 €)"
+		},
+		"ruCurrencyNumberFormatButton": {
+			"title": "₽ Russe"
+		},
+		"chCurrencyNumberFormatButton": {
+			"title": "¥ Chinois"
+		},
+		"enInCurrencyNumberFormatButton": {
+			"title": "₹ Anglais (Inde)"
+		},
+		"fillCellsDownButton": {
+			"title": "Remplir"
+		},
+		"fillCellsUpButton": {
+			"title": "Remplir"
+		},
+		"fillCellsLeftButton": {
+			"title": "Remplir à gauche"
+		},
+		"fillCellsRightButton": {
+			"title": "Remplir à droite"
+		},
+		"noBordersButton": {
+			"title": "Pas de frontières"
+		},
+		"outsideBordersButton": {
+			"title": "Bords extérieurs"
+		},
+		"bottomBorderButton": {
+			"title": "Bordure inférieure"
+		},
+		"topBorderButton": {
+			"title": "Bordure supérieure"
+		},
+		"rightBorderButton": {
+			"title": "Bordure droite"
+		},
+		"leftBorderButton": {
+			"title": "Bordure gauche"
+		},
+		"thickBottomBorderButton": {
+			"title": "Bordure inférieure épaisse"
+		},
+		"thickLeftBorderButton": {
+			"title": "Bordure gauche épaisse"
+		},
+		"doubleBottomBorderButton": {
+			"title": "Double bordure inférieure"
+		},
+		"doubleLeftBorderButton": {
+			"title": "Double bordure gauche"
+		},
+		"borderColorButton": {
+			"title": "Couleur de la bordure"
+		},
+		"copyLabel": {
+			"text": "Copier"
+		},
+		"cutLabel": {
+			"text": "Coupé"
+		},
+		"pasteLabel": {
+			"text": "Coller"
+		},
+		"clearContentsLabel": {
+			"text": "Effacer le contenu"
+		},
+		"insertCellAndShiftRightLabel": {
+			"text": "Insérer une cellule et se déplacer vers la droite"
+		},
+		"insertCellAndShiftDownLabel": {
+			"text": "Insérer une cellule et descendre"
+		},
+		"insertEntireRowLabel": {
+			"text": "Insérer une ligne entière"
+		},
+		"insertEntireColumnLabel": {
+			"text": "Insérer la colonne entière"
+		},
+		"deleteImageLabel": {
+			"text": "Supprimer"
+		},
+		"deleteCellAndShiftLeftLabel": {
+			"text": "Supprimer la cellule et déplacer vers la gauche"
+		},
+		"deleteCellAndShiftUpLabel": {
+			"text": "Supprimer la cellule et remonter"
+		},
+		"deleteEntireRowLabel": {
+			"text": "Supprimer toute la ligne"
+		},
+		"deleteEntireColumnLabel": {
+			"text": "Supprimer toute la colonne"
+		},
+		"insertRowsLabel": {
+			"text": "Insérer des lignes"
+		},
+		"deleteRowsLabel": {
+			"text": "Supprimer des lignes"
+		},
+		"insertColumnsLabel": {
+			"text": "Insérer des colonnes"
+		},
+		"deleteColumnsLabel": {
+			"text": "Supprimer les colonnes"
+		},
+		"insertCommentLabel": {
+			"text": "Insérer un commentaire..."
+		},
+		"editCommentLabel": {
+			"text": "Modifier le commentaire..."
+		},
+		"deleteCommentLabel": {
+			"text": "Supprimer le commentaire"
+		},
+		"showHideCommentLabel": {
+			"text": "Afficher/Masquer le commentaire"
+		},
+		"hideCommentLabel": {
+			"text": "Masquer le commentaire"
+		},
+		"hideRowsLabel": {
+			"text": "Masquer les lignes"
+		},
+		"unhideRowsLabel": {
+			"text": "Afficher les lignes"
+		},
+		"hideColumnsLabel": {
+			"text": "Masquer les colonnes"
+		},
+		"unhideColumnsLabel": {
+			"text": "Afficher les colonnes"
+		},
+		"insertCommentDialog": {
+			"authorLabel": {
+				"text": "Auteur:"
+			},
+			"showAuthorLabel": {
+				"text": "Afficher l'auteur"
+			},
+			"commentLabel": {
+				"text": "Commentaire:"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Annuler"
+			}
+		},
+		"commentEditDialog": {
+			"authorLabel": {
+				"text": "Auteur:"
+			},
+			"showAuthorLabel": {
+				"text": "Afficher l'auteur"
+			},
+			"commentLabel": {
+				"text": "Commentaire:"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Annuler"
+			}
+		},
+		"renameWorksheetDialog": {
+			"nameLabel": {
+				"text": "Nom:"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Annuler"
+			}
+		},
+		"moveWorksheetDialog": {
+			"moveUpButton": {
+				"value": "Monter"
+			},
+			"moveDownButton": {
+				"value": "Déplacer vers le bas"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Annuler"
+			}
+		},
+		"findTextDialog": {
+			"findTextLabel": {
+				"text": "Rechercher du texte"
+			},
+			"findWhatLabel": {
+				"text": "Rechercher:"
+			},
+			"withinLabel": {
+				"text": "Rechercher:"
+			},
+			"Sheet": {
+				"text": "Sur feuille"
+			},
+			"Workbook": {
+				"text": "Dans le livre"
+			},
+			"searchLabel": {
+				"text": "Rechercher:"
+			},
+			"ByRows": {
+				"text": "En lignes"
+			},
+			"ByColumns": {
+				"text": "En colonnes"
+			},
+			"lookInLabel": {
+				"text": "Zone de recherche:"
+			},
+			"Formulas": {
+				"text": "Formules"
+			},
+			"Values": {
+				"text": "Valeurs"
+			},
+			"Comments": {
+				"text": "Commentaires"
+			},
+			"matchCaseLabel": {
+				"text": "sensible à la casse"
+			},
+			"matchEntireContentLabel": {
+				"text": "Correspondance exacte"
+			},
+			"findNextButton": {
+				"value": "Rechercher suivant"
+			},
+			"closeButton": {
+				"value": "Fermer"
+			}
+		},
+		"selectFunctionDialog": {
+			"categoryLabel": {
+				"text": "Catégorie:"
+			},
+			"categoryDropDown": {
+				"All": {
+					"text": "Tous"
+				},
+				"Financial": {
+					"text": "Finance"
+				},
+				"DateAndTime": {
+					"text": "Date et heure"
+				},
+				"MathAndTrig": {
+					"text": "Mathématiques"
+				},
+				"Statistical": {
+					"text": "Statistique"
+				},
+				"LookupAndReference": {
+					"text": "Références et tableaux"
+				},
+				"Text": {
+					"text": "Texte"
+				},
+				"Logical": {
+					"text": "Booléen"
+				},
+				"Information": {
+					"text": "Informationnel"
+				},
+				"Engineering": {
+					"text": "Ingénierie"
+				}
+			},
+			"selectFunctionLabel": {
+				"text": "Sélectionnez une fonction:"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Annuler"
+			}
+		}
+	},
+	"strings": {
+		"vssde-documentIsOpening": "Le document s'ouvre...",
+		"vssde-numberFormat-general": "Général",
+		"vssde-numberFormat-number": "Numérique",
+		"vssde-numberFormat-date": "Date",
+		"vssde-numberFormat-time": "Heure",
+		"vssde-numberFormat-currency": "Argent",
+		"vssde-numberFormat-percentage": "Pourcentage",
+		"vssde-numberFormat-scientific": "Exponentielle",
+		"vssde-numberFormat-text": "Texte",
+		"vssde-numberFormat-custom": "Personnalisé",
+		"vssde-findTextPanel-sheet": "Sur feuille",
+		"vssde-findTextPanel-workbook": "Dans le livre",
+		"vssde-findTextPanel-byRows": "En lignes",
+		"vssde-findTextPanel-byColumns": "En colonnes",
+		"vssde-findTextPanel-formulas": "Formules",
+		"vssde-findTextPanel-values": "Valeurs",
+		"vssde-findTextPanel-comments": "Commentaires",
+		"vssde-findTextPanel-textIsNotFound": "Le texte '{0}' est introuvable.",
+		"vssde-selectFunctionPanel-all": "Tous",
+		"vssde-createXlsxDocument": "Créer un nouveau document XLSX",
+		"vssde-uploadXlsxFile": "Téléchargez le fichier XLSX",
+		"vssde-downloadXlsxFile": "Télécharger le fichier XLSX",
+		"vssde-exportXlsxToPdf": "Exporter XLSX en PDF",
+		"vssde-fileSizeExceedsLimit": "La taille du fichier téléchargé dépasse la taille maximale ({0} octets).",
+		"vssde-createXlsxDocumentConfirmation": "Vous souhaitez créer un nouveau classeur ?",
+		"vssde-insertCommentDialog-title": "Insérer un commentaire",
+		"vssde-dialog-okButton": "OK",
+		"vssde-dialog-cancelButton": "Annuler",
+		"vssde-editCommentDialog-title": "Modifier le commentaire",
+		"vssde-renameWorksheetDialog-title": "Renommer la feuille",
+		"vssde-moveWorksheetDialog-title": "Déplacer la feuille",
+		"vssde-findTextDialog-title": "Rechercher du texte",
+		"vssde-findTextDialog-findNextButton": "Rechercher suivant",
+		"vssde-dialog-closeButton": "Fermer",
+		"vssde-selectFunctionDialog-title": "Insérer une fonction"
+	}
+}

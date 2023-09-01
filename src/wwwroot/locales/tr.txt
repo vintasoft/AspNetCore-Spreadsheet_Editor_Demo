@@ -1,0 +1,588 @@
+﻿{
+	"spreadsheetDocumentEditorControl": {
+		"fileLabel": {
+			"text": "Dosya"
+		},
+		"homeLabel": {
+			"text": "Ana"
+		},
+		"editLabel": {
+			"text": "Düzenleniyor"
+		},
+		"insertLabel": {
+			"text": "Ekle"
+		},
+		"reviewLabel": {
+			"text": "Yorumlar"
+		},
+		"createXlsxDocumentButton": {
+			"title": "Yeni XLSX belgesi oluştur"
+		},
+		"uploadXlsxFileButton": {
+			"title": "XLSX dosyasını indirip açın"
+		},
+		"downloadXlsxFileButton": {
+			"title": "XLSX dosyasını yükle"
+		},
+		"exportXlsxToPdfButton": {
+			"title": "XLSX'i PDF'ye Aktar"
+		},
+		"showMobileMenuButton": {
+			"title": "Daha fazla"
+		},
+		"boldTextButton": {
+			"title": "Kalın"
+		},
+		"italicTextButton": {
+			"title": "İtalik"
+		},
+		"underlineTextButton": {
+			"title": "Altı Çizili"
+		},
+		"strikethroughTextButton": {
+			"title": "Çapraz"
+		},
+		"fontColorButton": {
+			"title": "Yazı tipi rengi"
+		},
+		"fillColorButton": {
+			"title": "Dolgu rengi"
+		},
+		"copyStyleButton": {
+			"title": "stil ressamı"
+		},
+		"alignLeftButton": {
+			"title": "Sola Hizala"
+		},
+		"alignCenterButton": {
+			"title": "Ortaya Hizala"
+		},
+		"alignRightButton": {
+			"title": "Sağa Hizala"
+		},
+		"topAlignButton": {
+			"title": "Üste Hizala"
+		},
+		"middleAlignButton": {
+			"title": "Ortaya Hizala"
+		},
+		"bottomAlignButton": {
+			"title": "Alta Hizala"
+		},
+		"textWrappingButton": {
+			"title": "Metni kaydır"
+		},
+		"currencyNumberFormatButton": {
+			"title": "Finansal sayı biçimi"
+		},
+		"increaseDecimalButton": {
+			"title": "Ondalık sayıyı artır"
+		},
+		"decreaseDecimalButton": {
+			"title": "Ondalık sayıyı azalt"
+		},
+		"percentNumberFormatButton": {
+			"title": "Yüzde Formatı"
+		},
+		"numberFormatDropDown": {
+			"General": {
+				"text": "Genel"
+			},
+			"Number": {
+				"text": "Nümerik"
+			},
+			"Currency": {
+				"text": "Para"
+			},
+			"Date": {
+				"text": "Tarih"
+			},
+			"Time": {
+				"text": "Zaman"
+			},
+			"Percentage": {
+				"text": "Yüzde"
+			},
+			"Scientific": {
+				"text": "Üstel"
+			},
+			"Text": {
+				"text": "Metin"
+			}
+		},
+		"showFormulasButton": {
+			"title": "formülleri göster"
+		},
+		"searchTextButton": {
+			"title": "Metin bul"
+		},
+		"undoButton": {
+			"title": "İptal"
+		},
+		"redoButton": {
+			"title": "Tekrarla"
+		},
+		"cutContentButton": {
+			"title": "İçeriği kes"
+		},
+		"copyContentButton": {
+			"title": "İçeriği kopyala"
+		},
+		"pasteContentButton": {
+			"title": "İçeriği yapıştır"
+		},
+		"clearContentButton": {
+			"title": "İçeriği temizle"
+		},
+		"clearFormatButton": {
+			"title": "Biçimi Temizle"
+		},
+		"deleteRowsButton": {
+			"title": "Satırları sil"
+		},
+		"deleteColumnsButton": {
+			"title": "Sütunları sil"
+		},
+		"deleteCellsAndShiftLeftButton": {
+			"title": "Hücreleri sil ve sola kaydır"
+		},
+		"deleteCellsAndShiftUpButton": {
+			"title": "Hücreleri sil ve yukarı kaydır"
+		},
+		"deletePictureButton": {
+			"title": "resmi sil"
+		},
+		"mergeCellsButton": {
+			"title": "Hücreleri birleştir"
+		},
+		"unmergeCellsButton": {
+			"title": "Hücreleri ayırma"
+		},
+		"fillCells": {
+			"title": "Hücreleri doldur"
+		},
+		"allBordersButton": {
+			"title": "Tüm Kenarlıklar"
+		},
+		"thickOutsideBordersButton": {
+			"title": "Kalın dış kenarlıklar"
+		},
+		"autoFitRowHeightButton": {
+			"title": "Satır yüksekliğini otomatik sığdır"
+		},
+		"autoFitColumnWidthButton": {
+			"title": "Sütun genişliğini otomatik sığdır"
+		},
+		"insertRowsButton": {
+			"title": "Satır Ekle"
+		},
+		"insertColumnsButton": {
+			"title": "Sütun ekle"
+		},
+		"insertCellsAndShiftRightButton": {
+			"title": "Hücre ekle ve sağa git"
+		},
+		"insertCellsAndShiftDownButton": {
+			"title": "Hücre ekle ve aşağı taşı"
+		},
+		"insertSheetButton": {
+			"title": "Sayfa Ekle"
+		},
+		"insertFunctionButton": {
+			"title": "İşlev ekle"
+		},
+		"insertCommentButton": {
+			"title": "Yorum ekle"
+		},
+		"insertPictureButton": {
+			"title": "Resim Ekle"
+		},
+		"editCommentButton": {
+			"title": "Yorumu düzenle"
+		},
+		"deleteCommentButton": {
+			"title": "Yorumu sil"
+		},
+		"previousCommentButton": {
+			"title": "Önceki yorum"
+		},
+		"nextCommentButton": {
+			"title": "Sonraki yorum"
+		},
+		"formulaPanel-cancelChangeButton": {
+			"title": "Değişiklikleri geri al"
+		},
+		"formulaPanel-applyChangeButton": {
+			"title": "Değişiklikleri uygula"
+		},
+		"formulaPanel-fullScreenButton": {
+			"title": "Tam ekran"
+		},
+		"scrollToFirstWorksheetButton": {
+			"title": "İlk sayfaya ilerleyin"
+		},
+		"scrollToLastWorksheetButton": {
+			"title": "Son sayfaya ilerleyin"
+		},
+		"addWorksheetButton": {
+			"title": "Sayfa ekle"
+		},
+		"showWorksheetListButton": {
+			"title": "Sayfa listesini göster"
+		},
+		"copyWorksheetButton": {
+			"title": "Sayfayı Kopyala"
+		},
+		"deleteWorksheetButton": {
+			"title": "Sayfayı Sil"
+		},
+		"renameWorksheetButton": {
+			"title": "Sayfayı Yeniden Adlandır"
+		},
+		"moveWorksheetButton": {
+			"title": "Sayfayı Taşı"
+		},
+		"zoomOutButton": {
+			"title": "Uzaklaştır"
+		},
+		"zoomValueLabel": {
+			"text": "100%"
+		},
+		"zoomInButton": {
+			"title": "Yakınlaştır"
+		},
+		"enUsCurrencyNumberFormatButton": {
+			"title": "$ İngiliz (ABD)"
+		},
+		"enUkCurrencyNumberFormatButton": {
+			"title": "£ İngilizce (Birleşik Krallık)"
+		},
+		"euCurrencyNumberFormatButton": {
+			"title": "€ Avro (123 €)"
+		},
+		"ruCurrencyNumberFormatButton": {
+			"title": "₽ Rusça"
+		},
+		"chCurrencyNumberFormatButton": {
+			"title": "¥ Çince"
+		},
+		"enInCurrencyNumberFormatButton": {
+			"title": "$ İngiliz (Hindistan)"
+		},
+		"fillCellsDownButton": {
+			"title": "Doldur"
+		},
+		"fillCellsUpButton": {
+			"title": "Doldur"
+		},
+		"fillCellsLeftButton": {
+			"title": "Solu Doldur"
+		},
+		"fillCellsRightButton": {
+			"title": "Sağdan Doldur"
+		},
+		"noBordersButton": {
+			"title": "Sınır yok"
+		},
+		"outsideBordersButton": {
+			"title": "Dış sınırlar"
+		},
+		"bottomBorderButton": {
+			"title": "Alt sınır"
+		},
+		"topBorderButton": {
+			"title": "Üst Kenarlık"
+		},
+		"rightBorderButton": {
+			"title": "Sağ Kenarlık"
+		},
+		"leftBorderButton": {
+			"title": "Sol Kenarlık"
+		},
+		"thickBottomBorderButton": {
+			"title": "Kalın Alt Kenarlık"
+		},
+		"thickLeftBorderButton": {
+			"title": "Kalın Sol Kenarlık"
+		},
+		"doubleBottomBorderButton": {
+			"title": "Çift Alt Kenarlık"
+		},
+		"doubleLeftBorderButton": {
+			"title": "Çift Sol Kenarlık"
+		},
+		"borderColorButton": {
+			"title": "Sınır rengi"
+		},
+		"copyLabel": {
+			"text": "Kopyala"
+		},
+		"cutLabel": {
+			"text": "Kes"
+		},
+		"pasteLabel": {
+			"text": "Yapıştır"
+		},
+		"clearContentsLabel": {
+			"text": "İçeriği temizle"
+		},
+		"insertCellAndShiftRightLabel": {
+			"text": "Hücre ekle ve sağa git"
+		},
+		"insertCellAndShiftDownLabel": {
+			"text": "Hücre ekle ve aşağı taşı"
+		},
+		"insertEntireRowLabel": {
+			"text": "Tüm satırı ekle"
+		},
+		"insertEntireColumnLabel": {
+			"text": "Sütunun tamamını ekle"
+		},
+		"deleteImageLabel": {
+			"text": "Sil"
+		},
+		"deleteCellAndShiftLeftLabel": {
+			"text": "Hücreyi sil ve sola git"
+		},
+		"deleteCellAndShiftUpLabel": {
+			"text": "Hücreyi sil ve yukarı taşı"
+		},
+		"deleteEntireRowLabel": {
+			"text": "Tüm satırı sil"
+		},
+		"deleteEntireColumnLabel": {
+			"text": "Sütunun tamamını sil"
+		},
+		"insertRowsLabel": {
+			"text": "Satır Ekle"
+		},
+		"deleteRowsLabel": {
+			"text": "Satırları sil"
+		},
+		"insertColumnsLabel": {
+			"text": "Sütun ekle"
+		},
+		"deleteColumnsLabel": {
+			"text": "Sütunları sil"
+		},
+		"insertCommentLabel": {
+			"text": "Yorum Ekle..."
+		},
+		"editCommentLabel": {
+			"text": "Yorumu Düzenle..."
+		},
+		"deleteCommentLabel": {
+			"text": "Yorumu Sil"
+		},
+		"showHideCommentLabel": {
+			"text": "Yorumu Göster/Gizle"
+		},
+		"hideCommentLabel": {
+			"text": "Yorumu gizle"
+		},
+		"hideRowsLabel": {
+			"text": "Satırları Gizle"
+		},
+		"unhideRowsLabel": {
+			"text": "Satırları Göster"
+		},
+		"hideColumnsLabel": {
+			"text": "Sütunları gizle"
+		},
+		"unhideColumnsLabel": {
+			"text": "Sütunları Göster"
+		},
+		"insertCommentDialog": {
+			"authorLabel": {
+				"text": "Yazar:"
+			},
+			"showAuthorLabel": {
+				"text": "Yazarı Göster"
+			},
+			"commentLabel": {
+				"text": "Yorum:"
+			},
+			"okButton": {
+				"value": "Tamam"
+			},
+			"cancelButton": {
+				"value": "İptal"
+			}
+		},
+		"commentEditDialog": {
+			"authorLabel": {
+				"text": "Yazar:"
+			},
+			"showAuthorLabel": {
+				"text": "Yazarı Göster"
+			},
+			"commentLabel": {
+				"text": "Yorum:"
+			},
+			"okButton": {
+				"value": "Tamam"
+			},
+			"cancelButton": {
+				"value": "İptal"
+			}
+		},
+		"renameWorksheetDialog": {
+			"nameLabel": {
+				"text": "Ad:"
+			},
+			"okButton": {
+				"value": "Tamam"
+			},
+			"cancelButton": {
+				"value": "İptal"
+			}
+		},
+		"moveWorksheetDialog": {
+			"moveUpButton": {
+				"value": "Yukarı Taşı"
+			},
+			"moveDownButton": {
+				"value": "Aşağı Taşı"
+			},
+			"okButton": {
+				"value": "Tamam"
+			},
+			"cancelButton": {
+				"value": "İptal"
+			}
+		},
+		"findTextDialog": {
+			"findTextLabel": {
+				"text": "Metin bul"
+			},
+			"findWhatLabel": {
+				"text": "Bul:"
+			},
+			"withinLabel": {
+				"text": "Ara:"
+			},
+			"Sheet": {
+				"text": "Sayfada"
+			},
+			"Workbook": {
+				"text": "Kitapta"
+			},
+			"searchLabel": {
+				"text": "Ara:"
+			},
+			"ByRows": {
+				"text": "Satırlarda"
+			},
+			"ByColumns": {
+				"text": "Sütunlarda"
+			},
+			"lookInLabel": {
+				"text": "Arama alanı:"
+			},
+			"Formulas": {
+				"text": "Formüller"
+			},
+			"Values": {
+				"text": "Değerler"
+			},
+			"Comments": {
+				"text": "Yorumlar"
+			},
+			"matchCaseLabel": {
+				"text": "büyük/küçük harfe duyarlı"
+			},
+			"matchEntireContentLabel": {
+				"text": "Tam eşleşme"
+			},
+			"findNextButton": {
+				"value": "Sonrakini Bul"
+			},
+			"closeButton": {
+				"value": "Kapat"
+			}
+		},
+		"selectFunctionDialog": {
+			"categoryLabel": {
+				"text": "Kategori:"
+			},
+			"categoryDropDown": {
+				"All": {
+					"text": "Tümü"
+				},
+				"Financial": {
+					"text": "Finansal"
+				},
+				"DateAndTime": {
+					"text": "Tarih ve saat"
+				},
+				"MathAndTrig": {
+					"text": "Matematik"
+				},
+				"Statistical": {
+					"text": "İstatistiksel"
+				},
+				"LookupAndReference": {
+					"text": "Referanslar ve diziler"
+				},
+				"Text": {
+					"text": "Metin"
+				},
+				"Logical": {
+					"text": "Boolean"
+				},
+				"Information": {
+					"text": "Bilgilendirici"
+				},
+				"Engineering": {
+					"text": "Mühendislik"
+				}
+			},
+			"selectFunctionLabel": {
+				"text": "Bir işlev seçin:"
+			},
+			"okButton": {
+				"value": "Tamam"
+			},
+			"cancelButton": {
+				"value": "İptal"
+			}
+		}
+	},
+	"strings": {
+		"vssde-documentIsOpening": "Belge açılıyor...",
+		"vssde-numberFormat-general": "Genel",
+		"vssde-numberFormat-number": "Nümerik",
+		"vssde-numberFormat-date": "Tarih",
+		"vssde-numberFormat-time": "Zaman",
+		"vssde-numberFormat-currency": "Para",
+		"vssde-numberFormat-percentage": "Yüzde",
+		"vssde-numberFormat-scientific": "Üstel",
+		"vssde-numberFormat-text": "Metin",
+		"vssde-numberFormat-custom": "Özel",
+		"vssde-findTextPanel-sheet": "Sayfada",
+		"vssde-findTextPanel-workbook": "Kitapta",
+		"vssde-findTextPanel-byRows": "Satırlarda",
+		"vssde-findTextPanel-byColumns": "Sütunlarda",
+		"vssde-findTextPanel-formulas": "Formüller",
+		"vssde-findTextPanel-values": "Değerler",
+		"vssde-findTextPanel-comments": "Yorumlar",
+		"vssde-findTextPanel-textIsNotFound": "'{0}' metni bulunamadı.",
+		"vssde-selectFunctionPanel-all": "Tümü",
+		"vssde-createXlsxDocument": "Yeni XLSX belgesi oluştur",
+		"vssde-uploadXlsxFile": "XLSX dosyasını yükle",
+		"vssde-downloadXlsxFile": "XLSX dosyasını yükle",
+		"vssde-exportXlsxToPdf": "XLSX'i PDF'ye Aktar",
+		"vssde-fileSizeExceedsLimit": "Yüklenen dosyanın boyutu maksimum boyutu ({0} bayt) aşıyor.",
+		"vssde-createXlsxDocumentConfirmation": "Yeni bir çalışma kitabı mı oluşturmak istiyorsunuz?",
+		"vssde-insertCommentDialog-title": "Yorum ekle",
+		"vssde-dialog-okButton": "Tamam",
+		"vssde-dialog-cancelButton": "İptal",
+		"vssde-editCommentDialog-title": "Yorumu düzenle",
+		"vssde-renameWorksheetDialog-title": "Sayfayı Yeniden Adlandır",
+		"vssde-moveWorksheetDialog-title": "Sayfayı Taşı",
+		"vssde-findTextDialog-title": "Metin bul",
+		"vssde-findTextDialog-findNextButton": "Sonrakini Bul",
+		"vssde-dialog-closeButton": "Kapat",
+		"vssde-selectFunctionDialog-title": "İşlev ekle"
+	}
+}

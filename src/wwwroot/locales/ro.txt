@@ -1,0 +1,588 @@
+﻿{
+	"spreadsheetDocumentEditorControl": {
+		"fileLabel": {
+			"text": "Fișier"
+		},
+		"homeLabel": {
+			"text": "Principal"
+		},
+		"editLabel": {
+			"text": "Editare"
+		},
+		"insertLabel": {
+			"text": "Inserare"
+		},
+		"reviewLabel": {
+			"text": "Comentarii"
+		},
+		"createXlsxDocumentButton": {
+			"title": "Creați un document XLSX nou"
+		},
+		"uploadXlsxFileButton": {
+			"title": "Descărcați și deschideți fișierul XLSX"
+		},
+		"downloadXlsxFileButton": {
+			"title": "Încărcați fișierul XLSX"
+		},
+		"exportXlsxToPdfButton": {
+			"title": "Exportați XLSX în PDF"
+		},
+		"showMobileMenuButton": {
+			"title": "Mai multe"
+		},
+		"boldTextButton": {
+			"title": "Aldin"
+		},
+		"italicTextButton": {
+			"title": "Italică"
+		},
+		"underlineTextButton": {
+			"title": "Subliniat"
+		},
+		"strikethroughTextButton": {
+			"title": "Încrucișat"
+		},
+		"fontColorButton": {
+			"title": "Culoarea fontului"
+		},
+		"fillColorButton": {
+			"title": "Culoare de umplere"
+		},
+		"copyStyleButton": {
+			"title": "Pictor de stil"
+		},
+		"alignLeftButton": {
+			"title": "Aliniere la stânga"
+		},
+		"alignCenterButton": {
+			"title": "Aliniere la centru"
+		},
+		"alignRightButton": {
+			"title": "Aliniați la dreapta"
+		},
+		"topAlignButton": {
+			"title": "Aliniați partea de sus"
+		},
+		"middleAlignButton": {
+			"title": "Aliniere la centru"
+		},
+		"bottomAlignButton": {
+			"title": "Aliniere jos"
+		},
+		"textWrappingButton": {
+			"title": "Încheierea textului"
+		},
+		"currencyNumberFormatButton": {
+			"title": "Format de număr financiar"
+		},
+		"increaseDecimalButton": {
+			"title": "Mărește zecimală"
+		},
+		"decreaseDecimalButton": {
+			"title": "Scădeți zecimală"
+		},
+		"percentNumberFormatButton": {
+			"title": "Format procentual"
+		},
+		"numberFormatDropDown": {
+			"General": {
+				"text": "General"
+			},
+			"Number": {
+				"text": "Numeric"
+			},
+			"Currency": {
+				"text": "Bani"
+			},
+			"Date": {
+				"text": "Data"
+			},
+			"Time": {
+				"text": "Timp"
+			},
+			"Percentage": {
+				"text": "Procent"
+			},
+			"Scientific": {
+				"text": "Exponenţial"
+			},
+			"Text": {
+				"text": "Text"
+			}
+		},
+		"showFormulasButton": {
+			"title": "Afișați formule"
+		},
+		"searchTextButton": {
+			"title": "Găsiți text"
+		},
+		"undoButton": {
+			"title": "Anulează"
+		},
+		"redoButton": {
+			"title": "Repetă"
+		},
+		"cutContentButton": {
+			"title": "Tăiați conținutul"
+		},
+		"copyContentButton": {
+			"title": "Copiați conținutul"
+		},
+		"pasteContentButton": {
+			"title": "Lipire conținut"
+		},
+		"clearContentButton": {
+			"title": "Conținut clar"
+		},
+		"clearFormatButton": {
+			"title": "Șterge formatul"
+		},
+		"deleteRowsButton": {
+			"title": "Șterge rândurile"
+		},
+		"deleteColumnsButton": {
+			"title": "Ștergeți coloanele"
+		},
+		"deleteCellsAndShiftLeftButton": {
+			"title": "Ștergeți celulele și comutați la stânga"
+		},
+		"deleteCellsAndShiftUpButton": {
+			"title": "Ștergeți celulele și treceți în sus"
+		},
+		"deletePictureButton": {
+			"title": "Ștergeți imaginea"
+		},
+		"mergeCellsButton": {
+			"title": "Uneste celulele"
+		},
+		"unmergeCellsButton": {
+			"title": "Deconectați celulele"
+		},
+		"fillCells": {
+			"title": "Umpleți celulele"
+		},
+		"allBordersButton": {
+			"title": "Toate chenarele"
+		},
+		"thickOutsideBordersButton": {
+			"title": "Chenaruri exterioare groase"
+		},
+		"autoFitRowHeightButton": {
+			"title": "Potriviți automat înălțimea rândului"
+		},
+		"autoFitColumnWidthButton": {
+			"title": "Potriviți automat lățimea coloanei"
+		},
+		"insertRowsButton": {
+			"title": "Inserați rânduri"
+		},
+		"insertColumnsButton": {
+			"title": "Inserați coloane"
+		},
+		"insertCellsAndShiftRightButton": {
+			"title": "Inserați celula și mutați-vă la dreapta"
+		},
+		"insertCellsAndShiftDownButton": {
+			"title": "Inserați celula și mutați în jos"
+		},
+		"insertSheetButton": {
+			"title": "Inserați foaia"
+		},
+		"insertFunctionButton": {
+			"title": "Inserare funcție"
+		},
+		"insertCommentButton": {
+			"title": "Inserează comentariu"
+		},
+		"insertPictureButton": {
+			"title": "Adăugați o imagine"
+		},
+		"editCommentButton": {
+			"title": "Editați comentariul"
+		},
+		"deleteCommentButton": {
+			"title": "Șterge comentariul"
+		},
+		"previousCommentButton": {
+			"title": "Comentariul anterior"
+		},
+		"nextCommentButton": {
+			"title": "Următorul comentariu"
+		},
+		"formulaPanel-cancelChangeButton": {
+			"title": "Revenire la modificări"
+		},
+		"formulaPanel-applyChangeButton": {
+			"title": "Aplicați modificări"
+		},
+		"formulaPanel-fullScreenButton": {
+			"title": "Ecran complet"
+		},
+		"scrollToFirstWorksheetButton": {
+			"title": "Derulați la prima foaie"
+		},
+		"scrollToLastWorksheetButton": {
+			"title": "Derulați până la ultima foaie"
+		},
+		"addWorksheetButton": {
+			"title": "Adaugă foaia"
+		},
+		"showWorksheetListButton": {
+			"title": "Afișează lista de foi"
+		},
+		"copyWorksheetButton": {
+			"title": "Copiere foaia"
+		},
+		"deleteWorksheetButton": {
+			"title": "Șterge foaia"
+		},
+		"renameWorksheetButton": {
+			"title": "Redenumiți foaia"
+		},
+		"moveWorksheetButton": {
+			"title": "Mutați foaia"
+		},
+		"zoomOutButton": {
+			"title": "Mărire"
+		},
+		"zoomValueLabel": {
+			"text": "100%"
+		},
+		"zoomInButton": {
+			"title": "Măriți"
+		},
+		"enUsCurrencyNumberFormatButton": {
+			"title": "$ engleză (SUA)"
+		},
+		"enUkCurrencyNumberFormatButton": {
+			"title": "£ engleză (Regatul Unit)"
+		},
+		"euCurrencyNumberFormatButton": {
+			"title": "€ Euro (€ 123)"
+		},
+		"ruCurrencyNumberFormatButton": {
+			"title": "₽ rusă"
+		},
+		"chCurrencyNumberFormatButton": {
+			"title": "¥ Chineză"
+		},
+		"enInCurrencyNumberFormatButton": {
+			"title": "₹ engleză (India)"
+		},
+		"fillCellsDownButton": {
+			"title": "Umpleți"
+		},
+		"fillCellsUpButton": {
+			"title": "Umplere"
+		},
+		"fillCellsLeftButton": {
+			"title": "Umplere stânga"
+		},
+		"fillCellsRightButton": {
+			"title": "Completează dreapta"
+		},
+		"noBordersButton": {
+			"title": "Fără Frontiere"
+		},
+		"outsideBordersButton": {
+			"title": "Margini exterioare"
+		},
+		"bottomBorderButton": {
+			"title": "Chenar de jos"
+		},
+		"topBorderButton": {
+			"title": "Chenar de sus"
+		},
+		"rightBorderButton": {
+			"title": "Chenarul din dreapta"
+		},
+		"leftBorderButton": {
+			"title": "Chenarul din stânga"
+		},
+		"thickBottomBorderButton": {
+			"title": "Chenar de jos gros"
+		},
+		"thickLeftBorderButton": {
+			"title": "Chenar din stânga gros"
+		},
+		"doubleBottomBorderButton": {
+			"title": "Bord dublu de jos"
+		},
+		"doubleLeftBorderButton": {
+			"title": "Chenar dublu din stânga"
+		},
+		"borderColorButton": {
+			"title": "Culoarea chenarului"
+		},
+		"copyLabel": {
+			"text": "Copiere"
+		},
+		"cutLabel": {
+			"text": "Tăiați"
+		},
+		"pasteLabel": {
+			"text": "Lipire"
+		},
+		"clearContentsLabel": {
+			"text": "Șterge conținutul"
+		},
+		"insertCellAndShiftRightLabel": {
+			"text": "Inserați celula și mutați-vă la dreapta"
+		},
+		"insertCellAndShiftDownLabel": {
+			"text": "Inserați celula și mutați în jos"
+		},
+		"insertEntireRowLabel": {
+			"text": "Inserați întreaga linie"
+		},
+		"insertEntireColumnLabel": {
+			"text": "Inserați întreaga coloană"
+		},
+		"deleteImageLabel": {
+			"text": "Șterge"
+		},
+		"deleteCellAndShiftLeftLabel": {
+			"text": "Șterge celula și muta la stânga"
+		},
+		"deleteCellAndShiftUpLabel": {
+			"text": "Șterge celula și mută-te în sus"
+		},
+		"deleteEntireRowLabel": {
+			"text": "Șterge întreaga linie"
+		},
+		"deleteEntireColumnLabel": {
+			"text": "Șterge întreaga coloană"
+		},
+		"insertRowsLabel": {
+			"text": "Inserați rânduri"
+		},
+		"deleteRowsLabel": {
+			"text": "Șterge rândurile"
+		},
+		"insertColumnsLabel": {
+			"text": "Inserați coloane"
+		},
+		"deleteColumnsLabel": {
+			"text": "Ștergeți coloanele"
+		},
+		"insertCommentLabel": {
+			"text": "Inserează comentariu..."
+		},
+		"editCommentLabel": {
+			"text": "Editează comentariul..."
+		},
+		"deleteCommentLabel": {
+			"text": "Șterge comentariul"
+		},
+		"showHideCommentLabel": {
+			"text": "Afișați/Ascundeți comentariul"
+		},
+		"hideCommentLabel": {
+			"text": "Ascunde comentariul"
+		},
+		"hideRowsLabel": {
+			"text": "Ascunde rândurile"
+		},
+		"unhideRowsLabel": {
+			"text": "Afișează rândurile"
+		},
+		"hideColumnsLabel": {
+			"text": "Ascunde coloanele"
+		},
+		"unhideColumnsLabel": {
+			"text": "Afișați coloanele"
+		},
+		"insertCommentDialog": {
+			"authorLabel": {
+				"text": "Autor:"
+			},
+			"showAuthorLabel": {
+				"text": "Arată autor"
+			},
+			"commentLabel": {
+				"text": "Cometariu:"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Anulează"
+			}
+		},
+		"commentEditDialog": {
+			"authorLabel": {
+				"text": "Autor:"
+			},
+			"showAuthorLabel": {
+				"text": "Arată autor"
+			},
+			"commentLabel": {
+				"text": "Cometariu:"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Anulează"
+			}
+		},
+		"renameWorksheetDialog": {
+			"nameLabel": {
+				"text": "Nume:"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Anulează"
+			}
+		},
+		"moveWorksheetDialog": {
+			"moveUpButton": {
+				"value": "Mutați în sus"
+			},
+			"moveDownButton": {
+				"value": "Mutați în jos"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Anulează"
+			}
+		},
+		"findTextDialog": {
+			"findTextLabel": {
+				"text": "Găsiți text"
+			},
+			"findWhatLabel": {
+				"text": "Găsiți:"
+			},
+			"withinLabel": {
+				"text": "Căutați:"
+			},
+			"Sheet": {
+				"text": "Pe foaie"
+			},
+			"Workbook": {
+				"text": "În carte"
+			},
+			"searchLabel": {
+				"text": "Căutați:"
+			},
+			"ByRows": {
+				"text": "În rânduri"
+			},
+			"ByColumns": {
+				"text": "În coloane"
+			},
+			"lookInLabel": {
+				"text": "Zona de căutare:"
+			},
+			"Formulas": {
+				"text": "Formule"
+			},
+			"Values": {
+				"text": "Valori"
+			},
+			"Comments": {
+				"text": "Comentarii"
+			},
+			"matchCaseLabel": {
+				"text": "distinge între majuscule și minuscule"
+			},
+			"matchEntireContentLabel": {
+				"text": "Potrivire exactă"
+			},
+			"findNextButton": {
+				"value": "Găsiți Următorul"
+			},
+			"closeButton": {
+				"value": "Închidere"
+			}
+		},
+		"selectFunctionDialog": {
+			"categoryLabel": {
+				"text": "Categorie:"
+			},
+			"categoryDropDown": {
+				"All": {
+					"text": "Toate"
+				},
+				"Financial": {
+					"text": "Financial"
+				},
+				"DateAndTime": {
+					"text": "Data și ora"
+				},
+				"MathAndTrig": {
+					"text": "Matematică"
+				},
+				"Statistical": {
+					"text": "Statistică"
+				},
+				"LookupAndReference": {
+					"text": "Referințe și matrice"
+				},
+				"Text": {
+					"text": "Text"
+				},
+				"Logical": {
+					"text": "Boolean"
+				},
+				"Information": {
+					"text": "Informațional"
+				},
+				"Engineering": {
+					"text": "Inginerie"
+				}
+			},
+			"selectFunctionLabel": {
+				"text": "Selectați o funcție:"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Anulează"
+			}
+		}
+	},
+	"strings": {
+		"vssde-documentIsOpening": "Documentul se deschide...",
+		"vssde-numberFormat-general": "General",
+		"vssde-numberFormat-number": "Numeric",
+		"vssde-numberFormat-date": "Data",
+		"vssde-numberFormat-time": "Timp",
+		"vssde-numberFormat-currency": "Bani",
+		"vssde-numberFormat-percentage": "Procent",
+		"vssde-numberFormat-scientific": "Exponenţial",
+		"vssde-numberFormat-text": "Text",
+		"vssde-numberFormat-custom": "Personalizat",
+		"vssde-findTextPanel-sheet": "Pe foaie",
+		"vssde-findTextPanel-workbook": "În carte",
+		"vssde-findTextPanel-byRows": "În rânduri",
+		"vssde-findTextPanel-byColumns": "În coloane",
+		"vssde-findTextPanel-formulas": "Formule",
+		"vssde-findTextPanel-values": "Valori",
+		"vssde-findTextPanel-comments": "Comentarii",
+		"vssde-findTextPanel-textIsNotFound": "Textul '{0}' nu a fost găsit.",
+		"vssde-selectFunctionPanel-all": "Toate",
+		"vssde-createXlsxDocument": "Creați un document XLSX nou",
+		"vssde-uploadXlsxFile": "Încărcați fișierul XLSX",
+		"vssde-downloadXlsxFile": "Încărcați fișierul XLSX",
+		"vssde-exportXlsxToPdf": "Exportați XLSX în PDF",
+		"vssde-fileSizeExceedsLimit": "Dimensiunea fișierului încărcat depășește dimensiunea maximă ({0} octeți).",
+		"vssde-createXlsxDocumentConfirmation": "Doriți să creați un nou registru de lucru?",
+		"vssde-insertCommentDialog-title": "Inserează comentariu",
+		"vssde-dialog-okButton": "OK",
+		"vssde-dialog-cancelButton": "Anulează",
+		"vssde-editCommentDialog-title": "Editați comentariul",
+		"vssde-renameWorksheetDialog-title": "Redenumiți foaia",
+		"vssde-moveWorksheetDialog-title": "Mutați foaia",
+		"vssde-findTextDialog-title": "Găsiți text",
+		"vssde-findTextDialog-findNextButton": "Găsiți Următorul",
+		"vssde-dialog-closeButton": "Închidere",
+		"vssde-selectFunctionDialog-title": "Inserare funcție"
+	}
+}

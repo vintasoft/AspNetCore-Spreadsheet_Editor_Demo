@@ -1,0 +1,588 @@
+﻿{
+	"spreadsheetDocumentEditorControl": {
+		"fileLabel": {
+			"text": "Ifayela"
+		},
+		"homeLabel": {
+			"text": "Ikhaya"
+		},
+		"editLabel": {
+			"text": "Hlela"
+		},
+		"insertLabel": {
+			"text": "Faka"
+		},
+		"reviewLabel": {
+			"text": "Buyekeza"
+		},
+		"createXlsxDocumentButton": {
+			"title": "Dala idokhumenti entsha ye-XLSX"
+		},
+		"uploadXlsxFileButton": {
+			"title": "Layisha futhi uvule ifayela le-XLSX"
+		},
+		"downloadXlsxFileButton": {
+			"title": "Landa ifayela le-XLSX"
+		},
+		"exportXlsxToPdfButton": {
+			"title": "Thumela i-XLSX ku-PDF"
+		},
+		"showMobileMenuButton": {
+			"title": "Okuningi"
+		},
+		"boldTextButton": {
+			"title": "Umbhalo ogqamile"
+		},
+		"italicTextButton": {
+			"title": "Umbhalo we-ithalikhi"
+		},
+		"underlineTextButton": {
+			"title": "Dwebela umbhalo"
+		},
+		"strikethroughTextButton": {
+			"title": "Umbhalo we-Strikethrough"
+		},
+		"fontColorButton": {
+			"title": "Umbala wefonti"
+		},
+		"fillColorButton": {
+			"title": "Gcwalisa umbala"
+		},
+		"copyStyleButton": {
+			"title": "Umdwebi Wesitayela"
+		},
+		"alignLeftButton": {
+			"title": "Qondanisa kwesokunxele"
+		},
+		"alignCenterButton": {
+			"title": "Isikhungo"
+		},
+		"alignRightButton": {
+			"title": "Qondanisa kwesokudla"
+		},
+		"topAlignButton": {
+			"title": "Qondanisa phezulu"
+		},
+		"middleAlignButton": {
+			"title": "Qondanisa phakathi"
+		},
+		"bottomAlignButton": {
+			"title": "Qondanisa ngezansi"
+		},
+		"textWrappingButton": {
+			"title": "Ukugoqa umbhalo"
+		},
+		"currencyNumberFormatButton": {
+			"title": "Ifomethi yenombolo yohlobo lwemali"
+		},
+		"increaseDecimalButton": {
+			"title": "Khulisa idesimali"
+		},
+		"decreaseDecimalButton": {
+			"title": "Nciphisa idesimali"
+		},
+		"percentNumberFormatButton": {
+			"title": "Ifomethi yenombolo yephesenti"
+		},
+		"numberFormatDropDown": {
+			"General": {
+				"text": "Okujwayelekile"
+			},
+			"Number": {
+				"text": "Inombolo"
+			},
+			"Currency": {
+				"text": "Imali"
+			},
+			"Date": {
+				"text": "Usuku"
+			},
+			"Time": {
+				"text": "Isikhathi"
+			},
+			"Percentage": {
+				"text": "Iphesenti"
+			},
+			"Scientific": {
+				"text": "Okwesayensi"
+			},
+			"Text": {
+				"text": "Umbhalo"
+			}
+		},
+		"showFormulasButton": {
+			"title": "Bonisa amafomula"
+		},
+		"searchTextButton": {
+			"title": "Sesha umbhalo"
+		},
+		"undoButton": {
+			"title": "Hlehlisa"
+		},
+		"redoButton": {
+			"title": "Yenza futhi"
+		},
+		"cutContentButton": {
+			"title": "Sika okuqukethwe"
+		},
+		"copyContentButton": {
+			"title": "Kopisha okuqukethwe"
+		},
+		"pasteContentButton": {
+			"title": "Namathisela okuqukethwe"
+		},
+		"clearContentButton": {
+			"title": "Sula okuqukethwe"
+		},
+		"clearFormatButton": {
+			"title": "Sula ifomethi"
+		},
+		"deleteRowsButton": {
+			"title": "Susa imigqa"
+		},
+		"deleteColumnsButton": {
+			"title": "Susa amakholomu"
+		},
+		"deleteCellsAndShiftLeftButton": {
+			"title": "Susa amaseli bese uhambisa kwesokunxele"
+		},
+		"deleteCellsAndShiftUpButton": {
+			"title": "Susa amaseli bese uhambisa phezulu"
+		},
+		"deletePictureButton": {
+			"title": "Susa isithombe"
+		},
+		"mergeCellsButton": {
+			"title": "Hlanganisa amaseli"
+		},
+		"unmergeCellsButton": {
+			"title": "Susa ukuhlanganisa amaseli"
+		},
+		"fillCells": {
+			"title": "Gcwalisa Amaseli"
+		},
+		"allBordersButton": {
+			"title": "Yonke Imingcele"
+		},
+		"thickOutsideBordersButton": {
+			"title": "Aminyene Ngaphandle Kwemingcele"
+		},
+		"autoFitRowHeightButton": {
+			"title": "Faka ngokuzenzakalelayo ubude bomugqa"
+		},
+		"autoFitColumnWidthButton": {
+			"title": "Faka ngokuzenzakalelayo ububanzi bekholomu"
+		},
+		"insertRowsButton": {
+			"title": "Faka imigqa"
+		},
+		"insertColumnsButton": {
+			"title": "Faka amakholomu"
+		},
+		"insertCellsAndShiftRightButton": {
+			"title": "Faka iseli bese uhambisa kwesokudla"
+		},
+		"insertCellsAndShiftDownButton": {
+			"title": "Faka iseli bese uhambisa phansi"
+		},
+		"insertSheetButton": {
+			"title": "Faka ishidi lokusebenza"
+		},
+		"insertFunctionButton": {
+			"title": "Faka umsebenzi"
+		},
+		"insertCommentButton": {
+			"title": "Faka amazwana"
+		},
+		"insertPictureButton": {
+			"title": "Engeza isithombe"
+		},
+		"editCommentButton": {
+			"title": "Hlela amazwana"
+		},
+		"deleteCommentButton": {
+			"title": "Susa amazwana"
+		},
+		"previousCommentButton": {
+			"title": "Amazwana angaphambilini"
+		},
+		"nextCommentButton": {
+			"title": "Amazwana alandelayo"
+		},
+		"formulaPanel-cancelChangeButton": {
+			"title": "Khansela ushintsho"
+		},
+		"formulaPanel-applyChangeButton": {
+			"title": "Faka ushintsho"
+		},
+		"formulaPanel-fullScreenButton": {
+			"title": "Iskrini esigcwele"
+		},
+		"scrollToFirstWorksheetButton": {
+			"title": "Skrolela ekhasini lokusebenza lokuqala"
+		},
+		"scrollToLastWorksheetButton": {
+			"title": "Skrolela ekhasini lokusebenza lokugcina"
+		},
+		"addWorksheetButton": {
+			"title": "Engeza ishidi lokusebenza"
+		},
+		"showWorksheetListButton": {
+			"title": "Bonisa uhlu lwamakhasi okusebenza"
+		},
+		"copyWorksheetButton": {
+			"title": "Kopisha ishidi lokusebenza"
+		},
+		"deleteWorksheetButton": {
+			"title": "Susa ishidi lokusebenza"
+		},
+		"renameWorksheetButton": {
+			"title": "Qamba kabusha ishidi lokusebenza"
+		},
+		"moveWorksheetButton": {
+			"title": "Hambisa ishidi lokusebenzela"
+		},
+		"zoomOutButton": {
+			"title": "Hlehlisa isithombe"
+		},
+		"zoomValueLabel": {
+			"text": "100%"
+		},
+		"zoomInButton": {
+			"title": "Sondeza isithombe"
+		},
+		"enUsCurrencyNumberFormatButton": {
+			"title": "$ IsiNgisi (USA)"
+		},
+		"enUkCurrencyNumberFormatButton": {
+			"title": "£ IsiNgisi (United Kingdom)"
+		},
+		"euCurrencyNumberFormatButton": {
+			"title": "I-Euro (€ 123)"
+		},
+		"ruCurrencyNumberFormatButton": {
+			"title": "₽ IsiRashiya"
+		},
+		"chCurrencyNumberFormatButton": {
+			"title": "¥ IsiShayina"
+		},
+		"enInCurrencyNumberFormatButton": {
+			"title": "₹ isiNgisi (India)"
+		},
+		"fillCellsDownButton": {
+			"title": "Gcwalisa Phansi"
+		},
+		"fillCellsUpButton": {
+			"title": "Gcwalisa"
+		},
+		"fillCellsLeftButton": {
+			"title": "Gcwalisa Kwesobunxele"
+		},
+		"fillCellsRightButton": {
+			"title": "Gcwalisa Kwesokudla"
+		},
+		"noBordersButton": {
+			"title": "Ayikho Imingcele"
+		},
+		"outsideBordersButton": {
+			"title": "Ngaphandle Kwemingcele"
+		},
+		"bottomBorderButton": {
+			"title": "Umngcele Ongezansi"
+		},
+		"topBorderButton": {
+			"title": "Umngcele ophezulu"
+		},
+		"rightBorderButton": {
+			"title": "Umngcele Wesokudla"
+		},
+		"leftBorderButton": {
+			"title": "Umngcele Wesokunxele"
+		},
+		"thickBottomBorderButton": {
+			"title": "Umngcele Ozansi Owugqinsi"
+		},
+		"thickLeftBorderButton": {
+			"title": "Umngcele Wesokunxele Owugqinsi"
+		},
+		"doubleBottomBorderButton": {
+			"title": "I-Double Bottom Border"
+		},
+		"doubleLeftBorderButton": {
+			"title": "I-Double Left Border"
+		},
+		"borderColorButton": {
+			"title": "Umbala womngcele"
+		},
+		"copyLabel": {
+			"text": "Kopisha"
+		},
+		"cutLabel": {
+			"text": "Sika"
+		},
+		"pasteLabel": {
+			"text": "Namathisela"
+		},
+		"clearContentsLabel": {
+			"text": "Sula Okuqukethwe"
+		},
+		"insertCellAndShiftRightLabel": {
+			"text": "Faka iseli bese uhambisa kwesokudla"
+		},
+		"insertCellAndShiftDownLabel": {
+			"text": "Faka iseli bese uhambisa phansi"
+		},
+		"insertEntireRowLabel": {
+			"text": "Faka umugqa wonke"
+		},
+		"insertEntireColumnLabel": {
+			"text": "Faka ikholomu yonke"
+		},
+		"deleteImageLabel": {
+			"text": "Susa"
+		},
+		"deleteCellAndShiftLeftLabel": {
+			"text": "Susa iseli bese uhambisa kwesokunxele"
+		},
+		"deleteCellAndShiftUpLabel": {
+			"text": "Susa iseli bese uhambisa phezulu"
+		},
+		"deleteEntireRowLabel": {
+			"text": "Susa wonke umugqa"
+		},
+		"deleteEntireColumnLabel": {
+			"text": "Susa yonke ikholomu"
+		},
+		"insertRowsLabel": {
+			"text": "Faka Imigqa"
+		},
+		"deleteRowsLabel": {
+			"text": "Susa Imigqa"
+		},
+		"insertColumnsLabel": {
+			"text": "Faka Amakholomu"
+		},
+		"deleteColumnsLabel": {
+			"text": "Susa Amakholomu"
+		},
+		"insertCommentLabel": {
+			"text": "Faka Amazwana..."
+		},
+		"editCommentLabel": {
+			"text": "Hlela Amazwana..."
+		},
+		"deleteCommentLabel": {
+			"text": "Susa Amazwana"
+		},
+		"showHideCommentLabel": {
+			"text": "Bonisa/Fihla Amazwana"
+		},
+		"hideCommentLabel": {
+			"text": "Fihla Amazwana"
+		},
+		"hideRowsLabel": {
+			"text": "Fihla Imigqa"
+		},
+		"unhideRowsLabel": {
+			"text": "Ungafihli Imigqa"
+		},
+		"hideColumnsLabel": {
+			"text": "Fihla Amakholomu"
+		},
+		"unhideColumnsLabel": {
+			"text": "Veza Amakholomu"
+		},
+		"insertCommentDialog": {
+			"authorLabel": {
+				"text": "Umbhali:"
+			},
+			"showAuthorLabel": {
+				"text": "Bonisa Umbhali"
+			},
+			"commentLabel": {
+				"text": "Amazwana:"
+			},
+			"okButton": {
+				"value": "KULUNGILE"
+			},
+			"cancelButton": {
+				"value": "Khansela"
+			}
+		},
+		"commentEditDialog": {
+			"authorLabel": {
+				"text": "Umbhali:"
+			},
+			"showAuthorLabel": {
+				"text": "Bonisa Umbhali"
+			},
+			"commentLabel": {
+				"text": "Amazwana:"
+			},
+			"okButton": {
+				"value": "KULUNGILE"
+			},
+			"cancelButton": {
+				"value": "Khansela"
+			}
+		},
+		"renameWorksheetDialog": {
+			"nameLabel": {
+				"text": "Igama:"
+			},
+			"okButton": {
+				"value": "KULUNGILE"
+			},
+			"cancelButton": {
+				"value": "Khansela"
+			}
+		},
+		"moveWorksheetDialog": {
+			"moveUpButton": {
+				"value": "Hamba uyephezulu"
+			},
+			"moveDownButton": {
+				"value": "Hamba phansi"
+			},
+			"okButton": {
+				"value": "KULUNGILE"
+			},
+			"cancelButton": {
+				"value": "Khansela"
+			}
+		},
+		"findTextDialog": {
+			"findTextLabel": {
+				"text": "Thola Umbhalo"
+			},
+			"findWhatLabel": {
+				"text": "Thola ini:"
+			},
+			"withinLabel": {
+				"text": "Ngaphakathi:"
+			},
+			"Sheet": {
+				"text": "Ishidi"
+			},
+			"Workbook": {
+				"text": "Incwadi Yokusebenzela"
+			},
+			"searchLabel": {
+				"text": "Sesha:"
+			},
+			"ByRows": {
+				"text": "Ngemigqa"
+			},
+			"ByColumns": {
+				"text": "Ngamakholomu"
+			},
+			"lookInLabel": {
+				"text": "Bheka ngaphakathi:"
+			},
+			"Formulas": {
+				"text": "Amafomula"
+			},
+			"Values": {
+				"text": "Amanani"
+			},
+			"Comments": {
+				"text": "Amazwana"
+			},
+			"matchCaseLabel": {
+				"text": "Icala lokufanisa"
+			},
+			"matchEntireContentLabel": {
+				"text": "Qondanisa konke okuqukethwe"
+			},
+			"findNextButton": {
+				"value": "Thola Okulandelayo"
+			},
+			"closeButton": {
+				"value": "Vala"
+			}
+		},
+		"selectFunctionDialog": {
+			"categoryLabel": {
+				"text": "Isigaba:"
+			},
+			"categoryDropDown": {
+				"All": {
+					"text": "Konke"
+				},
+				"Financial": {
+					"text": "Ezezimali"
+				},
+				"DateAndTime": {
+					"text": "UsukuNesikhathi"
+				},
+				"MathAndTrig": {
+					"text": "I-MathAndTrig"
+				},
+				"Statistical": {
+					"text": "Ngokwezibalo"
+				},
+				"LookupAndReference": {
+					"text": "LookupAndReference"
+				},
+				"Text": {
+					"text": "Umbhalo"
+				},
+				"Logical": {
+					"text": "Okunengqondo"
+				},
+				"Information": {
+					"text": "Ulwazi"
+				},
+				"Engineering": {
+					"text": "Ubunjiniyela"
+				}
+			},
+			"selectFunctionLabel": {
+				"text": "Khetha Umsebenzi:"
+			},
+			"okButton": {
+				"value": "KULUNGILE"
+			},
+			"cancelButton": {
+				"value": "Khansela"
+			}
+		}
+	},
+	"strings": {
+		"vssde-documentIsOpening": "Idokhumenti iyavula...",
+		"vssde-numberFormat-general": "Okujwayelekile",
+		"vssde-numberFormat-number": "Inombolo",
+		"vssde-numberFormat-date": "Usuku",
+		"vssde-numberFormat-time": "Isikhathi",
+		"vssde-numberFormat-currency": "Imali",
+		"vssde-numberFormat-percentage": "Iphesenti",
+		"vssde-numberFormat-scientific": "Okwesayensi",
+		"vssde-numberFormat-text": "Umbhalo",
+		"vssde-numberFormat-custom": "Ngokwezifiso",
+		"vssde-findTextPanel-sheet": "Ishidi",
+		"vssde-findTextPanel-workbook": "Incwadi Yokusebenzela",
+		"vssde-findTextPanel-byRows": "Ngemigqa",
+		"vssde-findTextPanel-byColumns": "Ngamakholomu",
+		"vssde-findTextPanel-formulas": "Amafomula",
+		"vssde-findTextPanel-values": "Amanani",
+		"vssde-findTextPanel-comments": "Amazwana",
+		"vssde-findTextPanel-textIsNotFound": "Umbhalo othi '{0}' awutholakali.",
+		"vssde-selectFunctionPanel-all": "Konke",
+		"vssde-createXlsxDocument": "Dala idokhumenti entsha ye-XLSX",
+		"vssde-uploadXlsxFile": "Layisha ifayela le-XLSX",
+		"vssde-downloadXlsxFile": "Landa ifayela le-XLSX",
+		"vssde-exportXlsxToPdf": "Thumela i-XLSX ku-PDF",
+		"vssde-fileSizeExceedsLimit": "Usayizi wefayela elilayishiwe weqa usayizi omkhulu ({0} amabhayithi).",
+		"vssde-createXlsxDocumentConfirmation": "Ingabe ufuna ukwakha ibhuku lokusebenza elisha?",
+		"vssde-insertCommentDialog-title": "Faka amazwana",
+		"vssde-dialog-okButton": "KULUNGILE",
+		"vssde-dialog-cancelButton": "Khansela",
+		"vssde-editCommentDialog-title": "Hlela amazwana",
+		"vssde-renameWorksheetDialog-title": "Qamba Kabusha Ishidi Lokusebenza",
+		"vssde-moveWorksheetDialog-title": "Hambisa Ishidi Lokusebenza",
+		"vssde-findTextDialog-title": "Thola Umbhalo",
+		"vssde-findTextDialog-findNextButton": "Thola Okulandelayo",
+		"vssde-dialog-closeButton": "Vala",
+		"vssde-selectFunctionDialog-title": "Faka Umsebenzi"
+	}
+}

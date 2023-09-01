@@ -1,0 +1,588 @@
+﻿{
+	"spreadsheetDocumentEditorControl": {
+		"fileLabel": {
+			"text": "Αρχείο"
+		},
+		"homeLabel": {
+			"text": "Κύρια"
+		},
+		"editLabel": {
+			"text": "Επεξεργασία"
+		},
+		"insertLabel": {
+			"text": "Εισαγωγή"
+		},
+		"reviewLabel": {
+			"text": "Σχόλια"
+		},
+		"createXlsxDocumentButton": {
+			"title": "Δημιουργία νέου εγγράφου XLSX"
+		},
+		"uploadXlsxFileButton": {
+			"title": "Κατεβάστε και ανοίξτε το αρχείο XLSX"
+		},
+		"downloadXlsxFileButton": {
+			"title": "Μεταφόρτωση αρχείου XLSX"
+		},
+		"exportXlsxToPdfButton": {
+			"title": "Εξαγωγή XLSX σε PDF"
+		},
+		"showMobileMenuButton": {
+			"title": "Περισσότερα"
+		},
+		"boldTextButton": {
+			"title": "Έντονη"
+		},
+		"italicTextButton": {
+			"title": "Πλάγια"
+		},
+		"underlineTextButton": {
+			"title": "Υπογραμμισμένο"
+		},
+		"strikethroughTextButton": {
+			"title": "Διασταυρώθηκε"
+		},
+		"fontColorButton": {
+			"title": "Χρώμα γραμματοσειράς"
+		},
+		"fillColorButton": {
+			"title": "Χρώμα γεμίσματος"
+		},
+		"copyStyleButton": {
+			"title": "Ζωγράφος στυλ"
+		},
+		"alignLeftButton": {
+			"title": "Στοίχιση αριστερά"
+		},
+		"alignCenterButton": {
+			"title": "Στοίχιση στο κέντρο"
+		},
+		"alignRightButton": {
+			"title": "Στοίχιση δεξιά"
+		},
+		"topAlignButton": {
+			"title": "Ευθυγράμμιση επάνω"
+		},
+		"middleAlignButton": {
+			"title": "Στοίχιση στο κέντρο"
+		},
+		"bottomAlignButton": {
+			"title": "Στοίχιση κάτω"
+		},
+		"textWrappingButton": {
+			"title": " Αναδίπλωση κειμένου"
+		},
+		"currencyNumberFormatButton": {
+			"title": "Μορφή οικονομικού αριθμού"
+		},
+		"increaseDecimalButton": {
+			"title": "Αύξηση δεκαδικού"
+		},
+		"decreaseDecimalButton": {
+			"title": "Μείωση δεκαδικού"
+		},
+		"percentNumberFormatButton": {
+			"title": "Μορφή ποσοστού"
+		},
+		"numberFormatDropDown": {
+			"General": {
+				"text": "Γενικά"
+			},
+			"Number": {
+				"text": "Αριθμητικό"
+			},
+			"Currency": {
+				"text": "Χρήματα"
+			},
+			"Date": {
+				"text": "Ημερομηνία"
+			},
+			"Time": {
+				"text": "Ώρα"
+			},
+			"Percentage": {
+				"text": "Ποσοστό"
+			},
+			"Scientific": {
+				"text": "Εκθετικό"
+			},
+			"Text": {
+				"text": "Κείμενο"
+			}
+		},
+		"showFormulasButton": {
+			"title": "Εμφάνιση τύπων"
+		},
+		"searchTextButton": {
+			"title": "Εύρεση κειμένου"
+		},
+		"undoButton": {
+			"title": "Ακύρωση"
+		},
+		"redoButton": {
+			"title": "Επανάληψη"
+		},
+		"cutContentButton": {
+			"title": "Αποκοπή περιεχομένου"
+		},
+		"copyContentButton": {
+			"title": "Αντιγραφή περιεχομένου"
+		},
+		"pasteContentButton": {
+			"title": "Περιεχόμενο επικόλλησης"
+		},
+		"clearContentButton": {
+			"title": "Καθαρό περιεχόμενο"
+		},
+		"clearFormatButton": {
+			"title": "Διαγραφή μορφής"
+		},
+		"deleteRowsButton": {
+			"title": "Διαγραφή σειρών"
+		},
+		"deleteColumnsButton": {
+			"title": "Διαγραφή στηλών"
+		},
+		"deleteCellsAndShiftLeftButton": {
+			"title": "Διαγραφή κελιών και μετατόπιση αριστερά"
+		},
+		"deleteCellsAndShiftUpButton": {
+			"title": "Διαγραφή κελιών και μετατόπιση προς τα επάνω"
+		},
+		"deletePictureButton": {
+			"title": "Διαγραφή εικόνας"
+		},
+		"mergeCellsButton": {
+			"title": "Συγχώνευση κελιών"
+		},
+		"unmergeCellsButton": {
+			"title": "Καταργήστε τη συγχώνευση κελιών"
+		},
+		"fillCells": {
+			"title": "Γέμισμα κελιών"
+		},
+		"allBordersButton": {
+			"title": "Όλα τα σύνορα"
+		},
+		"thickOutsideBordersButton": {
+			"title": "Παχιά εξωτερικά περιγράμματα"
+		},
+		"autoFitRowHeightButton": {
+			"title": "Αυτόματη προσαρμογή του ύψους της σειράς"
+		},
+		"autoFitColumnWidthButton": {
+			"title": "Αυτόματη προσαρμογή του πλάτους της στήλης"
+		},
+		"insertRowsButton": {
+			"title": "Εισαγωγή σειρών"
+		},
+		"insertColumnsButton": {
+			"title": "Εισαγωγή στηλών"
+		},
+		"insertCellsAndShiftRightButton": {
+			"title": "Εισαγάγετε κελί και μετακινηθείτε δεξιά"
+		},
+		"insertCellsAndShiftDownButton": {
+			"title": "Εισαγάγετε κελί και μετακινηθείτε προς τα κάτω"
+		},
+		"insertSheetButton": {
+			"title": "Εισαγωγή φύλλου"
+		},
+		"insertFunctionButton": {
+			"title": "Εισαγωγή συνάρτησης"
+		},
+		"insertCommentButton": {
+			"title": "Εισαγωγή σχολίου"
+		},
+		"insertPictureButton": {
+			"title": "Προσθήκη εικόνας"
+		},
+		"editCommentButton": {
+			"title": "Επεξεργασία σχολίου"
+		},
+		"deleteCommentButton": {
+			"title": "Διαγραφή σχολίου"
+		},
+		"previousCommentButton": {
+			"title": "Προηγούμενο σχόλιο"
+		},
+		"nextCommentButton": {
+			"title": "Επόμενο σχόλιο"
+		},
+		"formulaPanel-cancelChangeButton": {
+			"title": "Επαναφορά αλλαγών"
+		},
+		"formulaPanel-applyChangeButton": {
+			"title": "Εφαρμογή αλλαγών"
+		},
+		"formulaPanel-fullScreenButton": {
+			"title": "ΠΛΗΡΗΣ ΟΘΟΝΗ"
+		},
+		"scrollToFirstWorksheetButton": {
+			"title": "Κύλιση στο πρώτο φύλλο"
+		},
+		"scrollToLastWorksheetButton": {
+			"title": "Κύλιση στο τελευταίο φύλλο"
+		},
+		"addWorksheetButton": {
+			"title": "Προσθήκη φύλλου"
+		},
+		"showWorksheetListButton": {
+			"title": "Εμφάνιση λίστας φύλλων"
+		},
+		"copyWorksheetButton": {
+			"title": "Αντιγραφή φύλλου"
+		},
+		"deleteWorksheetButton": {
+			"title": "Διαγραφή φύλλου"
+		},
+		"renameWorksheetButton": {
+			"title": "Μετονομασία φύλλου"
+		},
+		"moveWorksheetButton": {
+			"title": "Μετακίνηση φύλλου"
+		},
+		"zoomOutButton": {
+			"title": "Σμίκρυνση"
+		},
+		"zoomValueLabel": {
+			"text": "100%"
+		},
+		"zoomInButton": {
+			"title": "Μεγέθυνση"
+		},
+		"enUsCurrencyNumberFormatButton": {
+			"title": "$ Αγγλικά (ΗΠΑ)"
+		},
+		"enUkCurrencyNumberFormatButton": {
+			"title": "£ Αγγλικά (Ηνωμένο Βασίλειο)"
+		},
+		"euCurrencyNumberFormatButton": {
+			"title": "€ Ευρώ (123 €)"
+		},
+		"ruCurrencyNumberFormatButton": {
+			"title": "₽ Ρωσικά"
+		},
+		"chCurrencyNumberFormatButton": {
+			"title": "¥ κινέζικο"
+		},
+		"enInCurrencyNumberFormatButton": {
+			"title": "₹ Αγγλικά (Ινδία)"
+		},
+		"fillCellsDownButton": {
+			"title": "Συμπλήρωσε"
+		},
+		"fillCellsUpButton": {
+			"title": "Γέμισμα"
+		},
+		"fillCellsLeftButton": {
+			"title": "Γέμισμα αριστερά"
+		},
+		"fillCellsRightButton": {
+			"title": "Δεξιά συμπλήρωση"
+		},
+		"noBordersButton": {
+			"title": "Χωρίς Σύνορα"
+		},
+		"outsideBordersButton": {
+			"title": "Εξωτερικά όρια"
+		},
+		"bottomBorderButton": {
+			"title": "Κάτω περίγραμμα"
+		},
+		"topBorderButton": {
+			"title": "Κορυφαίο περίγραμμα"
+		},
+		"rightBorderButton": {
+			"title": "Δεξιά σύνορα"
+		},
+		"leftBorderButton": {
+			"title": "Αριστερά σύνορα"
+		},
+		"thickBottomBorderButton": {
+			"title": "Χοντρό κάτω περίγραμμα"
+		},
+		"thickLeftBorderButton": {
+			"title": "Χοντρό αριστερό περίγραμμα"
+		},
+		"doubleBottomBorderButton": {
+			"title": "Διπλό κάτω περίγραμμα"
+		},
+		"doubleLeftBorderButton": {
+			"title": "Διπλό αριστερό περίγραμμα"
+		},
+		"borderColorButton": {
+			"title": "Χρώμα πλαισίου"
+		},
+		"copyLabel": {
+			"text": "Αντιγραφή"
+		},
+		"cutLabel": {
+			"text": "Αποκοπή"
+		},
+		"pasteLabel": {
+			"text": "Επικόλληση"
+		},
+		"clearContentsLabel": {
+			"text": "Διαγραφή περιεχομένου"
+		},
+		"insertCellAndShiftRightLabel": {
+			"text": "Εισαγάγετε κελί και μετακινηθείτε δεξιά"
+		},
+		"insertCellAndShiftDownLabel": {
+			"text": "Εισαγάγετε κελί και μετακινηθείτε προς τα κάτω"
+		},
+		"insertEntireRowLabel": {
+			"text": "Εισαγωγή ολόκληρης σειράς"
+		},
+		"insertEntireColumnLabel": {
+			"text": "Εισαγωγή ολόκληρης της στήλης"
+		},
+		"deleteImageLabel": {
+			"text": "Διαγραφή"
+		},
+		"deleteCellAndShiftLeftLabel": {
+			"text": "Διαγραφή κελιού και μετακίνηση αριστερά"
+		},
+		"deleteCellAndShiftUpLabel": {
+			"text": "Διαγραφή κελιού και μετακίνηση προς τα επάνω"
+		},
+		"deleteEntireRowLabel": {
+			"text": "Διαγραφή ολόκληρης της γραμμής"
+		},
+		"deleteEntireColumnLabel": {
+			"text": "Διαγραφή ολόκληρης της στήλης"
+		},
+		"insertRowsLabel": {
+			"text": "Εισαγωγή σειρών"
+		},
+		"deleteRowsLabel": {
+			"text": "Διαγραφή σειρών"
+		},
+		"insertColumnsLabel": {
+			"text": "Εισαγωγή στηλών"
+		},
+		"deleteColumnsLabel": {
+			"text": "Διαγραφή στηλών"
+		},
+		"insertCommentLabel": {
+			"text": "Εισαγωγή σχολίου..."
+		},
+		"editCommentLabel": {
+			"text": "Επεξεργασία σχολίου..."
+		},
+		"deleteCommentLabel": {
+			"text": "Διαγραφή σχολίου"
+		},
+		"showHideCommentLabel": {
+			"text": "Εμφάνιση/Απόκρυψη σχολίου"
+		},
+		"hideCommentLabel": {
+			"text": "Απόκρυψη σχολίου"
+		},
+		"hideRowsLabel": {
+			"text": "Απόκρυψη σειρών"
+		},
+		"unhideRowsLabel": {
+			"text": "Εμφάνιση σειρών"
+		},
+		"hideColumnsLabel": {
+			"text": "Απόκρυψη στηλών"
+		},
+		"unhideColumnsLabel": {
+			"text": "Εμφάνιση στηλών"
+		},
+		"insertCommentDialog": {
+			"authorLabel": {
+				"text": "Συγγραφέας:"
+			},
+			"showAuthorLabel": {
+				"text": "Εμφάνιση συγγραφέα"
+			},
+			"commentLabel": {
+				"text": "Σχόλιο:"
+			},
+			"okButton": {
+				"value": "ΟΚ"
+			},
+			"cancelButton": {
+				"value": "Ακύρωση"
+			}
+		},
+		"commentEditDialog": {
+			"authorLabel": {
+				"text": "Συγγραφέας:"
+			},
+			"showAuthorLabel": {
+				"text": "Εμφάνιση συγγραφέα"
+			},
+			"commentLabel": {
+				"text": "Σχόλιο:"
+			},
+			"okButton": {
+				"value": "ΟΚ"
+			},
+			"cancelButton": {
+				"value": "Ακύρωση"
+			}
+		},
+		"renameWorksheetDialog": {
+			"nameLabel": {
+				"text": "Όνομα:"
+			},
+			"okButton": {
+				"value": "ΟΚ"
+			},
+			"cancelButton": {
+				"value": "Ακύρωση"
+			}
+		},
+		"moveWorksheetDialog": {
+			"moveUpButton": {
+				"value": "Μετακίνηση προς τα πάνω"
+			},
+			"moveDownButton": {
+				"value": "Μετακίνηση προς τα κάτω"
+			},
+			"okButton": {
+				"value": "ΟΚ"
+			},
+			"cancelButton": {
+				"value": "Ακύρωση"
+			}
+		},
+		"findTextDialog": {
+			"findTextLabel": {
+				"text": "Εύρεση κειμένου"
+			},
+			"findWhatLabel": {
+				"text": "Εύρεση:"
+			},
+			"withinLabel": {
+				"text": "Αναζήτηση για:"
+			},
+			"Sheet": {
+				"text": "Σε φύλλο"
+			},
+			"Workbook": {
+				"text": "Στο βιβλίο"
+			},
+			"searchLabel": {
+				"text": "Αναζήτηση για:"
+			},
+			"ByRows": {
+				"text": "Σε γραμμές"
+			},
+			"ByColumns": {
+				"text": "Σε στήλες"
+			},
+			"lookInLabel": {
+				"text": "Περιοχή αναζήτησης:"
+			},
+			"Formulas": {
+				"text": "Τύποι"
+			},
+			"Values": {
+				"text": "Τιμές"
+			},
+			"Comments": {
+				"text": "Σχόλια"
+			},
+			"matchCaseLabel": {
+				"text": "διάκριση πεζών-κεφαλαίων"
+			},
+			"matchEntireContentLabel": {
+				"text": "Ακριβής αντιστοίχιση"
+			},
+			"findNextButton": {
+				"value": "Εύρεση επόμενου"
+			},
+			"closeButton": {
+				"value": "Κλείσιμο"
+			}
+		},
+		"selectFunctionDialog": {
+			"categoryLabel": {
+				"text": "Κατηγορία:"
+			},
+			"categoryDropDown": {
+				"All": {
+					"text": "Όλα"
+				},
+				"Financial": {
+					"text": "Οικονομικά"
+				},
+				"DateAndTime": {
+					"text": "Ημερομηνία και ώρα"
+				},
+				"MathAndTrig": {
+					"text": "Μαθ"
+				},
+				"Statistical": {
+					"text": "Στατιστικό"
+				},
+				"LookupAndReference": {
+					"text": "Αναφορές και πίνακες"
+				},
+				"Text": {
+					"text": "Κείμενο"
+				},
+				"Logical": {
+					"text": "Boolean"
+				},
+				"Information": {
+					"text": "Πληροφοριακό"
+				},
+				"Engineering": {
+					"text": "Μηχανική"
+				}
+			},
+			"selectFunctionLabel": {
+				"text": "Επιλέξτε μια συνάρτηση:"
+			},
+			"okButton": {
+				"value": "ΟΚ"
+			},
+			"cancelButton": {
+				"value": "Ακύρωση"
+			}
+		}
+	},
+	"strings": {
+		"vssde-documentIsOpening": "Το έγγραφο ανοίγει...",
+		"vssde-numberFormat-general": "Γενικά",
+		"vssde-numberFormat-number": "Αριθμητικό",
+		"vssde-numberFormat-date": "Ημερομηνία",
+		"vssde-numberFormat-time": "Ώρα",
+		"vssde-numberFormat-currency": "Χρήματα",
+		"vssde-numberFormat-percentage": "Ποσοστό",
+		"vssde-numberFormat-scientific": "Εκθετικό",
+		"vssde-numberFormat-text": "Κείμενο",
+		"vssde-numberFormat-custom": "Προσαρμοσμένο",
+		"vssde-findTextPanel-sheet": "Σε φύλλο",
+		"vssde-findTextPanel-workbook": "Στο βιβλίο",
+		"vssde-findTextPanel-byRows": "Σε γραμμές",
+		"vssde-findTextPanel-byColumns": "Σε στήλες",
+		"vssde-findTextPanel-formulas": "Τύποι",
+		"vssde-findTextPanel-values": "Τιμές",
+		"vssde-findTextPanel-comments": "Σχόλια",
+		"vssde-findTextPanel-textIsNotFound": "Το κείμενο '{0}' δεν βρέθηκε.",
+		"vssde-selectFunctionPanel-all": "Όλα",
+		"vssde-createXlsxDocument": "Δημιουργία νέου εγγράφου XLSX",
+		"vssde-uploadXlsxFile": "Μεταφορτώστε το αρχείο XLSX",
+		"vssde-downloadXlsxFile": "Μεταφόρτωση αρχείου XLSX",
+		"vssde-exportXlsxToPdf": "Εξαγωγή XLSX σε PDF",
+		"vssde-fileSizeExceedsLimit": "Το μέγεθος του μεταφορτωμένου αρχείου υπερβαίνει το μέγιστο μέγεθος ({0} byte).",
+		"vssde-createXlsxDocumentConfirmation": "Θέλετε να δημιουργήσετε ένα νέο βιβλίο εργασίας;",
+		"vssde-insertCommentDialog-title": "Εισαγωγή σχολίου",
+		"vssde-dialog-okButton": "ΟΚ",
+		"vssde-dialog-cancelButton": "Ακύρωση",
+		"vssde-editCommentDialog-title": "Επεξεργασία σχολίου",
+		"vssde-renameWorksheetDialog-title": "Μετονομασία φύλλου",
+		"vssde-moveWorksheetDialog-title": "Μετακίνηση φύλλου",
+		"vssde-findTextDialog-title": "Εύρεση κειμένου",
+		"vssde-findTextDialog-findNextButton": "Εύρεση επόμενου",
+		"vssde-dialog-closeButton": "Κλείσιμο",
+		"vssde-selectFunctionDialog-title": "Εισαγωγή συνάρτησης"
+	}
+}

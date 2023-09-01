@@ -1,0 +1,588 @@
+﻿{
+	"spreadsheetDocumentEditorControl": {
+		"fileLabel": {
+			"text": "Fil"
+		},
+		"homeLabel": {
+			"text": "Hoved"
+		},
+		"editLabel": {
+			"text": "Redigering"
+		},
+		"insertLabel": {
+			"text": "Indsæt"
+		},
+		"reviewLabel": {
+			"text": "Kommentarer"
+		},
+		"createXlsxDocumentButton": {
+			"title": "Opret nyt XLSX-dokument"
+		},
+		"uploadXlsxFileButton": {
+			"title": "Download og åbn XLSX-fil"
+		},
+		"downloadXlsxFileButton": {
+			"title": "Upload XLSX-fil"
+		},
+		"exportXlsxToPdfButton": {
+			"title": "Eksporter XLSX til PDF"
+		},
+		"showMobileMenuButton": {
+			"title": "Mere"
+		},
+		"boldTextButton": {
+			"title": "Fed"
+		},
+		"italicTextButton": {
+			"title": "Kursiv"
+		},
+		"underlineTextButton": {
+			"title": "Understreget"
+		},
+		"strikethroughTextButton": {
+			"title": "Kryddet"
+		},
+		"fontColorButton": {
+			"title": "Skriftfarve"
+		},
+		"fillColorButton": {
+			"title": "Fyldfarve"
+		},
+		"copyStyleButton": {
+			"title": "Stilmaler"
+		},
+		"alignLeftButton": {
+			"title": "Juster til venstre"
+		},
+		"alignCenterButton": {
+			"title": "Juster center"
+		},
+		"alignRightButton": {
+			"title": "Juster til højre"
+		},
+		"topAlignButton": {
+			"title": "Juster top"
+		},
+		"middleAlignButton": {
+			"title": "Juster center"
+		},
+		"bottomAlignButton": {
+			"title": "Juster bund"
+		},
+		"textWrappingButton": {
+			"title": "Ombryd tekst"
+		},
+		"currencyNumberFormatButton": {
+			"title": "Finansnummerformat"
+		},
+		"increaseDecimalButton": {
+			"title": "Forøg decimal"
+		},
+		"decreaseDecimalButton": {
+			"title": "Reducer decimal"
+		},
+		"percentNumberFormatButton": {
+			"title": "Procentformat"
+		},
+		"numberFormatDropDown": {
+			"General": {
+				"text": "Generelt"
+			},
+			"Number": {
+				"text": "Numerisk"
+			},
+			"Currency": {
+				"text": "Penge"
+			},
+			"Date": {
+				"text": "Dato"
+			},
+			"Time": {
+				"text": "Tid"
+			},
+			"Percentage": {
+				"text": "Procentdel"
+			},
+			"Scientific": {
+				"text": "Eksponentiel"
+			},
+			"Text": {
+				"text": "Tekst"
+			}
+		},
+		"showFormulasButton": {
+			"title": "Vis formler"
+		},
+		"searchTextButton": {
+			"title": "Find tekst"
+		},
+		"undoButton": {
+			"title": "Annuller"
+		},
+		"redoButton": {
+			"title": "Gentag"
+		},
+		"cutContentButton": {
+			"title": "Klip indhold"
+		},
+		"copyContentButton": {
+			"title": "Kopiér indhold"
+		},
+		"pasteContentButton": {
+			"title": "Indsæt indhold"
+		},
+		"clearContentButton": {
+			"title": "Tydeligt indhold"
+		},
+		"clearFormatButton": {
+			"title": "Ryd format"
+		},
+		"deleteRowsButton": {
+			"title": "Slet rækker"
+		},
+		"deleteColumnsButton": {
+			"title": "Slet kolonner"
+		},
+		"deleteCellsAndShiftLeftButton": {
+			"title": "Slet celler og skift til venstre"
+		},
+		"deleteCellsAndShiftUpButton": {
+			"title": "Slet celler og skift op"
+		},
+		"deletePictureButton": {
+			"title": "Slet billede"
+		},
+		"mergeCellsButton": {
+			"title": "Flet celler"
+		},
+		"unmergeCellsButton": {
+			"title": "Fjern fletningen af celler"
+		},
+		"fillCells": {
+			"title": "Fyld celler"
+		},
+		"allBordersButton": {
+			"title": "Alle grænser"
+		},
+		"thickOutsideBordersButton": {
+			"title": "Tykke ydre kanter"
+		},
+		"autoFitRowHeightButton": {
+			"title": "Autotilpas rækkehøjden"
+		},
+		"autoFitColumnWidthButton": {
+			"title": "Autotilpas kolonnebredden"
+		},
+		"insertRowsButton": {
+			"title": "Indsæt rækker"
+		},
+		"insertColumnsButton": {
+			"title": "Indsæt kolonner"
+		},
+		"insertCellsAndShiftRightButton": {
+			"title": "Indsæt celle og flyt til højre"
+		},
+		"insertCellsAndShiftDownButton": {
+			"title": "Indsæt celle og flyt ned"
+		},
+		"insertSheetButton": {
+			"title": "Indsæt ark"
+		},
+		"insertFunctionButton": {
+			"title": "Indsæt funktion"
+		},
+		"insertCommentButton": {
+			"title": "Indsæt kommentar"
+		},
+		"insertPictureButton": {
+			"title": "Tilføj billede"
+		},
+		"editCommentButton": {
+			"title": "Rediger kommentar"
+		},
+		"deleteCommentButton": {
+			"title": "Slet kommentar"
+		},
+		"previousCommentButton": {
+			"title": "Forrige kommentar"
+		},
+		"nextCommentButton": {
+			"title": "Næste kommentar"
+		},
+		"formulaPanel-cancelChangeButton": {
+			"title": "Gendan ændringer"
+		},
+		"formulaPanel-applyChangeButton": {
+			"title": "Anvend ændringer"
+		},
+		"formulaPanel-fullScreenButton": {
+			"title": "Fuld skærm"
+		},
+		"scrollToFirstWorksheetButton": {
+			"title": "Rul til første ark"
+		},
+		"scrollToLastWorksheetButton": {
+			"title": "Rul til sidste ark"
+		},
+		"addWorksheetButton": {
+			"title": "Tilføj ark"
+		},
+		"showWorksheetListButton": {
+			"title": "Vis arkliste"
+		},
+		"copyWorksheetButton": {
+			"title": "Kopiér ark"
+		},
+		"deleteWorksheetButton": {
+			"title": "Slet ark"
+		},
+		"renameWorksheetButton": {
+			"title": "Omdøb ark"
+		},
+		"moveWorksheetButton": {
+			"title": "Flyt ark"
+		},
+		"zoomOutButton": {
+			"title": "Zoom ud"
+		},
+		"zoomValueLabel": {
+			"text": "100%"
+		},
+		"zoomInButton": {
+			"title": "Zoom ind"
+		},
+		"enUsCurrencyNumberFormatButton": {
+			"title": "$ engelsk (USA)"
+		},
+		"enUkCurrencyNumberFormatButton": {
+			"title": "£ Engelsk (Storbritannien)"
+		},
+		"euCurrencyNumberFormatButton": {
+			"title": "€ Euro (€ 123)"
+		},
+		"ruCurrencyNumberFormatButton": {
+			"title": "₽ russisk"
+		},
+		"chCurrencyNumberFormatButton": {
+			"title": "¥ kinesisk"
+		},
+		"enInCurrencyNumberFormatButton": {
+			"title": "₹ engelsk (Indien)"
+		},
+		"fillCellsDownButton": {
+			"title": "Fyld ned"
+		},
+		"fillCellsUpButton": {
+			"title": "Fyld op"
+		},
+		"fillCellsLeftButton": {
+			"title": "Fyld til venstre"
+		},
+		"fillCellsRightButton": {
+			"title": "Fyld til højre"
+		},
+		"noBordersButton": {
+			"title": "Ingen grænser"
+		},
+		"outsideBordersButton": {
+			"title": "Ydre grænser"
+		},
+		"bottomBorderButton": {
+			"title": "Nederste kant"
+		},
+		"topBorderButton": {
+			"title": "Øverste kant"
+		},
+		"rightBorderButton": {
+			"title": "Højre grænse"
+		},
+		"leftBorderButton": {
+			"title": "Venstre grænse"
+		},
+		"thickBottomBorderButton": {
+			"title": "Tyk bundkant"
+		},
+		"thickLeftBorderButton": {
+			"title": "Tyk venstre kant"
+		},
+		"doubleBottomBorderButton": {
+			"title": "Dobbelt bundkant"
+		},
+		"doubleLeftBorderButton": {
+			"title": "Dobbelt venstre kant"
+		},
+		"borderColorButton": {
+			"title": "Kantfarve"
+		},
+		"copyLabel": {
+			"text": "Kopiér"
+		},
+		"cutLabel": {
+			"text": "Klip"
+		},
+		"pasteLabel": {
+			"text": "Indsæt"
+		},
+		"clearContentsLabel": {
+			"text": "Ryd indhold"
+		},
+		"insertCellAndShiftRightLabel": {
+			"text": "Indsæt celle og flyt til højre"
+		},
+		"insertCellAndShiftDownLabel": {
+			"text": "Indsæt celle og flyt ned"
+		},
+		"insertEntireRowLabel": {
+			"text": "Indsæt hele linjen"
+		},
+		"insertEntireColumnLabel": {
+			"text": "Indsæt hele kolonnen"
+		},
+		"deleteImageLabel": {
+			"text": "Slet"
+		},
+		"deleteCellAndShiftLeftLabel": {
+			"text": "Slet celle og flyt til venstre"
+		},
+		"deleteCellAndShiftUpLabel": {
+			"text": "Slet celle og flyt op"
+		},
+		"deleteEntireRowLabel": {
+			"text": "Slet hele linjen"
+		},
+		"deleteEntireColumnLabel": {
+			"text": "Slet hele kolonnen"
+		},
+		"insertRowsLabel": {
+			"text": "Indsæt rækker"
+		},
+		"deleteRowsLabel": {
+			"text": "Slet rækker"
+		},
+		"insertColumnsLabel": {
+			"text": "Indsæt kolonner"
+		},
+		"deleteColumnsLabel": {
+			"text": "Slet kolonner"
+		},
+		"insertCommentLabel": {
+			"text": "Indsæt kommentar..."
+		},
+		"editCommentLabel": {
+			"text": "Rediger kommentar..."
+		},
+		"deleteCommentLabel": {
+			"text": "Slet kommentar"
+		},
+		"showHideCommentLabel": {
+			"text": "Vis/skjul kommentar"
+		},
+		"hideCommentLabel": {
+			"text": "Skjul kommentar"
+		},
+		"hideRowsLabel": {
+			"text": "Skjul rækker"
+		},
+		"unhideRowsLabel": {
+			"text": "Vis rækker"
+		},
+		"hideColumnsLabel": {
+			"text": "Skjul kolonner"
+		},
+		"unhideColumnsLabel": {
+			"text": "Vis kolonner"
+		},
+		"insertCommentDialog": {
+			"authorLabel": {
+				"text": "Forfatter:"
+			},
+			"showAuthorLabel": {
+				"text": "Vis forfatter"
+			},
+			"commentLabel": {
+				"text": "Kommentar:"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Annuller"
+			}
+		},
+		"commentEditDialog": {
+			"authorLabel": {
+				"text": "Forfatter:"
+			},
+			"showAuthorLabel": {
+				"text": "Vis forfatter"
+			},
+			"commentLabel": {
+				"text": "Kommentar:"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Annuller"
+			}
+		},
+		"renameWorksheetDialog": {
+			"nameLabel": {
+				"text": "Navn:"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Annuller"
+			}
+		},
+		"moveWorksheetDialog": {
+			"moveUpButton": {
+				"value": "Flyt op"
+			},
+			"moveDownButton": {
+				"value": "Flyt ned"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Annuller"
+			}
+		},
+		"findTextDialog": {
+			"findTextLabel": {
+				"text": "Find tekst"
+			},
+			"findWhatLabel": {
+				"text": "Find:"
+			},
+			"withinLabel": {
+				"text": "Søg efter:"
+			},
+			"Sheet": {
+				"text": "På ark"
+			},
+			"Workbook": {
+				"text": "I bogen"
+			},
+			"searchLabel": {
+				"text": "Søg efter:"
+			},
+			"ByRows": {
+				"text": "I linjer"
+			},
+			"ByColumns": {
+				"text": "I kolonner"
+			},
+			"lookInLabel": {
+				"text": "Søgeområde:"
+			},
+			"Formulas": {
+				"text": "Formler"
+			},
+			"Values": {
+				"text": "Værdier"
+			},
+			"Comments": {
+				"text": "Kommentarer"
+			},
+			"matchCaseLabel": {
+				"text": "forskel på store og små bogstaver"
+			},
+			"matchEntireContentLabel": {
+				"text": "Eksakt match"
+			},
+			"findNextButton": {
+				"value": "Find næste"
+			},
+			"closeButton": {
+				"value": "Luk"
+			}
+		},
+		"selectFunctionDialog": {
+			"categoryLabel": {
+				"text": "Kategori:"
+			},
+			"categoryDropDown": {
+				"All": {
+					"text": "Alle"
+				},
+				"Financial": {
+					"text": "Økonomisk"
+				},
+				"DateAndTime": {
+					"text": "Dato og tid"
+				},
+				"MathAndTrig": {
+					"text": "Matematik"
+				},
+				"Statistical": {
+					"text": "Statistisk"
+				},
+				"LookupAndReference": {
+					"text": "Referencer og arrays"
+				},
+				"Text": {
+					"text": "Tekst"
+				},
+				"Logical": {
+					"text": "Boolesk"
+				},
+				"Information": {
+					"text": "Informativ"
+				},
+				"Engineering": {
+					"text": "Engineering"
+				}
+			},
+			"selectFunctionLabel": {
+				"text": "Vælg en funktion:"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Annuller"
+			}
+		}
+	},
+	"strings": {
+		"vssde-documentIsOpening": "Dokument åbner...",
+		"vssde-numberFormat-general": "Generelt",
+		"vssde-numberFormat-number": "Numerisk",
+		"vssde-numberFormat-date": "Dato",
+		"vssde-numberFormat-time": "Tid",
+		"vssde-numberFormat-currency": "Penge",
+		"vssde-numberFormat-percentage": "Procentdel",
+		"vssde-numberFormat-scientific": "Eksponentiel",
+		"vssde-numberFormat-text": "Tekst",
+		"vssde-numberFormat-custom": "Brugerdefineret",
+		"vssde-findTextPanel-sheet": "På ark",
+		"vssde-findTextPanel-workbook": "I bogen",
+		"vssde-findTextPanel-byRows": "I linjer",
+		"vssde-findTextPanel-byColumns": "I kolonner",
+		"vssde-findTextPanel-formulas": "Formler",
+		"vssde-findTextPanel-values": "Værdier",
+		"vssde-findTextPanel-comments": "Kommentarer",
+		"vssde-findTextPanel-textIsNotFound": "Teksten '{0}' blev ikke fundet.",
+		"vssde-selectFunctionPanel-all": "Alle",
+		"vssde-createXlsxDocument": "Opret nyt XLSX-dokument",
+		"vssde-uploadXlsxFile": "Upload XLSX-fil",
+		"vssde-downloadXlsxFile": "Upload XLSX-fil",
+		"vssde-exportXlsxToPdf": "Eksporter XLSX til PDF",
+		"vssde-fileSizeExceedsLimit": "Størrelsen på den uploadede fil overstiger den maksimale størrelse ({0} bytes).",
+		"vssde-createXlsxDocumentConfirmation": "Vil du oprette en ny projektmappe?",
+		"vssde-insertCommentDialog-title": "Indsæt kommentar",
+		"vssde-dialog-okButton": "OK",
+		"vssde-dialog-cancelButton": "Annuller",
+		"vssde-editCommentDialog-title": "Rediger kommentar",
+		"vssde-renameWorksheetDialog-title": "Omdøb ark",
+		"vssde-moveWorksheetDialog-title": "Flyt ark",
+		"vssde-findTextDialog-title": "Find tekst",
+		"vssde-findTextDialog-findNextButton": "Find næste",
+		"vssde-dialog-closeButton": "Luk",
+		"vssde-selectFunctionDialog-title": "Indsæt funktion"
+	}
+}

@@ -1,0 +1,588 @@
+﻿{
+	"spreadsheetDocumentEditorControl": {
+		"fileLabel": {
+			"text": "Fájl"
+		},
+		"homeLabel": {
+			"text": "Fő"
+		},
+		"editLabel": {
+			"text": "Szerkesztés"
+		},
+		"insertLabel": {
+			"text": "Beszúrás"
+		},
+		"reviewLabel": {
+			"text": "Megjegyzések"
+		},
+		"createXlsxDocumentButton": {
+			"title": "Hozzon létre új XLSX dokumentumot"
+		},
+		"uploadXlsxFileButton": {
+			"title": "Töltse le és nyissa meg az XLSX fájlt"
+		},
+		"downloadXlsxFileButton": {
+			"title": "XLSX fájl feltöltése"
+		},
+		"exportXlsxToPdfButton": {
+			"title": "XLSX exportálása PDF-be"
+		},
+		"showMobileMenuButton": {
+			"title": "Továbbiak"
+		},
+		"boldTextButton": {
+			"title": "félkövér"
+		},
+		"italicTextButton": {
+			"title": "Dőlt"
+		},
+		"underlineTextButton": {
+			"title": "Aláhúzott"
+		},
+		"strikethroughTextButton": {
+			"title": "Keresztve"
+		},
+		"fontColorButton": {
+			"title": "Betűszín"
+		},
+		"fillColorButton": {
+			"title": "Kitöltés színe"
+		},
+		"copyStyleButton": {
+			"title": "Stílusfestő"
+		},
+		"alignLeftButton": {
+			"title": "Balra igazítás"
+		},
+		"alignCenterButton": {
+			"title": "Igazítás középre"
+		},
+		"alignRightButton": {
+			"title": "Jobbra igazítás"
+		},
+		"topAlignButton": {
+			"title": "Felül igazítás"
+		},
+		"middleAlignButton": {
+			"title": "Igazítás középre"
+		},
+		"bottomAlignButton": {
+			"title": "Alulra igazítás"
+		},
+		"textWrappingButton": {
+			"title": "Szöveg tördelése"
+		},
+		"currencyNumberFormatButton": {
+			"title": "Pénzügyi számformátum"
+		},
+		"increaseDecimalButton": {
+			"title": "Tizedesjegy növelése"
+		},
+		"decreaseDecimalButton": {
+			"title": "Tizedesjegy csökkentése"
+		},
+		"percentNumberFormatButton": {
+			"title": "Százalékos formátum"
+		},
+		"numberFormatDropDown": {
+			"General": {
+				"text": "Általános"
+			},
+			"Number": {
+				"text": "Numerikus"
+			},
+			"Currency": {
+				"text": "Pénz"
+			},
+			"Date": {
+				"text": "Dátum"
+			},
+			"Time": {
+				"text": "Idő"
+			},
+			"Percentage": {
+				"text": "Százalék"
+			},
+			"Scientific": {
+				"text": "Exponenciális"
+			},
+			"Text": {
+				"text": "Szöveg"
+			}
+		},
+		"showFormulasButton": {
+			"title": "Képletek megjelenítése"
+		},
+		"searchTextButton": {
+			"title": "Szöveg keresése"
+		},
+		"undoButton": {
+			"title": "Mégse"
+		},
+		"redoButton": {
+			"title": "Ismétlés"
+		},
+		"cutContentButton": {
+			"title": "Vágott tartalom"
+		},
+		"copyContentButton": {
+			"title": "Tartalom másolása"
+		},
+		"pasteContentButton": {
+			"title": "Pasztatartalom"
+		},
+		"clearContentButton": {
+			"title": "Tiszta tartalom"
+		},
+		"clearFormatButton": {
+			"title": "Formátum törlése"
+		},
+		"deleteRowsButton": {
+			"title": "Sorok törlése"
+		},
+		"deleteColumnsButton": {
+			"title": "Oszlopok törlése"
+		},
+		"deleteCellsAndShiftLeftButton": {
+			"title": "Törölje a cellákat és tolja balra"
+		},
+		"deleteCellsAndShiftUpButton": {
+			"title": "Törölje a cellákat és tolja felfelé"
+		},
+		"deletePictureButton": {
+			"title": "Kép törlése"
+		},
+		"mergeCellsButton": {
+			"title": "Cellák egyesítése"
+		},
+		"unmergeCellsButton": {
+			"title": "A cellák egyesítésének megszüntetése"
+		},
+		"fillCells": {
+			"title": "Cellák kitöltése"
+		},
+		"allBordersButton": {
+			"title": "Minden szegély"
+		},
+		"thickOutsideBordersButton": {
+			"title": "Vastag külső szegély"
+		},
+		"autoFitRowHeightButton": {
+			"title": "A sormagasság automatikus igazítása"
+		},
+		"autoFitColumnWidthButton": {
+			"title": "Az oszlopszélesség automatikus igazítása"
+		},
+		"insertRowsButton": {
+			"title": "Sorok beszúrása"
+		},
+		"insertColumnsButton": {
+			"title": "Oszlopok beszúrása"
+		},
+		"insertCellsAndShiftRightButton": {
+			"title": "Cella beszúrása és jobbra helyezés"
+		},
+		"insertCellsAndShiftDownButton": {
+			"title": "Cella beszúrása és lefelé mozgás"
+		},
+		"insertSheetButton": {
+			"title": "Lap beszúrása"
+		},
+		"insertFunctionButton": {
+			"title": "Függvény beszúrása"
+		},
+		"insertCommentButton": {
+			"title": "Megjegyzés beszúrása"
+		},
+		"insertPictureButton": {
+			"title": "Kép hozzáadása"
+		},
+		"editCommentButton": {
+			"title": "Megjegyzés szerkesztése"
+		},
+		"deleteCommentButton": {
+			"title": "Megjegyzés törlése"
+		},
+		"previousCommentButton": {
+			"title": "Előző megjegyzés"
+		},
+		"nextCommentButton": {
+			"title": "Következő megjegyzés"
+		},
+		"formulaPanel-cancelChangeButton": {
+			"title": "Módosítások visszaállítása"
+		},
+		"formulaPanel-applyChangeButton": {
+			"title": "Módosítások alkalmazása"
+		},
+		"formulaPanel-fullScreenButton": {
+			"title": "Teljes képernyő"
+		},
+		"scrollToFirstWorksheetButton": {
+			"title": "Görgessen az első lapra"
+		},
+		"scrollToLastWorksheetButton": {
+			"title": "Görgetés az utolsó lapra"
+		},
+		"addWorksheetButton": {
+			"title": "Lap hozzáadása"
+		},
+		"showWorksheetListButton": {
+			"title": "Laplista megjelenítése"
+		},
+		"copyWorksheetButton": {
+			"title": "Lap másolása"
+		},
+		"deleteWorksheetButton": {
+			"title": "Lap törlése"
+		},
+		"renameWorksheetButton": {
+			"title": "Lap átnevezése"
+		},
+		"moveWorksheetButton": {
+			"title": "Lap mozgatása"
+		},
+		"zoomOutButton": {
+			"title": "Kicsinyítés"
+		},
+		"zoomValueLabel": {
+			"text": "100%"
+		},
+		"zoomInButton": {
+			"title": "Nagyítás"
+		},
+		"enUsCurrencyNumberFormatButton": {
+			"title": "$ angol (USA)"
+		},
+		"enUkCurrencyNumberFormatButton": {
+			"title": "£ angol (Egyesült Királyság)"
+		},
+		"euCurrencyNumberFormatButton": {
+			"title": "€ euró (123 €)"
+		},
+		"ruCurrencyNumberFormatButton": {
+			"title": "₽ orosz"
+		},
+		"chCurrencyNumberFormatButton": {
+			"title": "¥ kínai"
+		},
+		"enInCurrencyNumberFormatButton": {
+			"title": "₹ angol (India)"
+		},
+		"fillCellsDownButton": {
+			"title": "Töltsd le"
+		},
+		"fillCellsUpButton": {
+			"title": "Töltsd fel"
+		},
+		"fillCellsLeftButton": {
+			"title": "Kitöltés balra"
+		},
+		"fillCellsRightButton": {
+			"title": "Töltsd ki jobbra"
+		},
+		"noBordersButton": {
+			"title": "Nincs határ"
+		},
+		"outsideBordersButton": {
+			"title": "Külső határok"
+		},
+		"bottomBorderButton": {
+			"title": "Alsó szegély"
+		},
+		"topBorderButton": {
+			"title": "Felső szegély"
+		},
+		"rightBorderButton": {
+			"title": "Jobb határ"
+		},
+		"leftBorderButton": {
+			"title": "Bal határ"
+		},
+		"thickBottomBorderButton": {
+			"title": "Vastag alsó szegély"
+		},
+		"thickLeftBorderButton": {
+			"title": "Vastag bal szegély"
+		},
+		"doubleBottomBorderButton": {
+			"title": "Dupla alsó szegély"
+		},
+		"doubleLeftBorderButton": {
+			"title": "Dupla bal szegély"
+		},
+		"borderColorButton": {
+			"title": "Szegély színe"
+		},
+		"copyLabel": {
+			"text": "Másolás"
+		},
+		"cutLabel": {
+			"text": "Vágás"
+		},
+		"pasteLabel": {
+			"text": "Beillesztés"
+		},
+		"clearContentsLabel": {
+			"text": "Tiszta tartalom"
+		},
+		"insertCellAndShiftRightLabel": {
+			"text": "Cella beszúrása és jobbra helyezés"
+		},
+		"insertCellAndShiftDownLabel": {
+			"text": "Cella beszúrása és lefelé mozgás"
+		},
+		"insertEntireRowLabel": {
+			"text": "A teljes sor beszúrása"
+		},
+		"insertEntireColumnLabel": {
+			"text": "A teljes oszlop beszúrása"
+		},
+		"deleteImageLabel": {
+			"text": "Törlés"
+		},
+		"deleteCellAndShiftLeftLabel": {
+			"text": "Cella törlése és balra helyezés"
+		},
+		"deleteCellAndShiftUpLabel": {
+			"text": "Cella törlése és felfelé lépés"
+		},
+		"deleteEntireRowLabel": {
+			"text": "Teljes sor törlése"
+		},
+		"deleteEntireColumnLabel": {
+			"text": "Teljes oszlop törlése"
+		},
+		"insertRowsLabel": {
+			"text": "Sorok beszúrása"
+		},
+		"deleteRowsLabel": {
+			"text": "Sorok törlése"
+		},
+		"insertColumnsLabel": {
+			"text": "Oszlopok beszúrása"
+		},
+		"deleteColumnsLabel": {
+			"text": "Oszlopok törlése"
+		},
+		"insertCommentLabel": {
+			"text": "Megjegyzés beszúrása..."
+		},
+		"editCommentLabel": {
+			"text": "Megjegyzés szerkesztése..."
+		},
+		"deleteCommentLabel": {
+			"text": "Megjegyzés törlése"
+		},
+		"showHideCommentLabel": {
+			"text": "Megjegyzés megjelenítése/elrejtése"
+		},
+		"hideCommentLabel": {
+			"text": "Megjegyzés elrejtése"
+		},
+		"hideRowsLabel": {
+			"text": "Sorok elrejtése"
+		},
+		"unhideRowsLabel": {
+			"text": "Sorok megjelenítése"
+		},
+		"hideColumnsLabel": {
+			"text": "Oszlopok elrejtése"
+		},
+		"unhideColumnsLabel": {
+			"text": "Oszlopok megjelenítése"
+		},
+		"insertCommentDialog": {
+			"authorLabel": {
+				"text": "Szerző:"
+			},
+			"showAuthorLabel": {
+				"text": "Szerző megjelenítése"
+			},
+			"commentLabel": {
+				"text": "Megjegyzés:"
+			},
+			"okButton": {
+				"value": "Rendben"
+			},
+			"cancelButton": {
+				"value": "Mégse"
+			}
+		},
+		"commentEditDialog": {
+			"authorLabel": {
+				"text": "Szerző:"
+			},
+			"showAuthorLabel": {
+				"text": "Szerző megjelenítése"
+			},
+			"commentLabel": {
+				"text": "Megjegyzés:"
+			},
+			"okButton": {
+				"value": "Rendben"
+			},
+			"cancelButton": {
+				"value": "Mégse"
+			}
+		},
+		"renameWorksheetDialog": {
+			"nameLabel": {
+				"text": "Név:"
+			},
+			"okButton": {
+				"value": "Rendben"
+			},
+			"cancelButton": {
+				"value": "Mégse"
+			}
+		},
+		"moveWorksheetDialog": {
+			"moveUpButton": {
+				"value": "Mozgás felfelé"
+			},
+			"moveDownButton": {
+				"value": "Lépés lefelé"
+			},
+			"okButton": {
+				"value": "Rendben"
+			},
+			"cancelButton": {
+				"value": "Mégse"
+			}
+		},
+		"findTextDialog": {
+			"findTextLabel": {
+				"text": "Szöveg keresése"
+			},
+			"findWhatLabel": {
+				"text": "Keresés:"
+			},
+			"withinLabel": {
+				"text": "Keresés:"
+			},
+			"Sheet": {
+				"text": "Lapon"
+			},
+			"Workbook": {
+				"text": "A könyvben"
+			},
+			"searchLabel": {
+				"text": "Keresés:"
+			},
+			"ByRows": {
+				"text": "Sorokban"
+			},
+			"ByColumns": {
+				"text": "Oszlopokban"
+			},
+			"lookInLabel": {
+				"text": "Keresési terület:"
+			},
+			"Formulas": {
+				"text": "Képletek"
+			},
+			"Values": {
+				"text": "Értékek"
+			},
+			"Comments": {
+				"text": "Megjegyzések"
+			},
+			"matchCaseLabel": {
+				"text": "nagybetű érzékeny"
+			},
+			"matchEntireContentLabel": {
+				"text": "Pontos egyezés"
+			},
+			"findNextButton": {
+				"value": "Következő keresése"
+			},
+			"closeButton": {
+				"value": "Bezárás"
+			}
+		},
+		"selectFunctionDialog": {
+			"categoryLabel": {
+				"text": "Kategória:"
+			},
+			"categoryDropDown": {
+				"All": {
+					"text": "Mind"
+				},
+				"Financial": {
+					"text": "Pénzügyi"
+				},
+				"DateAndTime": {
+					"text": "Dátum és idő"
+				},
+				"MathAndTrig": {
+					"text": "Matek"
+				},
+				"Statistical": {
+					"text": "Statisztikai"
+				},
+				"LookupAndReference": {
+					"text": "Referenciák és tömbök"
+				},
+				"Text": {
+					"text": "Szöveg"
+				},
+				"Logical": {
+					"text": "Logiai érték"
+				},
+				"Information": {
+					"text": "Tájékoztató"
+				},
+				"Engineering": {
+					"text": "Műszaki"
+				}
+			},
+			"selectFunctionLabel": {
+				"text": "Válasszon függvényt:"
+			},
+			"okButton": {
+				"value": "Rendben"
+			},
+			"cancelButton": {
+				"value": "Mégse"
+			}
+		}
+	},
+	"strings": {
+		"vssde-documentIsOpening": "A dokumentum megnyitása...",
+		"vssde-numberFormat-general": "Általános",
+		"vssde-numberFormat-number": "Numerikus",
+		"vssde-numberFormat-date": "Dátum",
+		"vssde-numberFormat-time": "Idő",
+		"vssde-numberFormat-currency": "Pénz",
+		"vssde-numberFormat-percentage": "Százalék",
+		"vssde-numberFormat-scientific": "Exponenciális",
+		"vssde-numberFormat-text": "Szöveg",
+		"vssde-numberFormat-custom": "Egyedi",
+		"vssde-findTextPanel-sheet": "Lapon",
+		"vssde-findTextPanel-workbook": "A könyvben",
+		"vssde-findTextPanel-byRows": "Sorokban",
+		"vssde-findTextPanel-byColumns": "Oszlopokban",
+		"vssde-findTextPanel-formulas": "Képletek",
+		"vssde-findTextPanel-values": "Értékek",
+		"vssde-findTextPanel-comments": "Megjegyzések",
+		"vssde-findTextPanel-textIsNotFound": "A(z) '{0}' szöveg nem található.",
+		"vssde-selectFunctionPanel-all": "Mind",
+		"vssde-createXlsxDocument": "Hozzon létre új XLSX dokumentumot",
+		"vssde-uploadXlsxFile": "XLSX fájl feltöltése",
+		"vssde-downloadXlsxFile": "XLSX fájl feltöltése",
+		"vssde-exportXlsxToPdf": "XLSX exportálása PDF-be",
+		"vssde-fileSizeExceedsLimit": "A feltöltött fájl mérete meghaladja a maximális méretet ({0} bájt).",
+		"vssde-createXlsxDocumentConfirmation": "Új munkafüzetet szeretne létrehozni?",
+		"vssde-insertCommentDialog-title": "Megjegyzés beszúrása",
+		"vssde-dialog-okButton": "Rendben",
+		"vssde-dialog-cancelButton": "Mégse",
+		"vssde-editCommentDialog-title": "Megjegyzés szerkesztése",
+		"vssde-renameWorksheetDialog-title": "Lap átnevezése",
+		"vssde-moveWorksheetDialog-title": "Lap mozgatása",
+		"vssde-findTextDialog-title": "Szöveg keresése",
+		"vssde-findTextDialog-findNextButton": "Következő keresése",
+		"vssde-dialog-closeButton": "Bezárás",
+		"vssde-selectFunctionDialog-title": "Függvény beszúrása"
+	}
+}

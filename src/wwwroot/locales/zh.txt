@@ -1,0 +1,588 @@
+﻿{
+	"spreadsheetDocumentEditorControl": {
+		"fileLabel": {
+			"text": "文件"
+		},
+		"homeLabel": {
+			"text": "家"
+		},
+		"editLabel": {
+			"text": "编辑"
+		},
+		"insertLabel": {
+			"text": "插入"
+		},
+		"reviewLabel": {
+			"text": "审查"
+		},
+		"createXlsxDocumentButton": {
+			"title": "创建新的 XLSX 文档"
+		},
+		"uploadXlsxFileButton": {
+			"title": "上传并打开XLSX文件"
+		},
+		"downloadXlsxFileButton": {
+			"title": "下载XLSX文件"
+		},
+		"exportXlsxToPdfButton": {
+			"title": "将 XLSX 导出为 PDF"
+		},
+		"showMobileMenuButton": {
+			"title": "更多的"
+		},
+		"boldTextButton": {
+			"title": "加粗字体"
+		},
+		"italicTextButton": {
+			"title": "斜体文本"
+		},
+		"underlineTextButton": {
+			"title": "下划线文本"
+		},
+		"strikethroughTextButton": {
+			"title": "删除线文本"
+		},
+		"fontColorButton": {
+			"title": "字体颜色"
+		},
+		"fillColorButton": {
+			"title": "填色"
+		},
+		"copyStyleButton": {
+			"title": "风格画家"
+		},
+		"alignLeftButton": {
+			"title": "左对齐"
+		},
+		"alignCenterButton": {
+			"title": "中心"
+		},
+		"alignRightButton": {
+			"title": "右对齐"
+		},
+		"topAlignButton": {
+			"title": "顶部对齐"
+		},
+		"middleAlignButton": {
+			"title": "中间对齐"
+		},
+		"bottomAlignButton": {
+			"title": "底部对齐"
+		},
+		"textWrappingButton": {
+			"title": "文字换行"
+		},
+		"currencyNumberFormatButton": {
+			"title": "货币数字格式"
+		},
+		"increaseDecimalButton": {
+			"title": "增加小数点"
+		},
+		"decreaseDecimalButton": {
+			"title": "减少小数"
+		},
+		"percentNumberFormatButton": {
+			"title": "百分比数字格式"
+		},
+		"numberFormatDropDown": {
+			"General": {
+				"text": "一般的"
+			},
+			"Number": {
+				"text": "数字"
+			},
+			"Currency": {
+				"text": "货币"
+			},
+			"Date": {
+				"text": "日期"
+			},
+			"Time": {
+				"text": "时间"
+			},
+			"Percentage": {
+				"text": "百分比"
+			},
+			"Scientific": {
+				"text": "科学的"
+			},
+			"Text": {
+				"text": "文本"
+			}
+		},
+		"showFormulasButton": {
+			"title": "显示公式"
+		},
+		"searchTextButton": {
+			"title": "搜索文字"
+		},
+		"undoButton": {
+			"title": "撤消"
+		},
+		"redoButton": {
+			"title": "重做"
+		},
+		"cutContentButton": {
+			"title": "剪切内容"
+		},
+		"copyContentButton": {
+			"title": "复制内容"
+		},
+		"pasteContentButton": {
+			"title": "粘贴内容"
+		},
+		"clearContentButton": {
+			"title": "内容清晰"
+		},
+		"clearFormatButton": {
+			"title": "格式清晰"
+		},
+		"deleteRowsButton": {
+			"title": "删除行"
+		},
+		"deleteColumnsButton": {
+			"title": "删除列"
+		},
+		"deleteCellsAndShiftLeftButton": {
+			"title": "删除单元格并左移"
+		},
+		"deleteCellsAndShiftUpButton": {
+			"title": "删除单元格并上移"
+		},
+		"deletePictureButton": {
+			"title": "删除图片"
+		},
+		"mergeCellsButton": {
+			"title": "合并单元格"
+		},
+		"unmergeCellsButton": {
+			"title": "取消合并单元格"
+		},
+		"fillCells": {
+			"title": "填充单元格"
+		},
+		"allBordersButton": {
+			"title": "所有边框"
+		},
+		"thickOutsideBordersButton": {
+			"title": "厚外边框"
+		},
+		"autoFitRowHeightButton": {
+			"title": "自动调整行高"
+		},
+		"autoFitColumnWidthButton": {
+			"title": "自动调整列宽"
+		},
+		"insertRowsButton": {
+			"title": "插入行"
+		},
+		"insertColumnsButton": {
+			"title": "插入列"
+		},
+		"insertCellsAndShiftRightButton": {
+			"title": "插入单元格并右移"
+		},
+		"insertCellsAndShiftDownButton": {
+			"title": "插入单元格并向下移动"
+		},
+		"insertSheetButton": {
+			"title": "插入工作表"
+		},
+		"insertFunctionButton": {
+			"title": "插入功能"
+		},
+		"insertCommentButton": {
+			"title": "插入评论"
+		},
+		"insertPictureButton": {
+			"title": "添加图片"
+		},
+		"editCommentButton": {
+			"title": "编辑评论"
+		},
+		"deleteCommentButton": {
+			"title": "删除评论"
+		},
+		"previousCommentButton": {
+			"title": "上一条评论"
+		},
+		"nextCommentButton": {
+			"title": "下一条评论"
+		},
+		"formulaPanel-cancelChangeButton": {
+			"title": "取消更改"
+		},
+		"formulaPanel-applyChangeButton": {
+			"title": "应用变更"
+		},
+		"formulaPanel-fullScreenButton": {
+			"title": "全屏"
+		},
+		"scrollToFirstWorksheetButton": {
+			"title": "滚动到第一个工作表"
+		},
+		"scrollToLastWorksheetButton": {
+			"title": "滚动到最后一个工作表"
+		},
+		"addWorksheetButton": {
+			"title": "添加工作表"
+		},
+		"showWorksheetListButton": {
+			"title": "显示工作表列表"
+		},
+		"copyWorksheetButton": {
+			"title": "复制工作表"
+		},
+		"deleteWorksheetButton": {
+			"title": "删除工作表"
+		},
+		"renameWorksheetButton": {
+			"title": "重命名工作表"
+		},
+		"moveWorksheetButton": {
+			"title": "移动工作表"
+		},
+		"zoomOutButton": {
+			"title": "缩小"
+		},
+		"zoomValueLabel": {
+			"text": "100%"
+		},
+		"zoomInButton": {
+			"title": "放大"
+		},
+		"enUsCurrencyNumberFormatButton": {
+			"title": "$ 英语（美国）"
+		},
+		"enUkCurrencyNumberFormatButton": {
+			"title": "$ 英语（英国）"
+		},
+		"euCurrencyNumberFormatButton": {
+			"title": "€ 欧元 (€ 123)"
+		},
+		"ruCurrencyNumberFormatButton": {
+			"title": "₽ 俄语"
+		},
+		"chCurrencyNumberFormatButton": {
+			"title": "¥ 中文"
+		},
+		"enInCurrencyNumberFormatButton": {
+			"title": "$ 英语（印度）"
+		},
+		"fillCellsDownButton": {
+			"title": "向下填充"
+		},
+		"fillCellsUpButton": {
+			"title": "填上"
+		},
+		"fillCellsLeftButton": {
+			"title": "向左填充"
+		},
+		"fillCellsRightButton": {
+			"title": "向右填充"
+		},
+		"noBordersButton": {
+			"title": "无国界"
+		},
+		"outsideBordersButton": {
+			"title": "境外"
+		},
+		"bottomBorderButton": {
+			"title": "下边框"
+		},
+		"topBorderButton": {
+			"title": "顶部边框"
+		},
+		"rightBorderButton": {
+			"title": "右边框"
+		},
+		"leftBorderButton": {
+			"title": "左边框"
+		},
+		"thickBottomBorderButton": {
+			"title": "厚底边框"
+		},
+		"thickLeftBorderButton": {
+			"title": "粗左边框"
+		},
+		"doubleBottomBorderButton": {
+			"title": "双层底边框"
+		},
+		"doubleLeftBorderButton": {
+			"title": "双左边框"
+		},
+		"borderColorButton": {
+			"title": "边框颜色"
+		},
+		"copyLabel": {
+			"text": "复制"
+		},
+		"cutLabel": {
+			"text": "切"
+		},
+		"pasteLabel": {
+			"text": "粘贴"
+		},
+		"clearContentsLabel": {
+			"text": "清晰的内容"
+		},
+		"insertCellAndShiftRightLabel": {
+			"text": "插入单元格并右移"
+		},
+		"insertCellAndShiftDownLabel": {
+			"text": "插入单元格并向下移动"
+		},
+		"insertEntireRowLabel": {
+			"text": "插入整行"
+		},
+		"insertEntireColumnLabel": {
+			"text": "插入整列"
+		},
+		"deleteImageLabel": {
+			"text": "删除"
+		},
+		"deleteCellAndShiftLeftLabel": {
+			"text": "删除单元格并左移"
+		},
+		"deleteCellAndShiftUpLabel": {
+			"text": "删除单元格并上移"
+		},
+		"deleteEntireRowLabel": {
+			"text": "删除整行"
+		},
+		"deleteEntireColumnLabel": {
+			"text": "删除整列"
+		},
+		"insertRowsLabel": {
+			"text": "插入行"
+		},
+		"deleteRowsLabel": {
+			"text": "删除行"
+		},
+		"insertColumnsLabel": {
+			"text": "插入列"
+		},
+		"deleteColumnsLabel": {
+			"text": "删除列"
+		},
+		"insertCommentLabel": {
+			"text": "插入评论..."
+		},
+		"editCommentLabel": {
+			"text": "编辑评论..."
+		},
+		"deleteCommentLabel": {
+			"text": "删除评论"
+		},
+		"showHideCommentLabel": {
+			"text": "显示/隐藏评论"
+		},
+		"hideCommentLabel": {
+			"text": "隐藏评论"
+		},
+		"hideRowsLabel": {
+			"text": "隐藏行"
+		},
+		"unhideRowsLabel": {
+			"text": "取消隐藏行"
+		},
+		"hideColumnsLabel": {
+			"text": "隐藏列"
+		},
+		"unhideColumnsLabel": {
+			"text": "取消隐藏列"
+		},
+		"insertCommentDialog": {
+			"authorLabel": {
+				"text": "作者："
+			},
+			"showAuthorLabel": {
+				"text": "显示作者"
+			},
+			"commentLabel": {
+				"text": "评论："
+			},
+			"okButton": {
+				"value": "好的"
+			},
+			"cancelButton": {
+				"value": "取消"
+			}
+		},
+		"commentEditDialog": {
+			"authorLabel": {
+				"text": "作者："
+			},
+			"showAuthorLabel": {
+				"text": "显示作者"
+			},
+			"commentLabel": {
+				"text": "评论："
+			},
+			"okButton": {
+				"value": "好的"
+			},
+			"cancelButton": {
+				"value": "取消"
+			}
+		},
+		"renameWorksheetDialog": {
+			"nameLabel": {
+				"text": "姓名："
+			},
+			"okButton": {
+				"value": "好的"
+			},
+			"cancelButton": {
+				"value": "取消"
+			}
+		},
+		"moveWorksheetDialog": {
+			"moveUpButton": {
+				"value": "提升"
+			},
+			"moveDownButton": {
+				"value": "下移"
+			},
+			"okButton": {
+				"value": "好的"
+			},
+			"cancelButton": {
+				"value": "取消"
+			}
+		},
+		"findTextDialog": {
+			"findTextLabel": {
+				"text": "查找文本"
+			},
+			"findWhatLabel": {
+				"text": "找什么："
+			},
+			"withinLabel": {
+				"text": "之内："
+			},
+			"Sheet": {
+				"text": "床单"
+			},
+			"Workbook": {
+				"text": "练习册"
+			},
+			"searchLabel": {
+				"text": "搜索："
+			},
+			"ByRows": {
+				"text": "按行"
+			},
+			"ByColumns": {
+				"text": "按栏目"
+			},
+			"lookInLabel": {
+				"text": "在看："
+			},
+			"Formulas": {
+				"text": "公式"
+			},
+			"Values": {
+				"text": "价值观"
+			},
+			"Comments": {
+				"text": "评论"
+			},
+			"matchCaseLabel": {
+				"text": "相符"
+			},
+			"matchEntireContentLabel": {
+				"text": "匹配整个内容"
+			},
+			"findNextButton": {
+				"value": "找下一个"
+			},
+			"closeButton": {
+				"value": "关闭"
+			}
+		},
+		"selectFunctionDialog": {
+			"categoryLabel": {
+				"text": "类别："
+			},
+			"categoryDropDown": {
+				"All": {
+					"text": "全部"
+				},
+				"Financial": {
+					"text": "金融的"
+				},
+				"DateAndTime": {
+					"text": "日期和时间"
+				},
+				"MathAndTrig": {
+					"text": "数学与三角函数"
+				},
+				"Statistical": {
+					"text": "统计"
+				},
+				"LookupAndReference": {
+					"text": "查找和参考"
+				},
+				"Text": {
+					"text": "文本"
+				},
+				"Logical": {
+					"text": "逻辑性"
+				},
+				"Information": {
+					"text": "信息"
+				},
+				"Engineering": {
+					"text": "工程"
+				}
+			},
+			"selectFunctionLabel": {
+				"text": "选择功能："
+			},
+			"okButton": {
+				"value": "好的"
+			},
+			"cancelButton": {
+				"value": "取消"
+			}
+		}
+	},
+	"strings": {
+		"vssde-documentIsOpening": "文档正在打开...",
+		"vssde-numberFormat-general": "一般的",
+		"vssde-numberFormat-number": "数字",
+		"vssde-numberFormat-date": "日期",
+		"vssde-numberFormat-time": "时间",
+		"vssde-numberFormat-currency": "货币",
+		"vssde-numberFormat-percentage": "百分比",
+		"vssde-numberFormat-scientific": "科学的",
+		"vssde-numberFormat-text": "文本",
+		"vssde-numberFormat-custom": "风俗",
+		"vssde-findTextPanel-sheet": "床单",
+		"vssde-findTextPanel-workbook": "练习册",
+		"vssde-findTextPanel-byRows": "按行",
+		"vssde-findTextPanel-byColumns": "按栏目",
+		"vssde-findTextPanel-formulas": "公式",
+		"vssde-findTextPanel-values": "价值观",
+		"vssde-findTextPanel-comments": "评论",
+		"vssde-findTextPanel-textIsNotFound": "未找到文本'{0}'。",
+		"vssde-selectFunctionPanel-all": "全部",
+		"vssde-createXlsxDocument": "创建新的 XLSX 文档",
+		"vssde-uploadXlsxFile": "上传XLSX文件",
+		"vssde-downloadXlsxFile": "下载XLSX文件",
+		"vssde-exportXlsxToPdf": "将 XLSX 导出为 PDF",
+		"vssde-fileSizeExceedsLimit": "上传的文件大小超过最大大小（{0} 字节）。",
+		"vssde-createXlsxDocumentConfirmation": "想要创建新的工作簿吗？",
+		"vssde-insertCommentDialog-title": "插入评论",
+		"vssde-dialog-okButton": "好的",
+		"vssde-dialog-cancelButton": "取消",
+		"vssde-editCommentDialog-title": "编辑评论",
+		"vssde-renameWorksheetDialog-title": "重命名工作表",
+		"vssde-moveWorksheetDialog-title": "移动工作表",
+		"vssde-findTextDialog-title": "查找文本",
+		"vssde-findTextDialog-findNextButton": "找下一个",
+		"vssde-dialog-closeButton": "关闭",
+		"vssde-selectFunctionDialog-title": "插入功能"
+	}
+}

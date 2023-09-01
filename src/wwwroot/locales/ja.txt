@@ -1,0 +1,588 @@
+﻿{
+	"spreadsheetDocumentEditorControl": {
+		"fileLabel": {
+			"text": "ファイル"
+		},
+		"homeLabel": {
+			"text": "メイン"
+		},
+		"editLabel": {
+			"text": "編集中"
+		},
+		"insertLabel": {
+			"text": "挿入"
+		},
+		"reviewLabel": {
+			"text": "コメント"
+		},
+		"createXlsxDocumentButton": {
+			"title": "新しいXLSXドキュメントを作成する"
+		},
+		"uploadXlsxFileButton": {
+			"title": "XLSX ファイルをダウンロードして開きます"
+		},
+		"downloadXlsxFileButton": {
+			"title": "XLSX ファイルをアップロードします"
+		},
+		"exportXlsxToPdfButton": {
+			"title": "XLSX を PDF にエクスポート"
+		},
+		"showMobileMenuButton": {
+			"title": "詳細"
+		},
+		"boldTextButton": {
+			"title": "太字"
+		},
+		"italicTextButton": {
+			"title": "斜体"
+		},
+		"underlineTextButton": {
+			"title": "下線付き"
+		},
+		"strikethroughTextButton": {
+			"title": "交差しました"
+		},
+		"fontColorButton": {
+			"title": "フォントの色"
+		},
+		"fillColorButton": {
+			"title": "塗りつぶしの色"
+		},
+		"copyStyleButton": {
+			"title": "スタイルペインター"
+		},
+		"alignLeftButton": {
+			"title": "左揃え"
+		},
+		"alignCenterButton": {
+			"title": "中央揃え"
+		},
+		"alignRightButton": {
+			"title": "右揃え"
+		},
+		"topAlignButton": {
+			"title": "上揃え"
+		},
+		"middleAlignButton": {
+			"title": "中央揃え"
+		},
+		"bottomAlignButton": {
+			"title": "下揃え"
+		},
+		"textWrappingButton": {
+			"title": "テキストを折り返す"
+		},
+		"currencyNumberFormatButton": {
+			"title": "財務番号の形式"
+		},
+		"increaseDecimalButton": {
+			"title": "小数点を増やす"
+		},
+		"decreaseDecimalButton": {
+			"title": "小数点を減らす"
+		},
+		"percentNumberFormatButton": {
+			"title": "パーセンテージの形式"
+		},
+		"numberFormatDropDown": {
+			"General": {
+				"text": "一般"
+			},
+			"Number": {
+				"text": "数値"
+			},
+			"Currency": {
+				"text": "お金"
+			},
+			"Date": {
+				"text": "日付"
+			},
+			"Time": {
+				"text": "時間"
+			},
+			"Percentage": {
+				"text": "パーセンテージ"
+			},
+			"Scientific": {
+				"text": "指数関数"
+			},
+			"Text": {
+				"text": "テキスト"
+			}
+		},
+		"showFormulasButton": {
+			"title": "数式を表示する"
+		},
+		"searchTextButton": {
+			"title": "テキストを検索"
+		},
+		"undoButton": {
+			"title": "キャンセル"
+		},
+		"redoButton": {
+			"title": "繰り返し"
+		},
+		"cutContentButton": {
+			"title": "コンテンツのカット"
+		},
+		"copyContentButton": {
+			"title": "コンテンツをコピー"
+		},
+		"pasteContentButton": {
+			"title": "コンテンツを貼り付け"
+		},
+		"clearContentButton": {
+			"title": "クリアコンテンツ"
+		},
+		"clearFormatButton": {
+			"title": "フォーマットをクリア"
+		},
+		"deleteRowsButton": {
+			"title": "行を削除"
+		},
+		"deleteColumnsButton": {
+			"title": "列を削除"
+		},
+		"deleteCellsAndShiftLeftButton": {
+			"title": "セルを削除して左にシフト"
+		},
+		"deleteCellsAndShiftUpButton": {
+			"title": "セルを削除して上にシフト"
+		},
+		"deletePictureButton": {
+			"title": "画像の削除"
+		},
+		"mergeCellsButton": {
+			"title": "セルを結合します"
+		},
+		"unmergeCellsButton": {
+			"title": "セルの結合を解除する"
+		},
+		"fillCells": {
+			"title": "セルを埋める"
+		},
+		"allBordersButton": {
+			"title": "すべての境界線"
+		},
+		"thickOutsideBordersButton": {
+			"title": "太い外側の境界線"
+		},
+		"autoFitRowHeightButton": {
+			"title": "行の高さを自動調整する"
+		},
+		"autoFitColumnWidthButton": {
+			"title": "列幅を自動調整する"
+		},
+		"insertRowsButton": {
+			"title": "行を挿入"
+		},
+		"insertColumnsButton": {
+			"title": "列を挿入"
+		},
+		"insertCellsAndShiftRightButton": {
+			"title": "セルを挿入して右に移動"
+		},
+		"insertCellsAndShiftDownButton": {
+			"title": "セルを挿入して下に移動"
+		},
+		"insertSheetButton": {
+			"title": "シートを挿入"
+		},
+		"insertFunctionButton": {
+			"title": "関数の挿入"
+		},
+		"insertCommentButton": {
+			"title": "コメントを挿入"
+		},
+		"insertPictureButton": {
+			"title": "画像を追加"
+		},
+		"editCommentButton": {
+			"title": "コメントを編集"
+		},
+		"deleteCommentButton": {
+			"title": "コメントを削除"
+		},
+		"previousCommentButton": {
+			"title": "前のコメント"
+		},
+		"nextCommentButton": {
+			"title": "次のコメント"
+		},
+		"formulaPanel-cancelChangeButton": {
+			"title": "変更を元に戻す"
+		},
+		"formulaPanel-applyChangeButton": {
+			"title": "変更を適用"
+		},
+		"formulaPanel-fullScreenButton": {
+			"title": "全画面表示"
+		},
+		"scrollToFirstWorksheetButton": {
+			"title": "最初のシートまでスクロールします"
+		},
+		"scrollToLastWorksheetButton": {
+			"title": "最後のシートまでスクロールします"
+		},
+		"addWorksheetButton": {
+			"title": "シートを追加"
+		},
+		"showWorksheetListButton": {
+			"title": "シートリストを表示"
+		},
+		"copyWorksheetButton": {
+			"title": "シートをコピー"
+		},
+		"deleteWorksheetButton": {
+			"title": "シートを削除"
+		},
+		"renameWorksheetButton": {
+			"title": "シートの名前を変更"
+		},
+		"moveWorksheetButton": {
+			"title": "シートを移動"
+		},
+		"zoomOutButton": {
+			"title": "ズームアウト"
+		},
+		"zoomValueLabel": {
+			"text": "100%"
+		},
+		"zoomInButton": {
+			"title": "ズームイン"
+		},
+		"enUsCurrencyNumberFormatButton": {
+			"title": "$ 英語 (米国)"
+		},
+		"enUkCurrencyNumberFormatButton": {
+			"title": "£ 英語 (イギリス)"
+		},
+		"euCurrencyNumberFormatButton": {
+			"title": "€ ユーロ (€ 123)"
+		},
+		"ruCurrencyNumberFormatButton": {
+			"title": "₽ ロシア料理"
+		},
+		"chCurrencyNumberFormatButton": {
+			"title": "¥ 中華料理"
+		},
+		"enInCurrencyNumberFormatButton": {
+			"title": "₹ 英語 (インド)"
+		},
+		"fillCellsDownButton": {
+			"title": "いっぱいにしてください"
+		},
+		"fillCellsUpButton": {
+			"title": "満タンにする"
+		},
+		"fillCellsLeftButton": {
+			"title": "左を埋める"
+		},
+		"fillCellsRightButton": {
+			"title": "右に記入"
+		},
+		"noBordersButton": {
+			"title": "国境なし"
+		},
+		"outsideBordersButton": {
+			"title": "外側の境界"
+		},
+		"bottomBorderButton": {
+			"title": "下枠"
+		},
+		"topBorderButton": {
+			"title": "上枠"
+		},
+		"rightBorderButton": {
+			"title": "右枠線"
+		},
+		"leftBorderButton": {
+			"title": "左枠"
+		},
+		"thickBottomBorderButton": {
+			"title": "太い下の境界線"
+		},
+		"thickLeftBorderButton": {
+			"title": "太い左枠"
+		},
+		"doubleBottomBorderButton": {
+			"title": "二重下枠"
+		},
+		"doubleLeftBorderButton": {
+			"title": "左二重境界線"
+		},
+		"borderColorButton": {
+			"title": "ボーダの色"
+		},
+		"copyLabel": {
+			"text": "コピー"
+		},
+		"cutLabel": {
+			"text": "カット"
+		},
+		"pasteLabel": {
+			"text": "貼り付け"
+		},
+		"clearContentsLabel": {
+			"text": "コンテンツをクリア"
+		},
+		"insertCellAndShiftRightLabel": {
+			"text": "セルを挿入して右に移動"
+		},
+		"insertCellAndShiftDownLabel": {
+			"text": "セルを挿入して下に移動"
+		},
+		"insertEntireRowLabel": {
+			"text": "行全体を挿入"
+		},
+		"insertEntireColumnLabel": {
+			"text": "列全体を挿入"
+		},
+		"deleteImageLabel": {
+			"text": "削除"
+		},
+		"deleteCellAndShiftLeftLabel": {
+			"text": "セルを削除して左に移動"
+		},
+		"deleteCellAndShiftUpLabel": {
+			"text": "セルを削除して上に移動"
+		},
+		"deleteEntireRowLabel": {
+			"text": "行全体を削除"
+		},
+		"deleteEntireColumnLabel": {
+			"text": "列全体を削除"
+		},
+		"insertRowsLabel": {
+			"text": "行を挿入"
+		},
+		"deleteRowsLabel": {
+			"text": "行を削除"
+		},
+		"insertColumnsLabel": {
+			"text": "列を挿入"
+		},
+		"deleteColumnsLabel": {
+			"text": "列を削除"
+		},
+		"insertCommentLabel": {
+			"text": "コメントを挿入..."
+		},
+		"editCommentLabel": {
+			"text": "コメントを編集..."
+		},
+		"deleteCommentLabel": {
+			"text": "コメントの削除"
+		},
+		"showHideCommentLabel": {
+			"text": "コメントの表示/非表示"
+		},
+		"hideCommentLabel": {
+			"text": "コメントを隠す"
+		},
+		"hideRowsLabel": {
+			"text": "行を非表示"
+		},
+		"unhideRowsLabel": {
+			"text": "行を表示"
+		},
+		"hideColumnsLabel": {
+			"text": "列を非表示にする"
+		},
+		"unhideColumnsLabel": {
+			"text": "列を表示"
+		},
+		"insertCommentDialog": {
+			"authorLabel": {
+				"text": "著者："
+			},
+			"showAuthorLabel": {
+				"text": "著者を表示"
+			},
+			"commentLabel": {
+				"text": "コメント："
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "キャンセル"
+			}
+		},
+		"commentEditDialog": {
+			"authorLabel": {
+				"text": "著者："
+			},
+			"showAuthorLabel": {
+				"text": "著者を表示"
+			},
+			"commentLabel": {
+				"text": "コメント："
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "キャンセル"
+			}
+		},
+		"renameWorksheetDialog": {
+			"nameLabel": {
+				"text": "名前:"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "キャンセル"
+			}
+		},
+		"moveWorksheetDialog": {
+			"moveUpButton": {
+				"value": "上に移動"
+			},
+			"moveDownButton": {
+				"value": "下に移動"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "キャンセル"
+			}
+		},
+		"findTextDialog": {
+			"findTextLabel": {
+				"text": "テキストを検索"
+			},
+			"findWhatLabel": {
+				"text": "検索:"
+			},
+			"withinLabel": {
+				"text": "検索:"
+			},
+			"Sheet": {
+				"text": "シート上"
+			},
+			"Workbook": {
+				"text": "本の中で"
+			},
+			"searchLabel": {
+				"text": "検索:"
+			},
+			"ByRows": {
+				"text": "行内"
+			},
+			"ByColumns": {
+				"text": "列内"
+			},
+			"lookInLabel": {
+				"text": "検索エリア:"
+			},
+			"Formulas": {
+				"text": "数式"
+			},
+			"Values": {
+				"text": "値"
+			},
+			"Comments": {
+				"text": "コメント"
+			},
+			"matchCaseLabel": {
+				"text": "大文字と小文字を区別します"
+			},
+			"matchEntireContentLabel": {
+				"text": "完全一致"
+			},
+			"findNextButton": {
+				"value": "次を検索"
+			},
+			"closeButton": {
+				"value": "閉じる"
+			}
+		},
+		"selectFunctionDialog": {
+			"categoryLabel": {
+				"text": "カテゴリ:"
+			},
+			"categoryDropDown": {
+				"All": {
+					"text": "すべて"
+				},
+				"Financial": {
+					"text": "財務"
+				},
+				"DateAndTime": {
+					"text": "日付と時刻"
+				},
+				"MathAndTrig": {
+					"text": "数学"
+				},
+				"Statistical": {
+					"text": "統計"
+				},
+				"LookupAndReference": {
+					"text": "参照と配列"
+				},
+				"Text": {
+					"text": "テキスト"
+				},
+				"Logical": {
+					"text": "ブール値"
+				},
+				"Information": {
+					"text": "情報"
+				},
+				"Engineering": {
+					"text": "エンジニアリング"
+				}
+			},
+			"selectFunctionLabel": {
+				"text": "関数を選択してください:"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "キャンセル"
+			}
+		}
+	},
+	"strings": {
+		"vssde-documentIsOpening": "ドキュメントを開いています...",
+		"vssde-numberFormat-general": "一般",
+		"vssde-numberFormat-number": "数値",
+		"vssde-numberFormat-date": "日付",
+		"vssde-numberFormat-time": "時間",
+		"vssde-numberFormat-currency": "お金",
+		"vssde-numberFormat-percentage": "パーセンテージ",
+		"vssde-numberFormat-scientific": "指数関数",
+		"vssde-numberFormat-text": "テキスト",
+		"vssde-numberFormat-custom": "カスタム",
+		"vssde-findTextPanel-sheet": "シート上",
+		"vssde-findTextPanel-workbook": "本の中で",
+		"vssde-findTextPanel-byRows": "行内",
+		"vssde-findTextPanel-byColumns": "列内",
+		"vssde-findTextPanel-formulas": "数式",
+		"vssde-findTextPanel-values": "値",
+		"vssde-findTextPanel-comments": "コメント",
+		"vssde-findTextPanel-textIsNotFound": "テキスト「{0}」が見つかりません。",
+		"vssde-selectFunctionPanel-all": "すべて",
+		"vssde-createXlsxDocument": "新しいXLSXドキュメントを作成する",
+		"vssde-uploadXlsxFile": "XLSXファイルをアップロードする",
+		"vssde-downloadXlsxFile": "XLSX ファイルをアップロードします",
+		"vssde-exportXlsxToPdf": "XLSX を PDF にエクスポート",
+		"vssde-fileSizeExceedsLimit": "アップロードされたファイルのサイズが最大サイズ ({0} バイト) を超えています。",
+		"vssde-createXlsxDocumentConfirmation": "新しいワークブックを作成したいですか?",
+		"vssde-insertCommentDialog-title": "コメントを挿入",
+		"vssde-dialog-okButton": "OK",
+		"vssde-dialog-cancelButton": "キャンセル",
+		"vssde-editCommentDialog-title": "コメントを編集",
+		"vssde-renameWorksheetDialog-title": "シートの名前を変更",
+		"vssde-moveWorksheetDialog-title": "シートを移動",
+		"vssde-findTextDialog-title": "テキストを検索",
+		"vssde-findTextDialog-findNextButton": "次を検索",
+		"vssde-dialog-closeButton": "閉じる",
+		"vssde-selectFunctionDialog-title": "関数の挿入"
+	}
+}

@@ -1,0 +1,588 @@
+﻿{
+	"spreadsheetDocumentEditorControl": {
+		"fileLabel": {
+			"text": "Файл"
+		},
+		"homeLabel": {
+			"text": "Галоўная"
+		},
+		"editLabel": {
+			"text": "Рэдагаванне"
+		},
+		"insertLabel": {
+			"text": "Устаўка"
+		},
+		"reviewLabel": {
+			"text": "Каментары"
+		},
+		"createXlsxDocumentButton": {
+			"title": "Стварыце новы дакумент XLSX"
+		},
+		"uploadXlsxFileButton": {
+			"title": "Загрузіць і адкрыць файл XLSX"
+		},
+		"downloadXlsxFileButton": {
+			"title": "Выгрузіць файл XLSX"
+		},
+		"exportXlsxToPdfButton": {
+			"title": "Экспарт XLSX у PDF"
+		},
+		"showMobileMenuButton": {
+			"title": "Яшчэ"
+		},
+		"boldTextButton": {
+			"title": "Паўтлусты"
+		},
+		"italicTextButton": {
+			"title": "Курсіў"
+		},
+		"underlineTextButton": {
+			"title": "Падкрэслены"
+		},
+		"strikethroughTextButton": {
+			"title": "Перакрэслены"
+		},
+		"fontColorButton": {
+			"title": "Колер шрыфта"
+		},
+		"fillColorButton": {
+			"title": "Колер залівання"
+		},
+		"copyStyleButton": {
+			"title": "Фармат па ўзоры"
+		},
+		"alignLeftButton": {
+			"title": "Выраўнаваць па левым краі"
+		},
+		"alignCenterButton": {
+			"title": "Выраўнаваць па цэнтры"
+		},
+		"alignRightButton": {
+			"title": "Выраўнаваць па правым краі"
+		},
+		"topAlignButton": {
+			"title": "Выраўнаваць па верхнім краі"
+		},
+		"middleAlignButton": {
+			"title": "Выраўнаваць па сярэдзіне"
+		},
+		"bottomAlignButton": {
+			"title": "Выраўнаваць па ніжнім краі"
+		},
+		"textWrappingButton": {
+			"title": "Пераносіць тэкст"
+		},
+		"currencyNumberFormatButton": {
+			"title": "Фінансавы лікавы фармат"
+		},
+		"increaseDecimalButton": {
+			"title": "Павялічыць дзесятковы"
+		},
+		"decreaseDecimalButton": {
+			"title": "Паменшыць дзесятковы"
+		},
+		"percentNumberFormatButton": {
+			"title": "Працэнтны фармат"
+		},
+		"numberFormatDropDown": {
+			"General": {
+				"text": "Агульны"
+			},
+			"Number": {
+				"text": "Лікавы"
+			},
+			"Currency": {
+				"text": "Грашовы"
+			},
+			"Date": {
+				"text": "Дата"
+			},
+			"Time": {
+				"text": "Час"
+			},
+			"Percentage": {
+				"text": "Працэнтны"
+			},
+			"Scientific": {
+				"text": "Экспанентны"
+			},
+			"Text": {
+				"text": "Тэкставы"
+			}
+		},
+		"showFormulasButton": {
+			"title": "Паказаць формулы"
+		},
+		"searchTextButton": {
+			"title": "Знайсці тэкст"
+		},
+		"undoButton": {
+			"title": "Адмяніць"
+		},
+		"redoButton": {
+			"title": "Паўтарыць"
+		},
+		"cutContentButton": {
+			"title": "Выразаць змесціва"
+		},
+		"copyContentButton": {
+			"title": "Скапіяваць змесціва"
+		},
+		"pasteContentButton": {
+			"title": "Уставіць змесціва"
+		},
+		"clearContentButton": {
+			"title": "Выразны кантэнт"
+		},
+		"clearFormatButton": {
+			"title": "Ачысціць фармат"
+		},
+		"deleteRowsButton": {
+			"title": "Выдаліць радкі"
+		},
+		"deleteColumnsButton": {
+			"title": "Выдаліць слупкі"
+		},
+		"deleteCellsAndShiftLeftButton": {
+			"title": "Выдаліць ячэйкі і зрушыць улева"
+		},
+		"deleteCellsAndShiftUpButton": {
+			"title": "Выдаліць клеткі і зрушыць уверх"
+		},
+		"deletePictureButton": {
+			"title": "Выдаліць карцінку"
+		},
+		"mergeCellsButton": {
+			"title": "Аб'яднаць вочкі"
+		},
+		"unmergeCellsButton": {
+			"title": "Раз'яднаць вочкі"
+		},
+		"fillCells": {
+			"title": "Запоўніць вочкі"
+		},
+		"allBordersButton": {
+			"title": "Усе межы"
+		},
+		"thickOutsideBordersButton": {
+			"title": "Тоўстыя вонкавыя межы"
+		},
+		"autoFitRowHeightButton": {
+			"title": "Аўтападбор вышыні радка"
+		},
+		"autoFitColumnWidthButton": {
+			"title": "Аўтападбор шырыні слупка"
+		},
+		"insertRowsButton": {
+			"title": "Уставіць радкі"
+		},
+		"insertColumnsButton": {
+			"title": "Уставіць слупкі"
+		},
+		"insertCellsAndShiftRightButton": {
+			"title": "Уставіць ячэйку і зрушыць управа"
+		},
+		"insertCellsAndShiftDownButton": {
+			"title": "Уставіць ячэйку і зрушыць уніз"
+		},
+		"insertSheetButton": {
+			"title": "Уставіць ліст"
+		},
+		"insertFunctionButton": {
+			"title": "Уставіць функцыю"
+		},
+		"insertCommentButton": {
+			"title": "Уставіць каментар"
+		},
+		"insertPictureButton": {
+			"title": "Дадаць малюнак"
+		},
+		"editCommentButton": {
+			"title": "Рэдагаваць каментар"
+		},
+		"deleteCommentButton": {
+			"title": "Выдаліць каментар"
+		},
+		"previousCommentButton": {
+			"title": "Папярэдні каментар"
+		},
+		"nextCommentButton": {
+			"title": "Наступны каментар"
+		},
+		"formulaPanel-cancelChangeButton": {
+			"title": "Адмяніць змены"
+		},
+		"formulaPanel-applyChangeButton": {
+			"title": "Ужыць змены"
+		},
+		"formulaPanel-fullScreenButton": {
+			"title": "Поуны экран"
+		},
+		"scrollToFirstWorksheetButton": {
+			"title": "Скралявацца да першага ліста"
+		},
+		"scrollToLastWorksheetButton": {
+			"title": "Скралявацца да апошняга ліста"
+		},
+		"addWorksheetButton": {
+			"title": "Дадаць ліст"
+		},
+		"showWorksheetListButton": {
+			"title": "Паказаць спіс лістоў"
+		},
+		"copyWorksheetButton": {
+			"title": "Скапіяваць ліст"
+		},
+		"deleteWorksheetButton": {
+			"title": "Выдаліць ліст"
+		},
+		"renameWorksheetButton": {
+			"title": "Перайменаваць ліст"
+		},
+		"moveWorksheetButton": {
+			"title": "Перамясціць ліст"
+		},
+		"zoomOutButton": {
+			"title": "Зменшыць маштаб"
+		},
+		"zoomValueLabel": {
+			"text": "100%"
+		},
+		"zoomInButton": {
+			"title": "Павялічыць"
+		},
+		"enUsCurrencyNumberFormatButton": {
+			"title": "$ Англійская (ЗША)"
+		},
+		"enUkCurrencyNumberFormatButton": {
+			"title": "£ Англійская (Вялікабрытанія)"
+		},
+		"euCurrencyNumberFormatButton": {
+			"title": "€ Еўра (€ 123)"
+		},
+		"ruCurrencyNumberFormatButton": {
+			"title": "₽ Рускі"
+		},
+		"chCurrencyNumberFormatButton": {
+			"title": "¥ Кітайскі"
+		},
+		"enInCurrencyNumberFormatButton": {
+			"title": "₹ Англійская (Індыя)"
+		},
+		"fillCellsDownButton": {
+			"title": "Запоўніце ўніз"
+		},
+		"fillCellsUpButton": {
+			"title": "Запаўняць"
+		},
+		"fillCellsLeftButton": {
+			"title": "Запоўніць злева"
+		},
+		"fillCellsRightButton": {
+			"title": "Запоўніць справа"
+		},
+		"noBordersButton": {
+			"title": "Няма межаў"
+		},
+		"outsideBordersButton": {
+			"title": "Па-за межамі"
+		},
+		"bottomBorderButton": {
+			"title": "Ніжняя мяжа"
+		},
+		"topBorderButton": {
+			"title": "Верхняя мяжа"
+		},
+		"rightBorderButton": {
+			"title": "Правая мяжа"
+		},
+		"leftBorderButton": {
+			"title": "Левая мяжа"
+		},
+		"thickBottomBorderButton": {
+			"title": "Тоўстая ніжняя мяжа"
+		},
+		"thickLeftBorderButton": {
+			"title": "Тоўстая левая мяжа"
+		},
+		"doubleBottomBorderButton": {
+			"title": "Двайная ніжняя мяжа"
+		},
+		"doubleLeftBorderButton": {
+			"title": "Двайная левая мяжа"
+		},
+		"borderColorButton": {
+			"title": "Колер мяжы"
+		},
+		"copyLabel": {
+			"text": "Копія"
+		},
+		"cutLabel": {
+			"text": "Выразаць"
+		},
+		"pasteLabel": {
+			"text": "Уставіць"
+		},
+		"clearContentsLabel": {
+			"text": "Ачысціць змесціва"
+		},
+		"insertCellAndShiftRightLabel": {
+			"text": "Уставіць ячэйку і зрушыць управа"
+		},
+		"insertCellAndShiftDownLabel": {
+			"text": "Уставіць ячэйку і зрушыць уніз"
+		},
+		"insertEntireRowLabel": {
+			"text": "Уставіць увесь радок"
+		},
+		"insertEntireColumnLabel": {
+			"text": "Уставіць увесь слупок"
+		},
+		"deleteImageLabel": {
+			"text": "Выдаліць"
+		},
+		"deleteCellAndShiftLeftLabel": {
+			"text": "Выдаліць ячэйку і зрушыць улева"
+		},
+		"deleteCellAndShiftUpLabel": {
+			"text": "Выдаліць ячэйку і зрушыць уверх"
+		},
+		"deleteEntireRowLabel": {
+			"text": "Выдаліць увесь радок"
+		},
+		"deleteEntireColumnLabel": {
+			"text": "Выдаліць увесь слупок"
+		},
+		"insertRowsLabel": {
+			"text": "Уставіць радкі"
+		},
+		"deleteRowsLabel": {
+			"text": "Выдаліць радкі"
+		},
+		"insertColumnsLabel": {
+			"text": "Уставіць слупкі"
+		},
+		"deleteColumnsLabel": {
+			"text": "Выдаліць слупкі"
+		},
+		"insertCommentLabel": {
+			"text": "Уставіць каментар..."
+		},
+		"editCommentLabel": {
+			"text": "Рэдагаваць каментар..."
+		},
+		"deleteCommentLabel": {
+			"text": "Выдаліць каментар"
+		},
+		"showHideCommentLabel": {
+			"text": "Паказаць/схаваць каментар"
+		},
+		"hideCommentLabel": {
+			"text": "Схаваць каментар"
+		},
+		"hideRowsLabel": {
+			"text": "Схаваць радкі"
+		},
+		"unhideRowsLabel": {
+			"text": "Паказаць радкі"
+		},
+		"hideColumnsLabel": {
+			"text": "Схаваць слупкі"
+		},
+		"unhideColumnsLabel": {
+			"text": "Паказаць слупкі"
+		},
+		"insertCommentDialog": {
+			"authorLabel": {
+				"text": "Аўтар:"
+			},
+			"showAuthorLabel": {
+				"text": "Паказаць аўтара"
+			},
+			"commentLabel": {
+				"text": "Каментарый:"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Адмяніць"
+			}
+		},
+		"commentEditDialog": {
+			"authorLabel": {
+				"text": "Аўтар:"
+			},
+			"showAuthorLabel": {
+				"text": "Паказаць аўтара"
+			},
+			"commentLabel": {
+				"text": "Каментарый:"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Адмяніць"
+			}
+		},
+		"renameWorksheetDialog": {
+			"nameLabel": {
+				"text": "Імя:"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Адмяніць"
+			}
+		},
+		"moveWorksheetDialog": {
+			"moveUpButton": {
+				"value": "Рухайцеся ўверх"
+			},
+			"moveDownButton": {
+				"value": "Рухайцеся ўніз"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Адмяніць"
+			}
+		},
+		"findTextDialog": {
+			"findTextLabel": {
+				"text": "Знайсці тэкст"
+			},
+			"findWhatLabel": {
+				"text": "Знайсці што:"
+			},
+			"withinLabel": {
+				"text": "У межах:"
+			},
+			"Sheet": {
+				"text": "Прасціна"
+			},
+			"Workbook": {
+				"text": "Працоўны сшытак"
+			},
+			"searchLabel": {
+				"text": "Пошук:"
+			},
+			"ByRows": {
+				"text": "Па радах"
+			},
+			"ByColumns": {
+				"text": "Па Стоўбцах"
+			},
+			"lookInLabel": {
+				"text": "Зазірнуць:"
+			},
+			"Formulas": {
+				"text": "Формулы"
+			},
+			"Values": {
+				"text": "Каштоўнасці"
+			},
+			"Comments": {
+				"text": "Каментарыі"
+			},
+			"matchCaseLabel": {
+				"text": "Запалкавы корпус"
+			},
+			"matchEntireContentLabel": {
+				"text": "Супадзенне ўсяго змесціва"
+			},
+			"findNextButton": {
+				"value": "Знайсці далей"
+			},
+			"closeButton": {
+				"value": "Блізка"
+			}
+		},
+		"selectFunctionDialog": {
+			"categoryLabel": {
+				"text": "катэгорыя:"
+			},
+			"categoryDropDown": {
+				"All": {
+					"text": "Усе"
+				},
+				"Financial": {
+					"text": "Фінансавыя"
+				},
+				"DateAndTime": {
+					"text": "Дата і час"
+				},
+				"MathAndTrig": {
+					"text": "MathAndTrig"
+				},
+				"Statistical": {
+					"text": "Статыстычны"
+				},
+				"LookupAndReference": {
+					"text": "LookupAndReference"
+				},
+				"Text": {
+					"text": "Тэкставы"
+				},
+				"Logical": {
+					"text": "Лагічны"
+				},
+				"Information": {
+					"text": "інфармацыя"
+				},
+				"Engineering": {
+					"text": "Інжынірынг"
+				}
+			},
+			"selectFunctionLabel": {
+				"text": "Выберыце функцыю:"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Адмяніць"
+			}
+		}
+	},
+	"strings": {
+		"vssde-documentIsOpening": "Адкрываецца дакумент...",
+		"vssde-numberFormat-general": "Агульны",
+		"vssde-numberFormat-number": "Лікавы",
+		"vssde-numberFormat-date": "Дата",
+		"vssde-numberFormat-time": "Час",
+		"vssde-numberFormat-currency": "Грашовы",
+		"vssde-numberFormat-percentage": "Працэнтны",
+		"vssde-numberFormat-scientific": "Экспанентны",
+		"vssde-numberFormat-text": "Тэкставы",
+		"vssde-numberFormat-custom": "Карыстацкі",
+		"vssde-findTextPanel-sheet": "Прасціна",
+		"vssde-findTextPanel-workbook": "Працоўны сшытак",
+		"vssde-findTextPanel-byRows": "Па радах",
+		"vssde-findTextPanel-byColumns": "Па Стоўбцах",
+		"vssde-findTextPanel-formulas": "Формулы",
+		"vssde-findTextPanel-values": "Каштоўнасці",
+		"vssde-findTextPanel-comments": "Каментарыі",
+		"vssde-findTextPanel-textIsNotFound": "Тэкст '{0}' не знойдзены.",
+		"vssde-selectFunctionPanel-all": "Усе",
+		"vssde-createXlsxDocument": "Стварыце новы дакумент XLSX",
+		"vssde-uploadXlsxFile": "Загрузіць файл XLSX",
+		"vssde-downloadXlsxFile": "Выгрузіць файл XLSX",
+		"vssde-exportXlsxToPdf": "Экспарт XLSX у PDF",
+		"vssde-fileSizeExceedsLimit": "Памер запампаванага файла перавышае максімальны памер ({0} байт).",
+		"vssde-createXlsxDocumentConfirmation": "Хочаце стварыць новую працоўную кнігу?",
+		"vssde-insertCommentDialog-title": "Уставіць каментар",
+		"vssde-dialog-okButton": "OK",
+		"vssde-dialog-cancelButton": "Адмяніць",
+		"vssde-editCommentDialog-title": "Рэдагаваць каментар",
+		"vssde-renameWorksheetDialog-title": "Перайменаваць аркуш",
+		"vssde-moveWorksheetDialog-title": "Перамясціць аркуш",
+		"vssde-findTextDialog-title": "Знайсці тэкст",
+		"vssde-findTextDialog-findNextButton": "Знайсці далей",
+		"vssde-dialog-closeButton": "Блізка",
+		"vssde-selectFunctionDialog-title": "Функцыя ўстаўкі"
+	}
+}

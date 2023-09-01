@@ -1,0 +1,588 @@
+﻿{
+	"spreadsheetDocumentEditorControl": {
+		"fileLabel": {
+			"text": "ملف"
+		},
+		"homeLabel": {
+			"text": "رئيسي"
+		},
+		"editLabel": {
+			"text": "تحرير"
+		},
+		"insertLabel": {
+			"text": "إدراج"
+		},
+		"reviewLabel": {
+			"text": "تعليقات"
+		},
+		"createXlsxDocumentButton": {
+			"title": "قم بإنشاء مستند XLSX جديد"
+		},
+		"uploadXlsxFileButton": {
+			"title": "تحميل وفتح ملف XLSX"
+		},
+		"downloadXlsxFileButton": {
+			"title": "تحميل ملف XLSX"
+		},
+		"exportXlsxToPdfButton": {
+			"title": "قم بتصدير XLSX إلى PDF"
+		},
+		"showMobileMenuButton": {
+			"title": "المزيد"
+		},
+		"boldTextButton": {
+			"title": "غامق"
+		},
+		"italicTextButton": {
+			"title": "مائل"
+		},
+		"underlineTextButton": {
+			"title": "تحته خط"
+		},
+		"strikethroughTextButton": {
+			"title": "عبرت"
+		},
+		"fontColorButton": {
+			"title": "لون الخط"
+		},
+		"fillColorButton": {
+			"title": "لون التعبئة"
+		},
+		"copyStyleButton": {
+			"title": "رسام النمط"
+		},
+		"alignLeftButton": {
+			"title": "محاذاة لليسار"
+		},
+		"alignCenterButton": {
+			"title": "محاذاة للوسط"
+		},
+		"alignRightButton": {
+			"title": "محاذاة لليمين"
+		},
+		"topAlignButton": {
+			"title": "محاذاة القمة"
+		},
+		"middleAlignButton": {
+			"title": "محاذاة للوسط"
+		},
+		"bottomAlignButton": {
+			"title": "محاذاة للأسفل"
+		},
+		"textWrappingButton": {
+			"title": "التفاف النص"
+		},
+		"currencyNumberFormatButton": {
+			"title": "تنسيق الرقم المالي"
+		},
+		"increaseDecimalButton": {
+			"title": "زيادة العلامة العشرية"
+		},
+		"decreaseDecimalButton": {
+			"title": "تقليل العلامة العشرية"
+		},
+		"percentNumberFormatButton": {
+			"title": "تنسيق النسبة المئوية"
+		},
+		"numberFormatDropDown": {
+			"General": {
+				"text": "عام"
+			},
+			"Number": {
+				"text": "رقمي"
+			},
+			"Currency": {
+				"text": "المال"
+			},
+			"Date": {
+				"text": "التاريخ"
+			},
+			"Time": {
+				"text": "الوقت"
+			},
+			"Percentage": {
+				"text": "النسبة المئوية"
+			},
+			"Scientific": {
+				"text": "أسي"
+			},
+			"Text": {
+				"text": "نص"
+			}
+		},
+		"showFormulasButton": {
+			"title": "إظهار الصيغ"
+		},
+		"searchTextButton": {
+			"title": "بحث عن نص"
+		},
+		"undoButton": {
+			"title": "إلغاء"
+		},
+		"redoButton": {
+			"title": "كرر"
+		},
+		"cutContentButton": {
+			"title": "قص المحتوى"
+		},
+		"copyContentButton": {
+			"title": "نسخ المحتوى"
+		},
+		"pasteContentButton": {
+			"title": "لصق المحتوى"
+		},
+		"clearContentButton": {
+			"title": "مسح المحتوى"
+		},
+		"clearFormatButton": {
+			"title": "مسح التنسيق"
+		},
+		"deleteRowsButton": {
+			"title": "حذف الصفوف"
+		},
+		"deleteColumnsButton": {
+			"title": "حذف الأعمدة"
+		},
+		"deleteCellsAndShiftLeftButton": {
+			"title": "حذف الخلايا والانتقال إلى اليسار"
+		},
+		"deleteCellsAndShiftUpButton": {
+			"title": "حذف الخلايا والتحول لأعلى"
+		},
+		"deletePictureButton": {
+			"title": "حذف الصورة"
+		},
+		"mergeCellsButton": {
+			"title": "دمج الخلايا"
+		},
+		"unmergeCellsButton": {
+			"title": "فك دمج الخلايا"
+		},
+		"fillCells": {
+			"title": "تعبئة الخلايا"
+		},
+		"allBordersButton": {
+			"title": "كافة الحدود"
+		},
+		"thickOutsideBordersButton": {
+			"title": "حدود خارجية سميكة"
+		},
+		"autoFitRowHeightButton": {
+			"title": "احتواء تلقائي لارتفاع الصف"
+		},
+		"autoFitColumnWidthButton": {
+			"title": "احتواء تلقائي لعرض العمود"
+		},
+		"insertRowsButton": {
+			"title": "إدراج صفوف"
+		},
+		"insertColumnsButton": {
+			"title": "إدراج أعمدة"
+		},
+		"insertCellsAndShiftRightButton": {
+			"title": "أدخل الخلية وتحرك لليمين"
+		},
+		"insertCellsAndShiftDownButton": {
+			"title": "أدخل خلية وتحرك لأسفل"
+		},
+		"insertSheetButton": {
+			"title": "إدراج ورقة"
+		},
+		"insertFunctionButton": {
+			"title": "إدراج وظيفة"
+		},
+		"insertCommentButton": {
+			"title": "أدخل تعليق"
+		},
+		"insertPictureButton": {
+			"title": "إضافة الصورة"
+		},
+		"editCommentButton": {
+			"title": "تحرير التعليق"
+		},
+		"deleteCommentButton": {
+			"title": "حذف التعليق"
+		},
+		"previousCommentButton": {
+			"title": "التعليق السابق"
+		},
+		"nextCommentButton": {
+			"title": "التعليق التالي"
+		},
+		"formulaPanel-cancelChangeButton": {
+			"title": "التراجع عن التغييرات"
+		},
+		"formulaPanel-applyChangeButton": {
+			"title": "تطبيق التغييرات"
+		},
+		"formulaPanel-fullScreenButton": {
+			"title": "تكبير الشاشة"
+		},
+		"scrollToFirstWorksheetButton": {
+			"title": "انتقل إلى الورقة الأولى"
+		},
+		"scrollToLastWorksheetButton": {
+			"title": "انتقل إلى الورقة الأخيرة"
+		},
+		"addWorksheetButton": {
+			"title": "إضافة ورقة"
+		},
+		"showWorksheetListButton": {
+			"title": "إظهار قائمة الأوراق"
+		},
+		"copyWorksheetButton": {
+			"title": "نسخ الورقة"
+		},
+		"deleteWorksheetButton": {
+			"title": "حذف الورقة"
+		},
+		"renameWorksheetButton": {
+			"title": "إعادة تسمية الورقة"
+		},
+		"moveWorksheetButton": {
+			"title": "نقل الورقة"
+		},
+		"zoomOutButton": {
+			"title": "تصغير"
+		},
+		"zoomValueLabel": {
+			"text": "100٪"
+		},
+		"zoomInButton": {
+			"title": "تكبير"
+		},
+		"enUsCurrencyNumberFormatButton": {
+			"title": "$ الإنجليزية (الولايات المتحدة الأمريكية)"
+		},
+		"enUkCurrencyNumberFormatButton": {
+			"title": "£ الإنجليزية (المملكة المتحدة)"
+		},
+		"euCurrencyNumberFormatButton": {
+			"title": "يورو يورو (123 يورو)"
+		},
+		"ruCurrencyNumberFormatButton": {
+			"title": "₽ روسي"
+		},
+		"chCurrencyNumberFormatButton": {
+			"title": "¥ صيني"
+		},
+		"enInCurrencyNumberFormatButton": {
+			"title": "₹ الإنجليزية (الهند)"
+		},
+		"fillCellsDownButton": {
+			"title": "ملء"
+		},
+		"fillCellsUpButton": {
+			"title": "ملء"
+		},
+		"fillCellsLeftButton": {
+			"title": "ملء اليسار"
+		},
+		"fillCellsRightButton": {
+			"title": "ملء لليمين"
+		},
+		"noBordersButton": {
+			"title": "لا حدود"
+		},
+		"outsideBordersButton": {
+			"title": "الحدود الخارجية"
+		},
+		"bottomBorderButton": {
+			"title": "الحد السفلي"
+		},
+		"topBorderButton": {
+			"title": "أعلى الحدود"
+		},
+		"rightBorderButton": {
+			"title": "الحد الأيمن"
+		},
+		"leftBorderButton": {
+			"title": "الحد الأيسر"
+		},
+		"thickBottomBorderButton": {
+			"title": "حد سفلي سميك"
+		},
+		"thickLeftBorderButton": {
+			"title": "حد أيسر سميك"
+		},
+		"doubleBottomBorderButton": {
+			"title": "حد سفلي مزدوج"
+		},
+		"doubleLeftBorderButton": {
+			"title": "حد أيسر مزدوج"
+		},
+		"borderColorButton": {
+			"title": "لون الحدود"
+		},
+		"copyLabel": {
+			"text": "نسخ"
+		},
+		"cutLabel": {
+			"text": "قص"
+		},
+		"pasteLabel": {
+			"text": "لصق"
+		},
+		"clearContentsLabel": {
+			"text": "مسح المحتوى"
+		},
+		"insertCellAndShiftRightLabel": {
+			"text": "أدخل الخلية وتحرك لليمين"
+		},
+		"insertCellAndShiftDownLabel": {
+			"text": "أدخل خلية وتحرك لأسفل"
+		},
+		"insertEntireRowLabel": {
+			"text": "أدخل السطر بالكامل"
+		},
+		"insertEntireColumnLabel": {
+			"text": "أدخل العمود بالكامل"
+		},
+		"deleteImageLabel": {
+			"text": "حذف"
+		},
+		"deleteCellAndShiftLeftLabel": {
+			"text": "حذف الخلية والتحرك لليسار"
+		},
+		"deleteCellAndShiftUpLabel": {
+			"text": "حذف الخلية والانتقال لأعلى"
+		},
+		"deleteEntireRowLabel": {
+			"text": "حذف السطر بالكامل"
+		},
+		"deleteEntireColumnLabel": {
+			"text": "حذف العمود بأكمله"
+		},
+		"insertRowsLabel": {
+			"text": "إدراج صفوف"
+		},
+		"deleteRowsLabel": {
+			"text": "حذف الصفوف"
+		},
+		"insertColumnsLabel": {
+			"text": "أدخل الأعمدة"
+		},
+		"deleteColumnsLabel": {
+			"text": "حذف الأعمدة"
+		},
+		"insertCommentLabel": {
+			"text": "إدراج تعليق..."
+		},
+		"editCommentLabel": {
+			"text": "تعديل التعليق..."
+		},
+		"deleteCommentLabel": {
+			"text": "حذف تعليق"
+		},
+		"showHideCommentLabel": {
+			"text": "إظهار/إخفاء التعليق"
+		},
+		"hideCommentLabel": {
+			"text": "اخفاء تعليق"
+		},
+		"hideRowsLabel": {
+			"text": "إخفاء الصفوف"
+		},
+		"unhideRowsLabel": {
+			"text": "إظهار الصفوف"
+		},
+		"hideColumnsLabel": {
+			"text": "إخفاء الأعمدة"
+		},
+		"unhideColumnsLabel": {
+			"text": "إظهار الأعمدة"
+		},
+		"insertCommentDialog": {
+			"authorLabel": {
+				"text": "مؤلف:"
+			},
+			"showAuthorLabel": {
+				"text": "عرض المؤلف"
+			},
+			"commentLabel": {
+				"text": "تعليق:"
+			},
+			"okButton": {
+				"value": "موافق"
+			},
+			"cancelButton": {
+				"value": "إلغاء"
+			}
+		},
+		"commentEditDialog": {
+			"authorLabel": {
+				"text": "مؤلف:"
+			},
+			"showAuthorLabel": {
+				"text": "عرض المؤلف"
+			},
+			"commentLabel": {
+				"text": "تعليق:"
+			},
+			"okButton": {
+				"value": "موافق"
+			},
+			"cancelButton": {
+				"value": "إلغاء"
+			}
+		},
+		"renameWorksheetDialog": {
+			"nameLabel": {
+				"text": "الاسم:"
+			},
+			"okButton": {
+				"value": "موافق"
+			},
+			"cancelButton": {
+				"value": "إلغاء"
+			}
+		},
+		"moveWorksheetDialog": {
+			"moveUpButton": {
+				"value": "تحريك لأعلى"
+			},
+			"moveDownButton": {
+				"value": "تحريك لأسفل"
+			},
+			"okButton": {
+				"value": "موافق"
+			},
+			"cancelButton": {
+				"value": "إلغاء"
+			}
+		},
+		"findTextDialog": {
+			"findTextLabel": {
+				"text": "بحث عن نص"
+			},
+			"findWhatLabel": {
+				"text": "بحث:"
+			},
+			"withinLabel": {
+				"text": "بحث عن:"
+			},
+			"Sheet": {
+				"text": "على الورقة"
+			},
+			"Workbook": {
+				"text": "في الكتاب"
+			},
+			"searchLabel": {
+				"text": "بحث عن:"
+			},
+			"ByRows": {
+				"text": "في السطور"
+			},
+			"ByColumns": {
+				"text": "في الأعمدة"
+			},
+			"lookInLabel": {
+				"text": "منطقة البحث:"
+			},
+			"Formulas": {
+				"text": "الصيغ"
+			},
+			"Values": {
+				"text": "القيم"
+			},
+			"Comments": {
+				"text": "تعليقات"
+			},
+			"matchCaseLabel": {
+				"text": "حساس لحالة الأحرف"
+			},
+			"matchEntireContentLabel": {
+				"text": "تطابق تام"
+			},
+			"findNextButton": {
+				"value": "بحث عن التالي"
+			},
+			"closeButton": {
+				"value": "إغلاق"
+			}
+		},
+		"selectFunctionDialog": {
+			"categoryLabel": {
+				"text": "الفئة:"
+			},
+			"categoryDropDown": {
+				"All": {
+					"text": "الكل"
+				},
+				"Financial": {
+					"text": "مالي"
+				},
+				"DateAndTime": {
+					"text": "التاريخ والوقت"
+				},
+				"MathAndTrig": {
+					"text": "رياضيات"
+				},
+				"Statistical": {
+					"text": "إحصائية"
+				},
+				"LookupAndReference": {
+					"text": "المراجع والمصفوفات"
+				},
+				"Text": {
+					"text": "نص"
+				},
+				"Logical": {
+					"text": "قيمة منطقية"
+				},
+				"Information": {
+					"text": "معلوماتية"
+				},
+				"Engineering": {
+					"text": "الهندسة"
+				}
+			},
+			"selectFunctionLabel": {
+				"text": "حدد وظيفة:"
+			},
+			"okButton": {
+				"value": "موافق"
+			},
+			"cancelButton": {
+				"value": "إلغاء"
+			}
+		}
+	},
+	"strings": {
+		"vssde-documentIsOpening": "المستند مفتوح ...",
+		"vssde-numberFormat-general": "عام",
+		"vssde-numberFormat-number": "رقمي",
+		"vssde-numberFormat-date": "التاريخ",
+		"vssde-numberFormat-time": "الوقت",
+		"vssde-numberFormat-currency": "المال",
+		"vssde-numberFormat-percentage": "النسبة المئوية",
+		"vssde-numberFormat-scientific": "أسي",
+		"vssde-numberFormat-text": "نص",
+		"vssde-numberFormat-custom": "مخصص",
+		"vssde-findTextPanel-sheet": "على الورقة",
+		"vssde-findTextPanel-workbook": "في الكتاب",
+		"vssde-findTextPanel-byRows": "في السطور",
+		"vssde-findTextPanel-byColumns": "في الأعمدة",
+		"vssde-findTextPanel-formulas": "الصيغ",
+		"vssde-findTextPanel-values": "القيم",
+		"vssde-findTextPanel-comments": "تعليقات",
+		"vssde-findTextPanel-textIsNotFound": "النص "{0}" غير موجود.",
+		"vssde-selectFunctionPanel-all": "الكل",
+		"vssde-createXlsxDocument": "قم بإنشاء مستند XLSX جديد",
+		"vssde-uploadXlsxFile": "قم بتحميل ملف XLSX",
+		"vssde-downloadXlsxFile": "تحميل ملف XLSX",
+		"vssde-exportXlsxToPdf": "قم بتصدير XLSX إلى PDF",
+		"vssde-fileSizeExceedsLimit": "حجم الملف الذي تم تحميله يتجاوز الحد الأقصى للحجم ({0} بايت).",
+		"vssde-createXlsxDocumentConfirmation": "هل تريد إنشاء مصنف جديد؟",
+		"vssde-insertCommentDialog-title": "أدخل تعليق",
+		"vssde-dialog-okButton": "موافق",
+		"vssde-dialog-cancelButton": "إلغاء",
+		"vssde-editCommentDialog-title": "تحرير التعليق",
+		"vssde-renameWorksheetDialog-title": "إعادة تسمية الورقة",
+		"vssde-moveWorksheetDialog-title": "نقل الورقة",
+		"vssde-findTextDialog-title": "بحث عن نص",
+		"vssde-findTextDialog-findNextButton": "بحث عن التالي",
+		"vssde-dialog-closeButton": "إغلاق",
+		"vssde-selectFunctionDialog-title": "إدراج وظيفة"
+	}
+}

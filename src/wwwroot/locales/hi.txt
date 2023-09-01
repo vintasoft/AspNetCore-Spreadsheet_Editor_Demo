@@ -1,0 +1,588 @@
+﻿{
+	"spreadsheetDocumentEditorControl": {
+		"fileLabel": {
+			"text": "फ़ाइल"
+		},
+		"homeLabel": {
+			"text": "मुख्य"
+		},
+		"editLabel": {
+			"text": "संपादन"
+		},
+		"insertLabel": {
+			"text": "सम्मिलित करें"
+		},
+		"reviewLabel": {
+			"text": "टिप्पणियाँ"
+		},
+		"createXlsxDocumentButton": {
+			"title": "नया XLSX दस्तावेज़ बनाएँ"
+		},
+		"uploadXlsxFileButton": {
+			"title": "XLSX फ़ाइल डाउनलोड करें और खोलें"
+		},
+		"downloadXlsxFileButton": {
+			"title": "XLSX फ़ाइल अपलोड करें"
+		},
+		"exportXlsxToPdfButton": {
+			"title": "XLSX को पीडीएफ में निर्यात करें"
+		},
+		"showMobileMenuButton": {
+			"title": "अधिक"
+		},
+		"boldTextButton": {
+			"title": "बोल्ड"
+		},
+		"italicTextButton": {
+			"title": "इटैलिक"
+		},
+		"underlineTextButton": {
+			"title": "रेखांकित"
+		},
+		"strikethroughTextButton": {
+			"title": "क्रॉस्ड"
+		},
+		"fontColorButton": {
+			"title": "फ़ॉन्ट रंग"
+		},
+		"fillColorButton": {
+			"title": "रंग भरें"
+		},
+		"copyStyleButton": {
+			"title": "स्टाइल पेंटर"
+		},
+		"alignLeftButton": {
+			"title": "बाएँ संरेखित करें"
+		},
+		"alignCenterButton": {
+			"title": "केंद्र संरेखित करें"
+		},
+		"alignRightButton": {
+			"title": "दाएँ संरेखित करें"
+		},
+		"topAlignButton": {
+			"title": "शीर्ष संरेखित करें"
+		},
+		"middleAlignButton": {
+			"title": "केंद्र संरेखित करें"
+		},
+		"bottomAlignButton": {
+			"title": "नीचे संरेखित करें"
+		},
+		"textWrappingButton": {
+			"title": "पाठ लपेटें"
+		},
+		"currencyNumberFormatButton": {
+			"title": "वित्तीय संख्या प्रारूप"
+		},
+		"increaseDecimalButton": {
+			"title": "दशमलव बढ़ाएँ"
+		},
+		"decreaseDecimalButton": {
+			"title": "दशमलव घटाएँ"
+		},
+		"percentNumberFormatButton": {
+			"title": "प्रतिशत प्रारूप"
+		},
+		"numberFormatDropDown": {
+			"General": {
+				"text": "सामान्य"
+			},
+			"Number": {
+				"text": "संख्यात्मक"
+			},
+			"Currency": {
+				"text": "पैसा"
+			},
+			"Date": {
+				"text": "तिथि"
+			},
+			"Time": {
+				"text": "समय"
+			},
+			"Percentage": {
+				"text": "प्रतिशत"
+			},
+			"Scientific": {
+				"text": "घातीय"
+			},
+			"Text": {
+				"text": "पाठ"
+			}
+		},
+		"showFormulasButton": {
+			"title": "सूत्र दिखाएँ"
+		},
+		"searchTextButton": {
+			"title": "पाठ ढूँढ़ें"
+		},
+		"undoButton": {
+			"title": "रद्द करें"
+		},
+		"redoButton": {
+			"title": "दोहराएँ"
+		},
+		"cutContentButton": {
+			"title": "सामग्री काटें"
+		},
+		"copyContentButton": {
+			"title": "सामग्री कॉपी करें"
+		},
+		"pasteContentButton": {
+			"title": "सामग्री चिपकाएँ"
+		},
+		"clearContentButton": {
+			"title": "स्पष्ट सामग्री"
+		},
+		"clearFormatButton": {
+			"title": "प्रारूप साफ़ करें"
+		},
+		"deleteRowsButton": {
+			"title": "पंक्तियाँ हटाएँ"
+		},
+		"deleteColumnsButton": {
+			"title": "कॉलम हटाएं"
+		},
+		"deleteCellsAndShiftLeftButton": {
+			"title": "सेल हटाएं और बाईं ओर शिफ्ट करें"
+		},
+		"deleteCellsAndShiftUpButton": {
+			"title": "सेल हटाएँ और ऊपर शिफ्ट करें"
+		},
+		"deletePictureButton": {
+			"title": "चित्र हटाएँ"
+		},
+		"mergeCellsButton": {
+			"title": "खानों को मिलाएं"
+		},
+		"unmergeCellsButton": {
+			"title": "कोशिकाओं को अलग करें"
+		},
+		"fillCells": {
+			"title": "कोशिकाएँ भरें"
+		},
+		"allBordersButton": {
+			"title": "सभी सीमाएँ"
+		},
+		"thickOutsideBordersButton": {
+			"title": "मोटी बाहरी सीमाएँ"
+		},
+		"autoFitRowHeightButton": {
+			"title": "पंक्ति की ऊँचाई को स्वतः फ़िट करें"
+		},
+		"autoFitColumnWidthButton": {
+			"title": "कॉलम की चौड़ाई को स्वतः फ़िट करें"
+		},
+		"insertRowsButton": {
+			"title": "पंक्तियाँ सम्मिलित करें"
+		},
+		"insertColumnsButton": {
+			"title": "कॉलम सम्मिलित करें"
+		},
+		"insertCellsAndShiftRightButton": {
+			"title": "सेल डालें और दाएँ जाएँ"
+		},
+		"insertCellsAndShiftDownButton": {
+			"title": "सेल डालें और नीचे जाएँ"
+		},
+		"insertSheetButton": {
+			"title": "शीट डालें"
+		},
+		"insertFunctionButton": {
+			"title": "फ़ंक्शन सम्मिलित करें"
+		},
+		"insertCommentButton": {
+			"title": "टिप्पणी डालें"
+		},
+		"insertPictureButton": {
+			"title": "चित्र जोड़ें"
+		},
+		"editCommentButton": {
+			"title": "टिप्पणी संपादित करें"
+		},
+		"deleteCommentButton": {
+			"title": "टिप्पणी हटाएं"
+		},
+		"previousCommentButton": {
+			"title": "पिछली टिप्पणी"
+		},
+		"nextCommentButton": {
+			"title": "अगली टिप्पणी"
+		},
+		"formulaPanel-cancelChangeButton": {
+			"title": "परिवर्तन पूर्ववत करें"
+		},
+		"formulaPanel-applyChangeButton": {
+			"title": "परिवर्तन लागू करें"
+		},
+		"formulaPanel-fullScreenButton": {
+			"title": "पूर्ण स्क्रीन"
+		},
+		"scrollToFirstWorksheetButton": {
+			"title": "पहली शीट तक स्क्रॉल करें"
+		},
+		"scrollToLastWorksheetButton": {
+			"title": "अंतिम शीट तक स्क्रॉल करें"
+		},
+		"addWorksheetButton": {
+			"title": "शीट जोड़ें"
+		},
+		"showWorksheetListButton": {
+			"title": "शीट सूची दिखाएँ"
+		},
+		"copyWorksheetButton": {
+			"title": "कॉपी शीट"
+		},
+		"deleteWorksheetButton": {
+			"title": "शीट हटाएँ"
+		},
+		"renameWorksheetButton": {
+			"title": "शीट का नाम बदलें"
+		},
+		"moveWorksheetButton": {
+			"title": "शीट हटाएँ"
+		},
+		"zoomOutButton": {
+			"title": "ज़ूम आउट"
+		},
+		"zoomValueLabel": {
+			"text": "100%"
+		},
+		"zoomInButton": {
+			"title": "ज़ूम इन करें"
+		},
+		"enUsCurrencyNumberFormatButton": {
+			"title": "$ अंग्रेजी (यूएसए)"
+		},
+		"enUkCurrencyNumberFormatButton": {
+			"title": "£ अंग्रेजी (यूनाइटेड किंगडम)"
+		},
+		"euCurrencyNumberFormatButton": {
+			"title": "€ यूरो (€ 123)"
+		},
+		"ruCurrencyNumberFormatButton": {
+			"title": "₽ रूसी"
+		},
+		"chCurrencyNumberFormatButton": {
+			"title": "¥ चीनी"
+		},
+		"enInCurrencyNumberFormatButton": {
+			"title": "₹ अंग्रेजी (भारत)"
+		},
+		"fillCellsDownButton": {
+			"title": "भरें"
+		},
+		"fillCellsUpButton": {
+			"title": "भरें"
+		},
+		"fillCellsLeftButton": {
+			"title": "बायाँ भरें"
+		},
+		"fillCellsRightButton": {
+			"title": "दाएं भरें"
+		},
+		"noBordersButton": {
+			"title": "कोई सीमाएं नहीं"
+		},
+		"outsideBordersButton": {
+			"title": "बाहरी सीमा"
+		},
+		"bottomBorderButton": {
+			"title": "निचली सीमा"
+		},
+		"topBorderButton": {
+			"title": "शीर्ष सीमा"
+		},
+		"rightBorderButton": {
+			"title": "दाहिनी सीमा"
+		},
+		"leftBorderButton": {
+			"title": "वाम सीमा"
+		},
+		"thickBottomBorderButton": {
+			"title": "मोटी निचली सीमा"
+		},
+		"thickLeftBorderButton": {
+			"title": "मोटी बाईं सीमा"
+		},
+		"doubleBottomBorderButton": {
+			"title": "डबल बॉटम बॉर्डर"
+		},
+		"doubleLeftBorderButton": {
+			"title": "डबल लेफ्ट बॉर्डर"
+		},
+		"borderColorButton": {
+			"title": "सीमा रंग"
+		},
+		"copyLabel": {
+			"text": "कॉपी करें"
+		},
+		"cutLabel": {
+			"text": "काटो"
+		},
+		"pasteLabel": {
+			"text": "चिपकाएँ"
+		},
+		"clearContentsLabel": {
+			"text": "सामग्री साफ़ करें"
+		},
+		"insertCellAndShiftRightLabel": {
+			"text": "सेल डालें और दाएँ जाएँ"
+		},
+		"insertCellAndShiftDownLabel": {
+			"text": "सेल डालें और नीचे जाएँ"
+		},
+		"insertEntireRowLabel": {
+			"text": "पूरी लाइन डालें"
+		},
+		"insertEntireColumnLabel": {
+			"text": "संपूर्ण कॉलम सम्मिलित करें"
+		},
+		"deleteImageLabel": {
+			"text": "हटाएं"
+		},
+		"deleteCellAndShiftLeftLabel": {
+			"text": "सेल हटाएँ और बाएँ जाएँ"
+		},
+		"deleteCellAndShiftUpLabel": {
+			"text": "सेल हटाएं और ऊपर जाएं"
+		},
+		"deleteEntireRowLabel": {
+			"text": "संपूर्ण पंक्ति हटाएँ"
+		},
+		"deleteEntireColumnLabel": {
+			"text": "संपूर्ण कॉलम हटाएँ"
+		},
+		"insertRowsLabel": {
+			"text": "पंक्तियाँ सम्मिलित करें"
+		},
+		"deleteRowsLabel": {
+			"text": "पंक्तियाँ हटाएँ"
+		},
+		"insertColumnsLabel": {
+			"text": "कॉलम सम्मिलित करें"
+		},
+		"deleteColumnsLabel": {
+			"text": "कॉलम हटाएं"
+		},
+		"insertCommentLabel": {
+			"text": "टिप्पणी डालें..."
+		},
+		"editCommentLabel": {
+			"text": "टिप्पणी संपादित करें..."
+		},
+		"deleteCommentLabel": {
+			"text": "टिप्पणी हटाएँ"
+		},
+		"showHideCommentLabel": {
+			"text": "टिप्पणी दिखाएँ/छिपाएँ"
+		},
+		"hideCommentLabel": {
+			"text": "टिप्पणी छिपाएँ"
+		},
+		"hideRowsLabel": {
+			"text": "पंक्तियाँ छिपाएँ"
+		},
+		"unhideRowsLabel": {
+			"text": "पंक्तियाँ दिखाएँ"
+		},
+		"hideColumnsLabel": {
+			"text": "कॉलम छुपाएं"
+		},
+		"unhideColumnsLabel": {
+			"text": "कॉलम दिखाएं"
+		},
+		"insertCommentDialog": {
+			"authorLabel": {
+				"text": "लेखक:"
+			},
+			"showAuthorLabel": {
+				"text": "लेखक दिखाएँ"
+			},
+			"commentLabel": {
+				"text": "टिप्पणी:"
+			},
+			"okButton": {
+				"value": "ठीक है"
+			},
+			"cancelButton": {
+				"value": "रद्द करें"
+			}
+		},
+		"commentEditDialog": {
+			"authorLabel": {
+				"text": "लेखक:"
+			},
+			"showAuthorLabel": {
+				"text": "लेखक दिखाएँ"
+			},
+			"commentLabel": {
+				"text": "टिप्पणी:"
+			},
+			"okButton": {
+				"value": "ठीक है"
+			},
+			"cancelButton": {
+				"value": "रद्द करें"
+			}
+		},
+		"renameWorksheetDialog": {
+			"nameLabel": {
+				"text": "नाम:"
+			},
+			"okButton": {
+				"value": "ठीक है"
+			},
+			"cancelButton": {
+				"value": "रद्द करें"
+			}
+		},
+		"moveWorksheetDialog": {
+			"moveUpButton": {
+				"value": "ऊपर बढ़ें"
+			},
+			"moveDownButton": {
+				"value": "नीचे जाएँ"
+			},
+			"okButton": {
+				"value": "ठीक है"
+			},
+			"cancelButton": {
+				"value": "रद्द करें"
+			}
+		},
+		"findTextDialog": {
+			"findTextLabel": {
+				"text": "पाठ ढूँढें"
+			},
+			"findWhatLabel": {
+				"text": "ढूंढें:"
+			},
+			"withinLabel": {
+				"text": "खोजें:"
+			},
+			"Sheet": {
+				"text": "शीट पर"
+			},
+			"Workbook": {
+				"text": "पुस्तक में"
+			},
+			"searchLabel": {
+				"text": "खोजें:"
+			},
+			"ByRows": {
+				"text": "पंक्तियों में"
+			},
+			"ByColumns": {
+				"text": "स्तंभों में"
+			},
+			"lookInLabel": {
+				"text": "खोज क्षेत्र:"
+			},
+			"Formulas": {
+				"text": "सूत्र"
+			},
+			"Values": {
+				"text": "मान"
+			},
+			"Comments": {
+				"text": "टिप्पणियाँ"
+			},
+			"matchCaseLabel": {
+				"text": "केस संवेदनशील"
+			},
+			"matchEntireContentLabel": {
+				"text": "सटीक मिलान"
+			},
+			"findNextButton": {
+				"value": "अगला खोजें"
+			},
+			"closeButton": {
+				"value": "बंद करें"
+			}
+		},
+		"selectFunctionDialog": {
+			"categoryLabel": {
+				"text": "श्रेणी:"
+			},
+			"categoryDropDown": {
+				"All": {
+					"text": "सभी"
+				},
+				"Financial": {
+					"text": "वित्तीय"
+				},
+				"DateAndTime": {
+					"text": "तिथि और समय"
+				},
+				"MathAndTrig": {
+					"text": "गणित"
+				},
+				"Statistical": {
+					"text": "सांख्यिकीय"
+				},
+				"LookupAndReference": {
+					"text": "संदर्भ और सारणियाँ"
+				},
+				"Text": {
+					"text": "पाठ"
+				},
+				"Logical": {
+					"text": "बूलियन"
+				},
+				"Information": {
+					"text": "जानकारीपूर्ण"
+				},
+				"Engineering": {
+					"text": "इंजीनियरिंग"
+				}
+			},
+			"selectFunctionLabel": {
+				"text": "एक फ़ंक्शन चुनें:"
+			},
+			"okButton": {
+				"value": "ठीक है"
+			},
+			"cancelButton": {
+				"value": "रद्द करें"
+			}
+		}
+	},
+	"strings": {
+		"vssde-documentIsOpening": "दस्तावेज़ खुल रहा है...",
+		"vssde-numberFormat-general": "सामान्य",
+		"vssde-numberFormat-number": "संख्यात्मक",
+		"vssde-numberFormat-date": "तिथि",
+		"vssde-numberFormat-time": "समय",
+		"vssde-numberFormat-currency": "पैसा",
+		"vssde-numberFormat-percentage": "प्रतिशत",
+		"vssde-numberFormat-scientific": "घातीय",
+		"vssde-numberFormat-text": "पाठ",
+		"vssde-numberFormat-custom": "कस्टम",
+		"vssde-findTextPanel-sheet": "शीट पर",
+		"vssde-findTextPanel-workbook": "पुस्तक में",
+		"vssde-findTextPanel-byRows": "पंक्तियों में",
+		"vssde-findTextPanel-byColumns": "स्तंभों में",
+		"vssde-findTextPanel-formulas": "सूत्र",
+		"vssde-findTextPanel-values": "मान",
+		"vssde-findTextPanel-comments": "टिप्पणियाँ",
+		"vssde-findTextPanel-textIsNotFound": "पाठ '{0}' नहीं मिला.",
+		"vssde-selectFunctionPanel-all": "सभी",
+		"vssde-createXlsxDocument": "नया XLSX दस्तावेज़ बनाएँ",
+		"vssde-uploadXlsxFile": "XLSX फ़ाइल अपलोड करें",
+		"vssde-downloadXlsxFile": "XLSX फ़ाइल अपलोड करें",
+		"vssde-exportXlsxToPdf": "XLSX को पीडीएफ में निर्यात करें",
+		"vssde-fileSizeExceedsLimit": "अपलोड की गई फ़ाइल का आकार अधिकतम आकार ({0} बाइट्स) से अधिक है।",
+		"vssde-createXlsxDocumentConfirmation": "एक नई कार्यपुस्तिका बनाना चाहते हैं?",
+		"vssde-insertCommentDialog-title": "टिप्पणी डालें",
+		"vssde-dialog-okButton": "ठीक है",
+		"vssde-dialog-cancelButton": "रद्द करें",
+		"vssde-editCommentDialog-title": "टिप्पणी संपादित करें",
+		"vssde-renameWorksheetDialog-title": "शीट का नाम बदलें",
+		"vssde-moveWorksheetDialog-title": "शीट हटाएँ",
+		"vssde-findTextDialog-title": "पाठ ढूँढें",
+		"vssde-findTextDialog-findNextButton": "अगला खोजें",
+		"vssde-dialog-closeButton": "बंद करें",
+		"vssde-selectFunctionDialog-title": "फ़ंक्शन सम्मिलित करें"
+	}
+}

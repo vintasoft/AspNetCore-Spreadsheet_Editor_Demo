@@ -1,0 +1,27 @@
+
+#spreadsheetDocumentEditorControlContainer {
+    width: 100%;
+    height: calc(100% - 60px);
+    position: relative;
+    overflow: hidden;
+}
+
+.ui-dialog-title {
+    white-space: normal !important;
+}
+
+.modalDialog {
+    display: none;
+}
+
+@media(max-width:480px) {
+
+    .modalDialog, .ui-colorpicker, .blockUI, .vsui-dialogContent {
+        font-size: 11px;
+        word-break: break-word;
+    }
+
+    .ui-dialog-title, .ui-dialog-buttonpane {
+        font-size: 0.8em
+    }
+}

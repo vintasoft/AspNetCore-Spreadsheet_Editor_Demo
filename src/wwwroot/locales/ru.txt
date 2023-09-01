@@ -1,0 +1,588 @@
+﻿{
+	"spreadsheetDocumentEditorControl": {
+		"fileLabel": {
+			"text": "Файл"
+		},
+		"homeLabel": {
+			"text": "Главная"
+		},
+		"editLabel": {
+			"text": "Редактирование"
+		},
+		"insertLabel": {
+			"text": "Вставка"
+		},
+		"reviewLabel": {
+			"text": "Комментарии"
+		},
+		"createXlsxDocumentButton": {
+			"title": "Создать новый документ XLSX"
+		},
+		"uploadXlsxFileButton": {
+			"title": "Загрузить и открыть файл XLSX"
+		},
+		"downloadXlsxFileButton": {
+			"title": "Выгрузить файл XLSX"
+		},
+		"exportXlsxToPdfButton": {
+			"title": "Экспорт XLSX в PDF"
+		},
+		"showMobileMenuButton": {
+			"title": "Еще"
+		},
+		"boldTextButton": {
+			"title": "Полужирный"
+		},
+		"italicTextButton": {
+			"title": "Курсив"
+		},
+		"underlineTextButton": {
+			"title": "Подчеркнутый"
+		},
+		"strikethroughTextButton": {
+			"title": "Перечеркнутый"
+		},
+		"fontColorButton": {
+			"title": "Цвет шрифта"
+		},
+		"fillColorButton": {
+			"title": "Цвет заливки"
+		},
+		"copyStyleButton": {
+			"title": "Формат по образцу"
+		},
+		"alignLeftButton": {
+			"title": "Выровнять по левому краю"
+		},
+		"alignCenterButton": {
+			"title": "Выровнять по центру"
+		},
+		"alignRightButton": {
+			"title": "Выровнять по правому краю"
+		},
+		"topAlignButton": {
+			"title": "Выровнять по верхнему краю"
+		},
+		"middleAlignButton": {
+			"title": "Выровнять по середине"
+		},
+		"bottomAlignButton": {
+			"title": "Выровнять по нижнему краю"
+		},
+		"textWrappingButton": {
+			"title": "Переносить текст"
+		},
+		"currencyNumberFormatButton": {
+			"title": "Финансовый числовой формат"
+		},
+		"increaseDecimalButton": {
+			"title": "Увеличение десятичной дроби"
+		},
+		"decreaseDecimalButton": {
+			"title": "Уменьшить десятичную дробь"
+		},
+		"percentNumberFormatButton": {
+			"title": "Процентный формат"
+		},
+		"numberFormatDropDown": {
+			"General": {
+				"text": "Общий"
+			},
+			"Number": {
+				"text": "Числовой"
+			},
+			"Currency": {
+				"text": "Денежный"
+			},
+			"Date": {
+				"text": "Дата"
+			},
+			"Time": {
+				"text": "Время"
+			},
+			"Percentage": {
+				"text": "Процентный"
+			},
+			"Scientific": {
+				"text": "Экспоненциальный"
+			},
+			"Text": {
+				"text": "Текстовый"
+			}
+		},
+		"showFormulasButton": {
+			"title": "Показать формулы"
+		},
+		"searchTextButton": {
+			"title": "Найти текст"
+		},
+		"undoButton": {
+			"title": "Отменить"
+		},
+		"redoButton": {
+			"title": "Повторить"
+		},
+		"cutContentButton": {
+			"title": "Вырезать содержимое"
+		},
+		"copyContentButton": {
+			"title": "Скопировать содержимое"
+		},
+		"pasteContentButton": {
+			"title": "Вставить содержимое"
+		},
+		"clearContentButton": {
+			"title": "Очистить контент"
+		},
+		"clearFormatButton": {
+			"title": "Очистить формат"
+		},
+		"deleteRowsButton": {
+			"title": "Удалить строки"
+		},
+		"deleteColumnsButton": {
+			"title": "Удалить столбцы"
+		},
+		"deleteCellsAndShiftLeftButton": {
+			"title": "Удалить ячейки и сдвинуть влево"
+		},
+		"deleteCellsAndShiftUpButton": {
+			"title": "Удалить ячейки и сдвинуть вверх"
+		},
+		"deletePictureButton": {
+			"title": "Удалить картинку"
+		},
+		"mergeCellsButton": {
+			"title": "Объединить ячейки"
+		},
+		"unmergeCellsButton": {
+			"title": "Разъединить ячейки"
+		},
+		"fillCells": {
+			"title": "Заполнить ячейки"
+		},
+		"allBordersButton": {
+			"title": "Все границы"
+		},
+		"thickOutsideBordersButton": {
+			"title": "Толстые внешние границы"
+		},
+		"autoFitRowHeightButton": {
+			"title": "Автоподбор высоты строки"
+		},
+		"autoFitColumnWidthButton": {
+			"title": "Автоподбор ширины столбца"
+		},
+		"insertRowsButton": {
+			"title": "Вставить строки"
+		},
+		"insertColumnsButton": {
+			"title": "Вставить столбцы"
+		},
+		"insertCellsAndShiftRightButton": {
+			"title": "Вставить ячейку и сдвинуться вправо"
+		},
+		"insertCellsAndShiftDownButton": {
+			"title": "Вставить ячейку и сдвинуться вниз"
+		},
+		"insertSheetButton": {
+			"title": "Вставить лист"
+		},
+		"insertFunctionButton": {
+			"title": "Вставить функцию"
+		},
+		"insertCommentButton": {
+			"title": "Вставить комментарий"
+		},
+		"insertPictureButton": {
+			"title": "Добавить изображение"
+		},
+		"editCommentButton": {
+			"title": "Редактировать комментарий"
+		},
+		"deleteCommentButton": {
+			"title": "Удалить комментарий"
+		},
+		"previousCommentButton": {
+			"title": "Предыдущий комментарий"
+		},
+		"nextCommentButton": {
+			"title": "Следующий комментарий"
+		},
+		"formulaPanel-cancelChangeButton": {
+			"title": "Отменить изменения"
+		},
+		"formulaPanel-applyChangeButton": {
+			"title": "Применить изменения"
+		},
+		"formulaPanel-fullScreenButton": {
+			"title": "Полноэкранный"
+		},
+		"scrollToFirstWorksheetButton": {
+			"title": "Скроллироваться к первому листу"
+		},
+		"scrollToLastWorksheetButton": {
+			"title": "Скроллироваться к последнему листу"
+		},
+		"addWorksheetButton": {
+			"title": "Добавить лист"
+		},
+		"showWorksheetListButton": {
+			"title": "Показать список листов"
+		},
+		"copyWorksheetButton": {
+			"title": "Скопировать лист"
+		},
+		"deleteWorksheetButton": {
+			"title": "Удалить лист"
+		},
+		"renameWorksheetButton": {
+			"title": "Переименовать лист"
+		},
+		"moveWorksheetButton": {
+			"title": "Переместить лист"
+		},
+		"zoomOutButton": {
+			"title": "Уменьшить масштаб"
+		},
+		"zoomValueLabel": {
+			"text": "100%"
+		},
+		"zoomInButton": {
+			"title": "Увеличить масштаб"
+		},
+		"enUsCurrencyNumberFormatButton": {
+			"title": "$ Английский (США)"
+		},
+		"enUkCurrencyNumberFormatButton": {
+			"title": "£ Английский (Великобритания)"
+		},
+		"euCurrencyNumberFormatButton": {
+			"title": "€ Евро (€ 123)"
+		},
+		"ruCurrencyNumberFormatButton": {
+			"title": "₽ Русский"
+		},
+		"chCurrencyNumberFormatButton": {
+			"title": "¥ Китайский"
+		},
+		"enInCurrencyNumberFormatButton": {
+			"title": "₹ Английский (Индия)"
+		},
+		"fillCellsDownButton": {
+			"title": "Заполнить вниз"
+		},
+		"fillCellsUpButton": {
+			"title": "Заполнить вверх"
+		},
+		"fillCellsLeftButton": {
+			"title": "Заполнить слева"
+		},
+		"fillCellsRightButton": {
+			"title": "Заполнить справа"
+		},
+		"noBordersButton": {
+			"title": "Без границ"
+		},
+		"outsideBordersButton": {
+			"title": "Внешние границы"
+		},
+		"bottomBorderButton": {
+			"title": "Нижняя граница"
+		},
+		"topBorderButton": {
+			"title": "Верхняя граница"
+		},
+		"rightBorderButton": {
+			"title": "Правая граница"
+		},
+		"leftBorderButton": {
+			"title": "Левая граница"
+		},
+		"thickBottomBorderButton": {
+			"title": "Толстая нижняя граница"
+		},
+		"thickLeftBorderButton": {
+			"title": "Толстая левая граница"
+		},
+		"doubleBottomBorderButton": {
+			"title": "Двойная нижняя граница"
+		},
+		"doubleLeftBorderButton": {
+			"title": "Двойная левая граница"
+		},
+		"borderColorButton": {
+			"title": "Цвет границы"
+		},
+		"copyLabel": {
+			"text": "Копировать"
+		},
+		"cutLabel": {
+			"text": "Вырезать"
+		},
+		"pasteLabel": {
+			"text": "Вставить"
+		},
+		"clearContentsLabel": {
+			"text": "Очистить содержимое"
+		},
+		"insertCellAndShiftRightLabel": {
+			"text": "Вставить ячейку и сдвинуться вправо"
+		},
+		"insertCellAndShiftDownLabel": {
+			"text": "Вставить ячейку и сдвинуться вниз"
+		},
+		"insertEntireRowLabel": {
+			"text": "Вставить целую строку"
+		},
+		"insertEntireColumnLabel": {
+			"text": "Вставить целый столбец"
+		},
+		"deleteImageLabel": {
+			"text": "Удалить"
+		},
+		"deleteCellAndShiftLeftLabel": {
+			"text": "Удалить ячейку и сдвинуться влево"
+		},
+		"deleteCellAndShiftUpLabel": {
+			"text": "Удалить ячейку и сдвинуться вверх"
+		},
+		"deleteEntireRowLabel": {
+			"text": "Удалить целую строку"
+		},
+		"deleteEntireColumnLabel": {
+			"text": "Удалить целый столбец"
+		},
+		"insertRowsLabel": {
+			"text": "Вставить строки"
+		},
+		"deleteRowsLabel": {
+			"text": "Удалить строки"
+		},
+		"insertColumnsLabel": {
+			"text": "Вставить столбцы"
+		},
+		"deleteColumnsLabel": {
+			"text": "Удалить столбцы"
+		},
+		"insertCommentLabel": {
+			"text": "Вставить комментарий..."
+		},
+		"editCommentLabel": {
+			"text": "Редактировать комментарий..."
+		},
+		"deleteCommentLabel": {
+			"text": "Удалить комментарий"
+		},
+		"showHideCommentLabel": {
+			"text": "Показать/скрыть комментарий"
+		},
+		"hideCommentLabel": {
+			"text": "Скрыть комментарий"
+		},
+		"hideRowsLabel": {
+			"text": "Скрыть строки"
+		},
+		"unhideRowsLabel": {
+			"text": "Показать строки"
+		},
+		"hideColumnsLabel": {
+			"text": "Скрыть столбцы"
+		},
+		"unhideColumnsLabel": {
+			"text": "Показать столбцы"
+		},
+		"insertCommentDialog": {
+			"authorLabel": {
+				"text": "Автор:"
+			},
+			"showAuthorLabel": {
+				"text": "Показать автора"
+			},
+			"commentLabel": {
+				"text": "Комментарий:"
+			},
+			"okButton": {
+				"value": "ОК"
+			},
+			"cancelButton": {
+				"value": "Отмена"
+			}
+		},
+		"commentEditDialog": {
+			"authorLabel": {
+				"text": "Автор:"
+			},
+			"showAuthorLabel": {
+				"text": "Показать автора"
+			},
+			"commentLabel": {
+				"text": "Комментарий:"
+			},
+			"okButton": {
+				"value": "ОК"
+			},
+			"cancelButton": {
+				"value": "Отмена"
+			}
+		},
+		"renameWorksheetDialog": {
+			"nameLabel": {
+				"text": "Имя:"
+			},
+			"okButton": {
+				"value": "ОК"
+			},
+			"cancelButton": {
+				"value": "Отмена"
+			}
+		},
+		"moveWorksheetDialog": {
+			"moveUpButton": {
+				"value": "Переместить вверх"
+			},
+			"moveDownButton": {
+				"value": "Переместить вниз"
+			},
+			"okButton": {
+				"value": "ОК"
+			},
+			"cancelButton": {
+				"value": "Отмена"
+			}
+		},
+		"findTextDialog": {
+			"findTextLabel": {
+				"text": "Найти текст"
+			},
+			"findWhatLabel": {
+				"text": "Найти:"
+			},
+			"withinLabel": {
+				"text": "Искать:"
+			},
+			"Sheet": {
+				"text": "На листе"
+			},
+			"Workbook": {
+				"text": "В книге"
+			},
+			"searchLabel": {
+				"text": "Искать:"
+			},
+			"ByRows": {
+				"text": "В строках"
+			},
+			"ByColumns": {
+				"text": "В столбцах"
+			},
+			"lookInLabel": {
+				"text": "Область поиска:"
+			},
+			"Formulas": {
+				"text": "Формулы"
+			},
+			"Values": {
+				"text": "Значения"
+			},
+			"Comments": {
+				"text": "Комментарии"
+			},
+			"matchCaseLabel": {
+				"text": "Учитывать регистр"
+			},
+			"matchEntireContentLabel": {
+				"text": "Полное совпадение"
+			},
+			"findNextButton": {
+				"value": "Найти далее"
+			},
+			"closeButton": {
+				"value": "Закрыть"
+			}
+		},
+		"selectFunctionDialog": {
+			"categoryLabel": {
+				"text": "Категория:"
+			},
+			"categoryDropDown": {
+				"All": {
+					"text": "Все"
+				},
+				"Financial": {
+					"text": "Финансовые"
+				},
+				"DateAndTime": {
+					"text": "Дата и время"
+				},
+				"MathAndTrig": {
+					"text": "Математические"
+				},
+				"Statistical": {
+					"text": "Статистические"
+				},
+				"LookupAndReference": {
+					"text": "Ссылки и массивы"
+				},
+				"Text": {
+					"text": "Текстовый"
+				},
+				"Logical": {
+					"text": "Логические"
+				},
+				"Information": {
+					"text": "Информационные"
+				},
+				"Engineering": {
+					"text": "Инженерные"
+				}
+			},
+			"selectFunctionLabel": {
+				"text": "Выберите функцию:"
+			},
+			"okButton": {
+				"value": "ОК"
+			},
+			"cancelButton": {
+				"value": "Отмена"
+			}
+		}
+	},
+	"strings": {
+		"vssde-documentIsOpening": "Документ открывается...",
+		"vssde-numberFormat-general": "Общий",
+		"vssde-numberFormat-number": "Числовой",
+		"vssde-numberFormat-date": "Дата",
+		"vssde-numberFormat-time": "Время",
+		"vssde-numberFormat-currency": "Денежный",
+		"vssde-numberFormat-percentage": "Процентный",
+		"vssde-numberFormat-scientific": "Экспоненциальный",
+		"vssde-numberFormat-text": "Текстовый",
+		"vssde-numberFormat-custom": "Пользовательский",
+		"vssde-findTextPanel-sheet": "На листе",
+		"vssde-findTextPanel-workbook": "В книге",
+		"vssde-findTextPanel-byRows": "В строках",
+		"vssde-findTextPanel-byColumns": "В столбцах",
+		"vssde-findTextPanel-formulas": "Формулы",
+		"vssde-findTextPanel-values": "Значения",
+		"vssde-findTextPanel-comments": "Комментарии",
+		"vssde-findTextPanel-textIsNotFound": "Текст '{0}' не найден.",
+		"vssde-selectFunctionPanel-all": "Все",
+		"vssde-createXlsxDocument": "Создать новый документ XLSX",
+		"vssde-uploadXlsxFile": "Загрузить XLSX-файл",
+		"vssde-downloadXlsxFile": "Выгрузить файл XLSX",
+		"vssde-exportXlsxToPdf": "Экспорт XLSX в PDF",
+		"vssde-fileSizeExceedsLimit": "Размер загруженного файла превышает максимальный размер ({0} байт).",
+		"vssde-createXlsxDocumentConfirmation": "Хотите создать новую книгу?",
+		"vssde-insertCommentDialog-title": "Вставить комментарий",
+		"vssde-dialog-okButton": "ОК",
+		"vssde-dialog-cancelButton": "Отмена",
+		"vssde-editCommentDialog-title": "Редактировать комментарий",
+		"vssde-renameWorksheetDialog-title": "Переименовать лист",
+		"vssde-moveWorksheetDialog-title": "Переместить лист",
+		"vssde-findTextDialog-title": "Найти текст",
+		"vssde-findTextDialog-findNextButton": "Найти далее",
+		"vssde-dialog-closeButton": "Закрыть",
+		"vssde-selectFunctionDialog-title": "Вставить функцию"
+	}
+}
