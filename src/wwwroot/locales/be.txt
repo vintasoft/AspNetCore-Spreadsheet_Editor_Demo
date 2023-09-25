@@ -110,6 +110,9 @@
 				"text": "Тэкставы"
 			}
 		},
+		"numberFormatButton": {
+			"title": "Фармат ліку"
+		},
 		"showFormulasButton": {
 			"title": "Паказаць формулы"
 		},
@@ -196,6 +199,9 @@
 		},
 		"insertPictureButton": {
 			"title": "Дадаць малюнак"
+		},
+		"insertChartButton": {
+			"title": "Уставіць дыяграму"
 		},
 		"editCommentButton": {
 			"title": "Рэдагаваць каментар"
@@ -341,6 +347,9 @@
 		"deleteImageLabel": {
 			"text": "Выдаліць"
 		},
+		"propertiesLabel": {
+			"text": "Уласцівасці..."
+		},
 		"deleteCellAndShiftLeftLabel": {
 			"text": "Выдаліць ячэйку і зрушыць улева"
 		},
@@ -418,6 +427,17 @@
 			},
 			"commentLabel": {
 				"text": "Каментарый:"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Адмяніць"
+			}
+		},
+		"editChartDialog": {
+			"titleLabel": {
+				"text": "Назва:"
 			},
 			"okButton": {
 				"value": "OK"
@@ -546,6 +566,82 @@
 			"cancelButton": {
 				"value": "Адмяніць"
 			}
+		},
+		"setCellNumberFormatDialog": {
+			"General": {
+				"text": "Агульны"
+			},
+			"Number": {
+				"text": "Лікавы"
+			},
+			"Currency": {
+				"text": "Грашовы"
+			},
+			"Date": {
+				"text": "Дата"
+			},
+			"Time": {
+				"text": "Час"
+			},
+			"Percentage": {
+				"text": "Працэнтны"
+			},
+			"Scientific": {
+				"text": "Экспанентны"
+			},
+			"Text": {
+				"text": "Тэкставы"
+			},
+			"Custom": {
+				"text": "Карыстацкі"
+			},
+			"generalFormatDescriptionLabel": {
+				"text": "Ячэйкі агульнага фармату не маюць пэўнага лічбавага фармату."
+			},
+			"numberDecimalPlacesLabel": {
+				"text": "Дзесятковы знак:"
+			},
+			"useThousandsSeparatorLabel": {
+				"text": "Выкарыстоўвайце падзельнік 1000"
+			},
+			"numberNegativeValuesLabel": {
+				"text": "Адмоўныя значэнні:"
+			},
+			"changeTextColorToRedLabel": {
+				"text": "Змяніць колер тэксту на чырвоны"
+			},
+			"hideMinusSignLabel": {
+				"text": "Схаваць знак мінус"
+			},
+			"currencyDecimalPlacesLabel": {
+				"text": "Дзесятковы знак:"
+			},
+			"currencySymbolLabel": {
+				"text": "Сімвал:"
+			},
+			"percentageDecimalPlacesLabel": {
+				"text": "Дзесятковы знак:"
+			},
+			"scientificDecimalPlacesLabel": {
+				"text": "Дзесятковы знак:"
+			},
+			"textFormatDescriptionLabel": {
+				"text": "Ячэйкі тэкставага фармату разглядаюцца як тэкст, нават калі ў ячэйцы ёсць лік."
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Адмяніць"
+			}
+		},
+		"insertChartDialog": {
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Адмяніць"
+			}
 		}
 	},
 	"strings": {
@@ -573,16 +669,63 @@
 		"vssde-downloadXlsxFile": "Выгрузіць файл XLSX",
 		"vssde-exportXlsxToPdf": "Экспарт XLSX у PDF",
 		"vssde-fileSizeExceedsLimit": "Памер запампаванага файла перавышае максімальны памер ({0} байт).",
-		"vssde-createXlsxDocumentConfirmation": "Хочаце стварыць новую працоўную кнігу?",
+		"vssde-createXlsxDocumentConfirmation": "Вы хочаце стварыць новую працоўную кнігу?",
 		"vssde-insertCommentDialog-title": "Уставіць каментар",
 		"vssde-dialog-okButton": "OK",
 		"vssde-dialog-cancelButton": "Адмяніць",
 		"vssde-editCommentDialog-title": "Рэдагаваць каментар",
+		"vssde-editChartDialog-title": "Рэдагаваць дыяграму",
+		"vssde-editChartPropertiesPanel-spreadsheetEditorDoesNotHaveFocusedChart": "Рэдактар электронных табліц не мае сфакусаванай дыяграмы.",
+		"vssde-editChartPropertiesPanel-selectedDrawingIsNotChart": "Выбраны малюнак не з'яўляецца дыяграмай.",
 		"vssde-renameWorksheetDialog-title": "Перайменаваць аркуш",
 		"vssde-moveWorksheetDialog-title": "Перамясціць аркуш",
 		"vssde-findTextDialog-title": "Знайсці тэкст",
 		"vssde-findTextDialog-findNextButton": "Знайсці далей",
 		"vssde-dialog-closeButton": "Блізка",
-		"vssde-selectFunctionDialog-title": "Функцыя ўстаўкі"
+		"vssde-selectFunctionDialog-title": "Функцыя ўстаўкі",
+		"vssde-cellNumberFormatDialog-title": "Фармат ячэйкі",
+		"vssde-insertChartDialog-title": "Уставіць дыяграму",
+		"vssde-insertChartPanel-chartType-column": "Слупок",
+		"vssde-insertChartPanel-chartType-line": "Лінія",
+		"vssde-insertChartPanel-chartType-pie": "Пірог",
+		"vssde-insertChartPanel-chartType-bar": "Бар",
+		"vssde-insertChartPanel-chartType-area": "Плошча",
+		"vssde-insertChartPanel-chartSubtype-clusteredColumn": "Кластарны слупок",
+		"vssde-insertChartPanel-chartSubtype-stackedColumn": "Складаны слупок",
+		"vssde-insertChartPanel-chartSubtype-100%StackedColumn": "100% назапашаны слупок",
+		"vssde-insertChartPanel-chartSubtype-3DClusteredColumn": "3D кластарная калона",
+		"vssde-insertChartPanel-chartSubtype-3DStackedColumn": "3D-калонка са стэкам",
+		"vssde-insertChartPanel-chartSubtype-3D100%StackedColumn": "3D 100% слупок",
+		"vssde-insertChartPanel-chartSubtype-line": "Лінія",
+		"vssde-insertChartPanel-chartSubtype-stackedLine": "Складаная лінія",
+		"vssde-insertChartPanel-chartSubtype-100%StackedLine": "100% накапленне",
+		"vssde-insertChartPanel-chartSubtype-lineWithMarkers": "Лінія з маркерамі",
+		"vssde-insertChartPanel-chartSubtype-stackedLineWithMarkers": "Складаная лінія з маркерамі",
+		"vssde-insertChartPanel-chartSubtype-100%StackedLineWithMar": "100% складзеная лінія з маркерамі",
+		"vssde-insertChartPanel-chartSubtype-curvedLine": "Выгнутая лінія",
+		"vssde-insertChartPanel-chartSubtype-stackedCurvedLine": "Складаная крывая лінія",
+		"vssde-insertChartPanel-chartSubtype-100%StackedCurvedLine": "100% складзеная крывая лінія",
+		"vssde-insertChartPanel-chartSubtype-curvedLineWithMarkers": "Выгнутая лінія з маркерамі",
+		"vssde-insertChartPanel-chartSubtype-stackedCurvLineWithMark": "Складаная крывая лінія з маркерамі",
+		"vssde-insertChartPanel-chartSubtype-100%StackedCurvLineMark": "100% складзеная крывая лінія з маркерамі",
+		"vssde-insertChartPanel-chartSubtype-pie": "Пірог",
+		"vssde-insertChartPanel-chartSubtype-pieExplosion": "Пірог (Выбух)",
+		"vssde-insertChartPanel-chartSubtype-doughnut": "Пончык",
+		"vssde-insertChartPanel-chartSubtype-clusteredBar": "Кластарны бар",
+		"vssde-insertChartPanel-chartSubtype-stackedBar": "Стэк Бар",
+		"vssde-insertChartPanel-chartSubtype-100%StackedBar": "100% стэкавая паласа",
+		"vssde-insertChartPanel-chartSubtype-area": "Плошча",
+		"vssde-insertChartPanel-chartSubtype-stackedArea": "Назапашаная вобласць",
+		"vssde-insertChartPanel-chartSubtype-100%StackedArea": "100% назапашаная плошча",
+		"vssde-insertChartPanel-fileArg0IsNotFound": "Файл "{0}" не знойдзены.",
+		"vssde-insertChartPanel-supportedChartTypesAreNotFound": "Тыпы дыяграм, якія падтрымліваюцца, не знойдзены.",
+		"vssde-insertChartPanel-notSupportedChartType": "Тып дыяграмы не падтрымліваецца.",
+		"vssde-insertChartPanel-supportedChartSubtypesAreNotFound": "Падтрымоўваныя падтыпы дыяграм не знойдзены.",
+		"vssde-insertChartPanel-notSupportedChartSubtype": "Падтып дыяграмы не падтрымліваецца.",
+		"vssde-insertChartPanel-chartTemplateContainsTwoIdenticalNamesForChartSubtypes": "Шаблон дыяграмы змяшчае 2 аднолькавыя назвы падтыпаў дыяграм.",
+		"vssde-insertChartPanel-chartTemplateContainsTwoIdenticalNamesForChartTypes": "Шаблон дыяграмы змяшчае 2 аднолькавыя назвы тыпаў дыяграм.",
+		"vssde-insertChartPanel-pleaseSpecifyCellsWhichContainTheChartDataIncludeNamesForRowsAndColumns": "Укажыце ячэйкі, якія змяшчаюць дадзеныя дыяграмы (уключыце назвы радкоў і слупкоў).",
+		"vssde-insertChartPanel-chartSubtypeArg0HasMultipleDeclarationsOnDifferentWorksheets": "Падтып дыяграмы '{0}' мае некалькі дэкларацый на розных аркушах.",
+		"vssde-insertChartPanel-sheetArg0IsNotFound": "Аркуш '{0}' не знойдзены."
 	}
 }

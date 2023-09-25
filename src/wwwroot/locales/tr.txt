@@ -110,6 +110,9 @@
 				"text": "Metin"
 			}
 		},
+		"numberFormatButton": {
+			"title": "Sayı Formatı"
+		},
 		"showFormulasButton": {
 			"title": "formülleri göster"
 		},
@@ -196,6 +199,9 @@
 		},
 		"insertPictureButton": {
 			"title": "Resim Ekle"
+		},
+		"insertChartButton": {
+			"title": "Grafik Ekle"
 		},
 		"editCommentButton": {
 			"title": "Yorumu düzenle"
@@ -341,6 +347,9 @@
 		"deleteImageLabel": {
 			"text": "Sil"
 		},
+		"propertiesLabel": {
+			"text": "Özellikler..."
+		},
 		"deleteCellAndShiftLeftLabel": {
 			"text": "Hücreyi sil ve sola git"
 		},
@@ -418,6 +427,17 @@
 			},
 			"commentLabel": {
 				"text": "Yorum:"
+			},
+			"okButton": {
+				"value": "Tamam"
+			},
+			"cancelButton": {
+				"value": "İptal"
+			}
+		},
+		"editChartDialog": {
+			"titleLabel": {
+				"text": "Başlık:"
 			},
 			"okButton": {
 				"value": "Tamam"
@@ -546,6 +566,82 @@
 			"cancelButton": {
 				"value": "İptal"
 			}
+		},
+		"setCellNumberFormatDialog": {
+			"General": {
+				"text": "Genel"
+			},
+			"Number": {
+				"text": "Nümerik"
+			},
+			"Currency": {
+				"text": "Para"
+			},
+			"Date": {
+				"text": "Tarih"
+			},
+			"Time": {
+				"text": "Zaman"
+			},
+			"Percentage": {
+				"text": "Yüzde"
+			},
+			"Scientific": {
+				"text": "Üstel"
+			},
+			"Text": {
+				"text": "Metin"
+			},
+			"Custom": {
+				"text": "Özel"
+			},
+			"generalFormatDescriptionLabel": {
+				"text": "Genel formatlı hücrelerin belirli bir sayı formatı yoktur."
+			},
+			"numberDecimalPlacesLabel": {
+				"text": "Ondalık:"
+			},
+			"useThousandsSeparatorLabel": {
+				"text": "1000 ayırıcı kullan"
+			},
+			"numberNegativeValuesLabel": {
+				"text": "Negatif değerler:"
+			},
+			"changeTextColorToRedLabel": {
+				"text": "Metin rengini kırmızı olarak değiştir"
+			},
+			"hideMinusSignLabel": {
+				"text": "Eksi işaretini gizle"
+			},
+			"currencyDecimalPlacesLabel": {
+				"text": "Ondalık:"
+			},
+			"currencySymbolLabel": {
+				"text": "Sembol:"
+			},
+			"percentageDecimalPlacesLabel": {
+				"text": "Ondalık:"
+			},
+			"scientificDecimalPlacesLabel": {
+				"text": "Ondalık:"
+			},
+			"textFormatDescriptionLabel": {
+				"text": "Metin biçimindeki hücreler, hücrede bir sayı olsa bile metin olarak değerlendirilir."
+			},
+			"okButton": {
+				"value": "Tamam"
+			},
+			"cancelButton": {
+				"value": "İptal"
+			}
+		},
+		"insertChartDialog": {
+			"okButton": {
+				"value": "Tamam"
+			},
+			"cancelButton": {
+				"value": "İptal"
+			}
 		}
 	},
 	"strings": {
@@ -578,11 +674,58 @@
 		"vssde-dialog-okButton": "Tamam",
 		"vssde-dialog-cancelButton": "İptal",
 		"vssde-editCommentDialog-title": "Yorumu düzenle",
+		"vssde-editChartDialog-title": "Grafiği Düzenle",
+		"vssde-editChartPropertiesPanel-spreadsheetEditorDoesNotHaveFocusedChart": "Elektronik tablo düzenleyicinin odaklanmış grafiği yoktur.",
+		"vssde-editChartPropertiesPanel-selectedDrawingIsNotChart": "Seçilen çizim bir grafik değil.",
 		"vssde-renameWorksheetDialog-title": "Sayfayı Yeniden Adlandır",
 		"vssde-moveWorksheetDialog-title": "Sayfayı Taşı",
 		"vssde-findTextDialog-title": "Metin bul",
 		"vssde-findTextDialog-findNextButton": "Sonrakini Bul",
 		"vssde-dialog-closeButton": "Kapat",
-		"vssde-selectFunctionDialog-title": "İşlev ekle"
+		"vssde-selectFunctionDialog-title": "İşlev ekle",
+		"vssde-cellNumberFormatDialog-title": "Hücre Formatı",
+		"vssde-insertChartDialog-title": "Grafik Ekle",
+		"vssde-insertChartPanel-chartType-column": "Kolon",
+		"vssde-insertChartPanel-chartType-line": "Çizgi",
+		"vssde-insertChartPanel-chartType-pie": "Turta",
+		"vssde-insertChartPanel-chartType-bar": "Çubuk",
+		"vssde-insertChartPanel-chartType-area": "Alan",
+		"vssde-insertChartPanel-chartSubtype-clusteredColumn": "Kümelenmiş Sütun",
+		"vssde-insertChartPanel-chartSubtype-stackedColumn": "Yığılmış Sütun",
+		"vssde-insertChartPanel-chartSubtype-100%StackedColumn": "%100 Yığılmış Sütun",
+		"vssde-insertChartPanel-chartSubtype-3DClusteredColumn": "3B Kümelenmiş Sütun",
+		"vssde-insertChartPanel-chartSubtype-3DStackedColumn": "3B Yığılmış Sütun",
+		"vssde-insertChartPanel-chartSubtype-3D100%StackedColumn": "3D %100 Yığılmış Sütun",
+		"vssde-insertChartPanel-chartSubtype-line": "Çizgi",
+		"vssde-insertChartPanel-chartSubtype-stackedLine": "Yığılmış Hat",
+		"vssde-insertChartPanel-chartSubtype-100%StackedLine": "%100 Yığılmış Hat",
+		"vssde-insertChartPanel-chartSubtype-lineWithMarkers": "İşaretleyicili Çizgi",
+		"vssde-insertChartPanel-chartSubtype-stackedLineWithMarkers": "İşaretleyicilerle Yığılmış Çizgi",
+		"vssde-insertChartPanel-chartSubtype-100%StackedLineWithMar": "%100 İşaretli Yığılmış Çizgi",
+		"vssde-insertChartPanel-chartSubtype-curvedLine": "Eğri Çizgi",
+		"vssde-insertChartPanel-chartSubtype-stackedCurvedLine": "Yığılmış Eğri Çizgi",
+		"vssde-insertChartPanel-chartSubtype-100%StackedCurvedLine": "%100 Yığılmış Eğri Çizgi",
+		"vssde-insertChartPanel-chartSubtype-curvedLineWithMarkers": "İşaretli Eğri Çizgi",
+		"vssde-insertChartPanel-chartSubtype-stackedCurvLineWithMark": "İşaretleyicilerle Yığılmış Eğri Çizgi",
+		"vssde-insertChartPanel-chartSubtype-100%StackedCurvLineMark": "%100 İşaretli Yığılmış Eğri Çizgi",
+		"vssde-insertChartPanel-chartSubtype-pie": "Turta",
+		"vssde-insertChartPanel-chartSubtype-pieExplosion": "Pasta (Patlama)",
+		"vssde-insertChartPanel-chartSubtype-doughnut": "Tatlı çörek",
+		"vssde-insertChartPanel-chartSubtype-clusteredBar": "Kümelenmiş Çubuk",
+		"vssde-insertChartPanel-chartSubtype-stackedBar": "Yığılmış Çubuk",
+		"vssde-insertChartPanel-chartSubtype-100%StackedBar": "%100 Yığılmış Çubuk",
+		"vssde-insertChartPanel-chartSubtype-area": "Alan",
+		"vssde-insertChartPanel-chartSubtype-stackedArea": "Yığılmış Alan",
+		"vssde-insertChartPanel-chartSubtype-100%StackedArea": "%100 Yığılmış Alan",
+		"vssde-insertChartPanel-fileArg0IsNotFound": "'{0}' dosyası bulunamadı.",
+		"vssde-insertChartPanel-supportedChartTypesAreNotFound": "Desteklenen grafik türleri bulunamadı.",
+		"vssde-insertChartPanel-notSupportedChartType": "Desteklenmeyen grafik türü.",
+		"vssde-insertChartPanel-supportedChartSubtypesAreNotFound": "Desteklenen grafik alt türleri bulunamadı.",
+		"vssde-insertChartPanel-notSupportedChartSubtype": "Desteklenmeyen grafik alt türü.",
+		"vssde-insertChartPanel-chartTemplateContainsTwoIdenticalNamesForChartSubtypes": "Grafik şablonu, grafik alt türleri için 2 özdeş ad içerir.",
+		"vssde-insertChartPanel-chartTemplateContainsTwoIdenticalNamesForChartTypes": "Grafik şablonu, grafik türleri için 2 özdeş ad içerir.",
+		"vssde-insertChartPanel-pleaseSpecifyCellsWhichContainTheChartDataIncludeNamesForRowsAndColumns": "Lütfen grafik verilerini içeren hücreleri belirtin (satır ve sütun adlarını ekleyin).",
+		"vssde-insertChartPanel-chartSubtypeArg0HasMultipleDeclarationsOnDifferentWorksheets": "Grafik alt türü '{0}', farklı çalışma sayfalarında birden çok bildirime sahip.",
+		"vssde-insertChartPanel-sheetArg0IsNotFound": "'{0}' sayfası bulunamadı."
 	}
 }

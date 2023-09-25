@@ -110,6 +110,9 @@
 				"text": "텍스트"
 			}
 		},
+		"numberFormatButton": {
+			"title": "숫자 형식"
+		},
 		"showFormulasButton": {
 			"title": "수식 표시"
 		},
@@ -196,6 +199,9 @@
 		},
 		"insertPictureButton": {
 			"title": "사진 추가"
+		},
+		"insertChartButton": {
+			"title": "차트 삽입"
 		},
 		"editCommentButton": {
 			"title": "댓글 편집"
@@ -341,6 +347,9 @@
 		"deleteImageLabel": {
 			"text": "삭제"
 		},
+		"propertiesLabel": {
+			"text": "속성..."
+		},
 		"deleteCellAndShiftLeftLabel": {
 			"text": "셀을 삭제하고 왼쪽으로 이동"
 		},
@@ -418,6 +427,17 @@
 			},
 			"commentLabel": {
 				"text": "논평:"
+			},
+			"okButton": {
+				"value": "확인"
+			},
+			"cancelButton": {
+				"value": "취소"
+			}
+		},
+		"editChartDialog": {
+			"titleLabel": {
+				"text": "제목:"
 			},
 			"okButton": {
 				"value": "확인"
@@ -546,6 +566,82 @@
 			"cancelButton": {
 				"value": "취소"
 			}
+		},
+		"setCellNumberFormatDialog": {
+			"General": {
+				"text": "일반"
+			},
+			"Number": {
+				"text": "숫자"
+			},
+			"Currency": {
+				"text": "돈"
+			},
+			"Date": {
+				"text": "날짜"
+			},
+			"Time": {
+				"text": "시간"
+			},
+			"Percentage": {
+				"text": "퍼센트"
+			},
+			"Scientific": {
+				"text": "지수"
+			},
+			"Text": {
+				"text": "텍스트"
+			},
+			"Custom": {
+				"text": "사용자 정의"
+			},
+			"generalFormatDescriptionLabel": {
+				"text": "일반 형식 셀에는 특정 숫자 형식이 없습니다."
+			},
+			"numberDecimalPlacesLabel": {
+				"text": "소수점 자리:"
+			},
+			"useThousandsSeparatorLabel": {
+				"text": "1000 구분 기호 사용"
+			},
+			"numberNegativeValuesLabel": {
+				"text": "음수 값:"
+			},
+			"changeTextColorToRedLabel": {
+				"text": "텍스트 색상을 빨간색으로 변경"
+			},
+			"hideMinusSignLabel": {
+				"text": "빼기 기호 숨기기"
+			},
+			"currencyDecimalPlacesLabel": {
+				"text": "소수점 자리:"
+			},
+			"currencySymbolLabel": {
+				"text": "상징:"
+			},
+			"percentageDecimalPlacesLabel": {
+				"text": "소수점 자리:"
+			},
+			"scientificDecimalPlacesLabel": {
+				"text": "소수점 자리:"
+			},
+			"textFormatDescriptionLabel": {
+				"text": "텍스트 형식 셀은 셀에 숫자가 있어도 텍스트로 처리됩니다."
+			},
+			"okButton": {
+				"value": "확인"
+			},
+			"cancelButton": {
+				"value": "취소"
+			}
+		},
+		"insertChartDialog": {
+			"okButton": {
+				"value": "확인"
+			},
+			"cancelButton": {
+				"value": "취소"
+			}
 		}
 	},
 	"strings": {
@@ -573,16 +669,63 @@
 		"vssde-downloadXlsxFile": "XLSX 파일 업로드",
 		"vssde-exportXlsxToPdf": "XLSX를 PDF로 내보내기",
 		"vssde-fileSizeExceedsLimit": "업로드된 파일의 크기가 최대 크기({0}바이트)를 초과합니다.",
-		"vssde-createXlsxDocumentConfirmation": "새 통합 문서를 만들고 싶나요?",
+		"vssde-createXlsxDocumentConfirmation": "새 통합 문서를 만드시겠습니까?",
 		"vssde-insertCommentDialog-title": "설명 삽입",
 		"vssde-dialog-okButton": "확인",
 		"vssde-dialog-cancelButton": "취소",
 		"vssde-editCommentDialog-title": "댓글 편집",
+		"vssde-editChartDialog-title": "차트 편집",
+		"vssde-editChartPropertiesPanel-spreadsheetEditorDoesNotHaveFocusedChart": "스프레드시트 편집기에는 집중된 차트가 없습니다.",
+		"vssde-editChartPropertiesPanel-selectedDrawingIsNotChart": "선택한 그림은 차트가 아닙니다.",
 		"vssde-renameWorksheetDialog-title": "시트 이름 바꾸기",
 		"vssde-moveWorksheetDialog-title": "시트 이동",
 		"vssde-findTextDialog-title": "텍스트 찾기",
 		"vssde-findTextDialog-findNextButton": "다음 찾기",
 		"vssde-dialog-closeButton": "닫기",
-		"vssde-selectFunctionDialog-title": "함수 삽입"
+		"vssde-selectFunctionDialog-title": "함수 삽입",
+		"vssde-cellNumberFormatDialog-title": "셀 형식",
+		"vssde-insertChartDialog-title": "차트 삽입",
+		"vssde-insertChartPanel-chartType-column": "열",
+		"vssde-insertChartPanel-chartType-line": "선",
+		"vssde-insertChartPanel-chartType-pie": "파이",
+		"vssde-insertChartPanel-chartType-bar": "술집",
+		"vssde-insertChartPanel-chartType-area": "영역",
+		"vssde-insertChartPanel-chartSubtype-clusteredColumn": "클러스터링된 열",
+		"vssde-insertChartPanel-chartSubtype-stackedColumn": "누적 기둥",
+		"vssde-insertChartPanel-chartSubtype-100%StackedColumn": "100% 누적 기둥",
+		"vssde-insertChartPanel-chartSubtype-3DClusteredColumn": "3D 군집 기둥",
+		"vssde-insertChartPanel-chartSubtype-3DStackedColumn": "3D 누적 기둥",
+		"vssde-insertChartPanel-chartSubtype-3D100%StackedColumn": "3D 100% 누적 기둥",
+		"vssde-insertChartPanel-chartSubtype-line": "선",
+		"vssde-insertChartPanel-chartSubtype-stackedLine": "누적선",
+		"vssde-insertChartPanel-chartSubtype-100%StackedLine": "100% 누적선",
+		"vssde-insertChartPanel-chartSubtype-lineWithMarkers": "마커가 있는 선",
+		"vssde-insertChartPanel-chartSubtype-stackedLineWithMarkers": "마커가 있는 누적선",
+		"vssde-insertChartPanel-chartSubtype-100%StackedLineWithMar": "마커가 있는 100% 누적선",
+		"vssde-insertChartPanel-chartSubtype-curvedLine": "곡선",
+		"vssde-insertChartPanel-chartSubtype-stackedCurvedLine": "누적곡선",
+		"vssde-insertChartPanel-chartSubtype-100%StackedCurvedLine": "100% 누적 곡선",
+		"vssde-insertChartPanel-chartSubtype-curvedLineWithMarkers": "마커가 있는 곡선",
+		"vssde-insertChartPanel-chartSubtype-stackedCurvLineWithMark": "마커가 있는 누적 곡선",
+		"vssde-insertChartPanel-chartSubtype-100%StackedCurvLineMark": "마커가 있는 100% 누적 곡선",
+		"vssde-insertChartPanel-chartSubtype-pie": "파이",
+		"vssde-insertChartPanel-chartSubtype-pieExplosion": "파이(폭발)",
+		"vssde-insertChartPanel-chartSubtype-doughnut": "도넛",
+		"vssde-insertChartPanel-chartSubtype-clusteredBar": "클러스터된 막대",
+		"vssde-insertChartPanel-chartSubtype-stackedBar": "누적 막대",
+		"vssde-insertChartPanel-chartSubtype-100%StackedBar": "100% 누적 막대",
+		"vssde-insertChartPanel-chartSubtype-area": "영역",
+		"vssde-insertChartPanel-chartSubtype-stackedArea": "누적 영역",
+		"vssde-insertChartPanel-chartSubtype-100%StackedArea": "100% 스택 영역",
+		"vssde-insertChartPanel-fileArg0IsNotFound": "'{0}' 파일을 찾을 수 없습니다.",
+		"vssde-insertChartPanel-supportedChartTypesAreNotFound": "지원되는 차트 유형을 찾을 수 없습니다.",
+		"vssde-insertChartPanel-notSupportedChartType": "지원되지 않는 차트 유형입니다.",
+		"vssde-insertChartPanel-supportedChartSubtypesAreNotFound": "지원되는 차트 하위 유형을 찾을 수 없습니다.",
+		"vssde-insertChartPanel-notSupportedChartSubtype": "지원되지 않는 차트 하위 유형입니다.",
+		"vssde-insertChartPanel-chartTemplateContainsTwoIdenticalNamesForChartSubtypes": "차트 템플릿에는 차트 하위 유형에 대해 동일한 이름이 2개 포함되어 있습니다.",
+		"vssde-insertChartPanel-chartTemplateContainsTwoIdenticalNamesForChartTypes": "차트 템플릿에는 차트 유형에 대해 동일한 이름이 2개 포함되어 있습니다.",
+		"vssde-insertChartPanel-pleaseSpecifyCellsWhichContainTheChartDataIncludeNamesForRowsAndColumns": "차트 데이터(행 및 열 이름 포함)가 포함된 셀을 지정하세요.",
+		"vssde-insertChartPanel-chartSubtypeArg0HasMultipleDeclarationsOnDifferentWorksheets": "차트 하위 유형 '{0}'에는 다양한 워크시트에 여러 선언이 있습니다.",
+		"vssde-insertChartPanel-sheetArg0IsNotFound": "시트 '{0}'을(를) 찾을 수 없습니다."
 	}
 }

@@ -110,6 +110,9 @@
 				"text": "Текст"
 			}
 		},
+		"numberFormatButton": {
+			"title": "Числов формат"
+		},
 		"showFormulasButton": {
 			"title": "Показване на формули"
 		},
@@ -196,6 +199,9 @@
 		},
 		"insertPictureButton": {
 			"title": "Добавете снимка"
+		},
+		"insertChartButton": {
+			"title": "Вмъкване на диаграма"
 		},
 		"editCommentButton": {
 			"title": "Редактиране на коментар"
@@ -341,6 +347,9 @@
 		"deleteImageLabel": {
 			"text": "Изтриване"
 		},
+		"propertiesLabel": {
+			"text": "Имоти..."
+		},
 		"deleteCellAndShiftLeftLabel": {
 			"text": "Изтриване на клетка и преместване наляво"
 		},
@@ -418,6 +427,17 @@
 			},
 			"commentLabel": {
 				"text": "Коментар:"
+			},
+			"okButton": {
+				"value": "ОК"
+			},
+			"cancelButton": {
+				"value": "Отказ"
+			}
+		},
+		"editChartDialog": {
+			"titleLabel": {
+				"text": "Заглавие:"
 			},
 			"okButton": {
 				"value": "ОК"
@@ -546,6 +566,82 @@
 			"cancelButton": {
 				"value": "Отказ"
 			}
+		},
+		"setCellNumberFormatDialog": {
+			"General": {
+				"text": "Общи"
+			},
+			"Number": {
+				"text": "Числен"
+			},
+			"Currency": {
+				"text": "Пари"
+			},
+			"Date": {
+				"text": "Дата"
+			},
+			"Time": {
+				"text": "Време"
+			},
+			"Percentage": {
+				"text": "Процент"
+			},
+			"Scientific": {
+				"text": "Експоненциален"
+			},
+			"Text": {
+				"text": "Текст"
+			},
+			"Custom": {
+				"text": "По избор"
+			},
+			"generalFormatDescriptionLabel": {
+				"text": "Клетките с общ формат нямат специфичен числов формат."
+			},
+			"numberDecimalPlacesLabel": {
+				"text": "Знаци след десетичната запетая:"
+			},
+			"useThousandsSeparatorLabel": {
+				"text": "Използвайте разделител 1000"
+			},
+			"numberNegativeValuesLabel": {
+				"text": "Отрицателни стойности:"
+			},
+			"changeTextColorToRedLabel": {
+				"text": "Променете цвета на текста на червен"
+			},
+			"hideMinusSignLabel": {
+				"text": "Скриване на знака минус"
+			},
+			"currencyDecimalPlacesLabel": {
+				"text": "Знаци след десетичната запетая:"
+			},
+			"currencySymbolLabel": {
+				"text": "символ:"
+			},
+			"percentageDecimalPlacesLabel": {
+				"text": "Знаци след десетичната запетая:"
+			},
+			"scientificDecimalPlacesLabel": {
+				"text": "Знаци след десетичната запетая:"
+			},
+			"textFormatDescriptionLabel": {
+				"text": "Клетките с текстов формат се третират като текст дори ако в клетката има число."
+			},
+			"okButton": {
+				"value": "ОК"
+			},
+			"cancelButton": {
+				"value": "Отказ"
+			}
+		},
+		"insertChartDialog": {
+			"okButton": {
+				"value": "ОК"
+			},
+			"cancelButton": {
+				"value": "Отказ"
+			}
 		}
 	},
 	"strings": {
@@ -578,11 +674,58 @@
 		"vssde-dialog-okButton": "ОК",
 		"vssde-dialog-cancelButton": "Отказ",
 		"vssde-editCommentDialog-title": "Редактиране на коментар",
+		"vssde-editChartDialog-title": "Редактиране на диаграма",
+		"vssde-editChartPropertiesPanel-spreadsheetEditorDoesNotHaveFocusedChart": "Редакторът на електронни таблици няма фокусирана диаграма.",
+		"vssde-editChartPropertiesPanel-selectedDrawingIsNotChart": "Избраният чертеж не е диаграма.",
 		"vssde-renameWorksheetDialog-title": "Преименуване на лист",
 		"vssde-moveWorksheetDialog-title": "Преместване на лист",
 		"vssde-findTextDialog-title": "Намерете текст",
 		"vssde-findTextDialog-findNextButton": "Намиране на следващия",
 		"vssde-dialog-closeButton": "Затвори",
-		"vssde-selectFunctionDialog-title": "Вмъкване на функция"
+		"vssde-selectFunctionDialog-title": "Вмъкване на функция",
+		"vssde-cellNumberFormatDialog-title": "Формат на клетка",
+		"vssde-insertChartDialog-title": "Вмъкване на диаграма",
+		"vssde-insertChartPanel-chartType-column": "Колона",
+		"vssde-insertChartPanel-chartType-line": "Линия",
+		"vssde-insertChartPanel-chartType-pie": "пай",
+		"vssde-insertChartPanel-chartType-bar": "Бар",
+		"vssde-insertChartPanel-chartType-area": "■ площ",
+		"vssde-insertChartPanel-chartSubtype-clusteredColumn": "Групирана колона",
+		"vssde-insertChartPanel-chartSubtype-stackedColumn": "Подредена колона",
+		"vssde-insertChartPanel-chartSubtype-100%StackedColumn": "100% подредена колона",
+		"vssde-insertChartPanel-chartSubtype-3DClusteredColumn": "3D групирана колона",
+		"vssde-insertChartPanel-chartSubtype-3DStackedColumn": "3D подредена колона",
+		"vssde-insertChartPanel-chartSubtype-3D100%StackedColumn": "3D 100% подредена колона",
+		"vssde-insertChartPanel-chartSubtype-line": "Линия",
+		"vssde-insertChartPanel-chartSubtype-stackedLine": "Подредена линия",
+		"vssde-insertChartPanel-chartSubtype-100%StackedLine": "100% подредена линия",
+		"vssde-insertChartPanel-chartSubtype-lineWithMarkers": "Линия с маркери",
+		"vssde-insertChartPanel-chartSubtype-stackedLineWithMarkers": "Подредена линия с маркери",
+		"vssde-insertChartPanel-chartSubtype-100%StackedLineWithMar": "100% подредена линия с маркери",
+		"vssde-insertChartPanel-chartSubtype-curvedLine": "Извита линия",
+		"vssde-insertChartPanel-chartSubtype-stackedCurvedLine": "Подредена крива линия",
+		"vssde-insertChartPanel-chartSubtype-100%StackedCurvedLine": "100% подредена извита линия",
+		"vssde-insertChartPanel-chartSubtype-curvedLineWithMarkers": "Извита линия с маркери",
+		"vssde-insertChartPanel-chartSubtype-stackedCurvLineWithMark": "Подредена извита линия с маркери",
+		"vssde-insertChartPanel-chartSubtype-100%StackedCurvLineMark": "100% подредена извита линия с маркери",
+		"vssde-insertChartPanel-chartSubtype-pie": "пай",
+		"vssde-insertChartPanel-chartSubtype-pieExplosion": "пай (експлозия)",
+		"vssde-insertChartPanel-chartSubtype-doughnut": "Поничка",
+		"vssde-insertChartPanel-chartSubtype-clusteredBar": "Групирана лента",
+		"vssde-insertChartPanel-chartSubtype-stackedBar": "Подредена лента",
+		"vssde-insertChartPanel-chartSubtype-100%StackedBar": "100% подредена лента",
+		"vssde-insertChartPanel-chartSubtype-area": "■ площ",
+		"vssde-insertChartPanel-chartSubtype-stackedArea": "Подредена област",
+		"vssde-insertChartPanel-chartSubtype-100%StackedArea": "100% подредена площ",
+		"vssde-insertChartPanel-fileArg0IsNotFound": "Файлът „{0}“ не е намерен.",
+		"vssde-insertChartPanel-supportedChartTypesAreNotFound": "Поддържаните типове диаграми не са намерени.",
+		"vssde-insertChartPanel-notSupportedChartType": "Неподдържан тип диаграма.",
+		"vssde-insertChartPanel-supportedChartSubtypesAreNotFound": "Поддържаните подтипове на диаграмата не са намерени.",
+		"vssde-insertChartPanel-notSupportedChartSubtype": "Подтип на диаграмата не се поддържа.",
+		"vssde-insertChartPanel-chartTemplateContainsTwoIdenticalNamesForChartSubtypes": "Шаблонът на диаграмата съдържа 2 еднакви имена за подтипове на диаграма.",
+		"vssde-insertChartPanel-chartTemplateContainsTwoIdenticalNamesForChartTypes": "Шаблонът за диаграма съдържа 2 еднакви имена за типове диаграми.",
+		"vssde-insertChartPanel-pleaseSpecifyCellsWhichContainTheChartDataIncludeNamesForRowsAndColumns": "Моля, посочете клетки, които съдържат данните от диаграмата (включете имена на редове и колони).",
+		"vssde-insertChartPanel-chartSubtypeArg0HasMultipleDeclarationsOnDifferentWorksheets": "Подтипът на диаграмата '{0}' има множество декларации на различни работни листове.",
+		"vssde-insertChartPanel-sheetArg0IsNotFound": "Лист '{0}' не е намерен."
 	}
 }

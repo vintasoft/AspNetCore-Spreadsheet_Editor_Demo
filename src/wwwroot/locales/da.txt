@@ -110,6 +110,9 @@
 				"text": "Tekst"
 			}
 		},
+		"numberFormatButton": {
+			"title": "Talformat"
+		},
 		"showFormulasButton": {
 			"title": "Vis formler"
 		},
@@ -196,6 +199,9 @@
 		},
 		"insertPictureButton": {
 			"title": "Tilføj billede"
+		},
+		"insertChartButton": {
+			"title": "Indsæt diagram"
 		},
 		"editCommentButton": {
 			"title": "Rediger kommentar"
@@ -341,6 +347,9 @@
 		"deleteImageLabel": {
 			"text": "Slet"
 		},
+		"propertiesLabel": {
+			"text": "Ejendomme..."
+		},
 		"deleteCellAndShiftLeftLabel": {
 			"text": "Slet celle og flyt til venstre"
 		},
@@ -418,6 +427,17 @@
 			},
 			"commentLabel": {
 				"text": "Kommentar:"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Annuller"
+			}
+		},
+		"editChartDialog": {
+			"titleLabel": {
+				"text": "Titel:"
 			},
 			"okButton": {
 				"value": "OK"
@@ -546,6 +566,82 @@
 			"cancelButton": {
 				"value": "Annuller"
 			}
+		},
+		"setCellNumberFormatDialog": {
+			"General": {
+				"text": "Generelt"
+			},
+			"Number": {
+				"text": "Numerisk"
+			},
+			"Currency": {
+				"text": "Penge"
+			},
+			"Date": {
+				"text": "Dato"
+			},
+			"Time": {
+				"text": "Tid"
+			},
+			"Percentage": {
+				"text": "Procentdel"
+			},
+			"Scientific": {
+				"text": "Eksponentiel"
+			},
+			"Text": {
+				"text": "Tekst"
+			},
+			"Custom": {
+				"text": "Brugerdefineret"
+			},
+			"generalFormatDescriptionLabel": {
+				"text": "Generelle formatceller har ikke noget specifikt talformat."
+			},
+			"numberDecimalPlacesLabel": {
+				"text": "Decimaler:"
+			},
+			"useThousandsSeparatorLabel": {
+				"text": "Brug 1000 separator"
+			},
+			"numberNegativeValuesLabel": {
+				"text": "Negative værdier:"
+			},
+			"changeTextColorToRedLabel": {
+				"text": "Skift tekstfarve til rød"
+			},
+			"hideMinusSignLabel": {
+				"text": "Skjul minustegn"
+			},
+			"currencyDecimalPlacesLabel": {
+				"text": "Decimaler:"
+			},
+			"currencySymbolLabel": {
+				"text": "Symbol:"
+			},
+			"percentageDecimalPlacesLabel": {
+				"text": "Decimaler:"
+			},
+			"scientificDecimalPlacesLabel": {
+				"text": "Decimaler:"
+			},
+			"textFormatDescriptionLabel": {
+				"text": "Tekstformatceller behandles som tekst, selvom der er et tal i cellen."
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Annuller"
+			}
+		},
+		"insertChartDialog": {
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Annuller"
+			}
 		}
 	},
 	"strings": {
@@ -578,11 +674,58 @@
 		"vssde-dialog-okButton": "OK",
 		"vssde-dialog-cancelButton": "Annuller",
 		"vssde-editCommentDialog-title": "Rediger kommentar",
+		"vssde-editChartDialog-title": "Rediger diagram",
+		"vssde-editChartPropertiesPanel-spreadsheetEditorDoesNotHaveFocusedChart": "Regnearkseditoren har ikke fokuseret diagram.",
+		"vssde-editChartPropertiesPanel-selectedDrawingIsNotChart": "Den valgte tegning er ikke et diagram.",
 		"vssde-renameWorksheetDialog-title": "Omdøb ark",
 		"vssde-moveWorksheetDialog-title": "Flyt ark",
 		"vssde-findTextDialog-title": "Find tekst",
 		"vssde-findTextDialog-findNextButton": "Find næste",
 		"vssde-dialog-closeButton": "Luk",
-		"vssde-selectFunctionDialog-title": "Indsæt funktion"
+		"vssde-selectFunctionDialog-title": "Indsæt funktion",
+		"vssde-cellNumberFormatDialog-title": "Celleformat",
+		"vssde-insertChartDialog-title": "Indsæt diagram",
+		"vssde-insertChartPanel-chartType-column": "Kolonne",
+		"vssde-insertChartPanel-chartType-line": "Linje",
+		"vssde-insertChartPanel-chartType-pie": "Pie",
+		"vssde-insertChartPanel-chartType-bar": "Bar",
+		"vssde-insertChartPanel-chartType-area": "Areal",
+		"vssde-insertChartPanel-chartSubtype-clusteredColumn": "Klynget søjle",
+		"vssde-insertChartPanel-chartSubtype-stackedColumn": "Stablet søjle",
+		"vssde-insertChartPanel-chartSubtype-100%StackedColumn": "100 % stablet søjle",
+		"vssde-insertChartPanel-chartSubtype-3DClusteredColumn": "3D Clustered Column",
+		"vssde-insertChartPanel-chartSubtype-3DStackedColumn": "3D stablet kolonne",
+		"vssde-insertChartPanel-chartSubtype-3D100%StackedColumn": "3D 100 % stablet søjle",
+		"vssde-insertChartPanel-chartSubtype-line": "Linje",
+		"vssde-insertChartPanel-chartSubtype-stackedLine": "Stablet Line",
+		"vssde-insertChartPanel-chartSubtype-100%StackedLine": "100 % stablet linje",
+		"vssde-insertChartPanel-chartSubtype-lineWithMarkers": "Linje med markører",
+		"vssde-insertChartPanel-chartSubtype-stackedLineWithMarkers": "Stablet linje med markører",
+		"vssde-insertChartPanel-chartSubtype-100%StackedLineWithMar": "100 % stablet linje med markører",
+		"vssde-insertChartPanel-chartSubtype-curvedLine": "Buet Linie",
+		"vssde-insertChartPanel-chartSubtype-stackedCurvedLine": "Stablet buet linje",
+		"vssde-insertChartPanel-chartSubtype-100%StackedCurvedLine": "100 % stablet buet linje",
+		"vssde-insertChartPanel-chartSubtype-curvedLineWithMarkers": "Buet linje med markører",
+		"vssde-insertChartPanel-chartSubtype-stackedCurvLineWithMark": "Stablet buet linje med markører",
+		"vssde-insertChartPanel-chartSubtype-100%StackedCurvLineMark": "100 % stablet buet linje med markører",
+		"vssde-insertChartPanel-chartSubtype-pie": "Pie",
+		"vssde-insertChartPanel-chartSubtype-pieExplosion": "Pie (Eksplosion)",
+		"vssde-insertChartPanel-chartSubtype-doughnut": "Donut",
+		"vssde-insertChartPanel-chartSubtype-clusteredBar": "Clustered Bar",
+		"vssde-insertChartPanel-chartSubtype-stackedBar": "Stablet Bar",
+		"vssde-insertChartPanel-chartSubtype-100%StackedBar": "100 % stablet bar",
+		"vssde-insertChartPanel-chartSubtype-area": "Areal",
+		"vssde-insertChartPanel-chartSubtype-stackedArea": "Stablet område",
+		"vssde-insertChartPanel-chartSubtype-100%StackedArea": "100 % stablet område",
+		"vssde-insertChartPanel-fileArg0IsNotFound": "Filen '{0}' blev ikke fundet.",
+		"vssde-insertChartPanel-supportedChartTypesAreNotFound": "Understøttede diagramtyper blev ikke fundet.",
+		"vssde-insertChartPanel-notSupportedChartType": "Ikke understøttet diagramtype.",
+		"vssde-insertChartPanel-supportedChartSubtypesAreNotFound": "Understøttede diagramundertyper blev ikke fundet.",
+		"vssde-insertChartPanel-notSupportedChartSubtype": "Ikke understøttet diagramundertype.",
+		"vssde-insertChartPanel-chartTemplateContainsTwoIdenticalNamesForChartSubtypes": "Kortskabelonen indeholder 2 identiske navne for diagramundertyper.",
+		"vssde-insertChartPanel-chartTemplateContainsTwoIdenticalNamesForChartTypes": "Kortskabelonen indeholder 2 identiske navne for søkorttyper.",
+		"vssde-insertChartPanel-pleaseSpecifyCellsWhichContainTheChartDataIncludeNamesForRowsAndColumns": "Angiv venligst celler, som indeholder diagramdataene (inkluder navne på rækker og kolonner).",
+		"vssde-insertChartPanel-chartSubtypeArg0HasMultipleDeclarationsOnDifferentWorksheets": "Diagramundertypen '{0}' har flere erklæringer på forskellige regneark.",
+		"vssde-insertChartPanel-sheetArg0IsNotFound": "Ark '{0}' blev ikke fundet."
 	}
 }

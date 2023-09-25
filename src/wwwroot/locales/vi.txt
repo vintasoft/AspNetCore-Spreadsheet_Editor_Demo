@@ -110,6 +110,9 @@
 				"text": "Văn bản"
 			}
 		},
+		"numberFormatButton": {
+			"title": "Định dạng số"
+		},
 		"showFormulasButton": {
 			"title": "Hiển thị công thức"
 		},
@@ -196,6 +199,9 @@
 		},
 		"insertPictureButton": {
 			"title": "Thêm ảnh"
+		},
+		"insertChartButton": {
+			"title": "Chèn biểu đồ"
 		},
 		"editCommentButton": {
 			"title": "Chỉnh sửa nhận xét"
@@ -341,6 +347,9 @@
 		"deleteImageLabel": {
 			"text": "Xóa"
 		},
+		"propertiesLabel": {
+			"text": "Của cải..."
+		},
 		"deleteCellAndShiftLeftLabel": {
 			"text": "Xóa ô và di chuyển sang trái"
 		},
@@ -418,6 +427,17 @@
 			},
 			"commentLabel": {
 				"text": "Bình luận:"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Hủy"
+			}
+		},
+		"editChartDialog": {
+			"titleLabel": {
+				"text": "Tiêu đề:"
 			},
 			"okButton": {
 				"value": "OK"
@@ -546,6 +566,82 @@
 			"cancelButton": {
 				"value": "Hủy"
 			}
+		},
+		"setCellNumberFormatDialog": {
+			"General": {
+				"text": "Chung"
+			},
+			"Number": {
+				"text": "Số"
+			},
+			"Currency": {
+				"text": "Tiền"
+			},
+			"Date": {
+				"text": "Ngày"
+			},
+			"Time": {
+				"text": "Thời gian"
+			},
+			"Percentage": {
+				"text": "Phần trăm"
+			},
+			"Scientific": {
+				"text": "Số mũ"
+			},
+			"Text": {
+				"text": "Văn bản"
+			},
+			"Custom": {
+				"text": "Tùy chỉnh"
+			},
+			"generalFormatDescriptionLabel": {
+				"text": "Các ô định dạng chung không có định dạng số cụ thể."
+			},
+			"numberDecimalPlacesLabel": {
+				"text": "Vị trí thập phân:"
+			},
+			"useThousandsSeparatorLabel": {
+				"text": "Sử dụng dấu phân cách 1000"
+			},
+			"numberNegativeValuesLabel": {
+				"text": "Giá trị âm:"
+			},
+			"changeTextColorToRedLabel": {
+				"text": "Thay đổi màu văn bản thành màu đỏ"
+			},
+			"hideMinusSignLabel": {
+				"text": "Ẩn dấu trừ"
+			},
+			"currencyDecimalPlacesLabel": {
+				"text": "Vị trí thập phân:"
+			},
+			"currencySymbolLabel": {
+				"text": "Biểu tượng:"
+			},
+			"percentageDecimalPlacesLabel": {
+				"text": "Vị trí thập phân:"
+			},
+			"scientificDecimalPlacesLabel": {
+				"text": "Vị trí thập phân:"
+			},
+			"textFormatDescriptionLabel": {
+				"text": "Các ô định dạng văn bản được coi là văn bản ngay cả khi có một số trong ô."
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Hủy"
+			}
+		},
+		"insertChartDialog": {
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Hủy"
+			}
 		}
 	},
 	"strings": {
@@ -573,16 +669,63 @@
 		"vssde-downloadXlsxFile": "Tải lên tệp XLSX",
 		"vssde-exportXlsxToPdf": "Xuất XLSX sang PDF",
 		"vssde-fileSizeExceedsLimit": "Kích thước của tệp đã tải lên vượt quá kích thước tối đa ({0} byte).",
-		"vssde-createXlsxDocumentConfirmation": "Bạn muốn tạo một sổ làm việc mới?",
+		"vssde-createXlsxDocumentConfirmation": "Bạn có muốn tạo một sổ làm việc mới không?",
 		"vssde-insertCommentDialog-title": "Chèn nhận xét",
 		"vssde-dialog-okButton": "OK",
 		"vssde-dialog-cancelButton": "Hủy",
 		"vssde-editCommentDialog-title": "Chỉnh sửa nhận xét",
+		"vssde-editChartDialog-title": "Chỉnh sửa biểu đồ",
+		"vssde-editChartPropertiesPanel-spreadsheetEditorDoesNotHaveFocusedChart": "Trình chỉnh sửa bảng tính không có biểu đồ tập trung.",
+		"vssde-editChartPropertiesPanel-selectedDrawingIsNotChart": "Bản vẽ được chọn không phải là biểu đồ.",
 		"vssde-renameWorksheetDialog-title": "Đổi tên trang tính",
 		"vssde-moveWorksheetDialog-title": "Di chuyển Trang tính",
 		"vssde-findTextDialog-title": "Tìm văn bản",
 		"vssde-findTextDialog-findNextButton": "Tìm Tiếp theo",
 		"vssde-dialog-closeButton": "Đóng",
-		"vssde-selectFunctionDialog-title": "Chèn chức năng"
+		"vssde-selectFunctionDialog-title": "Chèn chức năng",
+		"vssde-cellNumberFormatDialog-title": "Định dạng ô",
+		"vssde-insertChartDialog-title": "Chèn biểu đồ",
+		"vssde-insertChartPanel-chartType-column": "Cột",
+		"vssde-insertChartPanel-chartType-line": "Dòng",
+		"vssde-insertChartPanel-chartType-pie": "Bánh",
+		"vssde-insertChartPanel-chartType-bar": "Quán ba",
+		"vssde-insertChartPanel-chartType-area": "Khu vực",
+		"vssde-insertChartPanel-chartSubtype-clusteredColumn": "Cột được nhóm",
+		"vssde-insertChartPanel-chartSubtype-stackedColumn": "Cột xếp chồng",
+		"vssde-insertChartPanel-chartSubtype-100%StackedColumn": "Cột xếp chồng 100%",
+		"vssde-insertChartPanel-chartSubtype-3DClusteredColumn": "Cột cụm 3D",
+		"vssde-insertChartPanel-chartSubtype-3DStackedColumn": "Cột xếp chồng 3D",
+		"vssde-insertChartPanel-chartSubtype-3D100%StackedColumn": "Cột xếp chồng 100% 3D",
+		"vssde-insertChartPanel-chartSubtype-line": "Dòng",
+		"vssde-insertChartPanel-chartSubtype-stackedLine": "Dòng xếp chồng",
+		"vssde-insertChartPanel-chartSubtype-100%StackedLine": "Dòng xếp chồng 100%",
+		"vssde-insertChartPanel-chartSubtype-lineWithMarkers": "Dòng với điểm đánh dấu",
+		"vssde-insertChartPanel-chartSubtype-stackedLineWithMarkers": "Dòng xếp chồng có điểm đánh dấu",
+		"vssde-insertChartPanel-chartSubtype-100%StackedLineWithMar": "Dòng xếp chồng 100% có điểm đánh dấu",
+		"vssde-insertChartPanel-chartSubtype-curvedLine": "Đường cong",
+		"vssde-insertChartPanel-chartSubtype-stackedCurvedLine": "Đường cong xếp chồng lên nhau",
+		"vssde-insertChartPanel-chartSubtype-100%StackedCurvedLine": "Đường cong xếp chồng 100%",
+		"vssde-insertChartPanel-chartSubtype-curvedLineWithMarkers": "Đường cong có điểm đánh dấu",
+		"vssde-insertChartPanel-chartSubtype-stackedCurvLineWithMark": "Đường cong xếp chồng lên nhau với điểm đánh dấu",
+		"vssde-insertChartPanel-chartSubtype-100%StackedCurvLineMark": "Đường cong xếp chồng 100% có điểm đánh dấu",
+		"vssde-insertChartPanel-chartSubtype-pie": "Bánh",
+		"vssde-insertChartPanel-chartSubtype-pieExplosion": "Bánh (Nổ)",
+		"vssde-insertChartPanel-chartSubtype-doughnut": "Bánh vòng",
+		"vssde-insertChartPanel-chartSubtype-clusteredBar": "Thanh cụm",
+		"vssde-insertChartPanel-chartSubtype-stackedBar": "Thanh xếp chồng lên nhau",
+		"vssde-insertChartPanel-chartSubtype-100%StackedBar": "Thanh xếp chồng 100%",
+		"vssde-insertChartPanel-chartSubtype-area": "Khu vực",
+		"vssde-insertChartPanel-chartSubtype-stackedArea": "Khu vực xếp chồng",
+		"vssde-insertChartPanel-chartSubtype-100%StackedArea": "Diện tích xếp chồng 100%",
+		"vssde-insertChartPanel-fileArg0IsNotFound": "Không tìm thấy tệp '{0}'.",
+		"vssde-insertChartPanel-supportedChartTypesAreNotFound": "Không tìm thấy các loại biểu đồ được hỗ trợ.",
+		"vssde-insertChartPanel-notSupportedChartType": "Loại biểu đồ không được hỗ trợ.",
+		"vssde-insertChartPanel-supportedChartSubtypesAreNotFound": "Không tìm thấy các kiểu con biểu đồ được hỗ trợ.",
+		"vssde-insertChartPanel-notSupportedChartSubtype": "Loại biểu đồ phụ không được hỗ trợ.",
+		"vssde-insertChartPanel-chartTemplateContainsTwoIdenticalNamesForChartSubtypes": "Mẫu biểu đồ chứa 2 tên giống nhau cho các kiểu biểu đồ phụ.",
+		"vssde-insertChartPanel-chartTemplateContainsTwoIdenticalNamesForChartTypes": "Mẫu biểu đồ chứa 2 tên giống nhau cho các loại biểu đồ.",
+		"vssde-insertChartPanel-pleaseSpecifyCellsWhichContainTheChartDataIncludeNamesForRowsAndColumns": "Vui lòng chỉ định các ô chứa dữ liệu biểu đồ (bao gồm tên cho hàng và cột).",
+		"vssde-insertChartPanel-chartSubtypeArg0HasMultipleDeclarationsOnDifferentWorksheets": "Loại phụ biểu đồ '{0}' có nhiều khai báo trên các trang tính khác nhau.",
+		"vssde-insertChartPanel-sheetArg0IsNotFound": "Không tìm thấy trang tính '{0}'."
 	}
 }

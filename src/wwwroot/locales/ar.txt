@@ -110,6 +110,9 @@
 				"text": "نص"
 			}
 		},
+		"numberFormatButton": {
+			"title": "تنسيق الرقم"
+		},
 		"showFormulasButton": {
 			"title": "إظهار الصيغ"
 		},
@@ -196,6 +199,9 @@
 		},
 		"insertPictureButton": {
 			"title": "إضافة الصورة"
+		},
+		"insertChartButton": {
+			"title": "إدراج مخطط"
 		},
 		"editCommentButton": {
 			"title": "تحرير التعليق"
@@ -341,6 +347,9 @@
 		"deleteImageLabel": {
 			"text": "حذف"
 		},
+		"propertiesLabel": {
+			"text": "ملكيات..."
+		},
 		"deleteCellAndShiftLeftLabel": {
 			"text": "حذف الخلية والتحرك لليسار"
 		},
@@ -418,6 +427,17 @@
 			},
 			"commentLabel": {
 				"text": "تعليق:"
+			},
+			"okButton": {
+				"value": "موافق"
+			},
+			"cancelButton": {
+				"value": "إلغاء"
+			}
+		},
+		"editChartDialog": {
+			"titleLabel": {
+				"text": "عنوان:"
 			},
 			"okButton": {
 				"value": "موافق"
@@ -546,6 +566,82 @@
 			"cancelButton": {
 				"value": "إلغاء"
 			}
+		},
+		"setCellNumberFormatDialog": {
+			"General": {
+				"text": "عام"
+			},
+			"Number": {
+				"text": "رقمي"
+			},
+			"Currency": {
+				"text": "المال"
+			},
+			"Date": {
+				"text": "التاريخ"
+			},
+			"Time": {
+				"text": "الوقت"
+			},
+			"Percentage": {
+				"text": "النسبة المئوية"
+			},
+			"Scientific": {
+				"text": "أسي"
+			},
+			"Text": {
+				"text": "نص"
+			},
+			"Custom": {
+				"text": "مخصص"
+			},
+			"generalFormatDescriptionLabel": {
+				"text": "لا تحتوي خلايا التنسيق العام على تنسيق أرقام محدد."
+			},
+			"numberDecimalPlacesLabel": {
+				"text": "منازل عشرية:"
+			},
+			"useThousandsSeparatorLabel": {
+				"text": "استخدم 1000 فاصل"
+			},
+			"numberNegativeValuesLabel": {
+				"text": "القيم السلبية:"
+			},
+			"changeTextColorToRedLabel": {
+				"text": "تغيير لون النص إلى اللون الأحمر"
+			},
+			"hideMinusSignLabel": {
+				"text": "إخفاء علامة الطرح"
+			},
+			"currencyDecimalPlacesLabel": {
+				"text": "منازل عشرية:"
+			},
+			"currencySymbolLabel": {
+				"text": "رمز:"
+			},
+			"percentageDecimalPlacesLabel": {
+				"text": "منازل عشرية:"
+			},
+			"scientificDecimalPlacesLabel": {
+				"text": "منازل عشرية:"
+			},
+			"textFormatDescriptionLabel": {
+				"text": "يتم التعامل مع خلايا تنسيق النص كنص حتى لو كان هناك رقم في الخلية."
+			},
+			"okButton": {
+				"value": "موافق"
+			},
+			"cancelButton": {
+				"value": "إلغاء"
+			}
+		},
+		"insertChartDialog": {
+			"okButton": {
+				"value": "موافق"
+			},
+			"cancelButton": {
+				"value": "إلغاء"
+			}
 		}
 	},
 	"strings": {
@@ -578,11 +674,58 @@
 		"vssde-dialog-okButton": "موافق",
 		"vssde-dialog-cancelButton": "إلغاء",
 		"vssde-editCommentDialog-title": "تحرير التعليق",
+		"vssde-editChartDialog-title": "تحرير الرسم البياني",
+		"vssde-editChartPropertiesPanel-spreadsheetEditorDoesNotHaveFocusedChart": "لا يحتوي محرر جداول البيانات على مخطط مركّز.",
+		"vssde-editChartPropertiesPanel-selectedDrawingIsNotChart": "الرسم المحدد ليس مخططًا.",
 		"vssde-renameWorksheetDialog-title": "إعادة تسمية الورقة",
 		"vssde-moveWorksheetDialog-title": "نقل الورقة",
 		"vssde-findTextDialog-title": "بحث عن نص",
 		"vssde-findTextDialog-findNextButton": "بحث عن التالي",
 		"vssde-dialog-closeButton": "إغلاق",
-		"vssde-selectFunctionDialog-title": "إدراج وظيفة"
+		"vssde-selectFunctionDialog-title": "إدراج وظيفة",
+		"vssde-cellNumberFormatDialog-title": "تنسيق الخلية",
+		"vssde-insertChartDialog-title": "إدراج مخطط",
+		"vssde-insertChartPanel-chartType-column": "عمود",
+		"vssde-insertChartPanel-chartType-line": "الخط",
+		"vssde-insertChartPanel-chartType-pie": "فطيرة",
+		"vssde-insertChartPanel-chartType-bar": "حاجِز",
+		"vssde-insertChartPanel-chartType-area": "منطقة",
+		"vssde-insertChartPanel-chartSubtype-clusteredColumn": "العمود المجمع",
+		"vssde-insertChartPanel-chartSubtype-stackedColumn": "عمود مكدس",
+		"vssde-insertChartPanel-chartSubtype-100%StackedColumn": "عمود مرصوف بنسبة 100%",
+		"vssde-insertChartPanel-chartSubtype-3DClusteredColumn": "عمود متجمع ثلاثي الأبعاد",
+		"vssde-insertChartPanel-chartSubtype-3DStackedColumn": "عمود مكدس ثلاثي الأبعاد",
+		"vssde-insertChartPanel-chartSubtype-3D100%StackedColumn": "عمود مرصوف بنسبة 100% ثلاثي الأبعاد",
+		"vssde-insertChartPanel-chartSubtype-line": "الخط",
+		"vssde-insertChartPanel-chartSubtype-stackedLine": "خط مكدس",
+		"vssde-insertChartPanel-chartSubtype-100%StackedLine": "خط مرصوف بنسبة 100%",
+		"vssde-insertChartPanel-chartSubtype-lineWithMarkers": "خط مع علامات",
+		"vssde-insertChartPanel-chartSubtype-stackedLineWithMarkers": "خط مكدس مع علامات",
+		"vssde-insertChartPanel-chartSubtype-100%StackedLineWithMar": "خط مرصوف بنسبة 100% مع أقلام تحديد",
+		"vssde-insertChartPanel-chartSubtype-curvedLine": "خط مائل",
+		"vssde-insertChartPanel-chartSubtype-stackedCurvedLine": "خط منحني مكدس",
+		"vssde-insertChartPanel-chartSubtype-100%StackedCurvedLine": "خط منحني مرصوف بنسبة 100%",
+		"vssde-insertChartPanel-chartSubtype-curvedLineWithMarkers": "خط منحني مع علامات",
+		"vssde-insertChartPanel-chartSubtype-stackedCurvLineWithMark": "خط منحني مكدس مع علامات",
+		"vssde-insertChartPanel-chartSubtype-100%StackedCurvLineMark": "خط منحني مرصوف بنسبة 100% مع أقلام تحديد",
+		"vssde-insertChartPanel-chartSubtype-pie": "فطيرة",
+		"vssde-insertChartPanel-chartSubtype-pieExplosion": "فطيرة (انفجار)",
+		"vssde-insertChartPanel-chartSubtype-doughnut": "كعكة محلاة",
+		"vssde-insertChartPanel-chartSubtype-clusteredBar": "شريط المجمعة",
+		"vssde-insertChartPanel-chartSubtype-stackedBar": "شريط مكدس",
+		"vssde-insertChartPanel-chartSubtype-100%StackedBar": "شريط مرصوف بنسبة 100%",
+		"vssde-insertChartPanel-chartSubtype-area": "منطقة",
+		"vssde-insertChartPanel-chartSubtype-stackedArea": "منطقة مكدسة",
+		"vssde-insertChartPanel-chartSubtype-100%StackedArea": "منطقة مكدسة بنسبة 100%",
+		"vssde-insertChartPanel-fileArg0IsNotFound": "لم يتم العثور على الملف '{0}'.",
+		"vssde-insertChartPanel-supportedChartTypesAreNotFound": "لم يتم العثور على أنواع المخططات المدعومة.",
+		"vssde-insertChartPanel-notSupportedChartType": "نوع المخطط غير مدعوم.",
+		"vssde-insertChartPanel-supportedChartSubtypesAreNotFound": "لم يتم العثور على الأنواع الفرعية للمخططات المدعومة.",
+		"vssde-insertChartPanel-notSupportedChartSubtype": "النوع الفرعي للمخطط غير مدعوم.",
+		"vssde-insertChartPanel-chartTemplateContainsTwoIdenticalNamesForChartSubtypes": "يحتوي قالب المخطط على اسمين متطابقين لأنواع المخططات الفرعية.",
+		"vssde-insertChartPanel-chartTemplateContainsTwoIdenticalNamesForChartTypes": "يحتوي قالب المخطط على اسمين متطابقين لأنواع المخططات.",
+		"vssde-insertChartPanel-pleaseSpecifyCellsWhichContainTheChartDataIncludeNamesForRowsAndColumns": "يرجى تحديد الخلايا التي تحتوي على بيانات المخطط (بما في ذلك أسماء الصفوف والأعمدة).",
+		"vssde-insertChartPanel-chartSubtypeArg0HasMultipleDeclarationsOnDifferentWorksheets": "يحتوي النوع الفرعي للمخطط '{0}' على إعلانات متعددة في أوراق عمل مختلفة.",
+		"vssde-insertChartPanel-sheetArg0IsNotFound": "لم يتم العثور على الورقة '{0}'."
 	}
 }

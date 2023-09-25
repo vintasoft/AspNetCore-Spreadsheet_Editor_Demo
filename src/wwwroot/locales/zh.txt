@@ -110,6 +110,9 @@
 				"text": "文本"
 			}
 		},
+		"numberFormatButton": {
+			"title": "数字格式"
+		},
 		"showFormulasButton": {
 			"title": "显示公式"
 		},
@@ -196,6 +199,9 @@
 		},
 		"insertPictureButton": {
 			"title": "添加图片"
+		},
+		"insertChartButton": {
+			"title": "插入图表"
 		},
 		"editCommentButton": {
 			"title": "编辑评论"
@@ -341,6 +347,9 @@
 		"deleteImageLabel": {
 			"text": "删除"
 		},
+		"propertiesLabel": {
+			"text": "特性..."
+		},
 		"deleteCellAndShiftLeftLabel": {
 			"text": "删除单元格并左移"
 		},
@@ -418,6 +427,17 @@
 			},
 			"commentLabel": {
 				"text": "评论："
+			},
+			"okButton": {
+				"value": "好的"
+			},
+			"cancelButton": {
+				"value": "取消"
+			}
+		},
+		"editChartDialog": {
+			"titleLabel": {
+				"text": "标题："
 			},
 			"okButton": {
 				"value": "好的"
@@ -546,6 +566,82 @@
 			"cancelButton": {
 				"value": "取消"
 			}
+		},
+		"setCellNumberFormatDialog": {
+			"General": {
+				"text": "一般的"
+			},
+			"Number": {
+				"text": "数字"
+			},
+			"Currency": {
+				"text": "货币"
+			},
+			"Date": {
+				"text": "日期"
+			},
+			"Time": {
+				"text": "时间"
+			},
+			"Percentage": {
+				"text": "百分比"
+			},
+			"Scientific": {
+				"text": "科学的"
+			},
+			"Text": {
+				"text": "文本"
+			},
+			"Custom": {
+				"text": "风俗"
+			},
+			"generalFormatDescriptionLabel": {
+				"text": "通用格式单元格没有特定的数字格式。"
+			},
+			"numberDecimalPlacesLabel": {
+				"text": "小数点位数："
+			},
+			"useThousandsSeparatorLabel": {
+				"text": "使用 1000 分隔符"
+			},
+			"numberNegativeValuesLabel": {
+				"text": "负值："
+			},
+			"changeTextColorToRedLabel": {
+				"text": "将文本颜色更改为红色"
+			},
+			"hideMinusSignLabel": {
+				"text": "隐藏减号"
+			},
+			"currencyDecimalPlacesLabel": {
+				"text": "小数点位数："
+			},
+			"currencySymbolLabel": {
+				"text": "象征："
+			},
+			"percentageDecimalPlacesLabel": {
+				"text": "小数点位数："
+			},
+			"scientificDecimalPlacesLabel": {
+				"text": "小数点位数："
+			},
+			"textFormatDescriptionLabel": {
+				"text": "即使单元格中有数字，文本格式单元格也会被视为文本。"
+			},
+			"okButton": {
+				"value": "好的"
+			},
+			"cancelButton": {
+				"value": "取消"
+			}
+		},
+		"insertChartDialog": {
+			"okButton": {
+				"value": "好的"
+			},
+			"cancelButton": {
+				"value": "取消"
+			}
 		}
 	},
 	"strings": {
@@ -573,16 +669,63 @@
 		"vssde-downloadXlsxFile": "下载XLSX文件",
 		"vssde-exportXlsxToPdf": "将 XLSX 导出为 PDF",
 		"vssde-fileSizeExceedsLimit": "上传的文件大小超过最大大小（{0} 字节）。",
-		"vssde-createXlsxDocumentConfirmation": "想要创建新的工作簿吗？",
+		"vssde-createXlsxDocumentConfirmation": "您想创建一个新的工作簿吗？",
 		"vssde-insertCommentDialog-title": "插入评论",
 		"vssde-dialog-okButton": "好的",
 		"vssde-dialog-cancelButton": "取消",
 		"vssde-editCommentDialog-title": "编辑评论",
+		"vssde-editChartDialog-title": "编辑图表",
+		"vssde-editChartPropertiesPanel-spreadsheetEditorDoesNotHaveFocusedChart": "电子表格编辑器没有焦点图表。",
+		"vssde-editChartPropertiesPanel-selectedDrawingIsNotChart": "所选绘图不是图表。",
 		"vssde-renameWorksheetDialog-title": "重命名工作表",
 		"vssde-moveWorksheetDialog-title": "移动工作表",
 		"vssde-findTextDialog-title": "查找文本",
 		"vssde-findTextDialog-findNextButton": "找下一个",
 		"vssde-dialog-closeButton": "关闭",
-		"vssde-selectFunctionDialog-title": "插入功能"
+		"vssde-selectFunctionDialog-title": "插入功能",
+		"vssde-cellNumberFormatDialog-title": "单元格格式",
+		"vssde-insertChartDialog-title": "插入图表",
+		"vssde-insertChartPanel-chartType-column": "柱子",
+		"vssde-insertChartPanel-chartType-line": "线",
+		"vssde-insertChartPanel-chartType-pie": "馅饼",
+		"vssde-insertChartPanel-chartType-bar": "酒吧",
+		"vssde-insertChartPanel-chartType-area": "区域",
+		"vssde-insertChartPanel-chartSubtype-clusteredColumn": "簇状列",
+		"vssde-insertChartPanel-chartSubtype-stackedColumn": "堆积柱",
+		"vssde-insertChartPanel-chartSubtype-100%StackedColumn": "100% 堆积柱",
+		"vssde-insertChartPanel-chartSubtype-3DClusteredColumn": "3D 簇状柱",
+		"vssde-insertChartPanel-chartSubtype-3DStackedColumn": "3D 堆积柱",
+		"vssde-insertChartPanel-chartSubtype-3D100%StackedColumn": "3D 100% 堆叠柱",
+		"vssde-insertChartPanel-chartSubtype-line": "线",
+		"vssde-insertChartPanel-chartSubtype-stackedLine": "堆叠线",
+		"vssde-insertChartPanel-chartSubtype-100%StackedLine": "100% 堆叠线",
+		"vssde-insertChartPanel-chartSubtype-lineWithMarkers": "带标记的线",
+		"vssde-insertChartPanel-chartSubtype-stackedLineWithMarkers": "带标记的堆叠线",
+		"vssde-insertChartPanel-chartSubtype-100%StackedLineWithMar": "带标记的 100% 堆叠线",
+		"vssde-insertChartPanel-chartSubtype-curvedLine": "曲线",
+		"vssde-insertChartPanel-chartSubtype-stackedCurvedLine": "堆叠曲线",
+		"vssde-insertChartPanel-chartSubtype-100%StackedCurvedLine": "100% 堆叠曲线",
+		"vssde-insertChartPanel-chartSubtype-curvedLineWithMarkers": "带标记的曲线",
+		"vssde-insertChartPanel-chartSubtype-stackedCurvLineWithMark": "带标记的堆叠曲线",
+		"vssde-insertChartPanel-chartSubtype-100%StackedCurvLineMark": "带标记的 100% 堆叠曲线",
+		"vssde-insertChartPanel-chartSubtype-pie": "馅饼",
+		"vssde-insertChartPanel-chartSubtype-pieExplosion": "馅饼（爆炸）",
+		"vssde-insertChartPanel-chartSubtype-doughnut": "油炸圈饼",
+		"vssde-insertChartPanel-chartSubtype-clusteredBar": "簇状条",
+		"vssde-insertChartPanel-chartSubtype-stackedBar": "堆叠条",
+		"vssde-insertChartPanel-chartSubtype-100%StackedBar": "100% 堆叠条",
+		"vssde-insertChartPanel-chartSubtype-area": "区域",
+		"vssde-insertChartPanel-chartSubtype-stackedArea": "堆积面积",
+		"vssde-insertChartPanel-chartSubtype-100%StackedArea": "100% 堆叠面积",
+		"vssde-insertChartPanel-fileArg0IsNotFound": "未找到文件“{0}”。",
+		"vssde-insertChartPanel-supportedChartTypesAreNotFound": "未找到支持的图表类型。",
+		"vssde-insertChartPanel-notSupportedChartType": "不支持的图表类型。",
+		"vssde-insertChartPanel-supportedChartSubtypesAreNotFound": "未找到支持的图表子类型。",
+		"vssde-insertChartPanel-notSupportedChartSubtype": "不支持图表子类型。",
+		"vssde-insertChartPanel-chartTemplateContainsTwoIdenticalNamesForChartSubtypes": "图表模板包含 2 个相同名称的图表子类型。",
+		"vssde-insertChartPanel-chartTemplateContainsTwoIdenticalNamesForChartTypes": "图表模板包含 2 个相同的图表类型名称。",
+		"vssde-insertChartPanel-pleaseSpecifyCellsWhichContainTheChartDataIncludeNamesForRowsAndColumns": "请指定包含图表数据的单元格（包括行和列的名称）。",
+		"vssde-insertChartPanel-chartSubtypeArg0HasMultipleDeclarationsOnDifferentWorksheets": "图表子类型'{0}'在不同工作表上有多个声明。",
+		"vssde-insertChartPanel-sheetArg0IsNotFound": "未找到工作表'{0}'。"
 	}
 }

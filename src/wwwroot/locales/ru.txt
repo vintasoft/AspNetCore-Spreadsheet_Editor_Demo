@@ -110,6 +110,9 @@
 				"text": "Текстовый"
 			}
 		},
+		"numberFormatButton": {
+			"title": "Числовой формат"
+		},
 		"showFormulasButton": {
 			"title": "Показать формулы"
 		},
@@ -196,6 +199,9 @@
 		},
 		"insertPictureButton": {
 			"title": "Добавить изображение"
+		},
+		"insertChartButton": {
+			"title": "Вставить диаграмму"
 		},
 		"editCommentButton": {
 			"title": "Редактировать комментарий"
@@ -341,6 +347,9 @@
 		"deleteImageLabel": {
 			"text": "Удалить"
 		},
+		"propertiesLabel": {
+			"text": "Свойства..."
+		},
 		"deleteCellAndShiftLeftLabel": {
 			"text": "Удалить ячейку и сдвинуться влево"
 		},
@@ -418,6 +427,17 @@
 			},
 			"commentLabel": {
 				"text": "Комментарий:"
+			},
+			"okButton": {
+				"value": "ОК"
+			},
+			"cancelButton": {
+				"value": "Отмена"
+			}
+		},
+		"editChartDialog": {
+			"titleLabel": {
+				"text": "Заголовок:"
 			},
 			"okButton": {
 				"value": "ОК"
@@ -546,6 +566,82 @@
 			"cancelButton": {
 				"value": "Отмена"
 			}
+		},
+		"setCellNumberFormatDialog": {
+			"General": {
+				"text": "Общий"
+			},
+			"Number": {
+				"text": "Числовой"
+			},
+			"Currency": {
+				"text": "Денежный"
+			},
+			"Date": {
+				"text": "Дата"
+			},
+			"Time": {
+				"text": "Время"
+			},
+			"Percentage": {
+				"text": "Процентный"
+			},
+			"Scientific": {
+				"text": "Экспоненциальный"
+			},
+			"Text": {
+				"text": "Текстовый"
+			},
+			"Custom": {
+				"text": "Пользовательский"
+			},
+			"generalFormatDescriptionLabel": {
+				"text": "Ячейки общего формата не имеют определенного числового формата."
+			},
+			"numberDecimalPlacesLabel": {
+				"text": "Десятичные знаки:"
+			},
+			"useThousandsSeparatorLabel": {
+				"text": "Использовать разделитель 1000"
+			},
+			"numberNegativeValuesLabel": {
+				"text": "Отрицательные значения:"
+			},
+			"changeTextColorToRedLabel": {
+				"text": "Изменить цвет текста на красный"
+			},
+			"hideMinusSignLabel": {
+				"text": "Скрыть знак минуса"
+			},
+			"currencyDecimalPlacesLabel": {
+				"text": "Десятичные знаки:"
+			},
+			"currencySymbolLabel": {
+				"text": "Символ:"
+			},
+			"percentageDecimalPlacesLabel": {
+				"text": "Десятичные знаки:"
+			},
+			"scientificDecimalPlacesLabel": {
+				"text": "Десятичные знаки:"
+			},
+			"textFormatDescriptionLabel": {
+				"text": "Ячейки текстового формата обрабатываются как текст, даже если в ячейке находится число."
+			},
+			"okButton": {
+				"value": "ОК"
+			},
+			"cancelButton": {
+				"value": "Отмена"
+			}
+		},
+		"insertChartDialog": {
+			"okButton": {
+				"value": "ОК"
+			},
+			"cancelButton": {
+				"value": "Отмена"
+			}
 		}
 	},
 	"strings": {
@@ -573,16 +669,63 @@
 		"vssde-downloadXlsxFile": "Выгрузить файл XLSX",
 		"vssde-exportXlsxToPdf": "Экспорт XLSX в PDF",
 		"vssde-fileSizeExceedsLimit": "Размер загруженного файла превышает максимальный размер ({0} байт).",
-		"vssde-createXlsxDocumentConfirmation": "Хотите создать новую книгу?",
+		"vssde-createXlsxDocumentConfirmation": "Вы хотите создать новую книгу?",
 		"vssde-insertCommentDialog-title": "Вставить комментарий",
 		"vssde-dialog-okButton": "ОК",
 		"vssde-dialog-cancelButton": "Отмена",
 		"vssde-editCommentDialog-title": "Редактировать комментарий",
+		"vssde-editChartDialog-title": "Редактировать диаграмму",
+		"vssde-editChartPropertiesPanel-spreadsheetEditorDoesNotHaveFocusedChart": "В редакторе электронных таблиц нет сфокусированной диаграммы.",
+		"vssde-editChartPropertiesPanel-selectedDrawingIsNotChart": "Выбранный рисунок не является диаграммой.",
 		"vssde-renameWorksheetDialog-title": "Переименовать лист",
 		"vssde-moveWorksheetDialog-title": "Переместить лист",
 		"vssde-findTextDialog-title": "Найти текст",
 		"vssde-findTextDialog-findNextButton": "Найти далее",
 		"vssde-dialog-closeButton": "Закрыть",
-		"vssde-selectFunctionDialog-title": "Вставить функцию"
+		"vssde-selectFunctionDialog-title": "Вставить функцию",
+		"vssde-cellNumberFormatDialog-title": "Формат ячейки",
+		"vssde-insertChartDialog-title": "Вставить диаграмму",
+		"vssde-insertChartPanel-chartType-column": "Гистограмма",
+		"vssde-insertChartPanel-chartType-line": "Линия",
+		"vssde-insertChartPanel-chartType-pie": "Круговая",
+		"vssde-insertChartPanel-chartType-bar": "Линейчатая",
+		"vssde-insertChartPanel-chartType-area": "С областями",
+		"vssde-insertChartPanel-chartSubtype-clusteredColumn": "Гистограмма с группировкой",
+		"vssde-insertChartPanel-chartSubtype-stackedColumn": "Гистограмма с накоплением",
+		"vssde-insertChartPanel-chartSubtype-100%StackedColumn": "Нормированная гистограмма с накоплением",
+		"vssde-insertChartPanel-chartSubtype-3DClusteredColumn": "Объемная гистограмма с группировкой",
+		"vssde-insertChartPanel-chartSubtype-3DStackedColumn": "Объемная гистограмма с накоплением",
+		"vssde-insertChartPanel-chartSubtype-3D100%StackedColumn": "Объемная нормированная гистограмма с накоплением",
+		"vssde-insertChartPanel-chartSubtype-line": "Линия",
+		"vssde-insertChartPanel-chartSubtype-stackedLine": "График с накоплением",
+		"vssde-insertChartPanel-chartSubtype-100%StackedLine": "Нормированный график с накоплением",
+		"vssde-insertChartPanel-chartSubtype-lineWithMarkers": "График с маркерами",
+		"vssde-insertChartPanel-chartSubtype-stackedLineWithMarkers": "График с маркерами и накоплением",
+		"vssde-insertChartPanel-chartSubtype-100%StackedLineWithMar": "Нормированный график с маркерами и накоплением",
+		"vssde-insertChartPanel-chartSubtype-curvedLine": "График (сглаженный)",
+		"vssde-insertChartPanel-chartSubtype-stackedCurvedLine": "График (сглаженный) с накоплением",
+		"vssde-insertChartPanel-chartSubtype-100%StackedCurvedLine": "Нормированный график (сглаженный) с накоплением",
+		"vssde-insertChartPanel-chartSubtype-curvedLineWithMarkers": "График (сглаженный) с маркерами",
+		"vssde-insertChartPanel-chartSubtype-stackedCurvLineWithMark": "График (сглаженный) с маркерами и накоплением",
+		"vssde-insertChartPanel-chartSubtype-100%StackedCurvLineMark": "Нормированный график (сглаженный) с маркерами и накоплением",
+		"vssde-insertChartPanel-chartSubtype-pie": "Круговая",
+		"vssde-insertChartPanel-chartSubtype-pieExplosion": "Круговая (Разрезание)",
+		"vssde-insertChartPanel-chartSubtype-doughnut": "Кольцевая",
+		"vssde-insertChartPanel-chartSubtype-clusteredBar": "Линейчатая с группировкой",
+		"vssde-insertChartPanel-chartSubtype-stackedBar": "Линейчатая с накоплением",
+		"vssde-insertChartPanel-chartSubtype-100%StackedBar": "Нормированная линейчатая с группировкой",
+		"vssde-insertChartPanel-chartSubtype-area": "С областями",
+		"vssde-insertChartPanel-chartSubtype-stackedArea": "С областями и накоплением",
+		"vssde-insertChartPanel-chartSubtype-100%StackedArea": "Нормировання с областями и накоплением",
+		"vssde-insertChartPanel-fileArg0IsNotFound": "Файл '{0}' не найден.",
+		"vssde-insertChartPanel-supportedChartTypesAreNotFound": "Поддерживаемые типы диаграмм не найдены.",
+		"vssde-insertChartPanel-notSupportedChartType": "Не поддерживаемый тип диаграммы.",
+		"vssde-insertChartPanel-supportedChartSubtypesAreNotFound": "Поддерживаемые субтипы диаграмм не найдены.",
+		"vssde-insertChartPanel-notSupportedChartSubtype": "Не поддерживаемый субтип диаграммы.",
+		"vssde-insertChartPanel-chartTemplateContainsTwoIdenticalNamesForChartSubtypes": "Шаблон диаграммы содержит два одинаковых имени для подтипов диаграмм.",
+		"vssde-insertChartPanel-chartTemplateContainsTwoIdenticalNamesForChartTypes": "Шаблон диаграммы содержит два одинаковых имени для типов диаграмм.",
+		"vssde-insertChartPanel-pleaseSpecifyCellsWhichContainTheChartDataIncludeNamesForRowsAndColumns": "Укажите ячейки, содержащие данные диаграммы (включите названия строк и столбцов).",
+		"vssde-insertChartPanel-chartSubtypeArg0HasMultipleDeclarationsOnDifferentWorksheets": "Подтип диаграммы '{0}' имеет несколько объявлений на разных листах.",
+		"vssde-insertChartPanel-sheetArg0IsNotFound": "Лист '{0}' не найден."
 	}
 }

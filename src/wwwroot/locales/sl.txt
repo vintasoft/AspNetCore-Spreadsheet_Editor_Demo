@@ -110,6 +110,9 @@
 				"text": "Besedilo"
 			}
 		},
+		"numberFormatButton": {
+			"title": "Oblika številke"
+		},
 		"showFormulasButton": {
 			"title": "Prikaži formule"
 		},
@@ -196,6 +199,9 @@
 		},
 		"insertPictureButton": {
 			"title": "Dodaj sliko"
+		},
+		"insertChartButton": {
+			"title": "Vstavi grafikon"
 		},
 		"editCommentButton": {
 			"title": "Uredi komentar"
@@ -341,6 +347,9 @@
 		"deleteImageLabel": {
 			"text": "Izbriši"
 		},
+		"propertiesLabel": {
+			"text": "Lastnosti..."
+		},
 		"deleteCellAndShiftLeftLabel": {
 			"text": "Izbriši celico in premakni levo"
 		},
@@ -418,6 +427,17 @@
 			},
 			"commentLabel": {
 				"text": "Komentar:"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Prekliči"
+			}
+		},
+		"editChartDialog": {
+			"titleLabel": {
+				"text": "Naslov:"
 			},
 			"okButton": {
 				"value": "OK"
@@ -546,6 +566,82 @@
 			"cancelButton": {
 				"value": "Prekliči"
 			}
+		},
+		"setCellNumberFormatDialog": {
+			"General": {
+				"text": "Splošno"
+			},
+			"Number": {
+				"text": "Številka"
+			},
+			"Currency": {
+				"text": "Valuta"
+			},
+			"Date": {
+				"text": "Datum"
+			},
+			"Time": {
+				"text": "Čas"
+			},
+			"Percentage": {
+				"text": "Odstotek"
+			},
+			"Scientific": {
+				"text": "Znanstveno"
+			},
+			"Text": {
+				"text": "Besedilo"
+			},
+			"Custom": {
+				"text": "Po meri"
+			},
+			"generalFormatDescriptionLabel": {
+				"text": "Celice splošnega formata nimajo posebnega zapisa številk."
+			},
+			"numberDecimalPlacesLabel": {
+				"text": "Decimalna mesta:"
+			},
+			"useThousandsSeparatorLabel": {
+				"text": "Uporabite ločilo 1000"
+			},
+			"numberNegativeValuesLabel": {
+				"text": "Negativne vrednosti:"
+			},
+			"changeTextColorToRedLabel": {
+				"text": "Spremenite barvo besedila v rdečo"
+			},
+			"hideMinusSignLabel": {
+				"text": "Skrij znak minus"
+			},
+			"currencyDecimalPlacesLabel": {
+				"text": "Decimalna mesta:"
+			},
+			"currencySymbolLabel": {
+				"text": "Simbol:"
+			},
+			"percentageDecimalPlacesLabel": {
+				"text": "Decimalna mesta:"
+			},
+			"scientificDecimalPlacesLabel": {
+				"text": "Decimalna mesta:"
+			},
+			"textFormatDescriptionLabel": {
+				"text": "Celice oblike besedila se obravnavajo kot besedilo, tudi če je v celici številka."
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Prekliči"
+			}
+		},
+		"insertChartDialog": {
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Prekliči"
+			}
 		}
 	},
 	"strings": {
@@ -573,16 +669,63 @@
 		"vssde-downloadXlsxFile": "Prenesite datoteko XLSX",
 		"vssde-exportXlsxToPdf": "Izvozi XLSX v PDF",
 		"vssde-fileSizeExceedsLimit": "Velikost naložene datoteke presega največjo velikost ({0} bajtov).",
-		"vssde-createXlsxDocumentConfirmation": "Želite ustvariti nov delovni zvezek?",
+		"vssde-createXlsxDocumentConfirmation": "Ali želite ustvariti nov delovni zvezek?",
 		"vssde-insertCommentDialog-title": "Vstavi komentar",
 		"vssde-dialog-okButton": "OK",
 		"vssde-dialog-cancelButton": "Prekliči",
 		"vssde-editCommentDialog-title": "Uredi komentar",
+		"vssde-editChartDialog-title": "Uredi grafikon",
+		"vssde-editChartPropertiesPanel-spreadsheetEditorDoesNotHaveFocusedChart": "Urejevalnik preglednic nima fokusiranega grafikona.",
+		"vssde-editChartPropertiesPanel-selectedDrawingIsNotChart": "Izbrana risba ni grafikon.",
 		"vssde-renameWorksheetDialog-title": "Preimenuj delovni list",
 		"vssde-moveWorksheetDialog-title": "Premakni delovni list",
 		"vssde-findTextDialog-title": "Poiščite besedilo",
 		"vssde-findTextDialog-findNextButton": "Najdi Naprej",
 		"vssde-dialog-closeButton": "Zapri",
-		"vssde-selectFunctionDialog-title": "Vstavi funkcijo"
+		"vssde-selectFunctionDialog-title": "Vstavi funkcijo",
+		"vssde-cellNumberFormatDialog-title": "Oblika celice",
+		"vssde-insertChartDialog-title": "Vstavi grafikon",
+		"vssde-insertChartPanel-chartType-column": "Stolpec",
+		"vssde-insertChartPanel-chartType-line": "Linija",
+		"vssde-insertChartPanel-chartType-pie": "pita",
+		"vssde-insertChartPanel-chartType-bar": "Bar",
+		"vssde-insertChartPanel-chartType-area": "Območje",
+		"vssde-insertChartPanel-chartSubtype-clusteredColumn": "Gručasti stolpec",
+		"vssde-insertChartPanel-chartSubtype-stackedColumn": "Zložen stolpec",
+		"vssde-insertChartPanel-chartSubtype-100%StackedColumn": "100 % zloženi stolpec",
+		"vssde-insertChartPanel-chartSubtype-3DClusteredColumn": "3D gručasti stolpec",
+		"vssde-insertChartPanel-chartSubtype-3DStackedColumn": "3D zloženi stolpec",
+		"vssde-insertChartPanel-chartSubtype-3D100%StackedColumn": "3D 100 % zloženi stolpec",
+		"vssde-insertChartPanel-chartSubtype-line": "Linija",
+		"vssde-insertChartPanel-chartSubtype-stackedLine": "Zložena vrstica",
+		"vssde-insertChartPanel-chartSubtype-100%StackedLine": "100 % zložena vrstica",
+		"vssde-insertChartPanel-chartSubtype-lineWithMarkers": "Črta z markerji",
+		"vssde-insertChartPanel-chartSubtype-stackedLineWithMarkers": "Zložena črta z markerji",
+		"vssde-insertChartPanel-chartSubtype-100%StackedLineWithMar": "100 % zložena črta z markerji",
+		"vssde-insertChartPanel-chartSubtype-curvedLine": "Ukrivljena črta",
+		"vssde-insertChartPanel-chartSubtype-stackedCurvedLine": "Zložena ukrivljena črta",
+		"vssde-insertChartPanel-chartSubtype-100%StackedCurvedLine": "100 % zložena ukrivljena črta",
+		"vssde-insertChartPanel-chartSubtype-curvedLineWithMarkers": "Ukrivljena črta z markerji",
+		"vssde-insertChartPanel-chartSubtype-stackedCurvLineWithMark": "Zložena ukrivljena črta z oznakami",
+		"vssde-insertChartPanel-chartSubtype-100%StackedCurvLineMark": "100 % zložena ukrivljena črta z oznakami",
+		"vssde-insertChartPanel-chartSubtype-pie": "pita",
+		"vssde-insertChartPanel-chartSubtype-pieExplosion": "pita (eksplozija)",
+		"vssde-insertChartPanel-chartSubtype-doughnut": "Krof",
+		"vssde-insertChartPanel-chartSubtype-clusteredBar": "Clustered Bar",
+		"vssde-insertChartPanel-chartSubtype-stackedBar": "Zložena vrstica",
+		"vssde-insertChartPanel-chartSubtype-100%StackedBar": "100 % zložena vrstica",
+		"vssde-insertChartPanel-chartSubtype-area": "Območje",
+		"vssde-insertChartPanel-chartSubtype-stackedArea": "Zloženo območje",
+		"vssde-insertChartPanel-chartSubtype-100%StackedArea": "100 % naloženo območje",
+		"vssde-insertChartPanel-fileArg0IsNotFound": "Datoteke '{0}' ni mogoče najti.",
+		"vssde-insertChartPanel-supportedChartTypesAreNotFound": "Podprtih vrst grafikonov ni mogoče najti.",
+		"vssde-insertChartPanel-notSupportedChartType": "Ni podprta vrsta grafikona.",
+		"vssde-insertChartPanel-supportedChartSubtypesAreNotFound": "Podprtih podvrst grafikonov ni mogoče najti.",
+		"vssde-insertChartPanel-notSupportedChartSubtype": "Podvrsta grafikona ni podprta.",
+		"vssde-insertChartPanel-chartTemplateContainsTwoIdenticalNamesForChartSubtypes": "Predloga grafikona vsebuje 2 enaki imeni za podvrste grafikona.",
+		"vssde-insertChartPanel-chartTemplateContainsTwoIdenticalNamesForChartTypes": "Predloga grafikona vsebuje 2 enaki imeni za vrste grafikonov.",
+		"vssde-insertChartPanel-pleaseSpecifyCellsWhichContainTheChartDataIncludeNamesForRowsAndColumns": "Določite celice, ki vsebujejo podatke grafikona (vključite imena za vrstice in stolpce).",
+		"vssde-insertChartPanel-chartSubtypeArg0HasMultipleDeclarationsOnDifferentWorksheets": "Podvrsta grafikona '{0}' ima več deklaracij na različnih delovnih listih.",
+		"vssde-insertChartPanel-sheetArg0IsNotFound": "List '{0}' ni najden."
 	}
 }

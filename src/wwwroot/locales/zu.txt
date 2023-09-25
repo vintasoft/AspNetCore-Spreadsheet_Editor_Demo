@@ -110,6 +110,9 @@
 				"text": "Umbhalo"
 			}
 		},
+		"numberFormatButton": {
+			"title": "Ifomethi yenombolo"
+		},
 		"showFormulasButton": {
 			"title": "Bonisa amafomula"
 		},
@@ -196,6 +199,9 @@
 		},
 		"insertPictureButton": {
 			"title": "Engeza isithombe"
+		},
+		"insertChartButton": {
+			"title": "Faka Ishadi"
 		},
 		"editCommentButton": {
 			"title": "Hlela amazwana"
@@ -341,6 +347,9 @@
 		"deleteImageLabel": {
 			"text": "Susa"
 		},
+		"propertiesLabel": {
+			"text": "Izakhiwo..."
+		},
 		"deleteCellAndShiftLeftLabel": {
 			"text": "Susa iseli bese uhambisa kwesokunxele"
 		},
@@ -418,6 +427,17 @@
 			},
 			"commentLabel": {
 				"text": "Amazwana:"
+			},
+			"okButton": {
+				"value": "KULUNGILE"
+			},
+			"cancelButton": {
+				"value": "Khansela"
+			}
+		},
+		"editChartDialog": {
+			"titleLabel": {
+				"text": "Isihloko:"
 			},
 			"okButton": {
 				"value": "KULUNGILE"
@@ -546,6 +566,82 @@
 			"cancelButton": {
 				"value": "Khansela"
 			}
+		},
+		"setCellNumberFormatDialog": {
+			"General": {
+				"text": "Okujwayelekile"
+			},
+			"Number": {
+				"text": "Inombolo"
+			},
+			"Currency": {
+				"text": "Imali"
+			},
+			"Date": {
+				"text": "Usuku"
+			},
+			"Time": {
+				"text": "Isikhathi"
+			},
+			"Percentage": {
+				"text": "Iphesenti"
+			},
+			"Scientific": {
+				"text": "Okwesayensi"
+			},
+			"Text": {
+				"text": "Umbhalo"
+			},
+			"Custom": {
+				"text": "Ngokwezifiso"
+			},
+			"generalFormatDescriptionLabel": {
+				"text": "Amaseli efomethi evamile ayinayo ifomethi yenombolo ethile."
+			},
+			"numberDecimalPlacesLabel": {
+				"text": "Izindawo zamadesimali:"
+			},
+			"useThousandsSeparatorLabel": {
+				"text": "Sebenzisa isihlukanisi esingu-1000"
+			},
+			"numberNegativeValuesLabel": {
+				"text": "Amanani angalungile:"
+			},
+			"changeTextColorToRedLabel": {
+				"text": "Shintsha umbala wombhalo ube bomvu"
+			},
+			"hideMinusSignLabel": {
+				"text": "Fihla uphawu lokususa"
+			},
+			"currencyDecimalPlacesLabel": {
+				"text": "Izindawo zamadesimali:"
+			},
+			"currencySymbolLabel": {
+				"text": "Uphawu:"
+			},
+			"percentageDecimalPlacesLabel": {
+				"text": "Izindawo zamadesimali:"
+			},
+			"scientificDecimalPlacesLabel": {
+				"text": "Izindawo zamadesimali:"
+			},
+			"textFormatDescriptionLabel": {
+				"text": "Amaseli efomethi yombhalo aphathwa njengombhalo ngisho noma inombolo ikuseli."
+			},
+			"okButton": {
+				"value": "KULUNGILE"
+			},
+			"cancelButton": {
+				"value": "Khansela"
+			}
+		},
+		"insertChartDialog": {
+			"okButton": {
+				"value": "KULUNGILE"
+			},
+			"cancelButton": {
+				"value": "Khansela"
+			}
 		}
 	},
 	"strings": {
@@ -573,16 +669,63 @@
 		"vssde-downloadXlsxFile": "Landa ifayela le-XLSX",
 		"vssde-exportXlsxToPdf": "Thumela i-XLSX ku-PDF",
 		"vssde-fileSizeExceedsLimit": "Usayizi wefayela elilayishiwe weqa usayizi omkhulu ({0} amabhayithi).",
-		"vssde-createXlsxDocumentConfirmation": "Ingabe ufuna ukwakha ibhuku lokusebenza elisha?",
+		"vssde-createXlsxDocumentConfirmation": "Uyafuna ukwenza ibhuku lokusebenza elisha?",
 		"vssde-insertCommentDialog-title": "Faka amazwana",
 		"vssde-dialog-okButton": "KULUNGILE",
 		"vssde-dialog-cancelButton": "Khansela",
 		"vssde-editCommentDialog-title": "Hlela amazwana",
+		"vssde-editChartDialog-title": "Hlela Ishadi",
+		"vssde-editChartPropertiesPanel-spreadsheetEditorDoesNotHaveFocusedChart": "Umhleli wespredishithi akanalo ishadi eligxilile.",
+		"vssde-editChartPropertiesPanel-selectedDrawingIsNotChart": "Umdwebo okhethiwe awulona ishadi.",
 		"vssde-renameWorksheetDialog-title": "Qamba Kabusha Ishidi Lokusebenza",
 		"vssde-moveWorksheetDialog-title": "Hambisa Ishidi Lokusebenza",
 		"vssde-findTextDialog-title": "Thola Umbhalo",
 		"vssde-findTextDialog-findNextButton": "Thola Okulandelayo",
 		"vssde-dialog-closeButton": "Vala",
-		"vssde-selectFunctionDialog-title": "Faka Umsebenzi"
+		"vssde-selectFunctionDialog-title": "Faka Umsebenzi",
+		"vssde-cellNumberFormatDialog-title": "Ifomethi Yeseli",
+		"vssde-insertChartDialog-title": "Faka Ishadi",
+		"vssde-insertChartPanel-chartType-column": "Ikholomu",
+		"vssde-insertChartPanel-chartType-line": "Umugqa",
+		"vssde-insertChartPanel-chartType-pie": "Uphaya",
+		"vssde-insertChartPanel-chartType-bar": "Indawo yokuphuzela utshwala",
+		"vssde-insertChartPanel-chartType-area": "Indawo",
+		"vssde-insertChartPanel-chartSubtype-clusteredColumn": "Ikholomu Ehlanganisiwe",
+		"vssde-insertChartPanel-chartSubtype-stackedColumn": "Ikholomu Estakiwe",
+		"vssde-insertChartPanel-chartSubtype-100%StackedColumn": "Ikholomu Estakiwe engu-100%.",
+		"vssde-insertChartPanel-chartSubtype-3DClusteredColumn": "Ikholomu Ehlanganisiwe Ye-3D",
+		"vssde-insertChartPanel-chartSubtype-3DStackedColumn": "Ikholomu Estakiwe Ye-3D",
+		"vssde-insertChartPanel-chartSubtype-3D100%StackedColumn": "3D 100% Ikholomu Estakiwe",
+		"vssde-insertChartPanel-chartSubtype-line": "Umugqa",
+		"vssde-insertChartPanel-chartSubtype-stackedLine": "Ulayini Ostakiwe",
+		"vssde-insertChartPanel-chartSubtype-100%StackedLine": "Ulayini Ostakiwe ongu-100%.",
+		"vssde-insertChartPanel-chartSubtype-lineWithMarkers": "Umugqa Ngezimpawu",
+		"vssde-insertChartPanel-chartSubtype-stackedLineWithMarkers": "Umugqa Ostakiwe Onezimpawu",
+		"vssde-insertChartPanel-chartSubtype-100%StackedLineWithMar": "100% Ulayini Ostakiwe Onomaka",
+		"vssde-insertChartPanel-chartSubtype-curvedLine": "Umugqa Ogobile",
+		"vssde-insertChartPanel-chartSubtype-stackedCurvedLine": "Ulayini Ogobile Ostakiwe",
+		"vssde-insertChartPanel-chartSubtype-100%StackedCurvedLine": "100% Ulayini Ogobile Ostakiwe",
+		"vssde-insertChartPanel-chartSubtype-curvedLineWithMarkers": "Umugqa Ogobile Onomaka",
+		"vssde-insertChartPanel-chartSubtype-stackedCurvLineWithMark": "Ulayini Ogobile Ostakiwe Onomaka",
+		"vssde-insertChartPanel-chartSubtype-100%StackedCurvLineMark": "Ulayini Ogobile Ongu-100% Onamamaka",
+		"vssde-insertChartPanel-chartSubtype-pie": "Uphaya",
+		"vssde-insertChartPanel-chartSubtype-pieExplosion": "Uphaya (Ukuqhuma)",
+		"vssde-insertChartPanel-chartSubtype-doughnut": "Idonathi",
+		"vssde-insertChartPanel-chartSubtype-clusteredBar": "Ibha Ehlanganisiwe",
+		"vssde-insertChartPanel-chartSubtype-stackedBar": "Ibha Estakiwe",
+		"vssde-insertChartPanel-chartSubtype-100%StackedBar": "Ibha Estakiwe engu-100%.",
+		"vssde-insertChartPanel-chartSubtype-area": "Indawo",
+		"vssde-insertChartPanel-chartSubtype-stackedArea": "Indawo Estakiwe",
+		"vssde-insertChartPanel-chartSubtype-100%StackedArea": "100% Indawo Estakiwe",
+		"vssde-insertChartPanel-fileArg0IsNotFound": "Ifayela elithi '{0}' alitholakali.",
+		"vssde-insertChartPanel-supportedChartTypesAreNotFound": "Izinhlobo zamashadi asekelwe azitholakali.",
+		"vssde-insertChartPanel-notSupportedChartType": "Uhlobo lweshadi alusekelwe.",
+		"vssde-insertChartPanel-supportedChartSubtypesAreNotFound": "Izinhlobo ezincane zeshadi elisekelwayo azitholakali.",
+		"vssde-insertChartPanel-notSupportedChartSubtype": "Uhlobo oluncane lweshadi alusekelwe.",
+		"vssde-insertChartPanel-chartTemplateContainsTwoIdenticalNamesForChartSubtypes": "Isifanekiso seshadi siqukethe amagama angu-2 afanayo ezinhlobo ezincane zeshadi.",
+		"vssde-insertChartPanel-chartTemplateContainsTwoIdenticalNamesForChartTypes": "Isifanekiso seshadi siqukethe amagama angu-2 afanayo ezinhlobo zeshadi.",
+		"vssde-insertChartPanel-pleaseSpecifyCellsWhichContainTheChartDataIncludeNamesForRowsAndColumns": "Sicela ucacise amaseli, aqukethe idatha yeshadi (faka namagama emigqa namakholomu).",
+		"vssde-insertChartPanel-chartSubtypeArg0HasMultipleDeclarationsOnDifferentWorksheets": "Uhlobo oluncane lweshadi '{0}' lunezimemezelo eziningi kumakhasi okusebenzela ahlukene.",
+		"vssde-insertChartPanel-sheetArg0IsNotFound": "Ishidi '{0}' alitholakali."
 	}
 }

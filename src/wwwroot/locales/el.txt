@@ -110,6 +110,9 @@
 				"text": "Κείμενο"
 			}
 		},
+		"numberFormatButton": {
+			"title": "Μορφή αριθμού"
+		},
 		"showFormulasButton": {
 			"title": "Εμφάνιση τύπων"
 		},
@@ -196,6 +199,9 @@
 		},
 		"insertPictureButton": {
 			"title": "Προσθήκη εικόνας"
+		},
+		"insertChartButton": {
+			"title": "Εισαγωγή γραφήματος"
 		},
 		"editCommentButton": {
 			"title": "Επεξεργασία σχολίου"
@@ -341,6 +347,9 @@
 		"deleteImageLabel": {
 			"text": "Διαγραφή"
 		},
+		"propertiesLabel": {
+			"text": "Ιδιότητες..."
+		},
 		"deleteCellAndShiftLeftLabel": {
 			"text": "Διαγραφή κελιού και μετακίνηση αριστερά"
 		},
@@ -418,6 +427,17 @@
 			},
 			"commentLabel": {
 				"text": "Σχόλιο:"
+			},
+			"okButton": {
+				"value": "ΟΚ"
+			},
+			"cancelButton": {
+				"value": "Ακύρωση"
+			}
+		},
+		"editChartDialog": {
+			"titleLabel": {
+				"text": "Τίτλος:"
 			},
 			"okButton": {
 				"value": "ΟΚ"
@@ -546,6 +566,82 @@
 			"cancelButton": {
 				"value": "Ακύρωση"
 			}
+		},
+		"setCellNumberFormatDialog": {
+			"General": {
+				"text": "Γενικά"
+			},
+			"Number": {
+				"text": "Αριθμητικό"
+			},
+			"Currency": {
+				"text": "Χρήματα"
+			},
+			"Date": {
+				"text": "Ημερομηνία"
+			},
+			"Time": {
+				"text": "Ώρα"
+			},
+			"Percentage": {
+				"text": "Ποσοστό"
+			},
+			"Scientific": {
+				"text": "Εκθετικό"
+			},
+			"Text": {
+				"text": "Κείμενο"
+			},
+			"Custom": {
+				"text": "Προσαρμοσμένο"
+			},
+			"generalFormatDescriptionLabel": {
+				"text": "Τα κελιά γενικής μορφής δεν έχουν συγκεκριμένη μορφή αριθμού."
+			},
+			"numberDecimalPlacesLabel": {
+				"text": "Δεκαδικά ψηφία:"
+			},
+			"useThousandsSeparatorLabel": {
+				"text": "Χρησιμοποιήστε διαχωριστικό 1000"
+			},
+			"numberNegativeValuesLabel": {
+				"text": "Αρνητικές τιμές:"
+			},
+			"changeTextColorToRedLabel": {
+				"text": "Αλλάξτε το χρώμα του κειμένου σε κόκκινο"
+			},
+			"hideMinusSignLabel": {
+				"text": "Απόκρυψη μείον"
+			},
+			"currencyDecimalPlacesLabel": {
+				"text": "Δεκαδικά ψηφία:"
+			},
+			"currencySymbolLabel": {
+				"text": "Σύμβολο:"
+			},
+			"percentageDecimalPlacesLabel": {
+				"text": "Δεκαδικά ψηφία:"
+			},
+			"scientificDecimalPlacesLabel": {
+				"text": "Δεκαδικά ψηφία:"
+			},
+			"textFormatDescriptionLabel": {
+				"text": "Τα κελιά μορφής κειμένου αντιμετωπίζονται ως κείμενο ακόμα κι αν υπάρχει ένας αριθμός στο κελί."
+			},
+			"okButton": {
+				"value": "ΟΚ"
+			},
+			"cancelButton": {
+				"value": "Ακύρωση"
+			}
+		},
+		"insertChartDialog": {
+			"okButton": {
+				"value": "ΟΚ"
+			},
+			"cancelButton": {
+				"value": "Ακύρωση"
+			}
 		}
 	},
 	"strings": {
@@ -578,11 +674,58 @@
 		"vssde-dialog-okButton": "ΟΚ",
 		"vssde-dialog-cancelButton": "Ακύρωση",
 		"vssde-editCommentDialog-title": "Επεξεργασία σχολίου",
+		"vssde-editChartDialog-title": "Επεξεργασία γραφήματος",
+		"vssde-editChartPropertiesPanel-spreadsheetEditorDoesNotHaveFocusedChart": "Ο επεξεργαστής υπολογιστικών φύλλων δεν έχει εστιασμένο γράφημα.",
+		"vssde-editChartPropertiesPanel-selectedDrawingIsNotChart": "Το επιλεγμένο σχέδιο δεν είναι γράφημα.",
 		"vssde-renameWorksheetDialog-title": "Μετονομασία φύλλου",
 		"vssde-moveWorksheetDialog-title": "Μετακίνηση φύλλου",
 		"vssde-findTextDialog-title": "Εύρεση κειμένου",
 		"vssde-findTextDialog-findNextButton": "Εύρεση επόμενου",
 		"vssde-dialog-closeButton": "Κλείσιμο",
-		"vssde-selectFunctionDialog-title": "Εισαγωγή συνάρτησης"
+		"vssde-selectFunctionDialog-title": "Εισαγωγή συνάρτησης",
+		"vssde-cellNumberFormatDialog-title": "Μορφή κελιού",
+		"vssde-insertChartDialog-title": "Εισαγωγή γραφήματος",
+		"vssde-insertChartPanel-chartType-column": "Στήλη",
+		"vssde-insertChartPanel-chartType-line": "Γραμμή",
+		"vssde-insertChartPanel-chartType-pie": "Πίτα",
+		"vssde-insertChartPanel-chartType-bar": "Μπαρ",
+		"vssde-insertChartPanel-chartType-area": "Περιοχή",
+		"vssde-insertChartPanel-chartSubtype-clusteredColumn": "Ομαδοποιημένη στήλη",
+		"vssde-insertChartPanel-chartSubtype-stackedColumn": "Στοιβαγμένη στήλη",
+		"vssde-insertChartPanel-chartSubtype-100%StackedColumn": "100% στοιβαγμένη στήλη",
+		"vssde-insertChartPanel-chartSubtype-3DClusteredColumn": "Τρισδιάστατη ομαδοποιημένη στήλη",
+		"vssde-insertChartPanel-chartSubtype-3DStackedColumn": "Τρισδιάστατη στοιβαγμένη στήλη",
+		"vssde-insertChartPanel-chartSubtype-3D100%StackedColumn": "3D 100% στοιβαγμένη στήλη",
+		"vssde-insertChartPanel-chartSubtype-line": "Γραμμή",
+		"vssde-insertChartPanel-chartSubtype-stackedLine": "Στοιβαγμένη γραμμή",
+		"vssde-insertChartPanel-chartSubtype-100%StackedLine": "100% στοιβαγμένη γραμμή",
+		"vssde-insertChartPanel-chartSubtype-lineWithMarkers": "Γραμμή με δείκτες",
+		"vssde-insertChartPanel-chartSubtype-stackedLineWithMarkers": "Σωρευμένη γραμμή με δείκτες",
+		"vssde-insertChartPanel-chartSubtype-100%StackedLineWithMar": "100% στοιβαγμένη γραμμή με δείκτες",
+		"vssde-insertChartPanel-chartSubtype-curvedLine": "Καμπύλη γραμμή",
+		"vssde-insertChartPanel-chartSubtype-stackedCurvedLine": "Στοιβαγμένη καμπύλη γραμμή",
+		"vssde-insertChartPanel-chartSubtype-100%StackedCurvedLine": "100% Σωρευμένη καμπύλη γραμμή",
+		"vssde-insertChartPanel-chartSubtype-curvedLineWithMarkers": "Καμπύλη γραμμή με δείκτες",
+		"vssde-insertChartPanel-chartSubtype-stackedCurvLineWithMark": "Στοιβαγμένη καμπύλη γραμμή με δείκτες",
+		"vssde-insertChartPanel-chartSubtype-100%StackedCurvLineMark": "100% Στοιβαγμένη καμπύλη γραμμή με δείκτες",
+		"vssde-insertChartPanel-chartSubtype-pie": "Πίτα",
+		"vssde-insertChartPanel-chartSubtype-pieExplosion": "Πίτα (έκρηξη)",
+		"vssde-insertChartPanel-chartSubtype-doughnut": "Ντόνατ",
+		"vssde-insertChartPanel-chartSubtype-clusteredBar": "Μπάρα σε ομάδες",
+		"vssde-insertChartPanel-chartSubtype-stackedBar": "Στοιβαγμένη μπάρα",
+		"vssde-insertChartPanel-chartSubtype-100%StackedBar": "100% Stacked Bar",
+		"vssde-insertChartPanel-chartSubtype-area": "Περιοχή",
+		"vssde-insertChartPanel-chartSubtype-stackedArea": "Στοιβαγμένη περιοχή",
+		"vssde-insertChartPanel-chartSubtype-100%StackedArea": "100% Στοιβαγμένη περιοχή",
+		"vssde-insertChartPanel-fileArg0IsNotFound": "Το αρχείο '{0}' δεν βρέθηκε.",
+		"vssde-insertChartPanel-supportedChartTypesAreNotFound": "Δεν βρέθηκαν υποστηριζόμενοι τύποι γραφημάτων.",
+		"vssde-insertChartPanel-notSupportedChartType": "Δεν υποστηρίζεται τύπος γραφήματος.",
+		"vssde-insertChartPanel-supportedChartSubtypesAreNotFound": "Δεν βρέθηκαν υποστηριζόμενοι υπότυποι γραφημάτων.",
+		"vssde-insertChartPanel-notSupportedChartSubtype": "Δεν υποστηρίζεται υποτύπος γραφήματος.",
+		"vssde-insertChartPanel-chartTemplateContainsTwoIdenticalNamesForChartSubtypes": "Το πρότυπο γραφήματος περιέχει 2 πανομοιότυπα ονόματα για υποτύπους γραφημάτων.",
+		"vssde-insertChartPanel-chartTemplateContainsTwoIdenticalNamesForChartTypes": "Το πρότυπο γραφήματος περιέχει 2 πανομοιότυπα ονόματα για τύπους γραφημάτων.",
+		"vssde-insertChartPanel-pleaseSpecifyCellsWhichContainTheChartDataIncludeNamesForRowsAndColumns": "Προσδιορίστε τα κελιά που περιέχουν τα δεδομένα του γραφήματος (συμπεριλάβετε ονόματα για σειρές και στήλες).",
+		"vssde-insertChartPanel-chartSubtypeArg0HasMultipleDeclarationsOnDifferentWorksheets": "Ο δευτερεύων τύπος γραφήματος '{0}' έχει πολλαπλές δηλώσεις σε διαφορετικά φύλλα εργασίας.",
+		"vssde-insertChartPanel-sheetArg0IsNotFound": "Το φύλλο '{0}' δεν βρέθηκε."
 	}
 }

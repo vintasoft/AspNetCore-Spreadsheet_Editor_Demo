@@ -110,6 +110,9 @@
 				"text": "テキスト"
 			}
 		},
+		"numberFormatButton": {
+			"title": "数値の形式"
+		},
 		"showFormulasButton": {
 			"title": "数式を表示する"
 		},
@@ -196,6 +199,9 @@
 		},
 		"insertPictureButton": {
 			"title": "画像を追加"
+		},
+		"insertChartButton": {
+			"title": "グラフの挿入"
 		},
 		"editCommentButton": {
 			"title": "コメントを編集"
@@ -341,6 +347,9 @@
 		"deleteImageLabel": {
 			"text": "削除"
 		},
+		"propertiesLabel": {
+			"text": "プロパティ..."
+		},
 		"deleteCellAndShiftLeftLabel": {
 			"text": "セルを削除して左に移動"
 		},
@@ -418,6 +427,17 @@
 			},
 			"commentLabel": {
 				"text": "コメント："
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "キャンセル"
+			}
+		},
+		"editChartDialog": {
+			"titleLabel": {
+				"text": "タイトル："
 			},
 			"okButton": {
 				"value": "OK"
@@ -546,6 +566,82 @@
 			"cancelButton": {
 				"value": "キャンセル"
 			}
+		},
+		"setCellNumberFormatDialog": {
+			"General": {
+				"text": "一般"
+			},
+			"Number": {
+				"text": "数値"
+			},
+			"Currency": {
+				"text": "お金"
+			},
+			"Date": {
+				"text": "日付"
+			},
+			"Time": {
+				"text": "時間"
+			},
+			"Percentage": {
+				"text": "パーセンテージ"
+			},
+			"Scientific": {
+				"text": "指数関数"
+			},
+			"Text": {
+				"text": "テキスト"
+			},
+			"Custom": {
+				"text": "カスタム"
+			},
+			"generalFormatDescriptionLabel": {
+				"text": "一般的な形式のセルには、特定の数値形式はありません。"
+			},
+			"numberDecimalPlacesLabel": {
+				"text": "小数位："
+			},
+			"useThousandsSeparatorLabel": {
+				"text": "1000 区切り文字を使用する"
+			},
+			"numberNegativeValuesLabel": {
+				"text": "負の値:"
+			},
+			"changeTextColorToRedLabel": {
+				"text": "文字の色を赤に変更します"
+			},
+			"hideMinusSignLabel": {
+				"text": "マイナス記号を非表示にする"
+			},
+			"currencyDecimalPlacesLabel": {
+				"text": "小数位："
+			},
+			"currencySymbolLabel": {
+				"text": "シンボル："
+			},
+			"percentageDecimalPlacesLabel": {
+				"text": "小数位："
+			},
+			"scientificDecimalPlacesLabel": {
+				"text": "小数位："
+			},
+			"textFormatDescriptionLabel": {
+				"text": "テキスト形式のセルは、セル内に数値が含まれている場合でもテキストとして扱われます。"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "キャンセル"
+			}
+		},
+		"insertChartDialog": {
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "キャンセル"
+			}
 		}
 	},
 	"strings": {
@@ -573,16 +669,63 @@
 		"vssde-downloadXlsxFile": "XLSX ファイルをアップロードします",
 		"vssde-exportXlsxToPdf": "XLSX を PDF にエクスポート",
 		"vssde-fileSizeExceedsLimit": "アップロードされたファイルのサイズが最大サイズ ({0} バイト) を超えています。",
-		"vssde-createXlsxDocumentConfirmation": "新しいワークブックを作成したいですか?",
+		"vssde-createXlsxDocumentConfirmation": "新しいワークブックを作成しますか?",
 		"vssde-insertCommentDialog-title": "コメントを挿入",
 		"vssde-dialog-okButton": "OK",
 		"vssde-dialog-cancelButton": "キャンセル",
 		"vssde-editCommentDialog-title": "コメントを編集",
+		"vssde-editChartDialog-title": "チャートの編集",
+		"vssde-editChartPropertiesPanel-spreadsheetEditorDoesNotHaveFocusedChart": "スプレッドシート エディタにはフォーカスされたグラフがありません。",
+		"vssde-editChartPropertiesPanel-selectedDrawingIsNotChart": "選択した図面はグラフではありません。",
 		"vssde-renameWorksheetDialog-title": "シートの名前を変更",
 		"vssde-moveWorksheetDialog-title": "シートを移動",
 		"vssde-findTextDialog-title": "テキストを検索",
 		"vssde-findTextDialog-findNextButton": "次を検索",
 		"vssde-dialog-closeButton": "閉じる",
-		"vssde-selectFunctionDialog-title": "関数の挿入"
+		"vssde-selectFunctionDialog-title": "関数の挿入",
+		"vssde-cellNumberFormatDialog-title": "セルのフォーマット",
+		"vssde-insertChartDialog-title": "グラフの挿入",
+		"vssde-insertChartPanel-chartType-column": "カラム",
+		"vssde-insertChartPanel-chartType-line": "ライン",
+		"vssde-insertChartPanel-chartType-pie": "パイ",
+		"vssde-insertChartPanel-chartType-bar": "バー",
+		"vssde-insertChartPanel-chartType-area": "エリア",
+		"vssde-insertChartPanel-chartSubtype-clusteredColumn": "クラスター化された列",
+		"vssde-insertChartPanel-chartSubtype-stackedColumn": "積み上げ柱",
+		"vssde-insertChartPanel-chartSubtype-100%StackedColumn": "100% 積層カラム",
+		"vssde-insertChartPanel-chartSubtype-3DClusteredColumn": "3D クラスター化カラム",
+		"vssde-insertChartPanel-chartSubtype-3DStackedColumn": "3D 積み上げ柱",
+		"vssde-insertChartPanel-chartSubtype-3D100%StackedColumn": "3D 100% 積み上げ柱",
+		"vssde-insertChartPanel-chartSubtype-line": "ライン",
+		"vssde-insertChartPanel-chartSubtype-stackedLine": "積み上げ線",
+		"vssde-insertChartPanel-chartSubtype-100%StackedLine": "100% 積み上げライン",
+		"vssde-insertChartPanel-chartSubtype-lineWithMarkers": "マーカー付きの線",
+		"vssde-insertChartPanel-chartSubtype-stackedLineWithMarkers": "マーカー付きの積み上げ線",
+		"vssde-insertChartPanel-chartSubtype-100%StackedLineWithMar": "マーカー付きの 100% 積み上げライン",
+		"vssde-insertChartPanel-chartSubtype-curvedLine": "曲線",
+		"vssde-insertChartPanel-chartSubtype-stackedCurvedLine": "積み上げ曲線",
+		"vssde-insertChartPanel-chartSubtype-100%StackedCurvedLine": "100% 積み上げ曲線",
+		"vssde-insertChartPanel-chartSubtype-curvedLineWithMarkers": "マーカー付きの曲線",
+		"vssde-insertChartPanel-chartSubtype-stackedCurvLineWithMark": "マーカー付きの積み上げ曲線",
+		"vssde-insertChartPanel-chartSubtype-100%StackedCurvLineMark": "マーカー付きの 100% 積み上げ曲線",
+		"vssde-insertChartPanel-chartSubtype-pie": "パイ",
+		"vssde-insertChartPanel-chartSubtype-pieExplosion": "パイ (爆発)",
+		"vssde-insertChartPanel-chartSubtype-doughnut": "ドーナツ",
+		"vssde-insertChartPanel-chartSubtype-clusteredBar": "集合バー",
+		"vssde-insertChartPanel-chartSubtype-stackedBar": "積み上げバー",
+		"vssde-insertChartPanel-chartSubtype-100%StackedBar": "100% 積み上げバー",
+		"vssde-insertChartPanel-chartSubtype-area": "エリア",
+		"vssde-insertChartPanel-chartSubtype-stackedArea": "スタックエリア",
+		"vssde-insertChartPanel-chartSubtype-100%StackedArea": "100% スタック領域",
+		"vssde-insertChartPanel-fileArg0IsNotFound": "ファイル '{0}' が見つかりません。",
+		"vssde-insertChartPanel-supportedChartTypesAreNotFound": "サポートされているグラフの種類が見つかりません。",
+		"vssde-insertChartPanel-notSupportedChartType": "サポートされていないグラフの種類です。",
+		"vssde-insertChartPanel-supportedChartSubtypesAreNotFound": "サポートされているグラフのサブタイプが見つかりません。",
+		"vssde-insertChartPanel-notSupportedChartSubtype": "チャートのサブタイプはサポートされていません。",
+		"vssde-insertChartPanel-chartTemplateContainsTwoIdenticalNamesForChartSubtypes": "グラフ テンプレートには、グラフ サブタイプの 2 つの同一の名前が含まれています。",
+		"vssde-insertChartPanel-chartTemplateContainsTwoIdenticalNamesForChartTypes": "グラフ テンプレートには、グラフ タイプの 2 つの同一の名前が含まれています。",
+		"vssde-insertChartPanel-pleaseSpecifyCellsWhichContainTheChartDataIncludeNamesForRowsAndColumns": "グラフ データ (行と列の名前を含む) が含まれるセルを指定してください。",
+		"vssde-insertChartPanel-chartSubtypeArg0HasMultipleDeclarationsOnDifferentWorksheets": "グラフのサブタイプ '{0}' には、異なるワークシートに複数の宣言があります。",
+		"vssde-insertChartPanel-sheetArg0IsNotFound": "シート '{0}' が見つかりません。"
 	}
 }

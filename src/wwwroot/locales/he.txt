@@ -110,6 +110,9 @@
 				"text": "טקסט"
 			}
 		},
+		"numberFormatButton": {
+			"title": "פורמט מספר"
+		},
 		"showFormulasButton": {
 			"title": "הצג נוסחאות"
 		},
@@ -196,6 +199,9 @@
 		},
 		"insertPictureButton": {
 			"title": "הוסף תמונה"
+		},
+		"insertChartButton": {
+			"title": "הכנס תרשים"
 		},
 		"editCommentButton": {
 			"title": "ערוך תגובה"
@@ -341,6 +347,9 @@
 		"deleteImageLabel": {
 			"text": "מחק"
 		},
+		"propertiesLabel": {
+			"text": "נכסים..."
+		},
 		"deleteCellAndShiftLeftLabel": {
 			"text": "מחק תא והזז שמאלה"
 		},
@@ -418,6 +427,17 @@
 			},
 			"commentLabel": {
 				"text": "תגובה:"
+			},
+			"okButton": {
+				"value": "בסדר"
+			},
+			"cancelButton": {
+				"value": "בטל"
+			}
+		},
+		"editChartDialog": {
+			"titleLabel": {
+				"text": "כותרת:"
 			},
 			"okButton": {
 				"value": "בסדר"
@@ -546,6 +566,82 @@
 			"cancelButton": {
 				"value": "בטל"
 			}
+		},
+		"setCellNumberFormatDialog": {
+			"General": {
+				"text": "כללי"
+			},
+			"Number": {
+				"text": "מספרי"
+			},
+			"Currency": {
+				"text": "כסף"
+			},
+			"Date": {
+				"text": "תאריך"
+			},
+			"Time": {
+				"text": "זמן"
+			},
+			"Percentage": {
+				"text": "אחוז"
+			},
+			"Scientific": {
+				"text": "מעריכי"
+			},
+			"Text": {
+				"text": "טקסט"
+			},
+			"Custom": {
+				"text": "מותאם אישית"
+			},
+			"generalFormatDescriptionLabel": {
+				"text": "לתאי פורמט כללי אין פורמט מספר ספציפי."
+			},
+			"numberDecimalPlacesLabel": {
+				"text": "מקומות עשרוניים:"
+			},
+			"useThousandsSeparatorLabel": {
+				"text": "השתמש במפריד 1000"
+			},
+			"numberNegativeValuesLabel": {
+				"text": "ערכים שליליים:"
+			},
+			"changeTextColorToRedLabel": {
+				"text": "שנה את צבע הטקסט לאדום"
+			},
+			"hideMinusSignLabel": {
+				"text": "הסתר סימן מינוס"
+			},
+			"currencyDecimalPlacesLabel": {
+				"text": "מקומות עשרוניים:"
+			},
+			"currencySymbolLabel": {
+				"text": "סֵמֶל:"
+			},
+			"percentageDecimalPlacesLabel": {
+				"text": "מקומות עשרוניים:"
+			},
+			"scientificDecimalPlacesLabel": {
+				"text": "מקומות עשרוניים:"
+			},
+			"textFormatDescriptionLabel": {
+				"text": "תאים בפורמט טקסט מטופלים כטקסט גם אם יש מספר בתא."
+			},
+			"okButton": {
+				"value": "בסדר"
+			},
+			"cancelButton": {
+				"value": "בטל"
+			}
+		},
+		"insertChartDialog": {
+			"okButton": {
+				"value": "בסדר"
+			},
+			"cancelButton": {
+				"value": "בטל"
+			}
 		}
 	},
 	"strings": {
@@ -573,16 +669,63 @@
 		"vssde-downloadXlsxFile": "העלה קובץ XLSX",
 		"vssde-exportXlsxToPdf": "ייצוא XLSX ל-PDF",
 		"vssde-fileSizeExceedsLimit": "גודל הקובץ שהועלה חורג מהגודל המרבי ({0} בייטים).",
-		"vssde-createXlsxDocumentConfirmation": "רוצה ליצור חוברת עבודה חדשה?",
+		"vssde-createXlsxDocumentConfirmation": "האם ברצונך ליצור חוברת עבודה חדשה?",
 		"vssde-insertCommentDialog-title": "הוסף תגובה",
 		"vssde-dialog-okButton": "בסדר",
 		"vssde-dialog-cancelButton": "בטל",
 		"vssde-editCommentDialog-title": "ערוך תגובה",
+		"vssde-editChartDialog-title": "ערוך תרשים",
+		"vssde-editChartPropertiesPanel-spreadsheetEditorDoesNotHaveFocusedChart": "לעורך הגיליון האלקטרוני אין תרשים ממוקד.",
+		"vssde-editChartPropertiesPanel-selectedDrawingIsNotChart": "הציור שנבחר אינו תרשים.",
 		"vssde-renameWorksheetDialog-title": "שנה שם גיליון",
 		"vssde-moveWorksheetDialog-title": "הזז גיליון",
 		"vssde-findTextDialog-title": "מצא טקסט",
 		"vssde-findTextDialog-findNextButton": "מצא את הבא",
 		"vssde-dialog-closeButton": "סגור",
-		"vssde-selectFunctionDialog-title": "הכנס פונקציה"
+		"vssde-selectFunctionDialog-title": "הכנס פונקציה",
+		"vssde-cellNumberFormatDialog-title": "פורמט תא",
+		"vssde-insertChartDialog-title": "הכנס תרשים",
+		"vssde-insertChartPanel-chartType-column": "טור",
+		"vssde-insertChartPanel-chartType-line": "שורה",
+		"vssde-insertChartPanel-chartType-pie": "פַּאִי",
+		"vssde-insertChartPanel-chartType-bar": "בַּר",
+		"vssde-insertChartPanel-chartType-area": "אֵזוֹר",
+		"vssde-insertChartPanel-chartSubtype-clusteredColumn": "עמודה מקובצת",
+		"vssde-insertChartPanel-chartSubtype-stackedColumn": "עמוד מוערם",
+		"vssde-insertChartPanel-chartSubtype-100%StackedColumn": "100% עמודה מוערמת",
+		"vssde-insertChartPanel-chartSubtype-3DClusteredColumn": "עמודה מקובצת בתלת מימד",
+		"vssde-insertChartPanel-chartSubtype-3DStackedColumn": "עמודה מוערמת תלת מימדית",
+		"vssde-insertChartPanel-chartSubtype-3D100%StackedColumn": "עמודה תלת-ממדית 100% מוערמת",
+		"vssde-insertChartPanel-chartSubtype-line": "שורה",
+		"vssde-insertChartPanel-chartSubtype-stackedLine": "קו מוערם",
+		"vssde-insertChartPanel-chartSubtype-100%StackedLine": "100% קו מוערם",
+		"vssde-insertChartPanel-chartSubtype-lineWithMarkers": "קו עם סמנים",
+		"vssde-insertChartPanel-chartSubtype-stackedLineWithMarkers": "קו מוערם עם סמנים",
+		"vssde-insertChartPanel-chartSubtype-100%StackedLineWithMar": "100% קו מוערם עם סמנים",
+		"vssde-insertChartPanel-chartSubtype-curvedLine": "קו מעוקל",
+		"vssde-insertChartPanel-chartSubtype-stackedCurvedLine": "קו עקום מוערם",
+		"vssde-insertChartPanel-chartSubtype-100%StackedCurvedLine": "100% קו עקום מוערם",
+		"vssde-insertChartPanel-chartSubtype-curvedLineWithMarkers": "קו מעוקל עם סמנים",
+		"vssde-insertChartPanel-chartSubtype-stackedCurvLineWithMark": "קו מעוקל מוערם עם סמנים",
+		"vssde-insertChartPanel-chartSubtype-100%StackedCurvLineMark": "100% קו מעוקל מוערם עם סמנים",
+		"vssde-insertChartPanel-chartSubtype-pie": "פַּאִי",
+		"vssde-insertChartPanel-chartSubtype-pieExplosion": "פאי (פיצוץ)",
+		"vssde-insertChartPanel-chartSubtype-doughnut": "סופגניה",
+		"vssde-insertChartPanel-chartSubtype-clusteredBar": "בר מקובץ",
+		"vssde-insertChartPanel-chartSubtype-stackedBar": "בר מוערם",
+		"vssde-insertChartPanel-chartSubtype-100%StackedBar": "100% בר מוערם",
+		"vssde-insertChartPanel-chartSubtype-area": "אֵזוֹר",
+		"vssde-insertChartPanel-chartSubtype-stackedArea": "אזור מוערם",
+		"vssde-insertChartPanel-chartSubtype-100%StackedArea": "100% שטח מוערם",
+		"vssde-insertChartPanel-fileArg0IsNotFound": "הקובץ '{0}' לא נמצא.",
+		"vssde-insertChartPanel-supportedChartTypesAreNotFound": "סוגי תרשימים נתמכים לא נמצאו.",
+		"vssde-insertChartPanel-notSupportedChartType": "סוג תרשים לא נתמך.",
+		"vssde-insertChartPanel-supportedChartSubtypesAreNotFound": "לא נמצאו תת-סוגי תרשימים נתמכים.",
+		"vssde-insertChartPanel-notSupportedChartSubtype": "תת-סוג תרשים לא נתמך.",
+		"vssde-insertChartPanel-chartTemplateContainsTwoIdenticalNamesForChartSubtypes": "תבנית התרשים מכילה 2 שמות זהים לתתי-סוגי תרשים.",
+		"vssde-insertChartPanel-chartTemplateContainsTwoIdenticalNamesForChartTypes": "תבנית התרשים מכילה 2 שמות זהים לסוגי תרשים.",
+		"vssde-insertChartPanel-pleaseSpecifyCellsWhichContainTheChartDataIncludeNamesForRowsAndColumns": "נא לציין תאים המכילים את נתוני התרשים (כלול שמות לשורות ועמודות).",
+		"vssde-insertChartPanel-chartSubtypeArg0HasMultipleDeclarationsOnDifferentWorksheets": "תת-סוג התרשים '{0}' כולל הצהרות מרובות בגיליונות עבודה שונים.",
+		"vssde-insertChartPanel-sheetArg0IsNotFound": "הגיליון '{0}' לא נמצא."
 	}
 }

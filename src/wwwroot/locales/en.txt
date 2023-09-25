@@ -110,6 +110,9 @@
 				"text": "Text"
 			}
 		},
+		"numberFormatButton": {
+			"title": "Number Format"
+		},
 		"showFormulasButton": {
 			"title": "Show formulas"
 		},
@@ -196,6 +199,9 @@
 		},
 		"insertPictureButton": {
 			"title": "Add picture"
+		},
+		"insertChartButton": {
+			"title": "Insert Chart"
 		},
 		"editCommentButton": {
 			"title": "Edit comment"
@@ -341,6 +347,9 @@
 		"deleteImageLabel": {
 			"text": "Delete"
 		},
+		"propertiesLabel": {
+			"text": "Properties..."
+		},
 		"deleteCellAndShiftLeftLabel": {
 			"text": "Delete cell and shift left"
 		},
@@ -418,6 +427,17 @@
 			},
 			"commentLabel": {
 				"text": "Comment:"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Cancel"
+			}
+		},
+		"editChartDialog": {
+			"titleLabel": {
+				"text": "Title:"
 			},
 			"okButton": {
 				"value": "OK"
@@ -546,6 +566,82 @@
 			"cancelButton": {
 				"value": "Cancel"
 			}
+		},
+		"setCellNumberFormatDialog": {
+			"General": {
+				"text": "General"
+			},
+			"Number": {
+				"text": "Number"
+			},
+			"Currency": {
+				"text": "Currency"
+			},
+			"Date": {
+				"text": "Date"
+			},
+			"Time": {
+				"text": "Time"
+			},
+			"Percentage": {
+				"text": "Percentage"
+			},
+			"Scientific": {
+				"text": "Scientific"
+			},
+			"Text": {
+				"text": "Text"
+			},
+			"Custom": {
+				"text": "Custom"
+			},
+			"generalFormatDescriptionLabel": {
+				"text": "General format cells have no specific number format."
+			},
+			"numberDecimalPlacesLabel": {
+				"text": "Decimal places:"
+			},
+			"useThousandsSeparatorLabel": {
+				"text": "Use 1000 separator"
+			},
+			"numberNegativeValuesLabel": {
+				"text": "Negative values:"
+			},
+			"changeTextColorToRedLabel": {
+				"text": "Change text color to red"
+			},
+			"hideMinusSignLabel": {
+				"text": "Hide minus sign"
+			},
+			"currencyDecimalPlacesLabel": {
+				"text": "Decimal places:"
+			},
+			"currencySymbolLabel": {
+				"text": "Symbol:"
+			},
+			"percentageDecimalPlacesLabel": {
+				"text": "Decimal places:"
+			},
+			"scientificDecimalPlacesLabel": {
+				"text": "Decimal places:"
+			},
+			"textFormatDescriptionLabel": {
+				"text": "Text format cells are treated as text even if a number is in the cell."
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Cancel"
+			}
+		},
+		"insertChartDialog": {
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Cancel"
+			}
 		}
 	},
 	"strings": {
@@ -573,16 +669,63 @@
 		"vssde-downloadXlsxFile": "Download XLSX file",
 		"vssde-exportXlsxToPdf": "Export XLSX to PDF",
 		"vssde-fileSizeExceedsLimit": "The size of uploaded file exceeds the maximum size ({0} bytes).",
-		"vssde-createXlsxDocumentConfirmation": "Want to create a new workbook?",
+		"vssde-createXlsxDocumentConfirmation": "Do you want to create a new workbook?",
 		"vssde-insertCommentDialog-title": "Insert comment",
 		"vssde-dialog-okButton": "OK",
 		"vssde-dialog-cancelButton": "Cancel",
 		"vssde-editCommentDialog-title": "Edit comment",
+		"vssde-editChartDialog-title": "Edit Chart",
+		"vssde-editChartPropertiesPanel-spreadsheetEditorDoesNotHaveFocusedChart": "The spreadsheet editor does not have focused chart.",
+		"vssde-editChartPropertiesPanel-selectedDrawingIsNotChart": "Selected drawing is not a chart.",
 		"vssde-renameWorksheetDialog-title": "Rename Worksheet",
 		"vssde-moveWorksheetDialog-title": "Move Worksheet",
 		"vssde-findTextDialog-title": "Find Text",
 		"vssde-findTextDialog-findNextButton": "Find Next",
 		"vssde-dialog-closeButton": "Close",
-		"vssde-selectFunctionDialog-title": "Insert Function"
+		"vssde-selectFunctionDialog-title": "Insert Function",
+		"vssde-cellNumberFormatDialog-title": "Cell Format",
+		"vssde-insertChartDialog-title": "Insert Chart",
+		"vssde-insertChartPanel-chartType-column": "Column",
+		"vssde-insertChartPanel-chartType-line": "Line",
+		"vssde-insertChartPanel-chartType-pie": "Pie",
+		"vssde-insertChartPanel-chartType-bar": "Bar",
+		"vssde-insertChartPanel-chartType-area": "Area",
+		"vssde-insertChartPanel-chartSubtype-clusteredColumn": "Clustered Column",
+		"vssde-insertChartPanel-chartSubtype-stackedColumn": "Stacked Column",
+		"vssde-insertChartPanel-chartSubtype-100%StackedColumn": "100% Stacked Column",
+		"vssde-insertChartPanel-chartSubtype-3DClusteredColumn": "3D Clustered Column",
+		"vssde-insertChartPanel-chartSubtype-3DStackedColumn": "3D Stacked Column",
+		"vssde-insertChartPanel-chartSubtype-3D100%StackedColumn": "3D 100% Stacked Column",
+		"vssde-insertChartPanel-chartSubtype-line": "Line",
+		"vssde-insertChartPanel-chartSubtype-stackedLine": "Stacked Line",
+		"vssde-insertChartPanel-chartSubtype-100%StackedLine": "100% Stacked Line",
+		"vssde-insertChartPanel-chartSubtype-lineWithMarkers": "Line With Markers",
+		"vssde-insertChartPanel-chartSubtype-stackedLineWithMarkers": "Stacked Line With Markers",
+		"vssde-insertChartPanel-chartSubtype-100%StackedLineWithMar": "100% Stacked Line With Markers",
+		"vssde-insertChartPanel-chartSubtype-curvedLine": "Curved Line",
+		"vssde-insertChartPanel-chartSubtype-stackedCurvedLine": "Stacked Curved Line",
+		"vssde-insertChartPanel-chartSubtype-100%StackedCurvedLine": "100% Stacked Curved Line",
+		"vssde-insertChartPanel-chartSubtype-curvedLineWithMarkers": "Curved Line With Markers",
+		"vssde-insertChartPanel-chartSubtype-stackedCurvLineWithMark": "Stacked Curved Line With Markers",
+		"vssde-insertChartPanel-chartSubtype-100%StackedCurvLineMark": "100% Stacked Curved Line With Markers",
+		"vssde-insertChartPanel-chartSubtype-pie": "Pie",
+		"vssde-insertChartPanel-chartSubtype-pieExplosion": "Pie (Explosion)",
+		"vssde-insertChartPanel-chartSubtype-doughnut": "Doughnut",
+		"vssde-insertChartPanel-chartSubtype-clusteredBar": "Clustered Bar",
+		"vssde-insertChartPanel-chartSubtype-stackedBar": "Stacked Bar",
+		"vssde-insertChartPanel-chartSubtype-100%StackedBar": "100% Stacked Bar",
+		"vssde-insertChartPanel-chartSubtype-area": "Area",
+		"vssde-insertChartPanel-chartSubtype-stackedArea": "Stacked Area",
+		"vssde-insertChartPanel-chartSubtype-100%StackedArea": "100% Stacked Area",
+		"vssde-insertChartPanel-fileArg0IsNotFound": "File '{0}' is not found.",
+		"vssde-insertChartPanel-supportedChartTypesAreNotFound": "Supported chart types are not found.",
+		"vssde-insertChartPanel-notSupportedChartType": "Not supported chart type.",
+		"vssde-insertChartPanel-supportedChartSubtypesAreNotFound": "Supported chart subtypes are not found.",
+		"vssde-insertChartPanel-notSupportedChartSubtype": "Not supported chart subtype.",
+		"vssde-insertChartPanel-chartTemplateContainsTwoIdenticalNamesForChartSubtypes": "The chart template contains 2 identical names for chart subtypes.",
+		"vssde-insertChartPanel-chartTemplateContainsTwoIdenticalNamesForChartTypes": "The chart template contains 2 identical names for chart types.",
+		"vssde-insertChartPanel-pleaseSpecifyCellsWhichContainTheChartDataIncludeNamesForRowsAndColumns": "Please specify cells, which contain the chart data (include names for rows and columns).",
+		"vssde-insertChartPanel-chartSubtypeArg0HasMultipleDeclarationsOnDifferentWorksheets": "Chart subtype '{0}' has multiple declarations on different worksheets.",
+		"vssde-insertChartPanel-sheetArg0IsNotFound": "Sheet '{0}' is not found."
 	}
 }

@@ -110,6 +110,9 @@
 				"text": "Teksti"
 			}
 		},
+		"numberFormatButton": {
+			"title": "Numeromuoto"
+		},
 		"showFormulasButton": {
 			"title": "Näytä kaavat"
 		},
@@ -196,6 +199,9 @@
 		},
 		"insertPictureButton": {
 			"title": "Lisää kuva"
+		},
+		"insertChartButton": {
+			"title": "Lisää kaavio"
 		},
 		"editCommentButton": {
 			"title": "Muokkaa kommenttia"
@@ -341,6 +347,9 @@
 		"deleteImageLabel": {
 			"text": "Poista"
 		},
+		"propertiesLabel": {
+			"text": "Ominaisuudet..."
+		},
 		"deleteCellAndShiftLeftLabel": {
 			"text": "Poista solu ja siirrä vasemmalle"
 		},
@@ -418,6 +427,17 @@
 			},
 			"commentLabel": {
 				"text": "Kommentti:"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Peruuta"
+			}
+		},
+		"editChartDialog": {
+			"titleLabel": {
+				"text": "Otsikko:"
 			},
 			"okButton": {
 				"value": "OK"
@@ -546,6 +566,82 @@
 			"cancelButton": {
 				"value": "Peruuta"
 			}
+		},
+		"setCellNumberFormatDialog": {
+			"General": {
+				"text": "Yleistä"
+			},
+			"Number": {
+				"text": "Numeerinen"
+			},
+			"Currency": {
+				"text": "Raha"
+			},
+			"Date": {
+				"text": "Päivämäärä"
+			},
+			"Time": {
+				"text": "Aika"
+			},
+			"Percentage": {
+				"text": "Prosentti"
+			},
+			"Scientific": {
+				"text": "Eksponentiaalinen"
+			},
+			"Text": {
+				"text": "Teksti"
+			},
+			"Custom": {
+				"text": "Mukautettu"
+			},
+			"generalFormatDescriptionLabel": {
+				"text": "Yleisen muodon soluilla ei ole erityistä numeromuotoa."
+			},
+			"numberDecimalPlacesLabel": {
+				"text": "Desimaalin tarkkuudella:"
+			},
+			"useThousandsSeparatorLabel": {
+				"text": "Käytä 1000 erotinta"
+			},
+			"numberNegativeValuesLabel": {
+				"text": "Negatiiviset arvot:"
+			},
+			"changeTextColorToRedLabel": {
+				"text": "Muuta tekstin väri punaiseksi"
+			},
+			"hideMinusSignLabel": {
+				"text": "Piilota miinusmerkki"
+			},
+			"currencyDecimalPlacesLabel": {
+				"text": "Desimaalin tarkkuudella:"
+			},
+			"currencySymbolLabel": {
+				"text": "Symboli:"
+			},
+			"percentageDecimalPlacesLabel": {
+				"text": "Desimaalin tarkkuudella:"
+			},
+			"scientificDecimalPlacesLabel": {
+				"text": "Desimaalin tarkkuudella:"
+			},
+			"textFormatDescriptionLabel": {
+				"text": "Tekstimuotoisia soluja käsitellään tekstinä, vaikka solussa olisi numero."
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Peruuta"
+			}
+		},
+		"insertChartDialog": {
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Peruuta"
+			}
 		}
 	},
 	"strings": {
@@ -578,11 +674,58 @@
 		"vssde-dialog-okButton": "OK",
 		"vssde-dialog-cancelButton": "Peruuta",
 		"vssde-editCommentDialog-title": "Muokkaa kommenttia",
+		"vssde-editChartDialog-title": "Muokkaa kaaviota",
+		"vssde-editChartPropertiesPanel-spreadsheetEditorDoesNotHaveFocusedChart": "Taulukkoeditorissa ei ole kohdistettua kaaviota.",
+		"vssde-editChartPropertiesPanel-selectedDrawingIsNotChart": "Valittu piirros ei ole kaavio.",
 		"vssde-renameWorksheetDialog-title": "Nimeä taulukko uudelleen",
 		"vssde-moveWorksheetDialog-title": "Siirrä taulukkoa",
 		"vssde-findTextDialog-title": "Etsi tekstiä",
 		"vssde-findTextDialog-findNextButton": "Etsi seuraava",
 		"vssde-dialog-closeButton": "Sulje",
-		"vssde-selectFunctionDialog-title": "Lisää funktio"
+		"vssde-selectFunctionDialog-title": "Lisää funktio",
+		"vssde-cellNumberFormatDialog-title": "Solumuoto",
+		"vssde-insertChartDialog-title": "Lisää kaavio",
+		"vssde-insertChartPanel-chartType-column": "Sarake",
+		"vssde-insertChartPanel-chartType-line": "Line",
+		"vssde-insertChartPanel-chartType-pie": "Piirakka",
+		"vssde-insertChartPanel-chartType-bar": "Baari",
+		"vssde-insertChartPanel-chartType-area": "Alue",
+		"vssde-insertChartPanel-chartSubtype-clusteredColumn": "Klusteroitu sarake",
+		"vssde-insertChartPanel-chartSubtype-stackedColumn": "Pinottu sarake",
+		"vssde-insertChartPanel-chartSubtype-100%StackedColumn": "100 % pinottu sarake",
+		"vssde-insertChartPanel-chartSubtype-3DClusteredColumn": "3D-klusteroitu sarake",
+		"vssde-insertChartPanel-chartSubtype-3DStackedColumn": "3D pinottu sarake",
+		"vssde-insertChartPanel-chartSubtype-3D100%StackedColumn": "3D 100 % pinottu sarake",
+		"vssde-insertChartPanel-chartSubtype-line": "Line",
+		"vssde-insertChartPanel-chartSubtype-stackedLine": "Pinottu rivi",
+		"vssde-insertChartPanel-chartSubtype-100%StackedLine": "100 % pinottu rivi",
+		"vssde-insertChartPanel-chartSubtype-lineWithMarkers": "Viiva tussilla",
+		"vssde-insertChartPanel-chartSubtype-stackedLineWithMarkers": "Pinottu viiva tussilla",
+		"vssde-insertChartPanel-chartSubtype-100%StackedLineWithMar": "100 % pinottu viiva tussilla",
+		"vssde-insertChartPanel-chartSubtype-curvedLine": "Kaareva viiva",
+		"vssde-insertChartPanel-chartSubtype-stackedCurvedLine": "Pinottu kaareva viiva",
+		"vssde-insertChartPanel-chartSubtype-100%StackedCurvedLine": "100 % pinottu kaareva viiva",
+		"vssde-insertChartPanel-chartSubtype-curvedLineWithMarkers": "Kaareva viiva tussilla",
+		"vssde-insertChartPanel-chartSubtype-stackedCurvLineWithMark": "Pinottu kaareva viiva tussilla",
+		"vssde-insertChartPanel-chartSubtype-100%StackedCurvLineMark": "100 % pinottu kaareva viiva tussilla",
+		"vssde-insertChartPanel-chartSubtype-pie": "Piirakka",
+		"vssde-insertChartPanel-chartSubtype-pieExplosion": "Piirakka (räjähdys)",
+		"vssde-insertChartPanel-chartSubtype-doughnut": "Donitsi",
+		"vssde-insertChartPanel-chartSubtype-clusteredBar": "Klusteroitu baari",
+		"vssde-insertChartPanel-chartSubtype-stackedBar": "Pinottu baari",
+		"vssde-insertChartPanel-chartSubtype-100%StackedBar": "100 % pinottu baari",
+		"vssde-insertChartPanel-chartSubtype-area": "Alue",
+		"vssde-insertChartPanel-chartSubtype-stackedArea": "Pinottu alue",
+		"vssde-insertChartPanel-chartSubtype-100%StackedArea": "100 % pinottu alue",
+		"vssde-insertChartPanel-fileArg0IsNotFound": "Tiedostoa '{0}' ei löydy.",
+		"vssde-insertChartPanel-supportedChartTypesAreNotFound": "Tuettuja kaaviotyyppejä ei löydy.",
+		"vssde-insertChartPanel-notSupportedChartType": "Ei tuettu kaaviotyyppiä.",
+		"vssde-insertChartPanel-supportedChartSubtypesAreNotFound": "Tuettuja kaavion alatyyppejä ei löydy.",
+		"vssde-insertChartPanel-notSupportedChartSubtype": "Ei tuettu kaavion alatyyppiä.",
+		"vssde-insertChartPanel-chartTemplateContainsTwoIdenticalNamesForChartSubtypes": "Kaaviomalli sisältää 2 identtistä nimeä kaavion alatyypeille.",
+		"vssde-insertChartPanel-chartTemplateContainsTwoIdenticalNamesForChartTypes": "Kaaviomalli sisältää 2 identtistä nimeä kaaviotyypeille.",
+		"vssde-insertChartPanel-pleaseSpecifyCellsWhichContainTheChartDataIncludeNamesForRowsAndColumns": "Määritä solut, jotka sisältävät kaavion tiedot (sisältää rivien ja sarakkeiden nimet).",
+		"vssde-insertChartPanel-chartSubtypeArg0HasMultipleDeclarationsOnDifferentWorksheets": "Kaavion alatyypissä '{0}' on useita ilmoituksia eri laskentataulukoissa.",
+		"vssde-insertChartPanel-sheetArg0IsNotFound": "Taulukkoa '{0}' ei löydy."
 	}
 }

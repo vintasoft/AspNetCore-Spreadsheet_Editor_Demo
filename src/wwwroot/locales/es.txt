@@ -110,6 +110,9 @@
 				"text": "Texto"
 			}
 		},
+		"numberFormatButton": {
+			"title": "Formato numérico"
+		},
 		"showFormulasButton": {
 			"title": "Mostrar fórmulas"
 		},
@@ -196,6 +199,9 @@
 		},
 		"insertPictureButton": {
 			"title": "Añade una foto"
+		},
+		"insertChartButton": {
+			"title": "Insertar gráfico"
 		},
 		"editCommentButton": {
 			"title": "Editar comentario"
@@ -341,6 +347,9 @@
 		"deleteImageLabel": {
 			"text": "Borrar"
 		},
+		"propertiesLabel": {
+			"text": "Propiedades..."
+		},
 		"deleteCellAndShiftLeftLabel": {
 			"text": "Eliminar celda y mover a la izquierda"
 		},
@@ -418,6 +427,17 @@
 			},
 			"commentLabel": {
 				"text": "Comentario:"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Cancelar"
+			}
+		},
+		"editChartDialog": {
+			"titleLabel": {
+				"text": "Título:"
 			},
 			"okButton": {
 				"value": "OK"
@@ -546,6 +566,82 @@
 			"cancelButton": {
 				"value": "Cancelar"
 			}
+		},
+		"setCellNumberFormatDialog": {
+			"General": {
+				"text": "Generalidades"
+			},
+			"Number": {
+				"text": "Numérico"
+			},
+			"Currency": {
+				"text": "Dinero"
+			},
+			"Date": {
+				"text": "Fecha"
+			},
+			"Time": {
+				"text": "Tiempo"
+			},
+			"Percentage": {
+				"text": "Porcentaje"
+			},
+			"Scientific": {
+				"text": "Exponencial"
+			},
+			"Text": {
+				"text": "Texto"
+			},
+			"Custom": {
+				"text": "Personalizado"
+			},
+			"generalFormatDescriptionLabel": {
+				"text": "Las celdas de formato general no tienen un formato numérico específico."
+			},
+			"numberDecimalPlacesLabel": {
+				"text": "Lugares decimales:"
+			},
+			"useThousandsSeparatorLabel": {
+				"text": "Usar separador 1000"
+			},
+			"numberNegativeValuesLabel": {
+				"text": "Valores negativos:"
+			},
+			"changeTextColorToRedLabel": {
+				"text": "Cambiar el color del texto a rojo"
+			},
+			"hideMinusSignLabel": {
+				"text": "Ocultar signo menos"
+			},
+			"currencyDecimalPlacesLabel": {
+				"text": "Lugares decimales:"
+			},
+			"currencySymbolLabel": {
+				"text": "Símbolo:"
+			},
+			"percentageDecimalPlacesLabel": {
+				"text": "Lugares decimales:"
+			},
+			"scientificDecimalPlacesLabel": {
+				"text": "Lugares decimales:"
+			},
+			"textFormatDescriptionLabel": {
+				"text": "Las celdas con formato de texto se tratan como texto incluso si hay un número en la celda."
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Cancelar"
+			}
+		},
+		"insertChartDialog": {
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Cancelar"
+			}
 		}
 	},
 	"strings": {
@@ -578,11 +674,58 @@
 		"vssde-dialog-okButton": "OK",
 		"vssde-dialog-cancelButton": "Cancelar",
 		"vssde-editCommentDialog-title": "Editar comentario",
+		"vssde-editChartDialog-title": "Editar gráfico",
+		"vssde-editChartPropertiesPanel-spreadsheetEditorDoesNotHaveFocusedChart": "El editor de hojas de cálculo no tiene gráficos enfocados.",
+		"vssde-editChartPropertiesPanel-selectedDrawingIsNotChart": "El dibujo seleccionado no es un gráfico.",
 		"vssde-renameWorksheetDialog-title": "Renombrar hoja",
 		"vssde-moveWorksheetDialog-title": "Mover hoja",
 		"vssde-findTextDialog-title": "Buscar texto",
 		"vssde-findTextDialog-findNextButton": "Buscar siguiente",
 		"vssde-dialog-closeButton": "Cerrar",
-		"vssde-selectFunctionDialog-title": "Insertar función"
+		"vssde-selectFunctionDialog-title": "Insertar función",
+		"vssde-cellNumberFormatDialog-title": "Formato de celda",
+		"vssde-insertChartDialog-title": "Insertar gráfico",
+		"vssde-insertChartPanel-chartType-column": "Columna",
+		"vssde-insertChartPanel-chartType-line": "Línea",
+		"vssde-insertChartPanel-chartType-pie": "Tarta",
+		"vssde-insertChartPanel-chartType-bar": "Bar",
+		"vssde-insertChartPanel-chartType-area": "Área",
+		"vssde-insertChartPanel-chartSubtype-clusteredColumn": "Columna agrupada",
+		"vssde-insertChartPanel-chartSubtype-stackedColumn": "Columna apilada",
+		"vssde-insertChartPanel-chartSubtype-100%StackedColumn": "Columna 100% apilada",
+		"vssde-insertChartPanel-chartSubtype-3DClusteredColumn": "Columna agrupada 3D",
+		"vssde-insertChartPanel-chartSubtype-3DStackedColumn": "Columna apilada 3D",
+		"vssde-insertChartPanel-chartSubtype-3D100%StackedColumn": "Columna 100% apilada modelo 3d",
+		"vssde-insertChartPanel-chartSubtype-line": "Línea",
+		"vssde-insertChartPanel-chartSubtype-stackedLine": "Línea apilada",
+		"vssde-insertChartPanel-chartSubtype-100%StackedLine": "Línea 100% apilada",
+		"vssde-insertChartPanel-chartSubtype-lineWithMarkers": "Línea con marcadores",
+		"vssde-insertChartPanel-chartSubtype-stackedLineWithMarkers": "Línea apilada con marcadores",
+		"vssde-insertChartPanel-chartSubtype-100%StackedLineWithMar": "Línea 100% apilada con marcadores",
+		"vssde-insertChartPanel-chartSubtype-curvedLine": "Línea curva",
+		"vssde-insertChartPanel-chartSubtype-stackedCurvedLine": "Línea curva apilada",
+		"vssde-insertChartPanel-chartSubtype-100%StackedCurvedLine": "Línea curva 100% apilada",
+		"vssde-insertChartPanel-chartSubtype-curvedLineWithMarkers": "Línea curva con marcadores",
+		"vssde-insertChartPanel-chartSubtype-stackedCurvLineWithMark": "Línea curva apilada con marcadores",
+		"vssde-insertChartPanel-chartSubtype-100%StackedCurvLineMark": "Línea curva 100% apilada con marcadores",
+		"vssde-insertChartPanel-chartSubtype-pie": "Tarta",
+		"vssde-insertChartPanel-chartSubtype-pieExplosion": "Pastel (explosión)",
+		"vssde-insertChartPanel-chartSubtype-doughnut": "Rosquilla",
+		"vssde-insertChartPanel-chartSubtype-clusteredBar": "Barra agrupada",
+		"vssde-insertChartPanel-chartSubtype-stackedBar": "Barra apilada",
+		"vssde-insertChartPanel-chartSubtype-100%StackedBar": "Barra 100% apilada",
+		"vssde-insertChartPanel-chartSubtype-area": "Área",
+		"vssde-insertChartPanel-chartSubtype-stackedArea": "Área apilada",
+		"vssde-insertChartPanel-chartSubtype-100%StackedArea": "Área 100% apilada",
+		"vssde-insertChartPanel-fileArg0IsNotFound": "No se encuentra el archivo '{0}'.",
+		"vssde-insertChartPanel-supportedChartTypesAreNotFound": "No se encuentran los tipos de gráficos admitidos.",
+		"vssde-insertChartPanel-notSupportedChartType": "Tipo de gráfico no compatible.",
+		"vssde-insertChartPanel-supportedChartSubtypesAreNotFound": "No se encuentran los subtipos de gráficos admitidos.",
+		"vssde-insertChartPanel-notSupportedChartSubtype": "Subtipo de gráfico no compatible.",
+		"vssde-insertChartPanel-chartTemplateContainsTwoIdenticalNamesForChartSubtypes": "La plantilla de gráfico contiene 2 nombres idénticos para subtipos de gráfico.",
+		"vssde-insertChartPanel-chartTemplateContainsTwoIdenticalNamesForChartTypes": "La plantilla de gráfico contiene 2 nombres idénticos para tipos de gráficos.",
+		"vssde-insertChartPanel-pleaseSpecifyCellsWhichContainTheChartDataIncludeNamesForRowsAndColumns": "Especifique las celdas que contienen los datos del gráfico (incluya nombres de filas y columnas).",
+		"vssde-insertChartPanel-chartSubtypeArg0HasMultipleDeclarationsOnDifferentWorksheets": "El subtipo de gráfico '{0}' tiene varias declaraciones en diferentes hojas de trabajo.",
+		"vssde-insertChartPanel-sheetArg0IsNotFound": "No se encuentra la hoja '{0}'."
 	}
 }

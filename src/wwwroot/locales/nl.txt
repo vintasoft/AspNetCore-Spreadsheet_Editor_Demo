@@ -110,6 +110,9 @@
 				"text": "Tekst"
 			}
 		},
+		"numberFormatButton": {
+			"title": "Nummer formaat"
+		},
 		"showFormulasButton": {
 			"title": "Toon formules"
 		},
@@ -196,6 +199,9 @@
 		},
 		"insertPictureButton": {
 			"title": "Voeg foto toe"
+		},
+		"insertChartButton": {
+			"title": "Grafiek invoegen"
 		},
 		"editCommentButton": {
 			"title": "Opmerking bewerken"
@@ -341,6 +347,9 @@
 		"deleteImageLabel": {
 			"text": "Verwijderen"
 		},
+		"propertiesLabel": {
+			"text": "Eigenschappen..."
+		},
 		"deleteCellAndShiftLeftLabel": {
 			"text": "Verwijder cel en ga naar links"
 		},
@@ -418,6 +427,17 @@
 			},
 			"commentLabel": {
 				"text": "Opmerking:"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Annuleren"
+			}
+		},
+		"editChartDialog": {
+			"titleLabel": {
+				"text": "Titel:"
 			},
 			"okButton": {
 				"value": "OK"
@@ -546,6 +566,82 @@
 			"cancelButton": {
 				"value": "Annuleren"
 			}
+		},
+		"setCellNumberFormatDialog": {
+			"General": {
+				"text": "Algemeen"
+			},
+			"Number": {
+				"text": "Numeriek"
+			},
+			"Currency": {
+				"text": "Geld"
+			},
+			"Date": {
+				"text": "Datum"
+			},
+			"Time": {
+				"text": "Tijd"
+			},
+			"Percentage": {
+				"text": "Percentage"
+			},
+			"Scientific": {
+				"text": "Exponentieel"
+			},
+			"Text": {
+				"text": "Tekst"
+			},
+			"Custom": {
+				"text": "Aangepast"
+			},
+			"generalFormatDescriptionLabel": {
+				"text": "Cellen met een algemeen formaat hebben geen specifiek getalformaat."
+			},
+			"numberDecimalPlacesLabel": {
+				"text": "Decimalen:"
+			},
+			"useThousandsSeparatorLabel": {
+				"text": "Gebruik een scheidingsteken van 1000"
+			},
+			"numberNegativeValuesLabel": {
+				"text": "Negatieve waarden:"
+			},
+			"changeTextColorToRedLabel": {
+				"text": "Verander de tekstkleur in rood"
+			},
+			"hideMinusSignLabel": {
+				"text": "Minteken verbergen"
+			},
+			"currencyDecimalPlacesLabel": {
+				"text": "Decimalen:"
+			},
+			"currencySymbolLabel": {
+				"text": "Symbool:"
+			},
+			"percentageDecimalPlacesLabel": {
+				"text": "Decimalen:"
+			},
+			"scientificDecimalPlacesLabel": {
+				"text": "Decimalen:"
+			},
+			"textFormatDescriptionLabel": {
+				"text": "Cellen met tekstopmaak worden als tekst behandeld, zelfs als er een getal in de cel staat."
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Annuleren"
+			}
+		},
+		"insertChartDialog": {
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Annuleren"
+			}
 		}
 	},
 	"strings": {
@@ -578,11 +674,58 @@
 		"vssde-dialog-okButton": "OK",
 		"vssde-dialog-cancelButton": "Annuleren",
 		"vssde-editCommentDialog-title": "Opmerking bewerken",
+		"vssde-editChartDialog-title": "Grafiek bewerken",
+		"vssde-editChartPropertiesPanel-spreadsheetEditorDoesNotHaveFocusedChart": "De spreadsheeteditor heeft geen gericht diagram.",
+		"vssde-editChartPropertiesPanel-selectedDrawingIsNotChart": "De geselecteerde tekening is geen diagram.",
 		"vssde-renameWorksheetDialog-title": "Hernoem blad",
 		"vssde-moveWorksheetDialog-title": "Blad verplaatsen",
 		"vssde-findTextDialog-title": "Zoek tekst",
 		"vssde-findTextDialog-findNextButton": "Zoek volgende",
 		"vssde-dialog-closeButton": "Sluiten",
-		"vssde-selectFunctionDialog-title": "Voeg functie in"
+		"vssde-selectFunctionDialog-title": "Voeg functie in",
+		"vssde-cellNumberFormatDialog-title": "Celformaat",
+		"vssde-insertChartDialog-title": "Grafiek invoegen",
+		"vssde-insertChartPanel-chartType-column": "Kolom",
+		"vssde-insertChartPanel-chartType-line": "Lijn",
+		"vssde-insertChartPanel-chartType-pie": "Taart",
+		"vssde-insertChartPanel-chartType-bar": "Bar",
+		"vssde-insertChartPanel-chartType-area": "Gebied",
+		"vssde-insertChartPanel-chartSubtype-clusteredColumn": "Geclusterde kolom",
+		"vssde-insertChartPanel-chartSubtype-stackedColumn": "Gestapelde kolom",
+		"vssde-insertChartPanel-chartSubtype-100%StackedColumn": "100% gestapelde kolom",
+		"vssde-insertChartPanel-chartSubtype-3DClusteredColumn": "3D geclusterde kolom",
+		"vssde-insertChartPanel-chartSubtype-3DStackedColumn": "3D gestapelde kolom",
+		"vssde-insertChartPanel-chartSubtype-3D100%StackedColumn": "3D 100% gestapelde kolom",
+		"vssde-insertChartPanel-chartSubtype-line": "Lijn",
+		"vssde-insertChartPanel-chartSubtype-stackedLine": "Gestapelde lijn",
+		"vssde-insertChartPanel-chartSubtype-100%StackedLine": "100% gestapelde lijn",
+		"vssde-insertChartPanel-chartSubtype-lineWithMarkers": "Lijn met markeringen",
+		"vssde-insertChartPanel-chartSubtype-stackedLineWithMarkers": "Gestapelde lijn met markeringen",
+		"vssde-insertChartPanel-chartSubtype-100%StackedLineWithMar": "100% gestapelde lijn met markeringen",
+		"vssde-insertChartPanel-chartSubtype-curvedLine": "Gebogen lijn",
+		"vssde-insertChartPanel-chartSubtype-stackedCurvedLine": "Gestapelde gebogen lijn",
+		"vssde-insertChartPanel-chartSubtype-100%StackedCurvedLine": "100% gestapelde gebogen lijn",
+		"vssde-insertChartPanel-chartSubtype-curvedLineWithMarkers": "Gebogen lijn met markeringen",
+		"vssde-insertChartPanel-chartSubtype-stackedCurvLineWithMark": "Gestapelde gebogen lijn met markeringen",
+		"vssde-insertChartPanel-chartSubtype-100%StackedCurvLineMark": "100% gestapelde gebogen lijn met markeringen",
+		"vssde-insertChartPanel-chartSubtype-pie": "Taart",
+		"vssde-insertChartPanel-chartSubtype-pieExplosion": "Taart (explosie)",
+		"vssde-insertChartPanel-chartSubtype-doughnut": "Donut",
+		"vssde-insertChartPanel-chartSubtype-clusteredBar": "Geclusterde balk",
+		"vssde-insertChartPanel-chartSubtype-stackedBar": "Gestapelde staaf",
+		"vssde-insertChartPanel-chartSubtype-100%StackedBar": "100% gestapelde staaf",
+		"vssde-insertChartPanel-chartSubtype-area": "Gebied",
+		"vssde-insertChartPanel-chartSubtype-stackedArea": "Gestapeld gebied",
+		"vssde-insertChartPanel-chartSubtype-100%StackedArea": "100% gestapeld gebied",
+		"vssde-insertChartPanel-fileArg0IsNotFound": "Bestand '{0}' is niet gevonden.",
+		"vssde-insertChartPanel-supportedChartTypesAreNotFound": "Ondersteunde diagramtypen zijn niet gevonden.",
+		"vssde-insertChartPanel-notSupportedChartType": "Niet ondersteund diagramtype.",
+		"vssde-insertChartPanel-supportedChartSubtypesAreNotFound": "Ondersteunde diagramsubtypen zijn niet gevonden.",
+		"vssde-insertChartPanel-notSupportedChartSubtype": "Niet ondersteund diagramsubtype.",
+		"vssde-insertChartPanel-chartTemplateContainsTwoIdenticalNamesForChartSubtypes": "De diagramsjabloon bevat twee identieke namen voor diagramsubtypen.",
+		"vssde-insertChartPanel-chartTemplateContainsTwoIdenticalNamesForChartTypes": "De grafieksjabloon bevat twee identieke namen voor grafiektypen.",
+		"vssde-insertChartPanel-pleaseSpecifyCellsWhichContainTheChartDataIncludeNamesForRowsAndColumns": "Geef cellen op die de diagramgegevens bevatten (vermeld namen voor rijen en kolommen).",
+		"vssde-insertChartPanel-chartSubtypeArg0HasMultipleDeclarationsOnDifferentWorksheets": "Diagramsubtype '{0}' heeft meerdere declaraties op verschillende werkbladen.",
+		"vssde-insertChartPanel-sheetArg0IsNotFound": "Blad '{0}' is niet gevonden."
 	}
 }

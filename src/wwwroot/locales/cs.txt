@@ -110,6 +110,9 @@
 				"text": "Text"
 			}
 		},
+		"numberFormatButton": {
+			"title": "Formát čísla"
+		},
 		"showFormulasButton": {
 			"title": "Zobrazit vzorce"
 		},
@@ -196,6 +199,9 @@
 		},
 		"insertPictureButton": {
 			"title": "Přidat obrázek"
+		},
+		"insertChartButton": {
+			"title": "Vložit graf"
 		},
 		"editCommentButton": {
 			"title": "Upravit komentář"
@@ -341,6 +347,9 @@
 		"deleteImageLabel": {
 			"text": "Smazat"
 		},
+		"propertiesLabel": {
+			"text": "Vlastnosti..."
+		},
 		"deleteCellAndShiftLeftLabel": {
 			"text": "Smazat buňku a přesunout se doleva"
 		},
@@ -418,6 +427,17 @@
 			},
 			"commentLabel": {
 				"text": "Komentář:"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Zrušit"
+			}
+		},
+		"editChartDialog": {
+			"titleLabel": {
+				"text": "Titul:"
 			},
 			"okButton": {
 				"value": "OK"
@@ -546,6 +566,82 @@
 			"cancelButton": {
 				"value": "Zrušit"
 			}
+		},
+		"setCellNumberFormatDialog": {
+			"General": {
+				"text": "Obecné"
+			},
+			"Number": {
+				"text": "Číselné"
+			},
+			"Currency": {
+				"text": "Peníze"
+			},
+			"Date": {
+				"text": "Datum"
+			},
+			"Time": {
+				"text": "Čas"
+			},
+			"Percentage": {
+				"text": "procento"
+			},
+			"Scientific": {
+				"text": "Exponenciální"
+			},
+			"Text": {
+				"text": "Text"
+			},
+			"Custom": {
+				"text": "Vlastní"
+			},
+			"generalFormatDescriptionLabel": {
+				"text": "Buňky obecného formátu nemají žádný specifický formát čísel."
+			},
+			"numberDecimalPlacesLabel": {
+				"text": "desetinná místa:"
+			},
+			"useThousandsSeparatorLabel": {
+				"text": "Použijte oddělovač 1000"
+			},
+			"numberNegativeValuesLabel": {
+				"text": "Záporné hodnoty:"
+			},
+			"changeTextColorToRedLabel": {
+				"text": "Změňte barvu textu na červenou"
+			},
+			"hideMinusSignLabel": {
+				"text": "Skrýt znaménko mínus"
+			},
+			"currencyDecimalPlacesLabel": {
+				"text": "desetinná místa:"
+			},
+			"currencySymbolLabel": {
+				"text": "Symbol:"
+			},
+			"percentageDecimalPlacesLabel": {
+				"text": "desetinná místa:"
+			},
+			"scientificDecimalPlacesLabel": {
+				"text": "desetinná místa:"
+			},
+			"textFormatDescriptionLabel": {
+				"text": "S buňkami textového formátu se zachází jako s textem, i když je v buňce číslo."
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Zrušit"
+			}
+		},
+		"insertChartDialog": {
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Zrušit"
+			}
 		}
 	},
 	"strings": {
@@ -578,11 +674,58 @@
 		"vssde-dialog-okButton": "OK",
 		"vssde-dialog-cancelButton": "Zrušit",
 		"vssde-editCommentDialog-title": "Upravit komentář",
+		"vssde-editChartDialog-title": "Upravit graf",
+		"vssde-editChartPropertiesPanel-spreadsheetEditorDoesNotHaveFocusedChart": "Tabulkový editor nemá zaměřený graf.",
+		"vssde-editChartPropertiesPanel-selectedDrawingIsNotChart": "Vybraný výkres není graf.",
 		"vssde-renameWorksheetDialog-title": "Přejmenovat list",
 		"vssde-moveWorksheetDialog-title": "Přesunout list",
 		"vssde-findTextDialog-title": "Najít text",
 		"vssde-findTextDialog-findNextButton": "Najít další",
 		"vssde-dialog-closeButton": "Zavřít",
-		"vssde-selectFunctionDialog-title": "Funkce vložení"
+		"vssde-selectFunctionDialog-title": "Funkce vložení",
+		"vssde-cellNumberFormatDialog-title": "Formát buňky",
+		"vssde-insertChartDialog-title": "Vložit graf",
+		"vssde-insertChartPanel-chartType-column": "Sloupec",
+		"vssde-insertChartPanel-chartType-line": "Řádek",
+		"vssde-insertChartPanel-chartType-pie": "Koláč",
+		"vssde-insertChartPanel-chartType-bar": "Bar",
+		"vssde-insertChartPanel-chartType-area": "Plocha",
+		"vssde-insertChartPanel-chartSubtype-clusteredColumn": "Seskupený sloupec",
+		"vssde-insertChartPanel-chartSubtype-stackedColumn": "Skládaný sloupec",
+		"vssde-insertChartPanel-chartSubtype-100%StackedColumn": "100% skládaný sloupec",
+		"vssde-insertChartPanel-chartSubtype-3DClusteredColumn": "3D seskupený sloupec",
+		"vssde-insertChartPanel-chartSubtype-3DStackedColumn": "3D skládaný sloupec",
+		"vssde-insertChartPanel-chartSubtype-3D100%StackedColumn": "3D 100% skládaný sloupec",
+		"vssde-insertChartPanel-chartSubtype-line": "Řádek",
+		"vssde-insertChartPanel-chartSubtype-stackedLine": "Skládaný řádek",
+		"vssde-insertChartPanel-chartSubtype-100%StackedLine": "100% skládaný řádek",
+		"vssde-insertChartPanel-chartSubtype-lineWithMarkers": "Linka se značkami",
+		"vssde-insertChartPanel-chartSubtype-stackedLineWithMarkers": "Skládaný řádek S Markery",
+		"vssde-insertChartPanel-chartSubtype-100%StackedLineWithMar": "100% složená čára se značkami",
+		"vssde-insertChartPanel-chartSubtype-curvedLine": "Zakřivená čára",
+		"vssde-insertChartPanel-chartSubtype-stackedCurvedLine": "Skládaný zakřivená čára",
+		"vssde-insertChartPanel-chartSubtype-100%StackedCurvedLine": "100% skládaná zakřivená čára",
+		"vssde-insertChartPanel-chartSubtype-curvedLineWithMarkers": "Zakřivená čára se značkami",
+		"vssde-insertChartPanel-chartSubtype-stackedCurvLineWithMark": "Skládaný Zakřivená čára S Markery",
+		"vssde-insertChartPanel-chartSubtype-100%StackedCurvLineMark": "100% skládaná zakřivená čára se značkami",
+		"vssde-insertChartPanel-chartSubtype-pie": "Koláč",
+		"vssde-insertChartPanel-chartSubtype-pieExplosion": "Koláč (výbuch)",
+		"vssde-insertChartPanel-chartSubtype-doughnut": "Kobliha",
+		"vssde-insertChartPanel-chartSubtype-clusteredBar": "Seskupený bar",
+		"vssde-insertChartPanel-chartSubtype-stackedBar": "Skládaný bar",
+		"vssde-insertChartPanel-chartSubtype-100%StackedBar": "100% skládaný pruh",
+		"vssde-insertChartPanel-chartSubtype-area": "Plocha",
+		"vssde-insertChartPanel-chartSubtype-stackedArea": "Složená oblast",
+		"vssde-insertChartPanel-chartSubtype-100%StackedArea": "100% složená plocha",
+		"vssde-insertChartPanel-fileArg0IsNotFound": "Soubor '{0}' nebyl nalezen.",
+		"vssde-insertChartPanel-supportedChartTypesAreNotFound": "Podporované typy grafů nebyly nalezeny.",
+		"vssde-insertChartPanel-notSupportedChartType": "Nepodporovaný typ grafu.",
+		"vssde-insertChartPanel-supportedChartSubtypesAreNotFound": "Podporované podtypy grafu nebyly nalezeny.",
+		"vssde-insertChartPanel-notSupportedChartSubtype": "Nepodporovaný podtyp grafu.",
+		"vssde-insertChartPanel-chartTemplateContainsTwoIdenticalNamesForChartSubtypes": "Šablona grafu obsahuje 2 stejné názvy pro podtypy grafu.",
+		"vssde-insertChartPanel-chartTemplateContainsTwoIdenticalNamesForChartTypes": "Šablona grafu obsahuje 2 stejné názvy typů grafů.",
+		"vssde-insertChartPanel-pleaseSpecifyCellsWhichContainTheChartDataIncludeNamesForRowsAndColumns": "Zadejte buňky, které obsahují data grafu (včetně názvů řádků a sloupců).",
+		"vssde-insertChartPanel-chartSubtypeArg0HasMultipleDeclarationsOnDifferentWorksheets": "Podtyp grafu '{0}' má více deklarací v různých listech.",
+		"vssde-insertChartPanel-sheetArg0IsNotFound": "List '{0}' nebyl nalezen."
 	}
 }

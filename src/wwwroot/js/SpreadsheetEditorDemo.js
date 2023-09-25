@@ -183,6 +183,15 @@ function __createDocumentViewerDialogsForLocalization() {
 
     var editCommentDialog = new Vintasoft.Imaging.Office.UI.Dialogs.WebUiEditCommentDialogJS(spreadsheetEditorControl);
     editCommentDialog.render(floatingContainer);
+
+    var cellNumberFormatDialog = new Vintasoft.Imaging.Office.UI.Dialogs.WebUiCellNumberFormatDialogJS(spreadsheetEditorControl);
+    cellNumberFormatDialog.render(floatingContainer);
+
+    var insertChartDialog = new Vintasoft.Imaging.Office.UI.Dialogs.WebUiInsertChartDialogJS(spreadsheetEditorControl, "ChartSource.xlsx");
+    insertChartDialog.render(floatingContainer);
+
+    var editChartPropertiesDialog = new Vintasoft.Imaging.Office.UI.Dialogs.WebUiEditChartPropertiesDialogJS(spreadsheetEditorControl);
+    editChartPropertiesDialog.render(floatingContainer);
 }
 
 /**

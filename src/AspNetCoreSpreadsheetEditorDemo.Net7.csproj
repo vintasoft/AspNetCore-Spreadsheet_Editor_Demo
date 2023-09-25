@@ -2,7 +2,7 @@
 
 	<PropertyGroup>
 		<TargetFramework>net7.0</TargetFramework>
-		<Version>12.2.7.1</Version>
+		<Version>12.2.8.1</Version>
 		<EnableDefaultItems>false</EnableDefaultItems>
 	</PropertyGroup>
 
@@ -135,6 +135,7 @@
   <None Include="wwwroot\lib\jquery\dist\jquery.min.map" />
   <None Include="wwwroot\lib\Vintasoft\Vintasoft.Imaging.js" />
   <None Include="wwwroot\lib\Vintasoft\Vintasoft.Shared.js" />
+  <None Include="wwwroot\Resources\ChartSource.xlsx" />
   <None Include="wwwroot\UploadedImageFiles\SalesReport.xlsx" />
   <Folder Include="wwwroot\VintasoftCache\" />
 </ItemGroup>

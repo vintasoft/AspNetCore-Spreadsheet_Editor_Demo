@@ -110,6 +110,9 @@
 				"text": "Szöveg"
 			}
 		},
+		"numberFormatButton": {
+			"title": "Számformátum"
+		},
 		"showFormulasButton": {
 			"title": "Képletek megjelenítése"
 		},
@@ -196,6 +199,9 @@
 		},
 		"insertPictureButton": {
 			"title": "Kép hozzáadása"
+		},
+		"insertChartButton": {
+			"title": "Diagram beszúrása"
 		},
 		"editCommentButton": {
 			"title": "Megjegyzés szerkesztése"
@@ -341,6 +347,9 @@
 		"deleteImageLabel": {
 			"text": "Törlés"
 		},
+		"propertiesLabel": {
+			"text": "Tulajdonságok..."
+		},
 		"deleteCellAndShiftLeftLabel": {
 			"text": "Cella törlése és balra helyezés"
 		},
@@ -418,6 +427,17 @@
 			},
 			"commentLabel": {
 				"text": "Megjegyzés:"
+			},
+			"okButton": {
+				"value": "Rendben"
+			},
+			"cancelButton": {
+				"value": "Mégse"
+			}
+		},
+		"editChartDialog": {
+			"titleLabel": {
+				"text": "Cím:"
 			},
 			"okButton": {
 				"value": "Rendben"
@@ -546,6 +566,82 @@
 			"cancelButton": {
 				"value": "Mégse"
 			}
+		},
+		"setCellNumberFormatDialog": {
+			"General": {
+				"text": "Általános"
+			},
+			"Number": {
+				"text": "Numerikus"
+			},
+			"Currency": {
+				"text": "Pénz"
+			},
+			"Date": {
+				"text": "Dátum"
+			},
+			"Time": {
+				"text": "Idő"
+			},
+			"Percentage": {
+				"text": "Százalék"
+			},
+			"Scientific": {
+				"text": "Exponenciális"
+			},
+			"Text": {
+				"text": "Szöveg"
+			},
+			"Custom": {
+				"text": "Egyedi"
+			},
+			"generalFormatDescriptionLabel": {
+				"text": "Az általános formátumú celláknak nincs meghatározott számformátumuk."
+			},
+			"numberDecimalPlacesLabel": {
+				"text": "Tizedes jel:"
+			},
+			"useThousandsSeparatorLabel": {
+				"text": "Használjon 1000-es elválasztót"
+			},
+			"numberNegativeValuesLabel": {
+				"text": "Negatív értékek:"
+			},
+			"changeTextColorToRedLabel": {
+				"text": "Módosítsa a szöveg színét pirosra"
+			},
+			"hideMinusSignLabel": {
+				"text": "Mínusz jel elrejtése"
+			},
+			"currencyDecimalPlacesLabel": {
+				"text": "Tizedes jel:"
+			},
+			"currencySymbolLabel": {
+				"text": "Szimbólum:"
+			},
+			"percentageDecimalPlacesLabel": {
+				"text": "Tizedes jel:"
+			},
+			"scientificDecimalPlacesLabel": {
+				"text": "Tizedes jel:"
+			},
+			"textFormatDescriptionLabel": {
+				"text": "A szöveges formátumú cellákat a rendszer szövegként kezeli, még akkor is, ha a cellában szám szerepel."
+			},
+			"okButton": {
+				"value": "Rendben"
+			},
+			"cancelButton": {
+				"value": "Mégse"
+			}
+		},
+		"insertChartDialog": {
+			"okButton": {
+				"value": "Rendben"
+			},
+			"cancelButton": {
+				"value": "Mégse"
+			}
 		}
 	},
 	"strings": {
@@ -578,11 +674,58 @@
 		"vssde-dialog-okButton": "Rendben",
 		"vssde-dialog-cancelButton": "Mégse",
 		"vssde-editCommentDialog-title": "Megjegyzés szerkesztése",
+		"vssde-editChartDialog-title": "Diagram szerkesztése",
+		"vssde-editChartPropertiesPanel-spreadsheetEditorDoesNotHaveFocusedChart": "A táblázatszerkesztőnek nincs fókuszált diagramja.",
+		"vssde-editChartPropertiesPanel-selectedDrawingIsNotChart": "A kiválasztott rajz nem diagram.",
 		"vssde-renameWorksheetDialog-title": "Lap átnevezése",
 		"vssde-moveWorksheetDialog-title": "Lap mozgatása",
 		"vssde-findTextDialog-title": "Szöveg keresése",
 		"vssde-findTextDialog-findNextButton": "Következő keresése",
 		"vssde-dialog-closeButton": "Bezárás",
-		"vssde-selectFunctionDialog-title": "Függvény beszúrása"
+		"vssde-selectFunctionDialog-title": "Függvény beszúrása",
+		"vssde-cellNumberFormatDialog-title": "Cell formátum",
+		"vssde-insertChartDialog-title": "Diagram beszúrása",
+		"vssde-insertChartPanel-chartType-column": "Oszlop",
+		"vssde-insertChartPanel-chartType-line": "Vonal",
+		"vssde-insertChartPanel-chartType-pie": "Pite",
+		"vssde-insertChartPanel-chartType-bar": "Rúd",
+		"vssde-insertChartPanel-chartType-area": "Terület",
+		"vssde-insertChartPanel-chartSubtype-clusteredColumn": "Csoportosított oszlop",
+		"vssde-insertChartPanel-chartSubtype-stackedColumn": "Halmozott oszlop",
+		"vssde-insertChartPanel-chartSubtype-100%StackedColumn": "100% halmozott oszlop",
+		"vssde-insertChartPanel-chartSubtype-3DClusteredColumn": "3D csoportosított oszlop",
+		"vssde-insertChartPanel-chartSubtype-3DStackedColumn": "3D halmozott oszlop",
+		"vssde-insertChartPanel-chartSubtype-3D100%StackedColumn": "3D 100%-ban halmozott oszlop",
+		"vssde-insertChartPanel-chartSubtype-line": "Vonal",
+		"vssde-insertChartPanel-chartSubtype-stackedLine": "Halmozott sor",
+		"vssde-insertChartPanel-chartSubtype-100%StackedLine": "100% halmozott vonal",
+		"vssde-insertChartPanel-chartSubtype-lineWithMarkers": "Vonal Markerekkel",
+		"vssde-insertChartPanel-chartSubtype-stackedLineWithMarkers": "Halmozott vonal Markerekkel",
+		"vssde-insertChartPanel-chartSubtype-100%StackedLineWithMar": "100% halmozott vonal markerekkel",
+		"vssde-insertChartPanel-chartSubtype-curvedLine": "Ívelt vonal",
+		"vssde-insertChartPanel-chartSubtype-stackedCurvedLine": "Halmozott ívelt vonal",
+		"vssde-insertChartPanel-chartSubtype-100%StackedCurvedLine": "100% halmozott ívelt vonal",
+		"vssde-insertChartPanel-chartSubtype-curvedLineWithMarkers": "Ívelt vonal Markerekkel",
+		"vssde-insertChartPanel-chartSubtype-stackedCurvLineWithMark": "Halmozott ívelt vonal jelölőkkel",
+		"vssde-insertChartPanel-chartSubtype-100%StackedCurvLineMark": "100%-ban halmozott íves vonal markerekkel",
+		"vssde-insertChartPanel-chartSubtype-pie": "Pite",
+		"vssde-insertChartPanel-chartSubtype-pieExplosion": "Pite (robbanás)",
+		"vssde-insertChartPanel-chartSubtype-doughnut": "Fánk",
+		"vssde-insertChartPanel-chartSubtype-clusteredBar": "Csoportosított bár",
+		"vssde-insertChartPanel-chartSubtype-stackedBar": "Halmozott bár",
+		"vssde-insertChartPanel-chartSubtype-100%StackedBar": "100%-ban halmozott rúd",
+		"vssde-insertChartPanel-chartSubtype-area": "Terület",
+		"vssde-insertChartPanel-chartSubtype-stackedArea": "Halmozott terület",
+		"vssde-insertChartPanel-chartSubtype-100%StackedArea": "100% halmozott terület",
+		"vssde-insertChartPanel-fileArg0IsNotFound": "A(z) '{0}' fájl nem található.",
+		"vssde-insertChartPanel-supportedChartTypesAreNotFound": "A támogatott diagramtípusok nem találhatók.",
+		"vssde-insertChartPanel-notSupportedChartType": "Nem támogatott diagramtípus.",
+		"vssde-insertChartPanel-supportedChartSubtypesAreNotFound": "A támogatott diagram-altípusok nem találhatók.",
+		"vssde-insertChartPanel-notSupportedChartSubtype": "Nem támogatott diagram altípus.",
+		"vssde-insertChartPanel-chartTemplateContainsTwoIdenticalNamesForChartSubtypes": "A diagramsablon 2 azonos nevet tartalmaz a diagramaltípusokhoz.",
+		"vssde-insertChartPanel-chartTemplateContainsTwoIdenticalNamesForChartTypes": "A diagramsablon 2 azonos nevet tartalmaz a diagramtípusokhoz.",
+		"vssde-insertChartPanel-pleaseSpecifyCellsWhichContainTheChartDataIncludeNamesForRowsAndColumns": "Kérjük, adja meg azokat a cellákat, amelyek a diagram adatait tartalmazzák (adja meg a sorok és oszlopok nevét).",
+		"vssde-insertChartPanel-chartSubtypeArg0HasMultipleDeclarationsOnDifferentWorksheets": "A(z) '{0}' diagramaltípus több deklarációt tartalmaz különböző munkalapokon.",
+		"vssde-insertChartPanel-sheetArg0IsNotFound": "A(z) '{0}' munkalap nem található."
 	}
 }

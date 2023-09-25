@@ -110,6 +110,9 @@
 				"text": "Maandishi"
 			}
 		},
+		"numberFormatButton": {
+			"title": "Muundo wa Nambari"
+		},
 		"showFormulasButton": {
 			"title": "Onyesha fomula"
 		},
@@ -196,6 +199,9 @@
 		},
 		"insertPictureButton": {
 			"title": "Ongeza picha"
+		},
+		"insertChartButton": {
+			"title": "Weka Chati"
 		},
 		"editCommentButton": {
 			"title": "Hariri maoni"
@@ -341,6 +347,9 @@
 		"deleteImageLabel": {
 			"text": "Futa"
 		},
+		"propertiesLabel": {
+			"text": "Sifa..."
+		},
 		"deleteCellAndShiftLeftLabel": {
 			"text": "Futa kisanduku na usogeze kushoto"
 		},
@@ -418,6 +427,17 @@
 			},
 			"commentLabel": {
 				"text": "Maoni:"
+			},
+			"okButton": {
+				"value": "sawa"
+			},
+			"cancelButton": {
+				"value": "Ghairi"
+			}
+		},
+		"editChartDialog": {
+			"titleLabel": {
+				"text": "Kichwa:"
 			},
 			"okButton": {
 				"value": "sawa"
@@ -546,6 +566,82 @@
 			"cancelButton": {
 				"value": "Ghairi"
 			}
+		},
+		"setCellNumberFormatDialog": {
+			"General": {
+				"text": "Mkuu"
+			},
+			"Number": {
+				"text": "Nambari"
+			},
+			"Currency": {
+				"text": "Sarafu"
+			},
+			"Date": {
+				"text": "Tarehe"
+			},
+			"Time": {
+				"text": "Muda"
+			},
+			"Percentage": {
+				"text": "Asilimia"
+			},
+			"Scientific": {
+				"text": "Kisayansi"
+			},
+			"Text": {
+				"text": "Maandishi"
+			},
+			"Custom": {
+				"text": "Desturi"
+			},
+			"generalFormatDescriptionLabel": {
+				"text": "Seli za umbizo la jumla hazina umbizo maalum la nambari."
+			},
+			"numberDecimalPlacesLabel": {
+				"text": "Maeneo ya decimal:"
+			},
+			"useThousandsSeparatorLabel": {
+				"text": "Tumia kitenganishi 1000"
+			},
+			"numberNegativeValuesLabel": {
+				"text": "Maadili hasi:"
+			},
+			"changeTextColorToRedLabel": {
+				"text": "Badilisha rangi ya maandishi kuwa nyekundu"
+			},
+			"hideMinusSignLabel": {
+				"text": "Ficha ishara ya kuondoa"
+			},
+			"currencyDecimalPlacesLabel": {
+				"text": "Maeneo ya decimal:"
+			},
+			"currencySymbolLabel": {
+				"text": "Alama:"
+			},
+			"percentageDecimalPlacesLabel": {
+				"text": "Maeneo ya decimal:"
+			},
+			"scientificDecimalPlacesLabel": {
+				"text": "Maeneo ya decimal:"
+			},
+			"textFormatDescriptionLabel": {
+				"text": "Seli za umbizo la maandishi huchukuliwa kama maandishi hata kama nambari iko kwenye kisanduku."
+			},
+			"okButton": {
+				"value": "sawa"
+			},
+			"cancelButton": {
+				"value": "Ghairi"
+			}
+		},
+		"insertChartDialog": {
+			"okButton": {
+				"value": "sawa"
+			},
+			"cancelButton": {
+				"value": "Ghairi"
+			}
 		}
 	},
 	"strings": {
@@ -578,11 +674,58 @@
 		"vssde-dialog-okButton": "sawa",
 		"vssde-dialog-cancelButton": "Ghairi",
 		"vssde-editCommentDialog-title": "Hariri maoni",
+		"vssde-editChartDialog-title": "Badilisha Chati",
+		"vssde-editChartPropertiesPanel-spreadsheetEditorDoesNotHaveFocusedChart": "Kihariri cha lahajedwali hakina chati iliyolengwa.",
+		"vssde-editChartPropertiesPanel-selectedDrawingIsNotChart": "Mchoro uliochaguliwa sio chati.",
 		"vssde-renameWorksheetDialog-title": "Badilisha Jina la Karatasi ya Kazi",
 		"vssde-moveWorksheetDialog-title": "Hamisha Karatasi ya Kazi",
 		"vssde-findTextDialog-title": "Tafuta Maandishi",
 		"vssde-findTextDialog-findNextButton": "Tafuta Inayofuata",
 		"vssde-dialog-closeButton": "Funga",
-		"vssde-selectFunctionDialog-title": "Ingiza Kazi"
+		"vssde-selectFunctionDialog-title": "Ingiza Kazi",
+		"vssde-cellNumberFormatDialog-title": "Umbizo la Kiini",
+		"vssde-insertChartDialog-title": "Weka Chati",
+		"vssde-insertChartPanel-chartType-column": "Safu",
+		"vssde-insertChartPanel-chartType-line": "Mstari",
+		"vssde-insertChartPanel-chartType-pie": "Pai",
+		"vssde-insertChartPanel-chartType-bar": "Baa",
+		"vssde-insertChartPanel-chartType-area": "Eneo",
+		"vssde-insertChartPanel-chartSubtype-clusteredColumn": "Safu Iliyounganishwa",
+		"vssde-insertChartPanel-chartSubtype-stackedColumn": "Safu Wima Iliyopangwa",
+		"vssde-insertChartPanel-chartSubtype-100%StackedColumn": "Safu Wima Iliyopangwa kwa 100%.",
+		"vssde-insertChartPanel-chartSubtype-3DClusteredColumn": "Safu Wima Iliyounganishwa ya 3D",
+		"vssde-insertChartPanel-chartSubtype-3DStackedColumn": "Safu wima Zilizopangwa za 3D",
+		"vssde-insertChartPanel-chartSubtype-3D100%StackedColumn": "Safu wima Zilizopangwa za 3D 100%.",
+		"vssde-insertChartPanel-chartSubtype-line": "Mstari",
+		"vssde-insertChartPanel-chartSubtype-stackedLine": "Mstari Uliopangwa",
+		"vssde-insertChartPanel-chartSubtype-100%StackedLine": "100% Laini Iliyopangwa",
+		"vssde-insertChartPanel-chartSubtype-lineWithMarkers": "Line na Alama",
+		"vssde-insertChartPanel-chartSubtype-stackedLineWithMarkers": "Mstari Uliopangwa Kwa Vialama",
+		"vssde-insertChartPanel-chartSubtype-100%StackedLineWithMar": "100% Mstari Uliorundikwa Wenye Alama",
+		"vssde-insertChartPanel-chartSubtype-curvedLine": "Mstari Uliopinda",
+		"vssde-insertChartPanel-chartSubtype-stackedCurvedLine": "Mstari Uliopinda kwa Rafu",
+		"vssde-insertChartPanel-chartSubtype-100%StackedCurvedLine": "100% Mstari Uliopinda kwa Rafu",
+		"vssde-insertChartPanel-chartSubtype-curvedLineWithMarkers": "Mstari Uliopinda Wenye Alama",
+		"vssde-insertChartPanel-chartSubtype-stackedCurvLineWithMark": "Mstari Uliopinda kwa Rafu Wenye Alama",
+		"vssde-insertChartPanel-chartSubtype-100%StackedCurvLineMark": "100% Mstari Uliopindana Wenye Alama",
+		"vssde-insertChartPanel-chartSubtype-pie": "Pai",
+		"vssde-insertChartPanel-chartSubtype-pieExplosion": "Pai (Mlipuko)",
+		"vssde-insertChartPanel-chartSubtype-doughnut": "Donati",
+		"vssde-insertChartPanel-chartSubtype-clusteredBar": "Baa Iliyounganishwa",
+		"vssde-insertChartPanel-chartSubtype-stackedBar": "Upau Uliopangwa",
+		"vssde-insertChartPanel-chartSubtype-100%StackedBar": "Upau Uliopangwa kwa 100%.",
+		"vssde-insertChartPanel-chartSubtype-area": "Eneo",
+		"vssde-insertChartPanel-chartSubtype-stackedArea": "Eneo Lililopangwa",
+		"vssde-insertChartPanel-chartSubtype-100%StackedArea": "Eneo Lililopangwa kwa 100%.",
+		"vssde-insertChartPanel-fileArg0IsNotFound": "Faili '{0}' haipatikani.",
+		"vssde-insertChartPanel-supportedChartTypesAreNotFound": "Aina za chati zinazotumika hazipatikani.",
+		"vssde-insertChartPanel-notSupportedChartType": "Aina ya chati haitumiki.",
+		"vssde-insertChartPanel-supportedChartSubtypesAreNotFound": "Aina ndogo za chati zinazotumika hazipatikani.",
+		"vssde-insertChartPanel-notSupportedChartSubtype": "Aina ndogo ya chati haitumiki.",
+		"vssde-insertChartPanel-chartTemplateContainsTwoIdenticalNamesForChartSubtypes": "Kiolezo cha chati kina majina 2 yanayofanana ya aina ndogo za chati.",
+		"vssde-insertChartPanel-chartTemplateContainsTwoIdenticalNamesForChartTypes": "Kiolezo cha chati kina majina 2 yanayofanana kwa aina za chati.",
+		"vssde-insertChartPanel-pleaseSpecifyCellsWhichContainTheChartDataIncludeNamesForRowsAndColumns": "Tafadhali bainisha visanduku, ambavyo vina data ya chati (pamoja na majina ya safu mlalo na safu wima).",
+		"vssde-insertChartPanel-chartSubtypeArg0HasMultipleDeclarationsOnDifferentWorksheets": "Aina ndogo ya chati '{0}' ina matamko mengi kwenye laha kazi tofauti.",
+		"vssde-insertChartPanel-sheetArg0IsNotFound": "Laha '{0}' haipatikani."
 	}
 }

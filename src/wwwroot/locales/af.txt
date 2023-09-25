@@ -110,6 +110,9 @@
 				"text": "Teks"
 			}
 		},
+		"numberFormatButton": {
+			"title": "Getalformaat"
+		},
 		"showFormulasButton": {
 			"title": "Wys formules"
 		},
@@ -196,6 +199,9 @@
 		},
 		"insertPictureButton": {
 			"title": "Voeg prentjie by"
+		},
+		"insertChartButton": {
+			"title": "Voeg grafiek in"
 		},
 		"editCommentButton": {
 			"title": "Wysig opmerking"
@@ -341,6 +347,9 @@
 		"deleteImageLabel": {
 			"text": "Vee uit"
 		},
+		"propertiesLabel": {
+			"text": "Eiendomme..."
+		},
 		"deleteCellAndShiftLeftLabel": {
 			"text": "Vee sel uit en beweeg links"
 		},
@@ -418,6 +427,17 @@
 			},
 			"commentLabel": {
 				"text": "Opmerking:"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Kanselleer"
+			}
+		},
+		"editChartDialog": {
+			"titleLabel": {
+				"text": "Titel:"
 			},
 			"okButton": {
 				"value": "OK"
@@ -546,6 +566,82 @@
 			"cancelButton": {
 				"value": "Kanselleer"
 			}
+		},
+		"setCellNumberFormatDialog": {
+			"General": {
+				"text": "Algemeen"
+			},
+			"Number": {
+				"text": "Numeries"
+			},
+			"Currency": {
+				"text": "Geld"
+			},
+			"Date": {
+				"text": "Datum"
+			},
+			"Time": {
+				"text": "Tyd"
+			},
+			"Percentage": {
+				"text": "Persentasie"
+			},
+			"Scientific": {
+				"text": "Eksponensieel"
+			},
+			"Text": {
+				"text": "Teks"
+			},
+			"Custom": {
+				"text": "Gepasmaak"
+			},
+			"generalFormatDescriptionLabel": {
+				"text": "Algemene formaat selle het geen spesifieke getalformaat nie."
+			},
+			"numberDecimalPlacesLabel": {
+				"text": "Desimale plekke:"
+			},
+			"useThousandsSeparatorLabel": {
+				"text": "Gebruik 1000 skeier"
+			},
+			"numberNegativeValuesLabel": {
+				"text": "Negatiewe waardes:"
+			},
+			"changeTextColorToRedLabel": {
+				"text": "Verander tekskleur na rooi"
+			},
+			"hideMinusSignLabel": {
+				"text": "Versteek minusteken"
+			},
+			"currencyDecimalPlacesLabel": {
+				"text": "Desimale plekke:"
+			},
+			"currencySymbolLabel": {
+				"text": "Simbool:"
+			},
+			"percentageDecimalPlacesLabel": {
+				"text": "Desimale plekke:"
+			},
+			"scientificDecimalPlacesLabel": {
+				"text": "Desimale plekke:"
+			},
+			"textFormatDescriptionLabel": {
+				"text": "Teksformaat selle word as teks hanteer, selfs al is 'n nommer in die sel."
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Kanselleer"
+			}
+		},
+		"insertChartDialog": {
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Kanselleer"
+			}
 		}
 	},
 	"strings": {
@@ -578,11 +674,58 @@
 		"vssde-dialog-okButton": "OK",
 		"vssde-dialog-cancelButton": "Kanselleer",
 		"vssde-editCommentDialog-title": "Wysig opmerking",
+		"vssde-editChartDialog-title": "Wysig grafiek",
+		"vssde-editChartPropertiesPanel-spreadsheetEditorDoesNotHaveFocusedChart": "Die sigbladredigeerder het nie gefokusde grafiek nie.",
+		"vssde-editChartPropertiesPanel-selectedDrawingIsNotChart": "Geselekteerde tekening is nie 'n grafiek nie.",
 		"vssde-renameWorksheetDialog-title": "Hernoem blad",
 		"vssde-moveWorksheetDialog-title": "Skuif blad",
 		"vssde-findTextDialog-title": "Vind teks",
 		"vssde-findTextDialog-findNextButton": "Vind volgende",
 		"vssde-dialog-closeButton": "Maak toe",
-		"vssde-selectFunctionDialog-title": "Voeg funksie in"
+		"vssde-selectFunctionDialog-title": "Voeg funksie in",
+		"vssde-cellNumberFormatDialog-title": "Selformaat",
+		"vssde-insertChartDialog-title": "Voeg grafiek in",
+		"vssde-insertChartPanel-chartType-column": "Kolom",
+		"vssde-insertChartPanel-chartType-line": "Lyn",
+		"vssde-insertChartPanel-chartType-pie": "Pastei",
+		"vssde-insertChartPanel-chartType-bar": "Kroeg",
+		"vssde-insertChartPanel-chartType-area": "Gebied",
+		"vssde-insertChartPanel-chartSubtype-clusteredColumn": "Gegroepeerde kolom",
+		"vssde-insertChartPanel-chartSubtype-stackedColumn": "Gestapelde kolom",
+		"vssde-insertChartPanel-chartSubtype-100%StackedColumn": "100% gestapelde kolom",
+		"vssde-insertChartPanel-chartSubtype-3DClusteredColumn": "3D-gegroepeerde kolom",
+		"vssde-insertChartPanel-chartSubtype-3DStackedColumn": "3D gestapelde kolom",
+		"vssde-insertChartPanel-chartSubtype-3D100%StackedColumn": "3D 100% gestapelde kolom",
+		"vssde-insertChartPanel-chartSubtype-line": "Lyn",
+		"vssde-insertChartPanel-chartSubtype-stackedLine": "Gestapelde lyn",
+		"vssde-insertChartPanel-chartSubtype-100%StackedLine": "100% gestapelde lyn",
+		"vssde-insertChartPanel-chartSubtype-lineWithMarkers": "Lyn Met Merkers",
+		"vssde-insertChartPanel-chartSubtype-stackedLineWithMarkers": "Gestapelde lyn met merkers",
+		"vssde-insertChartPanel-chartSubtype-100%StackedLineWithMar": "100% gestapelde lyn met merkers",
+		"vssde-insertChartPanel-chartSubtype-curvedLine": "Geboë lyn",
+		"vssde-insertChartPanel-chartSubtype-stackedCurvedLine": "Gestapelde geboë lyn",
+		"vssde-insertChartPanel-chartSubtype-100%StackedCurvedLine": "100% gestapelde geboë lyn",
+		"vssde-insertChartPanel-chartSubtype-curvedLineWithMarkers": "Geboë lyn met merkers",
+		"vssde-insertChartPanel-chartSubtype-stackedCurvLineWithMark": "Gestapelde geboë lyn met merkers",
+		"vssde-insertChartPanel-chartSubtype-100%StackedCurvLineMark": "100% gestapelde geboë lyn met merkers",
+		"vssde-insertChartPanel-chartSubtype-pie": "Pastei",
+		"vssde-insertChartPanel-chartSubtype-pieExplosion": "Pastei (ontploffing)",
+		"vssde-insertChartPanel-chartSubtype-doughnut": "Doughnut",
+		"vssde-insertChartPanel-chartSubtype-clusteredBar": "Gegroepeerde kroeg",
+		"vssde-insertChartPanel-chartSubtype-stackedBar": "Gestapelde Bar",
+		"vssde-insertChartPanel-chartSubtype-100%StackedBar": "100% gestapelde staaf",
+		"vssde-insertChartPanel-chartSubtype-area": "Gebied",
+		"vssde-insertChartPanel-chartSubtype-stackedArea": "Gestapelde area",
+		"vssde-insertChartPanel-chartSubtype-100%StackedArea": "100% gestapelde area",
+		"vssde-insertChartPanel-fileArg0IsNotFound": "Lêer '{0}' is nie gevind nie.",
+		"vssde-insertChartPanel-supportedChartTypesAreNotFound": "Ondersteunde grafiektipes word nie gevind nie.",
+		"vssde-insertChartPanel-notSupportedChartType": "Nie ondersteunde grafiektipe nie.",
+		"vssde-insertChartPanel-supportedChartSubtypesAreNotFound": "Ondersteunde grafieksubtipes word nie gevind nie.",
+		"vssde-insertChartPanel-notSupportedChartSubtype": "Nie gesteunde grafieksubtipe nie.",
+		"vssde-insertChartPanel-chartTemplateContainsTwoIdenticalNamesForChartSubtypes": "Die grafieksjabloon bevat 2 identiese name vir grafieksubtipes.",
+		"vssde-insertChartPanel-chartTemplateContainsTwoIdenticalNamesForChartTypes": "Die grafieksjabloon bevat 2 identiese name vir grafiektipes.",
+		"vssde-insertChartPanel-pleaseSpecifyCellsWhichContainTheChartDataIncludeNamesForRowsAndColumns": "Spesifiseer asseblief selle wat die grafiekdata bevat (sluit name vir rye en kolomme in).",
+		"vssde-insertChartPanel-chartSubtypeArg0HasMultipleDeclarationsOnDifferentWorksheets": "Grafieksubtipe '{0}' het veelvuldige verklarings op verskillende werkblaaie.",
+		"vssde-insertChartPanel-sheetArg0IsNotFound": "Blad '{0}' is nie gevind nie."
 	}
 }

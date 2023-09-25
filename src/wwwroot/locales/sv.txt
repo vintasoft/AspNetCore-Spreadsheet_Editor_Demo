@@ -110,6 +110,9 @@
 				"text": "Text"
 			}
 		},
+		"numberFormatButton": {
+			"title": "Nummerformat"
+		},
 		"showFormulasButton": {
 			"title": "Visa formler"
 		},
@@ -196,6 +199,9 @@
 		},
 		"insertPictureButton": {
 			"title": "Lägg till bild"
+		},
+		"insertChartButton": {
+			"title": "Infoga diagram"
 		},
 		"editCommentButton": {
 			"title": "Redigera kommentar"
@@ -341,6 +347,9 @@
 		"deleteImageLabel": {
 			"text": "Ta bort"
 		},
+		"propertiesLabel": {
+			"text": "Egenskaper..."
+		},
 		"deleteCellAndShiftLeftLabel": {
 			"text": "Ta bort cell och flytta vänster"
 		},
@@ -418,6 +427,17 @@
 			},
 			"commentLabel": {
 				"text": "Kommentar:"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Avbryt"
+			}
+		},
+		"editChartDialog": {
+			"titleLabel": {
+				"text": "Titel:"
 			},
 			"okButton": {
 				"value": "OK"
@@ -546,6 +566,82 @@
 			"cancelButton": {
 				"value": "Avbryt"
 			}
+		},
+		"setCellNumberFormatDialog": {
+			"General": {
+				"text": "Allmänt"
+			},
+			"Number": {
+				"text": "Numerisk"
+			},
+			"Currency": {
+				"text": "Pengar"
+			},
+			"Date": {
+				"text": "Datum"
+			},
+			"Time": {
+				"text": "Tid"
+			},
+			"Percentage": {
+				"text": "Procentandel"
+			},
+			"Scientific": {
+				"text": "Exponentiell"
+			},
+			"Text": {
+				"text": "Text"
+			},
+			"Custom": {
+				"text": "Anpassad"
+			},
+			"generalFormatDescriptionLabel": {
+				"text": "Generellt format celler har inget specifikt talformat."
+			},
+			"numberDecimalPlacesLabel": {
+				"text": "Decimaler:"
+			},
+			"useThousandsSeparatorLabel": {
+				"text": "Använd 1000 separator"
+			},
+			"numberNegativeValuesLabel": {
+				"text": "Negativa värden:"
+			},
+			"changeTextColorToRedLabel": {
+				"text": "Ändra textfärg till röd"
+			},
+			"hideMinusSignLabel": {
+				"text": "Dölj minustecken"
+			},
+			"currencyDecimalPlacesLabel": {
+				"text": "Decimaler:"
+			},
+			"currencySymbolLabel": {
+				"text": "Symbol:"
+			},
+			"percentageDecimalPlacesLabel": {
+				"text": "Decimaler:"
+			},
+			"scientificDecimalPlacesLabel": {
+				"text": "Decimaler:"
+			},
+			"textFormatDescriptionLabel": {
+				"text": "Textformatceller behandlas som text även om ett nummer finns i cellen."
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Avbryt"
+			}
+		},
+		"insertChartDialog": {
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Avbryt"
+			}
 		}
 	},
 	"strings": {
@@ -578,11 +674,58 @@
 		"vssde-dialog-okButton": "OK",
 		"vssde-dialog-cancelButton": "Avbryt",
 		"vssde-editCommentDialog-title": "Redigera kommentar",
+		"vssde-editChartDialog-title": "Redigera diagram",
+		"vssde-editChartPropertiesPanel-spreadsheetEditorDoesNotHaveFocusedChart": "Kalkylarksredigeraren har inget fokuserat diagram.",
+		"vssde-editChartPropertiesPanel-selectedDrawingIsNotChart": "Den valda ritningen är inte ett diagram.",
 		"vssde-renameWorksheetDialog-title": "Byt namn på ark",
 		"vssde-moveWorksheetDialog-title": "Flytta ark",
 		"vssde-findTextDialog-title": "Hitta text",
 		"vssde-findTextDialog-findNextButton": "Hitta nästa",
 		"vssde-dialog-closeButton": "Stäng",
-		"vssde-selectFunctionDialog-title": "Infoga funktion"
+		"vssde-selectFunctionDialog-title": "Infoga funktion",
+		"vssde-cellNumberFormatDialog-title": "Cellformat",
+		"vssde-insertChartDialog-title": "Infoga diagram",
+		"vssde-insertChartPanel-chartType-column": "Kolumn",
+		"vssde-insertChartPanel-chartType-line": "Linje",
+		"vssde-insertChartPanel-chartType-pie": "Paj",
+		"vssde-insertChartPanel-chartType-bar": "Bar",
+		"vssde-insertChartPanel-chartType-area": "Område",
+		"vssde-insertChartPanel-chartSubtype-clusteredColumn": "Klustrad kolumn",
+		"vssde-insertChartPanel-chartSubtype-stackedColumn": "Staplad kolumn",
+		"vssde-insertChartPanel-chartSubtype-100%StackedColumn": "100 % staplad kolumn",
+		"vssde-insertChartPanel-chartSubtype-3DClusteredColumn": "3D-klustrad kolumn",
+		"vssde-insertChartPanel-chartSubtype-3DStackedColumn": "3D staplad kolumn",
+		"vssde-insertChartPanel-chartSubtype-3D100%StackedColumn": "3D 100 % staplad kolumn",
+		"vssde-insertChartPanel-chartSubtype-line": "Linje",
+		"vssde-insertChartPanel-chartSubtype-stackedLine": "Staplad linje",
+		"vssde-insertChartPanel-chartSubtype-100%StackedLine": "100 % staplad linje",
+		"vssde-insertChartPanel-chartSubtype-lineWithMarkers": "Linje Med Markörer",
+		"vssde-insertChartPanel-chartSubtype-stackedLineWithMarkers": "Staplad Linje Med Markörer",
+		"vssde-insertChartPanel-chartSubtype-100%StackedLineWithMar": "100 % staplad linje med markörer",
+		"vssde-insertChartPanel-chartSubtype-curvedLine": "Böjd linje",
+		"vssde-insertChartPanel-chartSubtype-stackedCurvedLine": "Staplad böjd linje",
+		"vssde-insertChartPanel-chartSubtype-100%StackedCurvedLine": "100 % staplad krökt linje",
+		"vssde-insertChartPanel-chartSubtype-curvedLineWithMarkers": "Böjd Linje Med Markörer",
+		"vssde-insertChartPanel-chartSubtype-stackedCurvLineWithMark": "Staplad Böjd Linje Med Markörer",
+		"vssde-insertChartPanel-chartSubtype-100%StackedCurvLineMark": "100 % staplad krökt linje med markörer",
+		"vssde-insertChartPanel-chartSubtype-pie": "Paj",
+		"vssde-insertChartPanel-chartSubtype-pieExplosion": "Paj (Explosion)",
+		"vssde-insertChartPanel-chartSubtype-doughnut": "Munk",
+		"vssde-insertChartPanel-chartSubtype-clusteredBar": "Klustrad bar",
+		"vssde-insertChartPanel-chartSubtype-stackedBar": "Staplad bar",
+		"vssde-insertChartPanel-chartSubtype-100%StackedBar": "100 % staplad stång",
+		"vssde-insertChartPanel-chartSubtype-area": "Område",
+		"vssde-insertChartPanel-chartSubtype-stackedArea": "Staplad område",
+		"vssde-insertChartPanel-chartSubtype-100%StackedArea": "100 % staplad yta",
+		"vssde-insertChartPanel-fileArg0IsNotFound": "Filen '{0}' hittades inte.",
+		"vssde-insertChartPanel-supportedChartTypesAreNotFound": "Det går inte att hitta diagramtyper som stöds.",
+		"vssde-insertChartPanel-notSupportedChartType": "Inte stödd diagramtyp.",
+		"vssde-insertChartPanel-supportedChartSubtypesAreNotFound": "Det går inte att hitta några diagramundertyper som stöds.",
+		"vssde-insertChartPanel-notSupportedChartSubtype": "Stöds inte diagramundertyp.",
+		"vssde-insertChartPanel-chartTemplateContainsTwoIdenticalNamesForChartSubtypes": "Diagrammallen innehåller 2 identiska namn för diagramundertyper.",
+		"vssde-insertChartPanel-chartTemplateContainsTwoIdenticalNamesForChartTypes": "Sjökortsmallen innehåller 2 identiska namn för diagramtyper.",
+		"vssde-insertChartPanel-pleaseSpecifyCellsWhichContainTheChartDataIncludeNamesForRowsAndColumns": "Vänligen ange celler som innehåller diagramdata (inkludera namn på rader och kolumner).",
+		"vssde-insertChartPanel-chartSubtypeArg0HasMultipleDeclarationsOnDifferentWorksheets": "Diagramundertypen '{0}' har flera deklarationer på olika kalkylblad.",
+		"vssde-insertChartPanel-sheetArg0IsNotFound": "Bladet '{0}' hittades inte."
 	}
 }

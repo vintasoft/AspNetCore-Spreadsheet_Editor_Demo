@@ -110,6 +110,9 @@
 				"text": "पाठ"
 			}
 		},
+		"numberFormatButton": {
+			"title": "संख्या स्वरूप"
+		},
 		"showFormulasButton": {
 			"title": "सूत्र दिखाएँ"
 		},
@@ -196,6 +199,9 @@
 		},
 		"insertPictureButton": {
 			"title": "चित्र जोड़ें"
+		},
+		"insertChartButton": {
+			"title": "चार्ट सम्मिलित करें"
 		},
 		"editCommentButton": {
 			"title": "टिप्पणी संपादित करें"
@@ -341,6 +347,9 @@
 		"deleteImageLabel": {
 			"text": "हटाएं"
 		},
+		"propertiesLabel": {
+			"text": "गुण..."
+		},
 		"deleteCellAndShiftLeftLabel": {
 			"text": "सेल हटाएँ और बाएँ जाएँ"
 		},
@@ -418,6 +427,17 @@
 			},
 			"commentLabel": {
 				"text": "टिप्पणी:"
+			},
+			"okButton": {
+				"value": "ठीक है"
+			},
+			"cancelButton": {
+				"value": "रद्द करें"
+			}
+		},
+		"editChartDialog": {
+			"titleLabel": {
+				"text": "शीर्षक:"
 			},
 			"okButton": {
 				"value": "ठीक है"
@@ -546,6 +566,82 @@
 			"cancelButton": {
 				"value": "रद्द करें"
 			}
+		},
+		"setCellNumberFormatDialog": {
+			"General": {
+				"text": "सामान्य"
+			},
+			"Number": {
+				"text": "संख्यात्मक"
+			},
+			"Currency": {
+				"text": "पैसा"
+			},
+			"Date": {
+				"text": "तिथि"
+			},
+			"Time": {
+				"text": "समय"
+			},
+			"Percentage": {
+				"text": "प्रतिशत"
+			},
+			"Scientific": {
+				"text": "घातीय"
+			},
+			"Text": {
+				"text": "पाठ"
+			},
+			"Custom": {
+				"text": "कस्टम"
+			},
+			"generalFormatDescriptionLabel": {
+				"text": "सामान्य प्रारूप कोशिकाओं का कोई विशिष्ट संख्या प्रारूप नहीं होता है।"
+			},
+			"numberDecimalPlacesLabel": {
+				"text": "दशमलव स्थानों:"
+			},
+			"useThousandsSeparatorLabel": {
+				"text": "1000 विभाजक का प्रयोग करें"
+			},
+			"numberNegativeValuesLabel": {
+				"text": "नकारात्मक मान:"
+			},
+			"changeTextColorToRedLabel": {
+				"text": "टेक्स्ट का रंग बदलकर लाल करें"
+			},
+			"hideMinusSignLabel": {
+				"text": "ऋण चिह्न छिपाएँ"
+			},
+			"currencyDecimalPlacesLabel": {
+				"text": "दशमलव स्थानों:"
+			},
+			"currencySymbolLabel": {
+				"text": "प्रतीक:"
+			},
+			"percentageDecimalPlacesLabel": {
+				"text": "दशमलव स्थानों:"
+			},
+			"scientificDecimalPlacesLabel": {
+				"text": "दशमलव स्थानों:"
+			},
+			"textFormatDescriptionLabel": {
+				"text": "टेक्स्ट फॉर्मेट सेल को टेक्स्ट के रूप में माना जाता है, भले ही सेल में कोई संख्या हो।"
+			},
+			"okButton": {
+				"value": "ठीक है"
+			},
+			"cancelButton": {
+				"value": "रद्द करें"
+			}
+		},
+		"insertChartDialog": {
+			"okButton": {
+				"value": "ठीक है"
+			},
+			"cancelButton": {
+				"value": "रद्द करें"
+			}
 		}
 	},
 	"strings": {
@@ -573,16 +669,63 @@
 		"vssde-downloadXlsxFile": "XLSX फ़ाइल अपलोड करें",
 		"vssde-exportXlsxToPdf": "XLSX को पीडीएफ में निर्यात करें",
 		"vssde-fileSizeExceedsLimit": "अपलोड की गई फ़ाइल का आकार अधिकतम आकार ({0} बाइट्स) से अधिक है।",
-		"vssde-createXlsxDocumentConfirmation": "एक नई कार्यपुस्तिका बनाना चाहते हैं?",
+		"vssde-createXlsxDocumentConfirmation": "क्या आप एक नई कार्यपुस्तिका बनाना चाहते हैं?",
 		"vssde-insertCommentDialog-title": "टिप्पणी डालें",
 		"vssde-dialog-okButton": "ठीक है",
 		"vssde-dialog-cancelButton": "रद्द करें",
 		"vssde-editCommentDialog-title": "टिप्पणी संपादित करें",
+		"vssde-editChartDialog-title": "चार्ट संपादित करें",
+		"vssde-editChartPropertiesPanel-spreadsheetEditorDoesNotHaveFocusedChart": "स्प्रेडशीट संपादक में फोकस्ड चार्ट नहीं है।",
+		"vssde-editChartPropertiesPanel-selectedDrawingIsNotChart": "चयनित ड्राइंग कोई चार्ट नहीं है.",
 		"vssde-renameWorksheetDialog-title": "शीट का नाम बदलें",
 		"vssde-moveWorksheetDialog-title": "शीट हटाएँ",
 		"vssde-findTextDialog-title": "पाठ ढूँढें",
 		"vssde-findTextDialog-findNextButton": "अगला खोजें",
 		"vssde-dialog-closeButton": "बंद करें",
-		"vssde-selectFunctionDialog-title": "फ़ंक्शन सम्मिलित करें"
+		"vssde-selectFunctionDialog-title": "फ़ंक्शन सम्मिलित करें",
+		"vssde-cellNumberFormatDialog-title": "सेल प्रारूप",
+		"vssde-insertChartDialog-title": "चार्ट सम्मिलित करें",
+		"vssde-insertChartPanel-chartType-column": "स्तंभ",
+		"vssde-insertChartPanel-chartType-line": "लाइन",
+		"vssde-insertChartPanel-chartType-pie": "पाई",
+		"vssde-insertChartPanel-chartType-bar": "छड़",
+		"vssde-insertChartPanel-chartType-area": "क्षेत्र",
+		"vssde-insertChartPanel-chartSubtype-clusteredColumn": "संकुलित स्तम्भ",
+		"vssde-insertChartPanel-chartSubtype-stackedColumn": "स्टैक्ड कॉलम",
+		"vssde-insertChartPanel-chartSubtype-100%StackedColumn": "100% स्टैक्ड कॉलम",
+		"vssde-insertChartPanel-chartSubtype-3DClusteredColumn": "3डी क्लस्टर्ड कॉलम",
+		"vssde-insertChartPanel-chartSubtype-3DStackedColumn": "3डी स्टैक्ड कॉलम",
+		"vssde-insertChartPanel-chartSubtype-3D100%StackedColumn": "3डी 100% स्टैक्ड कॉलम",
+		"vssde-insertChartPanel-chartSubtype-line": "लाइन",
+		"vssde-insertChartPanel-chartSubtype-stackedLine": "स्टैक्ड लाइन",
+		"vssde-insertChartPanel-chartSubtype-100%StackedLine": "100% स्टैक्ड लाइन",
+		"vssde-insertChartPanel-chartSubtype-lineWithMarkers": "मार्करों के साथ लाइन",
+		"vssde-insertChartPanel-chartSubtype-stackedLineWithMarkers": "मार्करों के साथ खड़ी रेखा",
+		"vssde-insertChartPanel-chartSubtype-100%StackedLineWithMar": "मार्करों के साथ 100% स्टैक्ड लाइन",
+		"vssde-insertChartPanel-chartSubtype-curvedLine": "घुमावदार रेखा",
+		"vssde-insertChartPanel-chartSubtype-stackedCurvedLine": "खड़ी घुमावदार रेखा",
+		"vssde-insertChartPanel-chartSubtype-100%StackedCurvedLine": "100% स्टैक्ड घुमावदार रेखा",
+		"vssde-insertChartPanel-chartSubtype-curvedLineWithMarkers": "मार्करों के साथ घुमावदार रेखा",
+		"vssde-insertChartPanel-chartSubtype-stackedCurvLineWithMark": "मार्करों के साथ खड़ी घुमावदार रेखा",
+		"vssde-insertChartPanel-chartSubtype-100%StackedCurvLineMark": "मार्करों के साथ 100% स्टैक्ड घुमावदार रेखा",
+		"vssde-insertChartPanel-chartSubtype-pie": "पाई",
+		"vssde-insertChartPanel-chartSubtype-pieExplosion": "पाई (विस्फोट)",
+		"vssde-insertChartPanel-chartSubtype-doughnut": "डोनट",
+		"vssde-insertChartPanel-chartSubtype-clusteredBar": "क्लस्टर्ड बार",
+		"vssde-insertChartPanel-chartSubtype-stackedBar": "स्टैक्ड बार",
+		"vssde-insertChartPanel-chartSubtype-100%StackedBar": "100% स्टैक्ड बार",
+		"vssde-insertChartPanel-chartSubtype-area": "क्षेत्र",
+		"vssde-insertChartPanel-chartSubtype-stackedArea": "स्टैक्ड क्षेत्र",
+		"vssde-insertChartPanel-chartSubtype-100%StackedArea": "100% स्टैक्ड क्षेत्र",
+		"vssde-insertChartPanel-fileArg0IsNotFound": "फ़ाइल '{0}' नहीं मिली.",
+		"vssde-insertChartPanel-supportedChartTypesAreNotFound": "समर्थित चार्ट प्रकार नहीं मिले.",
+		"vssde-insertChartPanel-notSupportedChartType": "चार्ट प्रकार समर्थित नहीं है.",
+		"vssde-insertChartPanel-supportedChartSubtypesAreNotFound": "समर्थित चार्ट उपप्रकार नहीं मिले.",
+		"vssde-insertChartPanel-notSupportedChartSubtype": "चार्ट उपप्रकार समर्थित नहीं है.",
+		"vssde-insertChartPanel-chartTemplateContainsTwoIdenticalNamesForChartSubtypes": "चार्ट टेम्पलेट में चार्ट उपप्रकारों के लिए 2 समान नाम हैं।",
+		"vssde-insertChartPanel-chartTemplateContainsTwoIdenticalNamesForChartTypes": "चार्ट टेम्पलेट में चार्ट प्रकारों के लिए 2 समान नाम हैं।",
+		"vssde-insertChartPanel-pleaseSpecifyCellsWhichContainTheChartDataIncludeNamesForRowsAndColumns": "कृपया सेल निर्दिष्ट करें, जिसमें चार्ट डेटा शामिल है (पंक्तियों और स्तंभों के नाम शामिल करें)।",
+		"vssde-insertChartPanel-chartSubtypeArg0HasMultipleDeclarationsOnDifferentWorksheets": "चार्ट उपप्रकार '{0}' में विभिन्न कार्यपत्रकों पर एकाधिक घोषणाएँ हैं।",
+		"vssde-insertChartPanel-sheetArg0IsNotFound": "शीट '{0}' नहीं मिली."
 	}
 }

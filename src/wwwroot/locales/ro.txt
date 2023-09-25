@@ -110,6 +110,9 @@
 				"text": "Text"
 			}
 		},
+		"numberFormatButton": {
+			"title": "Format de număr"
+		},
 		"showFormulasButton": {
 			"title": "Afișați formule"
 		},
@@ -196,6 +199,9 @@
 		},
 		"insertPictureButton": {
 			"title": "Adăugați o imagine"
+		},
+		"insertChartButton": {
+			"title": "Inserați diagramă"
 		},
 		"editCommentButton": {
 			"title": "Editați comentariul"
@@ -341,6 +347,9 @@
 		"deleteImageLabel": {
 			"text": "Șterge"
 		},
+		"propertiesLabel": {
+			"text": "Proprietăți..."
+		},
 		"deleteCellAndShiftLeftLabel": {
 			"text": "Șterge celula și muta la stânga"
 		},
@@ -418,6 +427,17 @@
 			},
 			"commentLabel": {
 				"text": "Cometariu:"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Anulează"
+			}
+		},
+		"editChartDialog": {
+			"titleLabel": {
+				"text": "Titlu:"
 			},
 			"okButton": {
 				"value": "OK"
@@ -546,6 +566,82 @@
 			"cancelButton": {
 				"value": "Anulează"
 			}
+		},
+		"setCellNumberFormatDialog": {
+			"General": {
+				"text": "General"
+			},
+			"Number": {
+				"text": "Numeric"
+			},
+			"Currency": {
+				"text": "Bani"
+			},
+			"Date": {
+				"text": "Data"
+			},
+			"Time": {
+				"text": "Timp"
+			},
+			"Percentage": {
+				"text": "Procent"
+			},
+			"Scientific": {
+				"text": "Exponenţial"
+			},
+			"Text": {
+				"text": "Text"
+			},
+			"Custom": {
+				"text": "Personalizat"
+			},
+			"generalFormatDescriptionLabel": {
+				"text": "Celulele cu format general nu au un format de număr specific."
+			},
+			"numberDecimalPlacesLabel": {
+				"text": "Zecimale:"
+			},
+			"useThousandsSeparatorLabel": {
+				"text": "Utilizați separator 1000"
+			},
+			"numberNegativeValuesLabel": {
+				"text": "Valori negative:"
+			},
+			"changeTextColorToRedLabel": {
+				"text": "Schimbați culoarea textului în roșu"
+			},
+			"hideMinusSignLabel": {
+				"text": "Ascunde semnul minus"
+			},
+			"currencyDecimalPlacesLabel": {
+				"text": "Zecimale:"
+			},
+			"currencySymbolLabel": {
+				"text": "Simbol:"
+			},
+			"percentageDecimalPlacesLabel": {
+				"text": "Zecimale:"
+			},
+			"scientificDecimalPlacesLabel": {
+				"text": "Zecimale:"
+			},
+			"textFormatDescriptionLabel": {
+				"text": "Celulele cu format text sunt tratate ca text chiar dacă în celulă se află un număr."
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Anulează"
+			}
+		},
+		"insertChartDialog": {
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Anulează"
+			}
 		}
 	},
 	"strings": {
@@ -573,16 +669,63 @@
 		"vssde-downloadXlsxFile": "Încărcați fișierul XLSX",
 		"vssde-exportXlsxToPdf": "Exportați XLSX în PDF",
 		"vssde-fileSizeExceedsLimit": "Dimensiunea fișierului încărcat depășește dimensiunea maximă ({0} octeți).",
-		"vssde-createXlsxDocumentConfirmation": "Doriți să creați un nou registru de lucru?",
+		"vssde-createXlsxDocumentConfirmation": "Doriți să creați un registru de lucru nou?",
 		"vssde-insertCommentDialog-title": "Inserează comentariu",
 		"vssde-dialog-okButton": "OK",
 		"vssde-dialog-cancelButton": "Anulează",
 		"vssde-editCommentDialog-title": "Editați comentariul",
+		"vssde-editChartDialog-title": "Editați diagrama",
+		"vssde-editChartPropertiesPanel-spreadsheetEditorDoesNotHaveFocusedChart": "Editorul de foi de calcul nu are o diagramă focalizată.",
+		"vssde-editChartPropertiesPanel-selectedDrawingIsNotChart": "Desenul selectat nu este o diagramă.",
 		"vssde-renameWorksheetDialog-title": "Redenumiți foaia",
 		"vssde-moveWorksheetDialog-title": "Mutați foaia",
 		"vssde-findTextDialog-title": "Găsiți text",
 		"vssde-findTextDialog-findNextButton": "Găsiți Următorul",
 		"vssde-dialog-closeButton": "Închidere",
-		"vssde-selectFunctionDialog-title": "Inserare funcție"
+		"vssde-selectFunctionDialog-title": "Inserare funcție",
+		"vssde-cellNumberFormatDialog-title": "Format de celule",
+		"vssde-insertChartDialog-title": "Inserați diagramă",
+		"vssde-insertChartPanel-chartType-column": "Coloană",
+		"vssde-insertChartPanel-chartType-line": "Linie",
+		"vssde-insertChartPanel-chartType-pie": "Plăcintă",
+		"vssde-insertChartPanel-chartType-bar": "Bar",
+		"vssde-insertChartPanel-chartType-area": "Zonă",
+		"vssde-insertChartPanel-chartSubtype-clusteredColumn": "Coloană grupată",
+		"vssde-insertChartPanel-chartSubtype-stackedColumn": "Coloană stivuită",
+		"vssde-insertChartPanel-chartSubtype-100%StackedColumn": "Coloană stivuită 100%.",
+		"vssde-insertChartPanel-chartSubtype-3DClusteredColumn": "Coloană grupată 3D",
+		"vssde-insertChartPanel-chartSubtype-3DStackedColumn": "Coloană stivuită 3D",
+		"vssde-insertChartPanel-chartSubtype-3D100%StackedColumn": "Coloană 3D 100% stivuită",
+		"vssde-insertChartPanel-chartSubtype-line": "Linie",
+		"vssde-insertChartPanel-chartSubtype-stackedLine": "Linie stivuită",
+		"vssde-insertChartPanel-chartSubtype-100%StackedLine": "Linie stivuită 100%.",
+		"vssde-insertChartPanel-chartSubtype-lineWithMarkers": "Linie cu marcatoare",
+		"vssde-insertChartPanel-chartSubtype-stackedLineWithMarkers": "Linie stivuită cu marcatoare",
+		"vssde-insertChartPanel-chartSubtype-100%StackedLineWithMar": "Linie stivuită 100% cu marcatoare",
+		"vssde-insertChartPanel-chartSubtype-curvedLine": "Linie curbată",
+		"vssde-insertChartPanel-chartSubtype-stackedCurvedLine": "Linie curbă stivuită",
+		"vssde-insertChartPanel-chartSubtype-100%StackedCurvedLine": "Linie curbă stivuită 100%.",
+		"vssde-insertChartPanel-chartSubtype-curvedLineWithMarkers": "Linie curbată cu markeri",
+		"vssde-insertChartPanel-chartSubtype-stackedCurvLineWithMark": "Linie curbată stivuită cu marcatoare",
+		"vssde-insertChartPanel-chartSubtype-100%StackedCurvLineMark": "Linie curbă stivuită 100% cu marcatoare",
+		"vssde-insertChartPanel-chartSubtype-pie": "Plăcintă",
+		"vssde-insertChartPanel-chartSubtype-pieExplosion": "Plăcintă (explozie)",
+		"vssde-insertChartPanel-chartSubtype-doughnut": "Gogoașă",
+		"vssde-insertChartPanel-chartSubtype-clusteredBar": "Bar în grup",
+		"vssde-insertChartPanel-chartSubtype-stackedBar": "Bar stivuit",
+		"vssde-insertChartPanel-chartSubtype-100%StackedBar": "Bar 100% stivuit",
+		"vssde-insertChartPanel-chartSubtype-area": "Zonă",
+		"vssde-insertChartPanel-chartSubtype-stackedArea": "Zona stivuită",
+		"vssde-insertChartPanel-chartSubtype-100%StackedArea": "Suprafață stivuită 100%.",
+		"vssde-insertChartPanel-fileArg0IsNotFound": "Fișierul „{0}” nu a fost găsit.",
+		"vssde-insertChartPanel-supportedChartTypesAreNotFound": "Tipurile de diagrame acceptate nu sunt găsite.",
+		"vssde-insertChartPanel-notSupportedChartType": "Tip de diagramă neacceptat.",
+		"vssde-insertChartPanel-supportedChartSubtypesAreNotFound": "Subtipurile de diagrame acceptate nu sunt găsite.",
+		"vssde-insertChartPanel-notSupportedChartSubtype": "Subtip de diagramă neacceptat.",
+		"vssde-insertChartPanel-chartTemplateContainsTwoIdenticalNamesForChartSubtypes": "Șablonul de diagramă conține 2 nume identice pentru subtipurile de diagramă.",
+		"vssde-insertChartPanel-chartTemplateContainsTwoIdenticalNamesForChartTypes": "Șablonul de diagramă conține 2 nume identice pentru tipurile de diagrame.",
+		"vssde-insertChartPanel-pleaseSpecifyCellsWhichContainTheChartDataIncludeNamesForRowsAndColumns": "Vă rugăm să specificați celulele care conțin datele diagramei (includeți numele pentru rânduri și coloane).",
+		"vssde-insertChartPanel-chartSubtypeArg0HasMultipleDeclarationsOnDifferentWorksheets": "Subtipul de diagramă '{0}' are mai multe declarații pe foi de lucru diferite.",
+		"vssde-insertChartPanel-sheetArg0IsNotFound": "Foaia '{0}' nu a fost găsită."
 	}
 }
