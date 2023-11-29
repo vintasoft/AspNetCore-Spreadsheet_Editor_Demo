@@ -1,0 +1,737 @@
+﻿{
+	"spreadsheetDocumentEditorControl": {
+		"fileLabel": {
+			"text": "Файл"
+		},
+		"homeLabel": {
+			"text": "Хона"
+		},
+		"editLabel": {
+			"text": "Таҳрир"
+		},
+		"insertLabel": {
+			"text": "Ворид кунед"
+		},
+		"reviewLabel": {
+			"text": "Барраси"
+		},
+		"createXlsxDocumentButton": {
+			"title": "Ҳуҷҷати нави XLSX эҷод кунед"
+		},
+		"uploadXlsxFileButton": {
+			"title": "Файли XLSX-ро бор кунед ва кушоед"
+		},
+		"downloadXlsxFileButton": {
+			"title": "Файли XLSX-ро зеркашӣ кунед"
+		},
+		"exportXlsxToPdfButton": {
+			"title": "Содироти XLSX ба PDF"
+		},
+		"showMobileMenuButton": {
+			"title": "Бештар"
+		},
+		"boldTextButton": {
+			"title": "Матни ғафс"
+		},
+		"italicTextButton": {
+			"title": "Матни курсив"
+		},
+		"underlineTextButton": {
+			"title": "Матнро хатто кунед"
+		},
+		"strikethroughTextButton": {
+			"title": "Матни хаткашӣ"
+		},
+		"fontColorButton": {
+			"title": "Ранги шрифт"
+		},
+		"fillColorButton": {
+			"title": "Ранги пур кунед"
+		},
+		"copyStyleButton": {
+			"title": "Рассоми услуб"
+		},
+		"alignLeftButton": {
+			"title": "Ба чап рост кунед"
+		},
+		"alignCenterButton": {
+			"title": "Марказ"
+		},
+		"alignRightButton": {
+			"title": "Ба рост мувофиқат кунед"
+		},
+		"topAlignButton": {
+			"title": "Ҳамоҳангсозии боло"
+		},
+		"middleAlignButton": {
+			"title": "Ҳамоҳангсозии миёна"
+		},
+		"bottomAlignButton": {
+			"title": "Ҳамоҳангсозии поён"
+		},
+		"textWrappingButton": {
+			"title": "Печондани матн"
+		},
+		"currencyNumberFormatButton": {
+			"title": "Формати рақами асъор"
+		},
+		"increaseDecimalButton": {
+			"title": "Даҳро зиёд кунед"
+		},
+		"decreaseDecimalButton": {
+			"title": "Даҳро кам кунед"
+		},
+		"percentNumberFormatButton": {
+			"title": "Формати рақами фоиз"
+		},
+		"numberFormatDropDown": {
+			"General": {
+				"text": "Генерал"
+			},
+			"Number": {
+				"text": "Шумораи"
+			},
+			"Currency": {
+				"text": "Асъор"
+			},
+			"Date": {
+				"text": "Сана"
+			},
+			"Time": {
+				"text": "Вақт"
+			},
+			"Percentage": {
+				"text": "Фоиз"
+			},
+			"Scientific": {
+				"text": "илмй"
+			},
+			"Text": {
+				"text": "Матн"
+			}
+		},
+		"numberFormatButton": {
+			"title": "Формати рақам"
+		},
+		"showFormulasButton": {
+			"title": "Формулаҳоро нишон диҳед"
+		},
+		"searchTextButton": {
+			"title": "Ҷустуҷӯи матн"
+		},
+		"undoButton": {
+			"title": "Бекор кардан"
+		},
+		"redoButton": {
+			"title": "Такрор кунед"
+		},
+		"cutContentButton": {
+			"title": "Мундариҷаро буред"
+		},
+		"copyContentButton": {
+			"title": "Мазмуни нусхабардорӣ"
+		},
+		"pasteContentButton": {
+			"title": "Мазмуни часбонед"
+		},
+		"clearContentButton": {
+			"title": "Мундариҷаи тоза"
+		},
+		"clearFormatButton": {
+			"title": "Формати тоза"
+		},
+		"deleteRowsButton": {
+			"title": "Сатрҳоро нест кунед"
+		},
+		"deleteColumnsButton": {
+			"title": "Сутунҳоро нест кунед"
+		},
+		"deleteCellsAndShiftLeftButton": {
+			"title": "Чашмакҳоро нест кунед ва ба чап гузаред"
+		},
+		"deleteCellsAndShiftUpButton": {
+			"title": "Ҳуҷайраҳоро нест кунед ва боло ҳаракат кунед"
+		},
+		"deletePictureButton": {
+			"title": "Тасвирро нест кунед"
+		},
+		"deleteLinkButton": {
+			"title": "Истинодро нест кунед"
+		},
+		"mergeCellsButton": {
+			"title": "Якҷоя кардани ҳуҷайраҳо"
+		},
+		"unmergeCellsButton": {
+			"title": "Ҳуҷайраҳоро ҷудо кунед"
+		},
+		"fillCells": {
+			"title": "Пур кардани ҳуҷайраҳо"
+		},
+		"allBordersButton": {
+			"title": "Ҳама сарҳадҳо"
+		},
+		"thickOutsideBordersButton": {
+			"title": "Сарҳадҳои ғафси беруна"
+		},
+		"autoFitRowHeightButton": {
+			"title": "Автомат кардани баландии сатр"
+		},
+		"autoFitColumnWidthButton": {
+			"title": "Бари сутунро худкор танзим кунед"
+		},
+		"insertRowsButton": {
+			"title": "Сатрҳоро ворид кунед"
+		},
+		"insertColumnsButton": {
+			"title": "Сутунҳоро ворид кунед"
+		},
+		"insertCellsAndShiftRightButton": {
+			"title": "Чашмакро ворид кунед ва ба рост гузаред"
+		},
+		"insertCellsAndShiftDownButton": {
+			"title": "Ҳуҷайраро ворид кунед ва ба поён ҳаракат кунед"
+		},
+		"insertSheetButton": {
+			"title": "Варақаи кориро ворид кунед"
+		},
+		"insertFunctionButton": {
+			"title": "Функсияи ворид кунед"
+		},
+		"insertLinkButton": {
+			"title": "Истиноди ворид кунед"
+		},
+		"insertCommentButton": {
+			"title": "Шарҳ гузоред"
+		},
+		"insertPictureButton": {
+			"title": "Иловаи тасвир"
+		},
+		"insertChartButton": {
+			"title": "Дохил кардани диаграмма"
+		},
+		"editCommentButton": {
+			"title": "Таҳрири шарҳ"
+		},
+		"deleteCommentButton": {
+			"title": "Нобуд кардани шарҳ"
+		},
+		"previousCommentButton": {
+			"title": "Шарҳи қаблӣ"
+		},
+		"nextCommentButton": {
+			"title": "Шарҳи навбатӣ"
+		},
+		"formulaPanel-cancelChangeButton": {
+			"title": "Тағиротро бекор кунед"
+		},
+		"formulaPanel-applyChangeButton": {
+			"title": "Тағиротро татбиқ кунед"
+		},
+		"formulaPanel-fullScreenButton": {
+			"title": "Тамомсафҳа"
+		},
+		"scrollToFirstWorksheetButton": {
+			"title": "Ба варақи кории аввал ҳаракат кунед"
+		},
+		"scrollToLastWorksheetButton": {
+			"title": "Ба варақи охирини корӣ ҳаракат кунед"
+		},
+		"addWorksheetButton": {
+			"title": "Варақаи корӣ илова кунед"
+		},
+		"showWorksheetListButton": {
+			"title": "Рӯйхати варақаҳои корро нишон диҳед"
+		},
+		"zoomOutButton": {
+			"title": "Масоҳат кардан"
+		},
+		"zoomValueLabel": {
+			"text": "100%"
+		},
+		"zoomInButton": {
+			"title": "Масштаб кардан"
+		},
+		"enUsCurrencyNumberFormatButton": {
+			"title": "$ англисӣ (ИМА)"
+		},
+		"enUkCurrencyNumberFormatButton": {
+			"title": "£ англисӣ (Подшоҳии Муттаҳида)"
+		},
+		"euCurrencyNumberFormatButton": {
+			"title": "€ Евро (€ 123)"
+		},
+		"ruCurrencyNumberFormatButton": {
+			"title": "₽ русӣ"
+		},
+		"chCurrencyNumberFormatButton": {
+			"title": "¥ Чин"
+		},
+		"enInCurrencyNumberFormatButton": {
+			"title": "₹ англисӣ (Ҳиндустон)"
+		},
+		"fillCellsDownButton": {
+			"title": "Пур кунед"
+		},
+		"fillCellsUpButton": {
+			"title": "Пур кардан"
+		},
+		"fillCellsLeftButton": {
+			"title": "Ба чап пур кунед"
+		},
+		"fillCellsRightButton": {
+			"title": "Пур кардани рост"
+		},
+		"noBordersButton": {
+			"title": "Сарҳад нест"
+		},
+		"outsideBordersButton": {
+			"title": "Сарҳадҳои беруна"
+		},
+		"bottomBorderButton": {
+			"title": "Сарҳади поён"
+		},
+		"topBorderButton": {
+			"title": "Сарҳади боло"
+		},
+		"rightBorderButton": {
+			"title": "Сарҳади рост"
+		},
+		"leftBorderButton": {
+			"title": "Сарҳади чап"
+		},
+		"thickBottomBorderButton": {
+			"title": "Сарҳади ғафси поён"
+		},
+		"thickLeftBorderButton": {
+			"title": "Сарҳади ғафси чап"
+		},
+		"doubleBottomBorderButton": {
+			"title": "Сарҳади дукаратаи поён"
+		},
+		"doubleLeftBorderButton": {
+			"title": "Сарҳади дукаратаи чап"
+		},
+		"borderColorButton": {
+			"title": "Ранги сарҳад"
+		},
+		"copyWorksheetLabel": {
+			"text": "Варақаи кориро нусхабардорӣ кунед"
+		},
+		"deleteWorksheetLabel": {
+			"text": "Варақаи кориро нест кунед"
+		},
+		"renameWorksheetLabel": {
+			"text": "Номи варақаи корӣ"
+		},
+		"moveWorksheetLabel": {
+			"text": "Варақаи кориро интиқол диҳед"
+		},
+		"copyLabel": {
+			"text": "Нусхабардорӣ"
+		},
+		"cutLabel": {
+			"text": "Бурида"
+		},
+		"pasteLabel": {
+			"text": "Часбонед"
+		},
+		"clearContentsLabel": {
+			"text": "Мундариҷаро тоза кунед"
+		},
+		"insertCellAndShiftRightLabel": {
+			"text": "Чашмакро ворид кунед ва ба рост гузаред"
+		},
+		"insertCellAndShiftDownLabel": {
+			"text": "Ҳуҷайраро ворид кунед ва ба поён ҳаракат кунед"
+		},
+		"insertEntireRowLabel": {
+			"text": "Тамоми сатрро гузоред"
+		},
+		"insertEntireColumnLabel": {
+			"text": "Тамоми сутунро ворид кунед"
+		},
+		"deleteImageLabel": {
+			"text": "Нобуд кунед"
+		},
+		"propertiesLabel": {
+			"text": "Хусусиятҳо..."
+		},
+		"deleteCellAndShiftLeftLabel": {
+			"text": "Чашмакро нест кунед ва ба чап гузаред"
+		},
+		"deleteCellAndShiftUpLabel": {
+			"text": "Ячейкаро нест кунед ва боло ҳаракат кунед"
+		},
+		"deleteEntireRowLabel": {
+			"text": "Тамоми сатрро нест кунед"
+		},
+		"deleteEntireColumnLabel": {
+			"text": "Тамоми сутунро нест кунед"
+		},
+		"insertRowsLabel": {
+			"text": "Дохил кардани сатрҳо"
+		},
+		"deleteRowsLabel": {
+			"text": "Тоза кардани сатрҳо"
+		},
+		"insertColumnsLabel": {
+			"text": "Сутунҳоро ворид кунед"
+		},
+		"deleteColumnsLabel": {
+			"text": "Сутунҳоро нест кунед"
+		},
+		"insertCommentLabel": {
+			"text": "Ворид кардани шарҳ..."
+		},
+		"editCommentLabel": {
+			"text": "Таҳрири шарҳ..."
+		},
+		"deleteCommentLabel": {
+			"text": "Нобуд кардани шарҳ"
+		},
+		"showHideCommentLabel": {
+			"text": "Намоиш/Пинҳон кардани шарҳ"
+		},
+		"hideCommentLabel": {
+			"text": "Пинҳон кардани шарҳ"
+		},
+		"hideRowsLabel": {
+			"text": "Пинҳон кардани сатрҳо"
+		},
+		"unhideRowsLabel": {
+			"text": "Нишон додани сатрҳо"
+		},
+		"hideColumnsLabel": {
+			"text": "Пинҳон кардани сутунҳо"
+		},
+		"unhideColumnsLabel": {
+			"text": "Нишон додани сутунҳо"
+		},
+		"insertCommentDialog": {
+			"authorLabel": {
+				"text": "Муаллиф:"
+			},
+			"showAuthorLabel": {
+				"text": "Муаллифро нишон диҳед"
+			},
+			"commentLabel": {
+				"text": "Шарҳ:"
+			},
+			"okButton": {
+				"value": "ДУРУСТ"
+			},
+			"cancelButton": {
+				"value": "Бекор кардан"
+			}
+		},
+		"commentEditDialog": {
+			"authorLabel": {
+				"text": "Муаллиф:"
+			},
+			"showAuthorLabel": {
+				"text": "Муаллифро нишон диҳед"
+			},
+			"commentLabel": {
+				"text": "Шарҳ:"
+			},
+			"okButton": {
+				"value": "ДУРУСТ"
+			},
+			"cancelButton": {
+				"value": "Бекор кардан"
+			}
+		},
+		"editChartDialog": {
+			"titleLabel": {
+				"text": "Сарлавҳа:"
+			},
+			"okButton": {
+				"value": "ДУРУСТ"
+			},
+			"cancelButton": {
+				"value": "Бекор кардан"
+			}
+		},
+		"renameWorksheetDialog": {
+			"nameLabel": {
+				"text": "Ном:"
+			},
+			"okButton": {
+				"value": "ДУРУСТ"
+			},
+			"cancelButton": {
+				"value": "Бекор кардан"
+			}
+		},
+		"moveWorksheetDialog": {
+			"moveUpButton": {
+				"value": "Ба боло ҳаракат кунед"
+			},
+			"moveDownButton": {
+				"value": "Ба поён ҳаракат кунед"
+			},
+			"okButton": {
+				"value": "ДУРУСТ"
+			},
+			"cancelButton": {
+				"value": "Бекор кардан"
+			}
+		},
+		"findTextDialog": {
+			"findTextLabel": {
+				"text": "Ҷустуҷӯи матн"
+			},
+			"findWhatLabel": {
+				"text": "Чиро пайдо кунед:"
+			},
+			"withinLabel": {
+				"text": "Дар дохили:"
+			},
+			"Sheet": {
+				"text": "Варақ"
+			},
+			"Workbook": {
+				"text": "Китоби корӣ"
+			},
+			"searchLabel": {
+				"text": "Ҷустуҷӯ:"
+			},
+			"ByRows": {
+				"text": "Аз рӯи қаторҳо"
+			},
+			"ByColumns": {
+				"text": "Бо сутунҳо"
+			},
+			"lookInLabel": {
+				"text": "Назар андохтан:"
+			},
+			"Formulas": {
+				"text": "Формулаҳо"
+			},
+			"Values": {
+				"text": "Арзишҳо"
+			},
+			"Comments": {
+				"text": "Шарҳҳо"
+			},
+			"matchCaseLabel": {
+				"text": "Ҳолати мувофиқат"
+			},
+			"matchEntireContentLabel": {
+				"text": "Тамоми мундариҷаро мувофиқ кунед"
+			},
+			"findNextButton": {
+				"value": "Ояндаро пайдо кунед"
+			},
+			"closeButton": {
+				"value": "Пӯшед"
+			}
+		},
+		"selectFunctionDialog": {
+			"categoryLabel": {
+				"text": "Категория:"
+			},
+			"categoryDropDown": {
+				"All": {
+					"text": "Ҳама"
+				},
+				"Financial": {
+					"text": "молиявӣ"
+				},
+				"DateAndTime": {
+					"text": "DateAndTime"
+				},
+				"MathAndTrig": {
+					"text": "MathAndTrig"
+				},
+				"Statistical": {
+					"text": "оморӣ"
+				},
+				"LookupAndReference": {
+					"text": "LookupAndReference"
+				},
+				"Text": {
+					"text": "Матн"
+				},
+				"Logical": {
+					"text": "Мантиқӣ"
+				},
+				"Information": {
+					"text": "Маълумот"
+				},
+				"Engineering": {
+					"text": "Муҳандисӣ"
+				}
+			},
+			"selectFunctionLabel": {
+				"text": "Функсияро интихоб кунед:"
+			},
+			"okButton": {
+				"value": "ДУРУСТ"
+			},
+			"cancelButton": {
+				"value": "Бекор кардан"
+			}
+		},
+		"setCellNumberFormatDialog": {
+			"General": {
+				"text": "Генерал"
+			},
+			"Number": {
+				"text": "Шумораи"
+			},
+			"Currency": {
+				"text": "Асъор"
+			},
+			"Date": {
+				"text": "Сана"
+			},
+			"Time": {
+				"text": "Вақт"
+			},
+			"Percentage": {
+				"text": "Фоиз"
+			},
+			"Scientific": {
+				"text": "илмй"
+			},
+			"Text": {
+				"text": "Матн"
+			},
+			"Custom": {
+				"text": "Фармоишгар"
+			},
+			"generalFormatDescriptionLabel": {
+				"text": "Чашмакҳои формати умумӣ формати мушаххаси рақам надоранд."
+			},
+			"numberDecimalPlacesLabel": {
+				"text": "Ҷойҳои даҳӣ:"
+			},
+			"useThousandsSeparatorLabel": {
+				"text": "1000 ҷудокунандаро истифода баред"
+			},
+			"numberNegativeValuesLabel": {
+				"text": "Арзишҳои манфӣ:"
+			},
+			"changeTextColorToRedLabel": {
+				"text": "Ранги матнро ба сурх иваз кунед"
+			},
+			"hideMinusSignLabel": {
+				"text": "Аломати минусро пинҳон кунед"
+			},
+			"currencyDecimalPlacesLabel": {
+				"text": "Ҷойҳои даҳӣ:"
+			},
+			"currencySymbolLabel": {
+				"text": "Аломат:"
+			},
+			"percentageDecimalPlacesLabel": {
+				"text": "Ҷойҳои даҳӣ:"
+			},
+			"scientificDecimalPlacesLabel": {
+				"text": "Ҷойҳои даҳӣ:"
+			},
+			"textFormatDescriptionLabel": {
+				"text": "Чашмакҳои формати матн ҳатто агар адад дар ячейка бошад, ҳамчун матн баррасӣ карда мешаванд."
+			},
+			"okButton": {
+				"value": "ДУРУСТ"
+			},
+			"cancelButton": {
+				"value": "Бекор кардан"
+			}
+		},
+		"insertChartDialog": {
+			"okButton": {
+				"value": "ДУРУСТ"
+			},
+			"cancelButton": {
+				"value": "Бекор кардан"
+			}
+		}
+	},
+	"strings": {
+		"vssde-documentIsOpening": "Ҳуҷҷат кушода мешавад...",
+		"vssde-numberFormat-general": "Генерал",
+		"vssde-numberFormat-number": "Шумораи",
+		"vssde-numberFormat-date": "Сана",
+		"vssde-numberFormat-time": "Вақт",
+		"vssde-numberFormat-currency": "Асъор",
+		"vssde-numberFormat-percentage": "Фоиз",
+		"vssde-numberFormat-scientific": "илмй",
+		"vssde-numberFormat-text": "Матн",
+		"vssde-numberFormat-custom": "Фармоишгар",
+		"vssde-findTextPanel-sheet": "Варақ",
+		"vssde-findTextPanel-workbook": "Китоби корӣ",
+		"vssde-findTextPanel-byRows": "Аз рӯи қаторҳо",
+		"vssde-findTextPanel-byColumns": "Бо сутунҳо",
+		"vssde-findTextPanel-formulas": "Формулаҳо",
+		"vssde-findTextPanel-values": "Арзишҳо",
+		"vssde-findTextPanel-comments": "Шарҳҳо",
+		"vssde-findTextPanel-textIsNotFound": "Матни '{0}' ёфт нашуд.",
+		"vssde-selectFunctionPanel-all": "Ҳама",
+		"vssde-createXlsxDocument": "Ҳуҷҷати нави XLSX эҷод кунед",
+		"vssde-uploadXlsxFile": "Файли XLSX-ро бор кунед",
+		"vssde-downloadXlsxFile": "Файли XLSX-ро зеркашӣ кунед",
+		"vssde-exportXlsxToPdf": "Содироти XLSX ба PDF",
+		"vssde-fileSizeExceedsLimit": "Андозаи файли боршуда аз андозаи ҳадди аксар ({0} байт) зиёд аст.",
+		"vssde-createXlsxDocumentConfirmation": "Оё шумо мехоҳед китоби нави корӣ эҷод кунед?",
+		"vssde-insertCommentDialog-title": "Шарҳ гузоред",
+		"vssde-dialog-okButton": "ДУРУСТ",
+		"vssde-dialog-cancelButton": "Бекор кардан",
+		"vssde-editCommentDialog-title": "Таҳрири шарҳ",
+		"vssde-editChartDialog-title": "Таҳрири Диаграмма",
+		"vssde-editChartPropertiesPanel-spreadsheetEditorDoesNotHaveFocusedChart": "Муҳаррири ҷадвал диаграммаи фокусӣ надорад.",
+		"vssde-editChartPropertiesPanel-selectedDrawingIsNotChart": "Расми интихобшуда диаграмма нест.",
+		"vssde-renameWorksheetDialog-title": "Номи варақаи корӣ",
+		"vssde-moveWorksheetDialog-title": "Ҷойивазкунии варақаи корӣ",
+		"vssde-findTextDialog-title": "Ҷустуҷӯи матн",
+		"vssde-findTextDialog-findNextButton": "Ояндаро пайдо кунед",
+		"vssde-dialog-closeButton": "Пӯшед",
+		"vssde-selectFunctionDialog-title": "Функсияи ворид кунед",
+		"vssde-cellNumberFormatDialog-title": "Формати ячейка",
+		"vssde-insertChartDialog-title": "Дохил кардани диаграмма",
+		"vssde-insertChartPanel-chartType-column": "Сутун",
+		"vssde-insertChartPanel-chartType-line": "Хат",
+		"vssde-insertChartPanel-chartType-pie": "Пирог",
+		"vssde-insertChartPanel-chartType-bar": "Бар",
+		"vssde-insertChartPanel-chartType-area": "Майдон",
+		"vssde-insertChartPanel-chartSubtype-clusteredColumn": "Сутуни кластерӣ",
+		"vssde-insertChartPanel-chartSubtype-stackedColumn": "Сутуни ҷамъшуда",
+		"vssde-insertChartPanel-chartSubtype-100%StackedColumn": "100% Сутуни чуќурї",
+		"vssde-insertChartPanel-chartSubtype-3DClusteredColumn": "Сутуни кластерии 3D",
+		"vssde-insertChartPanel-chartSubtype-3DStackedColumn": "Сутуни 3D stacked",
+		"vssde-insertChartPanel-chartSubtype-3D100%StackedColumn": "3D 100% Сутуни чуќурї",
+		"vssde-insertChartPanel-chartSubtype-line": "Хат",
+		"vssde-insertChartPanel-chartSubtype-stackedLine": "Хати кандашуда",
+		"vssde-insertChartPanel-chartSubtype-100%StackedLine": "100% хати чуќурї",
+		"vssde-insertChartPanel-chartSubtype-lineWithMarkers": "Хатти бо нишонгузорҳо",
+		"vssde-insertChartPanel-chartSubtype-stackedLineWithMarkers": "Хати кандашуда бо маркерҳо",
+		"vssde-insertChartPanel-chartSubtype-100%StackedLineWithMar": "100% хати чуќурї бо маркерњо",
+		"vssde-insertChartPanel-chartSubtype-curvedLine": "Хати каҷ",
+		"vssde-insertChartPanel-chartSubtype-stackedCurvedLine": "Хатти каҷшуда",
+		"vssde-insertChartPanel-chartSubtype-100%StackedCurvedLine": "100% хати қубури чуќурї",
+		"vssde-insertChartPanel-chartSubtype-curvedLineWithMarkers": "Хати каҷ бо нишонгузорҳо",
+		"vssde-insertChartPanel-chartSubtype-stackedCurvLineWithMark": "Хатти қубури чуќурї бо нишонгузорњо",
+		"vssde-insertChartPanel-chartSubtype-100%StackedCurvLineMark": "100% хати қубури чуќурї бо нишонгузорҳо",
+		"vssde-insertChartPanel-chartSubtype-pie": "Пирог",
+		"vssde-insertChartPanel-chartSubtype-pieExplosion": "Пирог (таркиш)",
+		"vssde-insertChartPanel-chartSubtype-doughnut": "Кулча",
+		"vssde-insertChartPanel-chartSubtype-clusteredBar": "Бари кластерӣ",
+		"vssde-insertChartPanel-chartSubtype-stackedBar": "Бари ҷамъшуда",
+		"vssde-insertChartPanel-chartSubtype-100%StackedBar": "100% Бар чуќурї",
+		"vssde-insertChartPanel-chartSubtype-area": "Майдон",
+		"vssde-insertChartPanel-chartSubtype-stackedArea": "Минтақаи ҷамъшуда",
+		"vssde-insertChartPanel-chartSubtype-100%StackedArea": "100% Майдони чуќурї",
+		"vssde-insertChartPanel-fileArg0IsNotFound": "Файли '{0}' ёфт нашуд.",
+		"vssde-insertChartPanel-supportedChartTypesAreNotFound": "Намудҳои диаграммаи дастгирӣ ёфт нашуд.",
+		"vssde-insertChartPanel-notSupportedChartType": "Навъи диаграмма дастгирӣ намешавад.",
+		"vssde-insertChartPanel-supportedChartSubtypesAreNotFound": "Зернамудҳои диаграммаи дастгирӣ ёфт намешаванд.",
+		"vssde-insertChartPanel-notSupportedChartSubtype": "Зернавъи диаграмма дастгирӣ намешавад.",
+		"vssde-insertChartPanel-chartTemplateContainsTwoIdenticalNamesForChartSubtypes": "Шаблони диаграмма дорои 2 номи якхела барои зернамудҳои диаграмма мебошад.",
+		"vssde-insertChartPanel-chartTemplateContainsTwoIdenticalNamesForChartTypes": "Шаблони диаграмма дорои 2 номи якхела барои намудҳои диаграмма мебошад.",
+		"vssde-insertChartPanel-pleaseSpecifyCellsWhichContainTheChartDataIncludeNamesForRowsAndColumns": "Лутфан чашмакҳоро, ки маълумоти диаграммаро дар бар мегиранд, муайян кунед (номҳои сатрҳо ва сутунҳоро дохил кунед).",
+		"vssde-insertChartPanel-chartSubtypeArg0HasMultipleDeclarationsOnDifferentWorksheets": "Зернавъи диаграммаи '{0}' дар варақаҳои кории гуногун эъломияҳои сершумор дорад.",
+		"vssde-insertChartPanel-sheetArg0IsNotFound": "Варақаи '{0}' ёфт нашуд."
+	}
+}

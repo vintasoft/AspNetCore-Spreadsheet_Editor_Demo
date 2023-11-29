@@ -4,7 +4,7 @@ This ASP.NET Core project uses <a href="https://www.vintasoft.com/vsimaging-dotn
 The client-side of project uses HTML+JavaScript+CSS. The server-side of project uses ASP.NET Core API controllers.<br />
 <br />
 The project demonstrates how to view and edit XLSX document in ASP.NET Core:
-* Create a new or open an existing XLSX document in spreadsheet editor control
+* Create a new or open an existing XLSX, XLS, CSV or TSV document in spreadsheet editor control
 * Work with worksheets of spreadsheet document
   * Get a list of worksheets
   * Add/delete/rename a worksheet; copy/insert a worksheet; reorder worksheets
@@ -40,7 +40,7 @@ The project demonstrates how to view and edit XLSX document in ASP.NET Core:
   * Render comments on worksheet
   * Add, edit, delete a comment
 * The application can be used in any modern HTML5 web browser.
-* The application UI is localized into 32 languages (Afrikaans, Arabic, Belarusian, Bulgarian, Chinese (Simplified), Croatian, Czech, Danish, Dutch, German, Greece, English, Finnish, French, Hebrew, Hindi, Hungarian, Italian, Japanese, Korean, Norwegian, Portugese, Romanian, Russian, Slovakian, Slovenian, Spanish, Swahili, Swedish, Turkish, Vietnamese, Zulu).
+* The application UI is localized into 45 languages (Afrikaans, Arabic, Armenian, Azerbaijan, Belarusian, Bulgarian, Chinese, Croatian, Czech, Danish, Dutch, English, Estonian, Finnish, French, Georgian, German, Greece, Hebrew, Hindi, Hungarian, Italian, Japanese, Kazakh, Korean, Kyrgyz, Latvian, Lithuanian, Norwegian, Portugese, Romanian, Russian, Slovakian, Slovenian, Spanish, Swahili, Swedish, Tajik, Tatar, Turkish, Turkmen, Ukrainian, Uzbek, Vietnamese, Zulu).
 
 
 ## Screenshot
@@ -55,9 +55,9 @@ The project demonstrates how to view and edit XLSX document in ASP.NET Core:
    Vintasoft.Imaging.ImagingGlobalSettings.Register("REG_USER", "REG_EMAIL", "EXPIRATION_DATE", "REG_CODE");
    ```
 
-3. Build the project ("AspNetCoreSpreadsheetEditorDemo.Net7.csproj" file) in Visual Studio or using .NET CLI:
+3. Build the project ("AspNetCoreSpreadsheetEditorDemo.Net8.csproj" file) in Visual Studio or using .NET CLI:
    ```
-   dotnet build AspNetCoreSpreadsheetEditorDemo.Net7.csproj
+   dotnet build AspNetCoreSpreadsheetEditorDemo.Net8.csproj
    ```
 
 4. Run compiled application and try to view and edit XLSX document.

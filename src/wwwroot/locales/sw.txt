@@ -155,6 +155,9 @@
 		"deletePictureButton": {
 			"title": "Futa picha"
 		},
+		"deleteLinkButton": {
+			"title": "Futa kiungo"
+		},
 		"mergeCellsButton": {
 			"title": "Unganisha seli"
 		},
@@ -193,6 +196,9 @@
 		},
 		"insertFunctionButton": {
 			"title": "Weka kipengele"
+		},
+		"insertLinkButton": {
+			"title": "Weka kiungo"
 		},
 		"insertCommentButton": {
 			"title": "Weka maoni"
@@ -235,18 +241,6 @@
 		},
 		"showWorksheetListButton": {
 			"title": "Onyesha orodha ya karatasi"
-		},
-		"copyWorksheetButton": {
-			"title": "Nakili karatasi ya kazi"
-		},
-		"deleteWorksheetButton": {
-			"title": "Futa laha ya kazi"
-		},
-		"renameWorksheetButton": {
-			"title": "Badilisha jina la karatasi"
-		},
-		"moveWorksheetButton": {
-			"title": "Hamisha laha kazi"
 		},
 		"zoomOutButton": {
 			"title": "Kuza nje"
@@ -319,6 +313,18 @@
 		},
 		"borderColorButton": {
 			"title": "Rangi ya mpaka"
+		},
+		"copyWorksheetLabel": {
+			"text": "Nakili karatasi ya kazi"
+		},
+		"deleteWorksheetLabel": {
+			"text": "Futa laha ya kazi"
+		},
+		"renameWorksheetLabel": {
+			"text": "Badilisha jina la karatasi"
+		},
+		"moveWorksheetLabel": {
+			"text": "Hamisha laha kazi"
 		},
 		"copyLabel": {
 			"text": "Nakili"
@@ -533,7 +539,7 @@
 					"text": "Kifedha"
 				},
 				"DateAndTime": {
-					"text": "TareheNaMuda"
+					"text": "DateAndTime"
 				},
 				"MathAndTrig": {
 					"text": "MathAndTrig"

@@ -144,10 +144,40 @@ function __isMobileDevice() {
 }
 
 /**
+ Window is resized.
+*/
+function __window_resize() {
+    __changeDemoHeaderVisibility(window.innerHeight < 500)
+}
+
+/**
+ Changes the visibility of demo header.
+*/
+function __changeDemoHeaderVisibility(hide) {
+    var displayStyle = "block";
+    var heightStyle = "calc(100% - 60px)";
+    if (hide) {
+        displayStyle = "none";
+        heightStyle = "100%"
+    }
+
+    var demoHeader = document.getElementById("demoHeader");
+    demoHeader.style.display = displayStyle;
+
+    var spreadsheetDocumentEditorControlContainer = document.getElementById("spreadsheetDocumentEditorControlContainer");
+    spreadsheetDocumentEditorControlContainer.style.height = heightStyle;
+}
+
+
+
+// === Localization ===
+
+/**
  Creates the dictionary for localization of application UI.
 */
 function __createUiLocalizationDictionary() {
-    __createDocumentViewerDialogsForLocalization();
+    var tempDialogs = [];
+    __createDocumentViewerDialogsForLocalization(tempDialogs);
 
     if (_localizer == null)
         // create UI localizer
@@ -156,42 +186,57 @@ function __createUiLocalizationDictionary() {
     var localizationDict = _localizer.getDocumentLocalizationDictionary();
     var localizationDictString = JSON.stringify(localizationDict, null, '\t');
     console.log(localizationDictString);
+
+    var floatingContainer = document.getElementById("spreadsheetDocumentEditorControlContainer");
+    for (var i = 0; i < tempDialogs.length; i++) {
+        floatingContainer.removeChild(tempDialogs[i].get_DomElement());
+        delete tempDialogs[i];
+    }
 }
 
 /**
  Creates the dialogs, which are used in Web Document Viewer, for localization.
 */
-function __createDocumentViewerDialogsForLocalization() {
+function __createDocumentViewerDialogsForLocalization(tempDialogs) {
     var floatingContainer = document.getElementById("spreadsheetDocumentEditorControlContainer");
 
     var spreadsheetEditorControl = _spreadsheetDocumentEditorControl.get_SpreadsheetEditorControl();
 
     var renameWorksheetDialog = new Vintasoft.Imaging.Office.UI.Dialogs.WebUiRenameWorksheetDialogJS(spreadsheetEditorControl);
     renameWorksheetDialog.render(floatingContainer);
+    tempDialogs.push(renameWorksheetDialog);
 
     var moveWorksheetDialog = new Vintasoft.Imaging.Office.UI.Dialogs.WebUiMoveWorksheetDialogJS(spreadsheetEditorControl);
     moveWorksheetDialog.render(floatingContainer);
+    tempDialogs.push(moveWorksheetDialog);
 
     var findTextDialog = new Vintasoft.Imaging.Office.UI.Dialogs.WebUiFindTextDialogJS(spreadsheetEditorControl);
     findTextDialog.render(floatingContainer);
+    tempDialogs.push(findTextDialog);
 
     var selectFunctionDialog = new Vintasoft.Imaging.Office.UI.Dialogs.WebUiSelectFunctionDialogJS(spreadsheetEditorControl);
     selectFunctionDialog.render(floatingContainer);
+    tempDialogs.push(selectFunctionDialog);
 
     var insertCommentDialog = new Vintasoft.Imaging.Office.UI.Dialogs.WebUiInsertCommentDialogJS(spreadsheetEditorControl);
     insertCommentDialog.render(floatingContainer);
+    tempDialogs.push(insertCommentDialog);
 
     var editCommentDialog = new Vintasoft.Imaging.Office.UI.Dialogs.WebUiEditCommentDialogJS(spreadsheetEditorControl);
     editCommentDialog.render(floatingContainer);
+    tempDialogs.push(editCommentDialog);
 
     var cellNumberFormatDialog = new Vintasoft.Imaging.Office.UI.Dialogs.WebUiCellNumberFormatDialogJS(spreadsheetEditorControl);
     cellNumberFormatDialog.render(floatingContainer);
+    tempDialogs.push(cellNumberFormatDialog);
 
     var insertChartDialog = new Vintasoft.Imaging.Office.UI.Dialogs.WebUiInsertChartDialogJS(spreadsheetEditorControl, "ChartSource.xlsx");
     insertChartDialog.render(floatingContainer);
+    tempDialogs.push(insertChartDialog);
 
     var editChartPropertiesDialog = new Vintasoft.Imaging.Office.UI.Dialogs.WebUiEditChartPropertiesDialogJS(spreadsheetEditorControl);
     editChartPropertiesDialog.render(floatingContainer);
+    tempDialogs.push(editChartPropertiesDialog);
 }
 
 /**
@@ -219,32 +264,6 @@ function __enableUiLocalization() {
     Vintasoft.Shared.subscribeToEvent(_spreadsheetDocumentEditorControl, "dialogShown", function (event, data) {
         _localizer.localizeDocument();
     });
-}
-
-
-/**
- Window is resized.
-*/
-function __window_resize() {
-    __changeDemoHeaderVisibility(window.innerHeight < 500)
-}
-
-/**
- Changes the visibility of demo header.
-*/
-function __changeDemoHeaderVisibility(hide) {
-    var displayStyle = "block";
-    var heightStyle = "calc(100% - 60px)";
-    if (hide) {
-        displayStyle = "none";
-        heightStyle = "100%"
-    }
-
-    var demoHeader = document.getElementById("demoHeader");
-    demoHeader.style.display = displayStyle;
-
-    var spreadsheetDocumentEditorControlContainer = document.getElementById("spreadsheetDocumentEditorControlContainer");
-    spreadsheetDocumentEditorControlContainer.style.height = heightStyle;
 }
 
 

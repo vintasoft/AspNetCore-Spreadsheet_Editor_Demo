@@ -155,6 +155,9 @@
 		"deletePictureButton": {
 			"title": "Удалить картинку"
 		},
+		"deleteLinkButton": {
+			"title": "Удалить ссылку"
+		},
 		"mergeCellsButton": {
 			"title": "Объединить ячейки"
 		},
@@ -193,6 +196,9 @@
 		},
 		"insertFunctionButton": {
 			"title": "Вставить функцию"
+		},
+		"insertLinkButton": {
+			"title": "Вставить гиперссылку"
 		},
 		"insertCommentButton": {
 			"title": "Вставить комментарий"
@@ -235,18 +241,6 @@
 		},
 		"showWorksheetListButton": {
 			"title": "Показать список листов"
-		},
-		"copyWorksheetButton": {
-			"title": "Скопировать лист"
-		},
-		"deleteWorksheetButton": {
-			"title": "Удалить лист"
-		},
-		"renameWorksheetButton": {
-			"title": "Переименовать лист"
-		},
-		"moveWorksheetButton": {
-			"title": "Переместить лист"
 		},
 		"zoomOutButton": {
 			"title": "Уменьшить масштаб"
@@ -319,6 +313,18 @@
 		},
 		"borderColorButton": {
 			"title": "Цвет границы"
+		},
+		"copyWorksheetLabel": {
+			"text": "Скопировать лист"
+		},
+		"deleteWorksheetLabel": {
+			"text": "Удалить лист"
+		},
+		"renameWorksheetLabel": {
+			"text": "Переименовать лист"
+		},
+		"moveWorksheetLabel": {
+			"text": "Переместить лист"
 		},
 		"copyLabel": {
 			"text": "Копировать"
@@ -533,16 +539,16 @@
 					"text": "Финансовые"
 				},
 				"DateAndTime": {
-					"text": "Дата и время"
+					"text": "DateAndTime"
 				},
 				"MathAndTrig": {
-					"text": "Математические"
+					"text": "MathAndTrig"
 				},
 				"Statistical": {
 					"text": "Статистические"
 				},
 				"LookupAndReference": {
-					"text": "Ссылки и массивы"
+					"text": "LookupAndReference"
 				},
 				"Text": {
 					"text": "Текстовый"

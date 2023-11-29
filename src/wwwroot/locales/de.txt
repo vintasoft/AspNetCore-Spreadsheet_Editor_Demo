@@ -155,6 +155,9 @@
 		"deletePictureButton": {
 			"title": "Foto löschen"
 		},
+		"deleteLinkButton": {
+			"title": "Link löschen"
+		},
 		"mergeCellsButton": {
 			"title": "Zellen verbinden"
 		},
@@ -193,6 +196,9 @@
 		},
 		"insertFunctionButton": {
 			"title": "Funktion einfügen"
+		},
+		"insertLinkButton": {
+			"title": "Hyperlink einfügen"
 		},
 		"insertCommentButton": {
 			"title": "Kommentar einfügen"
@@ -235,18 +241,6 @@
 		},
 		"showWorksheetListButton": {
 			"title": "Blattliste anzeigen"
-		},
-		"copyWorksheetButton": {
-			"title": "Blatt kopieren"
-		},
-		"deleteWorksheetButton": {
-			"title": "Blatt löschen"
-		},
-		"renameWorksheetButton": {
-			"title": "Blatt umbenennen"
-		},
-		"moveWorksheetButton": {
-			"title": "Blatt verschieben"
 		},
 		"zoomOutButton": {
 			"title": "Herauszoomen"
@@ -319,6 +313,18 @@
 		},
 		"borderColorButton": {
 			"title": "Randfarbe"
+		},
+		"copyWorksheetLabel": {
+			"text": "Blatt kopieren"
+		},
+		"deleteWorksheetLabel": {
+			"text": "Blatt löschen"
+		},
+		"renameWorksheetLabel": {
+			"text": "Blatt umbenennen"
+		},
+		"moveWorksheetLabel": {
+			"text": "Blatt verschieben"
 		},
 		"copyLabel": {
 			"text": "Kopieren"
@@ -533,16 +539,16 @@
 					"text": "Finanzen"
 				},
 				"DateAndTime": {
-					"text": "Datum und Uhrzeit"
+					"text": "DateAndTime"
 				},
 				"MathAndTrig": {
-					"text": "Mathe"
+					"text": "MathAndTrig"
 				},
 				"Statistical": {
 					"text": "Statistisch"
 				},
 				"LookupAndReference": {
-					"text": "Referenzen und Arrays"
+					"text": "LookupAndReference"
 				},
 				"Text": {
 					"text": "Text"

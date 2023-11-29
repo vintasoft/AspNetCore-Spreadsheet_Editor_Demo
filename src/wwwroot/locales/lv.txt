@@ -1,0 +1,737 @@
+﻿{
+	"spreadsheetDocumentEditorControl": {
+		"fileLabel": {
+			"text": "Fails"
+		},
+		"homeLabel": {
+			"text": "Mājas"
+		},
+		"editLabel": {
+			"text": "Rediģēt"
+		},
+		"insertLabel": {
+			"text": "Ievietot"
+		},
+		"reviewLabel": {
+			"text": "Pārskats"
+		},
+		"createXlsxDocumentButton": {
+			"title": "Izveidojiet jaunu XLSX dokumentu"
+		},
+		"uploadXlsxFileButton": {
+			"title": "Augšupielādējiet un atveriet XLSX failu"
+		},
+		"downloadXlsxFileButton": {
+			"title": "Lejupielādēt XLSX failu"
+		},
+		"exportXlsxToPdfButton": {
+			"title": "Eksportējiet XLSX uz PDF"
+		},
+		"showMobileMenuButton": {
+			"title": "Vairāk"
+		},
+		"boldTextButton": {
+			"title": "Treknrakstā teksts"
+		},
+		"italicTextButton": {
+			"title": "Teksts slīprakstā"
+		},
+		"underlineTextButton": {
+			"title": "Pasvītrot tekstu"
+		},
+		"strikethroughTextButton": {
+			"title": "Pārsvītrots teksts"
+		},
+		"fontColorButton": {
+			"title": "Fonta krāsa"
+		},
+		"fillColorButton": {
+			"title": "Aizpildījuma krāsa"
+		},
+		"copyStyleButton": {
+			"title": "Stila gleznotājs"
+		},
+		"alignLeftButton": {
+			"title": "Izlīdzināt pa kreisi"
+		},
+		"alignCenterButton": {
+			"title": "Centrs"
+		},
+		"alignRightButton": {
+			"title": "Izlīdziniet pa labi"
+		},
+		"topAlignButton": {
+			"title": "Izlīdzināt uz augšu"
+		},
+		"middleAlignButton": {
+			"title": "Izlīdzinājums pa vidu"
+		},
+		"bottomAlignButton": {
+			"title": "Izlīdzināt apakšā"
+		},
+		"textWrappingButton": {
+			"title": "Teksta ietīšana"
+		},
+		"currencyNumberFormatButton": {
+			"title": "Valūtas numura formāts"
+		},
+		"increaseDecimalButton": {
+			"title": "Palielināt decimāldaļu"
+		},
+		"decreaseDecimalButton": {
+			"title": "Samazināt decimāldaļu"
+		},
+		"percentNumberFormatButton": {
+			"title": "Procentu skaitļu formāts"
+		},
+		"numberFormatDropDown": {
+			"General": {
+				"text": "Ģenerālis"
+			},
+			"Number": {
+				"text": "Numurs"
+			},
+			"Currency": {
+				"text": "Valūta"
+			},
+			"Date": {
+				"text": "Datums"
+			},
+			"Time": {
+				"text": "Laiks"
+			},
+			"Percentage": {
+				"text": "Procenti"
+			},
+			"Scientific": {
+				"text": "Zinātniski"
+			},
+			"Text": {
+				"text": "Teksts"
+			}
+		},
+		"numberFormatButton": {
+			"title": "Ciparu formāts"
+		},
+		"showFormulasButton": {
+			"title": "Rādīt formulas"
+		},
+		"searchTextButton": {
+			"title": "Meklēt tekstu"
+		},
+		"undoButton": {
+			"title": "Atsaukt"
+		},
+		"redoButton": {
+			"title": "Atkārtoti"
+		},
+		"cutContentButton": {
+			"title": "Izgriezt saturu"
+		},
+		"copyContentButton": {
+			"title": "Kopēt saturu"
+		},
+		"pasteContentButton": {
+			"title": "Ielīmējiet saturu"
+		},
+		"clearContentButton": {
+			"title": "Skaidrs saturs"
+		},
+		"clearFormatButton": {
+			"title": "Skaidrs formāts"
+		},
+		"deleteRowsButton": {
+			"title": "Dzēst rindas"
+		},
+		"deleteColumnsButton": {
+			"title": "Dzēst kolonnas"
+		},
+		"deleteCellsAndShiftLeftButton": {
+			"title": "Dzēst šūnas un pārvietot pa kreisi"
+		},
+		"deleteCellsAndShiftUpButton": {
+			"title": "Dzēsiet šūnas un pārvietojiet uz augšu"
+		},
+		"deletePictureButton": {
+			"title": "Dzēst attēlu"
+		},
+		"deleteLinkButton": {
+			"title": "Dzēst saiti"
+		},
+		"mergeCellsButton": {
+			"title": "Apvienot šūnas"
+		},
+		"unmergeCellsButton": {
+			"title": "Atvienojiet šūnas"
+		},
+		"fillCells": {
+			"title": "Aizpildiet šūnas"
+		},
+		"allBordersButton": {
+			"title": "Visas robežas"
+		},
+		"thickOutsideBordersButton": {
+			"title": "Biezas ārējās robežas"
+		},
+		"autoFitRowHeightButton": {
+			"title": "Automātiski pielāgojiet rindas augstumu"
+		},
+		"autoFitColumnWidthButton": {
+			"title": "Automātiski pielāgot kolonnas platumu"
+		},
+		"insertRowsButton": {
+			"title": "Ievietojiet rindas"
+		},
+		"insertColumnsButton": {
+			"title": "Ievietojiet kolonnas"
+		},
+		"insertCellsAndShiftRightButton": {
+			"title": "Ievietojiet šūnu un pabīdiet pa labi"
+		},
+		"insertCellsAndShiftDownButton": {
+			"title": "Ievietojiet šūnu un pārvietojiet uz leju"
+		},
+		"insertSheetButton": {
+			"title": "Ievietojiet darblapu"
+		},
+		"insertFunctionButton": {
+			"title": "Ievietošanas funkcija"
+		},
+		"insertLinkButton": {
+			"title": "Ievietojiet saiti"
+		},
+		"insertCommentButton": {
+			"title": "Ievietot komentāru"
+		},
+		"insertPictureButton": {
+			"title": "Pievienot attēlu"
+		},
+		"insertChartButton": {
+			"title": "Ievietot diagrammu"
+		},
+		"editCommentButton": {
+			"title": "Rediģēt komentāru"
+		},
+		"deleteCommentButton": {
+			"title": "Dzēst komentāru"
+		},
+		"previousCommentButton": {
+			"title": "Iepriekšējais komentārs"
+		},
+		"nextCommentButton": {
+			"title": "Nākamais komentārs"
+		},
+		"formulaPanel-cancelChangeButton": {
+			"title": "Atcelt izmaiņas"
+		},
+		"formulaPanel-applyChangeButton": {
+			"title": "Piemērot izmaiņas"
+		},
+		"formulaPanel-fullScreenButton": {
+			"title": "Pilnekrāna režīms"
+		},
+		"scrollToFirstWorksheetButton": {
+			"title": "Ritiniet līdz pirmajai darblapai"
+		},
+		"scrollToLastWorksheetButton": {
+			"title": "Ritiniet līdz pēdējai darblapai"
+		},
+		"addWorksheetButton": {
+			"title": "Pievienojiet darblapu"
+		},
+		"showWorksheetListButton": {
+			"title": "Rādīt darblapu sarakstu"
+		},
+		"zoomOutButton": {
+			"title": "Attālināt"
+		},
+		"zoomValueLabel": {
+			"text": "100%"
+		},
+		"zoomInButton": {
+			"title": "Pietuvināt"
+		},
+		"enUsCurrencyNumberFormatButton": {
+			"title": "$ angļu (ASV)"
+		},
+		"enUkCurrencyNumberFormatButton": {
+			"title": "£ angļu (Apvienotā Karaliste)"
+		},
+		"euCurrencyNumberFormatButton": {
+			"title": "eiro eiro (123 eiro)"
+		},
+		"ruCurrencyNumberFormatButton": {
+			"title": "₽ krievu"
+		},
+		"chCurrencyNumberFormatButton": {
+			"title": "¥ ķīniešu"
+		},
+		"enInCurrencyNumberFormatButton": {
+			"title": "₹ angļu (Indija)"
+		},
+		"fillCellsDownButton": {
+			"title": "Aizpildiet uz leju"
+		},
+		"fillCellsUpButton": {
+			"title": "Piepildīt"
+		},
+		"fillCellsLeftButton": {
+			"title": "Aizpildiet pa kreisi"
+		},
+		"fillCellsRightButton": {
+			"title": "Aizpildiet pa labi"
+		},
+		"noBordersButton": {
+			"title": "Bez robežām"
+		},
+		"outsideBordersButton": {
+			"title": "Ārpus robežām"
+		},
+		"bottomBorderButton": {
+			"title": "Apakšējā robeža"
+		},
+		"topBorderButton": {
+			"title": "Augšējā apmale"
+		},
+		"rightBorderButton": {
+			"title": "Labā robeža"
+		},
+		"leftBorderButton": {
+			"title": "Kreisā robeža"
+		},
+		"thickBottomBorderButton": {
+			"title": "Bieza apakšējā robeža"
+		},
+		"thickLeftBorderButton": {
+			"title": "Bieza kreisā robeža"
+		},
+		"doubleBottomBorderButton": {
+			"title": "Divpusējā apmale"
+		},
+		"doubleLeftBorderButton": {
+			"title": "Dubultā kreisā robeža"
+		},
+		"borderColorButton": {
+			"title": "Apmales krāsa"
+		},
+		"copyWorksheetLabel": {
+			"text": "Kopēt darblapu"
+		},
+		"deleteWorksheetLabel": {
+			"text": "Dzēst darblapu"
+		},
+		"renameWorksheetLabel": {
+			"text": "Pārdēvējiet darblapu"
+		},
+		"moveWorksheetLabel": {
+			"text": "Pārvietot darblapu"
+		},
+		"copyLabel": {
+			"text": "Kopēt"
+		},
+		"cutLabel": {
+			"text": "Griezt"
+		},
+		"pasteLabel": {
+			"text": "Ielīmēt"
+		},
+		"clearContentsLabel": {
+			"text": "Notīrīt saturu"
+		},
+		"insertCellAndShiftRightLabel": {
+			"text": "Ievietojiet šūnu un pabīdiet pa labi"
+		},
+		"insertCellAndShiftDownLabel": {
+			"text": "Ievietojiet šūnu un pārvietojiet uz leju"
+		},
+		"insertEntireRowLabel": {
+			"text": "Ievietojiet visu rindu"
+		},
+		"insertEntireColumnLabel": {
+			"text": "Ievietojiet visu kolonnu"
+		},
+		"deleteImageLabel": {
+			"text": "Dzēst"
+		},
+		"propertiesLabel": {
+			"text": "Rekvizīti..."
+		},
+		"deleteCellAndShiftLeftLabel": {
+			"text": "Dzēst šūnu un pārvietot pa kreisi"
+		},
+		"deleteCellAndShiftUpLabel": {
+			"text": "Dzēst šūnu un pārvietot uz augšu"
+		},
+		"deleteEntireRowLabel": {
+			"text": "Dzēst visu rindu"
+		},
+		"deleteEntireColumnLabel": {
+			"text": "Dzēst visu kolonnu"
+		},
+		"insertRowsLabel": {
+			"text": "Ievietot rindas"
+		},
+		"deleteRowsLabel": {
+			"text": "Dzēst rindas"
+		},
+		"insertColumnsLabel": {
+			"text": "Ievietot kolonnas"
+		},
+		"deleteColumnsLabel": {
+			"text": "Dzēst kolonnas"
+		},
+		"insertCommentLabel": {
+			"text": "Ievietot komentāru..."
+		},
+		"editCommentLabel": {
+			"text": "Rediģēt komentāru..."
+		},
+		"deleteCommentLabel": {
+			"text": "Dzēst komentāru"
+		},
+		"showHideCommentLabel": {
+			"text": "Rādīt/slēpt komentāru"
+		},
+		"hideCommentLabel": {
+			"text": "Slēpt komentāru"
+		},
+		"hideRowsLabel": {
+			"text": "Slēpt rindas"
+		},
+		"unhideRowsLabel": {
+			"text": "Parādīt rindu slēpšanu"
+		},
+		"hideColumnsLabel": {
+			"text": "Slēpt kolonnas"
+		},
+		"unhideColumnsLabel": {
+			"text": "Parādīt slejas"
+		},
+		"insertCommentDialog": {
+			"authorLabel": {
+				"text": "Autors:"
+			},
+			"showAuthorLabel": {
+				"text": "Rādīt autoru"
+			},
+			"commentLabel": {
+				"text": "komentēt:"
+			},
+			"okButton": {
+				"value": "labi"
+			},
+			"cancelButton": {
+				"value": "Atcelt"
+			}
+		},
+		"commentEditDialog": {
+			"authorLabel": {
+				"text": "Autors:"
+			},
+			"showAuthorLabel": {
+				"text": "Rādīt autoru"
+			},
+			"commentLabel": {
+				"text": "komentēt:"
+			},
+			"okButton": {
+				"value": "labi"
+			},
+			"cancelButton": {
+				"value": "Atcelt"
+			}
+		},
+		"editChartDialog": {
+			"titleLabel": {
+				"text": "Nosaukums:"
+			},
+			"okButton": {
+				"value": "labi"
+			},
+			"cancelButton": {
+				"value": "Atcelt"
+			}
+		},
+		"renameWorksheetDialog": {
+			"nameLabel": {
+				"text": "Vārds:"
+			},
+			"okButton": {
+				"value": "labi"
+			},
+			"cancelButton": {
+				"value": "Atcelt"
+			}
+		},
+		"moveWorksheetDialog": {
+			"moveUpButton": {
+				"value": "Pārvietojieties uz augšu"
+			},
+			"moveDownButton": {
+				"value": "Pārvietojieties uz leju"
+			},
+			"okButton": {
+				"value": "labi"
+			},
+			"cancelButton": {
+				"value": "Atcelt"
+			}
+		},
+		"findTextDialog": {
+			"findTextLabel": {
+				"text": "Atrast tekstu"
+			},
+			"findWhatLabel": {
+				"text": "Atrast ko:"
+			},
+			"withinLabel": {
+				"text": "Ietvaros:"
+			},
+			"Sheet": {
+				"text": "Lapa"
+			},
+			"Workbook": {
+				"text": "Darba burtnīca"
+			},
+			"searchLabel": {
+				"text": "Meklēt:"
+			},
+			"ByRows": {
+				"text": "Pēc rindām"
+			},
+			"ByColumns": {
+				"text": "Pēc kolonnām"
+			},
+			"lookInLabel": {
+				"text": "Ieskaties:"
+			},
+			"Formulas": {
+				"text": "Formulas"
+			},
+			"Values": {
+				"text": "Vērtības"
+			},
+			"Comments": {
+				"text": "komentāri"
+			},
+			"matchCaseLabel": {
+				"text": "Match case"
+			},
+			"matchEntireContentLabel": {
+				"text": "Atbilst visam saturam"
+			},
+			"findNextButton": {
+				"value": "Atrodi Tālāk"
+			},
+			"closeButton": {
+				"value": "Aizvērt"
+			}
+		},
+		"selectFunctionDialog": {
+			"categoryLabel": {
+				"text": "Kategorija:"
+			},
+			"categoryDropDown": {
+				"All": {
+					"text": "Visi"
+				},
+				"Financial": {
+					"text": "Finanšu"
+				},
+				"DateAndTime": {
+					"text": "DateAndTime"
+				},
+				"MathAndTrig": {
+					"text": "MathAndTrig"
+				},
+				"Statistical": {
+					"text": "Statistikas"
+				},
+				"LookupAndReference": {
+					"text": "LookupAndReference"
+				},
+				"Text": {
+					"text": "Teksts"
+				},
+				"Logical": {
+					"text": "Loģiski"
+				},
+				"Information": {
+					"text": "Informācija"
+				},
+				"Engineering": {
+					"text": "Inženierzinātnes"
+				}
+			},
+			"selectFunctionLabel": {
+				"text": "Izvēlieties funkciju:"
+			},
+			"okButton": {
+				"value": "labi"
+			},
+			"cancelButton": {
+				"value": "Atcelt"
+			}
+		},
+		"setCellNumberFormatDialog": {
+			"General": {
+				"text": "Ģenerālis"
+			},
+			"Number": {
+				"text": "Numurs"
+			},
+			"Currency": {
+				"text": "Valūta"
+			},
+			"Date": {
+				"text": "Datums"
+			},
+			"Time": {
+				"text": "Laiks"
+			},
+			"Percentage": {
+				"text": "Procenti"
+			},
+			"Scientific": {
+				"text": "Zinātniski"
+			},
+			"Text": {
+				"text": "Teksts"
+			},
+			"Custom": {
+				"text": "Pielāgots"
+			},
+			"generalFormatDescriptionLabel": {
+				"text": "Vispārējā formāta šūnām nav noteikta skaitļu formāta."
+			},
+			"numberDecimalPlacesLabel": {
+				"text": "Cipari aiz komata:"
+			},
+			"useThousandsSeparatorLabel": {
+				"text": "Izmantojiet 1000 atdalītāju"
+			},
+			"numberNegativeValuesLabel": {
+				"text": "Negatīvās vērtības:"
+			},
+			"changeTextColorToRedLabel": {
+				"text": "Mainiet teksta krāsu uz sarkanu"
+			},
+			"hideMinusSignLabel": {
+				"text": "Paslēpt mīnusa zīmi"
+			},
+			"currencyDecimalPlacesLabel": {
+				"text": "Cipari aiz komata:"
+			},
+			"currencySymbolLabel": {
+				"text": "Simbols:"
+			},
+			"percentageDecimalPlacesLabel": {
+				"text": "Cipari aiz komata:"
+			},
+			"scientificDecimalPlacesLabel": {
+				"text": "Cipari aiz komata:"
+			},
+			"textFormatDescriptionLabel": {
+				"text": "Teksta formāta šūnas tiek uzskatītas par tekstu, pat ja šūnā ir skaitlis."
+			},
+			"okButton": {
+				"value": "labi"
+			},
+			"cancelButton": {
+				"value": "Atcelt"
+			}
+		},
+		"insertChartDialog": {
+			"okButton": {
+				"value": "labi"
+			},
+			"cancelButton": {
+				"value": "Atcelt"
+			}
+		}
+	},
+	"strings": {
+		"vssde-documentIsOpening": "Dokuments tiek atvērts...",
+		"vssde-numberFormat-general": "Ģenerālis",
+		"vssde-numberFormat-number": "Numurs",
+		"vssde-numberFormat-date": "Datums",
+		"vssde-numberFormat-time": "Laiks",
+		"vssde-numberFormat-currency": "Valūta",
+		"vssde-numberFormat-percentage": "Procenti",
+		"vssde-numberFormat-scientific": "Zinātniski",
+		"vssde-numberFormat-text": "Teksts",
+		"vssde-numberFormat-custom": "Pielāgots",
+		"vssde-findTextPanel-sheet": "Lapa",
+		"vssde-findTextPanel-workbook": "Darba burtnīca",
+		"vssde-findTextPanel-byRows": "Pēc rindām",
+		"vssde-findTextPanel-byColumns": "Pēc kolonnām",
+		"vssde-findTextPanel-formulas": "Formulas",
+		"vssde-findTextPanel-values": "Vērtības",
+		"vssde-findTextPanel-comments": "komentāri",
+		"vssde-findTextPanel-textIsNotFound": "Teksts '{0}' nav atrasts.",
+		"vssde-selectFunctionPanel-all": "Visi",
+		"vssde-createXlsxDocument": "Izveidojiet jaunu XLSX dokumentu",
+		"vssde-uploadXlsxFile": "Augšupielādējiet XLSX failu",
+		"vssde-downloadXlsxFile": "Lejupielādēt XLSX failu",
+		"vssde-exportXlsxToPdf": "Eksportējiet XLSX uz PDF",
+		"vssde-fileSizeExceedsLimit": "Augšupielādētā faila lielums pārsniedz maksimālo izmēru ({0} baiti).",
+		"vssde-createXlsxDocumentConfirmation": "Vai vēlaties izveidot jaunu darbgrāmatu?",
+		"vssde-insertCommentDialog-title": "Ievietot komentāru",
+		"vssde-dialog-okButton": "labi",
+		"vssde-dialog-cancelButton": "Atcelt",
+		"vssde-editCommentDialog-title": "Rediģēt komentāru",
+		"vssde-editChartDialog-title": "Rediģēt diagrammu",
+		"vssde-editChartPropertiesPanel-spreadsheetEditorDoesNotHaveFocusedChart": "Izklājlapu redaktoram nav fokusētas diagrammas.",
+		"vssde-editChartPropertiesPanel-selectedDrawingIsNotChart": "Atlasītais zīmējums nav diagramma.",
+		"vssde-renameWorksheetDialog-title": "Pārdēvēt darblapu",
+		"vssde-moveWorksheetDialog-title": "Pārvietot darblapu",
+		"vssde-findTextDialog-title": "Atrast tekstu",
+		"vssde-findTextDialog-findNextButton": "Atrodi Tālāk",
+		"vssde-dialog-closeButton": "Aizvērt",
+		"vssde-selectFunctionDialog-title": "Ievietot funkciju",
+		"vssde-cellNumberFormatDialog-title": "Šūnas formāts",
+		"vssde-insertChartDialog-title": "Ievietot diagrammu",
+		"vssde-insertChartPanel-chartType-column": "Kolonna",
+		"vssde-insertChartPanel-chartType-line": "Līnija",
+		"vssde-insertChartPanel-chartType-pie": "Pīrāgs",
+		"vssde-insertChartPanel-chartType-bar": "Bārs",
+		"vssde-insertChartPanel-chartType-area": "Apgabals",
+		"vssde-insertChartPanel-chartSubtype-clusteredColumn": "Kopu kolonna",
+		"vssde-insertChartPanel-chartSubtype-stackedColumn": "Sakrauta kolonna",
+		"vssde-insertChartPanel-chartSubtype-100%StackedColumn": "100% sakrauta kolonna",
+		"vssde-insertChartPanel-chartSubtype-3DClusteredColumn": "3D kopu kolonna",
+		"vssde-insertChartPanel-chartSubtype-3DStackedColumn": "3D stacked kolonna",
+		"vssde-insertChartPanel-chartSubtype-3D100%StackedColumn": "3D 100% sakrauta kolonna",
+		"vssde-insertChartPanel-chartSubtype-line": "Līnija",
+		"vssde-insertChartPanel-chartSubtype-stackedLine": "Stacked Line",
+		"vssde-insertChartPanel-chartSubtype-100%StackedLine": "100% sakrauta līnija",
+		"vssde-insertChartPanel-chartSubtype-lineWithMarkers": "Līnija ar marķieriem",
+		"vssde-insertChartPanel-chartSubtype-stackedLineWithMarkers": "Sakrauta līnija ar marķieriem",
+		"vssde-insertChartPanel-chartSubtype-100%StackedLineWithMar": "100% sakrauta līnija ar marķieriem",
+		"vssde-insertChartPanel-chartSubtype-curvedLine": "Izliekta līnija",
+		"vssde-insertChartPanel-chartSubtype-stackedCurvedLine": "Sakrauta izliekta līnija",
+		"vssde-insertChartPanel-chartSubtype-100%StackedCurvedLine": "100% sakrauta izliekta līnija",
+		"vssde-insertChartPanel-chartSubtype-curvedLineWithMarkers": "Izliekta līnija ar marķieriem",
+		"vssde-insertChartPanel-chartSubtype-stackedCurvLineWithMark": "Sakrauta izliekta līnija ar marķieriem",
+		"vssde-insertChartPanel-chartSubtype-100%StackedCurvLineMark": "100% sakrauta izliekta līnija ar marķieriem",
+		"vssde-insertChartPanel-chartSubtype-pie": "Pīrāgs",
+		"vssde-insertChartPanel-chartSubtype-pieExplosion": "Pīrāgs (sprādziens)",
+		"vssde-insertChartPanel-chartSubtype-doughnut": "Virtulis",
+		"vssde-insertChartPanel-chartSubtype-clusteredBar": "Kopu josla",
+		"vssde-insertChartPanel-chartSubtype-stackedBar": "Stacked Bar",
+		"vssde-insertChartPanel-chartSubtype-100%StackedBar": "100% salikts bārs",
+		"vssde-insertChartPanel-chartSubtype-area": "Apgabals",
+		"vssde-insertChartPanel-chartSubtype-stackedArea": "Sakrauta zona",
+		"vssde-insertChartPanel-chartSubtype-100%StackedArea": "100% sakrauta platība",
+		"vssde-insertChartPanel-fileArg0IsNotFound": "Fails '{0}' nav atrasts.",
+		"vssde-insertChartPanel-supportedChartTypesAreNotFound": "Atbalstītie diagrammu veidi nav atrasti.",
+		"vssde-insertChartPanel-notSupportedChartType": "Neatbalstīts diagrammas veids.",
+		"vssde-insertChartPanel-supportedChartSubtypesAreNotFound": "Atbalstītie diagrammu apakštipi nav atrasti.",
+		"vssde-insertChartPanel-notSupportedChartSubtype": "Neatbalstīts diagrammas apakštips.",
+		"vssde-insertChartPanel-chartTemplateContainsTwoIdenticalNamesForChartSubtypes": "Diagrammas veidnē ir 2 identiski diagrammu apakštipu nosaukumi.",
+		"vssde-insertChartPanel-chartTemplateContainsTwoIdenticalNamesForChartTypes": "Diagrammas veidnē ir divi identiski diagrammu veidu nosaukumi.",
+		"vssde-insertChartPanel-pleaseSpecifyCellsWhichContainTheChartDataIncludeNamesForRowsAndColumns": "Lūdzu, norādiet šūnas, kurās ir diagrammas dati (iekļaujiet rindu un kolonnu nosaukumus).",
+		"vssde-insertChartPanel-chartSubtypeArg0HasMultipleDeclarationsOnDifferentWorksheets": "Diagrammas apakštipam '{0}' ir vairākas deklarācijas dažādās darblapās.",
+		"vssde-insertChartPanel-sheetArg0IsNotFound": "Lapa '{0}' nav atrasta."
+	}
+}

@@ -155,6 +155,9 @@
 		"deletePictureButton": {
 			"title": "Supprimer l'image"
 		},
+		"deleteLinkButton": {
+			"title": "Supprimer le lien"
+		},
 		"mergeCellsButton": {
 			"title": "Fusionner des cellules"
 		},
@@ -193,6 +196,9 @@
 		},
 		"insertFunctionButton": {
 			"title": "Insérer une fonction"
+		},
+		"insertLinkButton": {
+			"title": "Insérer un lien hypertexte"
 		},
 		"insertCommentButton": {
 			"title": "Insérer un commentaire"
@@ -235,18 +241,6 @@
 		},
 		"showWorksheetListButton": {
 			"title": "Afficher la liste des feuilles"
-		},
-		"copyWorksheetButton": {
-			"title": "Copier la feuille"
-		},
-		"deleteWorksheetButton": {
-			"title": "Supprimer la feuille"
-		},
-		"renameWorksheetButton": {
-			"title": "Renommer la feuille"
-		},
-		"moveWorksheetButton": {
-			"title": "Déplacer la feuille"
 		},
 		"zoomOutButton": {
 			"title": "Zoom arrière"
@@ -319,6 +313,18 @@
 		},
 		"borderColorButton": {
 			"title": "Couleur de la bordure"
+		},
+		"copyWorksheetLabel": {
+			"text": "Copier la feuille"
+		},
+		"deleteWorksheetLabel": {
+			"text": "Supprimer la feuille"
+		},
+		"renameWorksheetLabel": {
+			"text": "Renommer la feuille"
+		},
+		"moveWorksheetLabel": {
+			"text": "Déplacer la feuille"
 		},
 		"copyLabel": {
 			"text": "Copier"
@@ -533,16 +539,16 @@
 					"text": "Finance"
 				},
 				"DateAndTime": {
-					"text": "Date et heure"
+					"text": "DateAndTime"
 				},
 				"MathAndTrig": {
-					"text": "Mathématiques"
+					"text": "MathAndTrig"
 				},
 				"Statistical": {
 					"text": "Statistique"
 				},
 				"LookupAndReference": {
-					"text": "Références et tableaux"
+					"text": "LookupAndReference"
 				},
 				"Text": {
 					"text": "Texte"

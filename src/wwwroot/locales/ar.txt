@@ -155,6 +155,9 @@
 		"deletePictureButton": {
 			"title": "حذف الصورة"
 		},
+		"deleteLinkButton": {
+			"title": "حذف الرابط"
+		},
 		"mergeCellsButton": {
 			"title": "دمج الخلايا"
 		},
@@ -193,6 +196,9 @@
 		},
 		"insertFunctionButton": {
 			"title": "إدراج وظيفة"
+		},
+		"insertLinkButton": {
+			"title": "أدخل ارتباط تشعبي"
 		},
 		"insertCommentButton": {
 			"title": "أدخل تعليق"
@@ -235,18 +241,6 @@
 		},
 		"showWorksheetListButton": {
 			"title": "إظهار قائمة الأوراق"
-		},
-		"copyWorksheetButton": {
-			"title": "نسخ الورقة"
-		},
-		"deleteWorksheetButton": {
-			"title": "حذف الورقة"
-		},
-		"renameWorksheetButton": {
-			"title": "إعادة تسمية الورقة"
-		},
-		"moveWorksheetButton": {
-			"title": "نقل الورقة"
 		},
 		"zoomOutButton": {
 			"title": "تصغير"
@@ -319,6 +313,18 @@
 		},
 		"borderColorButton": {
 			"title": "لون الحدود"
+		},
+		"copyWorksheetLabel": {
+			"text": "نسخ الورقة"
+		},
+		"deleteWorksheetLabel": {
+			"text": "حذف الورقة"
+		},
+		"renameWorksheetLabel": {
+			"text": "إعادة تسمية الورقة"
+		},
+		"moveWorksheetLabel": {
+			"text": "نقل الورقة"
 		},
 		"copyLabel": {
 			"text": "نسخ"
@@ -533,16 +539,16 @@
 					"text": "مالي"
 				},
 				"DateAndTime": {
-					"text": "التاريخ والوقت"
+					"text": "DateAndTime"
 				},
 				"MathAndTrig": {
-					"text": "رياضيات"
+					"text": "MathAndTrig"
 				},
 				"Statistical": {
 					"text": "إحصائية"
 				},
 				"LookupAndReference": {
-					"text": "المراجع والمصفوفات"
+					"text": "LookupAndReference"
 				},
 				"Text": {
 					"text": "نص"
@@ -662,7 +668,7 @@
 		"vssde-findTextPanel-formulas": "الصيغ",
 		"vssde-findTextPanel-values": "القيم",
 		"vssde-findTextPanel-comments": "تعليقات",
-		"vssde-findTextPanel-textIsNotFound": "النص "{0}" غير موجود.",
+		"vssde-findTextPanel-textIsNotFound": "النص '{0}' غير موجود.",
 		"vssde-selectFunctionPanel-all": "الكل",
 		"vssde-createXlsxDocument": "قم بإنشاء مستند XLSX جديد",
 		"vssde-uploadXlsxFile": "قم بتحميل ملف XLSX",

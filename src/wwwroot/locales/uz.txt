@@ -1,0 +1,737 @@
+﻿{
+	"spreadsheetDocumentEditorControl": {
+		"fileLabel": {
+			"text": "Fayl"
+		},
+		"homeLabel": {
+			"text": "Uy"
+		},
+		"editLabel": {
+			"text": "Tahrirlash"
+		},
+		"insertLabel": {
+			"text": "Kiritmoq"
+		},
+		"reviewLabel": {
+			"text": "Ko‘rib chiqish"
+		},
+		"createXlsxDocumentButton": {
+			"title": "Yangi XLSX hujjatini yarating"
+		},
+		"uploadXlsxFileButton": {
+			"title": "XLSX faylini yuklang va oching"
+		},
+		"downloadXlsxFileButton": {
+			"title": "XLSX faylini yuklab oling"
+		},
+		"exportXlsxToPdfButton": {
+			"title": "XLSX-ni PDF-ga eksport qiling"
+		},
+		"showMobileMenuButton": {
+			"title": "Ko'proq"
+		},
+		"boldTextButton": {
+			"title": "Qalin matn"
+		},
+		"italicTextButton": {
+			"title": "Kursiv matn"
+		},
+		"underlineTextButton": {
+			"title": "Matnni tagiga chizish"
+		},
+		"strikethroughTextButton": {
+			"title": "Chizilgan matn"
+		},
+		"fontColorButton": {
+			"title": "Shrift rangi"
+		},
+		"fillColorButton": {
+			"title": "Rangni to'ldirish"
+		},
+		"copyStyleButton": {
+			"title": "Uslub rassomi"
+		},
+		"alignLeftButton": {
+			"title": "Chapga tekislang"
+		},
+		"alignCenterButton": {
+			"title": "Markaz"
+		},
+		"alignRightButton": {
+			"title": "O'ngga tekislang"
+		},
+		"topAlignButton": {
+			"title": "Yuqori tekislash"
+		},
+		"middleAlignButton": {
+			"title": "O'rta tekislash"
+		},
+		"bottomAlignButton": {
+			"title": "Pastki tekislash"
+		},
+		"textWrappingButton": {
+			"title": "Matnni oʻrash"
+		},
+		"currencyNumberFormatButton": {
+			"title": "Valyuta raqami formati"
+		},
+		"increaseDecimalButton": {
+			"title": "O'nli kasrni oshiring"
+		},
+		"decreaseDecimalButton": {
+			"title": "Kasrni kamaytiring"
+		},
+		"percentNumberFormatButton": {
+			"title": "Foiz raqamlari formati"
+		},
+		"numberFormatDropDown": {
+			"General": {
+				"text": "General"
+			},
+			"Number": {
+				"text": "Raqam"
+			},
+			"Currency": {
+				"text": "Valyuta"
+			},
+			"Date": {
+				"text": "Sana"
+			},
+			"Time": {
+				"text": "Vaqt"
+			},
+			"Percentage": {
+				"text": "Foiz"
+			},
+			"Scientific": {
+				"text": "Ilmiy"
+			},
+			"Text": {
+				"text": "Matn"
+			}
+		},
+		"numberFormatButton": {
+			"title": "Raqam formati"
+		},
+		"showFormulasButton": {
+			"title": "Formulalarni ko'rsatish"
+		},
+		"searchTextButton": {
+			"title": "Matnni qidirish"
+		},
+		"undoButton": {
+			"title": "Bekor qilish"
+		},
+		"redoButton": {
+			"title": "Qayta qiling"
+		},
+		"cutContentButton": {
+			"title": "Tarkibni kesish"
+		},
+		"copyContentButton": {
+			"title": "Tarkibni nusxalash"
+		},
+		"pasteContentButton": {
+			"title": "Tarkibni joylashtirish"
+		},
+		"clearContentButton": {
+			"title": "Tarkibni tozalash"
+		},
+		"clearFormatButton": {
+			"title": "Formatni tozalash"
+		},
+		"deleteRowsButton": {
+			"title": "Qatorlarni o'chirish"
+		},
+		"deleteColumnsButton": {
+			"title": "Ustunlarni o'chirish"
+		},
+		"deleteCellsAndShiftLeftButton": {
+			"title": "Hujayralarni o'chiring va chapga siljiting"
+		},
+		"deleteCellsAndShiftUpButton": {
+			"title": "Hujayralarni o'chiring va yuqoriga siljiting"
+		},
+		"deletePictureButton": {
+			"title": "Rasmni o'chirish"
+		},
+		"deleteLinkButton": {
+			"title": "Havolani o'chirish"
+		},
+		"mergeCellsButton": {
+			"title": "Hujayralarni birlashtirish"
+		},
+		"unmergeCellsButton": {
+			"title": "Hujayralarni birlashtirish"
+		},
+		"fillCells": {
+			"title": "Hujayralarni to'ldirish"
+		},
+		"allBordersButton": {
+			"title": "Barcha chegaralar"
+		},
+		"thickOutsideBordersButton": {
+			"title": "Qalin tashqi chegaralar"
+		},
+		"autoFitRowHeightButton": {
+			"title": "Qator balandligini avtomatik moslash"
+		},
+		"autoFitColumnWidthButton": {
+			"title": "Ustun kengligini avtomatik moslashtirish"
+		},
+		"insertRowsButton": {
+			"title": "Qatorlarni kiriting"
+		},
+		"insertColumnsButton": {
+			"title": "Ustunlarni kiritish"
+		},
+		"insertCellsAndShiftRightButton": {
+			"title": "Hujayrani joylashtiring va o'ngga siljiting"
+		},
+		"insertCellsAndShiftDownButton": {
+			"title": "Hujayrani joylashtiring va pastga siljiting"
+		},
+		"insertSheetButton": {
+			"title": "Ishchi varaqni kiritish"
+		},
+		"insertFunctionButton": {
+			"title": "Funktsiyani kiritish"
+		},
+		"insertLinkButton": {
+			"title": "Havolani kiriting"
+		},
+		"insertCommentButton": {
+			"title": "Fikr kiritish"
+		},
+		"insertPictureButton": {
+			"title": "Rasm qo'shish"
+		},
+		"insertChartButton": {
+			"title": "Diagramma kiritish"
+		},
+		"editCommentButton": {
+			"title": "Fikrni tahrirlash"
+		},
+		"deleteCommentButton": {
+			"title": "Fikrni o'chirish"
+		},
+		"previousCommentButton": {
+			"title": "Oldingi izoh"
+		},
+		"nextCommentButton": {
+			"title": "Keyingi sharh"
+		},
+		"formulaPanel-cancelChangeButton": {
+			"title": "O'zgartirishni bekor qilish"
+		},
+		"formulaPanel-applyChangeButton": {
+			"title": "O'zgartirishni qo'llash"
+		},
+		"formulaPanel-fullScreenButton": {
+			"title": "To'liq ekran"
+		},
+		"scrollToFirstWorksheetButton": {
+			"title": "Birinchi ish varag'iga o'ting"
+		},
+		"scrollToLastWorksheetButton": {
+			"title": "Oxirgi ish varag'iga o'ting"
+		},
+		"addWorksheetButton": {
+			"title": "Ish varag'ini qo'shing"
+		},
+		"showWorksheetListButton": {
+			"title": "Ishchi varaqlar ro'yxatini ko'rsatish"
+		},
+		"zoomOutButton": {
+			"title": "Kichraytirish"
+		},
+		"zoomValueLabel": {
+			"text": "100%"
+		},
+		"zoomInButton": {
+			"title": "Kattalashtirish"
+		},
+		"enUsCurrencyNumberFormatButton": {
+			"title": "$ Ingliz (AQSh)"
+		},
+		"enUkCurrencyNumberFormatButton": {
+			"title": "£ Ingliz (Birlashgan Qirollik)"
+		},
+		"euCurrencyNumberFormatButton": {
+			"title": "€ evro (€ 123)"
+		},
+		"ruCurrencyNumberFormatButton": {
+			"title": "₽ rus"
+		},
+		"chCurrencyNumberFormatButton": {
+			"title": "¥ Xitoy"
+		},
+		"enInCurrencyNumberFormatButton": {
+			"title": "₹ ingliz (Hindiston)"
+		},
+		"fillCellsDownButton": {
+			"title": "Toʻldirish"
+		},
+		"fillCellsUpButton": {
+			"title": "Toʻldirish"
+		},
+		"fillCellsLeftButton": {
+			"title": "Chapga to'ldirish"
+		},
+		"fillCellsRightButton": {
+			"title": "O'ngga to'ldirish"
+		},
+		"noBordersButton": {
+			"title": "Chegaralar yo'q"
+		},
+		"outsideBordersButton": {
+			"title": "Chegaralar tashqarisi"
+		},
+		"bottomBorderButton": {
+			"title": "Pastki chegara"
+		},
+		"topBorderButton": {
+			"title": "Yuqori chegara"
+		},
+		"rightBorderButton": {
+			"title": "O'ng chegara"
+		},
+		"leftBorderButton": {
+			"title": "Chap chegara"
+		},
+		"thickBottomBorderButton": {
+			"title": "Qalin pastki chegara"
+		},
+		"thickLeftBorderButton": {
+			"title": "Qalin chap chegara"
+		},
+		"doubleBottomBorderButton": {
+			"title": "Ikkita pastki chegara"
+		},
+		"doubleLeftBorderButton": {
+			"title": "Ikki tomonlama chap chegara"
+		},
+		"borderColorButton": {
+			"title": "Chegara rangi"
+		},
+		"copyWorksheetLabel": {
+			"text": "Ishchi varaqni nusxalash"
+		},
+		"deleteWorksheetLabel": {
+			"text": "Ish varag'ini o'chirish"
+		},
+		"renameWorksheetLabel": {
+			"text": "Ishchi varaq nomini o'zgartirish"
+		},
+		"moveWorksheetLabel": {
+			"text": "Ishchi varaqni ko'chirish"
+		},
+		"copyLabel": {
+			"text": "Nusxalash"
+		},
+		"cutLabel": {
+			"text": "Kesish"
+		},
+		"pasteLabel": {
+			"text": "joylashtirish"
+		},
+		"clearContentsLabel": {
+			"text": "Tarkibni tozalash"
+		},
+		"insertCellAndShiftRightLabel": {
+			"text": "Hujayrani joylashtiring va o'ngga siljiting"
+		},
+		"insertCellAndShiftDownLabel": {
+			"text": "Hujayrani joylashtiring va pastga siljiting"
+		},
+		"insertEntireRowLabel": {
+			"text": "Butun qatorni kiriting"
+		},
+		"insertEntireColumnLabel": {
+			"text": "Butun ustunni kiriting"
+		},
+		"deleteImageLabel": {
+			"text": "Oʻchirish"
+		},
+		"propertiesLabel": {
+			"text": "Xususiyatlari..."
+		},
+		"deleteCellAndShiftLeftLabel": {
+			"text": "Hujayrani o'chiring va chapga siljiting"
+		},
+		"deleteCellAndShiftUpLabel": {
+			"text": "Hujayrani o'chiring va yuqoriga siljiting"
+		},
+		"deleteEntireRowLabel": {
+			"text": "Butun qatorni o'chirish"
+		},
+		"deleteEntireColumnLabel": {
+			"text": "Butun ustunni o'chirish"
+		},
+		"insertRowsLabel": {
+			"text": "Qatorlarni kiritish"
+		},
+		"deleteRowsLabel": {
+			"text": "Qatorlarni o'chirish"
+		},
+		"insertColumnsLabel": {
+			"text": "Ustunlarni kiritish"
+		},
+		"deleteColumnsLabel": {
+			"text": "Ustunlarni o'chirish"
+		},
+		"insertCommentLabel": {
+			"text": "Fikr kiritish..."
+		},
+		"editCommentLabel": {
+			"text": "Fikrni tahrirlash..."
+		},
+		"deleteCommentLabel": {
+			"text": "Fikrni o'chirish"
+		},
+		"showHideCommentLabel": {
+			"text": "Sharhni ko'rsatish/yashirish"
+		},
+		"hideCommentLabel": {
+			"text": "Fikrni yashirish"
+		},
+		"hideRowsLabel": {
+			"text": "Qatorlarni yashirish"
+		},
+		"unhideRowsLabel": {
+			"text": "Qatorlarni ko‘rsatish"
+		},
+		"hideColumnsLabel": {
+			"text": "Ustunlarni yashirish"
+		},
+		"unhideColumnsLabel": {
+			"text": "Ustunlarni ko'rsatish"
+		},
+		"insertCommentDialog": {
+			"authorLabel": {
+				"text": "Muallif:"
+			},
+			"showAuthorLabel": {
+				"text": "Muallifni ko'rsatish"
+			},
+			"commentLabel": {
+				"text": "Izoh:"
+			},
+			"okButton": {
+				"value": "KELISHDIKMI"
+			},
+			"cancelButton": {
+				"value": "Bekor qilish"
+			}
+		},
+		"commentEditDialog": {
+			"authorLabel": {
+				"text": "Muallif:"
+			},
+			"showAuthorLabel": {
+				"text": "Muallifni ko'rsatish"
+			},
+			"commentLabel": {
+				"text": "Izoh:"
+			},
+			"okButton": {
+				"value": "KELISHDIKMI"
+			},
+			"cancelButton": {
+				"value": "Bekor qilish"
+			}
+		},
+		"editChartDialog": {
+			"titleLabel": {
+				"text": "Sarlavha:"
+			},
+			"okButton": {
+				"value": "KELISHDIKMI"
+			},
+			"cancelButton": {
+				"value": "Bekor qilish"
+			}
+		},
+		"renameWorksheetDialog": {
+			"nameLabel": {
+				"text": "Nomi:"
+			},
+			"okButton": {
+				"value": "KELISHDIKMI"
+			},
+			"cancelButton": {
+				"value": "Bekor qilish"
+			}
+		},
+		"moveWorksheetDialog": {
+			"moveUpButton": {
+				"value": "Yuqoriga harakatlanmoq"
+			},
+			"moveDownButton": {
+				"value": "Pastga siljiting"
+			},
+			"okButton": {
+				"value": "KELISHDIKMI"
+			},
+			"cancelButton": {
+				"value": "Bekor qilish"
+			}
+		},
+		"findTextDialog": {
+			"findTextLabel": {
+				"text": "Matnni toping"
+			},
+			"findWhatLabel": {
+				"text": "Nimani toping:"
+			},
+			"withinLabel": {
+				"text": "Ichida:"
+			},
+			"Sheet": {
+				"text": "Varaq"
+			},
+			"Workbook": {
+				"text": "Ish kitobi"
+			},
+			"searchLabel": {
+				"text": "Qidirmoq:"
+			},
+			"ByRows": {
+				"text": "Qatorlar bo'yicha"
+			},
+			"ByColumns": {
+				"text": "Ustunlar bo'yicha"
+			},
+			"lookInLabel": {
+				"text": "Nazar solmoq:"
+			},
+			"Formulas": {
+				"text": "Formulalar"
+			},
+			"Values": {
+				"text": "Qiymatlar"
+			},
+			"Comments": {
+				"text": "Izohlar"
+			},
+			"matchCaseLabel": {
+				"text": "Gugurt ishi"
+			},
+			"matchEntireContentLabel": {
+				"text": "Butun tarkibni moslashtiring"
+			},
+			"findNextButton": {
+				"value": "Keyingisini toping"
+			},
+			"closeButton": {
+				"value": "Yopish"
+			}
+		},
+		"selectFunctionDialog": {
+			"categoryLabel": {
+				"text": "Turkum:"
+			},
+			"categoryDropDown": {
+				"All": {
+					"text": "Hammasi"
+				},
+				"Financial": {
+					"text": "Moliyaviy"
+				},
+				"DateAndTime": {
+					"text": "DateAndTime"
+				},
+				"MathAndTrig": {
+					"text": "MathAndTrig"
+				},
+				"Statistical": {
+					"text": "Statistik"
+				},
+				"LookupAndReference": {
+					"text": "LookupAndReference"
+				},
+				"Text": {
+					"text": "Matn"
+				},
+				"Logical": {
+					"text": "Mantiqiy"
+				},
+				"Information": {
+					"text": "Ma `lumot"
+				},
+				"Engineering": {
+					"text": "Muhandislik"
+				}
+			},
+			"selectFunctionLabel": {
+				"text": "Funktsiyani tanlang:"
+			},
+			"okButton": {
+				"value": "KELISHDIKMI"
+			},
+			"cancelButton": {
+				"value": "Bekor qilish"
+			}
+		},
+		"setCellNumberFormatDialog": {
+			"General": {
+				"text": "General"
+			},
+			"Number": {
+				"text": "Raqam"
+			},
+			"Currency": {
+				"text": "Valyuta"
+			},
+			"Date": {
+				"text": "Sana"
+			},
+			"Time": {
+				"text": "Vaqt"
+			},
+			"Percentage": {
+				"text": "Foiz"
+			},
+			"Scientific": {
+				"text": "Ilmiy"
+			},
+			"Text": {
+				"text": "Matn"
+			},
+			"Custom": {
+				"text": "Maxsus"
+			},
+			"generalFormatDescriptionLabel": {
+				"text": "Umumiy formatli katakchalar maxsus raqam formatiga ega emas."
+			},
+			"numberDecimalPlacesLabel": {
+				"text": "O'nlik raqamlar:"
+			},
+			"useThousandsSeparatorLabel": {
+				"text": "1000 ajratgichdan foydalaning"
+			},
+			"numberNegativeValuesLabel": {
+				"text": "Salbiy qiymatlar:"
+			},
+			"changeTextColorToRedLabel": {
+				"text": "Matn rangini qizil rangga o'zgartiring"
+			},
+			"hideMinusSignLabel": {
+				"text": "Minus belgisini yashirish"
+			},
+			"currencyDecimalPlacesLabel": {
+				"text": "O'nlik raqamlar:"
+			},
+			"currencySymbolLabel": {
+				"text": "Belgisi:"
+			},
+			"percentageDecimalPlacesLabel": {
+				"text": "O'nlik raqamlar:"
+			},
+			"scientificDecimalPlacesLabel": {
+				"text": "O'nlik raqamlar:"
+			},
+			"textFormatDescriptionLabel": {
+				"text": "Matn formatidagi katakchalar, agar raqam katakda bo'lsa ham, matn sifatida ko'rib chiqiladi."
+			},
+			"okButton": {
+				"value": "KELISHDIKMI"
+			},
+			"cancelButton": {
+				"value": "Bekor qilish"
+			}
+		},
+		"insertChartDialog": {
+			"okButton": {
+				"value": "KELISHDIKMI"
+			},
+			"cancelButton": {
+				"value": "Bekor qilish"
+			}
+		}
+	},
+	"strings": {
+		"vssde-documentIsOpening": "Hujjat ochilmoqda...",
+		"vssde-numberFormat-general": "General",
+		"vssde-numberFormat-number": "Raqam",
+		"vssde-numberFormat-date": "Sana",
+		"vssde-numberFormat-time": "Vaqt",
+		"vssde-numberFormat-currency": "Valyuta",
+		"vssde-numberFormat-percentage": "Foiz",
+		"vssde-numberFormat-scientific": "Ilmiy",
+		"vssde-numberFormat-text": "Matn",
+		"vssde-numberFormat-custom": "Maxsus",
+		"vssde-findTextPanel-sheet": "Varaq",
+		"vssde-findTextPanel-workbook": "Ish kitobi",
+		"vssde-findTextPanel-byRows": "Qatorlar bo'yicha",
+		"vssde-findTextPanel-byColumns": "Ustunlar bo'yicha",
+		"vssde-findTextPanel-formulas": "Formulalar",
+		"vssde-findTextPanel-values": "Qiymatlar",
+		"vssde-findTextPanel-comments": "Izohlar",
+		"vssde-findTextPanel-textIsNotFound": "'{0}' matni topilmadi.",
+		"vssde-selectFunctionPanel-all": "Hammasi",
+		"vssde-createXlsxDocument": "Yangi XLSX hujjatini yarating",
+		"vssde-uploadXlsxFile": "XLSX faylini yuklang",
+		"vssde-downloadXlsxFile": "XLSX faylini yuklab oling",
+		"vssde-exportXlsxToPdf": "XLSX-ni PDF-ga eksport qiling",
+		"vssde-fileSizeExceedsLimit": "Yuklangan fayl hajmi maksimal hajmdan ({0} bayt) oshib ketdi.",
+		"vssde-createXlsxDocumentConfirmation": "Yangi ish kitobini yaratmoqchimisiz?",
+		"vssde-insertCommentDialog-title": "Fikr kiritish",
+		"vssde-dialog-okButton": "KELISHDIKMI",
+		"vssde-dialog-cancelButton": "Bekor qilish",
+		"vssde-editCommentDialog-title": "Fikrni tahrirlash",
+		"vssde-editChartDialog-title": "Diagrammani tahrirlash",
+		"vssde-editChartPropertiesPanel-spreadsheetEditorDoesNotHaveFocusedChart": "Elektron jadval muharriri fokuslangan diagrammaga ega emas.",
+		"vssde-editChartPropertiesPanel-selectedDrawingIsNotChart": "Tanlangan chizma diagramma emas.",
+		"vssde-renameWorksheetDialog-title": "Ishchi varaq nomini o'zgartirish",
+		"vssde-moveWorksheetDialog-title": "Ishchi varaqni ko'chirish",
+		"vssde-findTextDialog-title": "Matnni toping",
+		"vssde-findTextDialog-findNextButton": "Keyingisini toping",
+		"vssde-dialog-closeButton": "Yopish",
+		"vssde-selectFunctionDialog-title": "Funktsiyani kiritish",
+		"vssde-cellNumberFormatDialog-title": "Hujayra formati",
+		"vssde-insertChartDialog-title": "Diagramma kiritish",
+		"vssde-insertChartPanel-chartType-column": "Ustun",
+		"vssde-insertChartPanel-chartType-line": "Chiziq",
+		"vssde-insertChartPanel-chartType-pie": "Pirog",
+		"vssde-insertChartPanel-chartType-bar": "Bar",
+		"vssde-insertChartPanel-chartType-area": "Hudud",
+		"vssde-insertChartPanel-chartSubtype-clusteredColumn": "Klasterli ustun",
+		"vssde-insertChartPanel-chartSubtype-stackedColumn": "Yig'ilgan ustun",
+		"vssde-insertChartPanel-chartSubtype-100%StackedColumn": "100% toʻplangan ustun",
+		"vssde-insertChartPanel-chartSubtype-3DClusteredColumn": "3D klasterli ustun",
+		"vssde-insertChartPanel-chartSubtype-3DStackedColumn": "3D stacked ustun",
+		"vssde-insertChartPanel-chartSubtype-3D100%StackedColumn": "3D 100% stacked ustun",
+		"vssde-insertChartPanel-chartSubtype-line": "Chiziq",
+		"vssde-insertChartPanel-chartSubtype-stackedLine": "Yig'ilgan chiziq",
+		"vssde-insertChartPanel-chartSubtype-100%StackedLine": "100% stacked line",
+		"vssde-insertChartPanel-chartSubtype-lineWithMarkers": "Markerlar bilan chiziq",
+		"vssde-insertChartPanel-chartSubtype-stackedLineWithMarkers": "Markerlar bilan yig'ilgan chiziq",
+		"vssde-insertChartPanel-chartSubtype-100%StackedLineWithMar": "Markerlar bilan 100% yig'ilgan chiziq",
+		"vssde-insertChartPanel-chartSubtype-curvedLine": "Egri chiziq",
+		"vssde-insertChartPanel-chartSubtype-stackedCurvedLine": "Yig'ilgan egri chiziq",
+		"vssde-insertChartPanel-chartSubtype-100%StackedCurvedLine": "100% stacked egri chiziq",
+		"vssde-insertChartPanel-chartSubtype-curvedLineWithMarkers": "Markerlar bilan egri chiziq",
+		"vssde-insertChartPanel-chartSubtype-stackedCurvLineWithMark": "Belgilar bilan yig'ilgan egri chiziq",
+		"vssde-insertChartPanel-chartSubtype-100%StackedCurvLineMark": "Markerlar bilan 100% stacked egri chiziq",
+		"vssde-insertChartPanel-chartSubtype-pie": "Pirog",
+		"vssde-insertChartPanel-chartSubtype-pieExplosion": "Pirog (portlash)",
+		"vssde-insertChartPanel-chartSubtype-doughnut": "Ponchik",
+		"vssde-insertChartPanel-chartSubtype-clusteredBar": "Klasterli bar",
+		"vssde-insertChartPanel-chartSubtype-stackedBar": "Yig'ilgan bar",
+		"vssde-insertChartPanel-chartSubtype-100%StackedBar": "100% stacked bar",
+		"vssde-insertChartPanel-chartSubtype-area": "Hudud",
+		"vssde-insertChartPanel-chartSubtype-stackedArea": "Yig'ilgan maydon",
+		"vssde-insertChartPanel-chartSubtype-100%StackedArea": "100% yig'ilgan maydon",
+		"vssde-insertChartPanel-fileArg0IsNotFound": "'{0}' fayli topilmadi.",
+		"vssde-insertChartPanel-supportedChartTypesAreNotFound": "Qo'llab-quvvatlanadigan diagramma turlari topilmadi.",
+		"vssde-insertChartPanel-notSupportedChartType": "Diagramma turi qo'llab-quvvatlanmaydi.",
+		"vssde-insertChartPanel-supportedChartSubtypesAreNotFound": "Qo'llab-quvvatlanadigan diagramma pastki turlari topilmadi.",
+		"vssde-insertChartPanel-notSupportedChartSubtype": "Diagramma quyi turi qoʻllab-quvvatlanmaydi.",
+		"vssde-insertChartPanel-chartTemplateContainsTwoIdenticalNamesForChartSubtypes": "Diagramma shablonida diagramma kichik turlari uchun ikkita bir xil nom mavjud.",
+		"vssde-insertChartPanel-chartTemplateContainsTwoIdenticalNamesForChartTypes": "Diagramma shablonida diagramma turlari uchun ikkita bir xil nom mavjud.",
+		"vssde-insertChartPanel-pleaseSpecifyCellsWhichContainTheChartDataIncludeNamesForRowsAndColumns": "Iltimos, diagramma ma'lumotlarini o'z ichiga olgan katakchalarni ko'rsating (satr va ustunlar nomlarini kiriting).",
+		"vssde-insertChartPanel-chartSubtypeArg0HasMultipleDeclarationsOnDifferentWorksheets": "'{0}' diagrammaning pastki turi turli ish varaqlarida bir nechta deklaratsiyaga ega.",
+		"vssde-insertChartPanel-sheetArg0IsNotFound": "'{0}' varaq topilmadi."
+	}
+}

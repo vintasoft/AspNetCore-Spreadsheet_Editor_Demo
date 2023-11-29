@@ -1,0 +1,737 @@
+﻿{
+	"spreadsheetDocumentEditorControl": {
+		"fileLabel": {
+			"text": "Fail"
+		},
+		"homeLabel": {
+			"text": "Kodu"
+		},
+		"editLabel": {
+			"text": "Muuda"
+		},
+		"insertLabel": {
+			"text": "Sisesta"
+		},
+		"reviewLabel": {
+			"text": "Ülevaade"
+		},
+		"createXlsxDocumentButton": {
+			"title": "Looge uus XLSX-dokument"
+		},
+		"uploadXlsxFileButton": {
+			"title": "Laadige üles ja avage XLSX-fail"
+		},
+		"downloadXlsxFileButton": {
+			"title": "Laadige alla XLSX-fail"
+		},
+		"exportXlsxToPdfButton": {
+			"title": "Ekspordi XLSX PDF-i"
+		},
+		"showMobileMenuButton": {
+			"title": "Rohkem"
+		},
+		"boldTextButton": {
+			"title": "Paks tekst"
+		},
+		"italicTextButton": {
+			"title": "Kaldkiri"
+		},
+		"underlineTextButton": {
+			"title": "Teksti allajoonimine"
+		},
+		"strikethroughTextButton": {
+			"title": "Läbikriipsutatud tekst"
+		},
+		"fontColorButton": {
+			"title": "Fondi värv"
+		},
+		"fillColorButton": {
+			"title": "Täitevärv"
+		},
+		"copyStyleButton": {
+			"title": "Stiilimaalija"
+		},
+		"alignLeftButton": {
+			"title": "Joonda vasakule"
+		},
+		"alignCenterButton": {
+			"title": "Keskus"
+		},
+		"alignRightButton": {
+			"title": "Joonda paremale"
+		},
+		"topAlignButton": {
+			"title": "Ülemine joondus"
+		},
+		"middleAlignButton": {
+			"title": "Keskjoondus"
+		},
+		"bottomAlignButton": {
+			"title": "Alumine joondus"
+		},
+		"textWrappingButton": {
+			"title": "Teksti pakkimine"
+		},
+		"currencyNumberFormatButton": {
+			"title": "Valuuta numbrite vorming"
+		},
+		"increaseDecimalButton": {
+			"title": "Suurenda kümnendkoha arvu"
+		},
+		"decreaseDecimalButton": {
+			"title": "Vähenda kümnendkohti"
+		},
+		"percentNumberFormatButton": {
+			"title": "Protsendiarvu vorming"
+		},
+		"numberFormatDropDown": {
+			"General": {
+				"text": "Kindral"
+			},
+			"Number": {
+				"text": "Number"
+			},
+			"Currency": {
+				"text": "Valuuta"
+			},
+			"Date": {
+				"text": "Kuupäev"
+			},
+			"Time": {
+				"text": "Aeg"
+			},
+			"Percentage": {
+				"text": "Protsent"
+			},
+			"Scientific": {
+				"text": "Teaduslik"
+			},
+			"Text": {
+				"text": "Tekst"
+			}
+		},
+		"numberFormatButton": {
+			"title": "Numbrivorming"
+		},
+		"showFormulasButton": {
+			"title": "Kuva valemid"
+		},
+		"searchTextButton": {
+			"title": "Otsi teksti"
+		},
+		"undoButton": {
+			"title": "Võta tagasi"
+		},
+		"redoButton": {
+			"title": "Tee uuesti"
+		},
+		"cutContentButton": {
+			"title": "Lõika sisu"
+		},
+		"copyContentButton": {
+			"title": "Kopeeri sisu"
+		},
+		"pasteContentButton": {
+			"title": "Kleebi sisu"
+		},
+		"clearContentButton": {
+			"title": "Selge sisu"
+		},
+		"clearFormatButton": {
+			"title": "Selge formaat"
+		},
+		"deleteRowsButton": {
+			"title": "Kustuta read"
+		},
+		"deleteColumnsButton": {
+			"title": "Kustuta veerud"
+		},
+		"deleteCellsAndShiftLeftButton": {
+			"title": "Kustutage lahtrid ja nihutage vasakule"
+		},
+		"deleteCellsAndShiftUpButton": {
+			"title": "Kustutage lahtrid ja nihutage üles"
+		},
+		"deletePictureButton": {
+			"title": "Kustuta pilt"
+		},
+		"deleteLinkButton": {
+			"title": "Kustuta link"
+		},
+		"mergeCellsButton": {
+			"title": "Ühendage lahtrid"
+		},
+		"unmergeCellsButton": {
+			"title": "Lahtrite ühendamine"
+		},
+		"fillCells": {
+			"title": "Täida lahtrid"
+		},
+		"allBordersButton": {
+			"title": "Kõik piirid"
+		},
+		"thickOutsideBordersButton": {
+			"title": "Paksud välispiirid"
+		},
+		"autoFitRowHeightButton": {
+			"title": "Rea kõrguse automaatne sobitamine"
+		},
+		"autoFitColumnWidthButton": {
+			"title": "Sobitage veeru laius automaatselt"
+		},
+		"insertRowsButton": {
+			"title": "Sisesta read"
+		},
+		"insertColumnsButton": {
+			"title": "Sisestage veerud"
+		},
+		"insertCellsAndShiftRightButton": {
+			"title": "Sisesta lahter ja nihuta paremale"
+		},
+		"insertCellsAndShiftDownButton": {
+			"title": "Sisesta lahter ja nihuta alla"
+		},
+		"insertSheetButton": {
+			"title": "Sisestage tööleht"
+		},
+		"insertFunctionButton": {
+			"title": "Sisesta funktsioon"
+		},
+		"insertLinkButton": {
+			"title": "Sisesta link"
+		},
+		"insertCommentButton": {
+			"title": "Sisesta kommentaar"
+		},
+		"insertPictureButton": {
+			"title": "Lisa pilt"
+		},
+		"insertChartButton": {
+			"title": "Sisesta diagramm"
+		},
+		"editCommentButton": {
+			"title": "Muuda kommentaari"
+		},
+		"deleteCommentButton": {
+			"title": "Kustuta kommentaar"
+		},
+		"previousCommentButton": {
+			"title": "Eelmine kommentaar"
+		},
+		"nextCommentButton": {
+			"title": "Järgmine kommentaar"
+		},
+		"formulaPanel-cancelChangeButton": {
+			"title": "Tühista muudatus"
+		},
+		"formulaPanel-applyChangeButton": {
+			"title": "Rakenda muudatus"
+		},
+		"formulaPanel-fullScreenButton": {
+			"title": "Täisekraan"
+		},
+		"scrollToFirstWorksheetButton": {
+			"title": "Kerige esimese tööleheni"
+		},
+		"scrollToLastWorksheetButton": {
+			"title": "Kerige viimase tööleheni"
+		},
+		"addWorksheetButton": {
+			"title": "Lisa tööleht"
+		},
+		"showWorksheetListButton": {
+			"title": "Kuva töölehtede loend"
+		},
+		"zoomOutButton": {
+			"title": "Suumi välja"
+		},
+		"zoomValueLabel": {
+			"text": "100%"
+		},
+		"zoomInButton": {
+			"title": "Suurenda"
+		},
+		"enUsCurrencyNumberFormatButton": {
+			"title": "$ inglise (USA)"
+		},
+		"enUkCurrencyNumberFormatButton": {
+			"title": "Inglise £ (Ühendkuningriik)"
+		},
+		"euCurrencyNumberFormatButton": {
+			"title": "€ Euro (123 €)"
+		},
+		"ruCurrencyNumberFormatButton": {
+			"title": "₽ vene keel"
+		},
+		"chCurrencyNumberFormatButton": {
+			"title": "¥ hiina keel"
+		},
+		"enInCurrencyNumberFormatButton": {
+			"title": "₹ inglise keel (India)"
+		},
+		"fillCellsDownButton": {
+			"title": "Täitke alla"
+		},
+		"fillCellsUpButton": {
+			"title": "Täitma"
+		},
+		"fillCellsLeftButton": {
+			"title": "Täida vasakule"
+		},
+		"fillCellsRightButton": {
+			"title": "Täida paremale"
+		},
+		"noBordersButton": {
+			"title": "Piire pole"
+		},
+		"outsideBordersButton": {
+			"title": "Väljaspool piire"
+		},
+		"bottomBorderButton": {
+			"title": "Alumine piir"
+		},
+		"topBorderButton": {
+			"title": "Ülemine ääris"
+		},
+		"rightBorderButton": {
+			"title": "Parem piir"
+		},
+		"leftBorderButton": {
+			"title": "Vasak piir"
+		},
+		"thickBottomBorderButton": {
+			"title": "Paks alumine ääris"
+		},
+		"thickLeftBorderButton": {
+			"title": "Paks vasak ääris"
+		},
+		"doubleBottomBorderButton": {
+			"title": "Kahepõhjaline ääris"
+		},
+		"doubleLeftBorderButton": {
+			"title": "Topelt vasak ääris"
+		},
+		"borderColorButton": {
+			"title": "Äärise värv"
+		},
+		"copyWorksheetLabel": {
+			"text": "Kopeeri tööleht"
+		},
+		"deleteWorksheetLabel": {
+			"text": "Kustuta tööleht"
+		},
+		"renameWorksheetLabel": {
+			"text": "Nimeta tööleht ümber"
+		},
+		"moveWorksheetLabel": {
+			"text": "Teisalda tööleht"
+		},
+		"copyLabel": {
+			"text": "Kopeeri"
+		},
+		"cutLabel": {
+			"text": "Lõika"
+		},
+		"pasteLabel": {
+			"text": "Kleebi"
+		},
+		"clearContentsLabel": {
+			"text": "Selge sisu"
+		},
+		"insertCellAndShiftRightLabel": {
+			"text": "Sisesta lahter ja nihuta paremale"
+		},
+		"insertCellAndShiftDownLabel": {
+			"text": "Sisesta lahter ja nihuta alla"
+		},
+		"insertEntireRowLabel": {
+			"text": "Sisesta terve rida"
+		},
+		"insertEntireColumnLabel": {
+			"text": "Sisestage kogu veerg"
+		},
+		"deleteImageLabel": {
+			"text": "Kustuta"
+		},
+		"propertiesLabel": {
+			"text": "Omadused..."
+		},
+		"deleteCellAndShiftLeftLabel": {
+			"text": "Kustuta lahter ja nihuta vasakule"
+		},
+		"deleteCellAndShiftUpLabel": {
+			"text": "Kustutage lahter ja nihutage üles"
+		},
+		"deleteEntireRowLabel": {
+			"text": "Kustuta terve rida"
+		},
+		"deleteEntireColumnLabel": {
+			"text": "Kustuta kogu veerg"
+		},
+		"insertRowsLabel": {
+			"text": "Sisesta read"
+		},
+		"deleteRowsLabel": {
+			"text": "Kustuta read"
+		},
+		"insertColumnsLabel": {
+			"text": "Sisesta veerud"
+		},
+		"deleteColumnsLabel": {
+			"text": "Kustuta veerud"
+		},
+		"insertCommentLabel": {
+			"text": "Sisesta kommentaar..."
+		},
+		"editCommentLabel": {
+			"text": "Muuda kommentaari..."
+		},
+		"deleteCommentLabel": {
+			"text": "Kustuta kommentaar"
+		},
+		"showHideCommentLabel": {
+			"text": "Kuva/peida kommentaar"
+		},
+		"hideCommentLabel": {
+			"text": "Peida kommentaar"
+		},
+		"hideRowsLabel": {
+			"text": "Peida read"
+		},
+		"unhideRowsLabel": {
+			"text": "Näidake ridade peitmist"
+		},
+		"hideColumnsLabel": {
+			"text": "Peida veerud"
+		},
+		"unhideColumnsLabel": {
+			"text": "Kuva veerud"
+		},
+		"insertCommentDialog": {
+			"authorLabel": {
+				"text": "Autor:"
+			},
+			"showAuthorLabel": {
+				"text": "Näita autorit"
+			},
+			"commentLabel": {
+				"text": "Kommentaar:"
+			},
+			"okButton": {
+				"value": "Okei"
+			},
+			"cancelButton": {
+				"value": "Tühista"
+			}
+		},
+		"commentEditDialog": {
+			"authorLabel": {
+				"text": "Autor:"
+			},
+			"showAuthorLabel": {
+				"text": "Näita autorit"
+			},
+			"commentLabel": {
+				"text": "Kommentaar:"
+			},
+			"okButton": {
+				"value": "Okei"
+			},
+			"cancelButton": {
+				"value": "Tühista"
+			}
+		},
+		"editChartDialog": {
+			"titleLabel": {
+				"text": "Pealkiri:"
+			},
+			"okButton": {
+				"value": "Okei"
+			},
+			"cancelButton": {
+				"value": "Tühista"
+			}
+		},
+		"renameWorksheetDialog": {
+			"nameLabel": {
+				"text": "Nimi:"
+			},
+			"okButton": {
+				"value": "Okei"
+			},
+			"cancelButton": {
+				"value": "Tühista"
+			}
+		},
+		"moveWorksheetDialog": {
+			"moveUpButton": {
+				"value": "Üles liikuma"
+			},
+			"moveDownButton": {
+				"value": "Liigu alla"
+			},
+			"okButton": {
+				"value": "Okei"
+			},
+			"cancelButton": {
+				"value": "Tühista"
+			}
+		},
+		"findTextDialog": {
+			"findTextLabel": {
+				"text": "Otsi tekst"
+			},
+			"findWhatLabel": {
+				"text": "Otsi mida:"
+			},
+			"withinLabel": {
+				"text": "Piirkonnas:"
+			},
+			"Sheet": {
+				"text": "Leht"
+			},
+			"Workbook": {
+				"text": "Töövihik"
+			},
+			"searchLabel": {
+				"text": "Otsing:"
+			},
+			"ByRows": {
+				"text": "Ridade järgi"
+			},
+			"ByColumns": {
+				"text": "Veergude järgi"
+			},
+			"lookInLabel": {
+				"text": "Vaata sisse:"
+			},
+			"Formulas": {
+				"text": "Valemid"
+			},
+			"Values": {
+				"text": "Väärtused"
+			},
+			"Comments": {
+				"text": "Kommentaarid"
+			},
+			"matchCaseLabel": {
+				"text": "Tikutoos"
+			},
+			"matchEntireContentLabel": {
+				"text": "Sobitage kogu sisu"
+			},
+			"findNextButton": {
+				"value": "Otsige üles"
+			},
+			"closeButton": {
+				"value": "Sulge"
+			}
+		},
+		"selectFunctionDialog": {
+			"categoryLabel": {
+				"text": "Kategooria:"
+			},
+			"categoryDropDown": {
+				"All": {
+					"text": "Kõik"
+				},
+				"Financial": {
+					"text": "Rahaline"
+				},
+				"DateAndTime": {
+					"text": "DateAndTime"
+				},
+				"MathAndTrig": {
+					"text": "MathAndTrig"
+				},
+				"Statistical": {
+					"text": "Statistiline"
+				},
+				"LookupAndReference": {
+					"text": "LookupAndReference"
+				},
+				"Text": {
+					"text": "Tekst"
+				},
+				"Logical": {
+					"text": "Loogiline"
+				},
+				"Information": {
+					"text": "Teave"
+				},
+				"Engineering": {
+					"text": "Tehnika"
+				}
+			},
+			"selectFunctionLabel": {
+				"text": "Valige funktsioon:"
+			},
+			"okButton": {
+				"value": "Okei"
+			},
+			"cancelButton": {
+				"value": "Tühista"
+			}
+		},
+		"setCellNumberFormatDialog": {
+			"General": {
+				"text": "Kindral"
+			},
+			"Number": {
+				"text": "Number"
+			},
+			"Currency": {
+				"text": "Valuuta"
+			},
+			"Date": {
+				"text": "Kuupäev"
+			},
+			"Time": {
+				"text": "Aeg"
+			},
+			"Percentage": {
+				"text": "Protsent"
+			},
+			"Scientific": {
+				"text": "Teaduslik"
+			},
+			"Text": {
+				"text": "Tekst"
+			},
+			"Custom": {
+				"text": "Kohandatud"
+			},
+			"generalFormatDescriptionLabel": {
+				"text": "Üldvormingus lahtritel pole kindlat numbrivormingut."
+			},
+			"numberDecimalPlacesLabel": {
+				"text": "kümnendkohad:"
+			},
+			"useThousandsSeparatorLabel": {
+				"text": "Kasutage 1000 eraldajat"
+			},
+			"numberNegativeValuesLabel": {
+				"text": "Negatiivsed väärtused:"
+			},
+			"changeTextColorToRedLabel": {
+				"text": "Muutke teksti värv punaseks"
+			},
+			"hideMinusSignLabel": {
+				"text": "Peida miinusmärk"
+			},
+			"currencyDecimalPlacesLabel": {
+				"text": "kümnendkohad:"
+			},
+			"currencySymbolLabel": {
+				"text": "Sümbol:"
+			},
+			"percentageDecimalPlacesLabel": {
+				"text": "kümnendkohad:"
+			},
+			"scientificDecimalPlacesLabel": {
+				"text": "kümnendkohad:"
+			},
+			"textFormatDescriptionLabel": {
+				"text": "Tekstivormingus lahtreid käsitletakse tekstina isegi siis, kui lahtris on arv."
+			},
+			"okButton": {
+				"value": "Okei"
+			},
+			"cancelButton": {
+				"value": "Tühista"
+			}
+		},
+		"insertChartDialog": {
+			"okButton": {
+				"value": "Okei"
+			},
+			"cancelButton": {
+				"value": "Tühista"
+			}
+		}
+	},
+	"strings": {
+		"vssde-documentIsOpening": "Dokument on avamisel...",
+		"vssde-numberFormat-general": "Kindral",
+		"vssde-numberFormat-number": "Number",
+		"vssde-numberFormat-date": "Kuupäev",
+		"vssde-numberFormat-time": "Aeg",
+		"vssde-numberFormat-currency": "Valuuta",
+		"vssde-numberFormat-percentage": "Protsent",
+		"vssde-numberFormat-scientific": "Teaduslik",
+		"vssde-numberFormat-text": "Tekst",
+		"vssde-numberFormat-custom": "Kohandatud",
+		"vssde-findTextPanel-sheet": "Leht",
+		"vssde-findTextPanel-workbook": "Töövihik",
+		"vssde-findTextPanel-byRows": "Ridade järgi",
+		"vssde-findTextPanel-byColumns": "Veergude järgi",
+		"vssde-findTextPanel-formulas": "Valemid",
+		"vssde-findTextPanel-values": "Väärtused",
+		"vssde-findTextPanel-comments": "Kommentaarid",
+		"vssde-findTextPanel-textIsNotFound": "Teksti „{0}” ei leitud.",
+		"vssde-selectFunctionPanel-all": "Kõik",
+		"vssde-createXlsxDocument": "Looge uus XLSX-dokument",
+		"vssde-uploadXlsxFile": "Laadige üles XLSX-fail",
+		"vssde-downloadXlsxFile": "Laadige alla XLSX-fail",
+		"vssde-exportXlsxToPdf": "Ekspordi XLSX PDF-i",
+		"vssde-fileSizeExceedsLimit": "Üleslaaditud faili suurus ületab maksimaalse suuruse ({0} baiti).",
+		"vssde-createXlsxDocumentConfirmation": "Kas soovite luua uue töövihiku?",
+		"vssde-insertCommentDialog-title": "Sisesta kommentaar",
+		"vssde-dialog-okButton": "Okei",
+		"vssde-dialog-cancelButton": "Tühista",
+		"vssde-editCommentDialog-title": "Muuda kommentaari",
+		"vssde-editChartDialog-title": "Redigeeri diagrammi",
+		"vssde-editChartPropertiesPanel-spreadsheetEditorDoesNotHaveFocusedChart": "Tabeliredaktoril pole fokuseeritud diagrammi.",
+		"vssde-editChartPropertiesPanel-selectedDrawingIsNotChart": "Valitud joonis ei ole diagramm.",
+		"vssde-renameWorksheetDialog-title": "Nimeta tööleht ümber",
+		"vssde-moveWorksheetDialog-title": "Teisalda tööleht",
+		"vssde-findTextDialog-title": "Otsi tekst",
+		"vssde-findTextDialog-findNextButton": "Otsige üles",
+		"vssde-dialog-closeButton": "Sulge",
+		"vssde-selectFunctionDialog-title": "Sisesta funktsioon",
+		"vssde-cellNumberFormatDialog-title": "Lahtri vorming",
+		"vssde-insertChartDialog-title": "Sisesta diagramm",
+		"vssde-insertChartPanel-chartType-column": "Veerg",
+		"vssde-insertChartPanel-chartType-line": "Liin",
+		"vssde-insertChartPanel-chartType-pie": "Pirukas",
+		"vssde-insertChartPanel-chartType-bar": "Baar",
+		"vssde-insertChartPanel-chartType-area": "Piirkond",
+		"vssde-insertChartPanel-chartSubtype-clusteredColumn": "Kobaras veerg",
+		"vssde-insertChartPanel-chartSubtype-stackedColumn": "Virnastatud veerg",
+		"vssde-insertChartPanel-chartSubtype-100%StackedColumn": "100% virnastatud veerg",
+		"vssde-insertChartPanel-chartSubtype-3DClusteredColumn": "3D rühmitatud veerg",
+		"vssde-insertChartPanel-chartSubtype-3DStackedColumn": "3D virnastatud veerg",
+		"vssde-insertChartPanel-chartSubtype-3D100%StackedColumn": "3D 100% virnastatud veerg",
+		"vssde-insertChartPanel-chartSubtype-line": "Liin",
+		"vssde-insertChartPanel-chartSubtype-stackedLine": "Virnastatud joon",
+		"vssde-insertChartPanel-chartSubtype-100%StackedLine": "100% virnastatud joon",
+		"vssde-insertChartPanel-chartSubtype-lineWithMarkers": "Joon markeritega",
+		"vssde-insertChartPanel-chartSubtype-stackedLineWithMarkers": "Virnastatud joon markeritega",
+		"vssde-insertChartPanel-chartSubtype-100%StackedLineWithMar": "100% virnastatud joon markeritega",
+		"vssde-insertChartPanel-chartSubtype-curvedLine": "Kumer joon",
+		"vssde-insertChartPanel-chartSubtype-stackedCurvedLine": "Virnastatud kõverjoon",
+		"vssde-insertChartPanel-chartSubtype-100%StackedCurvedLine": "100% virnastatud kõverjoon",
+		"vssde-insertChartPanel-chartSubtype-curvedLineWithMarkers": "Kaarjas joon markeritega",
+		"vssde-insertChartPanel-chartSubtype-stackedCurvLineWithMark": "Virnastatud kõverjoon markeritega",
+		"vssde-insertChartPanel-chartSubtype-100%StackedCurvLineMark": "100% virnastatud kumer joon markeritega",
+		"vssde-insertChartPanel-chartSubtype-pie": "Pirukas",
+		"vssde-insertChartPanel-chartSubtype-pieExplosion": "Pirukas (plahvatus)",
+		"vssde-insertChartPanel-chartSubtype-doughnut": "Sõõrik",
+		"vssde-insertChartPanel-chartSubtype-clusteredBar": "Kobarate riba",
+		"vssde-insertChartPanel-chartSubtype-stackedBar": "Virnastatud baar",
+		"vssde-insertChartPanel-chartSubtype-100%StackedBar": "100% virnastatud riba",
+		"vssde-insertChartPanel-chartSubtype-area": "Piirkond",
+		"vssde-insertChartPanel-chartSubtype-stackedArea": "Virnastatud ala",
+		"vssde-insertChartPanel-chartSubtype-100%StackedArea": "100% virnastatud ala",
+		"vssde-insertChartPanel-fileArg0IsNotFound": "Faili '{0}' ei leitud.",
+		"vssde-insertChartPanel-supportedChartTypesAreNotFound": "Toetatud diagrammitüüpe ei leitud.",
+		"vssde-insertChartPanel-notSupportedChartType": "Ei toetata diagrammi tüüpi.",
+		"vssde-insertChartPanel-supportedChartSubtypesAreNotFound": "Toetatud diagrammi alamtüüpe ei leitud.",
+		"vssde-insertChartPanel-notSupportedChartSubtype": "Diagrammi alamtüüpi ei toetata.",
+		"vssde-insertChartPanel-chartTemplateContainsTwoIdenticalNamesForChartSubtypes": "Diagrammimall sisaldab diagrammi alamtüüpidele 2 identset nime.",
+		"vssde-insertChartPanel-chartTemplateContainsTwoIdenticalNamesForChartTypes": "Diagrammimall sisaldab diagrammitüüpidele kahte identset nime.",
+		"vssde-insertChartPanel-pleaseSpecifyCellsWhichContainTheChartDataIncludeNamesForRowsAndColumns": "Palun täpsustage lahtrid, mis sisaldavad diagrammi andmeid (lisada ridade ja veergude nimed).",
+		"vssde-insertChartPanel-chartSubtypeArg0HasMultipleDeclarationsOnDifferentWorksheets": "Diagrammi alamtüübil „{0}” on erinevatel töölehtedel mitu deklaratsiooni.",
+		"vssde-insertChartPanel-sheetArg0IsNotFound": "Leht '{0}' ei leitud."
+	}
+}

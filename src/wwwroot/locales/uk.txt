@@ -1,0 +1,737 @@
+﻿{
+	"spreadsheetDocumentEditorControl": {
+		"fileLabel": {
+			"text": "Файл"
+		},
+		"homeLabel": {
+			"text": "Додому"
+		},
+		"editLabel": {
+			"text": "Редагувати"
+		},
+		"insertLabel": {
+			"text": "Вставка"
+		},
+		"reviewLabel": {
+			"text": "огляд"
+		},
+		"createXlsxDocumentButton": {
+			"title": "Створіть новий документ XLSX"
+		},
+		"uploadXlsxFileButton": {
+			"title": "Завантажте та відкрийте файл XLSX"
+		},
+		"downloadXlsxFileButton": {
+			"title": "Завантажте файл XLSX"
+		},
+		"exportXlsxToPdfButton": {
+			"title": "Експорт XLSX у PDF"
+		},
+		"showMobileMenuButton": {
+			"title": "більше"
+		},
+		"boldTextButton": {
+			"title": "Жирний текст"
+		},
+		"italicTextButton": {
+			"title": "Текст курсивом"
+		},
+		"underlineTextButton": {
+			"title": "Підкреслити текст"
+		},
+		"strikethroughTextButton": {
+			"title": "Закреслений текст"
+		},
+		"fontColorButton": {
+			"title": "Колір шрифту"
+		},
+		"fillColorButton": {
+			"title": "Колір заливки"
+		},
+		"copyStyleButton": {
+			"title": "Художник стилю"
+		},
+		"alignLeftButton": {
+			"title": "Вирівняти ліворуч"
+		},
+		"alignCenterButton": {
+			"title": "центр"
+		},
+		"alignRightButton": {
+			"title": "Вирівняти праворуч"
+		},
+		"topAlignButton": {
+			"title": "Вирівняти по верху"
+		},
+		"middleAlignButton": {
+			"title": "Вирівнювання посередині"
+		},
+		"bottomAlignButton": {
+			"title": "Вирівнювання по нижньому краю"
+		},
+		"textWrappingButton": {
+			"title": "Обтікання текстом"
+		},
+		"currencyNumberFormatButton": {
+			"title": "Формат номера валюти"
+		},
+		"increaseDecimalButton": {
+			"title": "Збільшити десятковий дроб"
+		},
+		"decreaseDecimalButton": {
+			"title": "Зменшення десяткової дроби"
+		},
+		"percentNumberFormatButton": {
+			"title": "Відсотковий формат числа"
+		},
+		"numberFormatDropDown": {
+			"General": {
+				"text": "Загальний"
+			},
+			"Number": {
+				"text": "Номер"
+			},
+			"Currency": {
+				"text": "Валюта"
+			},
+			"Date": {
+				"text": "Дата"
+			},
+			"Time": {
+				"text": "час"
+			},
+			"Percentage": {
+				"text": "Відсоток"
+			},
+			"Scientific": {
+				"text": "Науковий"
+			},
+			"Text": {
+				"text": "текст"
+			}
+		},
+		"numberFormatButton": {
+			"title": "Формат числа"
+		},
+		"showFormulasButton": {
+			"title": "Показати формули"
+		},
+		"searchTextButton": {
+			"title": "Пошуковий текст"
+		},
+		"undoButton": {
+			"title": "Скасувати"
+		},
+		"redoButton": {
+			"title": "Повторити"
+		},
+		"cutContentButton": {
+			"title": "Вирізати вміст"
+		},
+		"copyContentButton": {
+			"title": "Скопіюйте вміст"
+		},
+		"pasteContentButton": {
+			"title": "Вставити вміст"
+		},
+		"clearContentButton": {
+			"title": "Чіткий вміст"
+		},
+		"clearFormatButton": {
+			"title": "Чіткий формат"
+		},
+		"deleteRowsButton": {
+			"title": "Видалити рядки"
+		},
+		"deleteColumnsButton": {
+			"title": "Видалити стовпці"
+		},
+		"deleteCellsAndShiftLeftButton": {
+			"title": "Видалити комірки та зсунути вліво"
+		},
+		"deleteCellsAndShiftUpButton": {
+			"title": "Видалити комірки та зсунути вгору"
+		},
+		"deletePictureButton": {
+			"title": "Видалити картинку"
+		},
+		"deleteLinkButton": {
+			"title": "Видалити посилання"
+		},
+		"mergeCellsButton": {
+			"title": "Об’єднати клітинки"
+		},
+		"unmergeCellsButton": {
+			"title": "Роз’єднати клітинки"
+		},
+		"fillCells": {
+			"title": "Заповнити клітинки"
+		},
+		"allBordersButton": {
+			"title": "Усі кордони"
+		},
+		"thickOutsideBordersButton": {
+			"title": "Товсті зовнішні межі"
+		},
+		"autoFitRowHeightButton": {
+			"title": "Автопідбір висоти рядка"
+		},
+		"autoFitColumnWidthButton": {
+			"title": "Автопідбір ширини стовпця"
+		},
+		"insertRowsButton": {
+			"title": "Вставити рядки"
+		},
+		"insertColumnsButton": {
+			"title": "Вставте стовпці"
+		},
+		"insertCellsAndShiftRightButton": {
+			"title": "Вставити клітинку та зсунути вправо"
+		},
+		"insertCellsAndShiftDownButton": {
+			"title": "Вставити клітинку та зсунути вниз"
+		},
+		"insertSheetButton": {
+			"title": "Вставити аркуш"
+		},
+		"insertFunctionButton": {
+			"title": "Функція вставки"
+		},
+		"insertLinkButton": {
+			"title": "Вставте посилання"
+		},
+		"insertCommentButton": {
+			"title": "Вставте коментар"
+		},
+		"insertPictureButton": {
+			"title": "Додати малюнок"
+		},
+		"insertChartButton": {
+			"title": "Вставити діаграму"
+		},
+		"editCommentButton": {
+			"title": "Редагувати коментар"
+		},
+		"deleteCommentButton": {
+			"title": "Видалити коментар"
+		},
+		"previousCommentButton": {
+			"title": "Попередній коментар"
+		},
+		"nextCommentButton": {
+			"title": "Наступний коментар"
+		},
+		"formulaPanel-cancelChangeButton": {
+			"title": "Скасувати зміни"
+		},
+		"formulaPanel-applyChangeButton": {
+			"title": "Застосувати зміни"
+		},
+		"formulaPanel-fullScreenButton": {
+			"title": "Повноекранний"
+		},
+		"scrollToFirstWorksheetButton": {
+			"title": "Прокрутіть до першого аркуша"
+		},
+		"scrollToLastWorksheetButton": {
+			"title": "Прокрутіть до останнього аркуша"
+		},
+		"addWorksheetButton": {
+			"title": "Додати робочий аркуш"
+		},
+		"showWorksheetListButton": {
+			"title": "Показати список робочих аркушів"
+		},
+		"zoomOutButton": {
+			"title": "Зменшення"
+		},
+		"zoomValueLabel": {
+			"text": "100%"
+		},
+		"zoomInButton": {
+			"title": "Збільшувати"
+		},
+		"enUsCurrencyNumberFormatButton": {
+			"title": "$ англійська (США)"
+		},
+		"enUkCurrencyNumberFormatButton": {
+			"title": "£ англійська (Велика Британія)"
+		},
+		"euCurrencyNumberFormatButton": {
+			"title": "€ Євро (€ 123)"
+		},
+		"ruCurrencyNumberFormatButton": {
+			"title": "₽ російська"
+		},
+		"chCurrencyNumberFormatButton": {
+			"title": "¥ Китайська"
+		},
+		"enInCurrencyNumberFormatButton": {
+			"title": "₹ англійська (Індія)"
+		},
+		"fillCellsDownButton": {
+			"title": "Заповнити вниз"
+		},
+		"fillCellsUpButton": {
+			"title": "Заповнити"
+		},
+		"fillCellsLeftButton": {
+			"title": "Заповнити ліворуч"
+		},
+		"fillCellsRightButton": {
+			"title": "Заповнити праворуч"
+		},
+		"noBordersButton": {
+			"title": "Без кордонів"
+		},
+		"outsideBordersButton": {
+			"title": "За кордоном"
+		},
+		"bottomBorderButton": {
+			"title": "Нижня межа"
+		},
+		"topBorderButton": {
+			"title": "Верхня межа"
+		},
+		"rightBorderButton": {
+			"title": "Права межа"
+		},
+		"leftBorderButton": {
+			"title": "Ліва межа"
+		},
+		"thickBottomBorderButton": {
+			"title": "Товста нижня межа"
+		},
+		"thickLeftBorderButton": {
+			"title": "Товста ліва межа"
+		},
+		"doubleBottomBorderButton": {
+			"title": "Подвійна нижня межа"
+		},
+		"doubleLeftBorderButton": {
+			"title": "Подвійна ліва межа"
+		},
+		"borderColorButton": {
+			"title": "Колір рамки"
+		},
+		"copyWorksheetLabel": {
+			"text": "Скопіюйте аркуш"
+		},
+		"deleteWorksheetLabel": {
+			"text": "Видалити аркуш"
+		},
+		"renameWorksheetLabel": {
+			"text": "Перейменувати аркуш"
+		},
+		"moveWorksheetLabel": {
+			"text": "Перемістити аркуш"
+		},
+		"copyLabel": {
+			"text": "Копія"
+		},
+		"cutLabel": {
+			"text": "Вирізати"
+		},
+		"pasteLabel": {
+			"text": "Вставити"
+		},
+		"clearContentsLabel": {
+			"text": "Очистити вміст"
+		},
+		"insertCellAndShiftRightLabel": {
+			"text": "Вставити клітинку та зсунути вправо"
+		},
+		"insertCellAndShiftDownLabel": {
+			"text": "Вставити клітинку та зсунути вниз"
+		},
+		"insertEntireRowLabel": {
+			"text": "Вставте весь рядок"
+		},
+		"insertEntireColumnLabel": {
+			"text": "Вставити весь стовпець"
+		},
+		"deleteImageLabel": {
+			"text": "Видалити"
+		},
+		"propertiesLabel": {
+			"text": "Властивості..."
+		},
+		"deleteCellAndShiftLeftLabel": {
+			"text": "Видалити клітинку та зсунути вліво"
+		},
+		"deleteCellAndShiftUpLabel": {
+			"text": "Видалити клітинку та зсунути вгору"
+		},
+		"deleteEntireRowLabel": {
+			"text": "Видалити весь рядок"
+		},
+		"deleteEntireColumnLabel": {
+			"text": "Видалити весь стовпець"
+		},
+		"insertRowsLabel": {
+			"text": "Вставити рядки"
+		},
+		"deleteRowsLabel": {
+			"text": "Видалити рядки"
+		},
+		"insertColumnsLabel": {
+			"text": "Вставити стовпці"
+		},
+		"deleteColumnsLabel": {
+			"text": "Видалити стовпці"
+		},
+		"insertCommentLabel": {
+			"text": "Вставити коментар..."
+		},
+		"editCommentLabel": {
+			"text": "Редагувати коментар..."
+		},
+		"deleteCommentLabel": {
+			"text": "Видалити коментар"
+		},
+		"showHideCommentLabel": {
+			"text": "Показати/сховати коментар"
+		},
+		"hideCommentLabel": {
+			"text": "Приховати коментар"
+		},
+		"hideRowsLabel": {
+			"text": "Приховати рядки"
+		},
+		"unhideRowsLabel": {
+			"text": "Показати рядки"
+		},
+		"hideColumnsLabel": {
+			"text": "Приховати стовпці"
+		},
+		"unhideColumnsLabel": {
+			"text": "Показати стовпці"
+		},
+		"insertCommentDialog": {
+			"authorLabel": {
+				"text": "Автор:"
+			},
+			"showAuthorLabel": {
+				"text": "Показати автора"
+			},
+			"commentLabel": {
+				"text": "Коментар:"
+			},
+			"okButton": {
+				"value": "В порядку"
+			},
+			"cancelButton": {
+				"value": "Скасувати"
+			}
+		},
+		"commentEditDialog": {
+			"authorLabel": {
+				"text": "Автор:"
+			},
+			"showAuthorLabel": {
+				"text": "Показати автора"
+			},
+			"commentLabel": {
+				"text": "Коментар:"
+			},
+			"okButton": {
+				"value": "В порядку"
+			},
+			"cancelButton": {
+				"value": "Скасувати"
+			}
+		},
+		"editChartDialog": {
+			"titleLabel": {
+				"text": "Назва:"
+			},
+			"okButton": {
+				"value": "В порядку"
+			},
+			"cancelButton": {
+				"value": "Скасувати"
+			}
+		},
+		"renameWorksheetDialog": {
+			"nameLabel": {
+				"text": "Ім'я:"
+			},
+			"okButton": {
+				"value": "В порядку"
+			},
+			"cancelButton": {
+				"value": "Скасувати"
+			}
+		},
+		"moveWorksheetDialog": {
+			"moveUpButton": {
+				"value": "Рухатися вгору"
+			},
+			"moveDownButton": {
+				"value": "Рухатися вниз"
+			},
+			"okButton": {
+				"value": "В порядку"
+			},
+			"cancelButton": {
+				"value": "Скасувати"
+			}
+		},
+		"findTextDialog": {
+			"findTextLabel": {
+				"text": "Знайти текст"
+			},
+			"findWhatLabel": {
+				"text": "Знайти що:"
+			},
+			"withinLabel": {
+				"text": "В межах:"
+			},
+			"Sheet": {
+				"text": "Аркуш"
+			},
+			"Workbook": {
+				"text": "Робочий зошит"
+			},
+			"searchLabel": {
+				"text": "пошук:"
+			},
+			"ByRows": {
+				"text": "По рядках"
+			},
+			"ByColumns": {
+				"text": "За колонками"
+			},
+			"lookInLabel": {
+				"text": "Заглядати:"
+			},
+			"Formulas": {
+				"text": "Формули"
+			},
+			"Values": {
+				"text": "Цінності"
+			},
+			"Comments": {
+				"text": "Коментарі"
+			},
+			"matchCaseLabel": {
+				"text": "Відмінок сірника"
+			},
+			"matchEntireContentLabel": {
+				"text": "Зіставте весь вміст"
+			},
+			"findNextButton": {
+				"value": "Знайти далі"
+			},
+			"closeButton": {
+				"value": "Закрити"
+			}
+		},
+		"selectFunctionDialog": {
+			"categoryLabel": {
+				"text": "Категорія:"
+			},
+			"categoryDropDown": {
+				"All": {
+					"text": "Всі"
+				},
+				"Financial": {
+					"text": "Фінансовий"
+				},
+				"DateAndTime": {
+					"text": "DateAndTime"
+				},
+				"MathAndTrig": {
+					"text": "MathAndTrig"
+				},
+				"Statistical": {
+					"text": "Статистичний"
+				},
+				"LookupAndReference": {
+					"text": "LookupAndReference"
+				},
+				"Text": {
+					"text": "текст"
+				},
+				"Logical": {
+					"text": "Логічний"
+				},
+				"Information": {
+					"text": "Інформація"
+				},
+				"Engineering": {
+					"text": "Інженерія"
+				}
+			},
+			"selectFunctionLabel": {
+				"text": "Виберіть функцію:"
+			},
+			"okButton": {
+				"value": "В порядку"
+			},
+			"cancelButton": {
+				"value": "Скасувати"
+			}
+		},
+		"setCellNumberFormatDialog": {
+			"General": {
+				"text": "Загальний"
+			},
+			"Number": {
+				"text": "Номер"
+			},
+			"Currency": {
+				"text": "Валюта"
+			},
+			"Date": {
+				"text": "Дата"
+			},
+			"Time": {
+				"text": "час"
+			},
+			"Percentage": {
+				"text": "Відсоток"
+			},
+			"Scientific": {
+				"text": "Науковий"
+			},
+			"Text": {
+				"text": "текст"
+			},
+			"Custom": {
+				"text": "Custom"
+			},
+			"generalFormatDescriptionLabel": {
+				"text": "Комірки загального формату не мають спеціального числового формату."
+			},
+			"numberDecimalPlacesLabel": {
+				"text": "Десяткові знаки:"
+			},
+			"useThousandsSeparatorLabel": {
+				"text": "Використовуйте роздільник 1000"
+			},
+			"numberNegativeValuesLabel": {
+				"text": "Від’ємні значення:"
+			},
+			"changeTextColorToRedLabel": {
+				"text": "Змінити колір тексту на червоний"
+			},
+			"hideMinusSignLabel": {
+				"text": "Приховати знак мінус"
+			},
+			"currencyDecimalPlacesLabel": {
+				"text": "Десяткові знаки:"
+			},
+			"currencySymbolLabel": {
+				"text": "Символ:"
+			},
+			"percentageDecimalPlacesLabel": {
+				"text": "Десяткові знаки:"
+			},
+			"scientificDecimalPlacesLabel": {
+				"text": "Десяткові знаки:"
+			},
+			"textFormatDescriptionLabel": {
+				"text": "Комірки текстового формату розглядаються як текст, навіть якщо в клітинці є число."
+			},
+			"okButton": {
+				"value": "В порядку"
+			},
+			"cancelButton": {
+				"value": "Скасувати"
+			}
+		},
+		"insertChartDialog": {
+			"okButton": {
+				"value": "В порядку"
+			},
+			"cancelButton": {
+				"value": "Скасувати"
+			}
+		}
+	},
+	"strings": {
+		"vssde-documentIsOpening": "Відкривається документ...",
+		"vssde-numberFormat-general": "Загальний",
+		"vssde-numberFormat-number": "Номер",
+		"vssde-numberFormat-date": "Дата",
+		"vssde-numberFormat-time": "час",
+		"vssde-numberFormat-currency": "Валюта",
+		"vssde-numberFormat-percentage": "Відсоток",
+		"vssde-numberFormat-scientific": "Науковий",
+		"vssde-numberFormat-text": "текст",
+		"vssde-numberFormat-custom": "Custom",
+		"vssde-findTextPanel-sheet": "Аркуш",
+		"vssde-findTextPanel-workbook": "Робочий зошит",
+		"vssde-findTextPanel-byRows": "По рядках",
+		"vssde-findTextPanel-byColumns": "За колонками",
+		"vssde-findTextPanel-formulas": "Формули",
+		"vssde-findTextPanel-values": "Цінності",
+		"vssde-findTextPanel-comments": "Коментарі",
+		"vssde-findTextPanel-textIsNotFound": "Текст '{0}' не знайдено.",
+		"vssde-selectFunctionPanel-all": "Всі",
+		"vssde-createXlsxDocument": "Створіть новий документ XLSX",
+		"vssde-uploadXlsxFile": "Завантажте файл XLSX",
+		"vssde-downloadXlsxFile": "Завантажте файл XLSX",
+		"vssde-exportXlsxToPdf": "Експорт XLSX у PDF",
+		"vssde-fileSizeExceedsLimit": "Розмір завантаженого файлу перевищує максимальний розмір ({0} байт).",
+		"vssde-createXlsxDocumentConfirmation": "Ви хочете створити нову книгу?",
+		"vssde-insertCommentDialog-title": "Вставте коментар",
+		"vssde-dialog-okButton": "В порядку",
+		"vssde-dialog-cancelButton": "Скасувати",
+		"vssde-editCommentDialog-title": "Редагувати коментар",
+		"vssde-editChartDialog-title": "Редагувати діаграму",
+		"vssde-editChartPropertiesPanel-spreadsheetEditorDoesNotHaveFocusedChart": "Редактор електронних таблиць не має фокусованої діаграми.",
+		"vssde-editChartPropertiesPanel-selectedDrawingIsNotChart": "Вибраний малюнок не є діаграмою.",
+		"vssde-renameWorksheetDialog-title": "Перейменувати аркуш",
+		"vssde-moveWorksheetDialog-title": "Перемістити аркуш",
+		"vssde-findTextDialog-title": "Знайти текст",
+		"vssde-findTextDialog-findNextButton": "Знайти далі",
+		"vssde-dialog-closeButton": "Закрити",
+		"vssde-selectFunctionDialog-title": "Вставити функцію",
+		"vssde-cellNumberFormatDialog-title": "Формат комірки",
+		"vssde-insertChartDialog-title": "Вставити діаграму",
+		"vssde-insertChartPanel-chartType-column": "Колонка",
+		"vssde-insertChartPanel-chartType-line": "Лінія",
+		"vssde-insertChartPanel-chartType-pie": "Пиріг",
+		"vssde-insertChartPanel-chartType-bar": "Бар",
+		"vssde-insertChartPanel-chartType-area": "Площа",
+		"vssde-insertChartPanel-chartSubtype-clusteredColumn": "Кластерна колонка",
+		"vssde-insertChartPanel-chartSubtype-stackedColumn": "Складений стовпець",
+		"vssde-insertChartPanel-chartSubtype-100%StackedColumn": "100% накопичений стовпець",
+		"vssde-insertChartPanel-chartSubtype-3DClusteredColumn": "Тривимірна кластеризована колона",
+		"vssde-insertChartPanel-chartSubtype-3DStackedColumn": "3D стовпчик із накопиченням",
+		"vssde-insertChartPanel-chartSubtype-3D100%StackedColumn": "3D 100% накопичений стовпець",
+		"vssde-insertChartPanel-chartSubtype-line": "Лінія",
+		"vssde-insertChartPanel-chartSubtype-stackedLine": "Складена лінія",
+		"vssde-insertChartPanel-chartSubtype-100%StackedLine": "100% стекова лінія",
+		"vssde-insertChartPanel-chartSubtype-lineWithMarkers": "Лінія з маркерами",
+		"vssde-insertChartPanel-chartSubtype-stackedLineWithMarkers": "Складена лінія з маркерами",
+		"vssde-insertChartPanel-chartSubtype-100%StackedLineWithMar": "100% складена лінія з маркерами",
+		"vssde-insertChartPanel-chartSubtype-curvedLine": "Вигнута лінія",
+		"vssde-insertChartPanel-chartSubtype-stackedCurvedLine": "Складена крива лінія",
+		"vssde-insertChartPanel-chartSubtype-100%StackedCurvedLine": "100% складена вигнута лінія",
+		"vssde-insertChartPanel-chartSubtype-curvedLineWithMarkers": "Вигнута лінія з маркерами",
+		"vssde-insertChartPanel-chartSubtype-stackedCurvLineWithMark": "Складені кривої лінії з маркерами",
+		"vssde-insertChartPanel-chartSubtype-100%StackedCurvLineMark": "100% складена вигнута лінія з маркерами",
+		"vssde-insertChartPanel-chartSubtype-pie": "Пиріг",
+		"vssde-insertChartPanel-chartSubtype-pieExplosion": "Пиріг (вибух)",
+		"vssde-insertChartPanel-chartSubtype-doughnut": "Пончик",
+		"vssde-insertChartPanel-chartSubtype-clusteredBar": "Кластерний бар",
+		"vssde-insertChartPanel-chartSubtype-stackedBar": "Стекова панель",
+		"vssde-insertChartPanel-chartSubtype-100%StackedBar": "100% стекова панель",
+		"vssde-insertChartPanel-chartSubtype-area": "Площа",
+		"vssde-insertChartPanel-chartSubtype-stackedArea": "Складена область",
+		"vssde-insertChartPanel-chartSubtype-100%StackedArea": "100% накопичена область",
+		"vssde-insertChartPanel-fileArg0IsNotFound": "Файл '{0}' не знайдено.",
+		"vssde-insertChartPanel-supportedChartTypesAreNotFound": "Підтримувані типи діаграм не знайдено.",
+		"vssde-insertChartPanel-notSupportedChartType": "Не підтримується тип діаграми.",
+		"vssde-insertChartPanel-supportedChartSubtypesAreNotFound": "Підтримувані підтипи діаграм не знайдено.",
+		"vssde-insertChartPanel-notSupportedChartSubtype": "Підтип діаграми не підтримується.",
+		"vssde-insertChartPanel-chartTemplateContainsTwoIdenticalNamesForChartSubtypes": "Шаблон діаграми містить 2 однакові назви підтипів діаграми.",
+		"vssde-insertChartPanel-chartTemplateContainsTwoIdenticalNamesForChartTypes": "Шаблон діаграми містить 2 однакові назви типів діаграм.",
+		"vssde-insertChartPanel-pleaseSpecifyCellsWhichContainTheChartDataIncludeNamesForRowsAndColumns": "Будь ласка, вкажіть комірки, які містять дані діаграми (додайте назви рядків і стовпців).",
+		"vssde-insertChartPanel-chartSubtypeArg0HasMultipleDeclarationsOnDifferentWorksheets": "Підтип діаграми '{0}' має кілька декларацій на різних аркушах.",
+		"vssde-insertChartPanel-sheetArg0IsNotFound": "Аркуш '{0}' не знайдено."
+	}
+}

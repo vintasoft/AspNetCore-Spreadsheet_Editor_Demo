@@ -155,6 +155,9 @@
 		"deletePictureButton": {
 			"title": "Διαγραφή εικόνας"
 		},
+		"deleteLinkButton": {
+			"title": "Διαγραφή συνδέσμου"
+		},
 		"mergeCellsButton": {
 			"title": "Συγχώνευση κελιών"
 		},
@@ -193,6 +196,9 @@
 		},
 		"insertFunctionButton": {
 			"title": "Εισαγωγή συνάρτησης"
+		},
+		"insertLinkButton": {
+			"title": "Εισαγωγή υπερσυνδέσμου"
 		},
 		"insertCommentButton": {
 			"title": "Εισαγωγή σχολίου"
@@ -235,18 +241,6 @@
 		},
 		"showWorksheetListButton": {
 			"title": "Εμφάνιση λίστας φύλλων"
-		},
-		"copyWorksheetButton": {
-			"title": "Αντιγραφή φύλλου"
-		},
-		"deleteWorksheetButton": {
-			"title": "Διαγραφή φύλλου"
-		},
-		"renameWorksheetButton": {
-			"title": "Μετονομασία φύλλου"
-		},
-		"moveWorksheetButton": {
-			"title": "Μετακίνηση φύλλου"
 		},
 		"zoomOutButton": {
 			"title": "Σμίκρυνση"
@@ -319,6 +313,18 @@
 		},
 		"borderColorButton": {
 			"title": "Χρώμα πλαισίου"
+		},
+		"copyWorksheetLabel": {
+			"text": "Αντιγραφή φύλλου"
+		},
+		"deleteWorksheetLabel": {
+			"text": "Διαγραφή φύλλου"
+		},
+		"renameWorksheetLabel": {
+			"text": "Μετονομασία φύλλου"
+		},
+		"moveWorksheetLabel": {
+			"text": "Μετακίνηση φύλλου"
 		},
 		"copyLabel": {
 			"text": "Αντιγραφή"
@@ -533,16 +539,16 @@
 					"text": "Οικονομικά"
 				},
 				"DateAndTime": {
-					"text": "Ημερομηνία και ώρα"
+					"text": "DateAndTime"
 				},
 				"MathAndTrig": {
-					"text": "Μαθ"
+					"text": "MathAndTrig"
 				},
 				"Statistical": {
 					"text": "Στατιστικό"
 				},
 				"LookupAndReference": {
-					"text": "Αναφορές και πίνακες"
+					"text": "LookupAndReference"
 				},
 				"Text": {
 					"text": "Κείμενο"

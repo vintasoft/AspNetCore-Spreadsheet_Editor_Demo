@@ -155,6 +155,9 @@
 		"deletePictureButton": {
 			"title": "Vee prent uit"
 		},
+		"deleteLinkButton": {
+			"title": "Vee skakel uit"
+		},
 		"mergeCellsButton": {
 			"title": "Voeg selle saam"
 		},
@@ -193,6 +196,9 @@
 		},
 		"insertFunctionButton": {
 			"title": "Voeg funksie in"
+		},
+		"insertLinkButton": {
+			"title": "Voeg hiperskakel in"
 		},
 		"insertCommentButton": {
 			"title": "Voeg opmerking in"
@@ -235,18 +241,6 @@
 		},
 		"showWorksheetListButton": {
 			"title": "Wys vellys"
-		},
-		"copyWorksheetButton": {
-			"title": "Kopieer blad"
-		},
-		"deleteWorksheetButton": {
-			"title": "Vee blad uit"
-		},
-		"renameWorksheetButton": {
-			"title": "Hernoem blad"
-		},
-		"moveWorksheetButton": {
-			"title": "Skuif blad"
 		},
 		"zoomOutButton": {
 			"title": "Zoom uit"
@@ -319,6 +313,18 @@
 		},
 		"borderColorButton": {
 			"title": "Rand kleur"
+		},
+		"copyWorksheetLabel": {
+			"text": "Kopieer blad"
+		},
+		"deleteWorksheetLabel": {
+			"text": "Vee blad uit"
+		},
+		"renameWorksheetLabel": {
+			"text": "Hernoem blad"
+		},
+		"moveWorksheetLabel": {
+			"text": "Skuif blad"
 		},
 		"copyLabel": {
 			"text": "Kopieer"
@@ -533,16 +539,16 @@
 					"text": "Finansieel"
 				},
 				"DateAndTime": {
-					"text": "Datum en tyd"
+					"text": "DateAndTime"
 				},
 				"MathAndTrig": {
-					"text": "Wiskunde"
+					"text": "MathAndTrig"
 				},
 				"Statistical": {
 					"text": "Statisties"
 				},
 				"LookupAndReference": {
-					"text": "Verwysings en skikkings"
+					"text": "LookupAndReference"
 				},
 				"Text": {
 					"text": "Teks"

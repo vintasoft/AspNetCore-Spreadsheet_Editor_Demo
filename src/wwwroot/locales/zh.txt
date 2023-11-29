@@ -155,6 +155,9 @@
 		"deletePictureButton": {
 			"title": "删除图片"
 		},
+		"deleteLinkButton": {
+			"title": "删除链接"
+		},
 		"mergeCellsButton": {
 			"title": "合并单元格"
 		},
@@ -193,6 +196,9 @@
 		},
 		"insertFunctionButton": {
 			"title": "插入功能"
+		},
+		"insertLinkButton": {
+			"title": "插入链接"
 		},
 		"insertCommentButton": {
 			"title": "插入评论"
@@ -235,18 +241,6 @@
 		},
 		"showWorksheetListButton": {
 			"title": "显示工作表列表"
-		},
-		"copyWorksheetButton": {
-			"title": "复制工作表"
-		},
-		"deleteWorksheetButton": {
-			"title": "删除工作表"
-		},
-		"renameWorksheetButton": {
-			"title": "重命名工作表"
-		},
-		"moveWorksheetButton": {
-			"title": "移动工作表"
 		},
 		"zoomOutButton": {
 			"title": "缩小"
@@ -319,6 +313,18 @@
 		},
 		"borderColorButton": {
 			"title": "边框颜色"
+		},
+		"copyWorksheetLabel": {
+			"text": "复制工作表"
+		},
+		"deleteWorksheetLabel": {
+			"text": "删除工作表"
+		},
+		"renameWorksheetLabel": {
+			"text": "重命名工作表"
+		},
+		"moveWorksheetLabel": {
+			"text": "移动工作表"
 		},
 		"copyLabel": {
 			"text": "复制"
@@ -533,16 +539,16 @@
 					"text": "金融的"
 				},
 				"DateAndTime": {
-					"text": "日期和时间"
+					"text": "DateAndTime"
 				},
 				"MathAndTrig": {
-					"text": "数学与三角函数"
+					"text": "MathAndTrig"
 				},
 				"Statistical": {
 					"text": "统计"
 				},
 				"LookupAndReference": {
-					"text": "查找和参考"
+					"text": "LookupAndReference"
 				},
 				"Text": {
 					"text": "文本"

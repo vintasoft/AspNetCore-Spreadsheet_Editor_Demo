@@ -155,6 +155,9 @@
 		"deletePictureButton": {
 			"title": "Poista kuva"
 		},
+		"deleteLinkButton": {
+			"title": "Poista linkki"
+		},
 		"mergeCellsButton": {
 			"title": "Yhdistää soluja"
 		},
@@ -193,6 +196,9 @@
 		},
 		"insertFunctionButton": {
 			"title": "Lisää funktio"
+		},
+		"insertLinkButton": {
+			"title": "Lisää hyperlinkki"
 		},
 		"insertCommentButton": {
 			"title": "Lisää kommentti"
@@ -235,18 +241,6 @@
 		},
 		"showWorksheetListButton": {
 			"title": "Näytä taulukkoluettelo"
-		},
-		"copyWorksheetButton": {
-			"title": "Kopioi arkki"
-		},
-		"deleteWorksheetButton": {
-			"title": "Poista taulukko"
-		},
-		"renameWorksheetButton": {
-			"title": "Nimeä taulukko uudelleen"
-		},
-		"moveWorksheetButton": {
-			"title": "Siirrä taulukkoa"
 		},
 		"zoomOutButton": {
 			"title": "Loitonna"
@@ -319,6 +313,18 @@
 		},
 		"borderColorButton": {
 			"title": "Reunuksen väri"
+		},
+		"copyWorksheetLabel": {
+			"text": "Kopioi arkki"
+		},
+		"deleteWorksheetLabel": {
+			"text": "Poista taulukko"
+		},
+		"renameWorksheetLabel": {
+			"text": "Nimeä taulukko uudelleen"
+		},
+		"moveWorksheetLabel": {
+			"text": "Siirrä taulukkoa"
 		},
 		"copyLabel": {
 			"text": "Kopioi"
@@ -533,16 +539,16 @@
 					"text": "Talous"
 				},
 				"DateAndTime": {
-					"text": "Päivämäärä ja aika"
+					"text": "DateAndTime"
 				},
 				"MathAndTrig": {
-					"text": "Math"
+					"text": "MathAndTrig"
 				},
 				"Statistical": {
 					"text": "Tilastollinen"
 				},
 				"LookupAndReference": {
-					"text": "Viitteet ja taulukot"
+					"text": "LookupAndReference"
 				},
 				"Text": {
 					"text": "Teksti"

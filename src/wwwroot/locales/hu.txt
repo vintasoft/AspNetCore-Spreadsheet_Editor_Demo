@@ -155,6 +155,9 @@
 		"deletePictureButton": {
 			"title": "Kép törlése"
 		},
+		"deleteLinkButton": {
+			"title": "Link törlése"
+		},
 		"mergeCellsButton": {
 			"title": "Cellák egyesítése"
 		},
@@ -193,6 +196,9 @@
 		},
 		"insertFunctionButton": {
 			"title": "Függvény beszúrása"
+		},
+		"insertLinkButton": {
+			"title": "Hiperhivatkozás beszúrása"
 		},
 		"insertCommentButton": {
 			"title": "Megjegyzés beszúrása"
@@ -235,18 +241,6 @@
 		},
 		"showWorksheetListButton": {
 			"title": "Laplista megjelenítése"
-		},
-		"copyWorksheetButton": {
-			"title": "Lap másolása"
-		},
-		"deleteWorksheetButton": {
-			"title": "Lap törlése"
-		},
-		"renameWorksheetButton": {
-			"title": "Lap átnevezése"
-		},
-		"moveWorksheetButton": {
-			"title": "Lap mozgatása"
 		},
 		"zoomOutButton": {
 			"title": "Kicsinyítés"
@@ -319,6 +313,18 @@
 		},
 		"borderColorButton": {
 			"title": "Szegély színe"
+		},
+		"copyWorksheetLabel": {
+			"text": "Lap másolása"
+		},
+		"deleteWorksheetLabel": {
+			"text": "Lap törlése"
+		},
+		"renameWorksheetLabel": {
+			"text": "Lap átnevezése"
+		},
+		"moveWorksheetLabel": {
+			"text": "Lap mozgatása"
 		},
 		"copyLabel": {
 			"text": "Másolás"
@@ -533,16 +539,16 @@
 					"text": "Pénzügyi"
 				},
 				"DateAndTime": {
-					"text": "Dátum és idő"
+					"text": "DateAndTime"
 				},
 				"MathAndTrig": {
-					"text": "Matek"
+					"text": "MathAndTrig"
 				},
 				"Statistical": {
 					"text": "Statisztikai"
 				},
 				"LookupAndReference": {
-					"text": "Referenciák és tömbök"
+					"text": "LookupAndReference"
 				},
 				"Text": {
 					"text": "Szöveg"

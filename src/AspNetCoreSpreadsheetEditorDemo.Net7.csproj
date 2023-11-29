@@ -2,26 +2,26 @@
 
 	<PropertyGroup>
 		<TargetFramework>net7.0</TargetFramework>
-		<Version>12.2.12.1</Version>
+		<Version>12.3.0.1</Version>
 		<EnableDefaultItems>false</EnableDefaultItems>
 	</PropertyGroup>
 
 	<ItemGroup>
-		<PackageReference Include="SkiaSharp" Version="2.88.5" />
+		<PackageReference Include="SkiaSharp" Version="2.88.6" />
 		<PackageReference Include="System.IO.Packaging" Version="7.0.0" />
 	</ItemGroup>
 
 	<ItemGroup>
-    <PackageReference Include="Vintasoft.Shared" Version="4.0.0.3" />
-    <PackageReference Include="Vintasoft.Imaging" Version="12.2.7.1" />
-    <PackageReference Include="Vintasoft.Imaging.Drawing.SkiaSharp" Version="12.2.7.1" />
-    <PackageReference Include="Vintasoft.Imaging.Office.OpenXml" Version="4.2.7.1" />
-    <PackageReference Include="Vintasoft.Imaging.Pdf" Version="9.2.7.1" />
-    <PackageReference Include="Vintasoft.Shared.Web" Version="4.0.0.3" />
-    <PackageReference Include="Vintasoft.Imaging.Web.Services" Version="12.2.7.1" />
-    <PackageReference Include="Vintasoft.Imaging.AspNetCore.ApiControllers" Version="12.2.7.1" />
-    <PackageReference Include="Vintasoft.Imaging.Office.Web.Services" Version="4.2.7.1" />
-    <PackageReference Include="Vintasoft.Imaging.Office.AspNetCore.ApiControllers" Version="4.2.7.1" />
+    <PackageReference Include="Vintasoft.Shared" Version="4.1.0.1" />
+    <PackageReference Include="Vintasoft.Imaging" Version="12.3.0.1" />
+    <PackageReference Include="Vintasoft.Imaging.Drawing.SkiaSharp" Version="12.3.0.1" />
+    <PackageReference Include="Vintasoft.Imaging.Office.OpenXml" Version="4.3.0.1" />
+    <PackageReference Include="Vintasoft.Imaging.Pdf" Version="9.3.0.1" />
+    <PackageReference Include="Vintasoft.Shared.Web" Version="4.1.0.1" />
+    <PackageReference Include="Vintasoft.Imaging.Web.Services" Version="12.3.0.1" />
+    <PackageReference Include="Vintasoft.Imaging.AspNetCore.ApiControllers" Version="12.3.0.1" />
+    <PackageReference Include="Vintasoft.Imaging.Office.Web.Services" Version="4.3.0.1" />
+    <PackageReference Include="Vintasoft.Imaging.Office.AspNetCore.ApiControllers" Version="4.3.0.1" />
 	</ItemGroup>
 <ItemGroup>
   <Compile Include="Controllers\API\File\MyVintasoftFileApiController.cs" />
@@ -64,6 +64,7 @@
   <Content Include="Views\Shared\UI\Dialogs\BlockUiDialog.cshtml" />
   <Content Include="wwwroot\locales\af.txt" />
   <Content Include="wwwroot\locales\ar.txt" />
+  <Content Include="wwwroot\locales\az.txt" />
   <Content Include="wwwroot\locales\be.txt" />
   <Content Include="wwwroot\locales\bg.txt" />
   <Content Include="wwwroot\locales\cs.txt" />
@@ -72,15 +73,22 @@
   <Content Include="wwwroot\locales\el.txt" />
   <Content Include="wwwroot\locales\en.txt" />
   <Content Include="wwwroot\locales\es.txt" />
+  <Content Include="wwwroot\locales\et.txt" />
   <Content Include="wwwroot\locales\fi.txt" />
   <Content Include="wwwroot\locales\fr.txt" />
   <Content Include="wwwroot\locales\he.txt" />
   <Content Include="wwwroot\locales\hi.txt" />
   <Content Include="wwwroot\locales\hr.txt" />
   <Content Include="wwwroot\locales\hu.txt" />
+  <Content Include="wwwroot\locales\hy.txt" />
   <Content Include="wwwroot\locales\it.txt" />
   <Content Include="wwwroot\locales\ja.txt" />
+  <Content Include="wwwroot\locales\ka.txt" />
+  <Content Include="wwwroot\locales\kk.txt" />
   <Content Include="wwwroot\locales\ko.txt" />
+  <Content Include="wwwroot\locales\ky.txt" />
+  <Content Include="wwwroot\locales\lt.txt" />
+  <Content Include="wwwroot\locales\lv.txt" />
   <Content Include="wwwroot\locales\nb.txt" />
   <Content Include="wwwroot\locales\nl.txt" />
   <Content Include="wwwroot\locales\pt.txt" />
@@ -91,7 +99,12 @@
   <Content Include="wwwroot\locales\sl.txt" />
   <Content Include="wwwroot\locales\sv.txt" />
   <Content Include="wwwroot\locales\sw.txt" />
+  <Content Include="wwwroot\locales\tg.txt" />
+  <Content Include="wwwroot\locales\tk.txt" />
   <Content Include="wwwroot\locales\tr.txt" />
+  <Content Include="wwwroot\locales\tt.txt" />
+  <Content Include="wwwroot\locales\uk.txt" />
+  <Content Include="wwwroot\locales\uz.txt" />
   <Content Include="wwwroot\locales\vi.txt" />
   <Content Include="wwwroot\locales\zh.txt" />
   <Content Include="wwwroot\locales\zu.txt" />

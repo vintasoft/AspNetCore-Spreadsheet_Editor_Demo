@@ -1,0 +1,737 @@
+﻿{
+	"spreadsheetDocumentEditorControl": {
+		"fileLabel": {
+			"text": "Ֆայլ"
+		},
+		"homeLabel": {
+			"text": "տուն"
+		},
+		"editLabel": {
+			"text": "Խմբագրել"
+		},
+		"insertLabel": {
+			"text": "Տեղադրեք"
+		},
+		"reviewLabel": {
+			"text": "Վերանայում"
+		},
+		"createXlsxDocumentButton": {
+			"title": "Ստեղծեք նոր XLSX փաստաթուղթ"
+		},
+		"uploadXlsxFileButton": {
+			"title": "Վերբեռնեք և բացեք XLSX ֆայլը"
+		},
+		"downloadXlsxFileButton": {
+			"title": "Ներբեռնեք XLSX ֆայլը"
+		},
+		"exportXlsxToPdfButton": {
+			"title": "Արտահանել XLSX-ը PDF"
+		},
+		"showMobileMenuButton": {
+			"title": "Ավելին"
+		},
+		"boldTextButton": {
+			"title": "Հաստ տեքստ"
+		},
+		"italicTextButton": {
+			"title": "Շեղ տեքստ"
+		},
+		"underlineTextButton": {
+			"title": "Ընդգծի՛ր տեքստը"
+		},
+		"strikethroughTextButton": {
+			"title": "Հատված տեքստ"
+		},
+		"fontColorButton": {
+			"title": "Տառատեսակի գույնը"
+		},
+		"fillColorButton": {
+			"title": "Լրացրեք գույնը"
+		},
+		"copyStyleButton": {
+			"title": "Ոճ նկարիչ"
+		},
+		"alignLeftButton": {
+			"title": "Հավասարեցնել ձախ"
+		},
+		"alignCenterButton": {
+			"title": "Կենտրոն"
+		},
+		"alignRightButton": {
+			"title": "Հավասարեցնել աջ"
+		},
+		"topAlignButton": {
+			"title": "Վերևի հարթեցում"
+		},
+		"middleAlignButton": {
+			"title": "Միջին հավասարեցում"
+		},
+		"bottomAlignButton": {
+			"title": "Ներքևի հարթեցում"
+		},
+		"textWrappingButton": {
+			"title": "Տեքստի փաթաթում"
+		},
+		"currencyNumberFormatButton": {
+			"title": "Արժույթի համարի ձևաչափ"
+		},
+		"increaseDecimalButton": {
+			"title": "Մեծացնել տասնորդական"
+		},
+		"decreaseDecimalButton": {
+			"title": "Նվազեցնել տասնորդական"
+		},
+		"percentNumberFormatButton": {
+			"title": "Տոկոսային թվի ձևաչափ"
+		},
+		"numberFormatDropDown": {
+			"General": {
+				"text": "Գեներալ"
+			},
+			"Number": {
+				"text": "Թիվ"
+			},
+			"Currency": {
+				"text": "Արժույթ"
+			},
+			"Date": {
+				"text": "Ամսաթիվ"
+			},
+			"Time": {
+				"text": "Ժամանակը"
+			},
+			"Percentage": {
+				"text": "Տոկոսը"
+			},
+			"Scientific": {
+				"text": "Գիտական"
+			},
+			"Text": {
+				"text": "Տեքստ"
+			}
+		},
+		"numberFormatButton": {
+			"title": "Թվերի ձևաչափ"
+		},
+		"showFormulasButton": {
+			"title": "Ցույց տալ բանաձևերը"
+		},
+		"searchTextButton": {
+			"title": "Որոնել տեքստ"
+		},
+		"undoButton": {
+			"title": "Հետարկել"
+		},
+		"redoButton": {
+			"title": "Կրկնել"
+		},
+		"cutContentButton": {
+			"title": "Կտրել բովանդակությունը"
+		},
+		"copyContentButton": {
+			"title": "Պատճենել բովանդակությունը"
+		},
+		"pasteContentButton": {
+			"title": "Կպցնել բովանդակությունը"
+		},
+		"clearContentButton": {
+			"title": "Մաքրել բովանդակությունը"
+		},
+		"clearFormatButton": {
+			"title": "Մաքրել ձևաչափը"
+		},
+		"deleteRowsButton": {
+			"title": "Ջնջել տողերը"
+		},
+		"deleteColumnsButton": {
+			"title": "Ջնջել սյունակները"
+		},
+		"deleteCellsAndShiftLeftButton": {
+			"title": "Ջնջել բջիջները և տեղափոխել ձախ"
+		},
+		"deleteCellsAndShiftUpButton": {
+			"title": "Ջնջել բջիջները և տեղափոխել վերև"
+		},
+		"deletePictureButton": {
+			"title": "Ջնջել նկարը"
+		},
+		"deleteLinkButton": {
+			"title": "Ջնջել հղումը"
+		},
+		"mergeCellsButton": {
+			"title": "Միավորել բջիջները"
+		},
+		"unmergeCellsButton": {
+			"title": "Անջատել բջիջները"
+		},
+		"fillCells": {
+			"title": "Լրացրեք բջիջները"
+		},
+		"allBordersButton": {
+			"title": "Բոլոր սահմանները"
+		},
+		"thickOutsideBordersButton": {
+			"title": "Հաստ արտաքին սահմաններ"
+		},
+		"autoFitRowHeightButton": {
+			"title": "Ինքնահաստատել տողի բարձրությունը"
+		},
+		"autoFitColumnWidthButton": {
+			"title": "Ինքնահաստատում սյունակի լայնությունը"
+		},
+		"insertRowsButton": {
+			"title": "Տեղադրեք տողեր"
+		},
+		"insertColumnsButton": {
+			"title": "Տեղադրեք սյունակներ"
+		},
+		"insertCellsAndShiftRightButton": {
+			"title": "Տեղադրեք բջիջը և տեղափոխեք աջ"
+		},
+		"insertCellsAndShiftDownButton": {
+			"title": "Տեղադրեք բջիջը և տեղափոխեք ներքև"
+		},
+		"insertSheetButton": {
+			"title": "Տեղադրեք աշխատանքային թերթիկը"
+		},
+		"insertFunctionButton": {
+			"title": "Տեղադրեք գործառույթը"
+		},
+		"insertLinkButton": {
+			"title": "Տեղադրեք հղումը"
+		},
+		"insertCommentButton": {
+			"title": "Տեղադրեք մեկնաբանություն"
+		},
+		"insertPictureButton": {
+			"title": "Ավելացրեք նկար"
+		},
+		"insertChartButton": {
+			"title": "Տեղադրեք գծապատկեր"
+		},
+		"editCommentButton": {
+			"title": "Խմբագրել մեկնաբանությունը"
+		},
+		"deleteCommentButton": {
+			"title": "Ջնջել մեկնաբանությունը"
+		},
+		"previousCommentButton": {
+			"title": "Նախորդ մեկնաբանություն"
+		},
+		"nextCommentButton": {
+			"title": "Հաջորդ մեկնաբանությունը"
+		},
+		"formulaPanel-cancelChangeButton": {
+			"title": "Չեղարկել փոփոխությունը"
+		},
+		"formulaPanel-applyChangeButton": {
+			"title": "Կիրառել փոփոխություն"
+		},
+		"formulaPanel-fullScreenButton": {
+			"title": "Ամբողջ էկրանով"
+		},
+		"scrollToFirstWorksheetButton": {
+			"title": "Ոլորեք դեպի առաջին աշխատաթերթը"
+		},
+		"scrollToLastWorksheetButton": {
+			"title": "Ոլորեք դեպի վերջին աշխատաթերթը"
+		},
+		"addWorksheetButton": {
+			"title": "Ավելացրեք աշխատանքային թերթ"
+		},
+		"showWorksheetListButton": {
+			"title": "Ցույց տալ աշխատաթերթերի ցանկը"
+		},
+		"zoomOutButton": {
+			"title": "Մանրացնել"
+		},
+		"zoomValueLabel": {
+			"text": "100%"
+		},
+		"zoomInButton": {
+			"title": "Խոշորացնել. մոտեցնել"
+		},
+		"enUsCurrencyNumberFormatButton": {
+			"title": "$ անգլերեն (ԱՄՆ)"
+		},
+		"enUkCurrencyNumberFormatButton": {
+			"title": "£ Անգլերեն (Միացյալ Թագավորություն)"
+		},
+		"euCurrencyNumberFormatButton": {
+			"title": "€ եվրո (123 €)"
+		},
+		"ruCurrencyNumberFormatButton": {
+			"title": "₽ Ռուսերեն"
+		},
+		"chCurrencyNumberFormatButton": {
+			"title": "¥ չինական"
+		},
+		"enInCurrencyNumberFormatButton": {
+			"title": "₹ անգլերեն (Հնդկաստան)"
+		},
+		"fillCellsDownButton": {
+			"title": "Լրացրեք"
+		},
+		"fillCellsUpButton": {
+			"title": "Լրացրեք"
+		},
+		"fillCellsLeftButton": {
+			"title": "Լրացրեք ձախը"
+		},
+		"fillCellsRightButton": {
+			"title": "Լրացրեք աջ"
+		},
+		"noBordersButton": {
+			"title": "Սահմաններ չկան"
+		},
+		"outsideBordersButton": {
+			"title": "Սահմաններից դուրս"
+		},
+		"bottomBorderButton": {
+			"title": "Ներքևի սահման"
+		},
+		"topBorderButton": {
+			"title": "Վերևի սահման"
+		},
+		"rightBorderButton": {
+			"title": "Աջ սահման"
+		},
+		"leftBorderButton": {
+			"title": "Ձախ սահման"
+		},
+		"thickBottomBorderButton": {
+			"title": "Հաստ ստորին եզրագիծ"
+		},
+		"thickLeftBorderButton": {
+			"title": "Հաստ ձախ եզրագիծ"
+		},
+		"doubleBottomBorderButton": {
+			"title": "Կրկնակի ստորին սահման"
+		},
+		"doubleLeftBorderButton": {
+			"title": "Կրկնակի ձախ սահման"
+		},
+		"borderColorButton": {
+			"title": "Սահմանի գույնը"
+		},
+		"copyWorksheetLabel": {
+			"text": "Պատճենել աշխատանքային թերթիկը"
+		},
+		"deleteWorksheetLabel": {
+			"text": "Ջնջել աշխատանքային թերթիկը"
+		},
+		"renameWorksheetLabel": {
+			"text": "Վերանվանել աշխատաթերթը"
+		},
+		"moveWorksheetLabel": {
+			"text": "Տեղափոխել աշխատանքային թերթիկը"
+		},
+		"copyLabel": {
+			"text": "Պատճենել"
+		},
+		"cutLabel": {
+			"text": "Կտրել"
+		},
+		"pasteLabel": {
+			"text": "Կպցնել"
+		},
+		"clearContentsLabel": {
+			"text": "Մաքրել բովանդակությունը"
+		},
+		"insertCellAndShiftRightLabel": {
+			"text": "Տեղադրեք բջիջը և տեղափոխեք աջ"
+		},
+		"insertCellAndShiftDownLabel": {
+			"text": "Տեղադրեք բջիջը և տեղափոխեք ներքև"
+		},
+		"insertEntireRowLabel": {
+			"text": "Տեղադրեք ամբողջ տողը"
+		},
+		"insertEntireColumnLabel": {
+			"text": "Տեղադրեք ամբողջ սյունակը"
+		},
+		"deleteImageLabel": {
+			"text": "Ջնջել"
+		},
+		"propertiesLabel": {
+			"text": "Հատկություններ..."
+		},
+		"deleteCellAndShiftLeftLabel": {
+			"text": "Ջնջել բջիջը և տեղափոխել ձախ"
+		},
+		"deleteCellAndShiftUpLabel": {
+			"text": "Ջնջել բջիջը և տեղափոխել վերև"
+		},
+		"deleteEntireRowLabel": {
+			"text": "Ջնջել ամբողջ տողը"
+		},
+		"deleteEntireColumnLabel": {
+			"text": "Ջնջել ամբողջ սյունակը"
+		},
+		"insertRowsLabel": {
+			"text": "Տեղադրեք տողեր"
+		},
+		"deleteRowsLabel": {
+			"text": "Ջնջել տողերը"
+		},
+		"insertColumnsLabel": {
+			"text": "Տեղադրեք սյունակներ"
+		},
+		"deleteColumnsLabel": {
+			"text": "Ջնջել սյունակները"
+		},
+		"insertCommentLabel": {
+			"text": "Տեղադրել մեկնաբանություն..."
+		},
+		"editCommentLabel": {
+			"text": "Խմբագրել մեկնաբանությունը..."
+		},
+		"deleteCommentLabel": {
+			"text": "Ջնջել մեկնաբանությունը"
+		},
+		"showHideCommentLabel": {
+			"text": "Ցույց տալ/Թաքցնել մեկնաբանությունը"
+		},
+		"hideCommentLabel": {
+			"text": "Թաքցնել մեկնաբանությունը"
+		},
+		"hideRowsLabel": {
+			"text": "Թաքցնել տողերը"
+		},
+		"unhideRowsLabel": {
+			"text": "Ցույց տալ տողերը"
+		},
+		"hideColumnsLabel": {
+			"text": "Թաքցնել սյունակները"
+		},
+		"unhideColumnsLabel": {
+			"text": "Բացահայտել սյունակները"
+		},
+		"insertCommentDialog": {
+			"authorLabel": {
+				"text": "Հեղինակ:"
+			},
+			"showAuthorLabel": {
+				"text": "Ցույց տալ հեղինակը"
+			},
+			"commentLabel": {
+				"text": "Մեկնաբանություն:"
+			},
+			"okButton": {
+				"value": "լավ"
+			},
+			"cancelButton": {
+				"value": "Չեղարկել"
+			}
+		},
+		"commentEditDialog": {
+			"authorLabel": {
+				"text": "Հեղինակ:"
+			},
+			"showAuthorLabel": {
+				"text": "Ցույց տալ հեղինակը"
+			},
+			"commentLabel": {
+				"text": "Մեկնաբանություն:"
+			},
+			"okButton": {
+				"value": "լավ"
+			},
+			"cancelButton": {
+				"value": "Չեղարկել"
+			}
+		},
+		"editChartDialog": {
+			"titleLabel": {
+				"text": "Կոչում:"
+			},
+			"okButton": {
+				"value": "լավ"
+			},
+			"cancelButton": {
+				"value": "Չեղարկել"
+			}
+		},
+		"renameWorksheetDialog": {
+			"nameLabel": {
+				"text": "Անուն:"
+			},
+			"okButton": {
+				"value": "լավ"
+			},
+			"cancelButton": {
+				"value": "Չեղարկել"
+			}
+		},
+		"moveWorksheetDialog": {
+			"moveUpButton": {
+				"value": "Շարժվեք վերև"
+			},
+			"moveDownButton": {
+				"value": "Իջնել"
+			},
+			"okButton": {
+				"value": "լավ"
+			},
+			"cancelButton": {
+				"value": "Չեղարկել"
+			}
+		},
+		"findTextDialog": {
+			"findTextLabel": {
+				"text": "Գտեք տեքստ"
+			},
+			"findWhatLabel": {
+				"text": "Գտեք ինչ:"
+			},
+			"withinLabel": {
+				"text": "Շրջանակներում՝"
+			},
+			"Sheet": {
+				"text": "Թերթ"
+			},
+			"Workbook": {
+				"text": "Աշխատանքային տետր"
+			},
+			"searchLabel": {
+				"text": "Որոնում:"
+			},
+			"ByRows": {
+				"text": "Ըստ շարքերի"
+			},
+			"ByColumns": {
+				"text": "Ըստ սյունակների"
+			},
+			"lookInLabel": {
+				"text": "Տես:"
+			},
+			"Formulas": {
+				"text": "Բանաձևեր"
+			},
+			"Values": {
+				"text": "Արժեքներ"
+			},
+			"Comments": {
+				"text": "Մեկնաբանություններ"
+			},
+			"matchCaseLabel": {
+				"text": "Լուցկի գործ"
+			},
+			"matchEntireContentLabel": {
+				"text": "Համապատասխանեցրեք ամբողջ բովանդակությունը"
+			},
+			"findNextButton": {
+				"value": "Գտեք Հաջորդը"
+			},
+			"closeButton": {
+				"value": "փակել"
+			}
+		},
+		"selectFunctionDialog": {
+			"categoryLabel": {
+				"text": "Կարգավիճակ:"
+			},
+			"categoryDropDown": {
+				"All": {
+					"text": "Բոլորը"
+				},
+				"Financial": {
+					"text": "Ֆինանսական"
+				},
+				"DateAndTime": {
+					"text": "DateAndTime"
+				},
+				"MathAndTrig": {
+					"text": "MathAndTrig"
+				},
+				"Statistical": {
+					"text": "Վիճակագրական"
+				},
+				"LookupAndReference": {
+					"text": "LookupAndReference"
+				},
+				"Text": {
+					"text": "Տեքստ"
+				},
+				"Logical": {
+					"text": "Տրամաբանական"
+				},
+				"Information": {
+					"text": "Տեղեկություն"
+				},
+				"Engineering": {
+					"text": "Ճարտարագիտական"
+				}
+			},
+			"selectFunctionLabel": {
+				"text": "Ընտրեք գործառույթը."
+			},
+			"okButton": {
+				"value": "լավ"
+			},
+			"cancelButton": {
+				"value": "Չեղարկել"
+			}
+		},
+		"setCellNumberFormatDialog": {
+			"General": {
+				"text": "Գեներալ"
+			},
+			"Number": {
+				"text": "Թիվ"
+			},
+			"Currency": {
+				"text": "Արժույթ"
+			},
+			"Date": {
+				"text": "Ամսաթիվ"
+			},
+			"Time": {
+				"text": "Ժամանակը"
+			},
+			"Percentage": {
+				"text": "Տոկոսը"
+			},
+			"Scientific": {
+				"text": "Գիտական"
+			},
+			"Text": {
+				"text": "Տեքստ"
+			},
+			"Custom": {
+				"text": "Պատվերով"
+			},
+			"generalFormatDescriptionLabel": {
+				"text": "Ընդհանուր ձևաչափի բջիջները չունեն հատուկ թվային ձևաչափ:"
+			},
+			"numberDecimalPlacesLabel": {
+				"text": "Տասնորդական տեղեր."
+			},
+			"useThousandsSeparatorLabel": {
+				"text": "Օգտագործեք 1000 տարանջատիչ"
+			},
+			"numberNegativeValuesLabel": {
+				"text": "Բացասական արժեքներ."
+			},
+			"changeTextColorToRedLabel": {
+				"text": "Փոխեք տեքստի գույնը կարմիրի"
+			},
+			"hideMinusSignLabel": {
+				"text": "Թաքցնել մինուս նշանը"
+			},
+			"currencyDecimalPlacesLabel": {
+				"text": "Տասնորդական տեղեր."
+			},
+			"currencySymbolLabel": {
+				"text": "Խորհրդանիշ:"
+			},
+			"percentageDecimalPlacesLabel": {
+				"text": "Տասնորդական տեղեր."
+			},
+			"scientificDecimalPlacesLabel": {
+				"text": "Տասնորդական տեղեր."
+			},
+			"textFormatDescriptionLabel": {
+				"text": "Տեքստի ձևաչափի բջիջները դիտվում են որպես տեքստ, նույնիսկ եթե վանդակում կա թիվ:"
+			},
+			"okButton": {
+				"value": "լավ"
+			},
+			"cancelButton": {
+				"value": "Չեղարկել"
+			}
+		},
+		"insertChartDialog": {
+			"okButton": {
+				"value": "լավ"
+			},
+			"cancelButton": {
+				"value": "Չեղարկել"
+			}
+		}
+	},
+	"strings": {
+		"vssde-documentIsOpening": "Փաստաթուղթը բացվում է...",
+		"vssde-numberFormat-general": "Գեներալ",
+		"vssde-numberFormat-number": "Թիվ",
+		"vssde-numberFormat-date": "Ամսաթիվ",
+		"vssde-numberFormat-time": "Ժամանակը",
+		"vssde-numberFormat-currency": "Արժույթ",
+		"vssde-numberFormat-percentage": "Տոկոսը",
+		"vssde-numberFormat-scientific": "Գիտական",
+		"vssde-numberFormat-text": "Տեքստ",
+		"vssde-numberFormat-custom": "Պատվերով",
+		"vssde-findTextPanel-sheet": "Թերթ",
+		"vssde-findTextPanel-workbook": "Աշխատանքային տետր",
+		"vssde-findTextPanel-byRows": "Ըստ շարքերի",
+		"vssde-findTextPanel-byColumns": "Ըստ սյունակների",
+		"vssde-findTextPanel-formulas": "Բանաձևեր",
+		"vssde-findTextPanel-values": "Արժեքներ",
+		"vssde-findTextPanel-comments": "Մեկնաբանություններ",
+		"vssde-findTextPanel-textIsNotFound": "'{0}' տեքստը չի գտնվել:",
+		"vssde-selectFunctionPanel-all": "Բոլորը",
+		"vssde-createXlsxDocument": "Ստեղծեք նոր XLSX փաստաթուղթ",
+		"vssde-uploadXlsxFile": "Վերբեռնեք XLSX ֆայլը",
+		"vssde-downloadXlsxFile": "Ներբեռնեք XLSX ֆայլը",
+		"vssde-exportXlsxToPdf": "Արտահանել XLSX-ը PDF",
+		"vssde-fileSizeExceedsLimit": "Վերբեռնված ֆայլի չափը գերազանցում է առավելագույն չափը ({0} բայթ):",
+		"vssde-createXlsxDocumentConfirmation": "Ցանկանու՞մ եք ստեղծել նոր աշխատանքային գրքույկ:",
+		"vssde-insertCommentDialog-title": "Տեղադրեք մեկնաբանություն",
+		"vssde-dialog-okButton": "լավ",
+		"vssde-dialog-cancelButton": "Չեղարկել",
+		"vssde-editCommentDialog-title": "Խմբագրել մեկնաբանությունը",
+		"vssde-editChartDialog-title": "Խմբագրել գծապատկերը",
+		"vssde-editChartPropertiesPanel-spreadsheetEditorDoesNotHaveFocusedChart": "Աղյուսակների խմբագրիչը կենտրոնացված աղյուսակ չունի:",
+		"vssde-editChartPropertiesPanel-selectedDrawingIsNotChart": "Ընտրված նկարը գծապատկեր չէ:",
+		"vssde-renameWorksheetDialog-title": "Վերանվանել աշխատանքային թերթիկը",
+		"vssde-moveWorksheetDialog-title": "Տեղափոխել աշխատանքային թերթիկը",
+		"vssde-findTextDialog-title": "Գտեք տեքստ",
+		"vssde-findTextDialog-findNextButton": "Գտեք Հաջորդը",
+		"vssde-dialog-closeButton": "փակել",
+		"vssde-selectFunctionDialog-title": "Տեղադրեք գործառույթը",
+		"vssde-cellNumberFormatDialog-title": "Բջջի ձևաչափ",
+		"vssde-insertChartDialog-title": "Տեղադրեք գծապատկեր",
+		"vssde-insertChartPanel-chartType-column": "Սյունակ",
+		"vssde-insertChartPanel-chartType-line": "Գիծ",
+		"vssde-insertChartPanel-chartType-pie": "Կարկանդակ",
+		"vssde-insertChartPanel-chartType-bar": "Բար",
+		"vssde-insertChartPanel-chartType-area": "Տարածք",
+		"vssde-insertChartPanel-chartSubtype-clusteredColumn": "Կլաստերացված սյունակ",
+		"vssde-insertChartPanel-chartSubtype-stackedColumn": "Դրսեւորված սյունակ",
+		"vssde-insertChartPanel-chartSubtype-100%StackedColumn": "100% կուտակված սյունակ",
+		"vssde-insertChartPanel-chartSubtype-3DClusteredColumn": "3D կլաստերային սյունակ",
+		"vssde-insertChartPanel-chartSubtype-3DStackedColumn": "3D կուտակված սյունակ",
+		"vssde-insertChartPanel-chartSubtype-3D100%StackedColumn": "3D 100% կուտակված սյունակ",
+		"vssde-insertChartPanel-chartSubtype-line": "Գիծ",
+		"vssde-insertChartPanel-chartSubtype-stackedLine": "Stacked Line",
+		"vssde-insertChartPanel-chartSubtype-100%StackedLine": "100% Stacked Line",
+		"vssde-insertChartPanel-chartSubtype-lineWithMarkers": "Գիծ Մարկերներով",
+		"vssde-insertChartPanel-chartSubtype-stackedLineWithMarkers": "Stacked Line Մարկերներով",
+		"vssde-insertChartPanel-chartSubtype-100%StackedLineWithMar": "100% Stacked Line Մարկերներով",
+		"vssde-insertChartPanel-chartSubtype-curvedLine": "Կոր գիծ",
+		"vssde-insertChartPanel-chartSubtype-stackedCurvedLine": "Դարձված կոր գիծ",
+		"vssde-insertChartPanel-chartSubtype-100%StackedCurvedLine": "100% կուտակված կոր գիծ",
+		"vssde-insertChartPanel-chartSubtype-curvedLineWithMarkers": "Կոր գիծ մարկերներով",
+		"vssde-insertChartPanel-chartSubtype-stackedCurvLineWithMark": "Դրսեւորված կոր գիծ մարկերներով",
+		"vssde-insertChartPanel-chartSubtype-100%StackedCurvLineMark": "100% դարսված կոր գիծ մարկերներով",
+		"vssde-insertChartPanel-chartSubtype-pie": "Կարկանդակ",
+		"vssde-insertChartPanel-chartSubtype-pieExplosion": "Կարկանդակ (պայթյուն)",
+		"vssde-insertChartPanel-chartSubtype-doughnut": "Փոքրիկ կարկանդակ",
+		"vssde-insertChartPanel-chartSubtype-clusteredBar": "Կլաստերային բար",
+		"vssde-insertChartPanel-chartSubtype-stackedBar": "Stacked Bar",
+		"vssde-insertChartPanel-chartSubtype-100%StackedBar": "100% Stacked Bar",
+		"vssde-insertChartPanel-chartSubtype-area": "Տարածք",
+		"vssde-insertChartPanel-chartSubtype-stackedArea": "Stacked Տարածք",
+		"vssde-insertChartPanel-chartSubtype-100%StackedArea": "100% կուտակված տարածք",
+		"vssde-insertChartPanel-fileArg0IsNotFound": "'{0}' ֆայլը չի գտնվել:",
+		"vssde-insertChartPanel-supportedChartTypesAreNotFound": "Աջակցվող գծապատկերների տեսակները չեն գտնվել:",
+		"vssde-insertChartPanel-notSupportedChartType": "Չի աջակցվում գծապատկերի տեսակը:",
+		"vssde-insertChartPanel-supportedChartSubtypesAreNotFound": "Աջակցվող գծապատկերների ենթատիպերը չեն գտնվել:",
+		"vssde-insertChartPanel-notSupportedChartSubtype": "Չի աջակցվում գծապատկերի ենթատիպ:",
+		"vssde-insertChartPanel-chartTemplateContainsTwoIdenticalNamesForChartSubtypes": "Գծապատկերի ձևանմուշը պարունակում է գծապատկերների ենթատիպերի 2 նույնական անուններ:",
+		"vssde-insertChartPanel-chartTemplateContainsTwoIdenticalNamesForChartTypes": "Գծապատկերի ձևանմուշը պարունակում է 2 նույնական անուններ գծապատկերների տեսակների համար:",
+		"vssde-insertChartPanel-pleaseSpecifyCellsWhichContainTheChartDataIncludeNamesForRowsAndColumns": "Խնդրում ենք նշել բջիջները, որոնք պարունակում են գծապատկերի տվյալները (ներառյալ տողերի և սյունակների անունները):",
+		"vssde-insertChartPanel-chartSubtypeArg0HasMultipleDeclarationsOnDifferentWorksheets": "'{0}' գծապատկերի ենթատիպն ունի բազմաթիվ հայտարարություններ տարբեր աշխատաթերթերում:",
+		"vssde-insertChartPanel-sheetArg0IsNotFound": "'{0}' թերթիկը չի գտնվել:"
+	}
+}

@@ -155,6 +155,9 @@
 		"deletePictureButton": {
 			"title": "चित्र हटाएँ"
 		},
+		"deleteLinkButton": {
+			"title": "लिंक हटाएँ"
+		},
 		"mergeCellsButton": {
 			"title": "खानों को मिलाएं"
 		},
@@ -193,6 +196,9 @@
 		},
 		"insertFunctionButton": {
 			"title": "फ़ंक्शन सम्मिलित करें"
+		},
+		"insertLinkButton": {
+			"title": "हाइपरलिंक डालें"
 		},
 		"insertCommentButton": {
 			"title": "टिप्पणी डालें"
@@ -235,18 +241,6 @@
 		},
 		"showWorksheetListButton": {
 			"title": "शीट सूची दिखाएँ"
-		},
-		"copyWorksheetButton": {
-			"title": "कॉपी शीट"
-		},
-		"deleteWorksheetButton": {
-			"title": "शीट हटाएँ"
-		},
-		"renameWorksheetButton": {
-			"title": "शीट का नाम बदलें"
-		},
-		"moveWorksheetButton": {
-			"title": "शीट हटाएँ"
 		},
 		"zoomOutButton": {
 			"title": "ज़ूम आउट"
@@ -319,6 +313,18 @@
 		},
 		"borderColorButton": {
 			"title": "सीमा रंग"
+		},
+		"copyWorksheetLabel": {
+			"text": "कॉपी शीट"
+		},
+		"deleteWorksheetLabel": {
+			"text": "शीट हटाएँ"
+		},
+		"renameWorksheetLabel": {
+			"text": "शीट का नाम बदलें"
+		},
+		"moveWorksheetLabel": {
+			"text": "शीट हटाएँ"
 		},
 		"copyLabel": {
 			"text": "कॉपी करें"
@@ -533,16 +539,16 @@
 					"text": "वित्तीय"
 				},
 				"DateAndTime": {
-					"text": "तिथि और समय"
+					"text": "DateAndTime"
 				},
 				"MathAndTrig": {
-					"text": "गणित"
+					"text": "MathAndTrig"
 				},
 				"Statistical": {
 					"text": "सांख्यिकीय"
 				},
 				"LookupAndReference": {
-					"text": "संदर्भ और सारणियाँ"
+					"text": "LookupAndReference"
 				},
 				"Text": {
 					"text": "पाठ"

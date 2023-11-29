@@ -155,6 +155,9 @@
 		"deletePictureButton": {
 			"title": "Xóa ảnh"
 		},
+		"deleteLinkButton": {
+			"title": "Xóa liên kết"
+		},
 		"mergeCellsButton": {
 			"title": "Hợp nhất các ô"
 		},
@@ -193,6 +196,9 @@
 		},
 		"insertFunctionButton": {
 			"title": "Chèn chức năng"
+		},
+		"insertLinkButton": {
+			"title": "Chèn siêu liên kết"
 		},
 		"insertCommentButton": {
 			"title": "Chèn nhận xét"
@@ -235,18 +241,6 @@
 		},
 		"showWorksheetListButton": {
 			"title": "Hiển thị danh sách trang tính"
-		},
-		"copyWorksheetButton": {
-			"title": "Sao chép tờ"
-		},
-		"deleteWorksheetButton": {
-			"title": "Xóa trang tính"
-		},
-		"renameWorksheetButton": {
-			"title": "Đổi tên Trang tính"
-		},
-		"moveWorksheetButton": {
-			"title": "Di chuyển Trang tính"
 		},
 		"zoomOutButton": {
 			"title": "Thu nhỏ"
@@ -319,6 +313,18 @@
 		},
 		"borderColorButton": {
 			"title": "Màu viền"
+		},
+		"copyWorksheetLabel": {
+			"text": "Sao chép tờ"
+		},
+		"deleteWorksheetLabel": {
+			"text": "Xóa trang tính"
+		},
+		"renameWorksheetLabel": {
+			"text": "Đổi tên Trang tính"
+		},
+		"moveWorksheetLabel": {
+			"text": "Di chuyển Trang tính"
 		},
 		"copyLabel": {
 			"text": "Sao chép"
@@ -533,16 +539,16 @@
 					"text": "Tài chính"
 				},
 				"DateAndTime": {
-					"text": "Ngày giờ"
+					"text": "DateAndTime"
 				},
 				"MathAndTrig": {
-					"text": "Toán học"
+					"text": "MathAndTrig"
 				},
 				"Statistical": {
 					"text": "Thống kê"
 				},
 				"LookupAndReference": {
-					"text": "Tham khảo và mảng"
+					"text": "LookupAndReference"
 				},
 				"Text": {
 					"text": "Văn bản"

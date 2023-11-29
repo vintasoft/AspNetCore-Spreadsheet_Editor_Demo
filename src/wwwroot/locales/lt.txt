@@ -1,0 +1,737 @@
+﻿{
+	"spreadsheetDocumentEditorControl": {
+		"fileLabel": {
+			"text": "Failas"
+		},
+		"homeLabel": {
+			"text": "Namai"
+		},
+		"editLabel": {
+			"text": "Redaguoti"
+		},
+		"insertLabel": {
+			"text": "Įdėti"
+		},
+		"reviewLabel": {
+			"text": "Apžvalga"
+		},
+		"createXlsxDocumentButton": {
+			"title": "Sukurkite naują XLSX dokumentą"
+		},
+		"uploadXlsxFileButton": {
+			"title": "Įkelkite ir atidarykite XLSX failą"
+		},
+		"downloadXlsxFileButton": {
+			"title": "Atsisiųskite XLSX failą"
+		},
+		"exportXlsxToPdfButton": {
+			"title": "Eksportuokite XLSX į PDF"
+		},
+		"showMobileMenuButton": {
+			"title": "Daugiau"
+		},
+		"boldTextButton": {
+			"title": "Paryškintas tekstas"
+		},
+		"italicTextButton": {
+			"title": "Kursyvas tekstas"
+		},
+		"underlineTextButton": {
+			"title": "Pabraukite tekstą"
+		},
+		"strikethroughTextButton": {
+			"title": "Perbrauktas tekstas"
+		},
+		"fontColorButton": {
+			"title": "Šrifto spalva"
+		},
+		"fillColorButton": {
+			"title": "Užpildo spalva"
+		},
+		"copyStyleButton": {
+			"title": "Stiliaus tapytojas"
+		},
+		"alignLeftButton": {
+			"title": "Lygiuoti į kairę"
+		},
+		"alignCenterButton": {
+			"title": "centras"
+		},
+		"alignRightButton": {
+			"title": "Sulygiuoti į dešinę"
+		},
+		"topAlignButton": {
+			"title": "Lygiuoti viršuje"
+		},
+		"middleAlignButton": {
+			"title": "Vidurinis lygiavimas"
+		},
+		"bottomAlignButton": {
+			"title": "Lygiuoti iš apačios"
+		},
+		"textWrappingButton": {
+			"title": "Teksto įvyniojimas"
+		},
+		"currencyNumberFormatButton": {
+			"title": "Valiutos numerio formatas"
+		},
+		"increaseDecimalButton": {
+			"title": "Padidinti dešimtainį skaičių"
+		},
+		"decreaseDecimalButton": {
+			"title": "Sumažinti dešimtainę"
+		},
+		"percentNumberFormatButton": {
+			"title": "Procentų skaičiaus formatas"
+		},
+		"numberFormatDropDown": {
+			"General": {
+				"text": "Generolas"
+			},
+			"Number": {
+				"text": "Skaičius"
+			},
+			"Currency": {
+				"text": "Valiuta"
+			},
+			"Date": {
+				"text": "Data"
+			},
+			"Time": {
+				"text": "Laikas"
+			},
+			"Percentage": {
+				"text": "Procentas"
+			},
+			"Scientific": {
+				"text": "Mokslinis"
+			},
+			"Text": {
+				"text": "Tekstas"
+			}
+		},
+		"numberFormatButton": {
+			"title": "Skaičių formatas"
+		},
+		"showFormulasButton": {
+			"title": "Rodyti formules"
+		},
+		"searchTextButton": {
+			"title": "Paieškos tekstas"
+		},
+		"undoButton": {
+			"title": "Anuliuoti"
+		},
+		"redoButton": {
+			"title": "Perdaryti"
+		},
+		"cutContentButton": {
+			"title": "Iškirpti turinį"
+		},
+		"copyContentButton": {
+			"title": "Kopijuoti turinį"
+		},
+		"pasteContentButton": {
+			"title": "Įklijuokite turinį"
+		},
+		"clearContentButton": {
+			"title": "Aiškus turinys"
+		},
+		"clearFormatButton": {
+			"title": "Aiškus formatas"
+		},
+		"deleteRowsButton": {
+			"title": "Ištrinti eilutes"
+		},
+		"deleteColumnsButton": {
+			"title": "Ištrinti stulpelius"
+		},
+		"deleteCellsAndShiftLeftButton": {
+			"title": "Ištrinkite langelius ir perkelkite į kairę"
+		},
+		"deleteCellsAndShiftUpButton": {
+			"title": "Ištrinkite langelius ir perkelkite aukštyn"
+		},
+		"deletePictureButton": {
+			"title": "Ištrinti paveikslėlį"
+		},
+		"deleteLinkButton": {
+			"title": "Ištrinti nuorodą"
+		},
+		"mergeCellsButton": {
+			"title": "Sujungti langelius"
+		},
+		"unmergeCellsButton": {
+			"title": "Atjunkite ląsteles"
+		},
+		"fillCells": {
+			"title": "Užpildykite ląsteles"
+		},
+		"allBordersButton": {
+			"title": "Visos sienos"
+		},
+		"thickOutsideBordersButton": {
+			"title": "Storos išorinės sienos"
+		},
+		"autoFitRowHeightButton": {
+			"title": "Automatiškai pritaikykite eilutės aukštį"
+		},
+		"autoFitColumnWidthButton": {
+			"title": "Automatiškai pritaikyti stulpelio plotį"
+		},
+		"insertRowsButton": {
+			"title": "Įterpti eilutes"
+		},
+		"insertColumnsButton": {
+			"title": "Įterpti stulpelius"
+		},
+		"insertCellsAndShiftRightButton": {
+			"title": "Įterpti langelį ir perkelti į dešinę"
+		},
+		"insertCellsAndShiftDownButton": {
+			"title": "Įdėkite langelį ir perkelkite žemyn"
+		},
+		"insertSheetButton": {
+			"title": "Įterpti darbalapį"
+		},
+		"insertFunctionButton": {
+			"title": "Įterpimo funkcija"
+		},
+		"insertLinkButton": {
+			"title": "Įterpti nuorodą"
+		},
+		"insertCommentButton": {
+			"title": "Įterpti komentarą"
+		},
+		"insertPictureButton": {
+			"title": "Pridėti paveikslėlį"
+		},
+		"insertChartButton": {
+			"title": "Įterpti diagramą"
+		},
+		"editCommentButton": {
+			"title": "Redaguoti komentarą"
+		},
+		"deleteCommentButton": {
+			"title": "Ištrinti komentarą"
+		},
+		"previousCommentButton": {
+			"title": "Ankstesnis komentaras"
+		},
+		"nextCommentButton": {
+			"title": "Kitas komentaras"
+		},
+		"formulaPanel-cancelChangeButton": {
+			"title": "Atšaukti pakeitimą"
+		},
+		"formulaPanel-applyChangeButton": {
+			"title": "Taikyti pakeitimą"
+		},
+		"formulaPanel-fullScreenButton": {
+			"title": "Per visą ekraną"
+		},
+		"scrollToFirstWorksheetButton": {
+			"title": "Slinkite iki pirmojo darbalapio"
+		},
+		"scrollToLastWorksheetButton": {
+			"title": "Slinkite iki paskutinio darbalapio"
+		},
+		"addWorksheetButton": {
+			"title": "Pridėti darbalapį"
+		},
+		"showWorksheetListButton": {
+			"title": "Rodyti darbalapių sąrašą"
+		},
+		"zoomOutButton": {
+			"title": "Nutolinti"
+		},
+		"zoomValueLabel": {
+			"text": "100 %"
+		},
+		"zoomInButton": {
+			"title": "Priartinti"
+		},
+		"enUsCurrencyNumberFormatButton": {
+			"title": "$ anglų (JAV)"
+		},
+		"enUkCurrencyNumberFormatButton": {
+			"title": "£ anglų (Jungtinė Karalystė)"
+		},
+		"euCurrencyNumberFormatButton": {
+			"title": "€ eurai (123 €)"
+		},
+		"ruCurrencyNumberFormatButton": {
+			"title": "₽ rusų"
+		},
+		"chCurrencyNumberFormatButton": {
+			"title": "¥ kinų"
+		},
+		"enInCurrencyNumberFormatButton": {
+			"title": "₹ anglų k. (Indija)"
+		},
+		"fillCellsDownButton": {
+			"title": "Užpildykite žemyn"
+		},
+		"fillCellsUpButton": {
+			"title": "Pripildyti"
+		},
+		"fillCellsLeftButton": {
+			"title": "Užpildykite kairę"
+		},
+		"fillCellsRightButton": {
+			"title": "Užpildykite dešinėje"
+		},
+		"noBordersButton": {
+			"title": "Jokių sienų"
+		},
+		"outsideBordersButton": {
+			"title": "Už sienų"
+		},
+		"bottomBorderButton": {
+			"title": "Apatinė riba"
+		},
+		"topBorderButton": {
+			"title": "Viršutinė kraštinė"
+		},
+		"rightBorderButton": {
+			"title": "Dešinė siena"
+		},
+		"leftBorderButton": {
+			"title": "Kairė siena"
+		},
+		"thickBottomBorderButton": {
+			"title": "Stora apačia"
+		},
+		"thickLeftBorderButton": {
+			"title": "Stora kairioji sienelė"
+		},
+		"doubleBottomBorderButton": {
+			"title": "Dviguba apačia"
+		},
+		"doubleLeftBorderButton": {
+			"title": "Dviguba kairioji siena"
+		},
+		"borderColorButton": {
+			"title": "Krašto spalva"
+		},
+		"copyWorksheetLabel": {
+			"text": "Nukopijuokite darbalapį"
+		},
+		"deleteWorksheetLabel": {
+			"text": "Ištrinti darbalapį"
+		},
+		"renameWorksheetLabel": {
+			"text": "Pervardyti darbalapį"
+		},
+		"moveWorksheetLabel": {
+			"text": "Perkelti darbalapį"
+		},
+		"copyLabel": {
+			"text": "Kopijuoti"
+		},
+		"cutLabel": {
+			"text": "Iškirpti"
+		},
+		"pasteLabel": {
+			"text": "Įklijuoti"
+		},
+		"clearContentsLabel": {
+			"text": "Aiškus turinys"
+		},
+		"insertCellAndShiftRightLabel": {
+			"text": "Įterpti langelį ir perkelti į dešinę"
+		},
+		"insertCellAndShiftDownLabel": {
+			"text": "Įdėkite langelį ir perkelkite žemyn"
+		},
+		"insertEntireRowLabel": {
+			"text": "Įterpti visą eilutę"
+		},
+		"insertEntireColumnLabel": {
+			"text": "Įterpti visą stulpelį"
+		},
+		"deleteImageLabel": {
+			"text": "Ištrinti"
+		},
+		"propertiesLabel": {
+			"text": "Savybės..."
+		},
+		"deleteCellAndShiftLeftLabel": {
+			"text": "Ištrinkite langelį ir perkelkite į kairę"
+		},
+		"deleteCellAndShiftUpLabel": {
+			"text": "Ištrinkite langelį ir perkelkite aukštyn"
+		},
+		"deleteEntireRowLabel": {
+			"text": "Ištrinti visą eilutę"
+		},
+		"deleteEntireColumnLabel": {
+			"text": "Ištrinti visą stulpelį"
+		},
+		"insertRowsLabel": {
+			"text": "Įterpti eilutes"
+		},
+		"deleteRowsLabel": {
+			"text": "Ištrinti eilutes"
+		},
+		"insertColumnsLabel": {
+			"text": "Įterpti stulpelius"
+		},
+		"deleteColumnsLabel": {
+			"text": "Ištrinti stulpelius"
+		},
+		"insertCommentLabel": {
+			"text": "Įterpti komentarą..."
+		},
+		"editCommentLabel": {
+			"text": "Redaguoti komentarą..."
+		},
+		"deleteCommentLabel": {
+			"text": "Ištrinti komentarą"
+		},
+		"showHideCommentLabel": {
+			"text": "Rodyti/slėpti komentarą"
+		},
+		"hideCommentLabel": {
+			"text": "Slėpti komentarą"
+		},
+		"hideRowsLabel": {
+			"text": "Slėpti eilutes"
+		},
+		"unhideRowsLabel": {
+			"text": "Rodyti eilutes"
+		},
+		"hideColumnsLabel": {
+			"text": "Slėpti stulpelius"
+		},
+		"unhideColumnsLabel": {
+			"text": "Rodyti stulpelius"
+		},
+		"insertCommentDialog": {
+			"authorLabel": {
+				"text": "Autorius:"
+			},
+			"showAuthorLabel": {
+				"text": "Rodyti autorių"
+			},
+			"commentLabel": {
+				"text": "komentaras:"
+			},
+			"okButton": {
+				"value": "Gerai"
+			},
+			"cancelButton": {
+				"value": "Atšaukti"
+			}
+		},
+		"commentEditDialog": {
+			"authorLabel": {
+				"text": "Autorius:"
+			},
+			"showAuthorLabel": {
+				"text": "Rodyti autorių"
+			},
+			"commentLabel": {
+				"text": "komentaras:"
+			},
+			"okButton": {
+				"value": "Gerai"
+			},
+			"cancelButton": {
+				"value": "Atšaukti"
+			}
+		},
+		"editChartDialog": {
+			"titleLabel": {
+				"text": "Pavadinimas:"
+			},
+			"okButton": {
+				"value": "Gerai"
+			},
+			"cancelButton": {
+				"value": "Atšaukti"
+			}
+		},
+		"renameWorksheetDialog": {
+			"nameLabel": {
+				"text": "Vardas:"
+			},
+			"okButton": {
+				"value": "Gerai"
+			},
+			"cancelButton": {
+				"value": "Atšaukti"
+			}
+		},
+		"moveWorksheetDialog": {
+			"moveUpButton": {
+				"value": "Judėti aukštyn"
+			},
+			"moveDownButton": {
+				"value": "Judėk žemyn"
+			},
+			"okButton": {
+				"value": "Gerai"
+			},
+			"cancelButton": {
+				"value": "Atšaukti"
+			}
+		},
+		"findTextDialog": {
+			"findTextLabel": {
+				"text": "Rasti tekstą"
+			},
+			"findWhatLabel": {
+				"text": "Rasti ką:"
+			},
+			"withinLabel": {
+				"text": "Per:"
+			},
+			"Sheet": {
+				"text": "Lapas"
+			},
+			"Workbook": {
+				"text": "Darbo knyga"
+			},
+			"searchLabel": {
+				"text": "Paieška:"
+			},
+			"ByRows": {
+				"text": "Pagal eilutes"
+			},
+			"ByColumns": {
+				"text": "Pagal stulpelius"
+			},
+			"lookInLabel": {
+				"text": "Pažiūrėk:"
+			},
+			"Formulas": {
+				"text": "Formulės"
+			},
+			"Values": {
+				"text": "Vertybės"
+			},
+			"Comments": {
+				"text": "Komentarai"
+			},
+			"matchCaseLabel": {
+				"text": "Degtuko atvejis"
+			},
+			"matchEntireContentLabel": {
+				"text": "Suderinkite visą turinį"
+			},
+			"findNextButton": {
+				"value": "Rasti kitą"
+			},
+			"closeButton": {
+				"value": "Uždaryti"
+			}
+		},
+		"selectFunctionDialog": {
+			"categoryLabel": {
+				"text": "Kategorija:"
+			},
+			"categoryDropDown": {
+				"All": {
+					"text": "Visi"
+				},
+				"Financial": {
+					"text": "Finansinis"
+				},
+				"DateAndTime": {
+					"text": "DateAndTime"
+				},
+				"MathAndTrig": {
+					"text": "MathAndTrig"
+				},
+				"Statistical": {
+					"text": "Statistiniai"
+				},
+				"LookupAndReference": {
+					"text": "LookupAndReference"
+				},
+				"Text": {
+					"text": "Tekstas"
+				},
+				"Logical": {
+					"text": "Logiška"
+				},
+				"Information": {
+					"text": "Informacija"
+				},
+				"Engineering": {
+					"text": "Inžinerija"
+				}
+			},
+			"selectFunctionLabel": {
+				"text": "Pasirinkite funkciją:"
+			},
+			"okButton": {
+				"value": "Gerai"
+			},
+			"cancelButton": {
+				"value": "Atšaukti"
+			}
+		},
+		"setCellNumberFormatDialog": {
+			"General": {
+				"text": "Generolas"
+			},
+			"Number": {
+				"text": "Skaičius"
+			},
+			"Currency": {
+				"text": "Valiuta"
+			},
+			"Date": {
+				"text": "Data"
+			},
+			"Time": {
+				"text": "Laikas"
+			},
+			"Percentage": {
+				"text": "Procentas"
+			},
+			"Scientific": {
+				"text": "Mokslinis"
+			},
+			"Text": {
+				"text": "Tekstas"
+			},
+			"Custom": {
+				"text": "Pasirinktinis"
+			},
+			"generalFormatDescriptionLabel": {
+				"text": "Bendrojo formato langeliai neturi konkretaus skaičių formato."
+			},
+			"numberDecimalPlacesLabel": {
+				"text": "Dešimtainės vietos:"
+			},
+			"useThousandsSeparatorLabel": {
+				"text": "Naudokite 1000 skyriklį"
+			},
+			"numberNegativeValuesLabel": {
+				"text": "Neigiamos vertės:"
+			},
+			"changeTextColorToRedLabel": {
+				"text": "Pakeiskite teksto spalvą į raudoną"
+			},
+			"hideMinusSignLabel": {
+				"text": "Slėpti minuso ženklą"
+			},
+			"currencyDecimalPlacesLabel": {
+				"text": "Dešimtainės vietos:"
+			},
+			"currencySymbolLabel": {
+				"text": "Simbolis:"
+			},
+			"percentageDecimalPlacesLabel": {
+				"text": "Dešimtainės vietos:"
+			},
+			"scientificDecimalPlacesLabel": {
+				"text": "Dešimtainės vietos:"
+			},
+			"textFormatDescriptionLabel": {
+				"text": "Teksto formato langeliai traktuojami kaip tekstas, net jei langelyje yra skaičius."
+			},
+			"okButton": {
+				"value": "Gerai"
+			},
+			"cancelButton": {
+				"value": "Atšaukti"
+			}
+		},
+		"insertChartDialog": {
+			"okButton": {
+				"value": "Gerai"
+			},
+			"cancelButton": {
+				"value": "Atšaukti"
+			}
+		}
+	},
+	"strings": {
+		"vssde-documentIsOpening": "Dokumentas atidaromas...",
+		"vssde-numberFormat-general": "Generolas",
+		"vssde-numberFormat-number": "Skaičius",
+		"vssde-numberFormat-date": "Data",
+		"vssde-numberFormat-time": "Laikas",
+		"vssde-numberFormat-currency": "Valiuta",
+		"vssde-numberFormat-percentage": "Procentas",
+		"vssde-numberFormat-scientific": "Mokslinis",
+		"vssde-numberFormat-text": "Tekstas",
+		"vssde-numberFormat-custom": "Pasirinktinis",
+		"vssde-findTextPanel-sheet": "Lapas",
+		"vssde-findTextPanel-workbook": "Darbo knyga",
+		"vssde-findTextPanel-byRows": "Pagal eilutes",
+		"vssde-findTextPanel-byColumns": "Pagal stulpelius",
+		"vssde-findTextPanel-formulas": "Formulės",
+		"vssde-findTextPanel-values": "Vertybės",
+		"vssde-findTextPanel-comments": "Komentarai",
+		"vssde-findTextPanel-textIsNotFound": "Tekstas '{0}' nerastas.",
+		"vssde-selectFunctionPanel-all": "Visi",
+		"vssde-createXlsxDocument": "Sukurkite naują XLSX dokumentą",
+		"vssde-uploadXlsxFile": "Įkelti XLSX failą",
+		"vssde-downloadXlsxFile": "Atsisiųskite XLSX failą",
+		"vssde-exportXlsxToPdf": "Eksportuokite XLSX į PDF",
+		"vssde-fileSizeExceedsLimit": "Įkelto failo dydis viršija maksimalų dydį ({0} baitai).",
+		"vssde-createXlsxDocumentConfirmation": "Ar norite sukurti naują darbaknygę?",
+		"vssde-insertCommentDialog-title": "Įterpti komentarą",
+		"vssde-dialog-okButton": "Gerai",
+		"vssde-dialog-cancelButton": "Atšaukti",
+		"vssde-editCommentDialog-title": "Redaguoti komentarą",
+		"vssde-editChartDialog-title": "Redaguoti diagramą",
+		"vssde-editChartPropertiesPanel-spreadsheetEditorDoesNotHaveFocusedChart": "Skaičiuoklės rengyklė neturi sufokusuotos diagramos.",
+		"vssde-editChartPropertiesPanel-selectedDrawingIsNotChart": "Pasirinktas piešinys nėra diagrama.",
+		"vssde-renameWorksheetDialog-title": "Pervardyti darbalapį",
+		"vssde-moveWorksheetDialog-title": "Perkelti darbalapį",
+		"vssde-findTextDialog-title": "Rasti tekstą",
+		"vssde-findTextDialog-findNextButton": "Rasti kitą",
+		"vssde-dialog-closeButton": "Uždaryti",
+		"vssde-selectFunctionDialog-title": "Įterpti funkciją",
+		"vssde-cellNumberFormatDialog-title": "Ląstelių formatas",
+		"vssde-insertChartDialog-title": "Įterpti diagramą",
+		"vssde-insertChartPanel-chartType-column": "Stulpelis",
+		"vssde-insertChartPanel-chartType-line": "Linija",
+		"vssde-insertChartPanel-chartType-pie": "Pyragas",
+		"vssde-insertChartPanel-chartType-bar": "Baras",
+		"vssde-insertChartPanel-chartType-area": "Plotas",
+		"vssde-insertChartPanel-chartSubtype-clusteredColumn": "Sugrupuotas stulpelis",
+		"vssde-insertChartPanel-chartSubtype-stackedColumn": "Sukrautas stulpelis",
+		"vssde-insertChartPanel-chartSubtype-100%StackedColumn": "100 % sukrauta stulpelis",
+		"vssde-insertChartPanel-chartSubtype-3DClusteredColumn": "3D sugrupuotas stulpelis",
+		"vssde-insertChartPanel-chartSubtype-3DStackedColumn": "3D sukrautas stulpelis",
+		"vssde-insertChartPanel-chartSubtype-3D100%StackedColumn": "3D 100 % sukrautas stulpelis",
+		"vssde-insertChartPanel-chartSubtype-line": "Linija",
+		"vssde-insertChartPanel-chartSubtype-stackedLine": "Sukrauta linija",
+		"vssde-insertChartPanel-chartSubtype-100%StackedLine": "100 % sukrauta linija",
+		"vssde-insertChartPanel-chartSubtype-lineWithMarkers": "Linija su žymekliais",
+		"vssde-insertChartPanel-chartSubtype-stackedLineWithMarkers": "Sukrauta linija su žymekliais",
+		"vssde-insertChartPanel-chartSubtype-100%StackedLineWithMar": "100 % sukrauta linija su žymekliais",
+		"vssde-insertChartPanel-chartSubtype-curvedLine": "Išlenkta linija",
+		"vssde-insertChartPanel-chartSubtype-stackedCurvedLine": "Sukrauta lenkta linija",
+		"vssde-insertChartPanel-chartSubtype-100%StackedCurvedLine": "100 % sukrauta lenkta linija",
+		"vssde-insertChartPanel-chartSubtype-curvedLineWithMarkers": "Išlenkta linija su žymekliais",
+		"vssde-insertChartPanel-chartSubtype-stackedCurvLineWithMark": "Sukrauta lenkta linija su žymekliais",
+		"vssde-insertChartPanel-chartSubtype-100%StackedCurvLineMark": "100 % sukrauta lenkta linija su žymekliais",
+		"vssde-insertChartPanel-chartSubtype-pie": "Pyragas",
+		"vssde-insertChartPanel-chartSubtype-pieExplosion": "Pyragas (sprogimas)",
+		"vssde-insertChartPanel-chartSubtype-doughnut": "Spurga",
+		"vssde-insertChartPanel-chartSubtype-clusteredBar": "Sugrupuota juosta",
+		"vssde-insertChartPanel-chartSubtype-stackedBar": "Sukrautas baras",
+		"vssde-insertChartPanel-chartSubtype-100%StackedBar": "100 % sukrautas baras",
+		"vssde-insertChartPanel-chartSubtype-area": "Plotas",
+		"vssde-insertChartPanel-chartSubtype-stackedArea": "Sukrautas plotas",
+		"vssde-insertChartPanel-chartSubtype-100%StackedArea": "100 % sukrautas plotas",
+		"vssde-insertChartPanel-fileArg0IsNotFound": "Failas '{0}' nerastas.",
+		"vssde-insertChartPanel-supportedChartTypesAreNotFound": "Palaikomų diagramų tipų nerasta.",
+		"vssde-insertChartPanel-notSupportedChartType": "Nepalaikomas diagramos tipas.",
+		"vssde-insertChartPanel-supportedChartSubtypesAreNotFound": "Palaikomų diagramų potipių nerasta.",
+		"vssde-insertChartPanel-notSupportedChartSubtype": "Nepalaikomas diagramos potipis.",
+		"vssde-insertChartPanel-chartTemplateContainsTwoIdenticalNamesForChartSubtypes": "Diagramos šablone yra 2 identiški diagramos potipių pavadinimai.",
+		"vssde-insertChartPanel-chartTemplateContainsTwoIdenticalNamesForChartTypes": "Diagramos šablone yra 2 identiški diagramų tipų pavadinimai.",
+		"vssde-insertChartPanel-pleaseSpecifyCellsWhichContainTheChartDataIncludeNamesForRowsAndColumns": "Nurodykite langelius, kuriuose yra diagramos duomenys (įtraukite eilučių ir stulpelių pavadinimus).",
+		"vssde-insertChartPanel-chartSubtypeArg0HasMultipleDeclarationsOnDifferentWorksheets": "Diagramos potipis '{0}' turi kelias deklaracijas skirtinguose darbalapiuose.",
+		"vssde-insertChartPanel-sheetArg0IsNotFound": "Lapas '{0}' nerastas."
+	}
+}

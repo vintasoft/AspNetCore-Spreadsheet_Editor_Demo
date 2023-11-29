@@ -155,6 +155,9 @@
 		"deletePictureButton": {
 			"title": "Slett bildet"
 		},
+		"deleteLinkButton": {
+			"title": "Slett link"
+		},
 		"mergeCellsButton": {
 			"title": "Slå sammen celler"
 		},
@@ -193,6 +196,9 @@
 		},
 		"insertFunctionButton": {
 			"title": "Sett inn funksjon"
+		},
+		"insertLinkButton": {
+			"title": "Sett inn hyperkobling"
 		},
 		"insertCommentButton": {
 			"title": "Sett inn kommentar"
@@ -235,18 +241,6 @@
 		},
 		"showWorksheetListButton": {
 			"title": "Vis arkliste"
-		},
-		"copyWorksheetButton": {
-			"title": "Kopier ark"
-		},
-		"deleteWorksheetButton": {
-			"title": "Slett ark"
-		},
-		"renameWorksheetButton": {
-			"title": "Gi nytt navn til ark"
-		},
-		"moveWorksheetButton": {
-			"title": "Flytt ark"
 		},
 		"zoomOutButton": {
 			"title": "Zoom ut"
@@ -319,6 +313,18 @@
 		},
 		"borderColorButton": {
 			"title": "Grensefarge"
+		},
+		"copyWorksheetLabel": {
+			"text": "Kopier ark"
+		},
+		"deleteWorksheetLabel": {
+			"text": "Slett ark"
+		},
+		"renameWorksheetLabel": {
+			"text": "Gi nytt navn til ark"
+		},
+		"moveWorksheetLabel": {
+			"text": "Flytt ark"
 		},
 		"copyLabel": {
 			"text": "Kopier"
@@ -533,16 +539,16 @@
 					"text": "Økonomi"
 				},
 				"DateAndTime": {
-					"text": "Dato og klokkeslett"
+					"text": "DateAndTime"
 				},
 				"MathAndTrig": {
-					"text": "Matematikk"
+					"text": "MathAndTrig"
 				},
 				"Statistical": {
 					"text": "Statistisk"
 				},
 				"LookupAndReference": {
-					"text": "Referanser og matriser"
+					"text": "LookupAndReference"
 				},
 				"Text": {
 					"text": "Tekst"

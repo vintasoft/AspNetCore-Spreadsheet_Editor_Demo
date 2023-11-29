@@ -155,6 +155,9 @@
 		"deletePictureButton": {
 			"title": "Изтриване на снимка"
 		},
+		"deleteLinkButton": {
+			"title": "Изтриване на връзката"
+		},
 		"mergeCellsButton": {
 			"title": "Сливане на клетки"
 		},
@@ -193,6 +196,9 @@
 		},
 		"insertFunctionButton": {
 			"title": "Вмъкване на функция"
+		},
+		"insertLinkButton": {
+			"title": "Вмъкнете хипервръзка"
 		},
 		"insertCommentButton": {
 			"title": "Вмъкнете коментар"
@@ -235,18 +241,6 @@
 		},
 		"showWorksheetListButton": {
 			"title": "Показване на списък с листове"
-		},
-		"copyWorksheetButton": {
-			"title": "Копирай лист"
-		},
-		"deleteWorksheetButton": {
-			"title": "Изтриване на лист"
-		},
-		"renameWorksheetButton": {
-			"title": "Преименуване на лист"
-		},
-		"moveWorksheetButton": {
-			"title": "Преместване на лист"
 		},
 		"zoomOutButton": {
 			"title": "Намаляване"
@@ -319,6 +313,18 @@
 		},
 		"borderColorButton": {
 			"title": "Цвят на границата"
+		},
+		"copyWorksheetLabel": {
+			"text": "Копирай лист"
+		},
+		"deleteWorksheetLabel": {
+			"text": "Изтриване на лист"
+		},
+		"renameWorksheetLabel": {
+			"text": "Преименуване на лист"
+		},
+		"moveWorksheetLabel": {
+			"text": "Преместване на лист"
 		},
 		"copyLabel": {
 			"text": "Копирай"
@@ -533,16 +539,16 @@
 					"text": "Финансови"
 				},
 				"DateAndTime": {
-					"text": "Дата и час"
+					"text": "DateAndTime"
 				},
 				"MathAndTrig": {
-					"text": "Мат"
+					"text": "MathAndTrig"
 				},
 				"Statistical": {
 					"text": "Статистически"
 				},
 				"LookupAndReference": {
-					"text": "Препратки и масиви"
+					"text": "LookupAndReference"
 				},
 				"Text": {
 					"text": "Текст"

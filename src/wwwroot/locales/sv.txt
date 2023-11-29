@@ -155,6 +155,9 @@
 		"deletePictureButton": {
 			"title": "Ta bort bild"
 		},
+		"deleteLinkButton": {
+			"title": "Ta bort länk"
+		},
 		"mergeCellsButton": {
 			"title": "Sammanfoga celler"
 		},
@@ -193,6 +196,9 @@
 		},
 		"insertFunctionButton": {
 			"title": "Infoga funktion"
+		},
+		"insertLinkButton": {
+			"title": "Infoga hyperlänk"
 		},
 		"insertCommentButton": {
 			"title": "Infoga kommentar"
@@ -235,18 +241,6 @@
 		},
 		"showWorksheetListButton": {
 			"title": "Visa arklista"
-		},
-		"copyWorksheetButton": {
-			"title": "Kopiera ark"
-		},
-		"deleteWorksheetButton": {
-			"title": "Ta bort ark"
-		},
-		"renameWorksheetButton": {
-			"title": "Byt namn på ark"
-		},
-		"moveWorksheetButton": {
-			"title": "Flytta ark"
 		},
 		"zoomOutButton": {
 			"title": "Zooma ut"
@@ -319,6 +313,18 @@
 		},
 		"borderColorButton": {
 			"title": "Gräns ​​färg"
+		},
+		"copyWorksheetLabel": {
+			"text": "Kopiera ark"
+		},
+		"deleteWorksheetLabel": {
+			"text": "Ta bort ark"
+		},
+		"renameWorksheetLabel": {
+			"text": "Byt namn på ark"
+		},
+		"moveWorksheetLabel": {
+			"text": "Flytta ark"
 		},
 		"copyLabel": {
 			"text": "Kopiera"
@@ -533,16 +539,16 @@
 					"text": "Finansiellt"
 				},
 				"DateAndTime": {
-					"text": "Datum och tid"
+					"text": "DateAndTime"
 				},
 				"MathAndTrig": {
-					"text": "Matte"
+					"text": "MathAndTrig"
 				},
 				"Statistical": {
 					"text": "Statistisk"
 				},
 				"LookupAndReference": {
-					"text": "Referenser och arrayer"
+					"text": "LookupAndReference"
 				},
 				"Text": {
 					"text": "Text"

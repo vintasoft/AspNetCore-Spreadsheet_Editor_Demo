@@ -155,6 +155,9 @@
 		"deletePictureButton": {
 			"title": "Smazat obrázek"
 		},
+		"deleteLinkButton": {
+			"title": "Smazat odkaz"
+		},
 		"mergeCellsButton": {
 			"title": "Spojit buňky"
 		},
@@ -193,6 +196,9 @@
 		},
 		"insertFunctionButton": {
 			"title": "Funkce vložení"
+		},
+		"insertLinkButton": {
+			"title": "Vložit hypertextový odkaz"
 		},
 		"insertCommentButton": {
 			"title": "Vložit komentář"
@@ -235,18 +241,6 @@
 		},
 		"showWorksheetListButton": {
 			"title": "Zobrazit seznam listů"
-		},
-		"copyWorksheetButton": {
-			"title": "Kopírovat list"
-		},
-		"deleteWorksheetButton": {
-			"title": "Smazat list"
-		},
-		"renameWorksheetButton": {
-			"title": "Přejmenovat list"
-		},
-		"moveWorksheetButton": {
-			"title": "Přesunout list"
 		},
 		"zoomOutButton": {
 			"title": "Oddálit"
@@ -319,6 +313,18 @@
 		},
 		"borderColorButton": {
 			"title": "Barva ohraničení"
+		},
+		"copyWorksheetLabel": {
+			"text": "Kopírovat list"
+		},
+		"deleteWorksheetLabel": {
+			"text": "Smazat list"
+		},
+		"renameWorksheetLabel": {
+			"text": "Přejmenovat list"
+		},
+		"moveWorksheetLabel": {
+			"text": "Přesunout list"
 		},
 		"copyLabel": {
 			"text": "Kopírovat"
@@ -533,16 +539,16 @@
 					"text": "Finanční"
 				},
 				"DateAndTime": {
-					"text": "Datum a čas"
+					"text": "DateAndTime"
 				},
 				"MathAndTrig": {
-					"text": "Matematika"
+					"text": "MathAndTrig"
 				},
 				"Statistical": {
 					"text": "Statistické"
 				},
 				"LookupAndReference": {
-					"text": "Odkazy a pole"
+					"text": "LookupAndReference"
 				},
 				"Text": {
 					"text": "Text"

@@ -1,0 +1,737 @@
+﻿{
+	"spreadsheetDocumentEditorControl": {
+		"fileLabel": {
+			"text": "Файл"
+		},
+		"homeLabel": {
+			"text": "Үй"
+		},
+		"editLabel": {
+			"text": "Өңдеу"
+		},
+		"insertLabel": {
+			"text": "Кірістіру"
+		},
+		"reviewLabel": {
+			"text": "Қарау"
+		},
+		"createXlsxDocumentButton": {
+			"title": "Жаңа XLSX құжатын жасаңыз"
+		},
+		"uploadXlsxFileButton": {
+			"title": "XLSX файлын жүктеп салыңыз және ашыңыз"
+		},
+		"downloadXlsxFileButton": {
+			"title": "XLSX файлын жүктеп алыңыз"
+		},
+		"exportXlsxToPdfButton": {
+			"title": "XLSX файлын PDF файлына экспорттаңыз"
+		},
+		"showMobileMenuButton": {
+			"title": "Көбірек"
+		},
+		"boldTextButton": {
+			"title": "Қалың мәтін"
+		},
+		"italicTextButton": {
+			"title": "Көлбеу мәтін"
+		},
+		"underlineTextButton": {
+			"title": "Мәтіннің астын сызу"
+		},
+		"strikethroughTextButton": {
+			"title": "Сызық сызылған мәтін"
+		},
+		"fontColorButton": {
+			"title": "Қаріп түсі"
+		},
+		"fillColorButton": {
+			"title": "Түсті толтыру"
+		},
+		"copyStyleButton": {
+			"title": "Стиль суретшісі"
+		},
+		"alignLeftButton": {
+			"title": "Солға туралаңыз"
+		},
+		"alignCenterButton": {
+			"title": "Орталық"
+		},
+		"alignRightButton": {
+			"title": "Оңға туралаңыз"
+		},
+		"topAlignButton": {
+			"title": "Жоғарыдан туралау"
+		},
+		"middleAlignButton": {
+			"title": "Орташа туралау"
+		},
+		"bottomAlignButton": {
+			"title": "Төменге туралау"
+		},
+		"textWrappingButton": {
+			"title": "Мәтінді орау"
+		},
+		"currencyNumberFormatButton": {
+			"title": "Валюта нөмірі пішімі"
+		},
+		"increaseDecimalButton": {
+			"title": "Ондық бөлшекті көбейту"
+		},
+		"decreaseDecimalButton": {
+			"title": "Ондық бөлшекті азайту"
+		},
+		"percentNumberFormatButton": {
+			"title": "Пайыздық сандар пішімі"
+		},
+		"numberFormatDropDown": {
+			"General": {
+				"text": "Жалпы"
+			},
+			"Number": {
+				"text": "Сан"
+			},
+			"Currency": {
+				"text": "Валюта"
+			},
+			"Date": {
+				"text": "Күн"
+			},
+			"Time": {
+				"text": "Уақыт"
+			},
+			"Percentage": {
+				"text": "Пайыз"
+			},
+			"Scientific": {
+				"text": "Ғылыми"
+			},
+			"Text": {
+				"text": "Мәтін"
+			}
+		},
+		"numberFormatButton": {
+			"title": "Сан пішімі"
+		},
+		"showFormulasButton": {
+			"title": "Формулаларды көрсету"
+		},
+		"searchTextButton": {
+			"title": "Мәтінді іздеу"
+		},
+		"undoButton": {
+			"title": "Болдырмау"
+		},
+		"redoButton": {
+			"title": "Қайталау"
+		},
+		"cutContentButton": {
+			"title": "Мазмұнды кесіңіз"
+		},
+		"copyContentButton": {
+			"title": "Мазмұнды көшіру"
+		},
+		"pasteContentButton": {
+			"title": "Мазмұнды қою"
+		},
+		"clearContentButton": {
+			"title": "Мазмұнды тазалау"
+		},
+		"clearFormatButton": {
+			"title": "Пішімді тазалау"
+		},
+		"deleteRowsButton": {
+			"title": "Жолдарды жою"
+		},
+		"deleteColumnsButton": {
+			"title": "Бағандарды жою"
+		},
+		"deleteCellsAndShiftLeftButton": {
+			"title": "Ұяшықтарды жойып, солға жылжытыңыз"
+		},
+		"deleteCellsAndShiftUpButton": {
+			"title": "Ұяшықтарды жойып, жоғары жылжытыңыз"
+		},
+		"deletePictureButton": {
+			"title": "Суретті жою"
+		},
+		"deleteLinkButton": {
+			"title": "Сілтемені жою"
+		},
+		"mergeCellsButton": {
+			"title": "Ұяшықтарды біріктіру"
+		},
+		"unmergeCellsButton": {
+			"title": "Ұяшықтарды біріктіру"
+		},
+		"fillCells": {
+			"title": "Ұяшықтарды толтыру"
+		},
+		"allBordersButton": {
+			"title": "Барлық шекаралар"
+		},
+		"thickOutsideBordersButton": {
+			"title": "Қалың сыртқы шекаралар"
+		},
+		"autoFitRowHeightButton": {
+			"title": "Жол биіктігін автоматты түрде сәйкестендіру"
+		},
+		"autoFitColumnWidthButton": {
+			"title": "Баған енін автоматты сәйкестендіру"
+		},
+		"insertRowsButton": {
+			"title": "Жолдарды кірістіру"
+		},
+		"insertColumnsButton": {
+			"title": "Бағандарды енгізу"
+		},
+		"insertCellsAndShiftRightButton": {
+			"title": "Ұяшықты енгізіп, оңға жылжытыңыз"
+		},
+		"insertCellsAndShiftDownButton": {
+			"title": "Ұяшықты енгізіп, төмен жылжытыңыз"
+		},
+		"insertSheetButton": {
+			"title": "Жұмыс парағын енгізу"
+		},
+		"insertFunctionButton": {
+			"title": "Функцияны енгізу"
+		},
+		"insertLinkButton": {
+			"title": "Сілтемені енгізу"
+		},
+		"insertCommentButton": {
+			"title": "Пікір енгізу"
+		},
+		"insertPictureButton": {
+			"title": "Сурет қосу"
+		},
+		"insertChartButton": {
+			"title": "Диаграмманы кірістіру"
+		},
+		"editCommentButton": {
+			"title": "Пікірді өңдеу"
+		},
+		"deleteCommentButton": {
+			"title": "Пікірді жою"
+		},
+		"previousCommentButton": {
+			"title": "Алдыңғы түсініктеме"
+		},
+		"nextCommentButton": {
+			"title": "Келесі пікір"
+		},
+		"formulaPanel-cancelChangeButton": {
+			"title": "Өзгертуден бас тарту"
+		},
+		"formulaPanel-applyChangeButton": {
+			"title": "Өзгерістерді қолдану"
+		},
+		"formulaPanel-fullScreenButton": {
+			"title": "Толық экран"
+		},
+		"scrollToFirstWorksheetButton": {
+			"title": "Бірінші жұмыс парағына жылжыңыз"
+		},
+		"scrollToLastWorksheetButton": {
+			"title": "Соңғы жұмыс парағына жылжыңыз"
+		},
+		"addWorksheetButton": {
+			"title": "Жұмыс парағын қосыңыз"
+		},
+		"showWorksheetListButton": {
+			"title": "Жұмыс парағы тізімін көрсету"
+		},
+		"zoomOutButton": {
+			"title": "Кішірейту"
+		},
+		"zoomValueLabel": {
+			"text": "100%"
+		},
+		"zoomInButton": {
+			"title": "Үлкейту"
+		},
+		"enUsCurrencyNumberFormatButton": {
+			"title": "$ Ағылшын (АҚШ)"
+		},
+		"enUkCurrencyNumberFormatButton": {
+			"title": "£ Ағылшын (Ұлыбритания)"
+		},
+		"euCurrencyNumberFormatButton": {
+			"title": "€ еуро (€ 123)"
+		},
+		"ruCurrencyNumberFormatButton": {
+			"title": "₽ орысша"
+		},
+		"chCurrencyNumberFormatButton": {
+			"title": "¥ қытай"
+		},
+		"enInCurrencyNumberFormatButton": {
+			"title": "₹ ағылшын (Үндістан)"
+		},
+		"fillCellsDownButton": {
+			"title": "Толтыру"
+		},
+		"fillCellsUpButton": {
+			"title": "Толтыру"
+		},
+		"fillCellsLeftButton": {
+			"title": "Солға толтыру"
+		},
+		"fillCellsRightButton": {
+			"title": "Оңға толтыру"
+		},
+		"noBordersButton": {
+			"title": "Шекара жоқ"
+		},
+		"outsideBordersButton": {
+			"title": "Сыртқы шекаралар"
+		},
+		"bottomBorderButton": {
+			"title": "Төменгі шекара"
+		},
+		"topBorderButton": {
+			"title": "Жоғарғы шекара"
+		},
+		"rightBorderButton": {
+			"title": "Оң жақ шекара"
+		},
+		"leftBorderButton": {
+			"title": "Сол жақ шекара"
+		},
+		"thickBottomBorderButton": {
+			"title": "Қалың төменгі жиек"
+		},
+		"thickLeftBorderButton": {
+			"title": "Қалың сол жақ жиек"
+		},
+		"doubleBottomBorderButton": {
+			"title": "Қос төменгі жиек"
+		},
+		"doubleLeftBorderButton": {
+			"title": "Қос сол жақ жиек"
+		},
+		"borderColorButton": {
+			"title": "Жиек түсі"
+		},
+		"copyWorksheetLabel": {
+			"text": "Жұмыс парағын көшіру"
+		},
+		"deleteWorksheetLabel": {
+			"text": "Жұмыс парағын жою"
+		},
+		"renameWorksheetLabel": {
+			"text": "Жұмыс парағының атын өзгерту"
+		},
+		"moveWorksheetLabel": {
+			"text": "Жұмыс парағын жылжыту"
+		},
+		"copyLabel": {
+			"text": "Көшіру"
+		},
+		"cutLabel": {
+			"text": "Кесу"
+		},
+		"pasteLabel": {
+			"text": "Қою"
+		},
+		"clearContentsLabel": {
+			"text": "Мазмұнды тазалау"
+		},
+		"insertCellAndShiftRightLabel": {
+			"text": "Ұяшықты енгізіп, оңға жылжытыңыз"
+		},
+		"insertCellAndShiftDownLabel": {
+			"text": "Ұяшықты енгізіп, төмен жылжытыңыз"
+		},
+		"insertEntireRowLabel": {
+			"text": "Толық жолды енгізіңіз"
+		},
+		"insertEntireColumnLabel": {
+			"text": "Толық бағанды енгізу"
+		},
+		"deleteImageLabel": {
+			"text": "Жою"
+		},
+		"propertiesLabel": {
+			"text": "Қасиеттер..."
+		},
+		"deleteCellAndShiftLeftLabel": {
+			"text": "Ұяшықты жойып, солға жылжытыңыз"
+		},
+		"deleteCellAndShiftUpLabel": {
+			"text": "Ұяшықты жойып, жоғары жылжытыңыз"
+		},
+		"deleteEntireRowLabel": {
+			"text": "Толық жолды жою"
+		},
+		"deleteEntireColumnLabel": {
+			"text": "Толық бағанды жою"
+		},
+		"insertRowsLabel": {
+			"text": "Жолдарды кірістіру"
+		},
+		"deleteRowsLabel": {
+			"text": "Жолдарды жою"
+		},
+		"insertColumnsLabel": {
+			"text": "Бағандарды кірістіру"
+		},
+		"deleteColumnsLabel": {
+			"text": "Бағандарды жою"
+		},
+		"insertCommentLabel": {
+			"text": "Пікір енгізу..."
+		},
+		"editCommentLabel": {
+			"text": "Пікірді өңдеу..."
+		},
+		"deleteCommentLabel": {
+			"text": "Пікірді жою"
+		},
+		"showHideCommentLabel": {
+			"text": "Пікірді көрсету/жасыру"
+		},
+		"hideCommentLabel": {
+			"text": "Пікірді жасыру"
+		},
+		"hideRowsLabel": {
+			"text": "Жолдарды жасыру"
+		},
+		"unhideRowsLabel": {
+			"text": "Жолдарды көрсету"
+		},
+		"hideColumnsLabel": {
+			"text": "Бағандарды жасыру"
+		},
+		"unhideColumnsLabel": {
+			"text": "Бағандарды көрсету"
+		},
+		"insertCommentDialog": {
+			"authorLabel": {
+				"text": "Авторы:"
+			},
+			"showAuthorLabel": {
+				"text": "Авторды көрсету"
+			},
+			"commentLabel": {
+				"text": "Пікір:"
+			},
+			"okButton": {
+				"value": "ЖАРАЙДЫ МА"
+			},
+			"cancelButton": {
+				"value": "Болдырмау"
+			}
+		},
+		"commentEditDialog": {
+			"authorLabel": {
+				"text": "Авторы:"
+			},
+			"showAuthorLabel": {
+				"text": "Авторды көрсету"
+			},
+			"commentLabel": {
+				"text": "Пікір:"
+			},
+			"okButton": {
+				"value": "ЖАРАЙДЫ МА"
+			},
+			"cancelButton": {
+				"value": "Болдырмау"
+			}
+		},
+		"editChartDialog": {
+			"titleLabel": {
+				"text": "Атауы:"
+			},
+			"okButton": {
+				"value": "ЖАРАЙДЫ МА"
+			},
+			"cancelButton": {
+				"value": "Болдырмау"
+			}
+		},
+		"renameWorksheetDialog": {
+			"nameLabel": {
+				"text": "Аты:"
+			},
+			"okButton": {
+				"value": "ЖАРАЙДЫ МА"
+			},
+			"cancelButton": {
+				"value": "Болдырмау"
+			}
+		},
+		"moveWorksheetDialog": {
+			"moveUpButton": {
+				"value": "Жоғары жылжытыңыз"
+			},
+			"moveDownButton": {
+				"value": "Төмен жылжытыңыз"
+			},
+			"okButton": {
+				"value": "ЖАРАЙДЫ МА"
+			},
+			"cancelButton": {
+				"value": "Болдырмау"
+			}
+		},
+		"findTextDialog": {
+			"findTextLabel": {
+				"text": "Мәтінді табу"
+			},
+			"findWhatLabel": {
+				"text": "Нені табыңыз:"
+			},
+			"withinLabel": {
+				"text": "Ішінде:"
+			},
+			"Sheet": {
+				"text": "Парақ"
+			},
+			"Workbook": {
+				"text": "Жұмыс дәптері"
+			},
+			"searchLabel": {
+				"text": "Іздеу:"
+			},
+			"ByRows": {
+				"text": "Жолдар бойынша"
+			},
+			"ByColumns": {
+				"text": "Бағандар бойынша"
+			},
+			"lookInLabel": {
+				"text": "Көз жіберу:"
+			},
+			"Formulas": {
+				"text": "Формулалар"
+			},
+			"Values": {
+				"text": "Құндылықтар"
+			},
+			"Comments": {
+				"text": "Пікірлер"
+			},
+			"matchCaseLabel": {
+				"text": "Сәйкестік жағдайы"
+			},
+			"matchEntireContentLabel": {
+				"text": "Толық мазмұнды сәйкестендіріңіз"
+			},
+			"findNextButton": {
+				"value": "Келесіні табу"
+			},
+			"closeButton": {
+				"value": "Жабық"
+			}
+		},
+		"selectFunctionDialog": {
+			"categoryLabel": {
+				"text": "Санат:"
+			},
+			"categoryDropDown": {
+				"All": {
+					"text": "Барлық"
+				},
+				"Financial": {
+					"text": "Қаржылық"
+				},
+				"DateAndTime": {
+					"text": "DateAndTime"
+				},
+				"MathAndTrig": {
+					"text": "MathAndTrig"
+				},
+				"Statistical": {
+					"text": "Статистикалық"
+				},
+				"LookupAndReference": {
+					"text": "LookupAndReference"
+				},
+				"Text": {
+					"text": "Мәтін"
+				},
+				"Logical": {
+					"text": "Логикалық"
+				},
+				"Information": {
+					"text": "ақпарат"
+				},
+				"Engineering": {
+					"text": "Инженерлік"
+				}
+			},
+			"selectFunctionLabel": {
+				"text": "Функцияны таңдау:"
+			},
+			"okButton": {
+				"value": "ЖАРАЙДЫ МА"
+			},
+			"cancelButton": {
+				"value": "Болдырмау"
+			}
+		},
+		"setCellNumberFormatDialog": {
+			"General": {
+				"text": "Жалпы"
+			},
+			"Number": {
+				"text": "Сан"
+			},
+			"Currency": {
+				"text": "Валюта"
+			},
+			"Date": {
+				"text": "Күн"
+			},
+			"Time": {
+				"text": "Уақыт"
+			},
+			"Percentage": {
+				"text": "Пайыз"
+			},
+			"Scientific": {
+				"text": "Ғылыми"
+			},
+			"Text": {
+				"text": "Мәтін"
+			},
+			"Custom": {
+				"text": "Арнаулы"
+			},
+			"generalFormatDescriptionLabel": {
+				"text": "Жалпы пішім ұяшықтарының арнайы сан пішімі жоқ."
+			},
+			"numberDecimalPlacesLabel": {
+				"text": "Ондық орындар:"
+			},
+			"useThousandsSeparatorLabel": {
+				"text": "1000 бөлгішті пайдаланыңыз"
+			},
+			"numberNegativeValuesLabel": {
+				"text": "Теріс мәндер:"
+			},
+			"changeTextColorToRedLabel": {
+				"text": "Мәтін түсін қызылға өзгертіңіз"
+			},
+			"hideMinusSignLabel": {
+				"text": "Минус белгісін жасыру"
+			},
+			"currencyDecimalPlacesLabel": {
+				"text": "Ондық орындар:"
+			},
+			"currencySymbolLabel": {
+				"text": "Таңба:"
+			},
+			"percentageDecimalPlacesLabel": {
+				"text": "Ондық орындар:"
+			},
+			"scientificDecimalPlacesLabel": {
+				"text": "Ондық орындар:"
+			},
+			"textFormatDescriptionLabel": {
+				"text": "Мәтін пішімі ұяшықтары ұяшықта сан болса да мәтін ретінде қарастырылады."
+			},
+			"okButton": {
+				"value": "ЖАРАЙДЫ МА"
+			},
+			"cancelButton": {
+				"value": "Болдырмау"
+			}
+		},
+		"insertChartDialog": {
+			"okButton": {
+				"value": "ЖАРАЙДЫ МА"
+			},
+			"cancelButton": {
+				"value": "Болдырмау"
+			}
+		}
+	},
+	"strings": {
+		"vssde-documentIsOpening": "Құжат ашылып жатыр...",
+		"vssde-numberFormat-general": "Жалпы",
+		"vssde-numberFormat-number": "Сан",
+		"vssde-numberFormat-date": "Күн",
+		"vssde-numberFormat-time": "Уақыт",
+		"vssde-numberFormat-currency": "Валюта",
+		"vssde-numberFormat-percentage": "Пайыз",
+		"vssde-numberFormat-scientific": "Ғылыми",
+		"vssde-numberFormat-text": "Мәтін",
+		"vssde-numberFormat-custom": "Арнаулы",
+		"vssde-findTextPanel-sheet": "Парақ",
+		"vssde-findTextPanel-workbook": "Жұмыс дәптері",
+		"vssde-findTextPanel-byRows": "Жолдар бойынша",
+		"vssde-findTextPanel-byColumns": "Бағандар бойынша",
+		"vssde-findTextPanel-formulas": "Формулалар",
+		"vssde-findTextPanel-values": "Құндылықтар",
+		"vssde-findTextPanel-comments": "Пікірлер",
+		"vssde-findTextPanel-textIsNotFound": "'{0}' мәтіні табылмады.",
+		"vssde-selectFunctionPanel-all": "Барлық",
+		"vssde-createXlsxDocument": "Жаңа XLSX құжатын жасаңыз",
+		"vssde-uploadXlsxFile": "XLSX файлын жүктеп салыңыз",
+		"vssde-downloadXlsxFile": "XLSX файлын жүктеп алыңыз",
+		"vssde-exportXlsxToPdf": "XLSX файлын PDF файлына экспорттаңыз",
+		"vssde-fileSizeExceedsLimit": "Жүктеп салынған файлдың өлшемі максималды өлшемнен ({0} байт) асады.",
+		"vssde-createXlsxDocumentConfirmation": "Жаңа жұмыс кітабын жасағыңыз келе ме?",
+		"vssde-insertCommentDialog-title": "Пікір енгізу",
+		"vssde-dialog-okButton": "ЖАРАЙДЫ МА",
+		"vssde-dialog-cancelButton": "Болдырмау",
+		"vssde-editCommentDialog-title": "Пікірді өңдеу",
+		"vssde-editChartDialog-title": "Диаграмманы өңдеу",
+		"vssde-editChartPropertiesPanel-spreadsheetEditorDoesNotHaveFocusedChart": "Электрондық кесте өңдегішінде фокусталған диаграмма жоқ.",
+		"vssde-editChartPropertiesPanel-selectedDrawingIsNotChart": "Таңдалған сызба диаграмма емес.",
+		"vssde-renameWorksheetDialog-title": "Жұмыс парағының атын өзгерту",
+		"vssde-moveWorksheetDialog-title": "Жұмыс парағын жылжыту",
+		"vssde-findTextDialog-title": "Мәтінді табу",
+		"vssde-findTextDialog-findNextButton": "Келесіні табу",
+		"vssde-dialog-closeButton": "Жабық",
+		"vssde-selectFunctionDialog-title": "Кірістіру функциясы",
+		"vssde-cellNumberFormatDialog-title": "Ұяшық пішімі",
+		"vssde-insertChartDialog-title": "Диаграмманы кірістіру",
+		"vssde-insertChartPanel-chartType-column": "Баған",
+		"vssde-insertChartPanel-chartType-line": "Түзу",
+		"vssde-insertChartPanel-chartType-pie": "Пирог",
+		"vssde-insertChartPanel-chartType-bar": "Бар",
+		"vssde-insertChartPanel-chartType-area": "Аудан",
+		"vssde-insertChartPanel-chartSubtype-clusteredColumn": "Кластерленген баған",
+		"vssde-insertChartPanel-chartSubtype-stackedColumn": "Біріктірілген баған",
+		"vssde-insertChartPanel-chartSubtype-100%StackedColumn": "100% жинақталған баған",
+		"vssde-insertChartPanel-chartSubtype-3DClusteredColumn": "3D кластерленген баған",
+		"vssde-insertChartPanel-chartSubtype-3DStackedColumn": "3D жинақталған баған",
+		"vssde-insertChartPanel-chartSubtype-3D100%StackedColumn": "3D 100% жинақталған баған",
+		"vssde-insertChartPanel-chartSubtype-line": "Түзу",
+		"vssde-insertChartPanel-chartSubtype-stackedLine": "Біріктірілген сызық",
+		"vssde-insertChartPanel-chartSubtype-100%StackedLine": "100% жинақталған сызық",
+		"vssde-insertChartPanel-chartSubtype-lineWithMarkers": "Маркерлері бар сызық",
+		"vssde-insertChartPanel-chartSubtype-stackedLineWithMarkers": "Маркерлері бар жинақталған сызық",
+		"vssde-insertChartPanel-chartSubtype-100%StackedLineWithMar": "Маркерлері бар 100% жинақталған сызық",
+		"vssde-insertChartPanel-chartSubtype-curvedLine": "Қисық сызық",
+		"vssde-insertChartPanel-chartSubtype-stackedCurvedLine": "Біріктірілген қисық сызық",
+		"vssde-insertChartPanel-chartSubtype-100%StackedCurvedLine": "100% жинақталған қисық сызық",
+		"vssde-insertChartPanel-chartSubtype-curvedLineWithMarkers": "Маркерлері бар қисық сызық",
+		"vssde-insertChartPanel-chartSubtype-stackedCurvLineWithMark": "Маркерлері бар жинақталған қисық сызық",
+		"vssde-insertChartPanel-chartSubtype-100%StackedCurvLineMark": "Маркерлері бар 100% жинақталған қисық сызық",
+		"vssde-insertChartPanel-chartSubtype-pie": "Пирог",
+		"vssde-insertChartPanel-chartSubtype-pieExplosion": "Пирог (жарылыс)",
+		"vssde-insertChartPanel-chartSubtype-doughnut": "Бәліш",
+		"vssde-insertChartPanel-chartSubtype-clusteredBar": "Кластерленген жолақ",
+		"vssde-insertChartPanel-chartSubtype-stackedBar": "Біріктірілген жолақ",
+		"vssde-insertChartPanel-chartSubtype-100%StackedBar": "100% жинақталған жолақ",
+		"vssde-insertChartPanel-chartSubtype-area": "Аудан",
+		"vssde-insertChartPanel-chartSubtype-stackedArea": "Жинақталған аумақ",
+		"vssde-insertChartPanel-chartSubtype-100%StackedArea": "100% жинақталған аумақ",
+		"vssde-insertChartPanel-fileArg0IsNotFound": "'{0}' файлы табылмады.",
+		"vssde-insertChartPanel-supportedChartTypesAreNotFound": "Қолдау көрсетілетін диаграмма түрлері табылмады.",
+		"vssde-insertChartPanel-notSupportedChartType": "Диаграмма түріне қолдау көрсетілмейді.",
+		"vssde-insertChartPanel-supportedChartSubtypesAreNotFound": "Қолдау көрсетілетін диаграмма ішкі түрлері табылмады.",
+		"vssde-insertChartPanel-notSupportedChartSubtype": "Диаграмманың ішкі түріне қолдау көрсетілмейді.",
+		"vssde-insertChartPanel-chartTemplateContainsTwoIdenticalNamesForChartSubtypes": "Диаграмма үлгісінде диаграмма ішкі түрлері үшін 2 бірдей атау бар.",
+		"vssde-insertChartPanel-chartTemplateContainsTwoIdenticalNamesForChartTypes": "Диаграмма үлгісінде диаграмма түрлері үшін 2 бірдей атау бар.",
+		"vssde-insertChartPanel-pleaseSpecifyCellsWhichContainTheChartDataIncludeNamesForRowsAndColumns": "Диаграмма деректерін қамтитын ұяшықтарды көрсетіңіз (жолдар мен бағандардың атауларын қосыңыз).",
+		"vssde-insertChartPanel-chartSubtypeArg0HasMultipleDeclarationsOnDifferentWorksheets": "'{0}' диаграмма ішкі түрінің әртүрлі жұмыс парақтарында бірнеше мәлімдемесі бар.",
+		"vssde-insertChartPanel-sheetArg0IsNotFound": "'{0}' парағы табылмады."
+	}
+}

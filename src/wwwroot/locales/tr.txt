@@ -155,6 +155,9 @@
 		"deletePictureButton": {
 			"title": "resmi sil"
 		},
+		"deleteLinkButton": {
+			"title": "Bağlantıyı sil"
+		},
 		"mergeCellsButton": {
 			"title": "Hücreleri birleştir"
 		},
@@ -193,6 +196,9 @@
 		},
 		"insertFunctionButton": {
 			"title": "İşlev ekle"
+		},
+		"insertLinkButton": {
+			"title": "Köprü ekle"
 		},
 		"insertCommentButton": {
 			"title": "Yorum ekle"
@@ -235,18 +241,6 @@
 		},
 		"showWorksheetListButton": {
 			"title": "Sayfa listesini göster"
-		},
-		"copyWorksheetButton": {
-			"title": "Sayfayı Kopyala"
-		},
-		"deleteWorksheetButton": {
-			"title": "Sayfayı Sil"
-		},
-		"renameWorksheetButton": {
-			"title": "Sayfayı Yeniden Adlandır"
-		},
-		"moveWorksheetButton": {
-			"title": "Sayfayı Taşı"
 		},
 		"zoomOutButton": {
 			"title": "Uzaklaştır"
@@ -319,6 +313,18 @@
 		},
 		"borderColorButton": {
 			"title": "Sınır rengi"
+		},
+		"copyWorksheetLabel": {
+			"text": "Sayfayı Kopyala"
+		},
+		"deleteWorksheetLabel": {
+			"text": "Sayfayı Sil"
+		},
+		"renameWorksheetLabel": {
+			"text": "Sayfayı Yeniden Adlandır"
+		},
+		"moveWorksheetLabel": {
+			"text": "Sayfayı Taşı"
 		},
 		"copyLabel": {
 			"text": "Kopyala"
@@ -533,16 +539,16 @@
 					"text": "Finansal"
 				},
 				"DateAndTime": {
-					"text": "Tarih ve saat"
+					"text": "DateAndTime"
 				},
 				"MathAndTrig": {
-					"text": "Matematik"
+					"text": "MathAndTrig"
 				},
 				"Statistical": {
 					"text": "İstatistiksel"
 				},
 				"LookupAndReference": {
-					"text": "Referanslar ve diziler"
+					"text": "LookupAndReference"
 				},
 				"Text": {
 					"text": "Metin"

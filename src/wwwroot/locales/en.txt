@@ -155,6 +155,9 @@
 		"deletePictureButton": {
 			"title": "Delete picture"
 		},
+		"deleteLinkButton": {
+			"title": "Delete link"
+		},
 		"mergeCellsButton": {
 			"title": "Merge cells"
 		},
@@ -193,6 +196,9 @@
 		},
 		"insertFunctionButton": {
 			"title": "Insert function"
+		},
+		"insertLinkButton": {
+			"title": "Insert link"
 		},
 		"insertCommentButton": {
 			"title": "Insert comment"
@@ -235,18 +241,6 @@
 		},
 		"showWorksheetListButton": {
 			"title": "Show worksheet list"
-		},
-		"copyWorksheetButton": {
-			"title": "Copy worksheet"
-		},
-		"deleteWorksheetButton": {
-			"title": "Delete worksheet"
-		},
-		"renameWorksheetButton": {
-			"title": "Rename worksheet"
-		},
-		"moveWorksheetButton": {
-			"title": "Move worksheet"
 		},
 		"zoomOutButton": {
 			"title": "Zoom out"
@@ -319,6 +313,18 @@
 		},
 		"borderColorButton": {
 			"title": "Border color"
+		},
+		"copyWorksheetLabel": {
+			"text": "Copy worksheet"
+		},
+		"deleteWorksheetLabel": {
+			"text": "Delete worksheet"
+		},
+		"renameWorksheetLabel": {
+			"text": "Rename worksheet"
+		},
+		"moveWorksheetLabel": {
+			"text": "Move worksheet"
 		},
 		"copyLabel": {
 			"text": "Copy"

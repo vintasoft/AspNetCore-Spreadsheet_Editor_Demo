@@ -155,6 +155,9 @@
 		"deletePictureButton": {
 			"title": "画像の削除"
 		},
+		"deleteLinkButton": {
+			"title": "リンクを削除"
+		},
 		"mergeCellsButton": {
 			"title": "セルを結合します"
 		},
@@ -193,6 +196,9 @@
 		},
 		"insertFunctionButton": {
 			"title": "関数の挿入"
+		},
+		"insertLinkButton": {
+			"title": "ハイパーリンクを挿入"
 		},
 		"insertCommentButton": {
 			"title": "コメントを挿入"
@@ -235,18 +241,6 @@
 		},
 		"showWorksheetListButton": {
 			"title": "シートリストを表示"
-		},
-		"copyWorksheetButton": {
-			"title": "シートをコピー"
-		},
-		"deleteWorksheetButton": {
-			"title": "シートを削除"
-		},
-		"renameWorksheetButton": {
-			"title": "シートの名前を変更"
-		},
-		"moveWorksheetButton": {
-			"title": "シートを移動"
 		},
 		"zoomOutButton": {
 			"title": "ズームアウト"
@@ -319,6 +313,18 @@
 		},
 		"borderColorButton": {
 			"title": "ボーダの色"
+		},
+		"copyWorksheetLabel": {
+			"text": "シートをコピー"
+		},
+		"deleteWorksheetLabel": {
+			"text": "シートを削除"
+		},
+		"renameWorksheetLabel": {
+			"text": "シートの名前を変更"
+		},
+		"moveWorksheetLabel": {
+			"text": "シートを移動"
 		},
 		"copyLabel": {
 			"text": "コピー"
@@ -533,16 +539,16 @@
 					"text": "財務"
 				},
 				"DateAndTime": {
-					"text": "日付と時刻"
+					"text": "DateAndTime"
 				},
 				"MathAndTrig": {
-					"text": "数学"
+					"text": "MathAndTrig"
 				},
 				"Statistical": {
 					"text": "統計"
 				},
 				"LookupAndReference": {
-					"text": "参照と配列"
+					"text": "LookupAndReference"
 				},
 				"Text": {
 					"text": "テキスト"

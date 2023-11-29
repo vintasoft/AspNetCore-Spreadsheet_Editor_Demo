@@ -155,6 +155,9 @@
 		"deletePictureButton": {
 			"title": "Susa isithombe"
 		},
+		"deleteLinkButton": {
+			"title": "Susa isixhumanisi"
+		},
 		"mergeCellsButton": {
 			"title": "Hlanganisa amaseli"
 		},
@@ -193,6 +196,9 @@
 		},
 		"insertFunctionButton": {
 			"title": "Faka umsebenzi"
+		},
+		"insertLinkButton": {
+			"title": "Faka isixhumanisi"
 		},
 		"insertCommentButton": {
 			"title": "Faka amazwana"
@@ -235,18 +241,6 @@
 		},
 		"showWorksheetListButton": {
 			"title": "Bonisa uhlu lwamakhasi okusebenza"
-		},
-		"copyWorksheetButton": {
-			"title": "Kopisha ishidi lokusebenza"
-		},
-		"deleteWorksheetButton": {
-			"title": "Susa ishidi lokusebenza"
-		},
-		"renameWorksheetButton": {
-			"title": "Qamba kabusha ishidi lokusebenza"
-		},
-		"moveWorksheetButton": {
-			"title": "Hambisa ishidi lokusebenzela"
 		},
 		"zoomOutButton": {
 			"title": "Hlehlisa isithombe"
@@ -319,6 +313,18 @@
 		},
 		"borderColorButton": {
 			"title": "Umbala womngcele"
+		},
+		"copyWorksheetLabel": {
+			"text": "Kopisha ishidi lokusebenza"
+		},
+		"deleteWorksheetLabel": {
+			"text": "Susa ishidi lokusebenza"
+		},
+		"renameWorksheetLabel": {
+			"text": "Qamba kabusha ishidi lokusebenza"
+		},
+		"moveWorksheetLabel": {
+			"text": "Hambisa ishidi lokusebenzela"
 		},
 		"copyLabel": {
 			"text": "Kopisha"
@@ -533,10 +539,10 @@
 					"text": "Ezezimali"
 				},
 				"DateAndTime": {
-					"text": "UsukuNesikhathi"
+					"text": "DateAndTime"
 				},
 				"MathAndTrig": {
-					"text": "I-MathAndTrig"
+					"text": "MathAndTrig"
 				},
 				"Statistical": {
 					"text": "Ngokwezibalo"

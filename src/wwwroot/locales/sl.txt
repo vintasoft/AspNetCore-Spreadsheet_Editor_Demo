@@ -155,6 +155,9 @@
 		"deletePictureButton": {
 			"title": "Izbriši sliko"
 		},
+		"deleteLinkButton": {
+			"title": "Izbriši povezavo"
+		},
 		"mergeCellsButton": {
 			"title": "Spoji celice"
 		},
@@ -193,6 +196,9 @@
 		},
 		"insertFunctionButton": {
 			"title": "Vstavi funkcijo"
+		},
+		"insertLinkButton": {
+			"title": "Vstavi povezavo"
 		},
 		"insertCommentButton": {
 			"title": "Vstavi komentar"
@@ -235,18 +241,6 @@
 		},
 		"showWorksheetListButton": {
 			"title": "Pokaži seznam delovnih listov"
-		},
-		"copyWorksheetButton": {
-			"title": "Kopiraj delovni list"
-		},
-		"deleteWorksheetButton": {
-			"title": "Izbriši delovni list"
-		},
-		"renameWorksheetButton": {
-			"title": "Preimenuj delovni list"
-		},
-		"moveWorksheetButton": {
-			"title": "Premakni delovni list"
 		},
 		"zoomOutButton": {
 			"title": "Pomanjšanje"
@@ -319,6 +313,18 @@
 		},
 		"borderColorButton": {
 			"title": "Barva obrobe"
+		},
+		"copyWorksheetLabel": {
+			"text": "Kopiraj delovni list"
+		},
+		"deleteWorksheetLabel": {
+			"text": "Izbriši delovni list"
+		},
+		"renameWorksheetLabel": {
+			"text": "Preimenuj delovni list"
+		},
+		"moveWorksheetLabel": {
+			"text": "Premakni delovni list"
 		},
 		"copyLabel": {
 			"text": "Kopirati"
@@ -533,16 +539,16 @@
 					"text": "Finančna"
 				},
 				"DateAndTime": {
-					"text": "Datum in čas"
+					"text": "DateAndTime"
 				},
 				"MathAndTrig": {
-					"text": "Matematika in trigonometrija"
+					"text": "MathAndTrig"
 				},
 				"Statistical": {
 					"text": "Statistični"
 				},
 				"LookupAndReference": {
-					"text": "Iskanje in referenca"
+					"text": "LookupAndReference"
 				},
 				"Text": {
 					"text": "Besedilo"

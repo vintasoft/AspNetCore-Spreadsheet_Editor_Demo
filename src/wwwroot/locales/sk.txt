@@ -155,6 +155,9 @@
 		"deletePictureButton": {
 			"title": "Odstrániť obrázok"
 		},
+		"deleteLinkButton": {
+			"title": "Odstrániť odkaz"
+		},
 		"mergeCellsButton": {
 			"title": "Zlúčiť bunky"
 		},
@@ -193,6 +196,9 @@
 		},
 		"insertFunctionButton": {
 			"title": "Vložiť funkciu"
+		},
+		"insertLinkButton": {
+			"title": "Vložiť odkaz"
 		},
 		"insertCommentButton": {
 			"title": "Vložte komentár"
@@ -235,18 +241,6 @@
 		},
 		"showWorksheetListButton": {
 			"title": "Zobraziť zoznam pracovných hárkov"
-		},
-		"copyWorksheetButton": {
-			"title": "Skopírujte pracovný list"
-		},
-		"deleteWorksheetButton": {
-			"title": "Odstrániť pracovný hárok"
-		},
-		"renameWorksheetButton": {
-			"title": "Premenovať pracovný hárok"
-		},
-		"moveWorksheetButton": {
-			"title": "Presunúť pracovný hárok"
 		},
 		"zoomOutButton": {
 			"title": "Oddialiť"
@@ -319,6 +313,18 @@
 		},
 		"borderColorButton": {
 			"title": "Farba okraja"
+		},
+		"copyWorksheetLabel": {
+			"text": "Skopírujte pracovný list"
+		},
+		"deleteWorksheetLabel": {
+			"text": "Odstrániť pracovný hárok"
+		},
+		"renameWorksheetLabel": {
+			"text": "Premenovať pracovný hárok"
+		},
+		"moveWorksheetLabel": {
+			"text": "Presunúť pracovný hárok"
 		},
 		"copyLabel": {
 			"text": "Kopírovať"
@@ -533,16 +539,16 @@
 					"text": "Finančné"
 				},
 				"DateAndTime": {
-					"text": "Dátum a čas"
+					"text": "DateAndTime"
 				},
 				"MathAndTrig": {
-					"text": "Matematika a trigonometria"
+					"text": "MathAndTrig"
 				},
 				"Statistical": {
 					"text": "Štatistické"
 				},
 				"LookupAndReference": {
-					"text": "Vyhľadávanie a referencie"
+					"text": "LookupAndReference"
 				},
 				"Text": {
 					"text": "Text"

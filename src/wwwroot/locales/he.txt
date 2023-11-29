@@ -155,6 +155,9 @@
 		"deletePictureButton": {
 			"title": "מחק תמונה"
 		},
+		"deleteLinkButton": {
+			"title": "מחק קישור"
+		},
 		"mergeCellsButton": {
 			"title": "מיזוג תאים"
 		},
@@ -193,6 +196,9 @@
 		},
 		"insertFunctionButton": {
 			"title": "הכנס פונקציה"
+		},
+		"insertLinkButton": {
+			"title": "הכנס היפר-קישור"
 		},
 		"insertCommentButton": {
 			"title": "הוסף תגובה"
@@ -235,18 +241,6 @@
 		},
 		"showWorksheetListButton": {
 			"title": "הצג רשימת גיליונות"
-		},
-		"copyWorksheetButton": {
-			"title": "העתקת גיליון"
-		},
-		"deleteWorksheetButton": {
-			"title": "מחק גיליון"
-		},
-		"renameWorksheetButton": {
-			"title": "שנה שם גיליון"
-		},
-		"moveWorksheetButton": {
-			"title": "הזז גיליון"
 		},
 		"zoomOutButton": {
 			"title": "התקרבות"
@@ -319,6 +313,18 @@
 		},
 		"borderColorButton": {
 			"title": "צבע גבול"
+		},
+		"copyWorksheetLabel": {
+			"text": "העתקת גיליון"
+		},
+		"deleteWorksheetLabel": {
+			"text": "מחק גיליון"
+		},
+		"renameWorksheetLabel": {
+			"text": "שנה שם גיליון"
+		},
+		"moveWorksheetLabel": {
+			"text": "הזז גיליון"
 		},
 		"copyLabel": {
 			"text": "העתק"
@@ -533,16 +539,16 @@
 					"text": "פיננסי"
 				},
 				"DateAndTime": {
-					"text": "תאריך ושעה"
+					"text": "DateAndTime"
 				},
 				"MathAndTrig": {
-					"text": "מתמטיקה"
+					"text": "MathAndTrig"
 				},
 				"Statistical": {
 					"text": "סטטיסטיקה"
 				},
 				"LookupAndReference": {
-					"text": "הפניות ומערכים"
+					"text": "LookupAndReference"
 				},
 				"Text": {
 					"text": "טקסט"

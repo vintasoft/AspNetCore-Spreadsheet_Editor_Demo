@@ -1,0 +1,737 @@
+﻿{
+	"spreadsheetDocumentEditorControl": {
+		"fileLabel": {
+			"text": "ფაილი"
+		},
+		"homeLabel": {
+			"text": "მთავარი"
+		},
+		"editLabel": {
+			"text": "რედაქტირება"
+		},
+		"insertLabel": {
+			"text": "ჩასმა"
+		},
+		"reviewLabel": {
+			"text": "Მიმოხილვა"
+		},
+		"createXlsxDocumentButton": {
+			"title": "შექმენით ახალი XLSX დოკუმენტი"
+		},
+		"uploadXlsxFileButton": {
+			"title": "ატვირთეთ და გახსენით XLSX ფაილი"
+		},
+		"downloadXlsxFileButton": {
+			"title": "ჩამოტვირთეთ XLSX ფაილი"
+		},
+		"exportXlsxToPdfButton": {
+			"title": "XLSX-ის ექსპორტი PDF-ში"
+		},
+		"showMobileMenuButton": {
+			"title": "მეტი"
+		},
+		"boldTextButton": {
+			"title": "თამამი ტექსტი"
+		},
+		"italicTextButton": {
+			"title": "დახრილი ტექსტი"
+		},
+		"underlineTextButton": {
+			"title": "ხაზი გაუსვით ტექსტს"
+		},
+		"strikethroughTextButton": {
+			"title": "გადახაზული ტექსტი"
+		},
+		"fontColorButton": {
+			"title": "Შრიფტის ფერი"
+		},
+		"fillColorButton": {
+			"title": "შეავსეთ ფერი"
+		},
+		"copyStyleButton": {
+			"title": "სტილის მხატვარი"
+		},
+		"alignLeftButton": {
+			"title": "გასწორება მარცხნივ"
+		},
+		"alignCenterButton": {
+			"title": "ცენტრი"
+		},
+		"alignRightButton": {
+			"title": "გასწორება მარჯვნივ"
+		},
+		"topAlignButton": {
+			"title": "ზედა გასწორება"
+		},
+		"middleAlignButton": {
+			"title": "შუა გასწორება"
+		},
+		"bottomAlignButton": {
+			"title": "ქვედა გასწორება"
+		},
+		"textWrappingButton": {
+			"title": "ტექსტის შეფუთვა"
+		},
+		"currencyNumberFormatButton": {
+			"title": "ვალუტის ნომრის ფორმატი"
+		},
+		"increaseDecimalButton": {
+			"title": "ათწილადის გაზრდა"
+		},
+		"decreaseDecimalButton": {
+			"title": "ათწილადის შემცირება"
+		},
+		"percentNumberFormatButton": {
+			"title": "პროცენტული რიცხვის ფორმატი"
+		},
+		"numberFormatDropDown": {
+			"General": {
+				"text": "გენერალი"
+			},
+			"Number": {
+				"text": "ნომერი"
+			},
+			"Currency": {
+				"text": "ვალუტა"
+			},
+			"Date": {
+				"text": "თარიღი"
+			},
+			"Time": {
+				"text": "დრო"
+			},
+			"Percentage": {
+				"text": "პროცენტი"
+			},
+			"Scientific": {
+				"text": "Სამეცნიერო"
+			},
+			"Text": {
+				"text": "ტექსტი"
+			}
+		},
+		"numberFormatButton": {
+			"title": "ნომრის ფორმატი"
+		},
+		"showFormulasButton": {
+			"title": "ფორმულების ჩვენება"
+		},
+		"searchTextButton": {
+			"title": "ტექსტის ძიება"
+		},
+		"undoButton": {
+			"title": "გაუქმება"
+		},
+		"redoButton": {
+			"title": "ხელახლა"
+		},
+		"cutContentButton": {
+			"title": "შინაარსის ამოჭრა"
+		},
+		"copyContentButton": {
+			"title": "დააკოპირეთ შინაარსი"
+		},
+		"pasteContentButton": {
+			"title": "ჩასვით შინაარსი"
+		},
+		"clearContentButton": {
+			"title": "წმინდა შინაარსი"
+		},
+		"clearFormatButton": {
+			"title": "ფორმატის გასუფთავება"
+		},
+		"deleteRowsButton": {
+			"title": "რიგების წაშლა"
+		},
+		"deleteColumnsButton": {
+			"title": "სვეტების წაშლა"
+		},
+		"deleteCellsAndShiftLeftButton": {
+			"title": "წაშალეთ უჯრედები და გადაიტანეთ მარცხნივ"
+		},
+		"deleteCellsAndShiftUpButton": {
+			"title": "წაშალეთ უჯრედები და გადაიტანეთ ზემოთ"
+		},
+		"deletePictureButton": {
+			"title": "სურათის წაშლა"
+		},
+		"deleteLinkButton": {
+			"title": "ლინკის წაშლა"
+		},
+		"mergeCellsButton": {
+			"title": "უჯრედების შერწყმა"
+		},
+		"unmergeCellsButton": {
+			"title": "უჯრედების გაერთიანება"
+		},
+		"fillCells": {
+			"title": "უჯრედების შევსება"
+		},
+		"allBordersButton": {
+			"title": "ყველა საზღვარი"
+		},
+		"thickOutsideBordersButton": {
+			"title": "სქელი გარე საზღვრები"
+		},
+		"autoFitRowHeightButton": {
+			"title": "მწკრივის სიმაღლის ავტომატური მორგება"
+		},
+		"autoFitColumnWidthButton": {
+			"title": "სვეტის სიგანის ავტომატური მორგება"
+		},
+		"insertRowsButton": {
+			"title": "რიგების ჩასმა"
+		},
+		"insertColumnsButton": {
+			"title": "სვეტების ჩასმა"
+		},
+		"insertCellsAndShiftRightButton": {
+			"title": "უჯრედის ჩასმა და მარჯვნივ გადაწევა"
+		},
+		"insertCellsAndShiftDownButton": {
+			"title": "ჩადეთ უჯრედი და გადაიტანეთ ქვემოთ"
+		},
+		"insertSheetButton": {
+			"title": "სამუშაო ფურცლის ჩასმა"
+		},
+		"insertFunctionButton": {
+			"title": "ჩასმა ფუნქცია"
+		},
+		"insertLinkButton": {
+			"title": "ლინკის ჩასმა"
+		},
+		"insertCommentButton": {
+			"title": "კომენტარის ჩასმა"
+		},
+		"insertPictureButton": {
+			"title": "სურათის დამატება"
+		},
+		"insertChartButton": {
+			"title": "ჩასმა დიაგრამა"
+		},
+		"editCommentButton": {
+			"title": "კომენტარის რედაქტირება"
+		},
+		"deleteCommentButton": {
+			"title": "კომენტარის წაშლა"
+		},
+		"previousCommentButton": {
+			"title": "წინა კომენტარი"
+		},
+		"nextCommentButton": {
+			"title": "შემდეგი კომენტარი"
+		},
+		"formulaPanel-cancelChangeButton": {
+			"title": "ცვლილების გაუქმება"
+		},
+		"formulaPanel-applyChangeButton": {
+			"title": "მიმართეთ ცვლილებას"
+		},
+		"formulaPanel-fullScreenButton": {
+			"title": "Მთლიანი ეკრანი"
+		},
+		"scrollToFirstWorksheetButton": {
+			"title": "გადადით პირველ სამუშაო ფურცელზე"
+		},
+		"scrollToLastWorksheetButton": {
+			"title": "გადადით ბოლო სამუშაო ფურცელზე"
+		},
+		"addWorksheetButton": {
+			"title": "დაამატეთ სამუშაო ფურცელი"
+		},
+		"showWorksheetListButton": {
+			"title": "სამუშაო ფურცლების სიის ჩვენება"
+		},
+		"zoomOutButton": {
+			"title": "მასშტაბირება"
+		},
+		"zoomValueLabel": {
+			"text": "100%"
+		},
+		"zoomInButton": {
+			"title": "Მიახლოება"
+		},
+		"enUsCurrencyNumberFormatButton": {
+			"title": "$ ინგლისური (აშშ)"
+		},
+		"enUkCurrencyNumberFormatButton": {
+			"title": "£ ინგლისური (გაერთიანებული სამეფო)"
+		},
+		"euCurrencyNumberFormatButton": {
+			"title": "ევრო ევრო (123 ევრო)"
+		},
+		"ruCurrencyNumberFormatButton": {
+			"title": "₽ რუსული"
+		},
+		"chCurrencyNumberFormatButton": {
+			"title": "¥ ჩინური"
+		},
+		"enInCurrencyNumberFormatButton": {
+			"title": "₹ ინგლისური (ინდოეთი)"
+		},
+		"fillCellsDownButton": {
+			"title": "შეავსეთ"
+		},
+		"fillCellsUpButton": {
+			"title": "Ავსება"
+		},
+		"fillCellsLeftButton": {
+			"title": "შეავსეთ მარცხენა"
+		},
+		"fillCellsRightButton": {
+			"title": "შეავსეთ მარჯვნივ"
+		},
+		"noBordersButton": {
+			"title": "საზღვრები არ არის"
+		},
+		"outsideBordersButton": {
+			"title": "საზღვრებს გარეთ"
+		},
+		"bottomBorderButton": {
+			"title": "ქვედა საზღვარი"
+		},
+		"topBorderButton": {
+			"title": "ზედა საზღვარი"
+		},
+		"rightBorderButton": {
+			"title": "მარჯვენა საზღვარი"
+		},
+		"leftBorderButton": {
+			"title": "მარცხენა საზღვარი"
+		},
+		"thickBottomBorderButton": {
+			"title": "სქელი ქვედა საზღვარი"
+		},
+		"thickLeftBorderButton": {
+			"title": "სქელი მარცხენა საზღვარი"
+		},
+		"doubleBottomBorderButton": {
+			"title": "ორმაგი ქვედა საზღვარი"
+		},
+		"doubleLeftBorderButton": {
+			"title": "ორმაგი მარცხენა საზღვარი"
+		},
+		"borderColorButton": {
+			"title": "საზღვრის ფერი"
+		},
+		"copyWorksheetLabel": {
+			"text": "დააკოპირეთ სამუშაო ფურცელი"
+		},
+		"deleteWorksheetLabel": {
+			"text": "სამუშაო ფურცლის წაშლა"
+		},
+		"renameWorksheetLabel": {
+			"text": "გადარქმევა სამუშაო ფურცელი"
+		},
+		"moveWorksheetLabel": {
+			"text": "სამუშაო ფურცლის გადატანა"
+		},
+		"copyLabel": {
+			"text": "კოპირება"
+		},
+		"cutLabel": {
+			"text": "გაჭრა"
+		},
+		"pasteLabel": {
+			"text": "პასტა"
+		},
+		"clearContentsLabel": {
+			"text": "შიგთავსის გასუფთავება"
+		},
+		"insertCellAndShiftRightLabel": {
+			"text": "უჯრედის ჩასმა და მარჯვნივ გადაწევა"
+		},
+		"insertCellAndShiftDownLabel": {
+			"text": "ჩადეთ უჯრედი და გადაიტანეთ ქვემოთ"
+		},
+		"insertEntireRowLabel": {
+			"text": "ჩადეთ მთელი რიგი"
+		},
+		"insertEntireColumnLabel": {
+			"text": "ჩადეთ მთელი სვეტი"
+		},
+		"deleteImageLabel": {
+			"text": "წაშლა"
+		},
+		"propertiesLabel": {
+			"text": "Თვისებები..."
+		},
+		"deleteCellAndShiftLeftLabel": {
+			"text": "უჯრედის წაშლა და მარცხნივ გადატანა"
+		},
+		"deleteCellAndShiftUpLabel": {
+			"text": "წაშალეთ უჯრედი და გადაიტანეთ ზემოთ"
+		},
+		"deleteEntireRowLabel": {
+			"text": "წაშალეთ მთელი რიგი"
+		},
+		"deleteEntireColumnLabel": {
+			"text": "წაშალეთ მთელი სვეტი"
+		},
+		"insertRowsLabel": {
+			"text": "რიგების ჩასმა"
+		},
+		"deleteRowsLabel": {
+			"text": "რიგების წაშლა"
+		},
+		"insertColumnsLabel": {
+			"text": "სვეტების ჩასმა"
+		},
+		"deleteColumnsLabel": {
+			"text": "სვეტების წაშლა"
+		},
+		"insertCommentLabel": {
+			"text": "კომენტარის ჩასმა..."
+		},
+		"editCommentLabel": {
+			"text": "კომენტარის რედაქტირება..."
+		},
+		"deleteCommentLabel": {
+			"text": "კომენტარის წაშლა"
+		},
+		"showHideCommentLabel": {
+			"text": "კომენტარის ჩვენება/დამალვა"
+		},
+		"hideCommentLabel": {
+			"text": "კომენტარის დამალვა"
+		},
+		"hideRowsLabel": {
+			"text": "რიგების დამალვა"
+		},
+		"unhideRowsLabel": {
+			"text": "რიგების დამალვა"
+		},
+		"hideColumnsLabel": {
+			"text": "სვეტების დამალვა"
+		},
+		"unhideColumnsLabel": {
+			"text": "სვეტების დამალვა"
+		},
+		"insertCommentDialog": {
+			"authorLabel": {
+				"text": "ავტორი:"
+			},
+			"showAuthorLabel": {
+				"text": "ავტორის ჩვენება"
+			},
+			"commentLabel": {
+				"text": "კომენტარი:"
+			},
+			"okButton": {
+				"value": "კარგი"
+			},
+			"cancelButton": {
+				"value": "გაუქმება"
+			}
+		},
+		"commentEditDialog": {
+			"authorLabel": {
+				"text": "ავტორი:"
+			},
+			"showAuthorLabel": {
+				"text": "ავტორის ჩვენება"
+			},
+			"commentLabel": {
+				"text": "კომენტარი:"
+			},
+			"okButton": {
+				"value": "კარგი"
+			},
+			"cancelButton": {
+				"value": "გაუქმება"
+			}
+		},
+		"editChartDialog": {
+			"titleLabel": {
+				"text": "სათაური:"
+			},
+			"okButton": {
+				"value": "კარგი"
+			},
+			"cancelButton": {
+				"value": "გაუქმება"
+			}
+		},
+		"renameWorksheetDialog": {
+			"nameLabel": {
+				"text": "სახელი:"
+			},
+			"okButton": {
+				"value": "კარგი"
+			},
+			"cancelButton": {
+				"value": "გაუქმება"
+			}
+		},
+		"moveWorksheetDialog": {
+			"moveUpButton": {
+				"value": "ზევით გადაადგილება"
+			},
+			"moveDownButton": {
+				"value": "ქვევით გადაადგილება"
+			},
+			"okButton": {
+				"value": "კარგი"
+			},
+			"cancelButton": {
+				"value": "გაუქმება"
+			}
+		},
+		"findTextDialog": {
+			"findTextLabel": {
+				"text": "იპოვეთ ტექსტი"
+			},
+			"findWhatLabel": {
+				"text": "იპოვე რა:"
+			},
+			"withinLabel": {
+				"text": "ფარგლებში:"
+			},
+			"Sheet": {
+				"text": "ფურცელი"
+			},
+			"Workbook": {
+				"text": "სამუშაო წიგნი"
+			},
+			"searchLabel": {
+				"text": "ძიება:"
+			},
+			"ByRows": {
+				"text": "რიგების მიხედვით"
+			},
+			"ByColumns": {
+				"text": "სვეტების მიხედვით"
+			},
+			"lookInLabel": {
+				"text": "Ჩაიხედე:"
+			},
+			"Formulas": {
+				"text": "ფორმულები"
+			},
+			"Values": {
+				"text": "ღირებულებები"
+			},
+			"Comments": {
+				"text": "კომენტარები"
+			},
+			"matchCaseLabel": {
+				"text": "მატჩის საქმე"
+			},
+			"matchEntireContentLabel": {
+				"text": "ემთხვევა მთლიან შინაარსს"
+			},
+			"findNextButton": {
+				"value": "იპოვეთ შემდეგი"
+			},
+			"closeButton": {
+				"value": "დახურვა"
+			}
+		},
+		"selectFunctionDialog": {
+			"categoryLabel": {
+				"text": "კატეგორია:"
+			},
+			"categoryDropDown": {
+				"All": {
+					"text": "ყველა"
+				},
+				"Financial": {
+					"text": "Ფინანსური"
+				},
+				"DateAndTime": {
+					"text": "DateAndTime"
+				},
+				"MathAndTrig": {
+					"text": "MathAndTrig"
+				},
+				"Statistical": {
+					"text": "სტატისტიკური"
+				},
+				"LookupAndReference": {
+					"text": "LookupAndReference"
+				},
+				"Text": {
+					"text": "ტექსტი"
+				},
+				"Logical": {
+					"text": "ლოგიკური"
+				},
+				"Information": {
+					"text": "ინფორმაცია"
+				},
+				"Engineering": {
+					"text": "ინჟინერია"
+				}
+			},
+			"selectFunctionLabel": {
+				"text": "აირჩიეთ ფუნქცია:"
+			},
+			"okButton": {
+				"value": "კარგი"
+			},
+			"cancelButton": {
+				"value": "გაუქმება"
+			}
+		},
+		"setCellNumberFormatDialog": {
+			"General": {
+				"text": "გენერალი"
+			},
+			"Number": {
+				"text": "ნომერი"
+			},
+			"Currency": {
+				"text": "ვალუტა"
+			},
+			"Date": {
+				"text": "თარიღი"
+			},
+			"Time": {
+				"text": "დრო"
+			},
+			"Percentage": {
+				"text": "პროცენტი"
+			},
+			"Scientific": {
+				"text": "Სამეცნიერო"
+			},
+			"Text": {
+				"text": "ტექსტი"
+			},
+			"Custom": {
+				"text": "საბაჟო"
+			},
+			"generalFormatDescriptionLabel": {
+				"text": "ზოგადი ფორმატის უჯრედებს არ აქვთ კონკრეტული რიცხვის ფორმატი."
+			},
+			"numberDecimalPlacesLabel": {
+				"text": "ათწილადი ადგილები:"
+			},
+			"useThousandsSeparatorLabel": {
+				"text": "გამოიყენეთ 1000 გამყოფი"
+			},
+			"numberNegativeValuesLabel": {
+				"text": "უარყოფითი მნიშვნელობები:"
+			},
+			"changeTextColorToRedLabel": {
+				"text": "ტექსტის ფერის შეცვლა წითლად"
+			},
+			"hideMinusSignLabel": {
+				"text": "მინუს ნიშნის დამალვა"
+			},
+			"currencyDecimalPlacesLabel": {
+				"text": "ათწილადი ადგილები:"
+			},
+			"currencySymbolLabel": {
+				"text": "სიმბოლო:"
+			},
+			"percentageDecimalPlacesLabel": {
+				"text": "ათწილადი ადგილები:"
+			},
+			"scientificDecimalPlacesLabel": {
+				"text": "ათწილადი ადგილები:"
+			},
+			"textFormatDescriptionLabel": {
+				"text": "ტექსტის ფორმატის უჯრედები განიხილება როგორც ტექსტი მაშინაც კი, თუ უჯრედში არის რიცხვი."
+			},
+			"okButton": {
+				"value": "კარგი"
+			},
+			"cancelButton": {
+				"value": "გაუქმება"
+			}
+		},
+		"insertChartDialog": {
+			"okButton": {
+				"value": "კარგი"
+			},
+			"cancelButton": {
+				"value": "გაუქმება"
+			}
+		}
+	},
+	"strings": {
+		"vssde-documentIsOpening": "დოკუმენტი იხსნება...",
+		"vssde-numberFormat-general": "გენერალი",
+		"vssde-numberFormat-number": "ნომერი",
+		"vssde-numberFormat-date": "თარიღი",
+		"vssde-numberFormat-time": "დრო",
+		"vssde-numberFormat-currency": "ვალუტა",
+		"vssde-numberFormat-percentage": "პროცენტი",
+		"vssde-numberFormat-scientific": "Სამეცნიერო",
+		"vssde-numberFormat-text": "ტექსტი",
+		"vssde-numberFormat-custom": "საბაჟო",
+		"vssde-findTextPanel-sheet": "ფურცელი",
+		"vssde-findTextPanel-workbook": "სამუშაო წიგნი",
+		"vssde-findTextPanel-byRows": "რიგების მიხედვით",
+		"vssde-findTextPanel-byColumns": "სვეტების მიხედვით",
+		"vssde-findTextPanel-formulas": "ფორმულები",
+		"vssde-findTextPanel-values": "ღირებულებები",
+		"vssde-findTextPanel-comments": "კომენტარები",
+		"vssde-findTextPanel-textIsNotFound": "ტექსტი '{0}' ვერ მოიძებნა.",
+		"vssde-selectFunctionPanel-all": "ყველა",
+		"vssde-createXlsxDocument": "შექმენით ახალი XLSX დოკუმენტი",
+		"vssde-uploadXlsxFile": "ატვირთეთ XLSX ფაილი",
+		"vssde-downloadXlsxFile": "ჩამოტვირთეთ XLSX ფაილი",
+		"vssde-exportXlsxToPdf": "XLSX-ის ექსპორტი PDF-ში",
+		"vssde-fileSizeExceedsLimit": "ატვირთული ფაილის ზომა აღემატება მაქსიმალურ ზომას ({0} ბაიტი).",
+		"vssde-createXlsxDocumentConfirmation": "გსურთ შექმნათ ახალი სამუშაო წიგნი?",
+		"vssde-insertCommentDialog-title": "კომენტარის ჩასმა",
+		"vssde-dialog-okButton": "კარგი",
+		"vssde-dialog-cancelButton": "გაუქმება",
+		"vssde-editCommentDialog-title": "კომენტარის რედაქტირება",
+		"vssde-editChartDialog-title": "გრაფიკის რედაქტირება",
+		"vssde-editChartPropertiesPanel-spreadsheetEditorDoesNotHaveFocusedChart": "ცხრილების რედაქტორს არ აქვს ფოკუსირებული დიაგრამა.",
+		"vssde-editChartPropertiesPanel-selectedDrawingIsNotChart": "არჩეული ნახატი არ არის სქემა.",
+		"vssde-renameWorksheetDialog-title": "გადარქმევა სამუშაო ფურცელი",
+		"vssde-moveWorksheetDialog-title": "სამუშაო ფურცლის გადატანა",
+		"vssde-findTextDialog-title": "იპოვეთ ტექსტი",
+		"vssde-findTextDialog-findNextButton": "იპოვეთ შემდეგი",
+		"vssde-dialog-closeButton": "დახურვა",
+		"vssde-selectFunctionDialog-title": "ჩასმა ფუნქცია",
+		"vssde-cellNumberFormatDialog-title": "უჯრედის ფორმატი",
+		"vssde-insertChartDialog-title": "ჩასმა დიაგრამა",
+		"vssde-insertChartPanel-chartType-column": "სვეტი",
+		"vssde-insertChartPanel-chartType-line": "ხაზი",
+		"vssde-insertChartPanel-chartType-pie": "ღვეზელი",
+		"vssde-insertChartPanel-chartType-bar": "ბარი",
+		"vssde-insertChartPanel-chartType-area": "ფართობი",
+		"vssde-insertChartPanel-chartSubtype-clusteredColumn": "კლასტერული სვეტი",
+		"vssde-insertChartPanel-chartSubtype-stackedColumn": "დაწყობილი სვეტი",
+		"vssde-insertChartPanel-chartSubtype-100%StackedColumn": "100% დაწყობილი სვეტი",
+		"vssde-insertChartPanel-chartSubtype-3DClusteredColumn": "3D კლასტერული სვეტი",
+		"vssde-insertChartPanel-chartSubtype-3DStackedColumn": "3D დაწყობილი სვეტი",
+		"vssde-insertChartPanel-chartSubtype-3D100%StackedColumn": "3D 100% დაწყობილი სვეტი",
+		"vssde-insertChartPanel-chartSubtype-line": "ხაზი",
+		"vssde-insertChartPanel-chartSubtype-stackedLine": "Stacked Line",
+		"vssde-insertChartPanel-chartSubtype-100%StackedLine": "100% Stacked Line",
+		"vssde-insertChartPanel-chartSubtype-lineWithMarkers": "ხაზი მარკერებით",
+		"vssde-insertChartPanel-chartSubtype-stackedLineWithMarkers": "დაწყობილი ხაზი მარკერებით",
+		"vssde-insertChartPanel-chartSubtype-100%StackedLineWithMar": "100% დაწყობილი ხაზი მარკერებით",
+		"vssde-insertChartPanel-chartSubtype-curvedLine": "მრუდი ხაზი",
+		"vssde-insertChartPanel-chartSubtype-stackedCurvedLine": "დაწყობილი მრუდი ხაზი",
+		"vssde-insertChartPanel-chartSubtype-100%StackedCurvedLine": "100% დაწყობილი მრუდი ხაზი",
+		"vssde-insertChartPanel-chartSubtype-curvedLineWithMarkers": "მრუდი ხაზი მარკერებით",
+		"vssde-insertChartPanel-chartSubtype-stackedCurvLineWithMark": "დაწყობილი მრუდი ხაზი მარკერებით",
+		"vssde-insertChartPanel-chartSubtype-100%StackedCurvLineMark": "100% დაწყობილი მრუდი ხაზი მარკერებით",
+		"vssde-insertChartPanel-chartSubtype-pie": "ღვეზელი",
+		"vssde-insertChartPanel-chartSubtype-pieExplosion": "ტორტი (აფეთქება)",
+		"vssde-insertChartPanel-chartSubtype-doughnut": "დონატი",
+		"vssde-insertChartPanel-chartSubtype-clusteredBar": "კლასტერული ბარი",
+		"vssde-insertChartPanel-chartSubtype-stackedBar": "დაწყობილი ბარი",
+		"vssde-insertChartPanel-chartSubtype-100%StackedBar": "100% დაწყობილი ბარი",
+		"vssde-insertChartPanel-chartSubtype-area": "ფართობი",
+		"vssde-insertChartPanel-chartSubtype-stackedArea": "Stacked Area",
+		"vssde-insertChartPanel-chartSubtype-100%StackedArea": "100% დაწყობილი ფართობი",
+		"vssde-insertChartPanel-fileArg0IsNotFound": "ფაილი '{0}' ვერ მოიძებნა.",
+		"vssde-insertChartPanel-supportedChartTypesAreNotFound": "დიაგრამის მხარდაჭერილი ტიპები ვერ მოიძებნა.",
+		"vssde-insertChartPanel-notSupportedChartType": "არ არის მხარდაჭერილი დიაგრამის ტიპი.",
+		"vssde-insertChartPanel-supportedChartSubtypesAreNotFound": "დიაგრამის მხარდაჭერილი ქვეტიპები ვერ მოიძებნა.",
+		"vssde-insertChartPanel-notSupportedChartSubtype": "დიაგრამის ქვეტიპი არ არის მხარდაჭერილი.",
+		"vssde-insertChartPanel-chartTemplateContainsTwoIdenticalNamesForChartSubtypes": "დიაგრამის შაბლონი შეიცავს 2 იდენტურ სახელს დიაგრამის ქვეტიპებისთვის.",
+		"vssde-insertChartPanel-chartTemplateContainsTwoIdenticalNamesForChartTypes": "დიაგრამის შაბლონი შეიცავს 2 იდენტურ სახელს დიაგრამის ტიპებისთვის.",
+		"vssde-insertChartPanel-pleaseSpecifyCellsWhichContainTheChartDataIncludeNamesForRowsAndColumns": "გთხოვთ, მიუთითოთ უჯრედები, რომლებიც შეიცავს დიაგრამის მონაცემებს (შეიცავს რიგებისა და სვეტების სახელებს).",
+		"vssde-insertChartPanel-chartSubtypeArg0HasMultipleDeclarationsOnDifferentWorksheets": "დიაგრამის ქვეტიპი '{0}' აქვს რამდენიმე დეკლარაცია სხვადასხვა სამუშაო ფურცლებზე.",
+		"vssde-insertChartPanel-sheetArg0IsNotFound": "ფურცელი '{0}' ვერ მოიძებნა."
+	}
+}

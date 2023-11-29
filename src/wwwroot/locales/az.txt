@@ -1,0 +1,737 @@
+﻿{
+	"spreadsheetDocumentEditorControl": {
+		"fileLabel": {
+			"text": "Fayl"
+		},
+		"homeLabel": {
+			"text": "Ev"
+		},
+		"editLabel": {
+			"text": "Redaktə et"
+		},
+		"insertLabel": {
+			"text": "Daxil et"
+		},
+		"reviewLabel": {
+			"text": "Baxış-icmal"
+		},
+		"createXlsxDocumentButton": {
+			"title": "Yeni XLSX sənədi yaradın"
+		},
+		"uploadXlsxFileButton": {
+			"title": "XLSX faylını yükləyin və açın"
+		},
+		"downloadXlsxFileButton": {
+			"title": "XLSX faylını yükləyin"
+		},
+		"exportXlsxToPdfButton": {
+			"title": "XLSX-i PDF-ə ixrac edin"
+		},
+		"showMobileMenuButton": {
+			"title": "Daha çox"
+		},
+		"boldTextButton": {
+			"title": "Qalın mətn"
+		},
+		"italicTextButton": {
+			"title": "Kursiv mətn"
+		},
+		"underlineTextButton": {
+			"title": "Mətnin altını çəkin"
+		},
+		"strikethroughTextButton": {
+			"title": "Üzəri xəttli mətn"
+		},
+		"fontColorButton": {
+			"title": "Şrift rəngi"
+		},
+		"fillColorButton": {
+			"title": "Rəngi doldurun"
+		},
+		"copyStyleButton": {
+			"title": "Stil rəssamı"
+		},
+		"alignLeftButton": {
+			"title": "Sola düzün"
+		},
+		"alignCenterButton": {
+			"title": "Mərkəz"
+		},
+		"alignRightButton": {
+			"title": "Sağa düzün"
+		},
+		"topAlignButton": {
+			"title": "Üst hizalayın"
+		},
+		"middleAlignButton": {
+			"title": "Orta düzülmə"
+		},
+		"bottomAlignButton": {
+			"title": "Aşağı düzülmə"
+		},
+		"textWrappingButton": {
+			"title": "Mətnin qablaşdırılması"
+		},
+		"currencyNumberFormatButton": {
+			"title": "Valyuta nömrəsi formatı"
+		},
+		"increaseDecimalButton": {
+			"title": "Onluğu artırın"
+		},
+		"decreaseDecimalButton": {
+			"title": "Onluğu azaldın"
+		},
+		"percentNumberFormatButton": {
+			"title": "Faiz sayı formatı"
+		},
+		"numberFormatDropDown": {
+			"General": {
+				"text": "General"
+			},
+			"Number": {
+				"text": "Nömrə"
+			},
+			"Currency": {
+				"text": "Valyuta"
+			},
+			"Date": {
+				"text": "Tarix"
+			},
+			"Time": {
+				"text": "Vaxt"
+			},
+			"Percentage": {
+				"text": "Faiz"
+			},
+			"Scientific": {
+				"text": "Elmi"
+			},
+			"Text": {
+				"text": "Mətn"
+			}
+		},
+		"numberFormatButton": {
+			"title": "Nömrə formatı"
+		},
+		"showFormulasButton": {
+			"title": "Düsturları göstərin"
+		},
+		"searchTextButton": {
+			"title": "Mətni axtarın"
+		},
+		"undoButton": {
+			"title": "Geri al"
+		},
+		"redoButton": {
+			"title": "Yenidən edin"
+		},
+		"cutContentButton": {
+			"title": "Məzmunu kəsin"
+		},
+		"copyContentButton": {
+			"title": "Məzmunu kopyalayın"
+		},
+		"pasteContentButton": {
+			"title": "Məzmunu yapışdırın"
+		},
+		"clearContentButton": {
+			"title": "Tərkibini təmizləyin"
+		},
+		"clearFormatButton": {
+			"title": "Təmiz format"
+		},
+		"deleteRowsButton": {
+			"title": "Sətirləri silin"
+		},
+		"deleteColumnsButton": {
+			"title": "Sütunları silin"
+		},
+		"deleteCellsAndShiftLeftButton": {
+			"title": "Hüceyrələri silin və sola sürüşdürün"
+		},
+		"deleteCellsAndShiftUpButton": {
+			"title": "Hüceyrələri silin və yuxarı sürüşdürün"
+		},
+		"deletePictureButton": {
+			"title": "Şəkli silin"
+		},
+		"deleteLinkButton": {
+			"title": "Linki silin"
+		},
+		"mergeCellsButton": {
+			"title": "Hüceyrələri birləşdirin"
+		},
+		"unmergeCellsButton": {
+			"title": "Hüceyrələri ayırın"
+		},
+		"fillCells": {
+			"title": "Hüceyrələri doldurun"
+		},
+		"allBordersButton": {
+			"title": "Bütün Sərhədlər"
+		},
+		"thickOutsideBordersButton": {
+			"title": "Qalın Xarici Sərhədlər"
+		},
+		"autoFitRowHeightButton": {
+			"title": "Sətir hündürlüyünü avtomatik uyğunlaşdırın"
+		},
+		"autoFitColumnWidthButton": {
+			"title": "Sütun genişliyini avtomatik uyğunlaşdırın"
+		},
+		"insertRowsButton": {
+			"title": "Sətirlər daxil edin"
+		},
+		"insertColumnsButton": {
+			"title": "Sütunlar daxil edin"
+		},
+		"insertCellsAndShiftRightButton": {
+			"title": "Hüceyrə daxil edin və sağa sürüşdürün"
+		},
+		"insertCellsAndShiftDownButton": {
+			"title": "Hüceyrəni daxil edin və aşağı sürüşdürün"
+		},
+		"insertSheetButton": {
+			"title": "İş vərəqini daxil edin"
+		},
+		"insertFunctionButton": {
+			"title": "Funksiya daxil edin"
+		},
+		"insertLinkButton": {
+			"title": "Link daxil edin"
+		},
+		"insertCommentButton": {
+			"title": "Şərh daxil edin"
+		},
+		"insertPictureButton": {
+			"title": "Şəkil əlavə edin"
+		},
+		"insertChartButton": {
+			"title": "Diaqram daxil edin"
+		},
+		"editCommentButton": {
+			"title": "Şərhi redaktə edin"
+		},
+		"deleteCommentButton": {
+			"title": "Şərhi silin"
+		},
+		"previousCommentButton": {
+			"title": "Əvvəlki şərh"
+		},
+		"nextCommentButton": {
+			"title": "Növbəti şərh"
+		},
+		"formulaPanel-cancelChangeButton": {
+			"title": "Dəyişikliyi ləğv edin"
+		},
+		"formulaPanel-applyChangeButton": {
+			"title": "Dəyişikliyi tətbiq edin"
+		},
+		"formulaPanel-fullScreenButton": {
+			"title": "Tam ekran"
+		},
+		"scrollToFirstWorksheetButton": {
+			"title": "Birinci iş vərəqinə keçin"
+		},
+		"scrollToLastWorksheetButton": {
+			"title": "Son iş vərəqinə keçin"
+		},
+		"addWorksheetButton": {
+			"title": "İş vərəqi əlavə edin"
+		},
+		"showWorksheetListButton": {
+			"title": "İş vərəqlərinin siyahısını göstərin"
+		},
+		"zoomOutButton": {
+			"title": "Küçült"
+		},
+		"zoomValueLabel": {
+			"text": "100%"
+		},
+		"zoomInButton": {
+			"title": "Yaxınlaşdırma"
+		},
+		"enUsCurrencyNumberFormatButton": {
+			"title": "$ İngilis (ABŞ)"
+		},
+		"enUkCurrencyNumberFormatButton": {
+			"title": "£ İngilis (Birləşmiş Krallıq)"
+		},
+		"euCurrencyNumberFormatButton": {
+			"title": "€ Avro (€ 123)"
+		},
+		"ruCurrencyNumberFormatButton": {
+			"title": "₽ rus"
+		},
+		"chCurrencyNumberFormatButton": {
+			"title": "¥ Çin"
+		},
+		"enInCurrencyNumberFormatButton": {
+			"title": "₹ İngilis (Hindistan)"
+		},
+		"fillCellsDownButton": {
+			"title": "Doldurun"
+		},
+		"fillCellsUpButton": {
+			"title": "Doldurmaq"
+		},
+		"fillCellsLeftButton": {
+			"title": "Sol doldurun"
+		},
+		"fillCellsRightButton": {
+			"title": "Sağa doldurun"
+		},
+		"noBordersButton": {
+			"title": "Sərhədsiz"
+		},
+		"outsideBordersButton": {
+			"title": "Xarici Sərhədlər"
+		},
+		"bottomBorderButton": {
+			"title": "Aşağı Sərhəd"
+		},
+		"topBorderButton": {
+			"title": "Üst Sərhəd"
+		},
+		"rightBorderButton": {
+			"title": "Sağ Sərhəd"
+		},
+		"leftBorderButton": {
+			"title": "Sol Sərhəd"
+		},
+		"thickBottomBorderButton": {
+			"title": "Qalın Alt Haşiyə"
+		},
+		"thickLeftBorderButton": {
+			"title": "Qalın Sol Sərhəd"
+		},
+		"doubleBottomBorderButton": {
+			"title": "İkiqat alt sərhəd"
+		},
+		"doubleLeftBorderButton": {
+			"title": "İkiqat Sol Haşiyə"
+		},
+		"borderColorButton": {
+			"title": "Sərhəd rəngi"
+		},
+		"copyWorksheetLabel": {
+			"text": "İş vərəqini kopyalayın"
+		},
+		"deleteWorksheetLabel": {
+			"text": "İş vərəqini silin"
+		},
+		"renameWorksheetLabel": {
+			"text": "İş vərəqinin adını dəyişdirin"
+		},
+		"moveWorksheetLabel": {
+			"text": "İş vərəqini köçürün"
+		},
+		"copyLabel": {
+			"text": "Kopyalayın"
+		},
+		"cutLabel": {
+			"text": "kəsmək"
+		},
+		"pasteLabel": {
+			"text": "Yapışdır"
+		},
+		"clearContentsLabel": {
+			"text": "Tərkibi təmizləyin"
+		},
+		"insertCellAndShiftRightLabel": {
+			"text": "Hüceyrə daxil edin və sağa sürüşdürün"
+		},
+		"insertCellAndShiftDownLabel": {
+			"text": "Hüceyrəni daxil edin və aşağı sürüşdürün"
+		},
+		"insertEntireRowLabel": {
+			"text": "Bütün sıra daxil edin"
+		},
+		"insertEntireColumnLabel": {
+			"text": "Bütün sütunu daxil edin"
+		},
+		"deleteImageLabel": {
+			"text": "Sil"
+		},
+		"propertiesLabel": {
+			"text": "Xüsusiyyətlər..."
+		},
+		"deleteCellAndShiftLeftLabel": {
+			"text": "Hüceyrəni silin və sola sürüşdürün"
+		},
+		"deleteCellAndShiftUpLabel": {
+			"text": "Hüceyrəni silin və yuxarı sürüşdürün"
+		},
+		"deleteEntireRowLabel": {
+			"text": "Bütün sıranı silin"
+		},
+		"deleteEntireColumnLabel": {
+			"text": "Bütün sütunu silin"
+		},
+		"insertRowsLabel": {
+			"text": "Sətirlər daxil edin"
+		},
+		"deleteRowsLabel": {
+			"text": "Sətirləri silin"
+		},
+		"insertColumnsLabel": {
+			"text": "Sütunlar daxil edin"
+		},
+		"deleteColumnsLabel": {
+			"text": "Sütunları silin"
+		},
+		"insertCommentLabel": {
+			"text": "Şərh daxil edin..."
+		},
+		"editCommentLabel": {
+			"text": "Şərhi redaktə et..."
+		},
+		"deleteCommentLabel": {
+			"text": "Şərhi silin"
+		},
+		"showHideCommentLabel": {
+			"text": "Şərhi göstər/gizlə"
+		},
+		"hideCommentLabel": {
+			"text": "Şərhi gizlədin"
+		},
+		"hideRowsLabel": {
+			"text": "Sətirləri gizlədin"
+		},
+		"unhideRowsLabel": {
+			"text": "Sətirləri göstərin"
+		},
+		"hideColumnsLabel": {
+			"text": "Sütunları gizlədin"
+		},
+		"unhideColumnsLabel": {
+			"text": "Sütunları göstərin"
+		},
+		"insertCommentDialog": {
+			"authorLabel": {
+				"text": "Müəllif:"
+			},
+			"showAuthorLabel": {
+				"text": "Müəllifi göstər"
+			},
+			"commentLabel": {
+				"text": "Şərh:"
+			},
+			"okButton": {
+				"value": "tamam"
+			},
+			"cancelButton": {
+				"value": "Ləğv et"
+			}
+		},
+		"commentEditDialog": {
+			"authorLabel": {
+				"text": "Müəllif:"
+			},
+			"showAuthorLabel": {
+				"text": "Müəllifi göstər"
+			},
+			"commentLabel": {
+				"text": "Şərh:"
+			},
+			"okButton": {
+				"value": "tamam"
+			},
+			"cancelButton": {
+				"value": "Ləğv et"
+			}
+		},
+		"editChartDialog": {
+			"titleLabel": {
+				"text": "Başlıq:"
+			},
+			"okButton": {
+				"value": "tamam"
+			},
+			"cancelButton": {
+				"value": "Ləğv et"
+			}
+		},
+		"renameWorksheetDialog": {
+			"nameLabel": {
+				"text": "Adı:"
+			},
+			"okButton": {
+				"value": "tamam"
+			},
+			"cancelButton": {
+				"value": "Ləğv et"
+			}
+		},
+		"moveWorksheetDialog": {
+			"moveUpButton": {
+				"value": "Yuxarı keçin"
+			},
+			"moveDownButton": {
+				"value": "Aşağı hərəkət"
+			},
+			"okButton": {
+				"value": "tamam"
+			},
+			"cancelButton": {
+				"value": "Ləğv et"
+			}
+		},
+		"findTextDialog": {
+			"findTextLabel": {
+				"text": "Mətni tapın"
+			},
+			"findWhatLabel": {
+				"text": "Nə tapın:"
+			},
+			"withinLabel": {
+				"text": "İçində:"
+			},
+			"Sheet": {
+				"text": "Vərəq"
+			},
+			"Workbook": {
+				"text": "İş dəftəri"
+			},
+			"searchLabel": {
+				"text": "Axtar:"
+			},
+			"ByRows": {
+				"text": "Sıralar üzrə"
+			},
+			"ByColumns": {
+				"text": "Sütunlar üzrə"
+			},
+			"lookInLabel": {
+				"text": "Baxın:"
+			},
+			"Formulas": {
+				"text": "Formulalar"
+			},
+			"Values": {
+				"text": "Dəyərlər"
+			},
+			"Comments": {
+				"text": "Şərhlər"
+			},
+			"matchCaseLabel": {
+				"text": "Kibrit qutusu"
+			},
+			"matchEntireContentLabel": {
+				"text": "Bütün məzmunu uyğunlaşdırın"
+			},
+			"findNextButton": {
+				"value": "Sonrakı tap"
+			},
+			"closeButton": {
+				"value": "Yaxın"
+			}
+		},
+		"selectFunctionDialog": {
+			"categoryLabel": {
+				"text": "Kateqoriya:"
+			},
+			"categoryDropDown": {
+				"All": {
+					"text": "Hamısı"
+				},
+				"Financial": {
+					"text": "Maliyyə"
+				},
+				"DateAndTime": {
+					"text": "DateAndTime"
+				},
+				"MathAndTrig": {
+					"text": "MathAndTrig"
+				},
+				"Statistical": {
+					"text": "Statistik"
+				},
+				"LookupAndReference": {
+					"text": "LookupAndReference"
+				},
+				"Text": {
+					"text": "Mətn"
+				},
+				"Logical": {
+					"text": "Məntiqi"
+				},
+				"Information": {
+					"text": "Məlumat"
+				},
+				"Engineering": {
+					"text": "Mühəndislik"
+				}
+			},
+			"selectFunctionLabel": {
+				"text": "Funksiyanı seçin:"
+			},
+			"okButton": {
+				"value": "tamam"
+			},
+			"cancelButton": {
+				"value": "Ləğv et"
+			}
+		},
+		"setCellNumberFormatDialog": {
+			"General": {
+				"text": "General"
+			},
+			"Number": {
+				"text": "Nömrə"
+			},
+			"Currency": {
+				"text": "Valyuta"
+			},
+			"Date": {
+				"text": "Tarix"
+			},
+			"Time": {
+				"text": "Vaxt"
+			},
+			"Percentage": {
+				"text": "Faiz"
+			},
+			"Scientific": {
+				"text": "Elmi"
+			},
+			"Text": {
+				"text": "Mətn"
+			},
+			"Custom": {
+				"text": "Xüsusi"
+			},
+			"generalFormatDescriptionLabel": {
+				"text": "Ümumi formatlı xanaların xüsusi nömrə formatı yoxdur."
+			},
+			"numberDecimalPlacesLabel": {
+				"text": "Onluq yerlər:"
+			},
+			"useThousandsSeparatorLabel": {
+				"text": "1000 ayırıcıdan istifadə edin"
+			},
+			"numberNegativeValuesLabel": {
+				"text": "Mənfi dəyərlər:"
+			},
+			"changeTextColorToRedLabel": {
+				"text": "Mətnin rəngini qırmızıya dəyişdirin"
+			},
+			"hideMinusSignLabel": {
+				"text": "Mənfi işarəni gizlədin"
+			},
+			"currencyDecimalPlacesLabel": {
+				"text": "Onluq yerlər:"
+			},
+			"currencySymbolLabel": {
+				"text": "Simvol:"
+			},
+			"percentageDecimalPlacesLabel": {
+				"text": "Onluq yerlər:"
+			},
+			"scientificDecimalPlacesLabel": {
+				"text": "Onluq yerlər:"
+			},
+			"textFormatDescriptionLabel": {
+				"text": "Mətn formatı xanaları hətta xanada nömrə olsa belə mətn kimi qəbul edilir."
+			},
+			"okButton": {
+				"value": "tamam"
+			},
+			"cancelButton": {
+				"value": "Ləğv et"
+			}
+		},
+		"insertChartDialog": {
+			"okButton": {
+				"value": "tamam"
+			},
+			"cancelButton": {
+				"value": "Ləğv et"
+			}
+		}
+	},
+	"strings": {
+		"vssde-documentIsOpening": "Sənəd açılır...",
+		"vssde-numberFormat-general": "General",
+		"vssde-numberFormat-number": "Nömrə",
+		"vssde-numberFormat-date": "Tarix",
+		"vssde-numberFormat-time": "Vaxt",
+		"vssde-numberFormat-currency": "Valyuta",
+		"vssde-numberFormat-percentage": "Faiz",
+		"vssde-numberFormat-scientific": "Elmi",
+		"vssde-numberFormat-text": "Mətn",
+		"vssde-numberFormat-custom": "Xüsusi",
+		"vssde-findTextPanel-sheet": "Vərəq",
+		"vssde-findTextPanel-workbook": "İş dəftəri",
+		"vssde-findTextPanel-byRows": "Sıralar üzrə",
+		"vssde-findTextPanel-byColumns": "Sütunlar üzrə",
+		"vssde-findTextPanel-formulas": "Formulalar",
+		"vssde-findTextPanel-values": "Dəyərlər",
+		"vssde-findTextPanel-comments": "Şərhlər",
+		"vssde-findTextPanel-textIsNotFound": "'{0}' mətni tapılmadı.",
+		"vssde-selectFunctionPanel-all": "Hamısı",
+		"vssde-createXlsxDocument": "Yeni XLSX sənədi yaradın",
+		"vssde-uploadXlsxFile": "XLSX faylını yükləyin",
+		"vssde-downloadXlsxFile": "XLSX faylını yükləyin",
+		"vssde-exportXlsxToPdf": "XLSX-i PDF-ə ixrac edin",
+		"vssde-fileSizeExceedsLimit": "Yüklənmiş faylın ölçüsü maksimum ölçüsü ({0} bayt) keçir.",
+		"vssde-createXlsxDocumentConfirmation": "Yeni iş kitabı yaratmaq istəyirsiniz?",
+		"vssde-insertCommentDialog-title": "Şərh daxil edin",
+		"vssde-dialog-okButton": "tamam",
+		"vssde-dialog-cancelButton": "Ləğv et",
+		"vssde-editCommentDialog-title": "Şərhi redaktə edin",
+		"vssde-editChartDialog-title": "Diaqramı redaktə edin",
+		"vssde-editChartPropertiesPanel-spreadsheetEditorDoesNotHaveFocusedChart": "Cədvəl redaktorunda fokuslanmış diaqram yoxdur.",
+		"vssde-editChartPropertiesPanel-selectedDrawingIsNotChart": "Seçilmiş rəsm qrafik deyil.",
+		"vssde-renameWorksheetDialog-title": "İş vərəqinin adını dəyişdirin",
+		"vssde-moveWorksheetDialog-title": "İş vərəqini köçürün",
+		"vssde-findTextDialog-title": "Mətni tapın",
+		"vssde-findTextDialog-findNextButton": "Sonrakı tap",
+		"vssde-dialog-closeButton": "Yaxın",
+		"vssde-selectFunctionDialog-title": "Funksiya daxil edin",
+		"vssde-cellNumberFormatDialog-title": "Hüceyrə formatı",
+		"vssde-insertChartDialog-title": "Diaqram daxil edin",
+		"vssde-insertChartPanel-chartType-column": "Sütun",
+		"vssde-insertChartPanel-chartType-line": "Xətt",
+		"vssde-insertChartPanel-chartType-pie": "Piroq",
+		"vssde-insertChartPanel-chartType-bar": "Bar",
+		"vssde-insertChartPanel-chartType-area": "Ərazi",
+		"vssde-insertChartPanel-chartSubtype-clusteredColumn": "Çoxluqlu Sütun",
+		"vssde-insertChartPanel-chartSubtype-stackedColumn": "Yığılmış Sütun",
+		"vssde-insertChartPanel-chartSubtype-100%StackedColumn": "100% Yığılmış Sütun",
+		"vssde-insertChartPanel-chartSubtype-3DClusteredColumn": "3D Çoxluqlu Sütun",
+		"vssde-insertChartPanel-chartSubtype-3DStackedColumn": "3D Yığılmış Sütun",
+		"vssde-insertChartPanel-chartSubtype-3D100%StackedColumn": "3D 100% Yığılmış Sütun",
+		"vssde-insertChartPanel-chartSubtype-line": "Xətt",
+		"vssde-insertChartPanel-chartSubtype-stackedLine": "Yığılmış Xətt",
+		"vssde-insertChartPanel-chartSubtype-100%StackedLine": "100% yığılmış xətt",
+		"vssde-insertChartPanel-chartSubtype-lineWithMarkers": "Markerlərlə Xətt",
+		"vssde-insertChartPanel-chartSubtype-stackedLineWithMarkers": "Markerlərlə Yığılmış Xətt",
+		"vssde-insertChartPanel-chartSubtype-100%StackedLineWithMar": "Markerlərlə 100% Yığılmış Xətt",
+		"vssde-insertChartPanel-chartSubtype-curvedLine": "Əyri xətt",
+		"vssde-insertChartPanel-chartSubtype-stackedCurvedLine": "Yığılmış əyri xətt",
+		"vssde-insertChartPanel-chartSubtype-100%StackedCurvedLine": "100% yığılmış əyri xətt",
+		"vssde-insertChartPanel-chartSubtype-curvedLineWithMarkers": "Markerlərlə əyri xətt",
+		"vssde-insertChartPanel-chartSubtype-stackedCurvLineWithMark": "Markerlərlə Yığılmış Əyri Xətt",
+		"vssde-insertChartPanel-chartSubtype-100%StackedCurvLineMark": "Markerlərlə 100% Yığılmış Əyri Xətt",
+		"vssde-insertChartPanel-chartSubtype-pie": "Piroq",
+		"vssde-insertChartPanel-chartSubtype-pieExplosion": "Piroq (partlayış)",
+		"vssde-insertChartPanel-chartSubtype-doughnut": "Donut",
+		"vssde-insertChartPanel-chartSubtype-clusteredBar": "Kümelənmiş Bar",
+		"vssde-insertChartPanel-chartSubtype-stackedBar": "Yığılmış Bar",
+		"vssde-insertChartPanel-chartSubtype-100%StackedBar": "100% Yığılmış Bar",
+		"vssde-insertChartPanel-chartSubtype-area": "Ərazi",
+		"vssde-insertChartPanel-chartSubtype-stackedArea": "Yığılmış Sahə",
+		"vssde-insertChartPanel-chartSubtype-100%StackedArea": "100% Yığılmış Sahə",
+		"vssde-insertChartPanel-fileArg0IsNotFound": "'{0}' faylı tapılmadı.",
+		"vssde-insertChartPanel-supportedChartTypesAreNotFound": "Dəstəklənən diaqram növləri tapılmadı.",
+		"vssde-insertChartPanel-notSupportedChartType": "Diaqram növü dəstəklənmir.",
+		"vssde-insertChartPanel-supportedChartSubtypesAreNotFound": "Dəstəklənən diaqram alt növləri tapılmadı.",
+		"vssde-insertChartPanel-notSupportedChartSubtype": "Diaqram alt növü dəstəklənmir.",
+		"vssde-insertChartPanel-chartTemplateContainsTwoIdenticalNamesForChartSubtypes": "Diaqram şablonunda diaqram alt növləri üçün 2 eyni ad var.",
+		"vssde-insertChartPanel-chartTemplateContainsTwoIdenticalNamesForChartTypes": "Diaqram şablonunda diaqram növləri üçün 2 eyni ad var.",
+		"vssde-insertChartPanel-pleaseSpecifyCellsWhichContainTheChartDataIncludeNamesForRowsAndColumns": "Lütfən, diaqram məlumatlarını ehtiva edən xanaları göstərin (sətir və sütunların adlarını daxil edin).",
+		"vssde-insertChartPanel-chartSubtypeArg0HasMultipleDeclarationsOnDifferentWorksheets": "'{0}' diaqram alt növü müxtəlif iş vərəqlərində çoxlu bəyannamələrə malikdir.",
+		"vssde-insertChartPanel-sheetArg0IsNotFound": "'{0}' vərəqi tapılmadı."
+	}
+}

@@ -155,6 +155,9 @@
 		"deletePictureButton": {
 			"title": "Ștergeți imaginea"
 		},
+		"deleteLinkButton": {
+			"title": "Ștergeți linkul"
+		},
 		"mergeCellsButton": {
 			"title": "Uneste celulele"
 		},
@@ -193,6 +196,9 @@
 		},
 		"insertFunctionButton": {
 			"title": "Inserare funcție"
+		},
+		"insertLinkButton": {
+			"title": "Inserați hyperlink"
 		},
 		"insertCommentButton": {
 			"title": "Inserează comentariu"
@@ -235,18 +241,6 @@
 		},
 		"showWorksheetListButton": {
 			"title": "Afișează lista de foi"
-		},
-		"copyWorksheetButton": {
-			"title": "Copiere foaia"
-		},
-		"deleteWorksheetButton": {
-			"title": "Șterge foaia"
-		},
-		"renameWorksheetButton": {
-			"title": "Redenumiți foaia"
-		},
-		"moveWorksheetButton": {
-			"title": "Mutați foaia"
 		},
 		"zoomOutButton": {
 			"title": "Mărire"
@@ -319,6 +313,18 @@
 		},
 		"borderColorButton": {
 			"title": "Culoarea chenarului"
+		},
+		"copyWorksheetLabel": {
+			"text": "Copiere foaia"
+		},
+		"deleteWorksheetLabel": {
+			"text": "Șterge foaia"
+		},
+		"renameWorksheetLabel": {
+			"text": "Redenumiți foaia"
+		},
+		"moveWorksheetLabel": {
+			"text": "Mutați foaia"
 		},
 		"copyLabel": {
 			"text": "Copiere"
@@ -533,16 +539,16 @@
 					"text": "Financial"
 				},
 				"DateAndTime": {
-					"text": "Data și ora"
+					"text": "DateAndTime"
 				},
 				"MathAndTrig": {
-					"text": "Matematică"
+					"text": "MathAndTrig"
 				},
 				"Statistical": {
 					"text": "Statistică"
 				},
 				"LookupAndReference": {
-					"text": "Referințe și matrice"
+					"text": "LookupAndReference"
 				},
 				"Text": {
 					"text": "Text"

@@ -1,0 +1,737 @@
+﻿{
+	"spreadsheetDocumentEditorControl": {
+		"fileLabel": {
+			"text": "Faýl"
+		},
+		"homeLabel": {
+			"text": "Öý"
+		},
+		"editLabel": {
+			"text": "Redaktirläň"
+		},
+		"insertLabel": {
+			"text": "Goýmak"
+		},
+		"reviewLabel": {
+			"text": "Syn"
+		},
+		"createXlsxDocumentButton": {
+			"title": "Täze XLSX resminama dörediň"
+		},
+		"uploadXlsxFileButton": {
+			"title": "XLSX faýly ýükläň we açyň"
+		},
+		"downloadXlsxFileButton": {
+			"title": "XLSX faýly göçürip alyň"
+		},
+		"exportXlsxToPdfButton": {
+			"title": "XLSX-ni PDF-e eksport ediň"
+		},
+		"showMobileMenuButton": {
+			"title": "Has köp"
+		},
+		"boldTextButton": {
+			"title": "Goňur tekst"
+		},
+		"italicTextButton": {
+			"title": "Göçme manyda"
+		},
+		"underlineTextButton": {
+			"title": "Tekstiň aşagy"
+		},
+		"strikethroughTextButton": {
+			"title": "Ajaýyp tekst"
+		},
+		"fontColorButton": {
+			"title": "Şriftiň reňki"
+		},
+		"fillColorButton": {
+			"title": "Reňk dolduryň"
+		},
+		"copyStyleButton": {
+			"title": "Stil suratkeşi"
+		},
+		"alignLeftButton": {
+			"title": "Çepe deňleşdiriň"
+		},
+		"alignCenterButton": {
+			"title": "Merkez"
+		},
+		"alignRightButton": {
+			"title": "Dogry deňleşdiriň"
+		},
+		"topAlignButton": {
+			"title": "Topokarky hatar"
+		},
+		"middleAlignButton": {
+			"title": "Orta hatar"
+		},
+		"bottomAlignButton": {
+			"title": "Aşakdaky hatar"
+		},
+		"textWrappingButton": {
+			"title": "Tekstiň gaplanyşy"
+		},
+		"currencyNumberFormatButton": {
+			"title": "Walýuta belgisiniň formaty"
+		},
+		"increaseDecimalButton": {
+			"title": "Onluk köpeltmek"
+		},
+		"decreaseDecimalButton": {
+			"title": "Onluk azaltmak"
+		},
+		"percentNumberFormatButton": {
+			"title": "Göterim sany"
+		},
+		"numberFormatDropDown": {
+			"General": {
+				"text": "General"
+			},
+			"Number": {
+				"text": "San"
+			},
+			"Currency": {
+				"text": "Walýuta"
+			},
+			"Date": {
+				"text": "Sene"
+			},
+			"Time": {
+				"text": "Wagt"
+			},
+			"Percentage": {
+				"text": "Göterim"
+			},
+			"Scientific": {
+				"text": "Ylmy"
+			},
+			"Text": {
+				"text": "Tekst"
+			}
+		},
+		"numberFormatButton": {
+			"title": "San formaty"
+		},
+		"showFormulasButton": {
+			"title": "Formulalary görkeziň"
+		},
+		"searchTextButton": {
+			"title": "Gözleg teksti"
+		},
+		"undoButton": {
+			"title": "Yza gaýtar"
+		},
+		"redoButton": {
+			"title": "Gaýtadan işlediň"
+		},
+		"cutContentButton": {
+			"title": "Mazmuny kesiň"
+		},
+		"copyContentButton": {
+			"title": "Mazmuny göçüriň"
+		},
+		"pasteContentButton": {
+			"title": "Mazmuny goýuň"
+		},
+		"clearContentButton": {
+			"title": "Mazmuny arassala"
+		},
+		"clearFormatButton": {
+			"title": "Formaty arassala"
+		},
+		"deleteRowsButton": {
+			"title": "Setirleri poz"
+		},
+		"deleteColumnsButton": {
+			"title": "Sütünleri pozuň"
+		},
+		"deleteCellsAndShiftLeftButton": {
+			"title": "Öýjükleri pozuň we çepe süýşüriň"
+		},
+		"deleteCellsAndShiftUpButton": {
+			"title": "Öýjükleri pozuň we ýokaryk galdyryň"
+		},
+		"deletePictureButton": {
+			"title": "Suraty pozuň"
+		},
+		"deleteLinkButton": {
+			"title": "Baglanyşygy poz"
+		},
+		"mergeCellsButton": {
+			"title": "Öýjükleri birleşdiriň"
+		},
+		"unmergeCellsButton": {
+			"title": "Öýjükleri birleşdiriň"
+		},
+		"fillCells": {
+			"title": "Öýjükleri dolduryň"
+		},
+		"allBordersButton": {
+			"title": "Allhli serhetler"
+		},
+		"thickOutsideBordersButton": {
+			"title": "Serhetleriň daşyndaky galyňlyk"
+		},
+		"autoFitRowHeightButton": {
+			"title": "Setiriň beýikligini “AutoFit”"
+		},
+		"autoFitColumnWidthButton": {
+			"title": "Sütüniň giňligini “AutoFit”"
+		},
+		"insertRowsButton": {
+			"title": "Setirleri salyň"
+		},
+		"insertColumnsButton": {
+			"title": "Sütünleri salyň"
+		},
+		"insertCellsAndShiftRightButton": {
+			"title": "Öýjügi salyň we saga süýşüriň"
+		},
+		"insertCellsAndShiftDownButton": {
+			"title": "Öýjügi salyň we aşak süýşüriň"
+		},
+		"insertSheetButton": {
+			"title": "Iş sahypasyny salyň"
+		},
+		"insertFunctionButton": {
+			"title": "Funksiýa goýmak"
+		},
+		"insertLinkButton": {
+			"title": "Salgy goýuň"
+		},
+		"insertCommentButton": {
+			"title": "Düşündiriş"
+		},
+		"insertPictureButton": {
+			"title": "Surat goşuň"
+		},
+		"insertChartButton": {
+			"title": "Diagramma sal"
+		},
+		"editCommentButton": {
+			"title": "Teswirleri redaktirläň"
+		},
+		"deleteCommentButton": {
+			"title": "Teswirleri pozuň"
+		},
+		"previousCommentButton": {
+			"title": "Öňki teswir"
+		},
+		"nextCommentButton": {
+			"title": "Indiki teswir"
+		},
+		"formulaPanel-cancelChangeButton": {
+			"title": "Üýtgemegi ýatyryň"
+		},
+		"formulaPanel-applyChangeButton": {
+			"title": "Üýtgeşmäni ulanyň"
+		},
+		"formulaPanel-fullScreenButton": {
+			"title": "Doly ekran"
+		},
+		"scrollToFirstWorksheetButton": {
+			"title": "Ilkinji iş sahypasyna aýlaň"
+		},
+		"scrollToLastWorksheetButton": {
+			"title": "Iň soňky iş sahypasyna aýlaň"
+		},
+		"addWorksheetButton": {
+			"title": "Iş sahypasyny goşuň"
+		},
+		"showWorksheetListButton": {
+			"title": "Iş sahypasynyň sanawyny görkeziň"
+		},
+		"zoomOutButton": {
+			"title": "Ulaltmak"
+		},
+		"zoomValueLabel": {
+			"text": "100%"
+		},
+		"zoomInButton": {
+			"title": "Ýakynlaşdyrmak"
+		},
+		"enUsCurrencyNumberFormatButton": {
+			"title": "Iňlis dili (ABŞ)"
+		},
+		"enUkCurrencyNumberFormatButton": {
+			"title": "£ Iňlis (Beýik Britaniýa)"
+		},
+		"euCurrencyNumberFormatButton": {
+			"title": "€ Euroewro (€ 123)"
+		},
+		"ruCurrencyNumberFormatButton": {
+			"title": "₽ Rus"
+		},
+		"chCurrencyNumberFormatButton": {
+			"title": "¥ Hytaý"
+		},
+		"enInCurrencyNumberFormatButton": {
+			"title": "₹ Iňlis (Hindistan)"
+		},
+		"fillCellsDownButton": {
+			"title": "Doldur"
+		},
+		"fillCellsUpButton": {
+			"title": "Doldur"
+		},
+		"fillCellsLeftButton": {
+			"title": "Çep dolduryň"
+		},
+		"fillCellsRightButton": {
+			"title": "Dogry dolduryň"
+		},
+		"noBordersButton": {
+			"title": "Serhet ýok"
+		},
+		"outsideBordersButton": {
+			"title": "Serhetleriň daşynda"
+		},
+		"bottomBorderButton": {
+			"title": "Aşakdaky serhet"
+		},
+		"topBorderButton": {
+			"title": "Iň ýokary serhet"
+		},
+		"rightBorderButton": {
+			"title": "Sag serhet"
+		},
+		"leftBorderButton": {
+			"title": "Çep serhet"
+		},
+		"thickBottomBorderButton": {
+			"title": "Galyň aşaky serhet"
+		},
+		"thickLeftBorderButton": {
+			"title": "Galyň çep serhet"
+		},
+		"doubleBottomBorderButton": {
+			"title": "Iki aşaky serhet"
+		},
+		"doubleLeftBorderButton": {
+			"title": "Iki gezek çep araçäk"
+		},
+		"borderColorButton": {
+			"title": "Serhet reňki"
+		},
+		"copyWorksheetLabel": {
+			"text": "Iş sahypasyny göçüriň"
+		},
+		"deleteWorksheetLabel": {
+			"text": "Iş sahypasyny pozuň"
+		},
+		"renameWorksheetLabel": {
+			"text": "Iş sahypasynyň adyny üýtgediň"
+		},
+		"moveWorksheetLabel": {
+			"text": "Iş sahypasyny süýşüriň"
+		},
+		"copyLabel": {
+			"text": "Göçüriň"
+		},
+		"cutLabel": {
+			"text": "Kesiň"
+		},
+		"pasteLabel": {
+			"text": "Goýuň"
+		},
+		"clearContentsLabel": {
+			"text": "Mazmuny arassalamak"
+		},
+		"insertCellAndShiftRightLabel": {
+			"text": "Öýjügi salyň we saga süýşüriň"
+		},
+		"insertCellAndShiftDownLabel": {
+			"text": "Öýjügi salyň we aşak süýşüriň"
+		},
+		"insertEntireRowLabel": {
+			"text": "Bütin hatary salyň"
+		},
+		"insertEntireColumnLabel": {
+			"text": "Sütüniň hemmesini salyň"
+		},
+		"deleteImageLabel": {
+			"text": "Öçür"
+		},
+		"propertiesLabel": {
+			"text": "Sypatlar ..."
+		},
+		"deleteCellAndShiftLeftLabel": {
+			"text": "Öýjügi we çepe süýşüriň"
+		},
+		"deleteCellAndShiftUpLabel": {
+			"text": "Öýjügi pozuň we ýokaryk galdyryň"
+		},
+		"deleteEntireRowLabel": {
+			"text": "Bütin hatary pozuň"
+		},
+		"deleteEntireColumnLabel": {
+			"text": "Sütüniň hemmesini poz"
+		},
+		"insertRowsLabel": {
+			"text": "Setirleri salyň"
+		},
+		"deleteRowsLabel": {
+			"text": "Setirleri poz"
+		},
+		"insertColumnsLabel": {
+			"text": "Sütünleri salyň"
+		},
+		"deleteColumnsLabel": {
+			"text": "Sütünleri pozuň"
+		},
+		"insertCommentLabel": {
+			"text": "Teswir goşmak ..."
+		},
+		"editCommentLabel": {
+			"text": "Düşündiriş redaktirläň ..."
+		},
+		"deleteCommentLabel": {
+			"text": "Teswirleri pozuň"
+		},
+		"showHideCommentLabel": {
+			"text": "Teswir görkez / gizle"
+		},
+		"hideCommentLabel": {
+			"text": "Teswirleri gizläň"
+		},
+		"hideRowsLabel": {
+			"text": "Setirleri gizläň"
+		},
+		"unhideRowsLabel": {
+			"text": "Setirleri gizle"
+		},
+		"hideColumnsLabel": {
+			"text": "Sütünleri gizläň"
+		},
+		"unhideColumnsLabel": {
+			"text": "Sütünleri gizläň"
+		},
+		"insertCommentDialog": {
+			"authorLabel": {
+				"text": "Awtory:"
+			},
+			"showAuthorLabel": {
+				"text": "Awtory görkez"
+			},
+			"commentLabel": {
+				"text": "Düşündiriş:"
+			},
+			"okButton": {
+				"value": "Bolýar"
+			},
+			"cancelButton": {
+				"value": "Elatyr"
+			}
+		},
+		"commentEditDialog": {
+			"authorLabel": {
+				"text": "Awtory:"
+			},
+			"showAuthorLabel": {
+				"text": "Awtory görkez"
+			},
+			"commentLabel": {
+				"text": "Düşündiriş:"
+			},
+			"okButton": {
+				"value": "Bolýar"
+			},
+			"cancelButton": {
+				"value": "Elatyr"
+			}
+		},
+		"editChartDialog": {
+			"titleLabel": {
+				"text": "Ady:"
+			},
+			"okButton": {
+				"value": "Bolýar"
+			},
+			"cancelButton": {
+				"value": "Elatyr"
+			}
+		},
+		"renameWorksheetDialog": {
+			"nameLabel": {
+				"text": "Ady:"
+			},
+			"okButton": {
+				"value": "Bolýar"
+			},
+			"cancelButton": {
+				"value": "Elatyr"
+			}
+		},
+		"moveWorksheetDialog": {
+			"moveUpButton": {
+				"value": "Yokary çykmak"
+			},
+			"moveDownButton": {
+				"value": "Aşak süýşüriň"
+			},
+			"okButton": {
+				"value": "Bolýar"
+			},
+			"cancelButton": {
+				"value": "Elatyr"
+			}
+		},
+		"findTextDialog": {
+			"findTextLabel": {
+				"text": "Tekst tap"
+			},
+			"findWhatLabel": {
+				"text": "Näme tapyň:"
+			},
+			"withinLabel": {
+				"text": "Içinde:"
+			},
+			"Sheet": {
+				"text": "Sahypa"
+			},
+			"Workbook": {
+				"text": "Iş kitaby"
+			},
+			"searchLabel": {
+				"text": "Gözleg:"
+			},
+			"ByRows": {
+				"text": "Setirler boýunça"
+			},
+			"ByColumns": {
+				"text": "Sütünler boýunça"
+			},
+			"lookInLabel": {
+				"text": "Serediň:"
+			},
+			"Formulas": {
+				"text": "Formulalar"
+			},
+			"Values": {
+				"text": "Gymmatlyklar"
+			},
+			"Comments": {
+				"text": "Teswirler"
+			},
+			"matchCaseLabel": {
+				"text": "Gabat gelýän ýagdaý"
+			},
+			"matchEntireContentLabel": {
+				"text": "Contenthli mazmuny deňeşdiriň"
+			},
+			"findNextButton": {
+				"value": "Indiki tap"
+			},
+			"closeButton": {
+				"value": ".Akyn"
+			}
+		},
+		"selectFunctionDialog": {
+			"categoryLabel": {
+				"text": "Kategoriýa:"
+			},
+			"categoryDropDown": {
+				"All": {
+					"text": "Hemmesi"
+				},
+				"Financial": {
+					"text": "Maliýe"
+				},
+				"DateAndTime": {
+					"text": "DateAndTime"
+				},
+				"MathAndTrig": {
+					"text": "MathAndTrig"
+				},
+				"Statistical": {
+					"text": "Statistik"
+				},
+				"LookupAndReference": {
+					"text": "LookupAndReference"
+				},
+				"Text": {
+					"text": "Tekst"
+				},
+				"Logical": {
+					"text": "Mantykly"
+				},
+				"Information": {
+					"text": "Maglumat"
+				},
+				"Engineering": {
+					"text": "In Engineeringenerçilik"
+				}
+			},
+			"selectFunctionLabel": {
+				"text": "Funksiýa saýlaň:"
+			},
+			"okButton": {
+				"value": "Bolýar"
+			},
+			"cancelButton": {
+				"value": "Elatyr"
+			}
+		},
+		"setCellNumberFormatDialog": {
+			"General": {
+				"text": "General"
+			},
+			"Number": {
+				"text": "San"
+			},
+			"Currency": {
+				"text": "Walýuta"
+			},
+			"Date": {
+				"text": "Sene"
+			},
+			"Time": {
+				"text": "Wagt"
+			},
+			"Percentage": {
+				"text": "Göterim"
+			},
+			"Scientific": {
+				"text": "Ylmy"
+			},
+			"Text": {
+				"text": "Tekst"
+			},
+			"Custom": {
+				"text": "Omörite"
+			},
+			"generalFormatDescriptionLabel": {
+				"text": "Umumy format öýjükleriniň belli bir san formaty ýok."
+			},
+			"numberDecimalPlacesLabel": {
+				"text": "Onluk ýerler:"
+			},
+			"useThousandsSeparatorLabel": {
+				"text": "1000 bölüji ulanyň"
+			},
+			"numberNegativeValuesLabel": {
+				"text": "Ativearamaz gymmatlyklar:"
+			},
+			"changeTextColorToRedLabel": {
+				"text": "Tekstiň reňkini gyzyl reňkde üýtgediň"
+			},
+			"hideMinusSignLabel": {
+				"text": "Minus belgisini gizläň"
+			},
+			"currencyDecimalPlacesLabel": {
+				"text": "Onluk ýerler:"
+			},
+			"currencySymbolLabel": {
+				"text": "Nyşan:"
+			},
+			"percentageDecimalPlacesLabel": {
+				"text": "Onluk ýerler:"
+			},
+			"scientificDecimalPlacesLabel": {
+				"text": "Onluk ýerler:"
+			},
+			"textFormatDescriptionLabel": {
+				"text": "Tekst format öýjükleri san öýjükde bolsa-da tekst hökmünde kabul edilýär."
+			},
+			"okButton": {
+				"value": "Bolýar"
+			},
+			"cancelButton": {
+				"value": "Elatyr"
+			}
+		},
+		"insertChartDialog": {
+			"okButton": {
+				"value": "Bolýar"
+			},
+			"cancelButton": {
+				"value": "Elatyr"
+			}
+		}
+	},
+	"strings": {
+		"vssde-documentIsOpening": "Resminama açylýar ...",
+		"vssde-numberFormat-general": "General",
+		"vssde-numberFormat-number": "San",
+		"vssde-numberFormat-date": "Sene",
+		"vssde-numberFormat-time": "Wagt",
+		"vssde-numberFormat-currency": "Walýuta",
+		"vssde-numberFormat-percentage": "Göterim",
+		"vssde-numberFormat-scientific": "Ylmy",
+		"vssde-numberFormat-text": "Tekst",
+		"vssde-numberFormat-custom": "Omörite",
+		"vssde-findTextPanel-sheet": "Sahypa",
+		"vssde-findTextPanel-workbook": "Iş kitaby",
+		"vssde-findTextPanel-byRows": "Setirler boýunça",
+		"vssde-findTextPanel-byColumns": "Sütünler boýunça",
+		"vssde-findTextPanel-formulas": "Formulalar",
+		"vssde-findTextPanel-values": "Gymmatlyklar",
+		"vssde-findTextPanel-comments": "Teswirler",
+		"vssde-findTextPanel-textIsNotFound": "'{0}' teksti tapylmady",
+		"vssde-selectFunctionPanel-all": "Hemmesi",
+		"vssde-createXlsxDocument": "Täze XLSX resminama dörediň",
+		"vssde-uploadXlsxFile": "XLSX faýly ýükläň",
+		"vssde-downloadXlsxFile": "XLSX faýly göçürip alyň",
+		"vssde-exportXlsxToPdf": "XLSX-ni PDF-e eksport ediň",
+		"vssde-fileSizeExceedsLimit": "Uploadüklenen faýlyň ululygy iň uly ululykdan ({0} baýt) geçýär.",
+		"vssde-createXlsxDocumentConfirmation": "Täze iş kitabyny döretmek isleýärsiňizmi?",
+		"vssde-insertCommentDialog-title": "Düşündiriş",
+		"vssde-dialog-okButton": "Bolýar",
+		"vssde-dialog-cancelButton": "Elatyr",
+		"vssde-editCommentDialog-title": "Teswirleri redaktirläň",
+		"vssde-editChartDialog-title": "Diagrammany redaktirläň",
+		"vssde-editChartPropertiesPanel-spreadsheetEditorDoesNotHaveFocusedChart": "Elektron tablisasynyň redaktory ünsi jemlemeýär.",
+		"vssde-editChartPropertiesPanel-selectedDrawingIsNotChart": "Saýlanan çyzgy diagramma däl.",
+		"vssde-renameWorksheetDialog-title": "Iş sahypasynyň adyny üýtgediň",
+		"vssde-moveWorksheetDialog-title": "Iş sahypasyny göçüriň",
+		"vssde-findTextDialog-title": "Tekst tap",
+		"vssde-findTextDialog-findNextButton": "Indiki tap",
+		"vssde-dialog-closeButton": ".Akyn",
+		"vssde-selectFunctionDialog-title": "Funksiýa goýmak",
+		"vssde-cellNumberFormatDialog-title": "Öýjük formaty",
+		"vssde-insertChartDialog-title": "Diagramma sal",
+		"vssde-insertChartPanel-chartType-column": "Sütün",
+		"vssde-insertChartPanel-chartType-line": "Setir",
+		"vssde-insertChartPanel-chartType-pie": "Pirog",
+		"vssde-insertChartPanel-chartType-bar": "Bar",
+		"vssde-insertChartPanel-chartType-area": "Meýdany",
+		"vssde-insertChartPanel-chartSubtype-clusteredColumn": "Topar sütüni",
+		"vssde-insertChartPanel-chartSubtype-stackedColumn": "Sütün",
+		"vssde-insertChartPanel-chartSubtype-100%StackedColumn": "100% sütün",
+		"vssde-insertChartPanel-chartSubtype-3DClusteredColumn": "3D toparlanan sütün",
+		"vssde-insertChartPanel-chartSubtype-3DStackedColumn": "3D görnüşli sütün",
+		"vssde-insertChartPanel-chartSubtype-3D100%StackedColumn": "3D 100% sütün",
+		"vssde-insertChartPanel-chartSubtype-line": "Setir",
+		"vssde-insertChartPanel-chartSubtype-stackedLine": "Setirlenen çyzyk",
+		"vssde-insertChartPanel-chartSubtype-100%StackedLine": "100% setir",
+		"vssde-insertChartPanel-chartSubtype-lineWithMarkers": "Markerler bilen çyzyk",
+		"vssde-insertChartPanel-chartSubtype-stackedLineWithMarkers": "Markerler bilen düzülen setir",
+		"vssde-insertChartPanel-chartSubtype-100%StackedLineWithMar": "Markerler bilen 100% setir",
+		"vssde-insertChartPanel-chartSubtype-curvedLine": "Egri çyzyk",
+		"vssde-insertChartPanel-chartSubtype-stackedCurvedLine": "Egrilen çyzyk",
+		"vssde-insertChartPanel-chartSubtype-100%StackedCurvedLine": "100% egrilen çyzyk",
+		"vssde-insertChartPanel-chartSubtype-curvedLineWithMarkers": "Markerler bilen egri çyzyk",
+		"vssde-insertChartPanel-chartSubtype-stackedCurvLineWithMark": "Markerler bilen egrilen çyzyk",
+		"vssde-insertChartPanel-chartSubtype-100%StackedCurvLineMark": "Markerler bilen 100% egrilen çyzyk",
+		"vssde-insertChartPanel-chartSubtype-pie": "Pirog",
+		"vssde-insertChartPanel-chartSubtype-pieExplosion": "Pirog (Partlama)",
+		"vssde-insertChartPanel-chartSubtype-doughnut": "Donut",
+		"vssde-insertChartPanel-chartSubtype-clusteredBar": "Toplumly bar",
+		"vssde-insertChartPanel-chartSubtype-stackedBar": "Berkidilen bar",
+		"vssde-insertChartPanel-chartSubtype-100%StackedBar": "100% gaplanan bar",
+		"vssde-insertChartPanel-chartSubtype-area": "Meýdany",
+		"vssde-insertChartPanel-chartSubtype-stackedArea": "Toplanan meýdan",
+		"vssde-insertChartPanel-chartSubtype-100%StackedArea": "100% gaplanan meýdan",
+		"vssde-insertChartPanel-fileArg0IsNotFound": "'{0}' faýly tapylmady",
+		"vssde-insertChartPanel-supportedChartTypesAreNotFound": "Goldanýan diagramma görnüşleri tapylmady.",
+		"vssde-insertChartPanel-notSupportedChartType": "Goldaw berilmeýän diagramma görnüşi.",
+		"vssde-insertChartPanel-supportedChartSubtypesAreNotFound": "Goldanýan diagramma görnüşleri tapylmady.",
+		"vssde-insertChartPanel-notSupportedChartSubtype": "Goldaw berilmeýän diagramma görnüşi.",
+		"vssde-insertChartPanel-chartTemplateContainsTwoIdenticalNamesForChartSubtypes": "Diagramma şablony diagrammanyň kiçi görnüşleri üçin 2 meňzeş aty öz içine alýar.",
+		"vssde-insertChartPanel-chartTemplateContainsTwoIdenticalNamesForChartTypes": "Diagramma şablony diagramma görnüşleri üçin 2 meňzeş aty öz içine alýar.",
+		"vssde-insertChartPanel-pleaseSpecifyCellsWhichContainTheChartDataIncludeNamesForRowsAndColumns": "Diagramma maglumatlaryny öz içine alýan öýjükleri görkezmegiňizi haýyş edýäris (hatarlaryň we sütünleriň atlaryny goşuň).",
+		"vssde-insertChartPanel-chartSubtypeArg0HasMultipleDeclarationsOnDifferentWorksheets": "'{0}' diagramma görnüşiniň dürli iş sahypalarynda birnäçe beýany bar.",
+		"vssde-insertChartPanel-sheetArg0IsNotFound": "'{0}' sahypasy tapylmady"
+	}
+}

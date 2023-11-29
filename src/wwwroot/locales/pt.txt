@@ -155,6 +155,9 @@
 		"deletePictureButton": {
 			"title": "Excluir foto"
 		},
+		"deleteLinkButton": {
+			"title": "Excluir link"
+		},
 		"mergeCellsButton": {
 			"title": "Mesclar células"
 		},
@@ -193,6 +196,9 @@
 		},
 		"insertFunctionButton": {
 			"title": "Inserir função"
+		},
+		"insertLinkButton": {
+			"title": "Inserir hiperlink"
 		},
 		"insertCommentButton": {
 			"title": "Inserir comentário"
@@ -235,18 +241,6 @@
 		},
 		"showWorksheetListButton": {
 			"title": "Mostrar lista de folhas"
-		},
-		"copyWorksheetButton": {
-			"title": "Copiar folha"
-		},
-		"deleteWorksheetButton": {
-			"title": "Excluir planilha"
-		},
-		"renameWorksheetButton": {
-			"title": "Renomear planilha"
-		},
-		"moveWorksheetButton": {
-			"title": "Move Folha"
 		},
 		"zoomOutButton": {
 			"title": "Zoom Out"
@@ -319,6 +313,18 @@
 		},
 		"borderColorButton": {
 			"title": "Cor da borda"
+		},
+		"copyWorksheetLabel": {
+			"text": "Copiar folha"
+		},
+		"deleteWorksheetLabel": {
+			"text": "Excluir planilha"
+		},
+		"renameWorksheetLabel": {
+			"text": "Renomear planilha"
+		},
+		"moveWorksheetLabel": {
+			"text": "Move Folha"
 		},
 		"copyLabel": {
 			"text": "Copiar"
@@ -533,16 +539,16 @@
 					"text": "Financeiro"
 				},
 				"DateAndTime": {
-					"text": "Data e hora"
+					"text": "DateAndTime"
 				},
 				"MathAndTrig": {
-					"text": "Matemática"
+					"text": "MathAndTrig"
 				},
 				"Statistical": {
 					"text": "Estatístico"
 				},
 				"LookupAndReference": {
-					"text": "Referências e matrizes"
+					"text": "LookupAndReference"
 				},
 				"Text": {
 					"text": "Texto"

@@ -155,6 +155,9 @@
 		"deletePictureButton": {
 			"title": "Выдаліць карцінку"
 		},
+		"deleteLinkButton": {
+			"title": "Выдаліць спасылку"
+		},
 		"mergeCellsButton": {
 			"title": "Аб'яднаць вочкі"
 		},
@@ -193,6 +196,9 @@
 		},
 		"insertFunctionButton": {
 			"title": "Уставіць функцыю"
+		},
+		"insertLinkButton": {
+			"title": "Уставіць спасылку"
 		},
 		"insertCommentButton": {
 			"title": "Уставіць каментар"
@@ -235,18 +241,6 @@
 		},
 		"showWorksheetListButton": {
 			"title": "Паказаць спіс лістоў"
-		},
-		"copyWorksheetButton": {
-			"title": "Скапіяваць ліст"
-		},
-		"deleteWorksheetButton": {
-			"title": "Выдаліць ліст"
-		},
-		"renameWorksheetButton": {
-			"title": "Перайменаваць ліст"
-		},
-		"moveWorksheetButton": {
-			"title": "Перамясціць ліст"
 		},
 		"zoomOutButton": {
 			"title": "Зменшыць маштаб"
@@ -319,6 +313,18 @@
 		},
 		"borderColorButton": {
 			"title": "Колер мяжы"
+		},
+		"copyWorksheetLabel": {
+			"text": "Скапіяваць ліст"
+		},
+		"deleteWorksheetLabel": {
+			"text": "Выдаліць ліст"
+		},
+		"renameWorksheetLabel": {
+			"text": "Перайменаваць ліст"
+		},
+		"moveWorksheetLabel": {
+			"text": "Перамясціць ліст"
 		},
 		"copyLabel": {
 			"text": "Копія"
@@ -533,7 +539,7 @@
 					"text": "Фінансавыя"
 				},
 				"DateAndTime": {
-					"text": "Дата і час"
+					"text": "DateAndTime"
 				},
 				"MathAndTrig": {
 					"text": "MathAndTrig"
@@ -717,7 +723,7 @@
 		"vssde-insertChartPanel-chartSubtype-area": "Плошча",
 		"vssde-insertChartPanel-chartSubtype-stackedArea": "Назапашаная вобласць",
 		"vssde-insertChartPanel-chartSubtype-100%StackedArea": "100% назапашаная плошча",
-		"vssde-insertChartPanel-fileArg0IsNotFound": "Файл "{0}" не знойдзены.",
+		"vssde-insertChartPanel-fileArg0IsNotFound": "Файл '{0}' не знойдзены.",
 		"vssde-insertChartPanel-supportedChartTypesAreNotFound": "Тыпы дыяграм, якія падтрымліваюцца, не знойдзены.",
 		"vssde-insertChartPanel-notSupportedChartType": "Тып дыяграмы не падтрымліваецца.",
 		"vssde-insertChartPanel-supportedChartSubtypesAreNotFound": "Падтрымоўваныя падтыпы дыяграм не знойдзены.",
