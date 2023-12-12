@@ -173,6 +173,9 @@
 		"thickOutsideBordersButton": {
 			"title": "Толстые внешние границы"
 		},
+		"cellBordersDropDownButton": {
+			"title": "Границы ячеек"
+		},
 		"autoFitRowHeightButton": {
 			"title": "Автоподбор высоты строки"
 		},
@@ -407,51 +410,6 @@
 		"unhideColumnsLabel": {
 			"text": "Показать столбцы"
 		},
-		"insertCommentDialog": {
-			"authorLabel": {
-				"text": "Автор:"
-			},
-			"showAuthorLabel": {
-				"text": "Показать автора"
-			},
-			"commentLabel": {
-				"text": "Комментарий:"
-			},
-			"okButton": {
-				"value": "ОК"
-			},
-			"cancelButton": {
-				"value": "Отмена"
-			}
-		},
-		"commentEditDialog": {
-			"authorLabel": {
-				"text": "Автор:"
-			},
-			"showAuthorLabel": {
-				"text": "Показать автора"
-			},
-			"commentLabel": {
-				"text": "Комментарий:"
-			},
-			"okButton": {
-				"value": "ОК"
-			},
-			"cancelButton": {
-				"value": "Отмена"
-			}
-		},
-		"editChartDialog": {
-			"titleLabel": {
-				"text": "Заголовок:"
-			},
-			"okButton": {
-				"value": "ОК"
-			},
-			"cancelButton": {
-				"value": "Отмена"
-			}
-		},
 		"renameWorksheetDialog": {
 			"nameLabel": {
 				"text": "Имя:"
@@ -573,6 +531,40 @@
 				"value": "Отмена"
 			}
 		},
+		"insertCommentDialog": {
+			"authorLabel": {
+				"text": "Автор:"
+			},
+			"showAuthorLabel": {
+				"text": "Показать автора"
+			},
+			"commentLabel": {
+				"text": "Комментарий:"
+			},
+			"okButton": {
+				"value": "ОК"
+			},
+			"cancelButton": {
+				"value": "Отмена"
+			}
+		},
+		"commentEditDialog": {
+			"authorLabel": {
+				"text": "Автор:"
+			},
+			"showAuthorLabel": {
+				"text": "Показать автора"
+			},
+			"commentLabel": {
+				"text": "Комментарий:"
+			},
+			"okButton": {
+				"value": "ОК"
+			},
+			"cancelButton": {
+				"value": "Отмена"
+			}
+		},
 		"setCellNumberFormatDialog": {
 			"General": {
 				"text": "Общий"
@@ -648,26 +640,45 @@
 			"cancelButton": {
 				"value": "Отмена"
 			}
+		},
+		"editChartDialog": {
+			"titleLabel": {
+				"text": "Заголовок:"
+			},
+			"okButton": {
+				"value": "ОК"
+			},
+			"cancelButton": {
+				"value": "Отмена"
+			}
+		},
+		"editHyperlinkDialog": {
+			"urlRadioLabel": {
+				"text": "Веб-страница"
+			},
+			"referenceRadioLabel": {
+				"text": "Ссылка на ячейку"
+			},
+			"addressLabel": {
+				"text": "Адрес:"
+			},
+			"referenceLabel": {
+				"text": "Ссылка на ячейку:"
+			},
+			"sheetLabel": {
+				"text": "Лист:"
+			},
+			"okButton": {
+				"value": "ОК"
+			},
+			"cancelButton": {
+				"value": "Отмена"
+			}
 		}
 	},
 	"strings": {
 		"vssde-documentIsOpening": "Документ открывается...",
-		"vssde-numberFormat-general": "Общий",
-		"vssde-numberFormat-number": "Числовой",
-		"vssde-numberFormat-date": "Дата",
-		"vssde-numberFormat-time": "Время",
-		"vssde-numberFormat-currency": "Денежный",
-		"vssde-numberFormat-percentage": "Процентный",
-		"vssde-numberFormat-scientific": "Экспоненциальный",
-		"vssde-numberFormat-text": "Текстовый",
 		"vssde-numberFormat-custom": "Пользовательский",
-		"vssde-findTextPanel-sheet": "На листе",
-		"vssde-findTextPanel-workbook": "В книге",
-		"vssde-findTextPanel-byRows": "В строках",
-		"vssde-findTextPanel-byColumns": "В столбцах",
-		"vssde-findTextPanel-formulas": "Формулы",
-		"vssde-findTextPanel-values": "Значения",
-		"vssde-findTextPanel-comments": "Комментарии",
 		"vssde-findTextPanel-textIsNotFound": "Текст '{0}' не найден.",
 		"vssde-selectFunctionPanel-all": "Все",
 		"vssde-createXlsxDocument": "Создать новый документ XLSX",
@@ -675,20 +686,30 @@
 		"vssde-downloadXlsxFile": "Выгрузить файл XLSX",
 		"vssde-exportXlsxToPdf": "Экспорт XLSX в PDF",
 		"vssde-fileSizeExceedsLimit": "Размер загруженного файла превышает максимальный размер ({0} байт).",
+		"vssde-error-noError": "Нет ошибки.",
+		"vssde-error-divisionByZero": "Любое число (включая ноль) или любой код ошибки делится на ноль.",
+		"vssde-error-cellRefCannotBeEvaluated": "Ссылку на ячейку невозможно оценить, поскольку значение ячейки не было получено или вычислено.",
+		"vssde-error-valueIsNotAvailable": "Указанное значение недоступно.",
+		"vssde-error-wrongName": "Похоже, имя используется, но оно не определено.",
+		"vssde-error-twoAreasNotIntersecting": "Две области должны пересекаться, но этого не происходит.",
+		"vssde-error-notCorrectValue": "Аргумент функции имеет совместимый тип, но значение находится за пределами домена, в котором определена эта функция.",
+		"vssde-error-cannotEvaluateCellRef": "Ссылку на ячейку невозможно оценить.",
+		"vssde-error-incompatibleType": "В функцию передается аргумент несовместимого типа или с оператором используется операнд несовместимого типа.",
+		"vssde-error-unknownError": "Неизвестная ошибка.",
+		"vssde-error-externalError": "Внешняя ошибка.",
+		"vssde-uriOpen-question": "Открыть URL-адрес '{0}'?",
+		"vssde-uriOpen-wrongUri": "Адрес этого сайта недействителен: {0}",
 		"vssde-createXlsxDocumentConfirmation": "Вы хотите создать новую книгу?",
-		"vssde-insertCommentDialog-title": "Вставить комментарий",
+		"vssde-renameWorksheetDialog-title": "Переименовать лист",
 		"vssde-dialog-okButton": "ОК",
 		"vssde-dialog-cancelButton": "Отмена",
-		"vssde-editCommentDialog-title": "Редактировать комментарий",
-		"vssde-editChartDialog-title": "Редактировать диаграмму",
-		"vssde-editChartPropertiesPanel-spreadsheetEditorDoesNotHaveFocusedChart": "В редакторе электронных таблиц нет сфокусированной диаграммы.",
-		"vssde-editChartPropertiesPanel-selectedDrawingIsNotChart": "Выбранный рисунок не является диаграммой.",
-		"vssde-renameWorksheetDialog-title": "Переименовать лист",
 		"vssde-moveWorksheetDialog-title": "Переместить лист",
 		"vssde-findTextDialog-title": "Найти текст",
 		"vssde-findTextDialog-findNextButton": "Найти далее",
 		"vssde-dialog-closeButton": "Закрыть",
 		"vssde-selectFunctionDialog-title": "Вставить функцию",
+		"vssde-insertCommentDialog-title": "Вставить комментарий",
+		"vssde-editCommentDialog-title": "Редактировать комментарий",
 		"vssde-cellNumberFormatDialog-title": "Формат ячейки",
 		"vssde-insertChartDialog-title": "Вставить диаграмму",
 		"vssde-insertChartPanel-chartType-column": "Гистограмма",
@@ -732,6 +753,11 @@
 		"vssde-insertChartPanel-chartTemplateContainsTwoIdenticalNamesForChartTypes": "Шаблон диаграммы содержит два одинаковых имени для типов диаграмм.",
 		"vssde-insertChartPanel-pleaseSpecifyCellsWhichContainTheChartDataIncludeNamesForRowsAndColumns": "Укажите ячейки, содержащие данные диаграммы (включите названия строк и столбцов).",
 		"vssde-insertChartPanel-chartSubtypeArg0HasMultipleDeclarationsOnDifferentWorksheets": "Подтип диаграммы '{0}' имеет несколько объявлений на разных листах.",
-		"vssde-insertChartPanel-sheetArg0IsNotFound": "Лист '{0}' не найден."
+		"vssde-insertChartPanel-sheetArg0IsNotFound": "Лист '{0}' не найден.",
+		"vssde-editChartDialog-title": "Редактировать диаграмму",
+		"vssde-editChartPropertiesPanel-spreadsheetEditorDoesNotHaveFocusedChart": "В редакторе электронных таблиц нет сфокусированной диаграммы.",
+		"vssde-editChartPropertiesPanel-selectedDrawingIsNotChart": "Выбранный рисунок не является диаграммой.",
+		"vssde-editHyperlinkDialog-addTitle": "Добавить гиперссылку",
+		"vssde-editHyperlinkDialog-editTitle": "Редактировать гиперссылку"
 	}
 }

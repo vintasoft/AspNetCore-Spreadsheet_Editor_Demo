@@ -173,6 +173,9 @@
 		"thickOutsideBordersButton": {
 			"title": "حدود خارجية سميكة"
 		},
+		"cellBordersDropDownButton": {
+			"title": "حدود الخلية"
+		},
 		"autoFitRowHeightButton": {
 			"title": "احتواء تلقائي لارتفاع الصف"
 		},
@@ -407,51 +410,6 @@
 		"unhideColumnsLabel": {
 			"text": "إظهار الأعمدة"
 		},
-		"insertCommentDialog": {
-			"authorLabel": {
-				"text": "مؤلف:"
-			},
-			"showAuthorLabel": {
-				"text": "عرض المؤلف"
-			},
-			"commentLabel": {
-				"text": "تعليق:"
-			},
-			"okButton": {
-				"value": "موافق"
-			},
-			"cancelButton": {
-				"value": "إلغاء"
-			}
-		},
-		"commentEditDialog": {
-			"authorLabel": {
-				"text": "مؤلف:"
-			},
-			"showAuthorLabel": {
-				"text": "عرض المؤلف"
-			},
-			"commentLabel": {
-				"text": "تعليق:"
-			},
-			"okButton": {
-				"value": "موافق"
-			},
-			"cancelButton": {
-				"value": "إلغاء"
-			}
-		},
-		"editChartDialog": {
-			"titleLabel": {
-				"text": "عنوان:"
-			},
-			"okButton": {
-				"value": "موافق"
-			},
-			"cancelButton": {
-				"value": "إلغاء"
-			}
-		},
 		"renameWorksheetDialog": {
 			"nameLabel": {
 				"text": "الاسم:"
@@ -573,6 +531,40 @@
 				"value": "إلغاء"
 			}
 		},
+		"insertCommentDialog": {
+			"authorLabel": {
+				"text": "مؤلف:"
+			},
+			"showAuthorLabel": {
+				"text": "عرض المؤلف"
+			},
+			"commentLabel": {
+				"text": "تعليق:"
+			},
+			"okButton": {
+				"value": "موافق"
+			},
+			"cancelButton": {
+				"value": "إلغاء"
+			}
+		},
+		"commentEditDialog": {
+			"authorLabel": {
+				"text": "مؤلف:"
+			},
+			"showAuthorLabel": {
+				"text": "عرض المؤلف"
+			},
+			"commentLabel": {
+				"text": "تعليق:"
+			},
+			"okButton": {
+				"value": "موافق"
+			},
+			"cancelButton": {
+				"value": "إلغاء"
+			}
+		},
 		"setCellNumberFormatDialog": {
 			"General": {
 				"text": "عام"
@@ -648,26 +640,45 @@
 			"cancelButton": {
 				"value": "إلغاء"
 			}
+		},
+		"editChartDialog": {
+			"titleLabel": {
+				"text": "عنوان:"
+			},
+			"okButton": {
+				"value": "موافق"
+			},
+			"cancelButton": {
+				"value": "إلغاء"
+			}
+		},
+		"editHyperlinkDialog": {
+			"urlRadioLabel": {
+				"text": "صفحة على الإنترنت"
+			},
+			"referenceRadioLabel": {
+				"text": "مرجع الخلية"
+			},
+			"addressLabel": {
+				"text": "العنوان:"
+			},
+			"referenceLabel": {
+				"text": "مرجع الخلية:"
+			},
+			"sheetLabel": {
+				"text": "الورقة:"
+			},
+			"okButton": {
+				"value": "موافق"
+			},
+			"cancelButton": {
+				"value": "إلغاء"
+			}
 		}
 	},
 	"strings": {
 		"vssde-documentIsOpening": "المستند مفتوح ...",
-		"vssde-numberFormat-general": "عام",
-		"vssde-numberFormat-number": "رقمي",
-		"vssde-numberFormat-date": "التاريخ",
-		"vssde-numberFormat-time": "الوقت",
-		"vssde-numberFormat-currency": "المال",
-		"vssde-numberFormat-percentage": "النسبة المئوية",
-		"vssde-numberFormat-scientific": "أسي",
-		"vssde-numberFormat-text": "نص",
 		"vssde-numberFormat-custom": "مخصص",
-		"vssde-findTextPanel-sheet": "على الورقة",
-		"vssde-findTextPanel-workbook": "في الكتاب",
-		"vssde-findTextPanel-byRows": "في السطور",
-		"vssde-findTextPanel-byColumns": "في الأعمدة",
-		"vssde-findTextPanel-formulas": "الصيغ",
-		"vssde-findTextPanel-values": "القيم",
-		"vssde-findTextPanel-comments": "تعليقات",
 		"vssde-findTextPanel-textIsNotFound": "النص '{0}' غير موجود.",
 		"vssde-selectFunctionPanel-all": "الكل",
 		"vssde-createXlsxDocument": "قم بإنشاء مستند XLSX جديد",
@@ -675,20 +686,30 @@
 		"vssde-downloadXlsxFile": "تحميل ملف XLSX",
 		"vssde-exportXlsxToPdf": "قم بتصدير XLSX إلى PDF",
 		"vssde-fileSizeExceedsLimit": "حجم الملف الذي تم تحميله يتجاوز الحد الأقصى للحجم ({0} بايت).",
+		"vssde-error-noError": "لا خطأ.",
+		"vssde-error-divisionByZero": "أي رقم (بما في ذلك الصفر) أو أي رمز خطأ يتم قسمته على صفر.",
+		"vssde-error-cellRefCannotBeEvaluated": "لا يمكن تقييم مرجع الخلية لأنه لم يتم استرداد قيمة الخلية أو حسابها.",
+		"vssde-error-valueIsNotAvailable": "القيمة المحددة غير متوفرة.",
+		"vssde-error-wrongName": "يبدو أنه تم استخدام اسم ولكن لم يتم تحديد مثل هذا الاسم.",
+		"vssde-error-twoAreasNotIntersecting": "هناك حاجة إلى منطقتين لتتقاطع ولكن لا.",
+		"vssde-error-notCorrectValue": "وسيطة الدالة لها نوع متوافق، ولكن لها قيمة خارج المجال الذي يتم تعريف تلك الدالة عليه.",
+		"vssde-error-cannotEvaluateCellRef": "لا يمكن تقييم مرجع الخلية.",
+		"vssde-error-incompatibleType": "يتم تمرير وسيطة نوع غير متوافقة إلى دالة، أو يتم استخدام معامل نوع غير متوافق مع عامل التشغيل.",
+		"vssde-error-unknownError": "خطأ غير معروف.",
+		"vssde-error-externalError": "خطأ خارجي.",
+		"vssde-uriOpen-question": "هل تريد فتح عنوان URL '{0}'؟",
+		"vssde-uriOpen-wrongUri": "عنوان هذا الموقع غير صالح: {0}",
 		"vssde-createXlsxDocumentConfirmation": "هل تريد إنشاء مصنف جديد؟",
-		"vssde-insertCommentDialog-title": "أدخل تعليق",
+		"vssde-renameWorksheetDialog-title": "إعادة تسمية الورقة",
 		"vssde-dialog-okButton": "موافق",
 		"vssde-dialog-cancelButton": "إلغاء",
-		"vssde-editCommentDialog-title": "تحرير التعليق",
-		"vssde-editChartDialog-title": "تحرير الرسم البياني",
-		"vssde-editChartPropertiesPanel-spreadsheetEditorDoesNotHaveFocusedChart": "لا يحتوي محرر جداول البيانات على مخطط مركّز.",
-		"vssde-editChartPropertiesPanel-selectedDrawingIsNotChart": "الرسم المحدد ليس مخططًا.",
-		"vssde-renameWorksheetDialog-title": "إعادة تسمية الورقة",
 		"vssde-moveWorksheetDialog-title": "نقل الورقة",
 		"vssde-findTextDialog-title": "بحث عن نص",
 		"vssde-findTextDialog-findNextButton": "بحث عن التالي",
 		"vssde-dialog-closeButton": "إغلاق",
 		"vssde-selectFunctionDialog-title": "إدراج وظيفة",
+		"vssde-insertCommentDialog-title": "أدخل تعليق",
+		"vssde-editCommentDialog-title": "تحرير التعليق",
 		"vssde-cellNumberFormatDialog-title": "تنسيق الخلية",
 		"vssde-insertChartDialog-title": "إدراج مخطط",
 		"vssde-insertChartPanel-chartType-column": "عمود",
@@ -732,6 +753,11 @@
 		"vssde-insertChartPanel-chartTemplateContainsTwoIdenticalNamesForChartTypes": "يحتوي قالب المخطط على اسمين متطابقين لأنواع المخططات.",
 		"vssde-insertChartPanel-pleaseSpecifyCellsWhichContainTheChartDataIncludeNamesForRowsAndColumns": "يرجى تحديد الخلايا التي تحتوي على بيانات المخطط (بما في ذلك أسماء الصفوف والأعمدة).",
 		"vssde-insertChartPanel-chartSubtypeArg0HasMultipleDeclarationsOnDifferentWorksheets": "يحتوي النوع الفرعي للمخطط '{0}' على إعلانات متعددة في أوراق عمل مختلفة.",
-		"vssde-insertChartPanel-sheetArg0IsNotFound": "لم يتم العثور على الورقة '{0}'."
+		"vssde-insertChartPanel-sheetArg0IsNotFound": "لم يتم العثور على الورقة '{0}'.",
+		"vssde-editChartDialog-title": "تحرير الرسم البياني",
+		"vssde-editChartPropertiesPanel-spreadsheetEditorDoesNotHaveFocusedChart": "لا يحتوي محرر جداول البيانات على مخطط مركّز.",
+		"vssde-editChartPropertiesPanel-selectedDrawingIsNotChart": "الرسم المحدد ليس مخططًا.",
+		"vssde-editHyperlinkDialog-addTitle": "إضافة ارتباط تشعبي",
+		"vssde-editHyperlinkDialog-editTitle": "تحرير الارتباط التشعبي"
 	}
 }

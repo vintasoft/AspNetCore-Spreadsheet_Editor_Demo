@@ -173,6 +173,9 @@
 		"thickOutsideBordersButton": {
 			"title": "Hrubé vonkajšie hranice"
 		},
+		"cellBordersDropDownButton": {
+			"title": "Hranice buniek"
+		},
 		"autoFitRowHeightButton": {
 			"title": "Automaticky prispôsobiť výšku riadku"
 		},
@@ -407,51 +410,6 @@
 		"unhideColumnsLabel": {
 			"text": "Odkryť stĺpce"
 		},
-		"insertCommentDialog": {
-			"authorLabel": {
-				"text": "autor:"
-			},
-			"showAuthorLabel": {
-				"text": "Zobraziť autora"
-			},
-			"commentLabel": {
-				"text": "komentár:"
-			},
-			"okButton": {
-				"value": "OK"
-			},
-			"cancelButton": {
-				"value": "Zrušiť"
-			}
-		},
-		"commentEditDialog": {
-			"authorLabel": {
-				"text": "autor:"
-			},
-			"showAuthorLabel": {
-				"text": "Zobraziť autora"
-			},
-			"commentLabel": {
-				"text": "komentár:"
-			},
-			"okButton": {
-				"value": "OK"
-			},
-			"cancelButton": {
-				"value": "Zrušiť"
-			}
-		},
-		"editChartDialog": {
-			"titleLabel": {
-				"text": "názov:"
-			},
-			"okButton": {
-				"value": "OK"
-			},
-			"cancelButton": {
-				"value": "Zrušiť"
-			}
-		},
 		"renameWorksheetDialog": {
 			"nameLabel": {
 				"text": "Názov:"
@@ -573,6 +531,40 @@
 				"value": "Zrušiť"
 			}
 		},
+		"insertCommentDialog": {
+			"authorLabel": {
+				"text": "autor:"
+			},
+			"showAuthorLabel": {
+				"text": "Zobraziť autora"
+			},
+			"commentLabel": {
+				"text": "komentár:"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Zrušiť"
+			}
+		},
+		"commentEditDialog": {
+			"authorLabel": {
+				"text": "autor:"
+			},
+			"showAuthorLabel": {
+				"text": "Zobraziť autora"
+			},
+			"commentLabel": {
+				"text": "komentár:"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Zrušiť"
+			}
+		},
 		"setCellNumberFormatDialog": {
 			"General": {
 				"text": "generál"
@@ -648,26 +640,45 @@
 			"cancelButton": {
 				"value": "Zrušiť"
 			}
+		},
+		"editChartDialog": {
+			"titleLabel": {
+				"text": "názov:"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Zrušiť"
+			}
+		},
+		"editHyperlinkDialog": {
+			"urlRadioLabel": {
+				"text": "Webstránka"
+			},
+			"referenceRadioLabel": {
+				"text": "Odkaz na bunku"
+			},
+			"addressLabel": {
+				"text": "Adresa:"
+			},
+			"referenceLabel": {
+				"text": "Odkaz na bunku:"
+			},
+			"sheetLabel": {
+				"text": "Hárok:"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Zrušiť"
+			}
 		}
 	},
 	"strings": {
 		"vssde-documentIsOpening": "Dokument sa otvára...",
-		"vssde-numberFormat-general": "generál",
-		"vssde-numberFormat-number": "číslo",
-		"vssde-numberFormat-date": "Dátum",
-		"vssde-numberFormat-time": "Čas",
-		"vssde-numberFormat-currency": "mena",
-		"vssde-numberFormat-percentage": "Percento",
-		"vssde-numberFormat-scientific": "Vedecké",
-		"vssde-numberFormat-text": "Text",
 		"vssde-numberFormat-custom": "Vlastné",
-		"vssde-findTextPanel-sheet": "List",
-		"vssde-findTextPanel-workbook": "Pracovný zošit",
-		"vssde-findTextPanel-byRows": "Podľa riadkov",
-		"vssde-findTextPanel-byColumns": "Podľa stĺpcov",
-		"vssde-findTextPanel-formulas": "Vzorce",
-		"vssde-findTextPanel-values": "hodnoty",
-		"vssde-findTextPanel-comments": "Komentáre",
 		"vssde-findTextPanel-textIsNotFound": "Text '{0}' sa nenašiel.",
 		"vssde-selectFunctionPanel-all": "Všetky",
 		"vssde-createXlsxDocument": "Vytvorte nový dokument XLSX",
@@ -675,20 +686,30 @@
 		"vssde-downloadXlsxFile": "Stiahnite si súbor XLSX",
 		"vssde-exportXlsxToPdf": "Export XLSX do PDF",
 		"vssde-fileSizeExceedsLimit": "Veľkosť odovzdaného súboru presahuje maximálnu veľkosť ({0} bajtov).",
+		"vssde-error-noError": "Žiadna chyba.",
+		"vssde-error-divisionByZero": "Akékoľvek číslo (vrátane nuly) alebo akýkoľvek chybový kód sa vydelí nulou.",
+		"vssde-error-cellRefCannotBeEvaluated": "Odkaz na bunku nemožno vyhodnotiť, pretože hodnota bunky nebola získaná ani vypočítaná.",
+		"vssde-error-valueIsNotAvailable": "Určená hodnota nie je k dispozícii.",
+		"vssde-error-wrongName": "Zdá sa, že sa používa názov, ale nebol definovaný.",
+		"vssde-error-twoAreasNotIntersecting": "Dve oblasti sa musia pretínať, ale nie.",
+		"vssde-error-notCorrectValue": "Argument funkcie má kompatibilný typ, ale má hodnotu, ktorá je mimo domény, v ktorej je funkcia definovaná.",
+		"vssde-error-cannotEvaluateCellRef": "Odkaz na bunku nemožno vyhodnotiť.",
+		"vssde-error-incompatibleType": "Funkcii sa odovzdá argument nekompatibilného typu alebo sa použije operand nekompatibilného typu s operátorom.",
+		"vssde-error-unknownError": "Neznáma chyba.",
+		"vssde-error-externalError": "Externá chyba.",
+		"vssde-uriOpen-question": "Otvoriť adresu URL '{0}'?",
+		"vssde-uriOpen-wrongUri": "Adresa tejto stránky nie je platná: {0}",
 		"vssde-createXlsxDocumentConfirmation": "Chcete vytvoriť nový zošit?",
-		"vssde-insertCommentDialog-title": "Vložte komentár",
+		"vssde-renameWorksheetDialog-title": "Premenovať pracovný hárok",
 		"vssde-dialog-okButton": "OK",
 		"vssde-dialog-cancelButton": "Zrušiť",
-		"vssde-editCommentDialog-title": "Upraviť komentár",
-		"vssde-editChartDialog-title": "Upraviť graf",
-		"vssde-editChartPropertiesPanel-spreadsheetEditorDoesNotHaveFocusedChart": "Tabuľkový editor nemá zameraný graf.",
-		"vssde-editChartPropertiesPanel-selectedDrawingIsNotChart": "Vybraný výkres nie je graf.",
-		"vssde-renameWorksheetDialog-title": "Premenovať pracovný hárok",
 		"vssde-moveWorksheetDialog-title": "Presunúť pracovný hárok",
 		"vssde-findTextDialog-title": "Nájsť text",
 		"vssde-findTextDialog-findNextButton": "Nájdi ďaľší",
 		"vssde-dialog-closeButton": "Zavrieť",
 		"vssde-selectFunctionDialog-title": "Vložiť funkciu",
+		"vssde-insertCommentDialog-title": "Vložte komentár",
+		"vssde-editCommentDialog-title": "Upraviť komentár",
 		"vssde-cellNumberFormatDialog-title": "Formát bunky",
 		"vssde-insertChartDialog-title": "Vložiť graf",
 		"vssde-insertChartPanel-chartType-column": "Stĺpec",
@@ -732,6 +753,11 @@
 		"vssde-insertChartPanel-chartTemplateContainsTwoIdenticalNamesForChartTypes": "Šablóna grafu obsahuje 2 rovnaké názvy typov grafov.",
 		"vssde-insertChartPanel-pleaseSpecifyCellsWhichContainTheChartDataIncludeNamesForRowsAndColumns": "Zadajte bunky, ktoré obsahujú údaje grafu (uveďte názvy riadkov a stĺpcov).",
 		"vssde-insertChartPanel-chartSubtypeArg0HasMultipleDeclarationsOnDifferentWorksheets": "Podtyp grafu '{0}' má viacero deklarácií na rôznych hárkoch.",
-		"vssde-insertChartPanel-sheetArg0IsNotFound": "Hárok '{0}' sa nenašiel."
+		"vssde-insertChartPanel-sheetArg0IsNotFound": "Hárok '{0}' sa nenašiel.",
+		"vssde-editChartDialog-title": "Upraviť graf",
+		"vssde-editChartPropertiesPanel-spreadsheetEditorDoesNotHaveFocusedChart": "Tabuľkový editor nemá zameraný graf.",
+		"vssde-editChartPropertiesPanel-selectedDrawingIsNotChart": "Vybraný výkres nie je graf.",
+		"vssde-editHyperlinkDialog-addTitle": "Pridať hypertextový odkaz",
+		"vssde-editHyperlinkDialog-editTitle": "Upraviť hypertextový odkaz"
 	}
 }

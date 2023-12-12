@@ -173,6 +173,9 @@
 		"thickOutsideBordersButton": {
 			"title": "Dikke buitenste randen"
 		},
+		"cellBordersDropDownButton": {
+			"title": "Celgrenzen"
+		},
 		"autoFitRowHeightButton": {
 			"title": "AutoFit de rijhoogte"
 		},
@@ -407,51 +410,6 @@
 		"unhideColumnsLabel": {
 			"text": "Toon kolommen"
 		},
-		"insertCommentDialog": {
-			"authorLabel": {
-				"text": "Auteur:"
-			},
-			"showAuthorLabel": {
-				"text": "Toon auteur"
-			},
-			"commentLabel": {
-				"text": "Opmerking:"
-			},
-			"okButton": {
-				"value": "OK"
-			},
-			"cancelButton": {
-				"value": "Annuleren"
-			}
-		},
-		"commentEditDialog": {
-			"authorLabel": {
-				"text": "Auteur:"
-			},
-			"showAuthorLabel": {
-				"text": "Toon auteur"
-			},
-			"commentLabel": {
-				"text": "Opmerking:"
-			},
-			"okButton": {
-				"value": "OK"
-			},
-			"cancelButton": {
-				"value": "Annuleren"
-			}
-		},
-		"editChartDialog": {
-			"titleLabel": {
-				"text": "Titel:"
-			},
-			"okButton": {
-				"value": "OK"
-			},
-			"cancelButton": {
-				"value": "Annuleren"
-			}
-		},
 		"renameWorksheetDialog": {
 			"nameLabel": {
 				"text": "Naam:"
@@ -573,6 +531,40 @@
 				"value": "Annuleren"
 			}
 		},
+		"insertCommentDialog": {
+			"authorLabel": {
+				"text": "Auteur:"
+			},
+			"showAuthorLabel": {
+				"text": "Toon auteur"
+			},
+			"commentLabel": {
+				"text": "Opmerking:"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Annuleren"
+			}
+		},
+		"commentEditDialog": {
+			"authorLabel": {
+				"text": "Auteur:"
+			},
+			"showAuthorLabel": {
+				"text": "Toon auteur"
+			},
+			"commentLabel": {
+				"text": "Opmerking:"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Annuleren"
+			}
+		},
 		"setCellNumberFormatDialog": {
 			"General": {
 				"text": "Algemeen"
@@ -648,26 +640,45 @@
 			"cancelButton": {
 				"value": "Annuleren"
 			}
+		},
+		"editChartDialog": {
+			"titleLabel": {
+				"text": "Titel:"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Annuleren"
+			}
+		},
+		"editHyperlinkDialog": {
+			"urlRadioLabel": {
+				"text": "Webpagina"
+			},
+			"referenceRadioLabel": {
+				"text": "Celverwijzing"
+			},
+			"addressLabel": {
+				"text": "Adres:"
+			},
+			"referenceLabel": {
+				"text": "Celverwijzing:"
+			},
+			"sheetLabel": {
+				"text": "Blad:"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Annuleren"
+			}
 		}
 	},
 	"strings": {
 		"vssde-documentIsOpening": "Document wordt geopend...",
-		"vssde-numberFormat-general": "Algemeen",
-		"vssde-numberFormat-number": "Numeriek",
-		"vssde-numberFormat-date": "Datum",
-		"vssde-numberFormat-time": "Tijd",
-		"vssde-numberFormat-currency": "Geld",
-		"vssde-numberFormat-percentage": "Percentage",
-		"vssde-numberFormat-scientific": "Exponentieel",
-		"vssde-numberFormat-text": "Tekst",
 		"vssde-numberFormat-custom": "Aangepast",
-		"vssde-findTextPanel-sheet": "Op blad",
-		"vssde-findTextPanel-workbook": "In het boek",
-		"vssde-findTextPanel-byRows": "In regels",
-		"vssde-findTextPanel-byColumns": "In kolommen",
-		"vssde-findTextPanel-formulas": "Formules",
-		"vssde-findTextPanel-values": "Waarden",
-		"vssde-findTextPanel-comments": "Opmerkingen",
 		"vssde-findTextPanel-textIsNotFound": "Tekst '{0}' is niet gevonden.",
 		"vssde-selectFunctionPanel-all": "Alles",
 		"vssde-createXlsxDocument": "Maak een nieuw XLSX-document",
@@ -675,20 +686,30 @@
 		"vssde-downloadXlsxFile": "Upload XLSX-bestand",
 		"vssde-exportXlsxToPdf": "Exporteer XLSX naar PDF",
 		"vssde-fileSizeExceedsLimit": "De grootte van het geüploade bestand is groter dan de maximale grootte ({0} bytes).",
+		"vssde-error-noError": "Geen fout.",
+		"vssde-error-divisionByZero": "Elk getal (inclusief nul) of elke foutcode wordt gedeeld door nul.",
+		"vssde-error-cellRefCannotBeEvaluated": "Een celverwijzing kan niet worden geëvalueerd omdat de waarde voor de cel niet is opgehaald of berekend.",
+		"vssde-error-valueIsNotAvailable": "Er is geen opgegeven waarde beschikbaar.",
+		"vssde-error-wrongName": "Het lijkt erop dat er een naam wordt gebruikt, maar een dergelijke naam is niet gedefinieerd.",
+		"vssde-error-twoAreasNotIntersecting": "Er zijn twee gebieden nodig om elkaar te kruisen, maar dat is niet het geval.",
+		"vssde-error-notCorrectValue": "Een argument voor een functie heeft een compatibel type, maar heeft een waarde die buiten het domein ligt waarover die functie is gedefinieerd.",
+		"vssde-error-cannotEvaluateCellRef": "Een celverwijzing kan niet worden geëvalueerd.",
+		"vssde-error-incompatibleType": "Er wordt een incompatibel type-argument doorgegeven aan een functie, of er wordt een incompatibel type-operand gebruikt met een operator.",
+		"vssde-error-unknownError": "Onbekende fout.",
+		"vssde-error-externalError": "Externe fout.",
+		"vssde-uriOpen-question": "Open de URL '{0}'?",
+		"vssde-uriOpen-wrongUri": "Het adres van deze site is niet geldig: {0}",
 		"vssde-createXlsxDocumentConfirmation": "Wilt u een nieuwe werkmap maken?",
-		"vssde-insertCommentDialog-title": "Voeg opmerking in",
+		"vssde-renameWorksheetDialog-title": "Hernoem blad",
 		"vssde-dialog-okButton": "OK",
 		"vssde-dialog-cancelButton": "Annuleren",
-		"vssde-editCommentDialog-title": "Opmerking bewerken",
-		"vssde-editChartDialog-title": "Grafiek bewerken",
-		"vssde-editChartPropertiesPanel-spreadsheetEditorDoesNotHaveFocusedChart": "De spreadsheeteditor heeft geen gericht diagram.",
-		"vssde-editChartPropertiesPanel-selectedDrawingIsNotChart": "De geselecteerde tekening is geen diagram.",
-		"vssde-renameWorksheetDialog-title": "Hernoem blad",
 		"vssde-moveWorksheetDialog-title": "Blad verplaatsen",
 		"vssde-findTextDialog-title": "Zoek tekst",
 		"vssde-findTextDialog-findNextButton": "Zoek volgende",
 		"vssde-dialog-closeButton": "Sluiten",
 		"vssde-selectFunctionDialog-title": "Voeg functie in",
+		"vssde-insertCommentDialog-title": "Voeg opmerking in",
+		"vssde-editCommentDialog-title": "Opmerking bewerken",
 		"vssde-cellNumberFormatDialog-title": "Celformaat",
 		"vssde-insertChartDialog-title": "Grafiek invoegen",
 		"vssde-insertChartPanel-chartType-column": "Kolom",
@@ -732,6 +753,11 @@
 		"vssde-insertChartPanel-chartTemplateContainsTwoIdenticalNamesForChartTypes": "De grafieksjabloon bevat twee identieke namen voor grafiektypen.",
 		"vssde-insertChartPanel-pleaseSpecifyCellsWhichContainTheChartDataIncludeNamesForRowsAndColumns": "Geef cellen op die de diagramgegevens bevatten (vermeld namen voor rijen en kolommen).",
 		"vssde-insertChartPanel-chartSubtypeArg0HasMultipleDeclarationsOnDifferentWorksheets": "Diagramsubtype '{0}' heeft meerdere declaraties op verschillende werkbladen.",
-		"vssde-insertChartPanel-sheetArg0IsNotFound": "Blad '{0}' is niet gevonden."
+		"vssde-insertChartPanel-sheetArg0IsNotFound": "Blad '{0}' is niet gevonden.",
+		"vssde-editChartDialog-title": "Grafiek bewerken",
+		"vssde-editChartPropertiesPanel-spreadsheetEditorDoesNotHaveFocusedChart": "De spreadsheeteditor heeft geen gericht diagram.",
+		"vssde-editChartPropertiesPanel-selectedDrawingIsNotChart": "De geselecteerde tekening is geen diagram.",
+		"vssde-editHyperlinkDialog-addTitle": "Hyperlink toevoegen",
+		"vssde-editHyperlinkDialog-editTitle": "Bewerk hyperlink"
 	}
 }

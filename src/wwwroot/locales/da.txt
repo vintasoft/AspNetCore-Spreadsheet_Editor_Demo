@@ -173,6 +173,9 @@
 		"thickOutsideBordersButton": {
 			"title": "Tykke ydre kanter"
 		},
+		"cellBordersDropDownButton": {
+			"title": "Cellegrænser"
+		},
 		"autoFitRowHeightButton": {
 			"title": "Autotilpas rækkehøjden"
 		},
@@ -407,51 +410,6 @@
 		"unhideColumnsLabel": {
 			"text": "Vis kolonner"
 		},
-		"insertCommentDialog": {
-			"authorLabel": {
-				"text": "Forfatter:"
-			},
-			"showAuthorLabel": {
-				"text": "Vis forfatter"
-			},
-			"commentLabel": {
-				"text": "Kommentar:"
-			},
-			"okButton": {
-				"value": "OK"
-			},
-			"cancelButton": {
-				"value": "Annuller"
-			}
-		},
-		"commentEditDialog": {
-			"authorLabel": {
-				"text": "Forfatter:"
-			},
-			"showAuthorLabel": {
-				"text": "Vis forfatter"
-			},
-			"commentLabel": {
-				"text": "Kommentar:"
-			},
-			"okButton": {
-				"value": "OK"
-			},
-			"cancelButton": {
-				"value": "Annuller"
-			}
-		},
-		"editChartDialog": {
-			"titleLabel": {
-				"text": "Titel:"
-			},
-			"okButton": {
-				"value": "OK"
-			},
-			"cancelButton": {
-				"value": "Annuller"
-			}
-		},
 		"renameWorksheetDialog": {
 			"nameLabel": {
 				"text": "Navn:"
@@ -573,6 +531,40 @@
 				"value": "Annuller"
 			}
 		},
+		"insertCommentDialog": {
+			"authorLabel": {
+				"text": "Forfatter:"
+			},
+			"showAuthorLabel": {
+				"text": "Vis forfatter"
+			},
+			"commentLabel": {
+				"text": "Kommentar:"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Annuller"
+			}
+		},
+		"commentEditDialog": {
+			"authorLabel": {
+				"text": "Forfatter:"
+			},
+			"showAuthorLabel": {
+				"text": "Vis forfatter"
+			},
+			"commentLabel": {
+				"text": "Kommentar:"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Annuller"
+			}
+		},
 		"setCellNumberFormatDialog": {
 			"General": {
 				"text": "Generelt"
@@ -648,26 +640,45 @@
 			"cancelButton": {
 				"value": "Annuller"
 			}
+		},
+		"editChartDialog": {
+			"titleLabel": {
+				"text": "Titel:"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Annuller"
+			}
+		},
+		"editHyperlinkDialog": {
+			"urlRadioLabel": {
+				"text": "Hjemmeside"
+			},
+			"referenceRadioLabel": {
+				"text": "Cellereference"
+			},
+			"addressLabel": {
+				"text": "Adresse:"
+			},
+			"referenceLabel": {
+				"text": "Cellereference:"
+			},
+			"sheetLabel": {
+				"text": "Ark:"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Annuller"
+			}
 		}
 	},
 	"strings": {
 		"vssde-documentIsOpening": "Dokument åbner...",
-		"vssde-numberFormat-general": "Generelt",
-		"vssde-numberFormat-number": "Numerisk",
-		"vssde-numberFormat-date": "Dato",
-		"vssde-numberFormat-time": "Tid",
-		"vssde-numberFormat-currency": "Penge",
-		"vssde-numberFormat-percentage": "Procentdel",
-		"vssde-numberFormat-scientific": "Eksponentiel",
-		"vssde-numberFormat-text": "Tekst",
 		"vssde-numberFormat-custom": "Brugerdefineret",
-		"vssde-findTextPanel-sheet": "På ark",
-		"vssde-findTextPanel-workbook": "I bogen",
-		"vssde-findTextPanel-byRows": "I linjer",
-		"vssde-findTextPanel-byColumns": "I kolonner",
-		"vssde-findTextPanel-formulas": "Formler",
-		"vssde-findTextPanel-values": "Værdier",
-		"vssde-findTextPanel-comments": "Kommentarer",
 		"vssde-findTextPanel-textIsNotFound": "Teksten '{0}' blev ikke fundet.",
 		"vssde-selectFunctionPanel-all": "Alle",
 		"vssde-createXlsxDocument": "Opret nyt XLSX-dokument",
@@ -675,20 +686,30 @@
 		"vssde-downloadXlsxFile": "Upload XLSX-fil",
 		"vssde-exportXlsxToPdf": "Eksporter XLSX til PDF",
 		"vssde-fileSizeExceedsLimit": "Størrelsen på den uploadede fil overstiger den maksimale størrelse ({0} bytes).",
+		"vssde-error-noError": "Ingen fejl.",
+		"vssde-error-divisionByZero": "Ethvert tal (inklusive nul) eller enhver fejlkode divideres med nul.",
+		"vssde-error-cellRefCannotBeEvaluated": "En cellereference kan ikke evalueres, fordi værdien for cellen ikke er blevet hentet eller beregnet.",
+		"vssde-error-valueIsNotAvailable": "En angivet værdi er ikke tilgængelig.",
+		"vssde-error-wrongName": "Det ser ud til, at der er brugt et navn, men et sådant navn er ikke defineret.",
+		"vssde-error-twoAreasNotIntersecting": "To områder er påkrævet for at krydse hinanden, men gør det ikke.",
+		"vssde-error-notCorrectValue": "Et argument til en funktion har en kompatibel type, men har en værdi, der er uden for det domæne, som denne funktion er defineret over.",
+		"vssde-error-cannotEvaluateCellRef": "En cellereference kan ikke evalueres.",
+		"vssde-error-incompatibleType": "Et inkompatibelt typeargument sendes til en funktion, eller en inkompatibel typeoperand bruges sammen med en operator.",
+		"vssde-error-unknownError": "Ukendt fejl.",
+		"vssde-error-externalError": "Ekstern fejl.",
+		"vssde-uriOpen-question": "Vil du åbne URL '{0}'?",
+		"vssde-uriOpen-wrongUri": "Adressen på dette websted er ikke gyldig: {0}",
 		"vssde-createXlsxDocumentConfirmation": "Vil du oprette en ny projektmappe?",
-		"vssde-insertCommentDialog-title": "Indsæt kommentar",
+		"vssde-renameWorksheetDialog-title": "Omdøb ark",
 		"vssde-dialog-okButton": "OK",
 		"vssde-dialog-cancelButton": "Annuller",
-		"vssde-editCommentDialog-title": "Rediger kommentar",
-		"vssde-editChartDialog-title": "Rediger diagram",
-		"vssde-editChartPropertiesPanel-spreadsheetEditorDoesNotHaveFocusedChart": "Regnearkseditoren har ikke fokuseret diagram.",
-		"vssde-editChartPropertiesPanel-selectedDrawingIsNotChart": "Den valgte tegning er ikke et diagram.",
-		"vssde-renameWorksheetDialog-title": "Omdøb ark",
 		"vssde-moveWorksheetDialog-title": "Flyt ark",
 		"vssde-findTextDialog-title": "Find tekst",
 		"vssde-findTextDialog-findNextButton": "Find næste",
 		"vssde-dialog-closeButton": "Luk",
 		"vssde-selectFunctionDialog-title": "Indsæt funktion",
+		"vssde-insertCommentDialog-title": "Indsæt kommentar",
+		"vssde-editCommentDialog-title": "Rediger kommentar",
 		"vssde-cellNumberFormatDialog-title": "Celleformat",
 		"vssde-insertChartDialog-title": "Indsæt diagram",
 		"vssde-insertChartPanel-chartType-column": "Kolonne",
@@ -732,6 +753,11 @@
 		"vssde-insertChartPanel-chartTemplateContainsTwoIdenticalNamesForChartTypes": "Kortskabelonen indeholder 2 identiske navne for søkorttyper.",
 		"vssde-insertChartPanel-pleaseSpecifyCellsWhichContainTheChartDataIncludeNamesForRowsAndColumns": "Angiv venligst celler, som indeholder diagramdataene (inkluder navne på rækker og kolonner).",
 		"vssde-insertChartPanel-chartSubtypeArg0HasMultipleDeclarationsOnDifferentWorksheets": "Diagramundertypen '{0}' har flere erklæringer på forskellige regneark.",
-		"vssde-insertChartPanel-sheetArg0IsNotFound": "Ark '{0}' blev ikke fundet."
+		"vssde-insertChartPanel-sheetArg0IsNotFound": "Ark '{0}' blev ikke fundet.",
+		"vssde-editChartDialog-title": "Rediger diagram",
+		"vssde-editChartPropertiesPanel-spreadsheetEditorDoesNotHaveFocusedChart": "Regnearkseditoren har ikke fokuseret diagram.",
+		"vssde-editChartPropertiesPanel-selectedDrawingIsNotChart": "Den valgte tegning er ikke et diagram.",
+		"vssde-editHyperlinkDialog-addTitle": "Tilføj hyperlink",
+		"vssde-editHyperlinkDialog-editTitle": "Rediger hyperlink"
 	}
 }

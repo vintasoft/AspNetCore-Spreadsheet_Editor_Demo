@@ -173,6 +173,9 @@
 		"thickOutsideBordersButton": {
 			"title": "Kalın dış kenarlıklar"
 		},
+		"cellBordersDropDownButton": {
+			"title": "Hücre Sınırları"
+		},
 		"autoFitRowHeightButton": {
 			"title": "Satır yüksekliğini otomatik sığdır"
 		},
@@ -407,51 +410,6 @@
 		"unhideColumnsLabel": {
 			"text": "Sütunları Göster"
 		},
-		"insertCommentDialog": {
-			"authorLabel": {
-				"text": "Yazar:"
-			},
-			"showAuthorLabel": {
-				"text": "Yazarı Göster"
-			},
-			"commentLabel": {
-				"text": "Yorum:"
-			},
-			"okButton": {
-				"value": "Tamam"
-			},
-			"cancelButton": {
-				"value": "İptal"
-			}
-		},
-		"commentEditDialog": {
-			"authorLabel": {
-				"text": "Yazar:"
-			},
-			"showAuthorLabel": {
-				"text": "Yazarı Göster"
-			},
-			"commentLabel": {
-				"text": "Yorum:"
-			},
-			"okButton": {
-				"value": "Tamam"
-			},
-			"cancelButton": {
-				"value": "İptal"
-			}
-		},
-		"editChartDialog": {
-			"titleLabel": {
-				"text": "Başlık:"
-			},
-			"okButton": {
-				"value": "Tamam"
-			},
-			"cancelButton": {
-				"value": "İptal"
-			}
-		},
 		"renameWorksheetDialog": {
 			"nameLabel": {
 				"text": "Ad:"
@@ -573,6 +531,40 @@
 				"value": "İptal"
 			}
 		},
+		"insertCommentDialog": {
+			"authorLabel": {
+				"text": "Yazar:"
+			},
+			"showAuthorLabel": {
+				"text": "Yazarı Göster"
+			},
+			"commentLabel": {
+				"text": "Yorum:"
+			},
+			"okButton": {
+				"value": "Tamam"
+			},
+			"cancelButton": {
+				"value": "İptal"
+			}
+		},
+		"commentEditDialog": {
+			"authorLabel": {
+				"text": "Yazar:"
+			},
+			"showAuthorLabel": {
+				"text": "Yazarı Göster"
+			},
+			"commentLabel": {
+				"text": "Yorum:"
+			},
+			"okButton": {
+				"value": "Tamam"
+			},
+			"cancelButton": {
+				"value": "İptal"
+			}
+		},
 		"setCellNumberFormatDialog": {
 			"General": {
 				"text": "Genel"
@@ -648,26 +640,45 @@
 			"cancelButton": {
 				"value": "İptal"
 			}
+		},
+		"editChartDialog": {
+			"titleLabel": {
+				"text": "Başlık:"
+			},
+			"okButton": {
+				"value": "Tamam"
+			},
+			"cancelButton": {
+				"value": "İptal"
+			}
+		},
+		"editHyperlinkDialog": {
+			"urlRadioLabel": {
+				"text": "Web sayfası"
+			},
+			"referenceRadioLabel": {
+				"text": "Hücre Referansı"
+			},
+			"addressLabel": {
+				"text": "Adres:"
+			},
+			"referenceLabel": {
+				"text": "Hücre Referansı:"
+			},
+			"sheetLabel": {
+				"text": "Sayfa:"
+			},
+			"okButton": {
+				"value": "Tamam"
+			},
+			"cancelButton": {
+				"value": "İptal"
+			}
 		}
 	},
 	"strings": {
 		"vssde-documentIsOpening": "Belge açılıyor...",
-		"vssde-numberFormat-general": "Genel",
-		"vssde-numberFormat-number": "Nümerik",
-		"vssde-numberFormat-date": "Tarih",
-		"vssde-numberFormat-time": "Zaman",
-		"vssde-numberFormat-currency": "Para",
-		"vssde-numberFormat-percentage": "Yüzde",
-		"vssde-numberFormat-scientific": "Üstel",
-		"vssde-numberFormat-text": "Metin",
 		"vssde-numberFormat-custom": "Özel",
-		"vssde-findTextPanel-sheet": "Sayfada",
-		"vssde-findTextPanel-workbook": "Kitapta",
-		"vssde-findTextPanel-byRows": "Satırlarda",
-		"vssde-findTextPanel-byColumns": "Sütunlarda",
-		"vssde-findTextPanel-formulas": "Formüller",
-		"vssde-findTextPanel-values": "Değerler",
-		"vssde-findTextPanel-comments": "Yorumlar",
 		"vssde-findTextPanel-textIsNotFound": "'{0}' metni bulunamadı.",
 		"vssde-selectFunctionPanel-all": "Tümü",
 		"vssde-createXlsxDocument": "Yeni XLSX belgesi oluştur",
@@ -675,20 +686,30 @@
 		"vssde-downloadXlsxFile": "XLSX dosyasını yükle",
 		"vssde-exportXlsxToPdf": "XLSX'i PDF'ye Aktar",
 		"vssde-fileSizeExceedsLimit": "Yüklenen dosyanın boyutu maksimum boyutu ({0} bayt) aşıyor.",
+		"vssde-error-noError": "Hata yok.",
+		"vssde-error-divisionByZero": "Herhangi bir sayı (sıfır dahil) veya herhangi bir hata kodu sıfıra bölünür.",
+		"vssde-error-cellRefCannotBeEvaluated": "Hücrenin değeri alınmadığı veya hesaplanmadığı için hücre başvurusu değerlendirilemiyor.",
+		"vssde-error-valueIsNotAvailable": "Belirlenmiş bir değer mevcut değil.",
+		"vssde-error-wrongName": "Görünüşe göre bir isim kullanılmış ancak böyle bir isim tanımlanmamış.",
+		"vssde-error-twoAreasNotIntersecting": "İki alanın kesişmesi gerekir ancak kesişmez.",
+		"vssde-error-notCorrectValue": "Bir işleve ilişkin bağımsız değişkenin uyumlu bir türü vardır ancak bu işlevin tanımlandığı etki alanının dışında bir değere sahiptir.",
+		"vssde-error-cannotEvaluateCellRef": "Hücre başvurusu değerlendirilemez.",
+		"vssde-error-incompatibleType": "Uyumsuz bir tür bağımsız değişkeni bir işleve iletilir veya uyumsuz bir tür işleneni bir operatörle birlikte kullanılır.",
+		"vssde-error-unknownError": "Bilinmeyen hata.",
+		"vssde-error-externalError": "Harici hata.",
+		"vssde-uriOpen-question": "'{0}' URL'si açılsın mı?",
+		"vssde-uriOpen-wrongUri": "Bu sitenin adresi geçerli değil: {0}",
 		"vssde-createXlsxDocumentConfirmation": "Yeni bir çalışma kitabı mı oluşturmak istiyorsunuz?",
-		"vssde-insertCommentDialog-title": "Yorum ekle",
+		"vssde-renameWorksheetDialog-title": "Sayfayı Yeniden Adlandır",
 		"vssde-dialog-okButton": "Tamam",
 		"vssde-dialog-cancelButton": "İptal",
-		"vssde-editCommentDialog-title": "Yorumu düzenle",
-		"vssde-editChartDialog-title": "Grafiği Düzenle",
-		"vssde-editChartPropertiesPanel-spreadsheetEditorDoesNotHaveFocusedChart": "Elektronik tablo düzenleyicinin odaklanmış grafiği yoktur.",
-		"vssde-editChartPropertiesPanel-selectedDrawingIsNotChart": "Seçilen çizim bir grafik değil.",
-		"vssde-renameWorksheetDialog-title": "Sayfayı Yeniden Adlandır",
 		"vssde-moveWorksheetDialog-title": "Sayfayı Taşı",
 		"vssde-findTextDialog-title": "Metin bul",
 		"vssde-findTextDialog-findNextButton": "Sonrakini Bul",
 		"vssde-dialog-closeButton": "Kapat",
 		"vssde-selectFunctionDialog-title": "İşlev ekle",
+		"vssde-insertCommentDialog-title": "Yorum ekle",
+		"vssde-editCommentDialog-title": "Yorumu düzenle",
 		"vssde-cellNumberFormatDialog-title": "Hücre Formatı",
 		"vssde-insertChartDialog-title": "Grafik Ekle",
 		"vssde-insertChartPanel-chartType-column": "Kolon",
@@ -732,6 +753,11 @@
 		"vssde-insertChartPanel-chartTemplateContainsTwoIdenticalNamesForChartTypes": "Grafik şablonu, grafik türleri için 2 özdeş ad içerir.",
 		"vssde-insertChartPanel-pleaseSpecifyCellsWhichContainTheChartDataIncludeNamesForRowsAndColumns": "Lütfen grafik verilerini içeren hücreleri belirtin (satır ve sütun adlarını ekleyin).",
 		"vssde-insertChartPanel-chartSubtypeArg0HasMultipleDeclarationsOnDifferentWorksheets": "Grafik alt türü '{0}', farklı çalışma sayfalarında birden çok bildirime sahip.",
-		"vssde-insertChartPanel-sheetArg0IsNotFound": "'{0}' sayfası bulunamadı."
+		"vssde-insertChartPanel-sheetArg0IsNotFound": "'{0}' sayfası bulunamadı.",
+		"vssde-editChartDialog-title": "Grafiği Düzenle",
+		"vssde-editChartPropertiesPanel-spreadsheetEditorDoesNotHaveFocusedChart": "Elektronik tablo düzenleyicinin odaklanmış grafiği yoktur.",
+		"vssde-editChartPropertiesPanel-selectedDrawingIsNotChart": "Seçilen çizim bir grafik değil.",
+		"vssde-editHyperlinkDialog-addTitle": "Köprü Ekle",
+		"vssde-editHyperlinkDialog-editTitle": "Köprüyü düzenle"
 	}
 }

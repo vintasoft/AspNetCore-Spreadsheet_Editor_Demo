@@ -173,6 +173,9 @@
 		"thickOutsideBordersButton": {
 			"title": "Debele zunanje meje"
 		},
+		"cellBordersDropDownButton": {
+			"title": "Meje celic"
+		},
 		"autoFitRowHeightButton": {
 			"title": "Samodejno prilagodi višino vrstice"
 		},
@@ -407,51 +410,6 @@
 		"unhideColumnsLabel": {
 			"text": "Razkrij stolpce"
 		},
-		"insertCommentDialog": {
-			"authorLabel": {
-				"text": "Avtor:"
-			},
-			"showAuthorLabel": {
-				"text": "Prikaži avtorja"
-			},
-			"commentLabel": {
-				"text": "Komentar:"
-			},
-			"okButton": {
-				"value": "OK"
-			},
-			"cancelButton": {
-				"value": "Prekliči"
-			}
-		},
-		"commentEditDialog": {
-			"authorLabel": {
-				"text": "Avtor:"
-			},
-			"showAuthorLabel": {
-				"text": "Prikaži avtorja"
-			},
-			"commentLabel": {
-				"text": "Komentar:"
-			},
-			"okButton": {
-				"value": "OK"
-			},
-			"cancelButton": {
-				"value": "Prekliči"
-			}
-		},
-		"editChartDialog": {
-			"titleLabel": {
-				"text": "Naslov:"
-			},
-			"okButton": {
-				"value": "OK"
-			},
-			"cancelButton": {
-				"value": "Prekliči"
-			}
-		},
 		"renameWorksheetDialog": {
 			"nameLabel": {
 				"text": "Ime:"
@@ -573,6 +531,40 @@
 				"value": "Prekliči"
 			}
 		},
+		"insertCommentDialog": {
+			"authorLabel": {
+				"text": "Avtor:"
+			},
+			"showAuthorLabel": {
+				"text": "Prikaži avtorja"
+			},
+			"commentLabel": {
+				"text": "Komentar:"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Prekliči"
+			}
+		},
+		"commentEditDialog": {
+			"authorLabel": {
+				"text": "Avtor:"
+			},
+			"showAuthorLabel": {
+				"text": "Prikaži avtorja"
+			},
+			"commentLabel": {
+				"text": "Komentar:"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Prekliči"
+			}
+		},
 		"setCellNumberFormatDialog": {
 			"General": {
 				"text": "Splošno"
@@ -648,26 +640,45 @@
 			"cancelButton": {
 				"value": "Prekliči"
 			}
+		},
+		"editChartDialog": {
+			"titleLabel": {
+				"text": "Naslov:"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Prekliči"
+			}
+		},
+		"editHyperlinkDialog": {
+			"urlRadioLabel": {
+				"text": "Spletna stran"
+			},
+			"referenceRadioLabel": {
+				"text": "Referenca celice"
+			},
+			"addressLabel": {
+				"text": "Naslov:"
+			},
+			"referenceLabel": {
+				"text": "Referenca celice:"
+			},
+			"sheetLabel": {
+				"text": "List:"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Prekliči"
+			}
 		}
 	},
 	"strings": {
 		"vssde-documentIsOpening": "Dokument se odpira ...",
-		"vssde-numberFormat-general": "Splošno",
-		"vssde-numberFormat-number": "Številka",
-		"vssde-numberFormat-date": "Datum",
-		"vssde-numberFormat-time": "Čas",
-		"vssde-numberFormat-currency": "Valuta",
-		"vssde-numberFormat-percentage": "Odstotek",
-		"vssde-numberFormat-scientific": "Znanstveno",
-		"vssde-numberFormat-text": "Besedilo",
 		"vssde-numberFormat-custom": "Po meri",
-		"vssde-findTextPanel-sheet": "List",
-		"vssde-findTextPanel-workbook": "Delovni zvezek",
-		"vssde-findTextPanel-byRows": "Po vrsticah",
-		"vssde-findTextPanel-byColumns": "Po stolpcih",
-		"vssde-findTextPanel-formulas": "Formule",
-		"vssde-findTextPanel-values": "Vrednote",
-		"vssde-findTextPanel-comments": "Komentarji",
 		"vssde-findTextPanel-textIsNotFound": "Besedila '{0}' ni mogoče najti.",
 		"vssde-selectFunctionPanel-all": "Vse",
 		"vssde-createXlsxDocument": "Ustvari nov dokument XLSX",
@@ -675,20 +686,30 @@
 		"vssde-downloadXlsxFile": "Prenesite datoteko XLSX",
 		"vssde-exportXlsxToPdf": "Izvozi XLSX v PDF",
 		"vssde-fileSizeExceedsLimit": "Velikost naložene datoteke presega največjo velikost ({0} bajtov).",
+		"vssde-error-noError": "Brez napake.",
+		"vssde-error-divisionByZero": "Katera koli številka (vključno z ničlo) ali katera koli koda napake je deljena z ničlo.",
+		"vssde-error-cellRefCannotBeEvaluated": "Sklica na celico ni mogoče ovrednotiti, ker vrednost za celico ni bila pridobljena ali izračunana.",
+		"vssde-error-valueIsNotAvailable": "Določena vrednost ni na voljo.",
+		"vssde-error-wrongName": "Videti je, da je uporabljeno ime, vendar takšno ime ni bilo definirano.",
+		"vssde-error-twoAreasNotIntersecting": "Dve področji se morata križati, a se ne.",
+		"vssde-error-notCorrectValue": "Argument funkcije ima združljiv tip, vendar ima vrednost, ki je zunaj domene, v kateri je ta funkcija definirana.",
+		"vssde-error-cannotEvaluateCellRef": "Sklica na celico ni mogoče ovrednotiti.",
+		"vssde-error-incompatibleType": "Funkciji se posreduje argument nezdružljivega tipa ali pa se z operatorjem uporabi operand nezdružljivega tipa.",
+		"vssde-error-unknownError": "Neznana napaka.",
+		"vssde-error-externalError": "Zunanja napaka.",
+		"vssde-uriOpen-question": "Odpreti URL '{0}'?",
+		"vssde-uriOpen-wrongUri": "Naslov tega mesta ni veljaven: {0}",
 		"vssde-createXlsxDocumentConfirmation": "Ali želite ustvariti nov delovni zvezek?",
-		"vssde-insertCommentDialog-title": "Vstavi komentar",
+		"vssde-renameWorksheetDialog-title": "Preimenuj delovni list",
 		"vssde-dialog-okButton": "OK",
 		"vssde-dialog-cancelButton": "Prekliči",
-		"vssde-editCommentDialog-title": "Uredi komentar",
-		"vssde-editChartDialog-title": "Uredi grafikon",
-		"vssde-editChartPropertiesPanel-spreadsheetEditorDoesNotHaveFocusedChart": "Urejevalnik preglednic nima fokusiranega grafikona.",
-		"vssde-editChartPropertiesPanel-selectedDrawingIsNotChart": "Izbrana risba ni grafikon.",
-		"vssde-renameWorksheetDialog-title": "Preimenuj delovni list",
 		"vssde-moveWorksheetDialog-title": "Premakni delovni list",
 		"vssde-findTextDialog-title": "Poiščite besedilo",
 		"vssde-findTextDialog-findNextButton": "Najdi Naprej",
 		"vssde-dialog-closeButton": "Zapri",
 		"vssde-selectFunctionDialog-title": "Vstavi funkcijo",
+		"vssde-insertCommentDialog-title": "Vstavi komentar",
+		"vssde-editCommentDialog-title": "Uredi komentar",
 		"vssde-cellNumberFormatDialog-title": "Oblika celice",
 		"vssde-insertChartDialog-title": "Vstavi grafikon",
 		"vssde-insertChartPanel-chartType-column": "Stolpec",
@@ -732,6 +753,11 @@
 		"vssde-insertChartPanel-chartTemplateContainsTwoIdenticalNamesForChartTypes": "Predloga grafikona vsebuje 2 enaki imeni za vrste grafikonov.",
 		"vssde-insertChartPanel-pleaseSpecifyCellsWhichContainTheChartDataIncludeNamesForRowsAndColumns": "Določite celice, ki vsebujejo podatke grafikona (vključite imena za vrstice in stolpce).",
 		"vssde-insertChartPanel-chartSubtypeArg0HasMultipleDeclarationsOnDifferentWorksheets": "Podvrsta grafikona '{0}' ima več deklaracij na različnih delovnih listih.",
-		"vssde-insertChartPanel-sheetArg0IsNotFound": "List '{0}' ni najden."
+		"vssde-insertChartPanel-sheetArg0IsNotFound": "List '{0}' ni najden.",
+		"vssde-editChartDialog-title": "Uredi grafikon",
+		"vssde-editChartPropertiesPanel-spreadsheetEditorDoesNotHaveFocusedChart": "Urejevalnik preglednic nima fokusiranega grafikona.",
+		"vssde-editChartPropertiesPanel-selectedDrawingIsNotChart": "Izbrana risba ni grafikon.",
+		"vssde-editHyperlinkDialog-addTitle": "Dodaj hiperpovezavo",
+		"vssde-editHyperlinkDialog-editTitle": "Uredi hiperpovezavo"
 	}
 }

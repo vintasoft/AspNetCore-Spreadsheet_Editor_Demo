@@ -173,6 +173,9 @@
 		"thickOutsideBordersButton": {
 			"title": "Qalın Xarici Sərhədlər"
 		},
+		"cellBordersDropDownButton": {
+			"title": "Hüceyrə Sərhədləri"
+		},
 		"autoFitRowHeightButton": {
 			"title": "Sətir hündürlüyünü avtomatik uyğunlaşdırın"
 		},
@@ -407,51 +410,6 @@
 		"unhideColumnsLabel": {
 			"text": "Sütunları göstərin"
 		},
-		"insertCommentDialog": {
-			"authorLabel": {
-				"text": "Müəllif:"
-			},
-			"showAuthorLabel": {
-				"text": "Müəllifi göstər"
-			},
-			"commentLabel": {
-				"text": "Şərh:"
-			},
-			"okButton": {
-				"value": "tamam"
-			},
-			"cancelButton": {
-				"value": "Ləğv et"
-			}
-		},
-		"commentEditDialog": {
-			"authorLabel": {
-				"text": "Müəllif:"
-			},
-			"showAuthorLabel": {
-				"text": "Müəllifi göstər"
-			},
-			"commentLabel": {
-				"text": "Şərh:"
-			},
-			"okButton": {
-				"value": "tamam"
-			},
-			"cancelButton": {
-				"value": "Ləğv et"
-			}
-		},
-		"editChartDialog": {
-			"titleLabel": {
-				"text": "Başlıq:"
-			},
-			"okButton": {
-				"value": "tamam"
-			},
-			"cancelButton": {
-				"value": "Ləğv et"
-			}
-		},
 		"renameWorksheetDialog": {
 			"nameLabel": {
 				"text": "Adı:"
@@ -573,6 +531,40 @@
 				"value": "Ləğv et"
 			}
 		},
+		"insertCommentDialog": {
+			"authorLabel": {
+				"text": "Müəllif:"
+			},
+			"showAuthorLabel": {
+				"text": "Müəllifi göstər"
+			},
+			"commentLabel": {
+				"text": "Şərh:"
+			},
+			"okButton": {
+				"value": "tamam"
+			},
+			"cancelButton": {
+				"value": "Ləğv et"
+			}
+		},
+		"commentEditDialog": {
+			"authorLabel": {
+				"text": "Müəllif:"
+			},
+			"showAuthorLabel": {
+				"text": "Müəllifi göstər"
+			},
+			"commentLabel": {
+				"text": "Şərh:"
+			},
+			"okButton": {
+				"value": "tamam"
+			},
+			"cancelButton": {
+				"value": "Ləğv et"
+			}
+		},
 		"setCellNumberFormatDialog": {
 			"General": {
 				"text": "General"
@@ -648,26 +640,45 @@
 			"cancelButton": {
 				"value": "Ləğv et"
 			}
+		},
+		"editChartDialog": {
+			"titleLabel": {
+				"text": "Başlıq:"
+			},
+			"okButton": {
+				"value": "tamam"
+			},
+			"cancelButton": {
+				"value": "Ləğv et"
+			}
+		},
+		"editHyperlinkDialog": {
+			"urlRadioLabel": {
+				"text": "Veb səhifə"
+			},
+			"referenceRadioLabel": {
+				"text": "Hüceyrə Referansı"
+			},
+			"addressLabel": {
+				"text": "Ünvan:"
+			},
+			"referenceLabel": {
+				"text": "Hüceyrə istinadı:"
+			},
+			"sheetLabel": {
+				"text": "Vərəq:"
+			},
+			"okButton": {
+				"value": "tamam"
+			},
+			"cancelButton": {
+				"value": "Ləğv et"
+			}
 		}
 	},
 	"strings": {
 		"vssde-documentIsOpening": "Sənəd açılır...",
-		"vssde-numberFormat-general": "General",
-		"vssde-numberFormat-number": "Nömrə",
-		"vssde-numberFormat-date": "Tarix",
-		"vssde-numberFormat-time": "Vaxt",
-		"vssde-numberFormat-currency": "Valyuta",
-		"vssde-numberFormat-percentage": "Faiz",
-		"vssde-numberFormat-scientific": "Elmi",
-		"vssde-numberFormat-text": "Mətn",
 		"vssde-numberFormat-custom": "Xüsusi",
-		"vssde-findTextPanel-sheet": "Vərəq",
-		"vssde-findTextPanel-workbook": "İş dəftəri",
-		"vssde-findTextPanel-byRows": "Sıralar üzrə",
-		"vssde-findTextPanel-byColumns": "Sütunlar üzrə",
-		"vssde-findTextPanel-formulas": "Formulalar",
-		"vssde-findTextPanel-values": "Dəyərlər",
-		"vssde-findTextPanel-comments": "Şərhlər",
 		"vssde-findTextPanel-textIsNotFound": "'{0}' mətni tapılmadı.",
 		"vssde-selectFunctionPanel-all": "Hamısı",
 		"vssde-createXlsxDocument": "Yeni XLSX sənədi yaradın",
@@ -675,20 +686,30 @@
 		"vssde-downloadXlsxFile": "XLSX faylını yükləyin",
 		"vssde-exportXlsxToPdf": "XLSX-i PDF-ə ixrac edin",
 		"vssde-fileSizeExceedsLimit": "Yüklənmiş faylın ölçüsü maksimum ölçüsü ({0} bayt) keçir.",
+		"vssde-error-noError": "Səhv yoxdur.",
+		"vssde-error-divisionByZero": "İstənilən nömrə (sıfır daxil olmaqla) və ya hər hansı bir səhv kodu sıfıra bölünür.",
+		"vssde-error-cellRefCannotBeEvaluated": "Hüceyrə istinadı qiymətləndirilə bilməz, çünki xana üçün dəyər alınmayıb və ya hesablanmayıb.",
+		"vssde-error-valueIsNotAvailable": "Təyin edilmiş dəyər mövcud deyil.",
+		"vssde-error-wrongName": "Görünür, ad istifadə olunub, lakin belə bir ad təyin olunmayıb.",
+		"vssde-error-twoAreasNotIntersecting": "İki sahənin kəsişməsi tələb olunur, lakin yoxdur.",
+		"vssde-error-notCorrectValue": "Funksiya üçün arqument uyğun tipə malikdir, lakin bu funksiyanın müəyyən edildiyi domendən kənarda olan dəyərə malikdir.",
+		"vssde-error-cannotEvaluateCellRef": "Hüceyrə istinadı qiymətləndirilə bilməz.",
+		"vssde-error-incompatibleType": "Uyğun olmayan tipli arqument funksiyaya ötürülür və ya uyğun olmayan tipli operand operatorla istifadə olunur.",
+		"vssde-error-unknownError": "Naməlum xəta.",
+		"vssde-error-externalError": "Xarici xəta.",
+		"vssde-uriOpen-question": "URL '{0}' açılsın?",
+		"vssde-uriOpen-wrongUri": "Bu saytın ünvanı etibarlı deyil: {0}",
 		"vssde-createXlsxDocumentConfirmation": "Yeni iş kitabı yaratmaq istəyirsiniz?",
-		"vssde-insertCommentDialog-title": "Şərh daxil edin",
+		"vssde-renameWorksheetDialog-title": "İş vərəqinin adını dəyişdirin",
 		"vssde-dialog-okButton": "tamam",
 		"vssde-dialog-cancelButton": "Ləğv et",
-		"vssde-editCommentDialog-title": "Şərhi redaktə edin",
-		"vssde-editChartDialog-title": "Diaqramı redaktə edin",
-		"vssde-editChartPropertiesPanel-spreadsheetEditorDoesNotHaveFocusedChart": "Cədvəl redaktorunda fokuslanmış diaqram yoxdur.",
-		"vssde-editChartPropertiesPanel-selectedDrawingIsNotChart": "Seçilmiş rəsm qrafik deyil.",
-		"vssde-renameWorksheetDialog-title": "İş vərəqinin adını dəyişdirin",
 		"vssde-moveWorksheetDialog-title": "İş vərəqini köçürün",
 		"vssde-findTextDialog-title": "Mətni tapın",
 		"vssde-findTextDialog-findNextButton": "Sonrakı tap",
 		"vssde-dialog-closeButton": "Yaxın",
 		"vssde-selectFunctionDialog-title": "Funksiya daxil edin",
+		"vssde-insertCommentDialog-title": "Şərh daxil edin",
+		"vssde-editCommentDialog-title": "Şərhi redaktə edin",
 		"vssde-cellNumberFormatDialog-title": "Hüceyrə formatı",
 		"vssde-insertChartDialog-title": "Diaqram daxil edin",
 		"vssde-insertChartPanel-chartType-column": "Sütun",
@@ -732,6 +753,11 @@
 		"vssde-insertChartPanel-chartTemplateContainsTwoIdenticalNamesForChartTypes": "Diaqram şablonunda diaqram növləri üçün 2 eyni ad var.",
 		"vssde-insertChartPanel-pleaseSpecifyCellsWhichContainTheChartDataIncludeNamesForRowsAndColumns": "Lütfən, diaqram məlumatlarını ehtiva edən xanaları göstərin (sətir və sütunların adlarını daxil edin).",
 		"vssde-insertChartPanel-chartSubtypeArg0HasMultipleDeclarationsOnDifferentWorksheets": "'{0}' diaqram alt növü müxtəlif iş vərəqlərində çoxlu bəyannamələrə malikdir.",
-		"vssde-insertChartPanel-sheetArg0IsNotFound": "'{0}' vərəqi tapılmadı."
+		"vssde-insertChartPanel-sheetArg0IsNotFound": "'{0}' vərəqi tapılmadı.",
+		"vssde-editChartDialog-title": "Diaqramı redaktə edin",
+		"vssde-editChartPropertiesPanel-spreadsheetEditorDoesNotHaveFocusedChart": "Cədvəl redaktorunda fokuslanmış diaqram yoxdur.",
+		"vssde-editChartPropertiesPanel-selectedDrawingIsNotChart": "Seçilmiş rəsm qrafik deyil.",
+		"vssde-editHyperlinkDialog-addTitle": "Hiperlink əlavə edin",
+		"vssde-editHyperlinkDialog-editTitle": "Hiperlinkə düzəliş edin"
 	}
 }

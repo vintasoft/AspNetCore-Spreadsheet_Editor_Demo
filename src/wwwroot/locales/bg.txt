@@ -173,6 +173,9 @@
 		"thickOutsideBordersButton": {
 			"title": "Дебели външни граници"
 		},
+		"cellBordersDropDownButton": {
+			"title": "Граници на клетките"
+		},
 		"autoFitRowHeightButton": {
 			"title": "AutoFit височината на реда"
 		},
@@ -407,51 +410,6 @@
 		"unhideColumnsLabel": {
 			"text": "Показване на колони"
 		},
-		"insertCommentDialog": {
-			"authorLabel": {
-				"text": "Автор:"
-			},
-			"showAuthorLabel": {
-				"text": "Покажи автора"
-			},
-			"commentLabel": {
-				"text": "Коментар:"
-			},
-			"okButton": {
-				"value": "ОК"
-			},
-			"cancelButton": {
-				"value": "Отказ"
-			}
-		},
-		"commentEditDialog": {
-			"authorLabel": {
-				"text": "Автор:"
-			},
-			"showAuthorLabel": {
-				"text": "Покажи автора"
-			},
-			"commentLabel": {
-				"text": "Коментар:"
-			},
-			"okButton": {
-				"value": "ОК"
-			},
-			"cancelButton": {
-				"value": "Отказ"
-			}
-		},
-		"editChartDialog": {
-			"titleLabel": {
-				"text": "Заглавие:"
-			},
-			"okButton": {
-				"value": "ОК"
-			},
-			"cancelButton": {
-				"value": "Отказ"
-			}
-		},
 		"renameWorksheetDialog": {
 			"nameLabel": {
 				"text": "Име:"
@@ -573,6 +531,40 @@
 				"value": "Отказ"
 			}
 		},
+		"insertCommentDialog": {
+			"authorLabel": {
+				"text": "Автор:"
+			},
+			"showAuthorLabel": {
+				"text": "Покажи автора"
+			},
+			"commentLabel": {
+				"text": "Коментар:"
+			},
+			"okButton": {
+				"value": "ОК"
+			},
+			"cancelButton": {
+				"value": "Отказ"
+			}
+		},
+		"commentEditDialog": {
+			"authorLabel": {
+				"text": "Автор:"
+			},
+			"showAuthorLabel": {
+				"text": "Покажи автора"
+			},
+			"commentLabel": {
+				"text": "Коментар:"
+			},
+			"okButton": {
+				"value": "ОК"
+			},
+			"cancelButton": {
+				"value": "Отказ"
+			}
+		},
 		"setCellNumberFormatDialog": {
 			"General": {
 				"text": "Общи"
@@ -648,26 +640,45 @@
 			"cancelButton": {
 				"value": "Отказ"
 			}
+		},
+		"editChartDialog": {
+			"titleLabel": {
+				"text": "Заглавие:"
+			},
+			"okButton": {
+				"value": "ОК"
+			},
+			"cancelButton": {
+				"value": "Отказ"
+			}
+		},
+		"editHyperlinkDialog": {
+			"urlRadioLabel": {
+				"text": "Уеб страница"
+			},
+			"referenceRadioLabel": {
+				"text": "Референтна клетка"
+			},
+			"addressLabel": {
+				"text": "Адрес:"
+			},
+			"referenceLabel": {
+				"text": "Референтна клетка:"
+			},
+			"sheetLabel": {
+				"text": "Лист:"
+			},
+			"okButton": {
+				"value": "ОК"
+			},
+			"cancelButton": {
+				"value": "Отказ"
+			}
 		}
 	},
 	"strings": {
 		"vssde-documentIsOpening": "Документът се отваря...",
-		"vssde-numberFormat-general": "Общи",
-		"vssde-numberFormat-number": "Числен",
-		"vssde-numberFormat-date": "Дата",
-		"vssde-numberFormat-time": "Време",
-		"vssde-numberFormat-currency": "Пари",
-		"vssde-numberFormat-percentage": "Процент",
-		"vssde-numberFormat-scientific": "Експоненциален",
-		"vssde-numberFormat-text": "Текст",
 		"vssde-numberFormat-custom": "По избор",
-		"vssde-findTextPanel-sheet": "На лист",
-		"vssde-findTextPanel-workbook": "В книгата",
-		"vssde-findTextPanel-byRows": "В редове",
-		"vssde-findTextPanel-byColumns": "В колони",
-		"vssde-findTextPanel-formulas": "Формули",
-		"vssde-findTextPanel-values": "Стойности",
-		"vssde-findTextPanel-comments": "Коментари",
 		"vssde-findTextPanel-textIsNotFound": "Текстът '{0}' не е намерен.",
 		"vssde-selectFunctionPanel-all": "Всички",
 		"vssde-createXlsxDocument": "Създайте нов XLSX документ",
@@ -675,20 +686,30 @@
 		"vssde-downloadXlsxFile": "Качете XLSX файл",
 		"vssde-exportXlsxToPdf": "Експортирайте XLSX в PDF",
 		"vssde-fileSizeExceedsLimit": "Размерът на качения файл надвишава максималния размер ({0} байта).",
+		"vssde-error-noError": "Няма грешка.",
+		"vssde-error-divisionByZero": "Всяко число (включително нула) или всеки код на грешка се разделя на нула.",
+		"vssde-error-cellRefCannotBeEvaluated": "Препратка към клетка не може да бъде оценена, тъй като стойността за клетката не е била извлечена или изчислена.",
+		"vssde-error-valueIsNotAvailable": "Определена стойност не е налична.",
+		"vssde-error-wrongName": "Изглежда, че се използва име, но такова име не е дефинирано.",
+		"vssde-error-twoAreasNotIntersecting": "Изисква се две области да се пресичат, но не се пресичат.",
+		"vssde-error-notCorrectValue": "Аргумент към функция има съвместим тип, но има стойност, която е извън домейна, върху който е дефинирана тази функция.",
+		"vssde-error-cannotEvaluateCellRef": "Препратка към клетка не може да бъде оценена.",
+		"vssde-error-incompatibleType": "Аргумент от несъвместим тип се предава на функция или операнд от несъвместим тип се използва с оператор.",
+		"vssde-error-unknownError": "Неизвестна грешка.",
+		"vssde-error-externalError": "Външна грешка.",
+		"vssde-uriOpen-question": "Отваряне на URL '{0}'?",
+		"vssde-uriOpen-wrongUri": "Адресът на този сайт не е валиден: {0}",
 		"vssde-createXlsxDocumentConfirmation": "Искате ли да създадете нова работна книга?",
-		"vssde-insertCommentDialog-title": "Вмъкнете коментар",
+		"vssde-renameWorksheetDialog-title": "Преименуване на лист",
 		"vssde-dialog-okButton": "ОК",
 		"vssde-dialog-cancelButton": "Отказ",
-		"vssde-editCommentDialog-title": "Редактиране на коментар",
-		"vssde-editChartDialog-title": "Редактиране на диаграма",
-		"vssde-editChartPropertiesPanel-spreadsheetEditorDoesNotHaveFocusedChart": "Редакторът на електронни таблици няма фокусирана диаграма.",
-		"vssde-editChartPropertiesPanel-selectedDrawingIsNotChart": "Избраният чертеж не е диаграма.",
-		"vssde-renameWorksheetDialog-title": "Преименуване на лист",
 		"vssde-moveWorksheetDialog-title": "Преместване на лист",
 		"vssde-findTextDialog-title": "Намерете текст",
 		"vssde-findTextDialog-findNextButton": "Намиране на следващия",
 		"vssde-dialog-closeButton": "Затвори",
 		"vssde-selectFunctionDialog-title": "Вмъкване на функция",
+		"vssde-insertCommentDialog-title": "Вмъкнете коментар",
+		"vssde-editCommentDialog-title": "Редактиране на коментар",
 		"vssde-cellNumberFormatDialog-title": "Формат на клетка",
 		"vssde-insertChartDialog-title": "Вмъкване на диаграма",
 		"vssde-insertChartPanel-chartType-column": "Колона",
@@ -723,7 +744,7 @@
 		"vssde-insertChartPanel-chartSubtype-area": "■ площ",
 		"vssde-insertChartPanel-chartSubtype-stackedArea": "Подредена област",
 		"vssde-insertChartPanel-chartSubtype-100%StackedArea": "100% подредена площ",
-		"vssde-insertChartPanel-fileArg0IsNotFound": "Файлът „{0}“ не е намерен.",
+		"vssde-insertChartPanel-fileArg0IsNotFound": "Файлът '{0}' не е намерен.",
 		"vssde-insertChartPanel-supportedChartTypesAreNotFound": "Поддържаните типове диаграми не са намерени.",
 		"vssde-insertChartPanel-notSupportedChartType": "Неподдържан тип диаграма.",
 		"vssde-insertChartPanel-supportedChartSubtypesAreNotFound": "Поддържаните подтипове на диаграмата не са намерени.",
@@ -732,6 +753,11 @@
 		"vssde-insertChartPanel-chartTemplateContainsTwoIdenticalNamesForChartTypes": "Шаблонът за диаграма съдържа 2 еднакви имена за типове диаграми.",
 		"vssde-insertChartPanel-pleaseSpecifyCellsWhichContainTheChartDataIncludeNamesForRowsAndColumns": "Моля, посочете клетки, които съдържат данните от диаграмата (включете имена на редове и колони).",
 		"vssde-insertChartPanel-chartSubtypeArg0HasMultipleDeclarationsOnDifferentWorksheets": "Подтипът на диаграмата '{0}' има множество декларации на различни работни листове.",
-		"vssde-insertChartPanel-sheetArg0IsNotFound": "Лист '{0}' не е намерен."
+		"vssde-insertChartPanel-sheetArg0IsNotFound": "Лист '{0}' не е намерен.",
+		"vssde-editChartDialog-title": "Редактиране на диаграма",
+		"vssde-editChartPropertiesPanel-spreadsheetEditorDoesNotHaveFocusedChart": "Редакторът на електронни таблици няма фокусирана диаграма.",
+		"vssde-editChartPropertiesPanel-selectedDrawingIsNotChart": "Избраният чертеж не е диаграма.",
+		"vssde-editHyperlinkDialog-addTitle": "Добавете хипервръзка",
+		"vssde-editHyperlinkDialog-editTitle": "Редактиране на хипервръзка"
 	}
 }

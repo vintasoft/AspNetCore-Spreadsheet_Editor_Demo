@@ -173,6 +173,9 @@
 		"thickOutsideBordersButton": {
 			"title": "Qalin tashqi chegaralar"
 		},
+		"cellBordersDropDownButton": {
+			"title": "Hujayra chegaralari"
+		},
 		"autoFitRowHeightButton": {
 			"title": "Qator balandligini avtomatik moslash"
 		},
@@ -407,51 +410,6 @@
 		"unhideColumnsLabel": {
 			"text": "Ustunlarni ko'rsatish"
 		},
-		"insertCommentDialog": {
-			"authorLabel": {
-				"text": "Muallif:"
-			},
-			"showAuthorLabel": {
-				"text": "Muallifni ko'rsatish"
-			},
-			"commentLabel": {
-				"text": "Izoh:"
-			},
-			"okButton": {
-				"value": "KELISHDIKMI"
-			},
-			"cancelButton": {
-				"value": "Bekor qilish"
-			}
-		},
-		"commentEditDialog": {
-			"authorLabel": {
-				"text": "Muallif:"
-			},
-			"showAuthorLabel": {
-				"text": "Muallifni ko'rsatish"
-			},
-			"commentLabel": {
-				"text": "Izoh:"
-			},
-			"okButton": {
-				"value": "KELISHDIKMI"
-			},
-			"cancelButton": {
-				"value": "Bekor qilish"
-			}
-		},
-		"editChartDialog": {
-			"titleLabel": {
-				"text": "Sarlavha:"
-			},
-			"okButton": {
-				"value": "KELISHDIKMI"
-			},
-			"cancelButton": {
-				"value": "Bekor qilish"
-			}
-		},
 		"renameWorksheetDialog": {
 			"nameLabel": {
 				"text": "Nomi:"
@@ -573,6 +531,40 @@
 				"value": "Bekor qilish"
 			}
 		},
+		"insertCommentDialog": {
+			"authorLabel": {
+				"text": "Muallif:"
+			},
+			"showAuthorLabel": {
+				"text": "Muallifni ko'rsatish"
+			},
+			"commentLabel": {
+				"text": "Izoh:"
+			},
+			"okButton": {
+				"value": "KELISHDIKMI"
+			},
+			"cancelButton": {
+				"value": "Bekor qilish"
+			}
+		},
+		"commentEditDialog": {
+			"authorLabel": {
+				"text": "Muallif:"
+			},
+			"showAuthorLabel": {
+				"text": "Muallifni ko'rsatish"
+			},
+			"commentLabel": {
+				"text": "Izoh:"
+			},
+			"okButton": {
+				"value": "KELISHDIKMI"
+			},
+			"cancelButton": {
+				"value": "Bekor qilish"
+			}
+		},
 		"setCellNumberFormatDialog": {
 			"General": {
 				"text": "General"
@@ -648,26 +640,45 @@
 			"cancelButton": {
 				"value": "Bekor qilish"
 			}
+		},
+		"editChartDialog": {
+			"titleLabel": {
+				"text": "Sarlavha:"
+			},
+			"okButton": {
+				"value": "KELISHDIKMI"
+			},
+			"cancelButton": {
+				"value": "Bekor qilish"
+			}
+		},
+		"editHyperlinkDialog": {
+			"urlRadioLabel": {
+				"text": "Veb sahifa"
+			},
+			"referenceRadioLabel": {
+				"text": "Hujayra ma'lumotnomasi"
+			},
+			"addressLabel": {
+				"text": "Manzil:"
+			},
+			"referenceLabel": {
+				"text": "Hujayra havolasi:"
+			},
+			"sheetLabel": {
+				"text": "Varaq:"
+			},
+			"okButton": {
+				"value": "KELISHDIKMI"
+			},
+			"cancelButton": {
+				"value": "Bekor qilish"
+			}
 		}
 	},
 	"strings": {
 		"vssde-documentIsOpening": "Hujjat ochilmoqda...",
-		"vssde-numberFormat-general": "General",
-		"vssde-numberFormat-number": "Raqam",
-		"vssde-numberFormat-date": "Sana",
-		"vssde-numberFormat-time": "Vaqt",
-		"vssde-numberFormat-currency": "Valyuta",
-		"vssde-numberFormat-percentage": "Foiz",
-		"vssde-numberFormat-scientific": "Ilmiy",
-		"vssde-numberFormat-text": "Matn",
 		"vssde-numberFormat-custom": "Maxsus",
-		"vssde-findTextPanel-sheet": "Varaq",
-		"vssde-findTextPanel-workbook": "Ish kitobi",
-		"vssde-findTextPanel-byRows": "Qatorlar bo'yicha",
-		"vssde-findTextPanel-byColumns": "Ustunlar bo'yicha",
-		"vssde-findTextPanel-formulas": "Formulalar",
-		"vssde-findTextPanel-values": "Qiymatlar",
-		"vssde-findTextPanel-comments": "Izohlar",
 		"vssde-findTextPanel-textIsNotFound": "'{0}' matni topilmadi.",
 		"vssde-selectFunctionPanel-all": "Hammasi",
 		"vssde-createXlsxDocument": "Yangi XLSX hujjatini yarating",
@@ -675,20 +686,30 @@
 		"vssde-downloadXlsxFile": "XLSX faylini yuklab oling",
 		"vssde-exportXlsxToPdf": "XLSX-ni PDF-ga eksport qiling",
 		"vssde-fileSizeExceedsLimit": "Yuklangan fayl hajmi maksimal hajmdan ({0} bayt) oshib ketdi.",
+		"vssde-error-noError": "Hech qanday xato.",
+		"vssde-error-divisionByZero": "Har qanday raqam (shu jumladan nol) yoki har qanday xato kodi nolga bo'linadi.",
+		"vssde-error-cellRefCannotBeEvaluated": "Hujayraga havolani baholab bo'lmaydi, chunki hujayra qiymati olinmagan yoki hisoblanmagan.",
+		"vssde-error-valueIsNotAvailable": "Belgilangan qiymat mavjud emas.",
+		"vssde-error-wrongName": "Nom ishlatilganga o'xshaydi, lekin bunday nom aniqlanmagan.",
+		"vssde-error-twoAreasNotIntersecting": "Ikkita maydon kesishishi kerak, lekin yo'q.",
+		"vssde-error-notCorrectValue": "Funksiyaga argument mos keladigan turga ega, lekin bu funksiya aniqlangan domendan tashqaridagi qiymatga ega.",
+		"vssde-error-cannotEvaluateCellRef": "Hujayra havolasini baholab bo'lmaydi.",
+		"vssde-error-incompatibleType": "Mos kelmaydigan turdagi argument funksiyaga uzatiladi yoki operator bilan mos kelmaydigan turdagi operand ishlatiladi.",
+		"vssde-error-unknownError": "Noma'lum xato.",
+		"vssde-error-externalError": "Tashqi xato.",
+		"vssde-uriOpen-question": "'{0}' URL manzilini ochingmi?",
+		"vssde-uriOpen-wrongUri": "Bu sayt manzili noto‘g‘ri: {0}",
 		"vssde-createXlsxDocumentConfirmation": "Yangi ish kitobini yaratmoqchimisiz?",
-		"vssde-insertCommentDialog-title": "Fikr kiritish",
+		"vssde-renameWorksheetDialog-title": "Ishchi varaq nomini o'zgartirish",
 		"vssde-dialog-okButton": "KELISHDIKMI",
 		"vssde-dialog-cancelButton": "Bekor qilish",
-		"vssde-editCommentDialog-title": "Fikrni tahrirlash",
-		"vssde-editChartDialog-title": "Diagrammani tahrirlash",
-		"vssde-editChartPropertiesPanel-spreadsheetEditorDoesNotHaveFocusedChart": "Elektron jadval muharriri fokuslangan diagrammaga ega emas.",
-		"vssde-editChartPropertiesPanel-selectedDrawingIsNotChart": "Tanlangan chizma diagramma emas.",
-		"vssde-renameWorksheetDialog-title": "Ishchi varaq nomini o'zgartirish",
 		"vssde-moveWorksheetDialog-title": "Ishchi varaqni ko'chirish",
 		"vssde-findTextDialog-title": "Matnni toping",
 		"vssde-findTextDialog-findNextButton": "Keyingisini toping",
 		"vssde-dialog-closeButton": "Yopish",
 		"vssde-selectFunctionDialog-title": "Funktsiyani kiritish",
+		"vssde-insertCommentDialog-title": "Fikr kiritish",
+		"vssde-editCommentDialog-title": "Fikrni tahrirlash",
 		"vssde-cellNumberFormatDialog-title": "Hujayra formati",
 		"vssde-insertChartDialog-title": "Diagramma kiritish",
 		"vssde-insertChartPanel-chartType-column": "Ustun",
@@ -732,6 +753,11 @@
 		"vssde-insertChartPanel-chartTemplateContainsTwoIdenticalNamesForChartTypes": "Diagramma shablonida diagramma turlari uchun ikkita bir xil nom mavjud.",
 		"vssde-insertChartPanel-pleaseSpecifyCellsWhichContainTheChartDataIncludeNamesForRowsAndColumns": "Iltimos, diagramma ma'lumotlarini o'z ichiga olgan katakchalarni ko'rsating (satr va ustunlar nomlarini kiriting).",
 		"vssde-insertChartPanel-chartSubtypeArg0HasMultipleDeclarationsOnDifferentWorksheets": "'{0}' diagrammaning pastki turi turli ish varaqlarida bir nechta deklaratsiyaga ega.",
-		"vssde-insertChartPanel-sheetArg0IsNotFound": "'{0}' varaq topilmadi."
+		"vssde-insertChartPanel-sheetArg0IsNotFound": "'{0}' varaq topilmadi.",
+		"vssde-editChartDialog-title": "Diagrammani tahrirlash",
+		"vssde-editChartPropertiesPanel-spreadsheetEditorDoesNotHaveFocusedChart": "Elektron jadval muharriri fokuslangan diagrammaga ega emas.",
+		"vssde-editChartPropertiesPanel-selectedDrawingIsNotChart": "Tanlangan chizma diagramma emas.",
+		"vssde-editHyperlinkDialog-addTitle": "Giperhavola qo'shing",
+		"vssde-editHyperlinkDialog-editTitle": "Giperhavolani tahrirlash"
 	}
 }

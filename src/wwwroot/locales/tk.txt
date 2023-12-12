@@ -173,11 +173,14 @@
 		"thickOutsideBordersButton": {
 			"title": "Serhetleriň daşyndaky galyňlyk"
 		},
+		"cellBordersDropDownButton": {
+			"title": "Öýjük araçäkleri"
+		},
 		"autoFitRowHeightButton": {
-			"title": "Setiriň beýikligini “AutoFit”"
+			"title": "Setiriň beýikligini 'AutoFit'"
 		},
 		"autoFitColumnWidthButton": {
-			"title": "Sütüniň giňligini “AutoFit”"
+			"title": "Sütüniň giňligini 'AutoFit'"
 		},
 		"insertRowsButton": {
 			"title": "Setirleri salyň"
@@ -407,51 +410,6 @@
 		"unhideColumnsLabel": {
 			"text": "Sütünleri gizläň"
 		},
-		"insertCommentDialog": {
-			"authorLabel": {
-				"text": "Awtory:"
-			},
-			"showAuthorLabel": {
-				"text": "Awtory görkez"
-			},
-			"commentLabel": {
-				"text": "Düşündiriş:"
-			},
-			"okButton": {
-				"value": "Bolýar"
-			},
-			"cancelButton": {
-				"value": "Elatyr"
-			}
-		},
-		"commentEditDialog": {
-			"authorLabel": {
-				"text": "Awtory:"
-			},
-			"showAuthorLabel": {
-				"text": "Awtory görkez"
-			},
-			"commentLabel": {
-				"text": "Düşündiriş:"
-			},
-			"okButton": {
-				"value": "Bolýar"
-			},
-			"cancelButton": {
-				"value": "Elatyr"
-			}
-		},
-		"editChartDialog": {
-			"titleLabel": {
-				"text": "Ady:"
-			},
-			"okButton": {
-				"value": "Bolýar"
-			},
-			"cancelButton": {
-				"value": "Elatyr"
-			}
-		},
 		"renameWorksheetDialog": {
 			"nameLabel": {
 				"text": "Ady:"
@@ -573,6 +531,40 @@
 				"value": "Elatyr"
 			}
 		},
+		"insertCommentDialog": {
+			"authorLabel": {
+				"text": "Awtory:"
+			},
+			"showAuthorLabel": {
+				"text": "Awtory görkez"
+			},
+			"commentLabel": {
+				"text": "Düşündiriş:"
+			},
+			"okButton": {
+				"value": "Bolýar"
+			},
+			"cancelButton": {
+				"value": "Elatyr"
+			}
+		},
+		"commentEditDialog": {
+			"authorLabel": {
+				"text": "Awtory:"
+			},
+			"showAuthorLabel": {
+				"text": "Awtory görkez"
+			},
+			"commentLabel": {
+				"text": "Düşündiriş:"
+			},
+			"okButton": {
+				"value": "Bolýar"
+			},
+			"cancelButton": {
+				"value": "Elatyr"
+			}
+		},
 		"setCellNumberFormatDialog": {
 			"General": {
 				"text": "General"
@@ -648,26 +640,45 @@
 			"cancelButton": {
 				"value": "Elatyr"
 			}
+		},
+		"editChartDialog": {
+			"titleLabel": {
+				"text": "Ady:"
+			},
+			"okButton": {
+				"value": "Bolýar"
+			},
+			"cancelButton": {
+				"value": "Elatyr"
+			}
+		},
+		"editHyperlinkDialog": {
+			"urlRadioLabel": {
+				"text": "Web sahypa"
+			},
+			"referenceRadioLabel": {
+				"text": "Öýjük salgylanmasy"
+			},
+			"addressLabel": {
+				"text": "Salgysy:"
+			},
+			"referenceLabel": {
+				"text": "Öýjük salgylanmasy:"
+			},
+			"sheetLabel": {
+				"text": "Sahypa:"
+			},
+			"okButton": {
+				"value": "Bolýar"
+			},
+			"cancelButton": {
+				"value": "Elatyr"
+			}
 		}
 	},
 	"strings": {
 		"vssde-documentIsOpening": "Resminama açylýar ...",
-		"vssde-numberFormat-general": "General",
-		"vssde-numberFormat-number": "San",
-		"vssde-numberFormat-date": "Sene",
-		"vssde-numberFormat-time": "Wagt",
-		"vssde-numberFormat-currency": "Walýuta",
-		"vssde-numberFormat-percentage": "Göterim",
-		"vssde-numberFormat-scientific": "Ylmy",
-		"vssde-numberFormat-text": "Tekst",
 		"vssde-numberFormat-custom": "Omörite",
-		"vssde-findTextPanel-sheet": "Sahypa",
-		"vssde-findTextPanel-workbook": "Iş kitaby",
-		"vssde-findTextPanel-byRows": "Setirler boýunça",
-		"vssde-findTextPanel-byColumns": "Sütünler boýunça",
-		"vssde-findTextPanel-formulas": "Formulalar",
-		"vssde-findTextPanel-values": "Gymmatlyklar",
-		"vssde-findTextPanel-comments": "Teswirler",
 		"vssde-findTextPanel-textIsNotFound": "'{0}' teksti tapylmady",
 		"vssde-selectFunctionPanel-all": "Hemmesi",
 		"vssde-createXlsxDocument": "Täze XLSX resminama dörediň",
@@ -675,20 +686,30 @@
 		"vssde-downloadXlsxFile": "XLSX faýly göçürip alyň",
 		"vssde-exportXlsxToPdf": "XLSX-ni PDF-e eksport ediň",
 		"vssde-fileSizeExceedsLimit": "Uploadüklenen faýlyň ululygy iň uly ululykdan ({0} baýt) geçýär.",
+		"vssde-error-noError": "Erroralňyşlyk ýok.",
+		"vssde-error-divisionByZero": "Islendik san (noly goşmak bilen) ýa-da islendik säwlik kody nola bölünýär.",
+		"vssde-error-cellRefCannotBeEvaluated": "Öýjügiň salgylanmasy bahalandyrylyp bilinmez, sebäbi öýjügiň bahasy alynmady ýa-da hasaplanmady.",
+		"vssde-error-valueIsNotAvailable": "Bellenen baha elýeterli däl",
+		"vssde-error-wrongName": "Bir at ulanylana meňzeýär, ýöne beýle at kesgitlenmedi.",
+		"vssde-error-twoAreasNotIntersecting": "Iki ugur kesişmeli, ýöne kesmeli däl.",
+		"vssde-error-notCorrectValue": "Funksiýa üçin argumentiň gabat gelýän görnüşi bar, ýöne şol funksiýanyň kesgitlenen domeniniň daşyndaky gymmaty bar.",
+		"vssde-error-cannotEvaluateCellRef": "Öýjük salgylanmasyna baha berip bolmaz.",
+		"vssde-error-incompatibleType": "Gabat gelmeýän görnüş argumenti bir funksiýa geçirilýär ýa-da operator bilen gabat gelmeýän görnüşli operand ulanylýar.",
+		"vssde-error-unknownError": "Näbelli ýalňyşlyk",
+		"vssde-error-externalError": "Daşarky ýalňyşlyk.",
+		"vssde-uriOpen-question": "'{0}' URL açyň?",
+		"vssde-uriOpen-wrongUri": "Bu sahypanyň salgysy dogry däl: {0}",
 		"vssde-createXlsxDocumentConfirmation": "Täze iş kitabyny döretmek isleýärsiňizmi?",
-		"vssde-insertCommentDialog-title": "Düşündiriş",
+		"vssde-renameWorksheetDialog-title": "Iş sahypasynyň adyny üýtgediň",
 		"vssde-dialog-okButton": "Bolýar",
 		"vssde-dialog-cancelButton": "Elatyr",
-		"vssde-editCommentDialog-title": "Teswirleri redaktirläň",
-		"vssde-editChartDialog-title": "Diagrammany redaktirläň",
-		"vssde-editChartPropertiesPanel-spreadsheetEditorDoesNotHaveFocusedChart": "Elektron tablisasynyň redaktory ünsi jemlemeýär.",
-		"vssde-editChartPropertiesPanel-selectedDrawingIsNotChart": "Saýlanan çyzgy diagramma däl.",
-		"vssde-renameWorksheetDialog-title": "Iş sahypasynyň adyny üýtgediň",
 		"vssde-moveWorksheetDialog-title": "Iş sahypasyny göçüriň",
 		"vssde-findTextDialog-title": "Tekst tap",
 		"vssde-findTextDialog-findNextButton": "Indiki tap",
 		"vssde-dialog-closeButton": ".Akyn",
 		"vssde-selectFunctionDialog-title": "Funksiýa goýmak",
+		"vssde-insertCommentDialog-title": "Düşündiriş",
+		"vssde-editCommentDialog-title": "Teswirleri redaktirläň",
 		"vssde-cellNumberFormatDialog-title": "Öýjük formaty",
 		"vssde-insertChartDialog-title": "Diagramma sal",
 		"vssde-insertChartPanel-chartType-column": "Sütün",
@@ -732,6 +753,11 @@
 		"vssde-insertChartPanel-chartTemplateContainsTwoIdenticalNamesForChartTypes": "Diagramma şablony diagramma görnüşleri üçin 2 meňzeş aty öz içine alýar.",
 		"vssde-insertChartPanel-pleaseSpecifyCellsWhichContainTheChartDataIncludeNamesForRowsAndColumns": "Diagramma maglumatlaryny öz içine alýan öýjükleri görkezmegiňizi haýyş edýäris (hatarlaryň we sütünleriň atlaryny goşuň).",
 		"vssde-insertChartPanel-chartSubtypeArg0HasMultipleDeclarationsOnDifferentWorksheets": "'{0}' diagramma görnüşiniň dürli iş sahypalarynda birnäçe beýany bar.",
-		"vssde-insertChartPanel-sheetArg0IsNotFound": "'{0}' sahypasy tapylmady"
+		"vssde-insertChartPanel-sheetArg0IsNotFound": "'{0}' sahypasy tapylmady",
+		"vssde-editChartDialog-title": "Diagrammany redaktirläň",
+		"vssde-editChartPropertiesPanel-spreadsheetEditorDoesNotHaveFocusedChart": "Elektron tablisasynyň redaktory ünsi jemlemeýär.",
+		"vssde-editChartPropertiesPanel-selectedDrawingIsNotChart": "Saýlanan çyzgy diagramma däl.",
+		"vssde-editHyperlinkDialog-addTitle": "Giperlink goşuň",
+		"vssde-editHyperlinkDialog-editTitle": "Giperlinkany redaktirläň"
 	}
 }

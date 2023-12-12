@@ -173,6 +173,9 @@
 		"thickOutsideBordersButton": {
 			"title": "Storos išorinės sienos"
 		},
+		"cellBordersDropDownButton": {
+			"title": "Ląstelių kraštinės"
+		},
 		"autoFitRowHeightButton": {
 			"title": "Automatiškai pritaikykite eilutės aukštį"
 		},
@@ -407,51 +410,6 @@
 		"unhideColumnsLabel": {
 			"text": "Rodyti stulpelius"
 		},
-		"insertCommentDialog": {
-			"authorLabel": {
-				"text": "Autorius:"
-			},
-			"showAuthorLabel": {
-				"text": "Rodyti autorių"
-			},
-			"commentLabel": {
-				"text": "komentaras:"
-			},
-			"okButton": {
-				"value": "Gerai"
-			},
-			"cancelButton": {
-				"value": "Atšaukti"
-			}
-		},
-		"commentEditDialog": {
-			"authorLabel": {
-				"text": "Autorius:"
-			},
-			"showAuthorLabel": {
-				"text": "Rodyti autorių"
-			},
-			"commentLabel": {
-				"text": "komentaras:"
-			},
-			"okButton": {
-				"value": "Gerai"
-			},
-			"cancelButton": {
-				"value": "Atšaukti"
-			}
-		},
-		"editChartDialog": {
-			"titleLabel": {
-				"text": "Pavadinimas:"
-			},
-			"okButton": {
-				"value": "Gerai"
-			},
-			"cancelButton": {
-				"value": "Atšaukti"
-			}
-		},
 		"renameWorksheetDialog": {
 			"nameLabel": {
 				"text": "Vardas:"
@@ -573,6 +531,40 @@
 				"value": "Atšaukti"
 			}
 		},
+		"insertCommentDialog": {
+			"authorLabel": {
+				"text": "Autorius:"
+			},
+			"showAuthorLabel": {
+				"text": "Rodyti autorių"
+			},
+			"commentLabel": {
+				"text": "komentaras:"
+			},
+			"okButton": {
+				"value": "Gerai"
+			},
+			"cancelButton": {
+				"value": "Atšaukti"
+			}
+		},
+		"commentEditDialog": {
+			"authorLabel": {
+				"text": "Autorius:"
+			},
+			"showAuthorLabel": {
+				"text": "Rodyti autorių"
+			},
+			"commentLabel": {
+				"text": "komentaras:"
+			},
+			"okButton": {
+				"value": "Gerai"
+			},
+			"cancelButton": {
+				"value": "Atšaukti"
+			}
+		},
 		"setCellNumberFormatDialog": {
 			"General": {
 				"text": "Generolas"
@@ -648,26 +640,45 @@
 			"cancelButton": {
 				"value": "Atšaukti"
 			}
+		},
+		"editChartDialog": {
+			"titleLabel": {
+				"text": "Pavadinimas:"
+			},
+			"okButton": {
+				"value": "Gerai"
+			},
+			"cancelButton": {
+				"value": "Atšaukti"
+			}
+		},
+		"editHyperlinkDialog": {
+			"urlRadioLabel": {
+				"text": "Tinklo puslapis"
+			},
+			"referenceRadioLabel": {
+				"text": "Ląstelių nuoroda"
+			},
+			"addressLabel": {
+				"text": "Adresas:"
+			},
+			"referenceLabel": {
+				"text": "Ląstelės nuoroda:"
+			},
+			"sheetLabel": {
+				"text": "Lapas:"
+			},
+			"okButton": {
+				"value": "Gerai"
+			},
+			"cancelButton": {
+				"value": "Atšaukti"
+			}
 		}
 	},
 	"strings": {
 		"vssde-documentIsOpening": "Dokumentas atidaromas...",
-		"vssde-numberFormat-general": "Generolas",
-		"vssde-numberFormat-number": "Skaičius",
-		"vssde-numberFormat-date": "Data",
-		"vssde-numberFormat-time": "Laikas",
-		"vssde-numberFormat-currency": "Valiuta",
-		"vssde-numberFormat-percentage": "Procentas",
-		"vssde-numberFormat-scientific": "Mokslinis",
-		"vssde-numberFormat-text": "Tekstas",
 		"vssde-numberFormat-custom": "Pasirinktinis",
-		"vssde-findTextPanel-sheet": "Lapas",
-		"vssde-findTextPanel-workbook": "Darbo knyga",
-		"vssde-findTextPanel-byRows": "Pagal eilutes",
-		"vssde-findTextPanel-byColumns": "Pagal stulpelius",
-		"vssde-findTextPanel-formulas": "Formulės",
-		"vssde-findTextPanel-values": "Vertybės",
-		"vssde-findTextPanel-comments": "Komentarai",
 		"vssde-findTextPanel-textIsNotFound": "Tekstas '{0}' nerastas.",
 		"vssde-selectFunctionPanel-all": "Visi",
 		"vssde-createXlsxDocument": "Sukurkite naują XLSX dokumentą",
@@ -675,20 +686,30 @@
 		"vssde-downloadXlsxFile": "Atsisiųskite XLSX failą",
 		"vssde-exportXlsxToPdf": "Eksportuokite XLSX į PDF",
 		"vssde-fileSizeExceedsLimit": "Įkelto failo dydis viršija maksimalų dydį ({0} baitai).",
+		"vssde-error-noError": "Jokios klaidos.",
+		"vssde-error-divisionByZero": "Bet koks skaičius (įskaitant nulį) arba bet koks klaidos kodas yra padalintas iš nulio.",
+		"vssde-error-cellRefCannotBeEvaluated": "Neįmanoma įvertinti langelio nuorodos, nes langelio reikšmė nebuvo nuskaityta arba apskaičiuota.",
+		"vssde-error-valueIsNotAvailable": "Nurodyta vertė nepasiekiama.",
+		"vssde-error-wrongName": "Atrodo, kad naudojamas vardas, bet toks pavadinimas nebuvo apibrėžtas.",
+		"vssde-error-twoAreasNotIntersecting": "Dvi sritys turi susikirsti, bet ne.",
+		"vssde-error-notCorrectValue": "Funkcijos argumentas yra suderinamo tipo, bet jo reikšmė yra už domeno, kuriame ta funkcija apibrėžta, ribų.",
+		"vssde-error-cannotEvaluateCellRef": "Ląstelės nuoroda negali būti įvertinta.",
+		"vssde-error-incompatibleType": "Nesuderinamo tipo argumentas perduodamas funkcijai arba su operatoriumi naudojamas nesuderinamas tipo operandas.",
+		"vssde-error-unknownError": "Nežinoma klaida.",
+		"vssde-error-externalError": "Išorinė klaida.",
+		"vssde-uriOpen-question": "Atidaryti URL '{0}'?",
+		"vssde-uriOpen-wrongUri": "Šios svetainės adresas neteisingas: {0}",
 		"vssde-createXlsxDocumentConfirmation": "Ar norite sukurti naują darbaknygę?",
-		"vssde-insertCommentDialog-title": "Įterpti komentarą",
+		"vssde-renameWorksheetDialog-title": "Pervardyti darbalapį",
 		"vssde-dialog-okButton": "Gerai",
 		"vssde-dialog-cancelButton": "Atšaukti",
-		"vssde-editCommentDialog-title": "Redaguoti komentarą",
-		"vssde-editChartDialog-title": "Redaguoti diagramą",
-		"vssde-editChartPropertiesPanel-spreadsheetEditorDoesNotHaveFocusedChart": "Skaičiuoklės rengyklė neturi sufokusuotos diagramos.",
-		"vssde-editChartPropertiesPanel-selectedDrawingIsNotChart": "Pasirinktas piešinys nėra diagrama.",
-		"vssde-renameWorksheetDialog-title": "Pervardyti darbalapį",
 		"vssde-moveWorksheetDialog-title": "Perkelti darbalapį",
 		"vssde-findTextDialog-title": "Rasti tekstą",
 		"vssde-findTextDialog-findNextButton": "Rasti kitą",
 		"vssde-dialog-closeButton": "Uždaryti",
 		"vssde-selectFunctionDialog-title": "Įterpti funkciją",
+		"vssde-insertCommentDialog-title": "Įterpti komentarą",
+		"vssde-editCommentDialog-title": "Redaguoti komentarą",
 		"vssde-cellNumberFormatDialog-title": "Ląstelių formatas",
 		"vssde-insertChartDialog-title": "Įterpti diagramą",
 		"vssde-insertChartPanel-chartType-column": "Stulpelis",
@@ -732,6 +753,11 @@
 		"vssde-insertChartPanel-chartTemplateContainsTwoIdenticalNamesForChartTypes": "Diagramos šablone yra 2 identiški diagramų tipų pavadinimai.",
 		"vssde-insertChartPanel-pleaseSpecifyCellsWhichContainTheChartDataIncludeNamesForRowsAndColumns": "Nurodykite langelius, kuriuose yra diagramos duomenys (įtraukite eilučių ir stulpelių pavadinimus).",
 		"vssde-insertChartPanel-chartSubtypeArg0HasMultipleDeclarationsOnDifferentWorksheets": "Diagramos potipis '{0}' turi kelias deklaracijas skirtinguose darbalapiuose.",
-		"vssde-insertChartPanel-sheetArg0IsNotFound": "Lapas '{0}' nerastas."
+		"vssde-insertChartPanel-sheetArg0IsNotFound": "Lapas '{0}' nerastas.",
+		"vssde-editChartDialog-title": "Redaguoti diagramą",
+		"vssde-editChartPropertiesPanel-spreadsheetEditorDoesNotHaveFocusedChart": "Skaičiuoklės rengyklė neturi sufokusuotos diagramos.",
+		"vssde-editChartPropertiesPanel-selectedDrawingIsNotChart": "Pasirinktas piešinys nėra diagrama.",
+		"vssde-editHyperlinkDialog-addTitle": "Pridėti hipersaitą",
+		"vssde-editHyperlinkDialog-editTitle": "Redaguoti hipersaitą"
 	}
 }

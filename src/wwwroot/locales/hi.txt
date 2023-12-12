@@ -173,6 +173,9 @@
 		"thickOutsideBordersButton": {
 			"title": "मोटी बाहरी सीमाएँ"
 		},
+		"cellBordersDropDownButton": {
+			"title": "सेल सीमाएँ"
+		},
 		"autoFitRowHeightButton": {
 			"title": "पंक्ति की ऊँचाई को स्वतः फ़िट करें"
 		},
@@ -407,51 +410,6 @@
 		"unhideColumnsLabel": {
 			"text": "कॉलम दिखाएं"
 		},
-		"insertCommentDialog": {
-			"authorLabel": {
-				"text": "लेखक:"
-			},
-			"showAuthorLabel": {
-				"text": "लेखक दिखाएँ"
-			},
-			"commentLabel": {
-				"text": "टिप्पणी:"
-			},
-			"okButton": {
-				"value": "ठीक है"
-			},
-			"cancelButton": {
-				"value": "रद्द करें"
-			}
-		},
-		"commentEditDialog": {
-			"authorLabel": {
-				"text": "लेखक:"
-			},
-			"showAuthorLabel": {
-				"text": "लेखक दिखाएँ"
-			},
-			"commentLabel": {
-				"text": "टिप्पणी:"
-			},
-			"okButton": {
-				"value": "ठीक है"
-			},
-			"cancelButton": {
-				"value": "रद्द करें"
-			}
-		},
-		"editChartDialog": {
-			"titleLabel": {
-				"text": "शीर्षक:"
-			},
-			"okButton": {
-				"value": "ठीक है"
-			},
-			"cancelButton": {
-				"value": "रद्द करें"
-			}
-		},
 		"renameWorksheetDialog": {
 			"nameLabel": {
 				"text": "नाम:"
@@ -573,6 +531,40 @@
 				"value": "रद्द करें"
 			}
 		},
+		"insertCommentDialog": {
+			"authorLabel": {
+				"text": "लेखक:"
+			},
+			"showAuthorLabel": {
+				"text": "लेखक दिखाएँ"
+			},
+			"commentLabel": {
+				"text": "टिप्पणी:"
+			},
+			"okButton": {
+				"value": "ठीक है"
+			},
+			"cancelButton": {
+				"value": "रद्द करें"
+			}
+		},
+		"commentEditDialog": {
+			"authorLabel": {
+				"text": "लेखक:"
+			},
+			"showAuthorLabel": {
+				"text": "लेखक दिखाएँ"
+			},
+			"commentLabel": {
+				"text": "टिप्पणी:"
+			},
+			"okButton": {
+				"value": "ठीक है"
+			},
+			"cancelButton": {
+				"value": "रद्द करें"
+			}
+		},
 		"setCellNumberFormatDialog": {
 			"General": {
 				"text": "सामान्य"
@@ -648,26 +640,45 @@
 			"cancelButton": {
 				"value": "रद्द करें"
 			}
+		},
+		"editChartDialog": {
+			"titleLabel": {
+				"text": "शीर्षक:"
+			},
+			"okButton": {
+				"value": "ठीक है"
+			},
+			"cancelButton": {
+				"value": "रद्द करें"
+			}
+		},
+		"editHyperlinkDialog": {
+			"urlRadioLabel": {
+				"text": "वेब पृष्ठ"
+			},
+			"referenceRadioLabel": {
+				"text": "सेल संदर्भ"
+			},
+			"addressLabel": {
+				"text": "पता:"
+			},
+			"referenceLabel": {
+				"text": "सेल संदर्भ:"
+			},
+			"sheetLabel": {
+				"text": "शीट:"
+			},
+			"okButton": {
+				"value": "ठीक है"
+			},
+			"cancelButton": {
+				"value": "रद्द करें"
+			}
 		}
 	},
 	"strings": {
 		"vssde-documentIsOpening": "दस्तावेज़ खुल रहा है...",
-		"vssde-numberFormat-general": "सामान्य",
-		"vssde-numberFormat-number": "संख्यात्मक",
-		"vssde-numberFormat-date": "तिथि",
-		"vssde-numberFormat-time": "समय",
-		"vssde-numberFormat-currency": "पैसा",
-		"vssde-numberFormat-percentage": "प्रतिशत",
-		"vssde-numberFormat-scientific": "घातीय",
-		"vssde-numberFormat-text": "पाठ",
 		"vssde-numberFormat-custom": "कस्टम",
-		"vssde-findTextPanel-sheet": "शीट पर",
-		"vssde-findTextPanel-workbook": "पुस्तक में",
-		"vssde-findTextPanel-byRows": "पंक्तियों में",
-		"vssde-findTextPanel-byColumns": "स्तंभों में",
-		"vssde-findTextPanel-formulas": "सूत्र",
-		"vssde-findTextPanel-values": "मान",
-		"vssde-findTextPanel-comments": "टिप्पणियाँ",
 		"vssde-findTextPanel-textIsNotFound": "पाठ '{0}' नहीं मिला.",
 		"vssde-selectFunctionPanel-all": "सभी",
 		"vssde-createXlsxDocument": "नया XLSX दस्तावेज़ बनाएँ",
@@ -675,20 +686,30 @@
 		"vssde-downloadXlsxFile": "XLSX फ़ाइल अपलोड करें",
 		"vssde-exportXlsxToPdf": "XLSX को पीडीएफ में निर्यात करें",
 		"vssde-fileSizeExceedsLimit": "अपलोड की गई फ़ाइल का आकार अधिकतम आकार ({0} बाइट्स) से अधिक है।",
+		"vssde-error-noError": "कोई ग़लती नहीं।",
+		"vssde-error-divisionByZero": "किसी भी संख्या (शून्य सहित) या किसी त्रुटि कोड को शून्य से विभाजित किया जाता है।",
+		"vssde-error-cellRefCannotBeEvaluated": "सेल संदर्भ का मूल्यांकन नहीं किया जा सकता क्योंकि सेल का मान पुनर्प्राप्त या गणना नहीं किया गया है।",
+		"vssde-error-valueIsNotAvailable": "निर्दिष्ट मान उपलब्ध नहीं है.",
+		"vssde-error-wrongName": "ऐसा लगता है कि किसी नाम का उपयोग किया गया है लेकिन ऐसे किसी नाम को परिभाषित नहीं किया गया है।",
+		"vssde-error-twoAreasNotIntersecting": "दो क्षेत्रों को प्रतिच्छेद करना आवश्यक है लेकिन ऐसा नहीं है।",
+		"vssde-error-notCorrectValue": "किसी फ़ंक्शन के तर्क का एक संगत प्रकार होता है, लेकिन उसका एक मान उस डोमेन से बाहर होता है जिस पर वह फ़ंक्शन परिभाषित होता है।",
+		"vssde-error-cannotEvaluateCellRef": "सेल संदर्भ का मूल्यांकन नहीं किया जा सकता.",
+		"vssde-error-incompatibleType": "एक असंगत प्रकार का तर्क किसी फ़ंक्शन को पास किया जाता है, या एक ऑपरेटर के साथ एक असंगत प्रकार के ऑपरेंड का उपयोग किया जाता है।",
+		"vssde-error-unknownError": "अज्ञात त्रुटि।",
+		"vssde-error-externalError": "बाहरी त्रुटि.",
+		"vssde-uriOpen-question": "यूआरएल '{0}' खोलें?",
+		"vssde-uriOpen-wrongUri": "इस साइट का पता मान्य नहीं है: {0}",
 		"vssde-createXlsxDocumentConfirmation": "क्या आप एक नई कार्यपुस्तिका बनाना चाहते हैं?",
-		"vssde-insertCommentDialog-title": "टिप्पणी डालें",
+		"vssde-renameWorksheetDialog-title": "शीट का नाम बदलें",
 		"vssde-dialog-okButton": "ठीक है",
 		"vssde-dialog-cancelButton": "रद्द करें",
-		"vssde-editCommentDialog-title": "टिप्पणी संपादित करें",
-		"vssde-editChartDialog-title": "चार्ट संपादित करें",
-		"vssde-editChartPropertiesPanel-spreadsheetEditorDoesNotHaveFocusedChart": "स्प्रेडशीट संपादक में फोकस्ड चार्ट नहीं है।",
-		"vssde-editChartPropertiesPanel-selectedDrawingIsNotChart": "चयनित ड्राइंग कोई चार्ट नहीं है.",
-		"vssde-renameWorksheetDialog-title": "शीट का नाम बदलें",
 		"vssde-moveWorksheetDialog-title": "शीट हटाएँ",
 		"vssde-findTextDialog-title": "पाठ ढूँढें",
 		"vssde-findTextDialog-findNextButton": "अगला खोजें",
 		"vssde-dialog-closeButton": "बंद करें",
 		"vssde-selectFunctionDialog-title": "फ़ंक्शन सम्मिलित करें",
+		"vssde-insertCommentDialog-title": "टिप्पणी डालें",
+		"vssde-editCommentDialog-title": "टिप्पणी संपादित करें",
 		"vssde-cellNumberFormatDialog-title": "सेल प्रारूप",
 		"vssde-insertChartDialog-title": "चार्ट सम्मिलित करें",
 		"vssde-insertChartPanel-chartType-column": "स्तंभ",
@@ -732,6 +753,11 @@
 		"vssde-insertChartPanel-chartTemplateContainsTwoIdenticalNamesForChartTypes": "चार्ट टेम्पलेट में चार्ट प्रकारों के लिए 2 समान नाम हैं।",
 		"vssde-insertChartPanel-pleaseSpecifyCellsWhichContainTheChartDataIncludeNamesForRowsAndColumns": "कृपया सेल निर्दिष्ट करें, जिसमें चार्ट डेटा शामिल है (पंक्तियों और स्तंभों के नाम शामिल करें)।",
 		"vssde-insertChartPanel-chartSubtypeArg0HasMultipleDeclarationsOnDifferentWorksheets": "चार्ट उपप्रकार '{0}' में विभिन्न कार्यपत्रकों पर एकाधिक घोषणाएँ हैं।",
-		"vssde-insertChartPanel-sheetArg0IsNotFound": "शीट '{0}' नहीं मिली."
+		"vssde-insertChartPanel-sheetArg0IsNotFound": "शीट '{0}' नहीं मिली.",
+		"vssde-editChartDialog-title": "चार्ट संपादित करें",
+		"vssde-editChartPropertiesPanel-spreadsheetEditorDoesNotHaveFocusedChart": "स्प्रेडशीट संपादक में फोकस्ड चार्ट नहीं है।",
+		"vssde-editChartPropertiesPanel-selectedDrawingIsNotChart": "चयनित ड्राइंग कोई चार्ट नहीं है.",
+		"vssde-editHyperlinkDialog-addTitle": "हाइपरलिंक जोड़ें",
+		"vssde-editHyperlinkDialog-editTitle": "हाइपरलिंक संपादित करें"
 	}
 }

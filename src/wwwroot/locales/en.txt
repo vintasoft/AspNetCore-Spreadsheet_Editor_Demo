@@ -173,6 +173,9 @@
 		"thickOutsideBordersButton": {
 			"title": "Thick Outside Borders"
 		},
+		"cellBordersDropDownButton": {
+			"title": "Cell Borders"
+		},
 		"autoFitRowHeightButton": {
 			"title": "AutoFit the row height"
 		},
@@ -407,51 +410,6 @@
 		"unhideColumnsLabel": {
 			"text": "Unhide Columns"
 		},
-		"insertCommentDialog": {
-			"authorLabel": {
-				"text": "Author:"
-			},
-			"showAuthorLabel": {
-				"text": "Show Author"
-			},
-			"commentLabel": {
-				"text": "Comment:"
-			},
-			"okButton": {
-				"value": "OK"
-			},
-			"cancelButton": {
-				"value": "Cancel"
-			}
-		},
-		"commentEditDialog": {
-			"authorLabel": {
-				"text": "Author:"
-			},
-			"showAuthorLabel": {
-				"text": "Show Author"
-			},
-			"commentLabel": {
-				"text": "Comment:"
-			},
-			"okButton": {
-				"value": "OK"
-			},
-			"cancelButton": {
-				"value": "Cancel"
-			}
-		},
-		"editChartDialog": {
-			"titleLabel": {
-				"text": "Title:"
-			},
-			"okButton": {
-				"value": "OK"
-			},
-			"cancelButton": {
-				"value": "Cancel"
-			}
-		},
 		"renameWorksheetDialog": {
 			"nameLabel": {
 				"text": "Name:"
@@ -573,6 +531,40 @@
 				"value": "Cancel"
 			}
 		},
+		"insertCommentDialog": {
+			"authorLabel": {
+				"text": "Author:"
+			},
+			"showAuthorLabel": {
+				"text": "Show Author"
+			},
+			"commentLabel": {
+				"text": "Comment:"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Cancel"
+			}
+		},
+		"commentEditDialog": {
+			"authorLabel": {
+				"text": "Author:"
+			},
+			"showAuthorLabel": {
+				"text": "Show Author"
+			},
+			"commentLabel": {
+				"text": "Comment:"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Cancel"
+			}
+		},
 		"setCellNumberFormatDialog": {
 			"General": {
 				"text": "General"
@@ -648,26 +640,45 @@
 			"cancelButton": {
 				"value": "Cancel"
 			}
+		},
+		"editChartDialog": {
+			"titleLabel": {
+				"text": "Title:"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Cancel"
+			}
+		},
+		"editHyperlinkDialog": {
+			"urlRadioLabel": {
+				"text": "Web Page"
+			},
+			"referenceRadioLabel": {
+				"text": "Cell Reference"
+			},
+			"addressLabel": {
+				"text": "Address:"
+			},
+			"referenceLabel": {
+				"text": "Cell Reference:"
+			},
+			"sheetLabel": {
+				"text": "Sheet:"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Cancel"
+			}
 		}
 	},
 	"strings": {
 		"vssde-documentIsOpening": "Document is opening...",
-		"vssde-numberFormat-general": "General",
-		"vssde-numberFormat-number": "Number",
-		"vssde-numberFormat-date": "Date",
-		"vssde-numberFormat-time": "Time",
-		"vssde-numberFormat-currency": "Currency",
-		"vssde-numberFormat-percentage": "Percentage",
-		"vssde-numberFormat-scientific": "Scientific",
-		"vssde-numberFormat-text": "Text",
 		"vssde-numberFormat-custom": "Custom",
-		"vssde-findTextPanel-sheet": "Sheet",
-		"vssde-findTextPanel-workbook": "Workbook",
-		"vssde-findTextPanel-byRows": "By Rows",
-		"vssde-findTextPanel-byColumns": "By Columns",
-		"vssde-findTextPanel-formulas": "Formulas",
-		"vssde-findTextPanel-values": "Values",
-		"vssde-findTextPanel-comments": "Comments",
 		"vssde-findTextPanel-textIsNotFound": "Text '{0}' is not found.",
 		"vssde-selectFunctionPanel-all": "All",
 		"vssde-createXlsxDocument": "Create new XLSX document",
@@ -675,20 +686,30 @@
 		"vssde-downloadXlsxFile": "Download XLSX file",
 		"vssde-exportXlsxToPdf": "Export XLSX to PDF",
 		"vssde-fileSizeExceedsLimit": "The size of uploaded file exceeds the maximum size ({0} bytes).",
+		"vssde-error-noError": "No error.",
+		"vssde-error-divisionByZero": "Any number (including zero) or any error code is divided by zero.",
+		"vssde-error-cellRefCannotBeEvaluated": "A cell reference cannot be evaluated because the value for the cell has not been retrieved or calculated.",
+		"vssde-error-valueIsNotAvailable": "A designated value is not available.",
+		"vssde-error-wrongName": "Looks like a name is used but no such name has been defined.",
+		"vssde-error-twoAreasNotIntersecting": "Two areas are required to intersect but do not.",
+		"vssde-error-notCorrectValue": "An argument to a function has a compatible type, but has a value that is outside of the domain over which that function is defined.",
+		"vssde-error-cannotEvaluateCellRef": "A cell reference cannot be evaluated.",
+		"vssde-error-incompatibleType": "An incompatible type argument is passed to a function, or an incompatible type operand is used with an operator.",
+		"vssde-error-unknownError": "Unknown error.",
+		"vssde-error-externalError": "External error.",
+		"vssde-uriOpen-question": "Open URL '{0}' ?",
+		"vssde-uriOpen-wrongUri": "The address of this site is not valid: {0}",
 		"vssde-createXlsxDocumentConfirmation": "Do you want to create a new workbook?",
-		"vssde-insertCommentDialog-title": "Insert comment",
+		"vssde-renameWorksheetDialog-title": "Rename Worksheet",
 		"vssde-dialog-okButton": "OK",
 		"vssde-dialog-cancelButton": "Cancel",
-		"vssde-editCommentDialog-title": "Edit comment",
-		"vssde-editChartDialog-title": "Edit Chart",
-		"vssde-editChartPropertiesPanel-spreadsheetEditorDoesNotHaveFocusedChart": "The spreadsheet editor does not have focused chart.",
-		"vssde-editChartPropertiesPanel-selectedDrawingIsNotChart": "Selected drawing is not a chart.",
-		"vssde-renameWorksheetDialog-title": "Rename Worksheet",
 		"vssde-moveWorksheetDialog-title": "Move Worksheet",
 		"vssde-findTextDialog-title": "Find Text",
 		"vssde-findTextDialog-findNextButton": "Find Next",
 		"vssde-dialog-closeButton": "Close",
 		"vssde-selectFunctionDialog-title": "Insert Function",
+		"vssde-insertCommentDialog-title": "Insert comment",
+		"vssde-editCommentDialog-title": "Edit comment",
 		"vssde-cellNumberFormatDialog-title": "Cell Format",
 		"vssde-insertChartDialog-title": "Insert Chart",
 		"vssde-insertChartPanel-chartType-column": "Column",
@@ -732,6 +753,11 @@
 		"vssde-insertChartPanel-chartTemplateContainsTwoIdenticalNamesForChartTypes": "The chart template contains 2 identical names for chart types.",
 		"vssde-insertChartPanel-pleaseSpecifyCellsWhichContainTheChartDataIncludeNamesForRowsAndColumns": "Please specify cells, which contain the chart data (include names for rows and columns).",
 		"vssde-insertChartPanel-chartSubtypeArg0HasMultipleDeclarationsOnDifferentWorksheets": "Chart subtype '{0}' has multiple declarations on different worksheets.",
-		"vssde-insertChartPanel-sheetArg0IsNotFound": "Sheet '{0}' is not found."
+		"vssde-insertChartPanel-sheetArg0IsNotFound": "Sheet '{0}' is not found.",
+		"vssde-editChartDialog-title": "Edit Chart",
+		"vssde-editChartPropertiesPanel-spreadsheetEditorDoesNotHaveFocusedChart": "The spreadsheet editor does not have focused chart.",
+		"vssde-editChartPropertiesPanel-selectedDrawingIsNotChart": "Selected drawing is not a chart.",
+		"vssde-editHyperlinkDialog-addTitle": "Add Hyperlink",
+		"vssde-editHyperlinkDialog-editTitle": "Edit Hyperlink"
 	}
 }

@@ -173,6 +173,9 @@
 		"thickOutsideBordersButton": {
 			"title": "Chenaruri exterioare groase"
 		},
+		"cellBordersDropDownButton": {
+			"title": "Frontiere de celule"
+		},
 		"autoFitRowHeightButton": {
 			"title": "Potriviți automat înălțimea rândului"
 		},
@@ -407,51 +410,6 @@
 		"unhideColumnsLabel": {
 			"text": "Afișați coloanele"
 		},
-		"insertCommentDialog": {
-			"authorLabel": {
-				"text": "Autor:"
-			},
-			"showAuthorLabel": {
-				"text": "Arată autor"
-			},
-			"commentLabel": {
-				"text": "Cometariu:"
-			},
-			"okButton": {
-				"value": "OK"
-			},
-			"cancelButton": {
-				"value": "Anulează"
-			}
-		},
-		"commentEditDialog": {
-			"authorLabel": {
-				"text": "Autor:"
-			},
-			"showAuthorLabel": {
-				"text": "Arată autor"
-			},
-			"commentLabel": {
-				"text": "Cometariu:"
-			},
-			"okButton": {
-				"value": "OK"
-			},
-			"cancelButton": {
-				"value": "Anulează"
-			}
-		},
-		"editChartDialog": {
-			"titleLabel": {
-				"text": "Titlu:"
-			},
-			"okButton": {
-				"value": "OK"
-			},
-			"cancelButton": {
-				"value": "Anulează"
-			}
-		},
 		"renameWorksheetDialog": {
 			"nameLabel": {
 				"text": "Nume:"
@@ -573,6 +531,40 @@
 				"value": "Anulează"
 			}
 		},
+		"insertCommentDialog": {
+			"authorLabel": {
+				"text": "Autor:"
+			},
+			"showAuthorLabel": {
+				"text": "Arată autor"
+			},
+			"commentLabel": {
+				"text": "Cometariu:"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Anulează"
+			}
+		},
+		"commentEditDialog": {
+			"authorLabel": {
+				"text": "Autor:"
+			},
+			"showAuthorLabel": {
+				"text": "Arată autor"
+			},
+			"commentLabel": {
+				"text": "Cometariu:"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Anulează"
+			}
+		},
 		"setCellNumberFormatDialog": {
 			"General": {
 				"text": "General"
@@ -648,26 +640,45 @@
 			"cancelButton": {
 				"value": "Anulează"
 			}
+		},
+		"editChartDialog": {
+			"titleLabel": {
+				"text": "Titlu:"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Anulează"
+			}
+		},
+		"editHyperlinkDialog": {
+			"urlRadioLabel": {
+				"text": "Pagină web"
+			},
+			"referenceRadioLabel": {
+				"text": "Referință pentru celulă"
+			},
+			"addressLabel": {
+				"text": "Adresă:"
+			},
+			"referenceLabel": {
+				"text": "Referința celulei:"
+			},
+			"sheetLabel": {
+				"text": "Foaie:"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Anulează"
+			}
 		}
 	},
 	"strings": {
 		"vssde-documentIsOpening": "Documentul se deschide...",
-		"vssde-numberFormat-general": "General",
-		"vssde-numberFormat-number": "Numeric",
-		"vssde-numberFormat-date": "Data",
-		"vssde-numberFormat-time": "Timp",
-		"vssde-numberFormat-currency": "Bani",
-		"vssde-numberFormat-percentage": "Procent",
-		"vssde-numberFormat-scientific": "Exponenţial",
-		"vssde-numberFormat-text": "Text",
 		"vssde-numberFormat-custom": "Personalizat",
-		"vssde-findTextPanel-sheet": "Pe foaie",
-		"vssde-findTextPanel-workbook": "În carte",
-		"vssde-findTextPanel-byRows": "În rânduri",
-		"vssde-findTextPanel-byColumns": "În coloane",
-		"vssde-findTextPanel-formulas": "Formule",
-		"vssde-findTextPanel-values": "Valori",
-		"vssde-findTextPanel-comments": "Comentarii",
 		"vssde-findTextPanel-textIsNotFound": "Textul '{0}' nu a fost găsit.",
 		"vssde-selectFunctionPanel-all": "Toate",
 		"vssde-createXlsxDocument": "Creați un document XLSX nou",
@@ -675,20 +686,30 @@
 		"vssde-downloadXlsxFile": "Încărcați fișierul XLSX",
 		"vssde-exportXlsxToPdf": "Exportați XLSX în PDF",
 		"vssde-fileSizeExceedsLimit": "Dimensiunea fișierului încărcat depășește dimensiunea maximă ({0} octeți).",
+		"vssde-error-noError": "Nicio eroare.",
+		"vssde-error-divisionByZero": "Orice număr (inclusiv zero) sau orice cod de eroare este împărțit la zero.",
+		"vssde-error-cellRefCannotBeEvaluated": "O referință de celulă nu poate fi evaluată deoarece valoarea pentru celulă nu a fost preluată sau calculată.",
+		"vssde-error-valueIsNotAvailable": "O valoare desemnată nu este disponibilă.",
+		"vssde-error-wrongName": "Se pare că este folosit un nume, dar nu a fost definit un astfel de nume.",
+		"vssde-error-twoAreasNotIntersecting": "Sunt necesare două zone pentru a se intersecta, dar nu.",
+		"vssde-error-notCorrectValue": "Un argument pentru o funcție are un tip compatibil, dar are o valoare care se află în afara domeniului pe care acea funcție este definită.",
+		"vssde-error-cannotEvaluateCellRef": "O referință de celulă nu poate fi evaluată.",
+		"vssde-error-incompatibleType": "Un argument de tip incompatibil este transmis unei funcții sau un operand de tip incompatibil este utilizat cu un operator.",
+		"vssde-error-unknownError": "Eroare necunoscută.",
+		"vssde-error-externalError": "Eroare externă.",
+		"vssde-uriOpen-question": "Deschideți adresa URL '{0}'?",
+		"vssde-uriOpen-wrongUri": "Adresa acestui site nu este validă: {0}",
 		"vssde-createXlsxDocumentConfirmation": "Doriți să creați un registru de lucru nou?",
-		"vssde-insertCommentDialog-title": "Inserează comentariu",
+		"vssde-renameWorksheetDialog-title": "Redenumiți foaia",
 		"vssde-dialog-okButton": "OK",
 		"vssde-dialog-cancelButton": "Anulează",
-		"vssde-editCommentDialog-title": "Editați comentariul",
-		"vssde-editChartDialog-title": "Editați diagrama",
-		"vssde-editChartPropertiesPanel-spreadsheetEditorDoesNotHaveFocusedChart": "Editorul de foi de calcul nu are o diagramă focalizată.",
-		"vssde-editChartPropertiesPanel-selectedDrawingIsNotChart": "Desenul selectat nu este o diagramă.",
-		"vssde-renameWorksheetDialog-title": "Redenumiți foaia",
 		"vssde-moveWorksheetDialog-title": "Mutați foaia",
 		"vssde-findTextDialog-title": "Găsiți text",
 		"vssde-findTextDialog-findNextButton": "Găsiți Următorul",
 		"vssde-dialog-closeButton": "Închidere",
 		"vssde-selectFunctionDialog-title": "Inserare funcție",
+		"vssde-insertCommentDialog-title": "Inserează comentariu",
+		"vssde-editCommentDialog-title": "Editați comentariul",
 		"vssde-cellNumberFormatDialog-title": "Format de celule",
 		"vssde-insertChartDialog-title": "Inserați diagramă",
 		"vssde-insertChartPanel-chartType-column": "Coloană",
@@ -723,7 +744,7 @@
 		"vssde-insertChartPanel-chartSubtype-area": "Zonă",
 		"vssde-insertChartPanel-chartSubtype-stackedArea": "Zona stivuită",
 		"vssde-insertChartPanel-chartSubtype-100%StackedArea": "Suprafață stivuită 100%.",
-		"vssde-insertChartPanel-fileArg0IsNotFound": "Fișierul „{0}” nu a fost găsit.",
+		"vssde-insertChartPanel-fileArg0IsNotFound": "Fișierul '{0}' nu a fost găsit.",
 		"vssde-insertChartPanel-supportedChartTypesAreNotFound": "Tipurile de diagrame acceptate nu sunt găsite.",
 		"vssde-insertChartPanel-notSupportedChartType": "Tip de diagramă neacceptat.",
 		"vssde-insertChartPanel-supportedChartSubtypesAreNotFound": "Subtipurile de diagrame acceptate nu sunt găsite.",
@@ -732,6 +753,11 @@
 		"vssde-insertChartPanel-chartTemplateContainsTwoIdenticalNamesForChartTypes": "Șablonul de diagramă conține 2 nume identice pentru tipurile de diagrame.",
 		"vssde-insertChartPanel-pleaseSpecifyCellsWhichContainTheChartDataIncludeNamesForRowsAndColumns": "Vă rugăm să specificați celulele care conțin datele diagramei (includeți numele pentru rânduri și coloane).",
 		"vssde-insertChartPanel-chartSubtypeArg0HasMultipleDeclarationsOnDifferentWorksheets": "Subtipul de diagramă '{0}' are mai multe declarații pe foi de lucru diferite.",
-		"vssde-insertChartPanel-sheetArg0IsNotFound": "Foaia '{0}' nu a fost găsită."
+		"vssde-insertChartPanel-sheetArg0IsNotFound": "Foaia '{0}' nu a fost găsită.",
+		"vssde-editChartDialog-title": "Editați diagrama",
+		"vssde-editChartPropertiesPanel-spreadsheetEditorDoesNotHaveFocusedChart": "Editorul de foi de calcul nu are o diagramă focalizată.",
+		"vssde-editChartPropertiesPanel-selectedDrawingIsNotChart": "Desenul selectat nu este o diagramă.",
+		"vssde-editHyperlinkDialog-addTitle": "Adăugați hyperlink",
+		"vssde-editHyperlinkDialog-editTitle": "Editați hyperlink"
 	}
 }

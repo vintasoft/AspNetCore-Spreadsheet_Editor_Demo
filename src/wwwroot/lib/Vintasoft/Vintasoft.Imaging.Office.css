@@ -648,24 +648,22 @@
     height: 250px;
     padding-left: 5px;
     padding-right: 5px;
-    margin: 10px 0px 10px 10px;
+    margin: 10px 0px 10px 0px;
 }
 
     .vssde-findTextPanel .vssde-findTextPanel-inputLabel {
         margin-right: 20px;
-        margin-top: 10px;
         text-align: right;
     }
 
     .vssde-findTextPanel .vssde-findTextPanel-checkboxLabel {
-        margin-top: 10px;
         margin-left: 5px;
         text-align: left;
         font-size: 13px;
     }
 
     .vssde-findTextPanel .vssde-findTextPanel-inputText {
-        width: calc(75% - 10px);
+        width: 100%;
     }
 
 /* VintasoftSpreadsheetDocumentEditor: WebUiSelectFunctionPanelJS */
@@ -686,25 +684,22 @@
 
 .vssde-commentPanel {
     display: inherit;
-    width: calc(100% - 20px);
+    width: 100%;
     height: 300px;
     padding-left: 5px;
     padding-right: 5px;
-    margin: 10px 0px 10px 10px;
+    margin: 0px 0px 10px 0px;
 }
 
     .vssde-commentPanel .vssde-commentPanel-authorLabel {
-        margin-right: 5px;
         text-align: right;
     }
 
     .vssde-commentPanel .vssde-commentPanel-authorInputText {
-        width: 75%;
-        float: right;
+        width: 100%;
     }
 
     .vssde-commentPanel .vssde-commentPanel-showAuthorCheckbox {
-        margin-left: 25%;
         margin-bottom: 10px;
     }
 
@@ -716,15 +711,13 @@
     }
 
     .vssde-commentPanel .vssde-commentPanel-commentLabel {
-        margin-right: 5px;
         vertical-align: top;
         text-align: right;
     }
 
     .vssde-commentPanel .vssde-commentPanel-commentTextarea {
-        width: 75%;
+        width: 100%;
         height: 200px;
-        float: right;
     }
 
 /* VintasoftSpreadsheetDocumentEditor: WebUiCellNumberFormatPanelJS */

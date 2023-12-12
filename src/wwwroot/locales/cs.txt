@@ -173,6 +173,9 @@
 		"thickOutsideBordersButton": {
 			"title": "Tlusté vnější okraje"
 		},
+		"cellBordersDropDownButton": {
+			"title": "Hranice buněk"
+		},
 		"autoFitRowHeightButton": {
 			"title": "Automaticky přizpůsobit výšku řádku"
 		},
@@ -407,51 +410,6 @@
 		"unhideColumnsLabel": {
 			"text": "Zobrazit sloupce"
 		},
-		"insertCommentDialog": {
-			"authorLabel": {
-				"text": "Autor:"
-			},
-			"showAuthorLabel": {
-				"text": "Zobrazit autora"
-			},
-			"commentLabel": {
-				"text": "Komentář:"
-			},
-			"okButton": {
-				"value": "OK"
-			},
-			"cancelButton": {
-				"value": "Zrušit"
-			}
-		},
-		"commentEditDialog": {
-			"authorLabel": {
-				"text": "Autor:"
-			},
-			"showAuthorLabel": {
-				"text": "Zobrazit autora"
-			},
-			"commentLabel": {
-				"text": "Komentář:"
-			},
-			"okButton": {
-				"value": "OK"
-			},
-			"cancelButton": {
-				"value": "Zrušit"
-			}
-		},
-		"editChartDialog": {
-			"titleLabel": {
-				"text": "Titul:"
-			},
-			"okButton": {
-				"value": "OK"
-			},
-			"cancelButton": {
-				"value": "Zrušit"
-			}
-		},
 		"renameWorksheetDialog": {
 			"nameLabel": {
 				"text": "Jméno:"
@@ -515,7 +473,7 @@
 				"text": "Komentáře"
 			},
 			"matchCaseLabel": {
-				"text": "rozlišují se malá a velká písmena"
+				"text": "Rozlišují se malá a velká písmena"
 			},
 			"matchEntireContentLabel": {
 				"text": "Přesná shoda"
@@ -565,6 +523,40 @@
 			},
 			"selectFunctionLabel": {
 				"text": "Vyberte funkci:"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Zrušit"
+			}
+		},
+		"insertCommentDialog": {
+			"authorLabel": {
+				"text": "Autor:"
+			},
+			"showAuthorLabel": {
+				"text": "Zobrazit autora"
+			},
+			"commentLabel": {
+				"text": "Komentář:"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Zrušit"
+			}
+		},
+		"commentEditDialog": {
+			"authorLabel": {
+				"text": "Autor:"
+			},
+			"showAuthorLabel": {
+				"text": "Zobrazit autora"
+			},
+			"commentLabel": {
+				"text": "Komentář:"
 			},
 			"okButton": {
 				"value": "OK"
@@ -648,26 +640,45 @@
 			"cancelButton": {
 				"value": "Zrušit"
 			}
+		},
+		"editChartDialog": {
+			"titleLabel": {
+				"text": "Titul:"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Zrušit"
+			}
+		},
+		"editHyperlinkDialog": {
+			"urlRadioLabel": {
+				"text": "Webová stránka"
+			},
+			"referenceRadioLabel": {
+				"text": "Reference buňky"
+			},
+			"addressLabel": {
+				"text": "Adresa:"
+			},
+			"referenceLabel": {
+				"text": "Reference na buňku:"
+			},
+			"sheetLabel": {
+				"text": "List:"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Zrušit"
+			}
 		}
 	},
 	"strings": {
 		"vssde-documentIsOpening": "Dokument se otevírá...",
-		"vssde-numberFormat-general": "Obecné",
-		"vssde-numberFormat-number": "Číselné",
-		"vssde-numberFormat-date": "Datum",
-		"vssde-numberFormat-time": "Čas",
-		"vssde-numberFormat-currency": "Peníze",
-		"vssde-numberFormat-percentage": "procento",
-		"vssde-numberFormat-scientific": "Exponenciální",
-		"vssde-numberFormat-text": "Text",
 		"vssde-numberFormat-custom": "Vlastní",
-		"vssde-findTextPanel-sheet": "Na listu",
-		"vssde-findTextPanel-workbook": "V knize",
-		"vssde-findTextPanel-byRows": "V řádcích",
-		"vssde-findTextPanel-byColumns": "Ve sloupcích",
-		"vssde-findTextPanel-formulas": "Vzorce",
-		"vssde-findTextPanel-values": "Hodnoty",
-		"vssde-findTextPanel-comments": "Komentáře",
 		"vssde-findTextPanel-textIsNotFound": "Text '{0}' nebyl nalezen.",
 		"vssde-selectFunctionPanel-all": "Vše",
 		"vssde-createXlsxDocument": "Vytvořte nový dokument XLSX",
@@ -675,20 +686,30 @@
 		"vssde-downloadXlsxFile": "Nahrajte soubor XLSX",
 		"vssde-exportXlsxToPdf": "Export XLSX do PDF",
 		"vssde-fileSizeExceedsLimit": "Velikost nahraného souboru překračuje maximální velikost ({0} bajtů).",
+		"vssde-error-noError": "Žádná chyba.",
+		"vssde-error-divisionByZero": "Jakékoli číslo (včetně nuly) nebo jakýkoli chybový kód se vydělí nulou.",
+		"vssde-error-cellRefCannotBeEvaluated": "Odkaz na buňku nelze vyhodnotit, protože nebyla načtena nebo vypočtena hodnota buňky.",
+		"vssde-error-valueIsNotAvailable": "Určená hodnota není k dispozici.",
+		"vssde-error-wrongName": "Zdá se, že je použit název, ale žádný takový název nebyl definován.",
+		"vssde-error-twoAreasNotIntersecting": "Dvě oblasti se musí protínat, ale neprotínají se.",
+		"vssde-error-notCorrectValue": "Argument funkce má kompatibilní typ, ale má hodnotu, která je mimo doménu, ve které je funkce definována.",
+		"vssde-error-cannotEvaluateCellRef": "Odkaz na buňku nelze vyhodnotit.",
+		"vssde-error-incompatibleType": "Funkce je předán argument nekompatibilního typu nebo je použit operand nekompatibilního typu s operátorem.",
+		"vssde-error-unknownError": "Neznámá chyba.",
+		"vssde-error-externalError": "Externí chyba.",
+		"vssde-uriOpen-question": "Otevřít adresu URL '{0}'?",
+		"vssde-uriOpen-wrongUri": "Adresa tohoto webu není platná: {0}",
 		"vssde-createXlsxDocumentConfirmation": "Chcete vytvořit nový sešit?",
-		"vssde-insertCommentDialog-title": "Vložit komentář",
+		"vssde-renameWorksheetDialog-title": "Přejmenovat list",
 		"vssde-dialog-okButton": "OK",
 		"vssde-dialog-cancelButton": "Zrušit",
-		"vssde-editCommentDialog-title": "Upravit komentář",
-		"vssde-editChartDialog-title": "Upravit graf",
-		"vssde-editChartPropertiesPanel-spreadsheetEditorDoesNotHaveFocusedChart": "Tabulkový editor nemá zaměřený graf.",
-		"vssde-editChartPropertiesPanel-selectedDrawingIsNotChart": "Vybraný výkres není graf.",
-		"vssde-renameWorksheetDialog-title": "Přejmenovat list",
 		"vssde-moveWorksheetDialog-title": "Přesunout list",
 		"vssde-findTextDialog-title": "Najít text",
 		"vssde-findTextDialog-findNextButton": "Najít další",
 		"vssde-dialog-closeButton": "Zavřít",
 		"vssde-selectFunctionDialog-title": "Funkce vložení",
+		"vssde-insertCommentDialog-title": "Vložit komentář",
+		"vssde-editCommentDialog-title": "Upravit komentář",
 		"vssde-cellNumberFormatDialog-title": "Formát buňky",
 		"vssde-insertChartDialog-title": "Vložit graf",
 		"vssde-insertChartPanel-chartType-column": "Sloupec",
@@ -732,6 +753,11 @@
 		"vssde-insertChartPanel-chartTemplateContainsTwoIdenticalNamesForChartTypes": "Šablona grafu obsahuje 2 stejné názvy typů grafů.",
 		"vssde-insertChartPanel-pleaseSpecifyCellsWhichContainTheChartDataIncludeNamesForRowsAndColumns": "Zadejte buňky, které obsahují data grafu (včetně názvů řádků a sloupců).",
 		"vssde-insertChartPanel-chartSubtypeArg0HasMultipleDeclarationsOnDifferentWorksheets": "Podtyp grafu '{0}' má více deklarací v různých listech.",
-		"vssde-insertChartPanel-sheetArg0IsNotFound": "List '{0}' nebyl nalezen."
+		"vssde-insertChartPanel-sheetArg0IsNotFound": "List '{0}' nebyl nalezen.",
+		"vssde-editChartDialog-title": "Upravit graf",
+		"vssde-editChartPropertiesPanel-spreadsheetEditorDoesNotHaveFocusedChart": "Tabulkový editor nemá zaměřený graf.",
+		"vssde-editChartPropertiesPanel-selectedDrawingIsNotChart": "Vybraný výkres není graf.",
+		"vssde-editHyperlinkDialog-addTitle": "Přidat hypertextový odkaz",
+		"vssde-editHyperlinkDialog-editTitle": "Upravit hypertextový odkaz"
 	}
 }

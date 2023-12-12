@@ -173,6 +173,9 @@
 		"thickOutsideBordersButton": {
 			"title": "Debeli vanjski obrubi"
 		},
+		"cellBordersDropDownButton": {
+			"title": "Granice ćelija"
+		},
 		"autoFitRowHeightButton": {
 			"title": "Automatski prilagodi visinu retka"
 		},
@@ -407,51 +410,6 @@
 		"unhideColumnsLabel": {
 			"text": "Prikaži stupce"
 		},
-		"insertCommentDialog": {
-			"authorLabel": {
-				"text": "Autor:"
-			},
-			"showAuthorLabel": {
-				"text": "Prikaži Autora"
-			},
-			"commentLabel": {
-				"text": "Komentar:"
-			},
-			"okButton": {
-				"value": "OK"
-			},
-			"cancelButton": {
-				"value": "Odustani"
-			}
-		},
-		"commentEditDialog": {
-			"authorLabel": {
-				"text": "Autor:"
-			},
-			"showAuthorLabel": {
-				"text": "Prikaži Autora"
-			},
-			"commentLabel": {
-				"text": "Komentar:"
-			},
-			"okButton": {
-				"value": "OK"
-			},
-			"cancelButton": {
-				"value": "Odustani"
-			}
-		},
-		"editChartDialog": {
-			"titleLabel": {
-				"text": "Titula:"
-			},
-			"okButton": {
-				"value": "OK"
-			},
-			"cancelButton": {
-				"value": "Odustani"
-			}
-		},
 		"renameWorksheetDialog": {
 			"nameLabel": {
 				"text": "Ime:"
@@ -573,6 +531,40 @@
 				"value": "Odustani"
 			}
 		},
+		"insertCommentDialog": {
+			"authorLabel": {
+				"text": "Autor:"
+			},
+			"showAuthorLabel": {
+				"text": "Prikaži Autora"
+			},
+			"commentLabel": {
+				"text": "Komentar:"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Odustani"
+			}
+		},
+		"commentEditDialog": {
+			"authorLabel": {
+				"text": "Autor:"
+			},
+			"showAuthorLabel": {
+				"text": "Prikaži Autora"
+			},
+			"commentLabel": {
+				"text": "Komentar:"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Odustani"
+			}
+		},
 		"setCellNumberFormatDialog": {
 			"General": {
 				"text": "Općenito"
@@ -648,26 +640,45 @@
 			"cancelButton": {
 				"value": "Odustani"
 			}
+		},
+		"editChartDialog": {
+			"titleLabel": {
+				"text": "Titula:"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Odustani"
+			}
+		},
+		"editHyperlinkDialog": {
+			"urlRadioLabel": {
+				"text": "Web stranica"
+			},
+			"referenceRadioLabel": {
+				"text": "Referenca ćelije"
+			},
+			"addressLabel": {
+				"text": "Adresa:"
+			},
+			"referenceLabel": {
+				"text": "Referenca ćelije:"
+			},
+			"sheetLabel": {
+				"text": "List:"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Odustani"
+			}
 		}
 	},
 	"strings": {
 		"vssde-documentIsOpening": "Dokument se otvara...",
-		"vssde-numberFormat-general": "Općenito",
-		"vssde-numberFormat-number": "Numerički",
-		"vssde-numberFormat-date": "Datum",
-		"vssde-numberFormat-time": "Vrijeme",
-		"vssde-numberFormat-currency": "Novac",
-		"vssde-numberFormat-percentage": "Postotak",
-		"vssde-numberFormat-scientific": "Eksponencijalno",
-		"vssde-numberFormat-text": "Tekst",
 		"vssde-numberFormat-custom": "Prilagođeno",
-		"vssde-findTextPanel-sheet": "Na listu",
-		"vssde-findTextPanel-workbook": "U knjizi",
-		"vssde-findTextPanel-byRows": "U redovima",
-		"vssde-findTextPanel-byColumns": "U stupcima",
-		"vssde-findTextPanel-formulas": "Formule",
-		"vssde-findTextPanel-values": "Vrijednosti",
-		"vssde-findTextPanel-comments": "Komentari",
 		"vssde-findTextPanel-textIsNotFound": "Tekst '{0}' nije pronađen.",
 		"vssde-selectFunctionPanel-all": "Sve",
 		"vssde-createXlsxDocument": "Stvorite novi XLSX dokument",
@@ -675,20 +686,30 @@
 		"vssde-downloadXlsxFile": "Učitaj XLSX datoteku",
 		"vssde-exportXlsxToPdf": "Izvezite XLSX u PDF",
 		"vssde-fileSizeExceedsLimit": "Veličina učitane datoteke premašuje maksimalnu veličinu ({0} bajtova).",
+		"vssde-error-noError": "Nema greške.",
+		"vssde-error-divisionByZero": "Bilo koji broj (uključujući nulu) ili bilo koji kod pogreške dijeli se s nulom.",
+		"vssde-error-cellRefCannotBeEvaluated": "Referenca ćelije ne može se procijeniti jer vrijednost ćelije nije dohvaćena ili izračunata.",
+		"vssde-error-valueIsNotAvailable": "Određena vrijednost nije dostupna.",
+		"vssde-error-wrongName": "Čini se da se koristi naziv, ali takav naziv nije definiran.",
+		"vssde-error-twoAreasNotIntersecting": "Dva područja moraju se presijecati, ali to nije slučaj.",
+		"vssde-error-notCorrectValue": "Argument funkcije ima kompatibilan tip, ali ima vrijednost koja je izvan domene u kojoj je ta funkcija definirana.",
+		"vssde-error-cannotEvaluateCellRef": "Referenca ćelije ne može se procijeniti.",
+		"vssde-error-incompatibleType": "Argument nekompatibilnog tipa prosljeđuje se funkciji ili se operand nekompatibilnog tipa koristi s operatorom.",
+		"vssde-error-unknownError": "Nepoznata pogreška.",
+		"vssde-error-externalError": "Vanjska greška.",
+		"vssde-uriOpen-question": "Otvoriti URL '{0}'?",
+		"vssde-uriOpen-wrongUri": "Adresa ove stranice nije važeća: {0}",
 		"vssde-createXlsxDocumentConfirmation": "Želite li izraditi novu radnu knjigu?",
-		"vssde-insertCommentDialog-title": "Umetni komentar",
+		"vssde-renameWorksheetDialog-title": "Preimenuj list",
 		"vssde-dialog-okButton": "OK",
 		"vssde-dialog-cancelButton": "Odustani",
-		"vssde-editCommentDialog-title": "Uredi komentar",
-		"vssde-editChartDialog-title": "Uredi grafikon",
-		"vssde-editChartPropertiesPanel-spreadsheetEditorDoesNotHaveFocusedChart": "Uređivač proračunske tablice nema fokusirani grafikon.",
-		"vssde-editChartPropertiesPanel-selectedDrawingIsNotChart": "Odabrani crtež nije grafikon.",
-		"vssde-renameWorksheetDialog-title": "Preimenuj list",
 		"vssde-moveWorksheetDialog-title": "Premjesti list",
 		"vssde-findTextDialog-title": "Pronađi tekst",
 		"vssde-findTextDialog-findNextButton": "Traži sljedeće",
 		"vssde-dialog-closeButton": "Zatvori",
 		"vssde-selectFunctionDialog-title": "Umetni funkciju",
+		"vssde-insertCommentDialog-title": "Umetni komentar",
+		"vssde-editCommentDialog-title": "Uredi komentar",
 		"vssde-cellNumberFormatDialog-title": "Format ćelije",
 		"vssde-insertChartDialog-title": "Umetni grafikon",
 		"vssde-insertChartPanel-chartType-column": "Stupac",
@@ -732,6 +753,11 @@
 		"vssde-insertChartPanel-chartTemplateContainsTwoIdenticalNamesForChartTypes": "Predložak grafikona sadrži 2 identična naziva za vrste grafikona.",
 		"vssde-insertChartPanel-pleaseSpecifyCellsWhichContainTheChartDataIncludeNamesForRowsAndColumns": "Navedite ćelije koje sadrže podatke grafikona (uključite nazive za retke i stupce).",
 		"vssde-insertChartPanel-chartSubtypeArg0HasMultipleDeclarationsOnDifferentWorksheets": "Podvrsta grafikona '{0}' ima više deklaracija na različitim radnim listovima.",
-		"vssde-insertChartPanel-sheetArg0IsNotFound": "List '{0}' nije pronađen."
+		"vssde-insertChartPanel-sheetArg0IsNotFound": "List '{0}' nije pronađen.",
+		"vssde-editChartDialog-title": "Uredi grafikon",
+		"vssde-editChartPropertiesPanel-spreadsheetEditorDoesNotHaveFocusedChart": "Uređivač proračunske tablice nema fokusirani grafikon.",
+		"vssde-editChartPropertiesPanel-selectedDrawingIsNotChart": "Odabrani crtež nije grafikon.",
+		"vssde-editHyperlinkDialog-addTitle": "Dodajte hipervezu",
+		"vssde-editHyperlinkDialog-editTitle": "Uredi hipervezu"
 	}
 }

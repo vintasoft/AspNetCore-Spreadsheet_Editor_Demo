@@ -173,6 +173,9 @@
 		"thickOutsideBordersButton": {
 			"title": "גבולות חיצוניים עבים"
 		},
+		"cellBordersDropDownButton": {
+			"title": "גבולות תאים"
+		},
 		"autoFitRowHeightButton": {
 			"title": "התאם אוטומטית את גובה השורה"
 		},
@@ -252,7 +255,7 @@
 			"title": "התקרב"
 		},
 		"enUsCurrencyNumberFormatButton": {
-			"title": "$ אנגלית (ארה"ב)"
+			"title": "$ אנגלית (ארה'ב)"
 		},
 		"enUkCurrencyNumberFormatButton": {
 			"title": "£ אנגלית (בריטניה)"
@@ -407,51 +410,6 @@
 		"unhideColumnsLabel": {
 			"text": "הצג עמודות"
 		},
-		"insertCommentDialog": {
-			"authorLabel": {
-				"text": "מְחַבֵּר:"
-			},
-			"showAuthorLabel": {
-				"text": "הצג מחבר"
-			},
-			"commentLabel": {
-				"text": "תגובה:"
-			},
-			"okButton": {
-				"value": "בסדר"
-			},
-			"cancelButton": {
-				"value": "בטל"
-			}
-		},
-		"commentEditDialog": {
-			"authorLabel": {
-				"text": "מְחַבֵּר:"
-			},
-			"showAuthorLabel": {
-				"text": "הצג מחבר"
-			},
-			"commentLabel": {
-				"text": "תגובה:"
-			},
-			"okButton": {
-				"value": "בסדר"
-			},
-			"cancelButton": {
-				"value": "בטל"
-			}
-		},
-		"editChartDialog": {
-			"titleLabel": {
-				"text": "כותרת:"
-			},
-			"okButton": {
-				"value": "בסדר"
-			},
-			"cancelButton": {
-				"value": "בטל"
-			}
-		},
 		"renameWorksheetDialog": {
 			"nameLabel": {
 				"text": "שם:"
@@ -573,6 +531,40 @@
 				"value": "בטל"
 			}
 		},
+		"insertCommentDialog": {
+			"authorLabel": {
+				"text": "מְחַבֵּר:"
+			},
+			"showAuthorLabel": {
+				"text": "הצג מחבר"
+			},
+			"commentLabel": {
+				"text": "תגובה:"
+			},
+			"okButton": {
+				"value": "בסדר"
+			},
+			"cancelButton": {
+				"value": "בטל"
+			}
+		},
+		"commentEditDialog": {
+			"authorLabel": {
+				"text": "מְחַבֵּר:"
+			},
+			"showAuthorLabel": {
+				"text": "הצג מחבר"
+			},
+			"commentLabel": {
+				"text": "תגובה:"
+			},
+			"okButton": {
+				"value": "בסדר"
+			},
+			"cancelButton": {
+				"value": "בטל"
+			}
+		},
 		"setCellNumberFormatDialog": {
 			"General": {
 				"text": "כללי"
@@ -648,26 +640,45 @@
 			"cancelButton": {
 				"value": "בטל"
 			}
+		},
+		"editChartDialog": {
+			"titleLabel": {
+				"text": "כותרת:"
+			},
+			"okButton": {
+				"value": "בסדר"
+			},
+			"cancelButton": {
+				"value": "בטל"
+			}
+		},
+		"editHyperlinkDialog": {
+			"urlRadioLabel": {
+				"text": "עמוד אינטרנט"
+			},
+			"referenceRadioLabel": {
+				"text": "הפניה לתא"
+			},
+			"addressLabel": {
+				"text": "כתובת:"
+			},
+			"referenceLabel": {
+				"text": "הפניה לתא:"
+			},
+			"sheetLabel": {
+				"text": "גיליון:"
+			},
+			"okButton": {
+				"value": "בסדר"
+			},
+			"cancelButton": {
+				"value": "בטל"
+			}
 		}
 	},
 	"strings": {
 		"vssde-documentIsOpening": "המסמך נפתח...",
-		"vssde-numberFormat-general": "כללי",
-		"vssde-numberFormat-number": "מספרי",
-		"vssde-numberFormat-date": "תאריך",
-		"vssde-numberFormat-time": "זמן",
-		"vssde-numberFormat-currency": "כסף",
-		"vssde-numberFormat-percentage": "אחוז",
-		"vssde-numberFormat-scientific": "מעריכי",
-		"vssde-numberFormat-text": "טקסט",
 		"vssde-numberFormat-custom": "מותאם אישית",
-		"vssde-findTextPanel-sheet": "על גיליון",
-		"vssde-findTextPanel-workbook": "בספר",
-		"vssde-findTextPanel-byRows": "בשורות",
-		"vssde-findTextPanel-byColumns": "בעמודות",
-		"vssde-findTextPanel-formulas": "נוסחאות",
-		"vssde-findTextPanel-values": "ערכים",
-		"vssde-findTextPanel-comments": "הערות",
 		"vssde-findTextPanel-textIsNotFound": "הטקסט '{0}' לא נמצא.",
 		"vssde-selectFunctionPanel-all": "הכל",
 		"vssde-createXlsxDocument": "צור מסמך XLSX חדש",
@@ -675,20 +686,30 @@
 		"vssde-downloadXlsxFile": "העלה קובץ XLSX",
 		"vssde-exportXlsxToPdf": "ייצוא XLSX ל-PDF",
 		"vssde-fileSizeExceedsLimit": "גודל הקובץ שהועלה חורג מהגודל המרבי ({0} בייטים).",
+		"vssde-error-noError": "אין שגיאה.",
+		"vssde-error-divisionByZero": "כל מספר (כולל אפס) או כל קוד שגיאה מחולק באפס.",
+		"vssde-error-cellRefCannotBeEvaluated": "לא ניתן להעריך הפניה לתא מכיוון שהערך עבור התא לא אוחזר או חושב.",
+		"vssde-error-valueIsNotAvailable": "ערך ייעודי אינו זמין.",
+		"vssde-error-wrongName": "נראה כאילו נעשה שימוש בשם אבל לא הוגדר שם כזה.",
+		"vssde-error-twoAreasNotIntersecting": "שני אזורים נדרשים להצטלב אך לא.",
+		"vssde-error-notCorrectValue": "לארגומנט לפונקציה יש סוג תואם, אבל יש לו ערך שהוא מחוץ לתחום שמעליו מוגדרת פונקציה זו.",
+		"vssde-error-cannotEvaluateCellRef": "לא ניתן להעריך הפניה לתא.",
+		"vssde-error-incompatibleType": "ארגומנט מסוג לא תואם מועבר לפונקציה, או אופרנד מסוג לא תואם משמש עם אופרטור.",
+		"vssde-error-unknownError": "שגיאה לא ידועה.",
+		"vssde-error-externalError": "שגיאה חיצונית.",
+		"vssde-uriOpen-question": "לפתוח את כתובת האתר '{0}'?",
+		"vssde-uriOpen-wrongUri": "הכתובת של אתר זה אינה חוקית: {0}",
 		"vssde-createXlsxDocumentConfirmation": "האם ברצונך ליצור חוברת עבודה חדשה?",
-		"vssde-insertCommentDialog-title": "הוסף תגובה",
+		"vssde-renameWorksheetDialog-title": "שנה שם גיליון",
 		"vssde-dialog-okButton": "בסדר",
 		"vssde-dialog-cancelButton": "בטל",
-		"vssde-editCommentDialog-title": "ערוך תגובה",
-		"vssde-editChartDialog-title": "ערוך תרשים",
-		"vssde-editChartPropertiesPanel-spreadsheetEditorDoesNotHaveFocusedChart": "לעורך הגיליון האלקטרוני אין תרשים ממוקד.",
-		"vssde-editChartPropertiesPanel-selectedDrawingIsNotChart": "הציור שנבחר אינו תרשים.",
-		"vssde-renameWorksheetDialog-title": "שנה שם גיליון",
 		"vssde-moveWorksheetDialog-title": "הזז גיליון",
 		"vssde-findTextDialog-title": "מצא טקסט",
 		"vssde-findTextDialog-findNextButton": "מצא את הבא",
 		"vssde-dialog-closeButton": "סגור",
 		"vssde-selectFunctionDialog-title": "הכנס פונקציה",
+		"vssde-insertCommentDialog-title": "הוסף תגובה",
+		"vssde-editCommentDialog-title": "ערוך תגובה",
 		"vssde-cellNumberFormatDialog-title": "פורמט תא",
 		"vssde-insertChartDialog-title": "הכנס תרשים",
 		"vssde-insertChartPanel-chartType-column": "טור",
@@ -732,6 +753,11 @@
 		"vssde-insertChartPanel-chartTemplateContainsTwoIdenticalNamesForChartTypes": "תבנית התרשים מכילה 2 שמות זהים לסוגי תרשים.",
 		"vssde-insertChartPanel-pleaseSpecifyCellsWhichContainTheChartDataIncludeNamesForRowsAndColumns": "נא לציין תאים המכילים את נתוני התרשים (כלול שמות לשורות ועמודות).",
 		"vssde-insertChartPanel-chartSubtypeArg0HasMultipleDeclarationsOnDifferentWorksheets": "תת-סוג התרשים '{0}' כולל הצהרות מרובות בגיליונות עבודה שונים.",
-		"vssde-insertChartPanel-sheetArg0IsNotFound": "הגיליון '{0}' לא נמצא."
+		"vssde-insertChartPanel-sheetArg0IsNotFound": "הגיליון '{0}' לא נמצא.",
+		"vssde-editChartDialog-title": "ערוך תרשים",
+		"vssde-editChartPropertiesPanel-spreadsheetEditorDoesNotHaveFocusedChart": "לעורך הגיליון האלקטרוני אין תרשים ממוקד.",
+		"vssde-editChartPropertiesPanel-selectedDrawingIsNotChart": "הציור שנבחר אינו תרשים.",
+		"vssde-editHyperlinkDialog-addTitle": "הוסף היפר-קישור",
+		"vssde-editHyperlinkDialog-editTitle": "ערוך היפר-קישור"
 	}
 }

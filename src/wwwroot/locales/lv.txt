@@ -173,6 +173,9 @@
 		"thickOutsideBordersButton": {
 			"title": "Biezas ārējās robežas"
 		},
+		"cellBordersDropDownButton": {
+			"title": "Šūnu apmales"
+		},
 		"autoFitRowHeightButton": {
 			"title": "Automātiski pielāgojiet rindas augstumu"
 		},
@@ -407,51 +410,6 @@
 		"unhideColumnsLabel": {
 			"text": "Parādīt slejas"
 		},
-		"insertCommentDialog": {
-			"authorLabel": {
-				"text": "Autors:"
-			},
-			"showAuthorLabel": {
-				"text": "Rādīt autoru"
-			},
-			"commentLabel": {
-				"text": "komentēt:"
-			},
-			"okButton": {
-				"value": "labi"
-			},
-			"cancelButton": {
-				"value": "Atcelt"
-			}
-		},
-		"commentEditDialog": {
-			"authorLabel": {
-				"text": "Autors:"
-			},
-			"showAuthorLabel": {
-				"text": "Rādīt autoru"
-			},
-			"commentLabel": {
-				"text": "komentēt:"
-			},
-			"okButton": {
-				"value": "labi"
-			},
-			"cancelButton": {
-				"value": "Atcelt"
-			}
-		},
-		"editChartDialog": {
-			"titleLabel": {
-				"text": "Nosaukums:"
-			},
-			"okButton": {
-				"value": "labi"
-			},
-			"cancelButton": {
-				"value": "Atcelt"
-			}
-		},
 		"renameWorksheetDialog": {
 			"nameLabel": {
 				"text": "Vārds:"
@@ -573,6 +531,40 @@
 				"value": "Atcelt"
 			}
 		},
+		"insertCommentDialog": {
+			"authorLabel": {
+				"text": "Autors:"
+			},
+			"showAuthorLabel": {
+				"text": "Rādīt autoru"
+			},
+			"commentLabel": {
+				"text": "komentēt:"
+			},
+			"okButton": {
+				"value": "labi"
+			},
+			"cancelButton": {
+				"value": "Atcelt"
+			}
+		},
+		"commentEditDialog": {
+			"authorLabel": {
+				"text": "Autors:"
+			},
+			"showAuthorLabel": {
+				"text": "Rādīt autoru"
+			},
+			"commentLabel": {
+				"text": "komentēt:"
+			},
+			"okButton": {
+				"value": "labi"
+			},
+			"cancelButton": {
+				"value": "Atcelt"
+			}
+		},
 		"setCellNumberFormatDialog": {
 			"General": {
 				"text": "Ģenerālis"
@@ -648,26 +640,45 @@
 			"cancelButton": {
 				"value": "Atcelt"
 			}
+		},
+		"editChartDialog": {
+			"titleLabel": {
+				"text": "Nosaukums:"
+			},
+			"okButton": {
+				"value": "labi"
+			},
+			"cancelButton": {
+				"value": "Atcelt"
+			}
+		},
+		"editHyperlinkDialog": {
+			"urlRadioLabel": {
+				"text": "Web lapa"
+			},
+			"referenceRadioLabel": {
+				"text": "Šūnas atsauce"
+			},
+			"addressLabel": {
+				"text": "Adrese:"
+			},
+			"referenceLabel": {
+				"text": "Šūnas atsauce:"
+			},
+			"sheetLabel": {
+				"text": "Lapa:"
+			},
+			"okButton": {
+				"value": "labi"
+			},
+			"cancelButton": {
+				"value": "Atcelt"
+			}
 		}
 	},
 	"strings": {
 		"vssde-documentIsOpening": "Dokuments tiek atvērts...",
-		"vssde-numberFormat-general": "Ģenerālis",
-		"vssde-numberFormat-number": "Numurs",
-		"vssde-numberFormat-date": "Datums",
-		"vssde-numberFormat-time": "Laiks",
-		"vssde-numberFormat-currency": "Valūta",
-		"vssde-numberFormat-percentage": "Procenti",
-		"vssde-numberFormat-scientific": "Zinātniski",
-		"vssde-numberFormat-text": "Teksts",
 		"vssde-numberFormat-custom": "Pielāgots",
-		"vssde-findTextPanel-sheet": "Lapa",
-		"vssde-findTextPanel-workbook": "Darba burtnīca",
-		"vssde-findTextPanel-byRows": "Pēc rindām",
-		"vssde-findTextPanel-byColumns": "Pēc kolonnām",
-		"vssde-findTextPanel-formulas": "Formulas",
-		"vssde-findTextPanel-values": "Vērtības",
-		"vssde-findTextPanel-comments": "komentāri",
 		"vssde-findTextPanel-textIsNotFound": "Teksts '{0}' nav atrasts.",
 		"vssde-selectFunctionPanel-all": "Visi",
 		"vssde-createXlsxDocument": "Izveidojiet jaunu XLSX dokumentu",
@@ -675,20 +686,30 @@
 		"vssde-downloadXlsxFile": "Lejupielādēt XLSX failu",
 		"vssde-exportXlsxToPdf": "Eksportējiet XLSX uz PDF",
 		"vssde-fileSizeExceedsLimit": "Augšupielādētā faila lielums pārsniedz maksimālo izmēru ({0} baiti).",
+		"vssde-error-noError": "Nav kļūdu.",
+		"vssde-error-divisionByZero": "Jebkurš skaitlis (ieskaitot nulli) vai kļūdas kods tiek dalīts ar nulli.",
+		"vssde-error-cellRefCannotBeEvaluated": "Šūnas atsauci nevar novērtēt, jo šūnas vērtība nav izgūta vai aprēķināta.",
+		"vssde-error-valueIsNotAvailable": "Norādītā vērtība nav pieejama.",
+		"vssde-error-wrongName": "Šķiet, ka tiek lietots nosaukums, taču šāds nosaukums nav definēts.",
+		"vssde-error-twoAreasNotIntersecting": "Divas zonas ir nepieciešamas, lai krustotos, bet nē.",
+		"vssde-error-notCorrectValue": "Funkcijas argumentam ir saderīgs tips, taču tā vērtība atrodas ārpus domēna, kurā šī funkcija ir definēta.",
+		"vssde-error-cannotEvaluateCellRef": "Šūnas atsauci nevar novērtēt.",
+		"vssde-error-incompatibleType": "Funkcijai tiek nodots nesaderīgs tipa arguments vai ar operatoru tiek izmantots nesaderīgs tipa operands.",
+		"vssde-error-unknownError": "Nezināma kļūda.",
+		"vssde-error-externalError": "Ārēja kļūda.",
+		"vssde-uriOpen-question": "Vai atvērt URL '{0}'?",
+		"vssde-uriOpen-wrongUri": "Šīs vietnes adrese nav derīga: {0}",
 		"vssde-createXlsxDocumentConfirmation": "Vai vēlaties izveidot jaunu darbgrāmatu?",
-		"vssde-insertCommentDialog-title": "Ievietot komentāru",
+		"vssde-renameWorksheetDialog-title": "Pārdēvēt darblapu",
 		"vssde-dialog-okButton": "labi",
 		"vssde-dialog-cancelButton": "Atcelt",
-		"vssde-editCommentDialog-title": "Rediģēt komentāru",
-		"vssde-editChartDialog-title": "Rediģēt diagrammu",
-		"vssde-editChartPropertiesPanel-spreadsheetEditorDoesNotHaveFocusedChart": "Izklājlapu redaktoram nav fokusētas diagrammas.",
-		"vssde-editChartPropertiesPanel-selectedDrawingIsNotChart": "Atlasītais zīmējums nav diagramma.",
-		"vssde-renameWorksheetDialog-title": "Pārdēvēt darblapu",
 		"vssde-moveWorksheetDialog-title": "Pārvietot darblapu",
 		"vssde-findTextDialog-title": "Atrast tekstu",
 		"vssde-findTextDialog-findNextButton": "Atrodi Tālāk",
 		"vssde-dialog-closeButton": "Aizvērt",
 		"vssde-selectFunctionDialog-title": "Ievietot funkciju",
+		"vssde-insertCommentDialog-title": "Ievietot komentāru",
+		"vssde-editCommentDialog-title": "Rediģēt komentāru",
 		"vssde-cellNumberFormatDialog-title": "Šūnas formāts",
 		"vssde-insertChartDialog-title": "Ievietot diagrammu",
 		"vssde-insertChartPanel-chartType-column": "Kolonna",
@@ -732,6 +753,11 @@
 		"vssde-insertChartPanel-chartTemplateContainsTwoIdenticalNamesForChartTypes": "Diagrammas veidnē ir divi identiski diagrammu veidu nosaukumi.",
 		"vssde-insertChartPanel-pleaseSpecifyCellsWhichContainTheChartDataIncludeNamesForRowsAndColumns": "Lūdzu, norādiet šūnas, kurās ir diagrammas dati (iekļaujiet rindu un kolonnu nosaukumus).",
 		"vssde-insertChartPanel-chartSubtypeArg0HasMultipleDeclarationsOnDifferentWorksheets": "Diagrammas apakštipam '{0}' ir vairākas deklarācijas dažādās darblapās.",
-		"vssde-insertChartPanel-sheetArg0IsNotFound": "Lapa '{0}' nav atrasta."
+		"vssde-insertChartPanel-sheetArg0IsNotFound": "Lapa '{0}' nav atrasta.",
+		"vssde-editChartDialog-title": "Rediģēt diagrammu",
+		"vssde-editChartPropertiesPanel-spreadsheetEditorDoesNotHaveFocusedChart": "Izklājlapu redaktoram nav fokusētas diagrammas.",
+		"vssde-editChartPropertiesPanel-selectedDrawingIsNotChart": "Atlasītais zīmējums nav diagramma.",
+		"vssde-editHyperlinkDialog-addTitle": "Pievienojiet hipersaiti",
+		"vssde-editHyperlinkDialog-editTitle": "Rediģēt hipersaiti"
 	}
 }

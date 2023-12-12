@@ -173,6 +173,9 @@
 		"thickOutsideBordersButton": {
 			"title": "Сарҳадҳои ғафси беруна"
 		},
+		"cellBordersDropDownButton": {
+			"title": "Сарҳадҳои ҳуҷайра"
+		},
 		"autoFitRowHeightButton": {
 			"title": "Автомат кардани баландии сатр"
 		},
@@ -407,51 +410,6 @@
 		"unhideColumnsLabel": {
 			"text": "Нишон додани сутунҳо"
 		},
-		"insertCommentDialog": {
-			"authorLabel": {
-				"text": "Муаллиф:"
-			},
-			"showAuthorLabel": {
-				"text": "Муаллифро нишон диҳед"
-			},
-			"commentLabel": {
-				"text": "Шарҳ:"
-			},
-			"okButton": {
-				"value": "ДУРУСТ"
-			},
-			"cancelButton": {
-				"value": "Бекор кардан"
-			}
-		},
-		"commentEditDialog": {
-			"authorLabel": {
-				"text": "Муаллиф:"
-			},
-			"showAuthorLabel": {
-				"text": "Муаллифро нишон диҳед"
-			},
-			"commentLabel": {
-				"text": "Шарҳ:"
-			},
-			"okButton": {
-				"value": "ДУРУСТ"
-			},
-			"cancelButton": {
-				"value": "Бекор кардан"
-			}
-		},
-		"editChartDialog": {
-			"titleLabel": {
-				"text": "Сарлавҳа:"
-			},
-			"okButton": {
-				"value": "ДУРУСТ"
-			},
-			"cancelButton": {
-				"value": "Бекор кардан"
-			}
-		},
 		"renameWorksheetDialog": {
 			"nameLabel": {
 				"text": "Ном:"
@@ -573,6 +531,40 @@
 				"value": "Бекор кардан"
 			}
 		},
+		"insertCommentDialog": {
+			"authorLabel": {
+				"text": "Муаллиф:"
+			},
+			"showAuthorLabel": {
+				"text": "Муаллифро нишон диҳед"
+			},
+			"commentLabel": {
+				"text": "Шарҳ:"
+			},
+			"okButton": {
+				"value": "ДУРУСТ"
+			},
+			"cancelButton": {
+				"value": "Бекор кардан"
+			}
+		},
+		"commentEditDialog": {
+			"authorLabel": {
+				"text": "Муаллиф:"
+			},
+			"showAuthorLabel": {
+				"text": "Муаллифро нишон диҳед"
+			},
+			"commentLabel": {
+				"text": "Шарҳ:"
+			},
+			"okButton": {
+				"value": "ДУРУСТ"
+			},
+			"cancelButton": {
+				"value": "Бекор кардан"
+			}
+		},
 		"setCellNumberFormatDialog": {
 			"General": {
 				"text": "Генерал"
@@ -648,26 +640,45 @@
 			"cancelButton": {
 				"value": "Бекор кардан"
 			}
+		},
+		"editChartDialog": {
+			"titleLabel": {
+				"text": "Сарлавҳа:"
+			},
+			"okButton": {
+				"value": "ДУРУСТ"
+			},
+			"cancelButton": {
+				"value": "Бекор кардан"
+			}
+		},
+		"editHyperlinkDialog": {
+			"urlRadioLabel": {
+				"text": "Торнамо"
+			},
+			"referenceRadioLabel": {
+				"text": "Истиноди ҳуҷайра"
+			},
+			"addressLabel": {
+				"text": "Адрес: ш."
+			},
+			"referenceLabel": {
+				"text": "Истиноди ҳуҷайра:"
+			},
+			"sheetLabel": {
+				"text": "Варақ:"
+			},
+			"okButton": {
+				"value": "ДУРУСТ"
+			},
+			"cancelButton": {
+				"value": "Бекор кардан"
+			}
 		}
 	},
 	"strings": {
 		"vssde-documentIsOpening": "Ҳуҷҷат кушода мешавад...",
-		"vssde-numberFormat-general": "Генерал",
-		"vssde-numberFormat-number": "Шумораи",
-		"vssde-numberFormat-date": "Сана",
-		"vssde-numberFormat-time": "Вақт",
-		"vssde-numberFormat-currency": "Асъор",
-		"vssde-numberFormat-percentage": "Фоиз",
-		"vssde-numberFormat-scientific": "илмй",
-		"vssde-numberFormat-text": "Матн",
 		"vssde-numberFormat-custom": "Фармоишгар",
-		"vssde-findTextPanel-sheet": "Варақ",
-		"vssde-findTextPanel-workbook": "Китоби корӣ",
-		"vssde-findTextPanel-byRows": "Аз рӯи қаторҳо",
-		"vssde-findTextPanel-byColumns": "Бо сутунҳо",
-		"vssde-findTextPanel-formulas": "Формулаҳо",
-		"vssde-findTextPanel-values": "Арзишҳо",
-		"vssde-findTextPanel-comments": "Шарҳҳо",
 		"vssde-findTextPanel-textIsNotFound": "Матни '{0}' ёфт нашуд.",
 		"vssde-selectFunctionPanel-all": "Ҳама",
 		"vssde-createXlsxDocument": "Ҳуҷҷати нави XLSX эҷод кунед",
@@ -675,20 +686,30 @@
 		"vssde-downloadXlsxFile": "Файли XLSX-ро зеркашӣ кунед",
 		"vssde-exportXlsxToPdf": "Содироти XLSX ба PDF",
 		"vssde-fileSizeExceedsLimit": "Андозаи файли боршуда аз андозаи ҳадди аксар ({0} байт) зиёд аст.",
+		"vssde-error-noError": "Хато нест.",
+		"vssde-error-divisionByZero": "Ҳама рақам (аз ҷумла сифр) ё ягон рамзи хато ба сифр тақсим карда мешавад.",
+		"vssde-error-cellRefCannotBeEvaluated": "Истиноди чашмакро арзёбӣ кардан мумкин нест, зеро арзиши ячейка гирифта ё ҳисоб карда нашудааст.",
+		"vssde-error-valueIsNotAvailable": "Арзиши таъиншуда дастрас нест.",
+		"vssde-error-wrongName": "Чунин ба назар мерасад, ки ном истифода мешавад, аммо чунин ном муайян нашудааст.",
+		"vssde-error-twoAreasNotIntersecting": "Ду минтақа бояд бурида шаванд, аммо не.",
+		"vssde-error-notCorrectValue": "Аргумент ба функсия дорои навъи мувофиқ аст, аммо дорои арзишест, ки берун аз домене, ки бар он ин функсия муайян шудааст, мебошад.",
+		"vssde-error-cannotEvaluateCellRef": "Истиноди ячейкаро арзёбӣ кардан мумкин нест.",
+		"vssde-error-incompatibleType": "Аргументи навъи номувофиқ ба функсия интиқол дода мешавад ё операнди навъи номувофиқ бо оператор истифода мешавад.",
+		"vssde-error-unknownError": "Хатогии номаълум.",
+		"vssde-error-externalError": "Хатогии беруна.",
+		"vssde-uriOpen-question": "URL '{0}' -ро кушоед?",
+		"vssde-uriOpen-wrongUri": "Суроғаи ин сайт дуруст нест: {0}",
 		"vssde-createXlsxDocumentConfirmation": "Оё шумо мехоҳед китоби нави корӣ эҷод кунед?",
-		"vssde-insertCommentDialog-title": "Шарҳ гузоред",
+		"vssde-renameWorksheetDialog-title": "Номи варақаи корӣ",
 		"vssde-dialog-okButton": "ДУРУСТ",
 		"vssde-dialog-cancelButton": "Бекор кардан",
-		"vssde-editCommentDialog-title": "Таҳрири шарҳ",
-		"vssde-editChartDialog-title": "Таҳрири Диаграмма",
-		"vssde-editChartPropertiesPanel-spreadsheetEditorDoesNotHaveFocusedChart": "Муҳаррири ҷадвал диаграммаи фокусӣ надорад.",
-		"vssde-editChartPropertiesPanel-selectedDrawingIsNotChart": "Расми интихобшуда диаграмма нест.",
-		"vssde-renameWorksheetDialog-title": "Номи варақаи корӣ",
 		"vssde-moveWorksheetDialog-title": "Ҷойивазкунии варақаи корӣ",
 		"vssde-findTextDialog-title": "Ҷустуҷӯи матн",
 		"vssde-findTextDialog-findNextButton": "Ояндаро пайдо кунед",
 		"vssde-dialog-closeButton": "Пӯшед",
 		"vssde-selectFunctionDialog-title": "Функсияи ворид кунед",
+		"vssde-insertCommentDialog-title": "Шарҳ гузоред",
+		"vssde-editCommentDialog-title": "Таҳрири шарҳ",
 		"vssde-cellNumberFormatDialog-title": "Формати ячейка",
 		"vssde-insertChartDialog-title": "Дохил кардани диаграмма",
 		"vssde-insertChartPanel-chartType-column": "Сутун",
@@ -732,6 +753,11 @@
 		"vssde-insertChartPanel-chartTemplateContainsTwoIdenticalNamesForChartTypes": "Шаблони диаграмма дорои 2 номи якхела барои намудҳои диаграмма мебошад.",
 		"vssde-insertChartPanel-pleaseSpecifyCellsWhichContainTheChartDataIncludeNamesForRowsAndColumns": "Лутфан чашмакҳоро, ки маълумоти диаграммаро дар бар мегиранд, муайян кунед (номҳои сатрҳо ва сутунҳоро дохил кунед).",
 		"vssde-insertChartPanel-chartSubtypeArg0HasMultipleDeclarationsOnDifferentWorksheets": "Зернавъи диаграммаи '{0}' дар варақаҳои кории гуногун эъломияҳои сершумор дорад.",
-		"vssde-insertChartPanel-sheetArg0IsNotFound": "Варақаи '{0}' ёфт нашуд."
+		"vssde-insertChartPanel-sheetArg0IsNotFound": "Варақаи '{0}' ёфт нашуд.",
+		"vssde-editChartDialog-title": "Таҳрири Диаграмма",
+		"vssde-editChartPropertiesPanel-spreadsheetEditorDoesNotHaveFocusedChart": "Муҳаррири ҷадвал диаграммаи фокусӣ надорад.",
+		"vssde-editChartPropertiesPanel-selectedDrawingIsNotChart": "Расми интихобшуда диаграмма нест.",
+		"vssde-editHyperlinkDialog-addTitle": "Гиперпайвандро илова кунед",
+		"vssde-editHyperlinkDialog-editTitle": "Таҳрири гиперҳавола"
 	}
 }

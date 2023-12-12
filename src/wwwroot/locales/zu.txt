@@ -173,6 +173,9 @@
 		"thickOutsideBordersButton": {
 			"title": "Aminyene Ngaphandle Kwemingcele"
 		},
+		"cellBordersDropDownButton": {
+			"title": "Imingcele Yeseli"
+		},
 		"autoFitRowHeightButton": {
 			"title": "Faka ngokuzenzakalelayo ubude bomugqa"
 		},
@@ -407,51 +410,6 @@
 		"unhideColumnsLabel": {
 			"text": "Veza Amakholomu"
 		},
-		"insertCommentDialog": {
-			"authorLabel": {
-				"text": "Umbhali:"
-			},
-			"showAuthorLabel": {
-				"text": "Bonisa Umbhali"
-			},
-			"commentLabel": {
-				"text": "Amazwana:"
-			},
-			"okButton": {
-				"value": "KULUNGILE"
-			},
-			"cancelButton": {
-				"value": "Khansela"
-			}
-		},
-		"commentEditDialog": {
-			"authorLabel": {
-				"text": "Umbhali:"
-			},
-			"showAuthorLabel": {
-				"text": "Bonisa Umbhali"
-			},
-			"commentLabel": {
-				"text": "Amazwana:"
-			},
-			"okButton": {
-				"value": "KULUNGILE"
-			},
-			"cancelButton": {
-				"value": "Khansela"
-			}
-		},
-		"editChartDialog": {
-			"titleLabel": {
-				"text": "Isihloko:"
-			},
-			"okButton": {
-				"value": "KULUNGILE"
-			},
-			"cancelButton": {
-				"value": "Khansela"
-			}
-		},
 		"renameWorksheetDialog": {
 			"nameLabel": {
 				"text": "Igama:"
@@ -573,6 +531,40 @@
 				"value": "Khansela"
 			}
 		},
+		"insertCommentDialog": {
+			"authorLabel": {
+				"text": "Umbhali:"
+			},
+			"showAuthorLabel": {
+				"text": "Bonisa Umbhali"
+			},
+			"commentLabel": {
+				"text": "Amazwana:"
+			},
+			"okButton": {
+				"value": "KULUNGILE"
+			},
+			"cancelButton": {
+				"value": "Khansela"
+			}
+		},
+		"commentEditDialog": {
+			"authorLabel": {
+				"text": "Umbhali:"
+			},
+			"showAuthorLabel": {
+				"text": "Bonisa Umbhali"
+			},
+			"commentLabel": {
+				"text": "Amazwana:"
+			},
+			"okButton": {
+				"value": "KULUNGILE"
+			},
+			"cancelButton": {
+				"value": "Khansela"
+			}
+		},
 		"setCellNumberFormatDialog": {
 			"General": {
 				"text": "Okujwayelekile"
@@ -648,26 +640,45 @@
 			"cancelButton": {
 				"value": "Khansela"
 			}
+		},
+		"editChartDialog": {
+			"titleLabel": {
+				"text": "Isihloko:"
+			},
+			"okButton": {
+				"value": "KULUNGILE"
+			},
+			"cancelButton": {
+				"value": "Khansela"
+			}
+		},
+		"editHyperlinkDialog": {
+			"urlRadioLabel": {
+				"text": "Iwebhusayithi"
+			},
+			"referenceRadioLabel": {
+				"text": "Isethenjwa Seseli"
+			},
+			"addressLabel": {
+				"text": "Ikheli:"
+			},
+			"referenceLabel": {
+				"text": "Isethenjwa Seseli:"
+			},
+			"sheetLabel": {
+				"text": "Ishidi:"
+			},
+			"okButton": {
+				"value": "KULUNGILE"
+			},
+			"cancelButton": {
+				"value": "Khansela"
+			}
 		}
 	},
 	"strings": {
 		"vssde-documentIsOpening": "Idokhumenti iyavula...",
-		"vssde-numberFormat-general": "Okujwayelekile",
-		"vssde-numberFormat-number": "Inombolo",
-		"vssde-numberFormat-date": "Usuku",
-		"vssde-numberFormat-time": "Isikhathi",
-		"vssde-numberFormat-currency": "Imali",
-		"vssde-numberFormat-percentage": "Iphesenti",
-		"vssde-numberFormat-scientific": "Okwesayensi",
-		"vssde-numberFormat-text": "Umbhalo",
 		"vssde-numberFormat-custom": "Ngokwezifiso",
-		"vssde-findTextPanel-sheet": "Ishidi",
-		"vssde-findTextPanel-workbook": "Incwadi Yokusebenzela",
-		"vssde-findTextPanel-byRows": "Ngemigqa",
-		"vssde-findTextPanel-byColumns": "Ngamakholomu",
-		"vssde-findTextPanel-formulas": "Amafomula",
-		"vssde-findTextPanel-values": "Amanani",
-		"vssde-findTextPanel-comments": "Amazwana",
 		"vssde-findTextPanel-textIsNotFound": "Umbhalo othi '{0}' awutholakali.",
 		"vssde-selectFunctionPanel-all": "Konke",
 		"vssde-createXlsxDocument": "Dala idokhumenti entsha ye-XLSX",
@@ -675,20 +686,30 @@
 		"vssde-downloadXlsxFile": "Landa ifayela le-XLSX",
 		"vssde-exportXlsxToPdf": "Thumela i-XLSX ku-PDF",
 		"vssde-fileSizeExceedsLimit": "Usayizi wefayela elilayishiwe weqa usayizi omkhulu ({0} amabhayithi).",
+		"vssde-error-noError": "Alikho iphutha.",
+		"vssde-error-divisionByZero": "Noma iyiphi inombolo (okuhlanganisa uziro) nanoma iyiphi ikhodi yephutha ihlukaniswa ngoziro.",
+		"vssde-error-cellRefCannotBeEvaluated": "Ireferensi yeseli ayikwazi ukulinganisa ngenxa yokuthi inani leseli alikabuyiswa noma alikabalwa.",
+		"vssde-error-valueIsNotAvailable": "Inani eliqokiwe alitholakali.",
+		"vssde-error-wrongName": "Kubukeka sengathi igama liyasetshenziswa kodwa alikho igama elinjalo elichaziwe.",
+		"vssde-error-twoAreasNotIntersecting": "Kudingeka izindawo ezimbili ukuze unqamulane kodwa ungaphambanisi.",
+		"vssde-error-notCorrectValue": "I-agumenti yomsebenzi inohlobo oluhambisanayo, kodwa inenani elingaphandle kwesizinda lapho lowo msebenzi uchazwa khona.",
+		"vssde-error-cannotEvaluateCellRef": "Ireferensi yeseli ayikwazi ukuhlolwa.",
+		"vssde-error-incompatibleType": "I-agumenti yohlobo engahambelani idluliselwa kumsebenzi, noma uhlobo lwe-operand olungahambelani lusetshenziswa nomsebenzisi.",
+		"vssde-error-unknownError": "Iphutha elingaziwa.",
+		"vssde-error-externalError": "Iphutha langaphandle.",
+		"vssde-uriOpen-question": "Vula i-URL '{0}' ?",
+		"vssde-uriOpen-wrongUri": "Ikheli laleli sayithi alivumelekile: {0}",
 		"vssde-createXlsxDocumentConfirmation": "Uyafuna ukwenza ibhuku lokusebenza elisha?",
-		"vssde-insertCommentDialog-title": "Faka amazwana",
+		"vssde-renameWorksheetDialog-title": "Qamba Kabusha Ishidi Lokusebenza",
 		"vssde-dialog-okButton": "KULUNGILE",
 		"vssde-dialog-cancelButton": "Khansela",
-		"vssde-editCommentDialog-title": "Hlela amazwana",
-		"vssde-editChartDialog-title": "Hlela Ishadi",
-		"vssde-editChartPropertiesPanel-spreadsheetEditorDoesNotHaveFocusedChart": "Umhleli wespredishithi akanalo ishadi eligxilile.",
-		"vssde-editChartPropertiesPanel-selectedDrawingIsNotChart": "Umdwebo okhethiwe awulona ishadi.",
-		"vssde-renameWorksheetDialog-title": "Qamba Kabusha Ishidi Lokusebenza",
 		"vssde-moveWorksheetDialog-title": "Hambisa Ishidi Lokusebenza",
 		"vssde-findTextDialog-title": "Thola Umbhalo",
 		"vssde-findTextDialog-findNextButton": "Thola Okulandelayo",
 		"vssde-dialog-closeButton": "Vala",
 		"vssde-selectFunctionDialog-title": "Faka Umsebenzi",
+		"vssde-insertCommentDialog-title": "Faka amazwana",
+		"vssde-editCommentDialog-title": "Hlela amazwana",
 		"vssde-cellNumberFormatDialog-title": "Ifomethi Yeseli",
 		"vssde-insertChartDialog-title": "Faka Ishadi",
 		"vssde-insertChartPanel-chartType-column": "Ikholomu",
@@ -732,6 +753,11 @@
 		"vssde-insertChartPanel-chartTemplateContainsTwoIdenticalNamesForChartTypes": "Isifanekiso seshadi siqukethe amagama angu-2 afanayo ezinhlobo zeshadi.",
 		"vssde-insertChartPanel-pleaseSpecifyCellsWhichContainTheChartDataIncludeNamesForRowsAndColumns": "Sicela ucacise amaseli, aqukethe idatha yeshadi (faka namagama emigqa namakholomu).",
 		"vssde-insertChartPanel-chartSubtypeArg0HasMultipleDeclarationsOnDifferentWorksheets": "Uhlobo oluncane lweshadi '{0}' lunezimemezelo eziningi kumakhasi okusebenzela ahlukene.",
-		"vssde-insertChartPanel-sheetArg0IsNotFound": "Ishidi '{0}' alitholakali."
+		"vssde-insertChartPanel-sheetArg0IsNotFound": "Ishidi '{0}' alitholakali.",
+		"vssde-editChartDialog-title": "Hlela Ishadi",
+		"vssde-editChartPropertiesPanel-spreadsheetEditorDoesNotHaveFocusedChart": "Umhleli wespredishithi akanalo ishadi eligxilile.",
+		"vssde-editChartPropertiesPanel-selectedDrawingIsNotChart": "Umdwebo okhethiwe awulona ishadi.",
+		"vssde-editHyperlinkDialog-addTitle": "Engeza isixhumanisi",
+		"vssde-editHyperlinkDialog-editTitle": "Hlela isixhumanisi"
 	}
 }

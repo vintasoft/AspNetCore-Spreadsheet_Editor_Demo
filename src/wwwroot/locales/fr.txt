@@ -173,6 +173,9 @@
 		"thickOutsideBordersButton": {
 			"title": "Bordures extérieures épaisses"
 		},
+		"cellBordersDropDownButton": {
+			"title": "Bordures de cellules"
+		},
 		"autoFitRowHeightButton": {
 			"title": "Ajuster automatiquement la hauteur de ligne"
 		},
@@ -407,51 +410,6 @@
 		"unhideColumnsLabel": {
 			"text": "Afficher les colonnes"
 		},
-		"insertCommentDialog": {
-			"authorLabel": {
-				"text": "Auteur:"
-			},
-			"showAuthorLabel": {
-				"text": "Afficher l'auteur"
-			},
-			"commentLabel": {
-				"text": "Commentaire:"
-			},
-			"okButton": {
-				"value": "OK"
-			},
-			"cancelButton": {
-				"value": "Annuler"
-			}
-		},
-		"commentEditDialog": {
-			"authorLabel": {
-				"text": "Auteur:"
-			},
-			"showAuthorLabel": {
-				"text": "Afficher l'auteur"
-			},
-			"commentLabel": {
-				"text": "Commentaire:"
-			},
-			"okButton": {
-				"value": "OK"
-			},
-			"cancelButton": {
-				"value": "Annuler"
-			}
-		},
-		"editChartDialog": {
-			"titleLabel": {
-				"text": "Titre:"
-			},
-			"okButton": {
-				"value": "OK"
-			},
-			"cancelButton": {
-				"value": "Annuler"
-			}
-		},
 		"renameWorksheetDialog": {
 			"nameLabel": {
 				"text": "Nom:"
@@ -573,6 +531,40 @@
 				"value": "Annuler"
 			}
 		},
+		"insertCommentDialog": {
+			"authorLabel": {
+				"text": "Auteur:"
+			},
+			"showAuthorLabel": {
+				"text": "Afficher l'auteur"
+			},
+			"commentLabel": {
+				"text": "Commentaire:"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Annuler"
+			}
+		},
+		"commentEditDialog": {
+			"authorLabel": {
+				"text": "Auteur:"
+			},
+			"showAuthorLabel": {
+				"text": "Afficher l'auteur"
+			},
+			"commentLabel": {
+				"text": "Commentaire:"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Annuler"
+			}
+		},
 		"setCellNumberFormatDialog": {
 			"General": {
 				"text": "Général"
@@ -605,13 +597,13 @@
 				"text": "Les cellules de format général n'ont pas de format numérique spécifique."
 			},
 			"numberDecimalPlacesLabel": {
-				"text": "Places décimales :"
+				"text": "Places décimales:"
 			},
 			"useThousandsSeparatorLabel": {
 				"text": "Utilisez le séparateur 1000"
 			},
 			"numberNegativeValuesLabel": {
-				"text": "Valeurs négatives :"
+				"text": "Valeurs négatives:"
 			},
 			"changeTextColorToRedLabel": {
 				"text": "Changer la couleur du texte en rouge"
@@ -620,16 +612,16 @@
 				"text": "Masquer le signe moins"
 			},
 			"currencyDecimalPlacesLabel": {
-				"text": "Places décimales :"
+				"text": "Places décimales:"
 			},
 			"currencySymbolLabel": {
 				"text": "Symbole:"
 			},
 			"percentageDecimalPlacesLabel": {
-				"text": "Places décimales :"
+				"text": "Places décimales:"
 			},
 			"scientificDecimalPlacesLabel": {
-				"text": "Places décimales :"
+				"text": "Places décimales:"
 			},
 			"textFormatDescriptionLabel": {
 				"text": "Les cellules au format texte sont traitées comme du texte même si elles contiennent un nombre."
@@ -648,26 +640,45 @@
 			"cancelButton": {
 				"value": "Annuler"
 			}
+		},
+		"editChartDialog": {
+			"titleLabel": {
+				"text": "Titre:"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Annuler"
+			}
+		},
+		"editHyperlinkDialog": {
+			"urlRadioLabel": {
+				"text": "Page web"
+			},
+			"referenceRadioLabel": {
+				"text": "Référence de cellule"
+			},
+			"addressLabel": {
+				"text": "Adresse:"
+			},
+			"referenceLabel": {
+				"text": "Référence de cellule:"
+			},
+			"sheetLabel": {
+				"text": "Feuille:"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Annuler"
+			}
 		}
 	},
 	"strings": {
 		"vssde-documentIsOpening": "Le document s'ouvre...",
-		"vssde-numberFormat-general": "Général",
-		"vssde-numberFormat-number": "Numérique",
-		"vssde-numberFormat-date": "Date",
-		"vssde-numberFormat-time": "Heure",
-		"vssde-numberFormat-currency": "Argent",
-		"vssde-numberFormat-percentage": "Pourcentage",
-		"vssde-numberFormat-scientific": "Exponentielle",
-		"vssde-numberFormat-text": "Texte",
 		"vssde-numberFormat-custom": "Personnalisé",
-		"vssde-findTextPanel-sheet": "Sur feuille",
-		"vssde-findTextPanel-workbook": "Dans le livre",
-		"vssde-findTextPanel-byRows": "En lignes",
-		"vssde-findTextPanel-byColumns": "En colonnes",
-		"vssde-findTextPanel-formulas": "Formules",
-		"vssde-findTextPanel-values": "Valeurs",
-		"vssde-findTextPanel-comments": "Commentaires",
 		"vssde-findTextPanel-textIsNotFound": "Le texte '{0}' est introuvable.",
 		"vssde-selectFunctionPanel-all": "Tous",
 		"vssde-createXlsxDocument": "Créer un nouveau document XLSX",
@@ -675,20 +686,30 @@
 		"vssde-downloadXlsxFile": "Télécharger le fichier XLSX",
 		"vssde-exportXlsxToPdf": "Exporter XLSX en PDF",
 		"vssde-fileSizeExceedsLimit": "La taille du fichier téléchargé dépasse la taille maximale ({0} octets).",
+		"vssde-error-noError": "Pas d'erreur.",
+		"vssde-error-divisionByZero": "Tout nombre (y compris zéro) ou tout code d'erreur est divisé par zéro.",
+		"vssde-error-cellRefCannotBeEvaluated": "Une référence de cellule ne peut pas être évaluée car la valeur de la cellule n'a pas été récupérée ou calculée.",
+		"vssde-error-valueIsNotAvailable": "Une valeur désignée n'est pas disponible.",
+		"vssde-error-wrongName": "Il semble qu'un nom soit utilisé, mais aucun nom n'a été défini.",
+		"vssde-error-twoAreasNotIntersecting": "Deux zones doivent se croiser mais ne le font pas.",
+		"vssde-error-notCorrectValue": "Un argument d’une fonction a un type compatible, mais une valeur située en dehors du domaine sur lequel cette fonction est définie.",
+		"vssde-error-cannotEvaluateCellRef": "Une référence de cellule ne peut pas être évaluée.",
+		"vssde-error-incompatibleType": "Un argument de type incompatible est transmis à une fonction ou un opérande de type incompatible est utilisé avec un opérateur.",
+		"vssde-error-unknownError": "Erreur inconnue.",
+		"vssde-error-externalError": "Erreur externe.",
+		"vssde-uriOpen-question": "Ouvrir l'URL '{0}' ?",
+		"vssde-uriOpen-wrongUri": "L'adresse de ce site n'est pas valide : {0}",
 		"vssde-createXlsxDocumentConfirmation": "Voulez-vous créer un nouveau classeur ?",
-		"vssde-insertCommentDialog-title": "Insérer un commentaire",
+		"vssde-renameWorksheetDialog-title": "Renommer la feuille",
 		"vssde-dialog-okButton": "OK",
 		"vssde-dialog-cancelButton": "Annuler",
-		"vssde-editCommentDialog-title": "Modifier le commentaire",
-		"vssde-editChartDialog-title": "Modifier le graphique",
-		"vssde-editChartPropertiesPanel-spreadsheetEditorDoesNotHaveFocusedChart": "L'éditeur de feuille de calcul n'a pas de graphique ciblé.",
-		"vssde-editChartPropertiesPanel-selectedDrawingIsNotChart": "Le dessin sélectionné n'est pas un graphique.",
-		"vssde-renameWorksheetDialog-title": "Renommer la feuille",
 		"vssde-moveWorksheetDialog-title": "Déplacer la feuille",
 		"vssde-findTextDialog-title": "Rechercher du texte",
 		"vssde-findTextDialog-findNextButton": "Rechercher suivant",
 		"vssde-dialog-closeButton": "Fermer",
 		"vssde-selectFunctionDialog-title": "Insérer une fonction",
+		"vssde-insertCommentDialog-title": "Insérer un commentaire",
+		"vssde-editCommentDialog-title": "Modifier le commentaire",
 		"vssde-cellNumberFormatDialog-title": "Format de cellule",
 		"vssde-insertChartDialog-title": "Insérer un graphique",
 		"vssde-insertChartPanel-chartType-column": "Colonne",
@@ -732,6 +753,11 @@
 		"vssde-insertChartPanel-chartTemplateContainsTwoIdenticalNamesForChartTypes": "Le modèle de graphique contient 2 noms identiques pour les types de graphiques.",
 		"vssde-insertChartPanel-pleaseSpecifyCellsWhichContainTheChartDataIncludeNamesForRowsAndColumns": "Veuillez spécifier les cellules qui contiennent les données du graphique (inclure les noms des lignes et des colonnes).",
 		"vssde-insertChartPanel-chartSubtypeArg0HasMultipleDeclarationsOnDifferentWorksheets": "Le sous-type de graphique '{0}' comporte plusieurs déclarations sur différentes feuilles de calcul.",
-		"vssde-insertChartPanel-sheetArg0IsNotFound": "La feuille '{0}' est introuvable."
+		"vssde-insertChartPanel-sheetArg0IsNotFound": "La feuille '{0}' est introuvable.",
+		"vssde-editChartDialog-title": "Modifier le graphique",
+		"vssde-editChartPropertiesPanel-spreadsheetEditorDoesNotHaveFocusedChart": "L'éditeur de feuille de calcul n'a pas de graphique ciblé.",
+		"vssde-editChartPropertiesPanel-selectedDrawingIsNotChart": "Le dessin sélectionné n'est pas un graphique.",
+		"vssde-editHyperlinkDialog-addTitle": "Ajouter un lien hypertexte",
+		"vssde-editHyperlinkDialog-editTitle": "Modifier le lien hypertexte"
 	}
 }

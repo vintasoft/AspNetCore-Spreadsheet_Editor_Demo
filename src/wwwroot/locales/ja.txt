@@ -173,6 +173,9 @@
 		"thickOutsideBordersButton": {
 			"title": "太い外側の境界線"
 		},
+		"cellBordersDropDownButton": {
+			"title": "セルの境界線"
+		},
 		"autoFitRowHeightButton": {
 			"title": "行の高さを自動調整する"
 		},
@@ -407,51 +410,6 @@
 		"unhideColumnsLabel": {
 			"text": "列を表示"
 		},
-		"insertCommentDialog": {
-			"authorLabel": {
-				"text": "著者："
-			},
-			"showAuthorLabel": {
-				"text": "著者を表示"
-			},
-			"commentLabel": {
-				"text": "コメント："
-			},
-			"okButton": {
-				"value": "OK"
-			},
-			"cancelButton": {
-				"value": "キャンセル"
-			}
-		},
-		"commentEditDialog": {
-			"authorLabel": {
-				"text": "著者："
-			},
-			"showAuthorLabel": {
-				"text": "著者を表示"
-			},
-			"commentLabel": {
-				"text": "コメント："
-			},
-			"okButton": {
-				"value": "OK"
-			},
-			"cancelButton": {
-				"value": "キャンセル"
-			}
-		},
-		"editChartDialog": {
-			"titleLabel": {
-				"text": "タイトル："
-			},
-			"okButton": {
-				"value": "OK"
-			},
-			"cancelButton": {
-				"value": "キャンセル"
-			}
-		},
 		"renameWorksheetDialog": {
 			"nameLabel": {
 				"text": "名前:"
@@ -573,6 +531,40 @@
 				"value": "キャンセル"
 			}
 		},
+		"insertCommentDialog": {
+			"authorLabel": {
+				"text": "著者："
+			},
+			"showAuthorLabel": {
+				"text": "著者を表示"
+			},
+			"commentLabel": {
+				"text": "コメント："
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "キャンセル"
+			}
+		},
+		"commentEditDialog": {
+			"authorLabel": {
+				"text": "著者："
+			},
+			"showAuthorLabel": {
+				"text": "著者を表示"
+			},
+			"commentLabel": {
+				"text": "コメント："
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "キャンセル"
+			}
+		},
 		"setCellNumberFormatDialog": {
 			"General": {
 				"text": "一般"
@@ -648,26 +640,45 @@
 			"cancelButton": {
 				"value": "キャンセル"
 			}
+		},
+		"editChartDialog": {
+			"titleLabel": {
+				"text": "タイトル："
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "キャンセル"
+			}
+		},
+		"editHyperlinkDialog": {
+			"urlRadioLabel": {
+				"text": "ウェブページ"
+			},
+			"referenceRadioLabel": {
+				"text": "セル参照"
+			},
+			"addressLabel": {
+				"text": "住所:"
+			},
+			"referenceLabel": {
+				"text": "セル参照:"
+			},
+			"sheetLabel": {
+				"text": "シート:"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "キャンセル"
+			}
 		}
 	},
 	"strings": {
 		"vssde-documentIsOpening": "ドキュメントを開いています...",
-		"vssde-numberFormat-general": "一般",
-		"vssde-numberFormat-number": "数値",
-		"vssde-numberFormat-date": "日付",
-		"vssde-numberFormat-time": "時間",
-		"vssde-numberFormat-currency": "お金",
-		"vssde-numberFormat-percentage": "パーセンテージ",
-		"vssde-numberFormat-scientific": "指数関数",
-		"vssde-numberFormat-text": "テキスト",
 		"vssde-numberFormat-custom": "カスタム",
-		"vssde-findTextPanel-sheet": "シート上",
-		"vssde-findTextPanel-workbook": "本の中で",
-		"vssde-findTextPanel-byRows": "行内",
-		"vssde-findTextPanel-byColumns": "列内",
-		"vssde-findTextPanel-formulas": "数式",
-		"vssde-findTextPanel-values": "値",
-		"vssde-findTextPanel-comments": "コメント",
 		"vssde-findTextPanel-textIsNotFound": "テキスト「{0}」が見つかりません。",
 		"vssde-selectFunctionPanel-all": "すべて",
 		"vssde-createXlsxDocument": "新しいXLSXドキュメントを作成する",
@@ -675,20 +686,30 @@
 		"vssde-downloadXlsxFile": "XLSX ファイルをアップロードします",
 		"vssde-exportXlsxToPdf": "XLSX を PDF にエクスポート",
 		"vssde-fileSizeExceedsLimit": "アップロードされたファイルのサイズが最大サイズ ({0} バイト) を超えています。",
+		"vssde-error-noError": "エラーはありません。",
+		"vssde-error-divisionByZero": "任意の数値 (ゼロを含む) またはエラー コードはゼロで除算されます。",
+		"vssde-error-cellRefCannotBeEvaluated": "セルの値が取得または計算されていないため、セル参照を評価できません。",
+		"vssde-error-valueIsNotAvailable": "指定値はありません。",
+		"vssde-error-wrongName": "名前が使用されているようですが、そのような名前は定義されていません。",
+		"vssde-error-twoAreasNotIntersecting": "2 つの領域が交差する必要がありますが、交差していません。",
+		"vssde-error-notCorrectValue": "関数の引数は互換性のある型を持っていますが、その関数が定義されているドメインの外にある値を持っています。",
+		"vssde-error-cannotEvaluateCellRef": "セル参照は評価できません。",
+		"vssde-error-incompatibleType": "互換性のない型の引数が関数に渡されているか、互換性のない型のオペランドが演算子で使用されています。",
+		"vssde-error-unknownError": "不明なエラー。",
+		"vssde-error-externalError": "外部エラー。",
+		"vssde-uriOpen-question": "URL '{0}' を開いてください?",
+		"vssde-uriOpen-wrongUri": "このサイトのアドレスは無効です: {0}",
 		"vssde-createXlsxDocumentConfirmation": "新しいワークブックを作成しますか?",
-		"vssde-insertCommentDialog-title": "コメントを挿入",
+		"vssde-renameWorksheetDialog-title": "シートの名前を変更",
 		"vssde-dialog-okButton": "OK",
 		"vssde-dialog-cancelButton": "キャンセル",
-		"vssde-editCommentDialog-title": "コメントを編集",
-		"vssde-editChartDialog-title": "チャートの編集",
-		"vssde-editChartPropertiesPanel-spreadsheetEditorDoesNotHaveFocusedChart": "スプレッドシート エディタにはフォーカスされたグラフがありません。",
-		"vssde-editChartPropertiesPanel-selectedDrawingIsNotChart": "選択した図面はグラフではありません。",
-		"vssde-renameWorksheetDialog-title": "シートの名前を変更",
 		"vssde-moveWorksheetDialog-title": "シートを移動",
 		"vssde-findTextDialog-title": "テキストを検索",
 		"vssde-findTextDialog-findNextButton": "次を検索",
 		"vssde-dialog-closeButton": "閉じる",
 		"vssde-selectFunctionDialog-title": "関数の挿入",
+		"vssde-insertCommentDialog-title": "コメントを挿入",
+		"vssde-editCommentDialog-title": "コメントを編集",
 		"vssde-cellNumberFormatDialog-title": "セルのフォーマット",
 		"vssde-insertChartDialog-title": "グラフの挿入",
 		"vssde-insertChartPanel-chartType-column": "カラム",
@@ -732,6 +753,11 @@
 		"vssde-insertChartPanel-chartTemplateContainsTwoIdenticalNamesForChartTypes": "グラフ テンプレートには、グラフ タイプの 2 つの同一の名前が含まれています。",
 		"vssde-insertChartPanel-pleaseSpecifyCellsWhichContainTheChartDataIncludeNamesForRowsAndColumns": "グラフ データ (行と列の名前を含む) が含まれるセルを指定してください。",
 		"vssde-insertChartPanel-chartSubtypeArg0HasMultipleDeclarationsOnDifferentWorksheets": "グラフのサブタイプ '{0}' には、異なるワークシートに複数の宣言があります。",
-		"vssde-insertChartPanel-sheetArg0IsNotFound": "シート '{0}' が見つかりません。"
+		"vssde-insertChartPanel-sheetArg0IsNotFound": "シート '{0}' が見つかりません。",
+		"vssde-editChartDialog-title": "チャートの編集",
+		"vssde-editChartPropertiesPanel-spreadsheetEditorDoesNotHaveFocusedChart": "スプレッドシート エディタにはフォーカスされたグラフがありません。",
+		"vssde-editChartPropertiesPanel-selectedDrawingIsNotChart": "選択した図面はグラフではありません。",
+		"vssde-editHyperlinkDialog-addTitle": "ハイパーリンクの追加",
+		"vssde-editHyperlinkDialog-editTitle": "ハイパーリンクを編集"
 	}
 }

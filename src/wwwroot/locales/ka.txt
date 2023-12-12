@@ -173,6 +173,9 @@
 		"thickOutsideBordersButton": {
 			"title": "სქელი გარე საზღვრები"
 		},
+		"cellBordersDropDownButton": {
+			"title": "უჯრედის საზღვრები"
+		},
 		"autoFitRowHeightButton": {
 			"title": "მწკრივის სიმაღლის ავტომატური მორგება"
 		},
@@ -407,51 +410,6 @@
 		"unhideColumnsLabel": {
 			"text": "სვეტების დამალვა"
 		},
-		"insertCommentDialog": {
-			"authorLabel": {
-				"text": "ავტორი:"
-			},
-			"showAuthorLabel": {
-				"text": "ავტორის ჩვენება"
-			},
-			"commentLabel": {
-				"text": "კომენტარი:"
-			},
-			"okButton": {
-				"value": "კარგი"
-			},
-			"cancelButton": {
-				"value": "გაუქმება"
-			}
-		},
-		"commentEditDialog": {
-			"authorLabel": {
-				"text": "ავტორი:"
-			},
-			"showAuthorLabel": {
-				"text": "ავტორის ჩვენება"
-			},
-			"commentLabel": {
-				"text": "კომენტარი:"
-			},
-			"okButton": {
-				"value": "კარგი"
-			},
-			"cancelButton": {
-				"value": "გაუქმება"
-			}
-		},
-		"editChartDialog": {
-			"titleLabel": {
-				"text": "სათაური:"
-			},
-			"okButton": {
-				"value": "კარგი"
-			},
-			"cancelButton": {
-				"value": "გაუქმება"
-			}
-		},
 		"renameWorksheetDialog": {
 			"nameLabel": {
 				"text": "სახელი:"
@@ -573,6 +531,40 @@
 				"value": "გაუქმება"
 			}
 		},
+		"insertCommentDialog": {
+			"authorLabel": {
+				"text": "ავტორი:"
+			},
+			"showAuthorLabel": {
+				"text": "ავტორის ჩვენება"
+			},
+			"commentLabel": {
+				"text": "კომენტარი:"
+			},
+			"okButton": {
+				"value": "კარგი"
+			},
+			"cancelButton": {
+				"value": "გაუქმება"
+			}
+		},
+		"commentEditDialog": {
+			"authorLabel": {
+				"text": "ავტორი:"
+			},
+			"showAuthorLabel": {
+				"text": "ავტორის ჩვენება"
+			},
+			"commentLabel": {
+				"text": "კომენტარი:"
+			},
+			"okButton": {
+				"value": "კარგი"
+			},
+			"cancelButton": {
+				"value": "გაუქმება"
+			}
+		},
 		"setCellNumberFormatDialog": {
 			"General": {
 				"text": "გენერალი"
@@ -648,26 +640,45 @@
 			"cancelButton": {
 				"value": "გაუქმება"
 			}
+		},
+		"editChartDialog": {
+			"titleLabel": {
+				"text": "სათაური:"
+			},
+			"okButton": {
+				"value": "კარგი"
+			},
+			"cancelButton": {
+				"value": "გაუქმება"
+			}
+		},
+		"editHyperlinkDialog": {
+			"urlRadioLabel": {
+				"text": "Ვებ გვერდი"
+			},
+			"referenceRadioLabel": {
+				"text": "უჯრედის მითითება"
+			},
+			"addressLabel": {
+				"text": "მისამართი:"
+			},
+			"referenceLabel": {
+				"text": "უჯრედის მითითება:"
+			},
+			"sheetLabel": {
+				"text": "ფურცელი:"
+			},
+			"okButton": {
+				"value": "კარგი"
+			},
+			"cancelButton": {
+				"value": "გაუქმება"
+			}
 		}
 	},
 	"strings": {
 		"vssde-documentIsOpening": "დოკუმენტი იხსნება...",
-		"vssde-numberFormat-general": "გენერალი",
-		"vssde-numberFormat-number": "ნომერი",
-		"vssde-numberFormat-date": "თარიღი",
-		"vssde-numberFormat-time": "დრო",
-		"vssde-numberFormat-currency": "ვალუტა",
-		"vssde-numberFormat-percentage": "პროცენტი",
-		"vssde-numberFormat-scientific": "Სამეცნიერო",
-		"vssde-numberFormat-text": "ტექსტი",
 		"vssde-numberFormat-custom": "საბაჟო",
-		"vssde-findTextPanel-sheet": "ფურცელი",
-		"vssde-findTextPanel-workbook": "სამუშაო წიგნი",
-		"vssde-findTextPanel-byRows": "რიგების მიხედვით",
-		"vssde-findTextPanel-byColumns": "სვეტების მიხედვით",
-		"vssde-findTextPanel-formulas": "ფორმულები",
-		"vssde-findTextPanel-values": "ღირებულებები",
-		"vssde-findTextPanel-comments": "კომენტარები",
 		"vssde-findTextPanel-textIsNotFound": "ტექსტი '{0}' ვერ მოიძებნა.",
 		"vssde-selectFunctionPanel-all": "ყველა",
 		"vssde-createXlsxDocument": "შექმენით ახალი XLSX დოკუმენტი",
@@ -675,20 +686,30 @@
 		"vssde-downloadXlsxFile": "ჩამოტვირთეთ XLSX ფაილი",
 		"vssde-exportXlsxToPdf": "XLSX-ის ექსპორტი PDF-ში",
 		"vssde-fileSizeExceedsLimit": "ატვირთული ფაილის ზომა აღემატება მაქსიმალურ ზომას ({0} ბაიტი).",
+		"vssde-error-noError": "არანაირი შეცდომა.",
+		"vssde-error-divisionByZero": "ნებისმიერი რიცხვი (მათ შორის ნულის) ან შეცდომის კოდი იყოფა ნულზე.",
+		"vssde-error-cellRefCannotBeEvaluated": "უჯრედის მითითების შეფასება შეუძლებელია, რადგან უჯრედის მნიშვნელობა არ არის მოძიებული ან გამოთვლილი.",
+		"vssde-error-valueIsNotAvailable": "მითითებული მნიშვნელობა მიუწვდომელია.",
+		"vssde-error-wrongName": "როგორც ჩანს, სახელი გამოიყენება, მაგრამ ასეთი სახელი არ არის განსაზღვრული.",
+		"vssde-error-twoAreasNotIntersecting": "ორი უბანი საჭიროა გადაკვეთისთვის, მაგრამ არა.",
+		"vssde-error-notCorrectValue": "ფუნქციის არგუმენტს აქვს თავსებადი ტიპი, მაგრამ აქვს მნიშვნელობა, რომელიც იმ დომენის მიღმაა, რომელზეც ეს ფუნქცია განისაზღვრება.",
+		"vssde-error-cannotEvaluateCellRef": "უჯრედის მითითების შეფასება შეუძლებელია.",
+		"vssde-error-incompatibleType": "შეუთავსებელი ტიპის არგუმენტი გადაეცემა ფუნქციას, ან შეუთავსებელი ტიპის ოპერანდი გამოიყენება ოპერატორთან.",
+		"vssde-error-unknownError": "Უცნობი შეცდომა.",
+		"vssde-error-externalError": "გარე შეცდომა.",
+		"vssde-uriOpen-question": "გახსენით URL '{0}'?",
+		"vssde-uriOpen-wrongUri": "ამ საიტის მისამართი არასწორია: {0}",
 		"vssde-createXlsxDocumentConfirmation": "გსურთ შექმნათ ახალი სამუშაო წიგნი?",
-		"vssde-insertCommentDialog-title": "კომენტარის ჩასმა",
+		"vssde-renameWorksheetDialog-title": "გადარქმევა სამუშაო ფურცელი",
 		"vssde-dialog-okButton": "კარგი",
 		"vssde-dialog-cancelButton": "გაუქმება",
-		"vssde-editCommentDialog-title": "კომენტარის რედაქტირება",
-		"vssde-editChartDialog-title": "გრაფიკის რედაქტირება",
-		"vssde-editChartPropertiesPanel-spreadsheetEditorDoesNotHaveFocusedChart": "ცხრილების რედაქტორს არ აქვს ფოკუსირებული დიაგრამა.",
-		"vssde-editChartPropertiesPanel-selectedDrawingIsNotChart": "არჩეული ნახატი არ არის სქემა.",
-		"vssde-renameWorksheetDialog-title": "გადარქმევა სამუშაო ფურცელი",
 		"vssde-moveWorksheetDialog-title": "სამუშაო ფურცლის გადატანა",
 		"vssde-findTextDialog-title": "იპოვეთ ტექსტი",
 		"vssde-findTextDialog-findNextButton": "იპოვეთ შემდეგი",
 		"vssde-dialog-closeButton": "დახურვა",
 		"vssde-selectFunctionDialog-title": "ჩასმა ფუნქცია",
+		"vssde-insertCommentDialog-title": "კომენტარის ჩასმა",
+		"vssde-editCommentDialog-title": "კომენტარის რედაქტირება",
 		"vssde-cellNumberFormatDialog-title": "უჯრედის ფორმატი",
 		"vssde-insertChartDialog-title": "ჩასმა დიაგრამა",
 		"vssde-insertChartPanel-chartType-column": "სვეტი",
@@ -732,6 +753,11 @@
 		"vssde-insertChartPanel-chartTemplateContainsTwoIdenticalNamesForChartTypes": "დიაგრამის შაბლონი შეიცავს 2 იდენტურ სახელს დიაგრამის ტიპებისთვის.",
 		"vssde-insertChartPanel-pleaseSpecifyCellsWhichContainTheChartDataIncludeNamesForRowsAndColumns": "გთხოვთ, მიუთითოთ უჯრედები, რომლებიც შეიცავს დიაგრამის მონაცემებს (შეიცავს რიგებისა და სვეტების სახელებს).",
 		"vssde-insertChartPanel-chartSubtypeArg0HasMultipleDeclarationsOnDifferentWorksheets": "დიაგრამის ქვეტიპი '{0}' აქვს რამდენიმე დეკლარაცია სხვადასხვა სამუშაო ფურცლებზე.",
-		"vssde-insertChartPanel-sheetArg0IsNotFound": "ფურცელი '{0}' ვერ მოიძებნა."
+		"vssde-insertChartPanel-sheetArg0IsNotFound": "ფურცელი '{0}' ვერ მოიძებნა.",
+		"vssde-editChartDialog-title": "გრაფიკის რედაქტირება",
+		"vssde-editChartPropertiesPanel-spreadsheetEditorDoesNotHaveFocusedChart": "ცხრილების რედაქტორს არ აქვს ფოკუსირებული დიაგრამა.",
+		"vssde-editChartPropertiesPanel-selectedDrawingIsNotChart": "არჩეული ნახატი არ არის სქემა.",
+		"vssde-editHyperlinkDialog-addTitle": "დაამატეთ ჰიპერბმული",
+		"vssde-editHyperlinkDialog-editTitle": "ჰიპერბმულის რედაქტირება"
 	}
 }

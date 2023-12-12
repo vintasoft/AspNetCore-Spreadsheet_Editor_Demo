@@ -237,6 +237,10 @@ function __createDocumentViewerDialogsForLocalization(tempDialogs) {
     var editChartPropertiesDialog = new Vintasoft.Imaging.Office.UI.Dialogs.WebUiEditChartPropertiesDialogJS(spreadsheetEditorControl);
     editChartPropertiesDialog.render(floatingContainer);
     tempDialogs.push(editChartPropertiesDialog);
+
+    var editHyperlinkDialog = new Vintasoft.Imaging.Office.UI.Dialogs.WebUiEditHyperlinkDialogJS(spreadsheetEditorControl);
+    editHyperlinkDialog.render(floatingContainer);
+    tempDialogs.push(editHyperlinkDialog);
 }
 
 /**

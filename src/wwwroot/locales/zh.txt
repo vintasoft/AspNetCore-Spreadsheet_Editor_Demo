@@ -173,6 +173,9 @@
 		"thickOutsideBordersButton": {
 			"title": "厚外边框"
 		},
+		"cellBordersDropDownButton": {
+			"title": "细胞边界"
+		},
 		"autoFitRowHeightButton": {
 			"title": "自动调整行高"
 		},
@@ -407,51 +410,6 @@
 		"unhideColumnsLabel": {
 			"text": "取消隐藏列"
 		},
-		"insertCommentDialog": {
-			"authorLabel": {
-				"text": "作者："
-			},
-			"showAuthorLabel": {
-				"text": "显示作者"
-			},
-			"commentLabel": {
-				"text": "评论："
-			},
-			"okButton": {
-				"value": "好的"
-			},
-			"cancelButton": {
-				"value": "取消"
-			}
-		},
-		"commentEditDialog": {
-			"authorLabel": {
-				"text": "作者："
-			},
-			"showAuthorLabel": {
-				"text": "显示作者"
-			},
-			"commentLabel": {
-				"text": "评论："
-			},
-			"okButton": {
-				"value": "好的"
-			},
-			"cancelButton": {
-				"value": "取消"
-			}
-		},
-		"editChartDialog": {
-			"titleLabel": {
-				"text": "标题："
-			},
-			"okButton": {
-				"value": "好的"
-			},
-			"cancelButton": {
-				"value": "取消"
-			}
-		},
 		"renameWorksheetDialog": {
 			"nameLabel": {
 				"text": "姓名："
@@ -573,6 +531,40 @@
 				"value": "取消"
 			}
 		},
+		"insertCommentDialog": {
+			"authorLabel": {
+				"text": "作者："
+			},
+			"showAuthorLabel": {
+				"text": "显示作者"
+			},
+			"commentLabel": {
+				"text": "评论："
+			},
+			"okButton": {
+				"value": "好的"
+			},
+			"cancelButton": {
+				"value": "取消"
+			}
+		},
+		"commentEditDialog": {
+			"authorLabel": {
+				"text": "作者："
+			},
+			"showAuthorLabel": {
+				"text": "显示作者"
+			},
+			"commentLabel": {
+				"text": "评论："
+			},
+			"okButton": {
+				"value": "好的"
+			},
+			"cancelButton": {
+				"value": "取消"
+			}
+		},
 		"setCellNumberFormatDialog": {
 			"General": {
 				"text": "一般的"
@@ -648,26 +640,45 @@
 			"cancelButton": {
 				"value": "取消"
 			}
+		},
+		"editChartDialog": {
+			"titleLabel": {
+				"text": "标题："
+			},
+			"okButton": {
+				"value": "好的"
+			},
+			"cancelButton": {
+				"value": "取消"
+			}
+		},
+		"editHyperlinkDialog": {
+			"urlRadioLabel": {
+				"text": "网页"
+			},
+			"referenceRadioLabel": {
+				"text": "细胞参考"
+			},
+			"addressLabel": {
+				"text": "地址："
+			},
+			"referenceLabel": {
+				"text": "细胞参考："
+			},
+			"sheetLabel": {
+				"text": "床单："
+			},
+			"okButton": {
+				"value": "好的"
+			},
+			"cancelButton": {
+				"value": "取消"
+			}
 		}
 	},
 	"strings": {
 		"vssde-documentIsOpening": "文档正在打开...",
-		"vssde-numberFormat-general": "一般的",
-		"vssde-numberFormat-number": "数字",
-		"vssde-numberFormat-date": "日期",
-		"vssde-numberFormat-time": "时间",
-		"vssde-numberFormat-currency": "货币",
-		"vssde-numberFormat-percentage": "百分比",
-		"vssde-numberFormat-scientific": "科学的",
-		"vssde-numberFormat-text": "文本",
 		"vssde-numberFormat-custom": "风俗",
-		"vssde-findTextPanel-sheet": "床单",
-		"vssde-findTextPanel-workbook": "练习册",
-		"vssde-findTextPanel-byRows": "按行",
-		"vssde-findTextPanel-byColumns": "按栏目",
-		"vssde-findTextPanel-formulas": "公式",
-		"vssde-findTextPanel-values": "价值观",
-		"vssde-findTextPanel-comments": "评论",
 		"vssde-findTextPanel-textIsNotFound": "未找到文本'{0}'。",
 		"vssde-selectFunctionPanel-all": "全部",
 		"vssde-createXlsxDocument": "创建新的 XLSX 文档",
@@ -675,20 +686,30 @@
 		"vssde-downloadXlsxFile": "下载XLSX文件",
 		"vssde-exportXlsxToPdf": "将 XLSX 导出为 PDF",
 		"vssde-fileSizeExceedsLimit": "上传的文件大小超过最大大小（{0} 字节）。",
+		"vssde-error-noError": "沒有錯誤。",
+		"vssde-error-divisionByZero": "任何數字（包括零）或任何錯誤代碼都會除以零。",
+		"vssde-error-cellRefCannotBeEvaluated": "無法計算儲存格引用，因為尚未擷取或計算儲存格的值。",
+		"vssde-error-valueIsNotAvailable": "沒有指定值。",
+		"vssde-error-wrongName": "看起來好像使用了一個名稱，但尚未定義這樣的名稱。",
+		"vssde-error-twoAreasNotIntersecting": "兩個區域需要相交，但實際上並不相交。",
+		"vssde-error-notCorrectValue": "函數的參數具有相容的類型，但其值位於定義函數的域之外。",
+		"vssde-error-cannotEvaluateCellRef": "無法評估單元格引用。",
+		"vssde-error-incompatibleType": "將不相容的類型參數傳遞給函數，或將不相容的類型運算元與運算子一起使用。",
+		"vssde-error-unknownError": "未知錯誤。",
+		"vssde-error-externalError": "外部錯誤。",
+		"vssde-uriOpen-question": "開啟 URL'{0}'？",
+		"vssde-uriOpen-wrongUri": "此網站的位址無效：{0}",
 		"vssde-createXlsxDocumentConfirmation": "您想创建一个新的工作簿吗？",
-		"vssde-insertCommentDialog-title": "插入评论",
+		"vssde-renameWorksheetDialog-title": "重命名工作表",
 		"vssde-dialog-okButton": "好的",
 		"vssde-dialog-cancelButton": "取消",
-		"vssde-editCommentDialog-title": "编辑评论",
-		"vssde-editChartDialog-title": "编辑图表",
-		"vssde-editChartPropertiesPanel-spreadsheetEditorDoesNotHaveFocusedChart": "电子表格编辑器没有焦点图表。",
-		"vssde-editChartPropertiesPanel-selectedDrawingIsNotChart": "所选绘图不是图表。",
-		"vssde-renameWorksheetDialog-title": "重命名工作表",
 		"vssde-moveWorksheetDialog-title": "移动工作表",
 		"vssde-findTextDialog-title": "查找文本",
 		"vssde-findTextDialog-findNextButton": "找下一个",
 		"vssde-dialog-closeButton": "关闭",
 		"vssde-selectFunctionDialog-title": "插入功能",
+		"vssde-insertCommentDialog-title": "插入评论",
+		"vssde-editCommentDialog-title": "编辑评论",
 		"vssde-cellNumberFormatDialog-title": "单元格格式",
 		"vssde-insertChartDialog-title": "插入图表",
 		"vssde-insertChartPanel-chartType-column": "柱子",
@@ -723,7 +744,7 @@
 		"vssde-insertChartPanel-chartSubtype-area": "区域",
 		"vssde-insertChartPanel-chartSubtype-stackedArea": "堆积面积",
 		"vssde-insertChartPanel-chartSubtype-100%StackedArea": "100% 堆叠面积",
-		"vssde-insertChartPanel-fileArg0IsNotFound": "未找到文件“{0}”。",
+		"vssde-insertChartPanel-fileArg0IsNotFound": "未找到文件'{0}'。",
 		"vssde-insertChartPanel-supportedChartTypesAreNotFound": "未找到支持的图表类型。",
 		"vssde-insertChartPanel-notSupportedChartType": "不支持的图表类型。",
 		"vssde-insertChartPanel-supportedChartSubtypesAreNotFound": "未找到支持的图表子类型。",
@@ -732,6 +753,11 @@
 		"vssde-insertChartPanel-chartTemplateContainsTwoIdenticalNamesForChartTypes": "图表模板包含 2 个相同的图表类型名称。",
 		"vssde-insertChartPanel-pleaseSpecifyCellsWhichContainTheChartDataIncludeNamesForRowsAndColumns": "请指定包含图表数据的单元格（包括行和列的名称）。",
 		"vssde-insertChartPanel-chartSubtypeArg0HasMultipleDeclarationsOnDifferentWorksheets": "图表子类型'{0}'在不同工作表上有多个声明。",
-		"vssde-insertChartPanel-sheetArg0IsNotFound": "未找到工作表'{0}'。"
+		"vssde-insertChartPanel-sheetArg0IsNotFound": "未找到工作表'{0}'。",
+		"vssde-editChartDialog-title": "编辑图表",
+		"vssde-editChartPropertiesPanel-spreadsheetEditorDoesNotHaveFocusedChart": "电子表格编辑器没有焦点图表。",
+		"vssde-editChartPropertiesPanel-selectedDrawingIsNotChart": "所选绘图不是图表。",
+		"vssde-editHyperlinkDialog-addTitle": "添加超链接",
+		"vssde-editHyperlinkDialog-editTitle": "编辑超链接"
 	}
 }

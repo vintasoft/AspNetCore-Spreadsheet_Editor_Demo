@@ -173,6 +173,9 @@
 		"thickOutsideBordersButton": {
 			"title": "Товсті зовнішні межі"
 		},
+		"cellBordersDropDownButton": {
+			"title": "Межі клітинок"
+		},
 		"autoFitRowHeightButton": {
 			"title": "Автопідбір висоти рядка"
 		},
@@ -407,51 +410,6 @@
 		"unhideColumnsLabel": {
 			"text": "Показати стовпці"
 		},
-		"insertCommentDialog": {
-			"authorLabel": {
-				"text": "Автор:"
-			},
-			"showAuthorLabel": {
-				"text": "Показати автора"
-			},
-			"commentLabel": {
-				"text": "Коментар:"
-			},
-			"okButton": {
-				"value": "В порядку"
-			},
-			"cancelButton": {
-				"value": "Скасувати"
-			}
-		},
-		"commentEditDialog": {
-			"authorLabel": {
-				"text": "Автор:"
-			},
-			"showAuthorLabel": {
-				"text": "Показати автора"
-			},
-			"commentLabel": {
-				"text": "Коментар:"
-			},
-			"okButton": {
-				"value": "В порядку"
-			},
-			"cancelButton": {
-				"value": "Скасувати"
-			}
-		},
-		"editChartDialog": {
-			"titleLabel": {
-				"text": "Назва:"
-			},
-			"okButton": {
-				"value": "В порядку"
-			},
-			"cancelButton": {
-				"value": "Скасувати"
-			}
-		},
 		"renameWorksheetDialog": {
 			"nameLabel": {
 				"text": "Ім'я:"
@@ -573,6 +531,40 @@
 				"value": "Скасувати"
 			}
 		},
+		"insertCommentDialog": {
+			"authorLabel": {
+				"text": "Автор:"
+			},
+			"showAuthorLabel": {
+				"text": "Показати автора"
+			},
+			"commentLabel": {
+				"text": "Коментар:"
+			},
+			"okButton": {
+				"value": "В порядку"
+			},
+			"cancelButton": {
+				"value": "Скасувати"
+			}
+		},
+		"commentEditDialog": {
+			"authorLabel": {
+				"text": "Автор:"
+			},
+			"showAuthorLabel": {
+				"text": "Показати автора"
+			},
+			"commentLabel": {
+				"text": "Коментар:"
+			},
+			"okButton": {
+				"value": "В порядку"
+			},
+			"cancelButton": {
+				"value": "Скасувати"
+			}
+		},
 		"setCellNumberFormatDialog": {
 			"General": {
 				"text": "Загальний"
@@ -648,26 +640,45 @@
 			"cancelButton": {
 				"value": "Скасувати"
 			}
+		},
+		"editChartDialog": {
+			"titleLabel": {
+				"text": "Назва:"
+			},
+			"okButton": {
+				"value": "В порядку"
+			},
+			"cancelButton": {
+				"value": "Скасувати"
+			}
+		},
+		"editHyperlinkDialog": {
+			"urlRadioLabel": {
+				"text": "Веб-сторінка"
+			},
+			"referenceRadioLabel": {
+				"text": "Посилання на комірку"
+			},
+			"addressLabel": {
+				"text": "Адреса:"
+			},
+			"referenceLabel": {
+				"text": "Посилання на клітинку:"
+			},
+			"sheetLabel": {
+				"text": "Аркуш:"
+			},
+			"okButton": {
+				"value": "В порядку"
+			},
+			"cancelButton": {
+				"value": "Скасувати"
+			}
 		}
 	},
 	"strings": {
 		"vssde-documentIsOpening": "Відкривається документ...",
-		"vssde-numberFormat-general": "Загальний",
-		"vssde-numberFormat-number": "Номер",
-		"vssde-numberFormat-date": "Дата",
-		"vssde-numberFormat-time": "час",
-		"vssde-numberFormat-currency": "Валюта",
-		"vssde-numberFormat-percentage": "Відсоток",
-		"vssde-numberFormat-scientific": "Науковий",
-		"vssde-numberFormat-text": "текст",
 		"vssde-numberFormat-custom": "Custom",
-		"vssde-findTextPanel-sheet": "Аркуш",
-		"vssde-findTextPanel-workbook": "Робочий зошит",
-		"vssde-findTextPanel-byRows": "По рядках",
-		"vssde-findTextPanel-byColumns": "За колонками",
-		"vssde-findTextPanel-formulas": "Формули",
-		"vssde-findTextPanel-values": "Цінності",
-		"vssde-findTextPanel-comments": "Коментарі",
 		"vssde-findTextPanel-textIsNotFound": "Текст '{0}' не знайдено.",
 		"vssde-selectFunctionPanel-all": "Всі",
 		"vssde-createXlsxDocument": "Створіть новий документ XLSX",
@@ -675,20 +686,30 @@
 		"vssde-downloadXlsxFile": "Завантажте файл XLSX",
 		"vssde-exportXlsxToPdf": "Експорт XLSX у PDF",
 		"vssde-fileSizeExceedsLimit": "Розмір завантаженого файлу перевищує максимальний розмір ({0} байт).",
+		"vssde-error-noError": "Помилки немає.",
+		"vssde-error-divisionByZero": "Будь-яке число (включаючи нуль) або будь-який код помилки ділиться на нуль.",
+		"vssde-error-cellRefCannotBeEvaluated": "Посилання на клітинку не можна оцінити, оскільки значення для клітинки не було отримано або обчислено.",
+		"vssde-error-valueIsNotAvailable": "Визначене значення недоступне.",
+		"vssde-error-wrongName": "Схоже, використовується ім’я, але таке ім’я не визначено.",
+		"vssde-error-twoAreasNotIntersecting": "Дві області повинні перетинатися, але це не так.",
+		"vssde-error-notCorrectValue": "Аргумент функції має сумісний тип, але має значення, яке знаходиться за межами домену, у якому ця функція визначена.",
+		"vssde-error-cannotEvaluateCellRef": "Посилання на клітинку не можна оцінити.",
+		"vssde-error-incompatibleType": "Функції передається аргумент несумісного типу або операнд несумісного типу використовується з оператором.",
+		"vssde-error-unknownError": "Невідома помилка.",
+		"vssde-error-externalError": "Зовнішня помилка.",
+		"vssde-uriOpen-question": "Відкрити URL-адресу '{0}'?",
+		"vssde-uriOpen-wrongUri": "Адреса цього сайту недійсна: {0}",
 		"vssde-createXlsxDocumentConfirmation": "Ви хочете створити нову книгу?",
-		"vssde-insertCommentDialog-title": "Вставте коментар",
+		"vssde-renameWorksheetDialog-title": "Перейменувати аркуш",
 		"vssde-dialog-okButton": "В порядку",
 		"vssde-dialog-cancelButton": "Скасувати",
-		"vssde-editCommentDialog-title": "Редагувати коментар",
-		"vssde-editChartDialog-title": "Редагувати діаграму",
-		"vssde-editChartPropertiesPanel-spreadsheetEditorDoesNotHaveFocusedChart": "Редактор електронних таблиць не має фокусованої діаграми.",
-		"vssde-editChartPropertiesPanel-selectedDrawingIsNotChart": "Вибраний малюнок не є діаграмою.",
-		"vssde-renameWorksheetDialog-title": "Перейменувати аркуш",
 		"vssde-moveWorksheetDialog-title": "Перемістити аркуш",
 		"vssde-findTextDialog-title": "Знайти текст",
 		"vssde-findTextDialog-findNextButton": "Знайти далі",
 		"vssde-dialog-closeButton": "Закрити",
 		"vssde-selectFunctionDialog-title": "Вставити функцію",
+		"vssde-insertCommentDialog-title": "Вставте коментар",
+		"vssde-editCommentDialog-title": "Редагувати коментар",
 		"vssde-cellNumberFormatDialog-title": "Формат комірки",
 		"vssde-insertChartDialog-title": "Вставити діаграму",
 		"vssde-insertChartPanel-chartType-column": "Колонка",
@@ -732,6 +753,11 @@
 		"vssde-insertChartPanel-chartTemplateContainsTwoIdenticalNamesForChartTypes": "Шаблон діаграми містить 2 однакові назви типів діаграм.",
 		"vssde-insertChartPanel-pleaseSpecifyCellsWhichContainTheChartDataIncludeNamesForRowsAndColumns": "Будь ласка, вкажіть комірки, які містять дані діаграми (додайте назви рядків і стовпців).",
 		"vssde-insertChartPanel-chartSubtypeArg0HasMultipleDeclarationsOnDifferentWorksheets": "Підтип діаграми '{0}' має кілька декларацій на різних аркушах.",
-		"vssde-insertChartPanel-sheetArg0IsNotFound": "Аркуш '{0}' не знайдено."
+		"vssde-insertChartPanel-sheetArg0IsNotFound": "Аркуш '{0}' не знайдено.",
+		"vssde-editChartDialog-title": "Редагувати діаграму",
+		"vssde-editChartPropertiesPanel-spreadsheetEditorDoesNotHaveFocusedChart": "Редактор електронних таблиць не має фокусованої діаграми.",
+		"vssde-editChartPropertiesPanel-selectedDrawingIsNotChart": "Вибраний малюнок не є діаграмою.",
+		"vssde-editHyperlinkDialog-addTitle": "Додати гіперпосилання",
+		"vssde-editHyperlinkDialog-editTitle": "Редагувати гіперпосилання"
 	}
 }

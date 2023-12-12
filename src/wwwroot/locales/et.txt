@@ -173,6 +173,9 @@
 		"thickOutsideBordersButton": {
 			"title": "Paksud välispiirid"
 		},
+		"cellBordersDropDownButton": {
+			"title": "Lahtri piirid"
+		},
 		"autoFitRowHeightButton": {
 			"title": "Rea kõrguse automaatne sobitamine"
 		},
@@ -407,51 +410,6 @@
 		"unhideColumnsLabel": {
 			"text": "Kuva veerud"
 		},
-		"insertCommentDialog": {
-			"authorLabel": {
-				"text": "Autor:"
-			},
-			"showAuthorLabel": {
-				"text": "Näita autorit"
-			},
-			"commentLabel": {
-				"text": "Kommentaar:"
-			},
-			"okButton": {
-				"value": "Okei"
-			},
-			"cancelButton": {
-				"value": "Tühista"
-			}
-		},
-		"commentEditDialog": {
-			"authorLabel": {
-				"text": "Autor:"
-			},
-			"showAuthorLabel": {
-				"text": "Näita autorit"
-			},
-			"commentLabel": {
-				"text": "Kommentaar:"
-			},
-			"okButton": {
-				"value": "Okei"
-			},
-			"cancelButton": {
-				"value": "Tühista"
-			}
-		},
-		"editChartDialog": {
-			"titleLabel": {
-				"text": "Pealkiri:"
-			},
-			"okButton": {
-				"value": "Okei"
-			},
-			"cancelButton": {
-				"value": "Tühista"
-			}
-		},
 		"renameWorksheetDialog": {
 			"nameLabel": {
 				"text": "Nimi:"
@@ -573,6 +531,40 @@
 				"value": "Tühista"
 			}
 		},
+		"insertCommentDialog": {
+			"authorLabel": {
+				"text": "Autor:"
+			},
+			"showAuthorLabel": {
+				"text": "Näita autorit"
+			},
+			"commentLabel": {
+				"text": "Kommentaar:"
+			},
+			"okButton": {
+				"value": "Okei"
+			},
+			"cancelButton": {
+				"value": "Tühista"
+			}
+		},
+		"commentEditDialog": {
+			"authorLabel": {
+				"text": "Autor:"
+			},
+			"showAuthorLabel": {
+				"text": "Näita autorit"
+			},
+			"commentLabel": {
+				"text": "Kommentaar:"
+			},
+			"okButton": {
+				"value": "Okei"
+			},
+			"cancelButton": {
+				"value": "Tühista"
+			}
+		},
 		"setCellNumberFormatDialog": {
 			"General": {
 				"text": "Kindral"
@@ -648,47 +640,76 @@
 			"cancelButton": {
 				"value": "Tühista"
 			}
+		},
+		"editChartDialog": {
+			"titleLabel": {
+				"text": "Pealkiri:"
+			},
+			"okButton": {
+				"value": "Okei"
+			},
+			"cancelButton": {
+				"value": "Tühista"
+			}
+		},
+		"editHyperlinkDialog": {
+			"urlRadioLabel": {
+				"text": "Veebileht"
+			},
+			"referenceRadioLabel": {
+				"text": "Lahtri viide"
+			},
+			"addressLabel": {
+				"text": "Aadress:"
+			},
+			"referenceLabel": {
+				"text": "Lahtri viide:"
+			},
+			"sheetLabel": {
+				"text": "Leht:"
+			},
+			"okButton": {
+				"value": "Okei"
+			},
+			"cancelButton": {
+				"value": "Tühista"
+			}
 		}
 	},
 	"strings": {
 		"vssde-documentIsOpening": "Dokument on avamisel...",
-		"vssde-numberFormat-general": "Kindral",
-		"vssde-numberFormat-number": "Number",
-		"vssde-numberFormat-date": "Kuupäev",
-		"vssde-numberFormat-time": "Aeg",
-		"vssde-numberFormat-currency": "Valuuta",
-		"vssde-numberFormat-percentage": "Protsent",
-		"vssde-numberFormat-scientific": "Teaduslik",
-		"vssde-numberFormat-text": "Tekst",
 		"vssde-numberFormat-custom": "Kohandatud",
-		"vssde-findTextPanel-sheet": "Leht",
-		"vssde-findTextPanel-workbook": "Töövihik",
-		"vssde-findTextPanel-byRows": "Ridade järgi",
-		"vssde-findTextPanel-byColumns": "Veergude järgi",
-		"vssde-findTextPanel-formulas": "Valemid",
-		"vssde-findTextPanel-values": "Väärtused",
-		"vssde-findTextPanel-comments": "Kommentaarid",
-		"vssde-findTextPanel-textIsNotFound": "Teksti „{0}” ei leitud.",
+		"vssde-findTextPanel-textIsNotFound": "Teksti '{0}' ei leitud.",
 		"vssde-selectFunctionPanel-all": "Kõik",
 		"vssde-createXlsxDocument": "Looge uus XLSX-dokument",
 		"vssde-uploadXlsxFile": "Laadige üles XLSX-fail",
 		"vssde-downloadXlsxFile": "Laadige alla XLSX-fail",
 		"vssde-exportXlsxToPdf": "Ekspordi XLSX PDF-i",
 		"vssde-fileSizeExceedsLimit": "Üleslaaditud faili suurus ületab maksimaalse suuruse ({0} baiti).",
+		"vssde-error-noError": "Pole viga.",
+		"vssde-error-divisionByZero": "Iga arv (sh null) või mis tahes veakood jagatakse nulliga.",
+		"vssde-error-cellRefCannotBeEvaluated": "Lahtriviidet ei saa hinnata, kuna lahtri väärtust pole toodud ega arvutatud.",
+		"vssde-error-valueIsNotAvailable": "Määratud väärtus pole saadaval.",
+		"vssde-error-wrongName": "Näib, et kasutatakse nime, kuid sellist nime pole määratletud.",
+		"vssde-error-twoAreasNotIntersecting": "Kahe ala ristamiseks on vaja, kuid mitte.",
+		"vssde-error-notCorrectValue": "Funktsiooni argumendil on ühilduv tüüp, kuid selle väärtus on väljaspool domeeni, mille üle see funktsioon on määratletud.",
+		"vssde-error-cannotEvaluateCellRef": "Lahtriviidet ei saa hinnata.",
+		"vssde-error-incompatibleType": "Funktsioonile edastatakse ühildumatu tüübi argument või kasutatakse operaatoriga ühildumatut tüüpi operandi.",
+		"vssde-error-unknownError": "Tundmatu viga.",
+		"vssde-error-externalError": "Väline viga.",
+		"vssde-uriOpen-question": "Kas avada URL '{0}'?",
+		"vssde-uriOpen-wrongUri": "Selle saidi aadress ei kehti: {0}",
 		"vssde-createXlsxDocumentConfirmation": "Kas soovite luua uue töövihiku?",
-		"vssde-insertCommentDialog-title": "Sisesta kommentaar",
+		"vssde-renameWorksheetDialog-title": "Nimeta tööleht ümber",
 		"vssde-dialog-okButton": "Okei",
 		"vssde-dialog-cancelButton": "Tühista",
-		"vssde-editCommentDialog-title": "Muuda kommentaari",
-		"vssde-editChartDialog-title": "Redigeeri diagrammi",
-		"vssde-editChartPropertiesPanel-spreadsheetEditorDoesNotHaveFocusedChart": "Tabeliredaktoril pole fokuseeritud diagrammi.",
-		"vssde-editChartPropertiesPanel-selectedDrawingIsNotChart": "Valitud joonis ei ole diagramm.",
-		"vssde-renameWorksheetDialog-title": "Nimeta tööleht ümber",
 		"vssde-moveWorksheetDialog-title": "Teisalda tööleht",
 		"vssde-findTextDialog-title": "Otsi tekst",
 		"vssde-findTextDialog-findNextButton": "Otsige üles",
 		"vssde-dialog-closeButton": "Sulge",
 		"vssde-selectFunctionDialog-title": "Sisesta funktsioon",
+		"vssde-insertCommentDialog-title": "Sisesta kommentaar",
+		"vssde-editCommentDialog-title": "Muuda kommentaari",
 		"vssde-cellNumberFormatDialog-title": "Lahtri vorming",
 		"vssde-insertChartDialog-title": "Sisesta diagramm",
 		"vssde-insertChartPanel-chartType-column": "Veerg",
@@ -731,7 +752,12 @@
 		"vssde-insertChartPanel-chartTemplateContainsTwoIdenticalNamesForChartSubtypes": "Diagrammimall sisaldab diagrammi alamtüüpidele 2 identset nime.",
 		"vssde-insertChartPanel-chartTemplateContainsTwoIdenticalNamesForChartTypes": "Diagrammimall sisaldab diagrammitüüpidele kahte identset nime.",
 		"vssde-insertChartPanel-pleaseSpecifyCellsWhichContainTheChartDataIncludeNamesForRowsAndColumns": "Palun täpsustage lahtrid, mis sisaldavad diagrammi andmeid (lisada ridade ja veergude nimed).",
-		"vssde-insertChartPanel-chartSubtypeArg0HasMultipleDeclarationsOnDifferentWorksheets": "Diagrammi alamtüübil „{0}” on erinevatel töölehtedel mitu deklaratsiooni.",
-		"vssde-insertChartPanel-sheetArg0IsNotFound": "Leht '{0}' ei leitud."
+		"vssde-insertChartPanel-chartSubtypeArg0HasMultipleDeclarationsOnDifferentWorksheets": "Diagrammi alamtüübil '{0}' on erinevatel töölehtedel mitu deklaratsiooni.",
+		"vssde-insertChartPanel-sheetArg0IsNotFound": "Leht '{0}' ei leitud.",
+		"vssde-editChartDialog-title": "Redigeeri diagrammi",
+		"vssde-editChartPropertiesPanel-spreadsheetEditorDoesNotHaveFocusedChart": "Tabeliredaktoril pole fokuseeritud diagrammi.",
+		"vssde-editChartPropertiesPanel-selectedDrawingIsNotChart": "Valitud joonis ei ole diagramm.",
+		"vssde-editHyperlinkDialog-addTitle": "Lisage hüperlink",
+		"vssde-editHyperlinkDialog-editTitle": "Redigeeri hüperlinki"
 	}
 }

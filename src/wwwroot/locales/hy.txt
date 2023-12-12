@@ -173,6 +173,9 @@
 		"thickOutsideBordersButton": {
 			"title": "Հաստ արտաքին սահմաններ"
 		},
+		"cellBordersDropDownButton": {
+			"title": "Բջջի սահմաններ"
+		},
 		"autoFitRowHeightButton": {
 			"title": "Ինքնահաստատել տողի բարձրությունը"
 		},
@@ -407,51 +410,6 @@
 		"unhideColumnsLabel": {
 			"text": "Բացահայտել սյունակները"
 		},
-		"insertCommentDialog": {
-			"authorLabel": {
-				"text": "Հեղինակ:"
-			},
-			"showAuthorLabel": {
-				"text": "Ցույց տալ հեղինակը"
-			},
-			"commentLabel": {
-				"text": "Մեկնաբանություն:"
-			},
-			"okButton": {
-				"value": "լավ"
-			},
-			"cancelButton": {
-				"value": "Չեղարկել"
-			}
-		},
-		"commentEditDialog": {
-			"authorLabel": {
-				"text": "Հեղինակ:"
-			},
-			"showAuthorLabel": {
-				"text": "Ցույց տալ հեղինակը"
-			},
-			"commentLabel": {
-				"text": "Մեկնաբանություն:"
-			},
-			"okButton": {
-				"value": "լավ"
-			},
-			"cancelButton": {
-				"value": "Չեղարկել"
-			}
-		},
-		"editChartDialog": {
-			"titleLabel": {
-				"text": "Կոչում:"
-			},
-			"okButton": {
-				"value": "լավ"
-			},
-			"cancelButton": {
-				"value": "Չեղարկել"
-			}
-		},
 		"renameWorksheetDialog": {
 			"nameLabel": {
 				"text": "Անուն:"
@@ -573,6 +531,40 @@
 				"value": "Չեղարկել"
 			}
 		},
+		"insertCommentDialog": {
+			"authorLabel": {
+				"text": "Հեղինակ:"
+			},
+			"showAuthorLabel": {
+				"text": "Ցույց տալ հեղինակը"
+			},
+			"commentLabel": {
+				"text": "Մեկնաբանություն:"
+			},
+			"okButton": {
+				"value": "լավ"
+			},
+			"cancelButton": {
+				"value": "Չեղարկել"
+			}
+		},
+		"commentEditDialog": {
+			"authorLabel": {
+				"text": "Հեղինակ:"
+			},
+			"showAuthorLabel": {
+				"text": "Ցույց տալ հեղինակը"
+			},
+			"commentLabel": {
+				"text": "Մեկնաբանություն:"
+			},
+			"okButton": {
+				"value": "լավ"
+			},
+			"cancelButton": {
+				"value": "Չեղարկել"
+			}
+		},
 		"setCellNumberFormatDialog": {
 			"General": {
 				"text": "Գեներալ"
@@ -648,26 +640,45 @@
 			"cancelButton": {
 				"value": "Չեղարկել"
 			}
+		},
+		"editChartDialog": {
+			"titleLabel": {
+				"text": "Կոչում:"
+			},
+			"okButton": {
+				"value": "լավ"
+			},
+			"cancelButton": {
+				"value": "Չեղարկել"
+			}
+		},
+		"editHyperlinkDialog": {
+			"urlRadioLabel": {
+				"text": "Ինտերնետային էջ"
+			},
+			"referenceRadioLabel": {
+				"text": "Բջջային հղում"
+			},
+			"addressLabel": {
+				"text": "Հասցե:"
+			},
+			"referenceLabel": {
+				"text": "Բջջային հղում."
+			},
+			"sheetLabel": {
+				"text": "Թերթիկը:"
+			},
+			"okButton": {
+				"value": "լավ"
+			},
+			"cancelButton": {
+				"value": "Չեղարկել"
+			}
 		}
 	},
 	"strings": {
 		"vssde-documentIsOpening": "Փաստաթուղթը բացվում է...",
-		"vssde-numberFormat-general": "Գեներալ",
-		"vssde-numberFormat-number": "Թիվ",
-		"vssde-numberFormat-date": "Ամսաթիվ",
-		"vssde-numberFormat-time": "Ժամանակը",
-		"vssde-numberFormat-currency": "Արժույթ",
-		"vssde-numberFormat-percentage": "Տոկոսը",
-		"vssde-numberFormat-scientific": "Գիտական",
-		"vssde-numberFormat-text": "Տեքստ",
 		"vssde-numberFormat-custom": "Պատվերով",
-		"vssde-findTextPanel-sheet": "Թերթ",
-		"vssde-findTextPanel-workbook": "Աշխատանքային տետր",
-		"vssde-findTextPanel-byRows": "Ըստ շարքերի",
-		"vssde-findTextPanel-byColumns": "Ըստ սյունակների",
-		"vssde-findTextPanel-formulas": "Բանաձևեր",
-		"vssde-findTextPanel-values": "Արժեքներ",
-		"vssde-findTextPanel-comments": "Մեկնաբանություններ",
 		"vssde-findTextPanel-textIsNotFound": "'{0}' տեքստը չի գտնվել:",
 		"vssde-selectFunctionPanel-all": "Բոլորը",
 		"vssde-createXlsxDocument": "Ստեղծեք նոր XLSX փաստաթուղթ",
@@ -675,20 +686,30 @@
 		"vssde-downloadXlsxFile": "Ներբեռնեք XLSX ֆայլը",
 		"vssde-exportXlsxToPdf": "Արտահանել XLSX-ը PDF",
 		"vssde-fileSizeExceedsLimit": "Վերբեռնված ֆայլի չափը գերազանցում է առավելագույն չափը ({0} բայթ):",
+		"vssde-error-noError": "Սխալ չկա:",
+		"vssde-error-divisionByZero": "Ցանկացած թիվ (ներառյալ զրո) կամ ցանկացած սխալի կոդը բաժանվում է զրոյի:",
+		"vssde-error-cellRefCannotBeEvaluated": "Բջջի հղումը չի կարող գնահատվել, քանի որ բջջի արժեքը չի վերցվել կամ հաշվարկվել:",
+		"vssde-error-valueIsNotAvailable": "Նշանակված արժեքը հասանելի չէ:",
+		"vssde-error-wrongName": "Կարծես թե անուն է օգտագործվում, բայց այդպիսի անուն չի սահմանվել:",
+		"vssde-error-twoAreasNotIntersecting": "Երկու տարածք պահանջվում է հատվելու համար, բայց ոչ:",
+		"vssde-error-notCorrectValue": "Ֆունկցիայի արգումենտն ունի համատեղելի տեսակ, բայց ունի արժեք, որը դուրս է այն տիրույթից, որի վրա սահմանված է այդ գործառույթը:",
+		"vssde-error-cannotEvaluateCellRef": "Բջջի հղումը հնարավոր չէ գնահատել:",
+		"vssde-error-incompatibleType": "Անհամատեղելի տիպի արգումենտը փոխանցվում է ֆունկցիայի, կամ անհամատեղելի տիպի օպերանդն օգտագործվում է օպերատորի հետ։",
+		"vssde-error-unknownError": "Անհայտ սխալ.",
+		"vssde-error-externalError": "Արտաքին սխալ.",
+		"vssde-uriOpen-question": "Բացե՞լ '{0}' URL-ը:",
+		"vssde-uriOpen-wrongUri": "Այս կայքի հասցեն վավեր չէ՝ {0}",
 		"vssde-createXlsxDocumentConfirmation": "Ցանկանու՞մ եք ստեղծել նոր աշխատանքային գրքույկ:",
-		"vssde-insertCommentDialog-title": "Տեղադրեք մեկնաբանություն",
+		"vssde-renameWorksheetDialog-title": "Վերանվանել աշխատանքային թերթիկը",
 		"vssde-dialog-okButton": "լավ",
 		"vssde-dialog-cancelButton": "Չեղարկել",
-		"vssde-editCommentDialog-title": "Խմբագրել մեկնաբանությունը",
-		"vssde-editChartDialog-title": "Խմբագրել գծապատկերը",
-		"vssde-editChartPropertiesPanel-spreadsheetEditorDoesNotHaveFocusedChart": "Աղյուսակների խմբագրիչը կենտրոնացված աղյուսակ չունի:",
-		"vssde-editChartPropertiesPanel-selectedDrawingIsNotChart": "Ընտրված նկարը գծապատկեր չէ:",
-		"vssde-renameWorksheetDialog-title": "Վերանվանել աշխատանքային թերթիկը",
 		"vssde-moveWorksheetDialog-title": "Տեղափոխել աշխատանքային թերթիկը",
 		"vssde-findTextDialog-title": "Գտեք տեքստ",
 		"vssde-findTextDialog-findNextButton": "Գտեք Հաջորդը",
 		"vssde-dialog-closeButton": "փակել",
 		"vssde-selectFunctionDialog-title": "Տեղադրեք գործառույթը",
+		"vssde-insertCommentDialog-title": "Տեղադրեք մեկնաբանություն",
+		"vssde-editCommentDialog-title": "Խմբագրել մեկնաբանությունը",
 		"vssde-cellNumberFormatDialog-title": "Բջջի ձևաչափ",
 		"vssde-insertChartDialog-title": "Տեղադրեք գծապատկեր",
 		"vssde-insertChartPanel-chartType-column": "Սյունակ",
@@ -732,6 +753,11 @@
 		"vssde-insertChartPanel-chartTemplateContainsTwoIdenticalNamesForChartTypes": "Գծապատկերի ձևանմուշը պարունակում է 2 նույնական անուններ գծապատկերների տեսակների համար:",
 		"vssde-insertChartPanel-pleaseSpecifyCellsWhichContainTheChartDataIncludeNamesForRowsAndColumns": "Խնդրում ենք նշել բջիջները, որոնք պարունակում են գծապատկերի տվյալները (ներառյալ տողերի և սյունակների անունները):",
 		"vssde-insertChartPanel-chartSubtypeArg0HasMultipleDeclarationsOnDifferentWorksheets": "'{0}' գծապատկերի ենթատիպն ունի բազմաթիվ հայտարարություններ տարբեր աշխատաթերթերում:",
-		"vssde-insertChartPanel-sheetArg0IsNotFound": "'{0}' թերթիկը չի գտնվել:"
+		"vssde-insertChartPanel-sheetArg0IsNotFound": "'{0}' թերթիկը չի գտնվել:",
+		"vssde-editChartDialog-title": "Խմբագրել գծապատկերը",
+		"vssde-editChartPropertiesPanel-spreadsheetEditorDoesNotHaveFocusedChart": "Աղյուսակների խմբագրիչը կենտրոնացված աղյուսակ չունի:",
+		"vssde-editChartPropertiesPanel-selectedDrawingIsNotChart": "Ընտրված նկարը գծապատկեր չէ:",
+		"vssde-editHyperlinkDialog-addTitle": "Ավելացնել հիպերհղում",
+		"vssde-editHyperlinkDialog-editTitle": "Խմբագրել հիպերհղումը"
 	}
 }

@@ -173,6 +173,9 @@
 		"thickOutsideBordersButton": {
 			"title": "Đường viền ngoài dày"
 		},
+		"cellBordersDropDownButton": {
+			"title": "Đường viền ô"
+		},
 		"autoFitRowHeightButton": {
 			"title": "AutoFit chiều cao hàng"
 		},
@@ -407,51 +410,6 @@
 		"unhideColumnsLabel": {
 			"text": "Hiển thị cột"
 		},
-		"insertCommentDialog": {
-			"authorLabel": {
-				"text": "Tác giả:"
-			},
-			"showAuthorLabel": {
-				"text": "Hiển thị tác giả"
-			},
-			"commentLabel": {
-				"text": "Bình luận:"
-			},
-			"okButton": {
-				"value": "OK"
-			},
-			"cancelButton": {
-				"value": "Hủy"
-			}
-		},
-		"commentEditDialog": {
-			"authorLabel": {
-				"text": "Tác giả:"
-			},
-			"showAuthorLabel": {
-				"text": "Hiển thị tác giả"
-			},
-			"commentLabel": {
-				"text": "Bình luận:"
-			},
-			"okButton": {
-				"value": "OK"
-			},
-			"cancelButton": {
-				"value": "Hủy"
-			}
-		},
-		"editChartDialog": {
-			"titleLabel": {
-				"text": "Tiêu đề:"
-			},
-			"okButton": {
-				"value": "OK"
-			},
-			"cancelButton": {
-				"value": "Hủy"
-			}
-		},
 		"renameWorksheetDialog": {
 			"nameLabel": {
 				"text": "Tên:"
@@ -573,6 +531,40 @@
 				"value": "Hủy"
 			}
 		},
+		"insertCommentDialog": {
+			"authorLabel": {
+				"text": "Tác giả:"
+			},
+			"showAuthorLabel": {
+				"text": "Hiển thị tác giả"
+			},
+			"commentLabel": {
+				"text": "Bình luận:"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Hủy"
+			}
+		},
+		"commentEditDialog": {
+			"authorLabel": {
+				"text": "Tác giả:"
+			},
+			"showAuthorLabel": {
+				"text": "Hiển thị tác giả"
+			},
+			"commentLabel": {
+				"text": "Bình luận:"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Hủy"
+			}
+		},
 		"setCellNumberFormatDialog": {
 			"General": {
 				"text": "Chung"
@@ -648,26 +640,45 @@
 			"cancelButton": {
 				"value": "Hủy"
 			}
+		},
+		"editChartDialog": {
+			"titleLabel": {
+				"text": "Tiêu đề:"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Hủy"
+			}
+		},
+		"editHyperlinkDialog": {
+			"urlRadioLabel": {
+				"text": "Trang web"
+			},
+			"referenceRadioLabel": {
+				"text": "Tham chiếu ô"
+			},
+			"addressLabel": {
+				"text": "Địa chỉ:"
+			},
+			"referenceLabel": {
+				"text": "Tham chiếu ô:"
+			},
+			"sheetLabel": {
+				"text": "Trang tính:"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Hủy"
+			}
 		}
 	},
 	"strings": {
 		"vssde-documentIsOpening": "Tài liệu đang mở...",
-		"vssde-numberFormat-general": "Chung",
-		"vssde-numberFormat-number": "Số",
-		"vssde-numberFormat-date": "Ngày",
-		"vssde-numberFormat-time": "Thời gian",
-		"vssde-numberFormat-currency": "Tiền",
-		"vssde-numberFormat-percentage": "Phần trăm",
-		"vssde-numberFormat-scientific": "Số mũ",
-		"vssde-numberFormat-text": "Văn bản",
 		"vssde-numberFormat-custom": "Tùy chỉnh",
-		"vssde-findTextPanel-sheet": "Trên trang tính",
-		"vssde-findTextPanel-workbook": "Trong sách",
-		"vssde-findTextPanel-byRows": "Theo dòng",
-		"vssde-findTextPanel-byColumns": "Trong cột",
-		"vssde-findTextPanel-formulas": "Công thức",
-		"vssde-findTextPanel-values": "Giá trị",
-		"vssde-findTextPanel-comments": "Nhận xét",
 		"vssde-findTextPanel-textIsNotFound": "Không tìm thấy văn bản '{0}'.",
 		"vssde-selectFunctionPanel-all": "Tất cả",
 		"vssde-createXlsxDocument": "Tạo tài liệu XLSX mới",
@@ -675,20 +686,30 @@
 		"vssde-downloadXlsxFile": "Tải lên tệp XLSX",
 		"vssde-exportXlsxToPdf": "Xuất XLSX sang PDF",
 		"vssde-fileSizeExceedsLimit": "Kích thước của tệp đã tải lên vượt quá kích thước tối đa ({0} byte).",
+		"vssde-error-noError": "Không có lỗi.",
+		"vssde-error-divisionByZero": "Bất kỳ số nào (kể cả số 0) hoặc bất kỳ mã lỗi nào đều được chia cho số 0.",
+		"vssde-error-cellRefCannotBeEvaluated": "Không thể đánh giá tham chiếu ô vì giá trị của ô chưa được truy xuất hoặc tính toán.",
+		"vssde-error-valueIsNotAvailable": "Một giá trị được chỉ định không có sẵn.",
+		"vssde-error-wrongName": "Có vẻ như một cái tên đã được sử dụng nhưng chưa có tên nào được xác định.",
+		"vssde-error-twoAreasNotIntersecting": "Hai khu vực được yêu cầu giao nhau nhưng không.",
+		"vssde-error-notCorrectValue": "Đối số của hàm có loại tương thích nhưng có giá trị nằm ngoài miền mà hàm đó được xác định.",
+		"vssde-error-cannotEvaluateCellRef": "Không thể đánh giá tham chiếu ô.",
+		"vssde-error-incompatibleType": "Một đối số kiểu không tương thích được truyền cho một hàm hoặc một toán hạng kiểu không tương thích được sử dụng với một toán tử.",
+		"vssde-error-unknownError": "Lỗi không rõ.",
+		"vssde-error-externalError": "Lỗi bên ngoài.",
+		"vssde-uriOpen-question": "Mở URL '{0}'?",
+		"vssde-uriOpen-wrongUri": "Địa chỉ của trang web này không hợp lệ: {0}",
 		"vssde-createXlsxDocumentConfirmation": "Bạn có muốn tạo một sổ làm việc mới không?",
-		"vssde-insertCommentDialog-title": "Chèn nhận xét",
+		"vssde-renameWorksheetDialog-title": "Đổi tên trang tính",
 		"vssde-dialog-okButton": "OK",
 		"vssde-dialog-cancelButton": "Hủy",
-		"vssde-editCommentDialog-title": "Chỉnh sửa nhận xét",
-		"vssde-editChartDialog-title": "Chỉnh sửa biểu đồ",
-		"vssde-editChartPropertiesPanel-spreadsheetEditorDoesNotHaveFocusedChart": "Trình chỉnh sửa bảng tính không có biểu đồ tập trung.",
-		"vssde-editChartPropertiesPanel-selectedDrawingIsNotChart": "Bản vẽ được chọn không phải là biểu đồ.",
-		"vssde-renameWorksheetDialog-title": "Đổi tên trang tính",
 		"vssde-moveWorksheetDialog-title": "Di chuyển Trang tính",
 		"vssde-findTextDialog-title": "Tìm văn bản",
 		"vssde-findTextDialog-findNextButton": "Tìm Tiếp theo",
 		"vssde-dialog-closeButton": "Đóng",
 		"vssde-selectFunctionDialog-title": "Chèn chức năng",
+		"vssde-insertCommentDialog-title": "Chèn nhận xét",
+		"vssde-editCommentDialog-title": "Chỉnh sửa nhận xét",
 		"vssde-cellNumberFormatDialog-title": "Định dạng ô",
 		"vssde-insertChartDialog-title": "Chèn biểu đồ",
 		"vssde-insertChartPanel-chartType-column": "Cột",
@@ -732,6 +753,11 @@
 		"vssde-insertChartPanel-chartTemplateContainsTwoIdenticalNamesForChartTypes": "Mẫu biểu đồ chứa 2 tên giống nhau cho các loại biểu đồ.",
 		"vssde-insertChartPanel-pleaseSpecifyCellsWhichContainTheChartDataIncludeNamesForRowsAndColumns": "Vui lòng chỉ định các ô chứa dữ liệu biểu đồ (bao gồm tên cho hàng và cột).",
 		"vssde-insertChartPanel-chartSubtypeArg0HasMultipleDeclarationsOnDifferentWorksheets": "Loại phụ biểu đồ '{0}' có nhiều khai báo trên các trang tính khác nhau.",
-		"vssde-insertChartPanel-sheetArg0IsNotFound": "Không tìm thấy trang tính '{0}'."
+		"vssde-insertChartPanel-sheetArg0IsNotFound": "Không tìm thấy trang tính '{0}'.",
+		"vssde-editChartDialog-title": "Chỉnh sửa biểu đồ",
+		"vssde-editChartPropertiesPanel-spreadsheetEditorDoesNotHaveFocusedChart": "Trình chỉnh sửa bảng tính không có biểu đồ tập trung.",
+		"vssde-editChartPropertiesPanel-selectedDrawingIsNotChart": "Bản vẽ được chọn không phải là biểu đồ.",
+		"vssde-editHyperlinkDialog-addTitle": "Thêm siêu liên kết",
+		"vssde-editHyperlinkDialog-editTitle": "Chỉnh sửa siêu liên kết"
 	}
 }

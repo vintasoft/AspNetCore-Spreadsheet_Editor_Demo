@@ -173,6 +173,9 @@
 		"thickOutsideBordersButton": {
 			"title": "Paksut ulkoreunat"
 		},
+		"cellBordersDropDownButton": {
+			"title": "Solun reunat"
+		},
 		"autoFitRowHeightButton": {
 			"title": "Sovita rivin korkeus automaattisesti"
 		},
@@ -407,51 +410,6 @@
 		"unhideColumnsLabel": {
 			"text": "Näytä sarakkeet"
 		},
-		"insertCommentDialog": {
-			"authorLabel": {
-				"text": "Tekijä:"
-			},
-			"showAuthorLabel": {
-				"text": "Näytä tekijä"
-			},
-			"commentLabel": {
-				"text": "Kommentti:"
-			},
-			"okButton": {
-				"value": "OK"
-			},
-			"cancelButton": {
-				"value": "Peruuta"
-			}
-		},
-		"commentEditDialog": {
-			"authorLabel": {
-				"text": "Tekijä:"
-			},
-			"showAuthorLabel": {
-				"text": "Näytä tekijä"
-			},
-			"commentLabel": {
-				"text": "Kommentti:"
-			},
-			"okButton": {
-				"value": "OK"
-			},
-			"cancelButton": {
-				"value": "Peruuta"
-			}
-		},
-		"editChartDialog": {
-			"titleLabel": {
-				"text": "Otsikko:"
-			},
-			"okButton": {
-				"value": "OK"
-			},
-			"cancelButton": {
-				"value": "Peruuta"
-			}
-		},
 		"renameWorksheetDialog": {
 			"nameLabel": {
 				"text": "Nimi:"
@@ -573,6 +531,40 @@
 				"value": "Peruuta"
 			}
 		},
+		"insertCommentDialog": {
+			"authorLabel": {
+				"text": "Tekijä:"
+			},
+			"showAuthorLabel": {
+				"text": "Näytä tekijä"
+			},
+			"commentLabel": {
+				"text": "Kommentti:"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Peruuta"
+			}
+		},
+		"commentEditDialog": {
+			"authorLabel": {
+				"text": "Tekijä:"
+			},
+			"showAuthorLabel": {
+				"text": "Näytä tekijä"
+			},
+			"commentLabel": {
+				"text": "Kommentti:"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Peruuta"
+			}
+		},
 		"setCellNumberFormatDialog": {
 			"General": {
 				"text": "Yleistä"
@@ -648,26 +640,45 @@
 			"cancelButton": {
 				"value": "Peruuta"
 			}
+		},
+		"editChartDialog": {
+			"titleLabel": {
+				"text": "Otsikko:"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Peruuta"
+			}
+		},
+		"editHyperlinkDialog": {
+			"urlRadioLabel": {
+				"text": "Nettisivu"
+			},
+			"referenceRadioLabel": {
+				"text": "Soluviittaus"
+			},
+			"addressLabel": {
+				"text": "Osoite:"
+			},
+			"referenceLabel": {
+				"text": "Soluviittaus:"
+			},
+			"sheetLabel": {
+				"text": "Arkki:"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Peruuta"
+			}
 		}
 	},
 	"strings": {
 		"vssde-documentIsOpening": "Asiakirja avataan...",
-		"vssde-numberFormat-general": "Yleistä",
-		"vssde-numberFormat-number": "Numeerinen",
-		"vssde-numberFormat-date": "Päivämäärä",
-		"vssde-numberFormat-time": "Aika",
-		"vssde-numberFormat-currency": "Raha",
-		"vssde-numberFormat-percentage": "Prosentti",
-		"vssde-numberFormat-scientific": "Eksponentiaalinen",
-		"vssde-numberFormat-text": "Teksti",
 		"vssde-numberFormat-custom": "Mukautettu",
-		"vssde-findTextPanel-sheet": "Arkille",
-		"vssde-findTextPanel-workbook": "Kirjassa",
-		"vssde-findTextPanel-byRows": "Riveissä",
-		"vssde-findTextPanel-byColumns": "Sarakkeissa",
-		"vssde-findTextPanel-formulas": "Kaavat",
-		"vssde-findTextPanel-values": "Arvot",
-		"vssde-findTextPanel-comments": "Kommentit",
 		"vssde-findTextPanel-textIsNotFound": "Tekstiä '{0}' ei löydy.",
 		"vssde-selectFunctionPanel-all": "Kaikki",
 		"vssde-createXlsxDocument": "Luo uusi XLSX-dokumentti",
@@ -675,20 +686,30 @@
 		"vssde-downloadXlsxFile": "Lataa XLSX-tiedosto",
 		"vssde-exportXlsxToPdf": "Vie XLSX PDF-muotoon",
 		"vssde-fileSizeExceedsLimit": "Ladatun tiedoston koko ylittää enimmäiskoon ({0} tavua).",
+		"vssde-error-noError": "Ei virhettä.",
+		"vssde-error-divisionByZero": "Mikä tahansa luku (mukaan lukien nolla) tai mikä tahansa virhekoodi jaetaan nollalla.",
+		"vssde-error-cellRefCannotBeEvaluated": "Soluviittausta ei voida arvioida, koska solun arvoa ei ole haettu tai laskettu.",
+		"vssde-error-valueIsNotAvailable": "Määritettyä arvoa ei ole saatavilla.",
+		"vssde-error-wrongName": "Näyttää siltä, että nimi on käytössä, mutta sellaista nimeä ei ole määritetty.",
+		"vssde-error-twoAreasNotIntersecting": "Kaksi aluetta vaaditaan leikkaamaan, mutta eivät.",
+		"vssde-error-notCorrectValue": "Funktion argumentilla on yhteensopiva tyyppi, mutta sen arvo on sen toimialueen ulkopuolella, jolle funktio on määritetty.",
+		"vssde-error-cannotEvaluateCellRef": "Soluviittausta ei voida arvioida.",
+		"vssde-error-incompatibleType": "Yhteensopimaton tyyppiargumentti välitetään funktiolle tai operaattorin kanssa käytetään yhteensopimatonta tyyppistä operandia.",
+		"vssde-error-unknownError": "Tuntematon virhe.",
+		"vssde-error-externalError": "Ulkoinen virhe.",
+		"vssde-uriOpen-question": "Avataanko URL-osoite '{0}'?",
+		"vssde-uriOpen-wrongUri": "Tämän sivuston osoite ei ole kelvollinen: {0}",
 		"vssde-createXlsxDocumentConfirmation": "Haluatko luoda uuden työkirjan?",
-		"vssde-insertCommentDialog-title": "Lisää kommentti",
+		"vssde-renameWorksheetDialog-title": "Nimeä taulukko uudelleen",
 		"vssde-dialog-okButton": "OK",
 		"vssde-dialog-cancelButton": "Peruuta",
-		"vssde-editCommentDialog-title": "Muokkaa kommenttia",
-		"vssde-editChartDialog-title": "Muokkaa kaaviota",
-		"vssde-editChartPropertiesPanel-spreadsheetEditorDoesNotHaveFocusedChart": "Taulukkoeditorissa ei ole kohdistettua kaaviota.",
-		"vssde-editChartPropertiesPanel-selectedDrawingIsNotChart": "Valittu piirros ei ole kaavio.",
-		"vssde-renameWorksheetDialog-title": "Nimeä taulukko uudelleen",
 		"vssde-moveWorksheetDialog-title": "Siirrä taulukkoa",
 		"vssde-findTextDialog-title": "Etsi tekstiä",
 		"vssde-findTextDialog-findNextButton": "Etsi seuraava",
 		"vssde-dialog-closeButton": "Sulje",
 		"vssde-selectFunctionDialog-title": "Lisää funktio",
+		"vssde-insertCommentDialog-title": "Lisää kommentti",
+		"vssde-editCommentDialog-title": "Muokkaa kommenttia",
 		"vssde-cellNumberFormatDialog-title": "Solumuoto",
 		"vssde-insertChartDialog-title": "Lisää kaavio",
 		"vssde-insertChartPanel-chartType-column": "Sarake",
@@ -732,6 +753,11 @@
 		"vssde-insertChartPanel-chartTemplateContainsTwoIdenticalNamesForChartTypes": "Kaaviomalli sisältää 2 identtistä nimeä kaaviotyypeille.",
 		"vssde-insertChartPanel-pleaseSpecifyCellsWhichContainTheChartDataIncludeNamesForRowsAndColumns": "Määritä solut, jotka sisältävät kaavion tiedot (sisältää rivien ja sarakkeiden nimet).",
 		"vssde-insertChartPanel-chartSubtypeArg0HasMultipleDeclarationsOnDifferentWorksheets": "Kaavion alatyypissä '{0}' on useita ilmoituksia eri laskentataulukoissa.",
-		"vssde-insertChartPanel-sheetArg0IsNotFound": "Taulukkoa '{0}' ei löydy."
+		"vssde-insertChartPanel-sheetArg0IsNotFound": "Taulukkoa '{0}' ei löydy.",
+		"vssde-editChartDialog-title": "Muokkaa kaaviota",
+		"vssde-editChartPropertiesPanel-spreadsheetEditorDoesNotHaveFocusedChart": "Taulukkoeditorissa ei ole kohdistettua kaaviota.",
+		"vssde-editChartPropertiesPanel-selectedDrawingIsNotChart": "Valittu piirros ei ole kaavio.",
+		"vssde-editHyperlinkDialog-addTitle": "Lisää hyperlinkki",
+		"vssde-editHyperlinkDialog-editTitle": "Muokkaa hyperlinkkiä"
 	}
 }

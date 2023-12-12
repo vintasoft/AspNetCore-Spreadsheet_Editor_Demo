@@ -173,6 +173,9 @@
 		"thickOutsideBordersButton": {
 			"title": "Παχιά εξωτερικά περιγράμματα"
 		},
+		"cellBordersDropDownButton": {
+			"title": "Σύνορα κελιών"
+		},
 		"autoFitRowHeightButton": {
 			"title": "Αυτόματη προσαρμογή του ύψους της σειράς"
 		},
@@ -407,51 +410,6 @@
 		"unhideColumnsLabel": {
 			"text": "Εμφάνιση στηλών"
 		},
-		"insertCommentDialog": {
-			"authorLabel": {
-				"text": "Συγγραφέας:"
-			},
-			"showAuthorLabel": {
-				"text": "Εμφάνιση συγγραφέα"
-			},
-			"commentLabel": {
-				"text": "Σχόλιο:"
-			},
-			"okButton": {
-				"value": "ΟΚ"
-			},
-			"cancelButton": {
-				"value": "Ακύρωση"
-			}
-		},
-		"commentEditDialog": {
-			"authorLabel": {
-				"text": "Συγγραφέας:"
-			},
-			"showAuthorLabel": {
-				"text": "Εμφάνιση συγγραφέα"
-			},
-			"commentLabel": {
-				"text": "Σχόλιο:"
-			},
-			"okButton": {
-				"value": "ΟΚ"
-			},
-			"cancelButton": {
-				"value": "Ακύρωση"
-			}
-		},
-		"editChartDialog": {
-			"titleLabel": {
-				"text": "Τίτλος:"
-			},
-			"okButton": {
-				"value": "ΟΚ"
-			},
-			"cancelButton": {
-				"value": "Ακύρωση"
-			}
-		},
 		"renameWorksheetDialog": {
 			"nameLabel": {
 				"text": "Όνομα:"
@@ -573,6 +531,40 @@
 				"value": "Ακύρωση"
 			}
 		},
+		"insertCommentDialog": {
+			"authorLabel": {
+				"text": "Συγγραφέας:"
+			},
+			"showAuthorLabel": {
+				"text": "Εμφάνιση συγγραφέα"
+			},
+			"commentLabel": {
+				"text": "Σχόλιο:"
+			},
+			"okButton": {
+				"value": "ΟΚ"
+			},
+			"cancelButton": {
+				"value": "Ακύρωση"
+			}
+		},
+		"commentEditDialog": {
+			"authorLabel": {
+				"text": "Συγγραφέας:"
+			},
+			"showAuthorLabel": {
+				"text": "Εμφάνιση συγγραφέα"
+			},
+			"commentLabel": {
+				"text": "Σχόλιο:"
+			},
+			"okButton": {
+				"value": "ΟΚ"
+			},
+			"cancelButton": {
+				"value": "Ακύρωση"
+			}
+		},
 		"setCellNumberFormatDialog": {
 			"General": {
 				"text": "Γενικά"
@@ -648,26 +640,45 @@
 			"cancelButton": {
 				"value": "Ακύρωση"
 			}
+		},
+		"editChartDialog": {
+			"titleLabel": {
+				"text": "Τίτλος:"
+			},
+			"okButton": {
+				"value": "ΟΚ"
+			},
+			"cancelButton": {
+				"value": "Ακύρωση"
+			}
+		},
+		"editHyperlinkDialog": {
+			"urlRadioLabel": {
+				"text": "Ιστοσελίδα"
+			},
+			"referenceRadioLabel": {
+				"text": "Αναφορά κελιού"
+			},
+			"addressLabel": {
+				"text": "Διεύθυνση:"
+			},
+			"referenceLabel": {
+				"text": "Αναφορά κελιού:"
+			},
+			"sheetLabel": {
+				"text": "Φύλλο:"
+			},
+			"okButton": {
+				"value": "ΟΚ"
+			},
+			"cancelButton": {
+				"value": "Ακύρωση"
+			}
 		}
 	},
 	"strings": {
 		"vssde-documentIsOpening": "Το έγγραφο ανοίγει...",
-		"vssde-numberFormat-general": "Γενικά",
-		"vssde-numberFormat-number": "Αριθμητικό",
-		"vssde-numberFormat-date": "Ημερομηνία",
-		"vssde-numberFormat-time": "Ώρα",
-		"vssde-numberFormat-currency": "Χρήματα",
-		"vssde-numberFormat-percentage": "Ποσοστό",
-		"vssde-numberFormat-scientific": "Εκθετικό",
-		"vssde-numberFormat-text": "Κείμενο",
 		"vssde-numberFormat-custom": "Προσαρμοσμένο",
-		"vssde-findTextPanel-sheet": "Σε φύλλο",
-		"vssde-findTextPanel-workbook": "Στο βιβλίο",
-		"vssde-findTextPanel-byRows": "Σε γραμμές",
-		"vssde-findTextPanel-byColumns": "Σε στήλες",
-		"vssde-findTextPanel-formulas": "Τύποι",
-		"vssde-findTextPanel-values": "Τιμές",
-		"vssde-findTextPanel-comments": "Σχόλια",
 		"vssde-findTextPanel-textIsNotFound": "Το κείμενο '{0}' δεν βρέθηκε.",
 		"vssde-selectFunctionPanel-all": "Όλα",
 		"vssde-createXlsxDocument": "Δημιουργία νέου εγγράφου XLSX",
@@ -675,20 +686,30 @@
 		"vssde-downloadXlsxFile": "Μεταφόρτωση αρχείου XLSX",
 		"vssde-exportXlsxToPdf": "Εξαγωγή XLSX σε PDF",
 		"vssde-fileSizeExceedsLimit": "Το μέγεθος του μεταφορτωμένου αρχείου υπερβαίνει το μέγιστο μέγεθος ({0} byte).",
+		"vssde-error-noError": "Κανένα λάθος.",
+		"vssde-error-divisionByZero": "Οποιοσδήποτε αριθμός (συμπεριλαμβανομένου του μηδέν) ή οποιοσδήποτε κωδικός σφάλματος διαιρείται με το μηδέν.",
+		"vssde-error-cellRefCannotBeEvaluated": "Δεν είναι δυνατή η αξιολόγηση μιας αναφοράς κελιού επειδή η τιμή για το κελί δεν έχει ανακτηθεί ή υπολογιστεί.",
+		"vssde-error-valueIsNotAvailable": "Δεν είναι διαθέσιμη καθορισμένη τιμή.",
+		"vssde-error-wrongName": "Φαίνεται ότι χρησιμοποιείται ένα όνομα αλλά δεν έχει οριστεί τέτοιο όνομα.",
+		"vssde-error-twoAreasNotIntersecting": "Απαιτούνται δύο περιοχές για να διασταυρωθούν αλλά όχι.",
+		"vssde-error-notCorrectValue": "Ένα όρισμα σε μια συνάρτηση έχει έναν συμβατό τύπο, αλλά έχει μια τιμή που βρίσκεται εκτός του τομέα στον οποίο έχει οριστεί αυτή η συνάρτηση.",
+		"vssde-error-cannotEvaluateCellRef": "Δεν είναι δυνατή η αξιολόγηση μιας αναφοράς κελιού.",
+		"vssde-error-incompatibleType": "Ένα όρισμα μη συμβατού τύπου μεταβιβάζεται σε μια συνάρτηση ή ένας τελεστής μη συμβατού τύπου χρησιμοποιείται με έναν τελεστή.",
+		"vssde-error-unknownError": "Αγνωστο σφάλμα.",
+		"vssde-error-externalError": "Εξωτερικό σφάλμα.",
+		"vssde-uriOpen-question": "Άνοιγμα της διεύθυνσης URL '{0}';",
+		"vssde-uriOpen-wrongUri": "Η διεύθυνση αυτού του ιστότοπου δεν είναι έγκυρη: {0}",
 		"vssde-createXlsxDocumentConfirmation": "Θέλετε να δημιουργήσετε ένα νέο βιβλίο εργασίας;",
-		"vssde-insertCommentDialog-title": "Εισαγωγή σχολίου",
+		"vssde-renameWorksheetDialog-title": "Μετονομασία φύλλου",
 		"vssde-dialog-okButton": "ΟΚ",
 		"vssde-dialog-cancelButton": "Ακύρωση",
-		"vssde-editCommentDialog-title": "Επεξεργασία σχολίου",
-		"vssde-editChartDialog-title": "Επεξεργασία γραφήματος",
-		"vssde-editChartPropertiesPanel-spreadsheetEditorDoesNotHaveFocusedChart": "Ο επεξεργαστής υπολογιστικών φύλλων δεν έχει εστιασμένο γράφημα.",
-		"vssde-editChartPropertiesPanel-selectedDrawingIsNotChart": "Το επιλεγμένο σχέδιο δεν είναι γράφημα.",
-		"vssde-renameWorksheetDialog-title": "Μετονομασία φύλλου",
 		"vssde-moveWorksheetDialog-title": "Μετακίνηση φύλλου",
 		"vssde-findTextDialog-title": "Εύρεση κειμένου",
 		"vssde-findTextDialog-findNextButton": "Εύρεση επόμενου",
 		"vssde-dialog-closeButton": "Κλείσιμο",
 		"vssde-selectFunctionDialog-title": "Εισαγωγή συνάρτησης",
+		"vssde-insertCommentDialog-title": "Εισαγωγή σχολίου",
+		"vssde-editCommentDialog-title": "Επεξεργασία σχολίου",
 		"vssde-cellNumberFormatDialog-title": "Μορφή κελιού",
 		"vssde-insertChartDialog-title": "Εισαγωγή γραφήματος",
 		"vssde-insertChartPanel-chartType-column": "Στήλη",
@@ -732,6 +753,11 @@
 		"vssde-insertChartPanel-chartTemplateContainsTwoIdenticalNamesForChartTypes": "Το πρότυπο γραφήματος περιέχει 2 πανομοιότυπα ονόματα για τύπους γραφημάτων.",
 		"vssde-insertChartPanel-pleaseSpecifyCellsWhichContainTheChartDataIncludeNamesForRowsAndColumns": "Προσδιορίστε τα κελιά που περιέχουν τα δεδομένα του γραφήματος (συμπεριλάβετε ονόματα για σειρές και στήλες).",
 		"vssde-insertChartPanel-chartSubtypeArg0HasMultipleDeclarationsOnDifferentWorksheets": "Ο δευτερεύων τύπος γραφήματος '{0}' έχει πολλαπλές δηλώσεις σε διαφορετικά φύλλα εργασίας.",
-		"vssde-insertChartPanel-sheetArg0IsNotFound": "Το φύλλο '{0}' δεν βρέθηκε."
+		"vssde-insertChartPanel-sheetArg0IsNotFound": "Το φύλλο '{0}' δεν βρέθηκε.",
+		"vssde-editChartDialog-title": "Επεξεργασία γραφήματος",
+		"vssde-editChartPropertiesPanel-spreadsheetEditorDoesNotHaveFocusedChart": "Ο επεξεργαστής υπολογιστικών φύλλων δεν έχει εστιασμένο γράφημα.",
+		"vssde-editChartPropertiesPanel-selectedDrawingIsNotChart": "Το επιλεγμένο σχέδιο δεν είναι γράφημα.",
+		"vssde-editHyperlinkDialog-addTitle": "Προσθήκη υπερσύνδεσης",
+		"vssde-editHyperlinkDialog-editTitle": "Επεξεργασία υπερσυνδέσμου"
 	}
 }

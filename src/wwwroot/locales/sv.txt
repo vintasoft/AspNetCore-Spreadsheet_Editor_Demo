@@ -173,6 +173,9 @@
 		"thickOutsideBordersButton": {
 			"title": "Tjocka yttre kanter"
 		},
+		"cellBordersDropDownButton": {
+			"title": "Cellgränser"
+		},
 		"autoFitRowHeightButton": {
 			"title": "Autopassa radhöjden"
 		},
@@ -407,51 +410,6 @@
 		"unhideColumnsLabel": {
 			"text": "Visa kolumner"
 		},
-		"insertCommentDialog": {
-			"authorLabel": {
-				"text": "Författare:"
-			},
-			"showAuthorLabel": {
-				"text": "Visa författare"
-			},
-			"commentLabel": {
-				"text": "Kommentar:"
-			},
-			"okButton": {
-				"value": "OK"
-			},
-			"cancelButton": {
-				"value": "Avbryt"
-			}
-		},
-		"commentEditDialog": {
-			"authorLabel": {
-				"text": "Författare:"
-			},
-			"showAuthorLabel": {
-				"text": "Visa författare"
-			},
-			"commentLabel": {
-				"text": "Kommentar:"
-			},
-			"okButton": {
-				"value": "OK"
-			},
-			"cancelButton": {
-				"value": "Avbryt"
-			}
-		},
-		"editChartDialog": {
-			"titleLabel": {
-				"text": "Titel:"
-			},
-			"okButton": {
-				"value": "OK"
-			},
-			"cancelButton": {
-				"value": "Avbryt"
-			}
-		},
 		"renameWorksheetDialog": {
 			"nameLabel": {
 				"text": "Namn:"
@@ -573,6 +531,40 @@
 				"value": "Avbryt"
 			}
 		},
+		"insertCommentDialog": {
+			"authorLabel": {
+				"text": "Författare:"
+			},
+			"showAuthorLabel": {
+				"text": "Visa författare"
+			},
+			"commentLabel": {
+				"text": "Kommentar:"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Avbryt"
+			}
+		},
+		"commentEditDialog": {
+			"authorLabel": {
+				"text": "Författare:"
+			},
+			"showAuthorLabel": {
+				"text": "Visa författare"
+			},
+			"commentLabel": {
+				"text": "Kommentar:"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Avbryt"
+			}
+		},
 		"setCellNumberFormatDialog": {
 			"General": {
 				"text": "Allmänt"
@@ -648,26 +640,45 @@
 			"cancelButton": {
 				"value": "Avbryt"
 			}
+		},
+		"editChartDialog": {
+			"titleLabel": {
+				"text": "Titel:"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Avbryt"
+			}
+		},
+		"editHyperlinkDialog": {
+			"urlRadioLabel": {
+				"text": "Webbsida"
+			},
+			"referenceRadioLabel": {
+				"text": "Cellreferens"
+			},
+			"addressLabel": {
+				"text": "Adress:"
+			},
+			"referenceLabel": {
+				"text": "Cellreferens:"
+			},
+			"sheetLabel": {
+				"text": "Ark:"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Avbryt"
+			}
 		}
 	},
 	"strings": {
 		"vssde-documentIsOpening": "Dokumentet öppnas...",
-		"vssde-numberFormat-general": "Allmänt",
-		"vssde-numberFormat-number": "Numerisk",
-		"vssde-numberFormat-date": "Datum",
-		"vssde-numberFormat-time": "Tid",
-		"vssde-numberFormat-currency": "Pengar",
-		"vssde-numberFormat-percentage": "Procentandel",
-		"vssde-numberFormat-scientific": "Exponentiell",
-		"vssde-numberFormat-text": "Text",
 		"vssde-numberFormat-custom": "Anpassad",
-		"vssde-findTextPanel-sheet": "På ark",
-		"vssde-findTextPanel-workbook": "I boken",
-		"vssde-findTextPanel-byRows": "I rader",
-		"vssde-findTextPanel-byColumns": "I kolumner",
-		"vssde-findTextPanel-formulas": "Formler",
-		"vssde-findTextPanel-values": "Värden",
-		"vssde-findTextPanel-comments": "Kommentarer",
 		"vssde-findTextPanel-textIsNotFound": "Texten '{0}' hittades inte.",
 		"vssde-selectFunctionPanel-all": "Alla",
 		"vssde-createXlsxDocument": "Skapa nytt XLSX-dokument",
@@ -675,20 +686,30 @@
 		"vssde-downloadXlsxFile": "Ladda upp XLSX-fil",
 		"vssde-exportXlsxToPdf": "Exportera XLSX till PDF",
 		"vssde-fileSizeExceedsLimit": "Storleken på den uppladdade filen överstiger den maximala storleken ({0} byte).",
+		"vssde-error-noError": "Inget fel.",
+		"vssde-error-divisionByZero": "Alla tal (inklusive noll) eller valfri felkod delas med noll.",
+		"vssde-error-cellRefCannotBeEvaluated": "En cellreferens kan inte utvärderas eftersom värdet för cellen inte har hämtats eller beräknats.",
+		"vssde-error-valueIsNotAvailable": "Ett angivet värde är inte tillgängligt.",
+		"vssde-error-wrongName": "Det ser ut som om ett namn används men inget sådant namn har definierats.",
+		"vssde-error-twoAreasNotIntersecting": "Två områden krävs för att skära varandra men gör det inte.",
+		"vssde-error-notCorrectValue": "Ett argument till en funktion har en kompatibel typ, men har ett värde som ligger utanför den domän över vilken den funktionen är definierad.",
+		"vssde-error-cannotEvaluateCellRef": "En cellreferens kan inte utvärderas.",
+		"vssde-error-incompatibleType": "Ett argument för inkompatibel typ skickas till en funktion, eller så används en operand av inkompatibel typ med en operator.",
+		"vssde-error-unknownError": "Okänt fel.",
+		"vssde-error-externalError": "Externt fel.",
+		"vssde-uriOpen-question": "Öppna webbadressen '{0}'?",
+		"vssde-uriOpen-wrongUri": "Adressen till denna webbplats är ogiltig: {0}",
 		"vssde-createXlsxDocumentConfirmation": "Vill du skapa en ny arbetsbok?",
-		"vssde-insertCommentDialog-title": "Infoga kommentar",
+		"vssde-renameWorksheetDialog-title": "Byt namn på ark",
 		"vssde-dialog-okButton": "OK",
 		"vssde-dialog-cancelButton": "Avbryt",
-		"vssde-editCommentDialog-title": "Redigera kommentar",
-		"vssde-editChartDialog-title": "Redigera diagram",
-		"vssde-editChartPropertiesPanel-spreadsheetEditorDoesNotHaveFocusedChart": "Kalkylarksredigeraren har inget fokuserat diagram.",
-		"vssde-editChartPropertiesPanel-selectedDrawingIsNotChart": "Den valda ritningen är inte ett diagram.",
-		"vssde-renameWorksheetDialog-title": "Byt namn på ark",
 		"vssde-moveWorksheetDialog-title": "Flytta ark",
 		"vssde-findTextDialog-title": "Hitta text",
 		"vssde-findTextDialog-findNextButton": "Hitta nästa",
 		"vssde-dialog-closeButton": "Stäng",
 		"vssde-selectFunctionDialog-title": "Infoga funktion",
+		"vssde-insertCommentDialog-title": "Infoga kommentar",
+		"vssde-editCommentDialog-title": "Redigera kommentar",
 		"vssde-cellNumberFormatDialog-title": "Cellformat",
 		"vssde-insertChartDialog-title": "Infoga diagram",
 		"vssde-insertChartPanel-chartType-column": "Kolumn",
@@ -732,6 +753,11 @@
 		"vssde-insertChartPanel-chartTemplateContainsTwoIdenticalNamesForChartTypes": "Sjökortsmallen innehåller 2 identiska namn för diagramtyper.",
 		"vssde-insertChartPanel-pleaseSpecifyCellsWhichContainTheChartDataIncludeNamesForRowsAndColumns": "Vänligen ange celler som innehåller diagramdata (inkludera namn på rader och kolumner).",
 		"vssde-insertChartPanel-chartSubtypeArg0HasMultipleDeclarationsOnDifferentWorksheets": "Diagramundertypen '{0}' har flera deklarationer på olika kalkylblad.",
-		"vssde-insertChartPanel-sheetArg0IsNotFound": "Bladet '{0}' hittades inte."
+		"vssde-insertChartPanel-sheetArg0IsNotFound": "Bladet '{0}' hittades inte.",
+		"vssde-editChartDialog-title": "Redigera diagram",
+		"vssde-editChartPropertiesPanel-spreadsheetEditorDoesNotHaveFocusedChart": "Kalkylarksredigeraren har inget fokuserat diagram.",
+		"vssde-editChartPropertiesPanel-selectedDrawingIsNotChart": "Den valda ritningen är inte ett diagram.",
+		"vssde-editHyperlinkDialog-addTitle": "Lägg till hyperlänk",
+		"vssde-editHyperlinkDialog-editTitle": "Redigera hyperlänk"
 	}
 }

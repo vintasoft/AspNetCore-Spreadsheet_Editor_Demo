@@ -173,6 +173,9 @@
 		"thickOutsideBordersButton": {
 			"title": "Чиктән тыш калын"
 		},
+		"cellBordersDropDownButton": {
+			"title": "Күзәнәк чикләре"
+		},
 		"autoFitRowHeightButton": {
 			"title": "Рәт биеклеген AutoFit"
 		},
@@ -407,51 +410,6 @@
 		"unhideColumnsLabel": {
 			"text": "Колонналарны яшерегез"
 		},
-		"insertCommentDialog": {
-			"authorLabel": {
-				"text": "Автор:"
-			},
-			"showAuthorLabel": {
-				"text": "Авторны күрсәт"
-			},
-			"commentLabel": {
-				"text": "Аңлатма:"
-			},
-			"okButton": {
-				"value": "ЯРАРМЫ"
-			},
-			"cancelButton": {
-				"value": "Баш тарту"
-			}
-		},
-		"commentEditDialog": {
-			"authorLabel": {
-				"text": "Автор:"
-			},
-			"showAuthorLabel": {
-				"text": "Авторны күрсәт"
-			},
-			"commentLabel": {
-				"text": "Аңлатма:"
-			},
-			"okButton": {
-				"value": "ЯРАРМЫ"
-			},
-			"cancelButton": {
-				"value": "Баш тарту"
-			}
-		},
-		"editChartDialog": {
-			"titleLabel": {
-				"text": "Титул:"
-			},
-			"okButton": {
-				"value": "ЯРАРМЫ"
-			},
-			"cancelButton": {
-				"value": "Баш тарту"
-			}
-		},
 		"renameWorksheetDialog": {
 			"nameLabel": {
 				"text": "Исем:"
@@ -573,6 +531,40 @@
 				"value": "Баш тарту"
 			}
 		},
+		"insertCommentDialog": {
+			"authorLabel": {
+				"text": "Автор:"
+			},
+			"showAuthorLabel": {
+				"text": "Авторны күрсәт"
+			},
+			"commentLabel": {
+				"text": "Аңлатма:"
+			},
+			"okButton": {
+				"value": "ЯРАРМЫ"
+			},
+			"cancelButton": {
+				"value": "Баш тарту"
+			}
+		},
+		"commentEditDialog": {
+			"authorLabel": {
+				"text": "Автор:"
+			},
+			"showAuthorLabel": {
+				"text": "Авторны күрсәт"
+			},
+			"commentLabel": {
+				"text": "Аңлатма:"
+			},
+			"okButton": {
+				"value": "ЯРАРМЫ"
+			},
+			"cancelButton": {
+				"value": "Баш тарту"
+			}
+		},
 		"setCellNumberFormatDialog": {
 			"General": {
 				"text": "Генерал"
@@ -648,26 +640,45 @@
 			"cancelButton": {
 				"value": "Баш тарту"
 			}
+		},
+		"editChartDialog": {
+			"titleLabel": {
+				"text": "Титул:"
+			},
+			"okButton": {
+				"value": "ЯРАРМЫ"
+			},
+			"cancelButton": {
+				"value": "Баш тарту"
+			}
+		},
+		"editHyperlinkDialog": {
+			"urlRadioLabel": {
+				"text": "Веб бит"
+			},
+			"referenceRadioLabel": {
+				"text": "Күзәнәк сылтамасы"
+			},
+			"addressLabel": {
+				"text": "Адрес:"
+			},
+			"referenceLabel": {
+				"text": "Күзәнәк сылтамасы:"
+			},
+			"sheetLabel": {
+				"text": "Бит:"
+			},
+			"okButton": {
+				"value": "ЯРАРМЫ"
+			},
+			"cancelButton": {
+				"value": "Баш тарту"
+			}
 		}
 	},
 	"strings": {
 		"vssde-documentIsOpening": "Документ ачыла ...",
-		"vssde-numberFormat-general": "Генерал",
-		"vssde-numberFormat-number": "Сан",
-		"vssde-numberFormat-date": "Дата",
-		"vssde-numberFormat-time": "Вакыт",
-		"vssde-numberFormat-currency": "Валюта",
-		"vssde-numberFormat-percentage": "Процент",
-		"vssde-numberFormat-scientific": "Фәнни",
-		"vssde-numberFormat-text": "Текст",
 		"vssde-numberFormat-custom": "Гадәт",
-		"vssde-findTextPanel-sheet": "Таблица",
-		"vssde-findTextPanel-workbook": "Эш дәфтәре",
-		"vssde-findTextPanel-byRows": "Рәтләр буенча",
-		"vssde-findTextPanel-byColumns": "Колонналар буенча",
-		"vssde-findTextPanel-formulas": "Формулалар",
-		"vssde-findTextPanel-values": "Кыйммәтләр",
-		"vssde-findTextPanel-comments": "Аңлатмалар",
 		"vssde-findTextPanel-textIsNotFound": "'{0}' тексты табылмады.",
 		"vssde-selectFunctionPanel-all": "Барысы да",
 		"vssde-createXlsxDocument": "Яңа XLSX документ ясагыз",
@@ -675,20 +686,30 @@
 		"vssde-downloadXlsxFile": "XLSX файлын йөкләү",
 		"vssde-exportXlsxToPdf": "XLSX-ны PDF-ка экспортлагыз",
 		"vssde-fileSizeExceedsLimit": "Йөкләнгән файлның зурлыгы максималь зурлыктан ({0} байт) артып китә.",
+		"vssde-error-noError": "Хата юк.",
+		"vssde-error-divisionByZero": "Теләсә нинди сан (нульне дә кертеп) яки теләсә нинди хата коды нульгә бүленә.",
+		"vssde-error-cellRefCannotBeEvaluated": "Күзәнәк өчен сылтама бәяләнә алмый, чөнки күзәнәкнең бәясе алынмаган яки исәпләнмәгән.",
+		"vssde-error-valueIsNotAvailable": "Билгеләнгән кыйммәт юк.",
+		"vssde-error-wrongName": "Исем кулланылган кебек, ләкин андый исем билгеләнмәгән.",
+		"vssde-error-twoAreasNotIntersecting": "Ике өлкә кисешергә тиеш, ләкин юк.",
+		"vssde-error-notCorrectValue": "Функциягә аргументның туры килүче төре бар, ләкин бу функция билгеләнгән доменнан читтә булган кыйммәт бар.",
+		"vssde-error-cannotEvaluateCellRef": "Күзәнәк сылтамасын бәяләп булмый.",
+		"vssde-error-incompatibleType": "Бер-берсенә туры килми торган аргумент функциягә бирелә, яки оператор белән туры килмәгән типтагы операнд кулланыла.",
+		"vssde-error-unknownError": "Билгесез хата.",
+		"vssde-error-externalError": "Тышкы хата.",
+		"vssde-uriOpen-question": "'{0}' URL ачыгыз?",
+		"vssde-uriOpen-wrongUri": "Бу сайтның адресы дөрес түгел: {0}",
 		"vssde-createXlsxDocumentConfirmation": "Яңа эш дәфтәре ясарга телисезме?",
-		"vssde-insertCommentDialog-title": "Аңлатма кертү",
+		"vssde-renameWorksheetDialog-title": "Эш битенең исемен үзгәртү",
 		"vssde-dialog-okButton": "ЯРАРМЫ",
 		"vssde-dialog-cancelButton": "Баш тарту",
-		"vssde-editCommentDialog-title": "Аңлатманы үзгәртү",
-		"vssde-editChartDialog-title": "Графикны үзгәртү",
-		"vssde-editChartPropertiesPanel-spreadsheetEditorDoesNotHaveFocusedChart": "Электрон таблицаның редакторында төп диаграмма юк.",
-		"vssde-editChartPropertiesPanel-selectedDrawingIsNotChart": "Сайланган рәсем диаграмма түгел.",
-		"vssde-renameWorksheetDialog-title": "Эш битенең исемен үзгәртү",
 		"vssde-moveWorksheetDialog-title": "Эш битен күчерегез",
 		"vssde-findTextDialog-title": "Текстны табу",
 		"vssde-findTextDialog-findNextButton": "Киләсе табыгыз",
 		"vssde-dialog-closeButton": "Ябу",
 		"vssde-selectFunctionDialog-title": "Функция кертү",
+		"vssde-insertCommentDialog-title": "Аңлатма кертү",
+		"vssde-editCommentDialog-title": "Аңлатманы үзгәртү",
 		"vssde-cellNumberFormatDialog-title": "Күзәнәк форматы",
 		"vssde-insertChartDialog-title": "График кертү",
 		"vssde-insertChartPanel-chartType-column": "Колонна",
@@ -732,6 +753,11 @@
 		"vssde-insertChartPanel-chartTemplateContainsTwoIdenticalNamesForChartTypes": "График шаблонында диаграмма төрләре өчен 2 охшаш исем бар.",
 		"vssde-insertChartPanel-pleaseSpecifyCellsWhichContainTheChartDataIncludeNamesForRowsAndColumns": "Зинһар, диаграмма мәгълүматлары булган шакмакларны күрсәтегез (рәтләр һәм баганалар исемнәрен кертегез).",
 		"vssde-insertChartPanel-chartSubtypeArg0HasMultipleDeclarationsOnDifferentWorksheets": "'{0}' диаграмма типы төрле эш битләрендә берничә декларациягә ия.",
-		"vssde-insertChartPanel-sheetArg0IsNotFound": "'{0}' таблицасы табылмады."
+		"vssde-insertChartPanel-sheetArg0IsNotFound": "'{0}' таблицасы табылмады.",
+		"vssde-editChartDialog-title": "Графикны үзгәртү",
+		"vssde-editChartPropertiesPanel-spreadsheetEditorDoesNotHaveFocusedChart": "Электрон таблицаның редакторында төп диаграмма юк.",
+		"vssde-editChartPropertiesPanel-selectedDrawingIsNotChart": "Сайланган рәсем диаграмма түгел.",
+		"vssde-editHyperlinkDialog-addTitle": "Гиперштама өстәргә",
+		"vssde-editHyperlinkDialog-editTitle": "Гиперлинкны үзгәртү"
 	}
 }

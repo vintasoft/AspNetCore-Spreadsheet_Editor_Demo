@@ -173,6 +173,9 @@
 		"thickOutsideBordersButton": {
 			"title": "Dicke Außenränder"
 		},
+		"cellBordersDropDownButton": {
+			"title": "Zellgrenzen"
+		},
 		"autoFitRowHeightButton": {
 			"title": "Automatische Anpassung der Zeilenhöhe"
 		},
@@ -407,51 +410,6 @@
 		"unhideColumnsLabel": {
 			"text": "Spalten anzeigen"
 		},
-		"insertCommentDialog": {
-			"authorLabel": {
-				"text": "Autor:"
-			},
-			"showAuthorLabel": {
-				"text": "Autor anzeigen"
-			},
-			"commentLabel": {
-				"text": "Kommentar:"
-			},
-			"okButton": {
-				"value": "OK"
-			},
-			"cancelButton": {
-				"value": "Abbrechen"
-			}
-		},
-		"commentEditDialog": {
-			"authorLabel": {
-				"text": "Autor:"
-			},
-			"showAuthorLabel": {
-				"text": "Autor anzeigen"
-			},
-			"commentLabel": {
-				"text": "Kommentar:"
-			},
-			"okButton": {
-				"value": "OK"
-			},
-			"cancelButton": {
-				"value": "Abbrechen"
-			}
-		},
-		"editChartDialog": {
-			"titleLabel": {
-				"text": "Titel:"
-			},
-			"okButton": {
-				"value": "OK"
-			},
-			"cancelButton": {
-				"value": "Abbrechen"
-			}
-		},
 		"renameWorksheetDialog": {
 			"nameLabel": {
 				"text": "Name:"
@@ -573,6 +531,40 @@
 				"value": "Abbrechen"
 			}
 		},
+		"insertCommentDialog": {
+			"authorLabel": {
+				"text": "Autor:"
+			},
+			"showAuthorLabel": {
+				"text": "Autor anzeigen"
+			},
+			"commentLabel": {
+				"text": "Kommentar:"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Abbrechen"
+			}
+		},
+		"commentEditDialog": {
+			"authorLabel": {
+				"text": "Autor:"
+			},
+			"showAuthorLabel": {
+				"text": "Autor anzeigen"
+			},
+			"commentLabel": {
+				"text": "Kommentar:"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Abbrechen"
+			}
+		},
 		"setCellNumberFormatDialog": {
 			"General": {
 				"text": "Allgemein"
@@ -648,26 +640,45 @@
 			"cancelButton": {
 				"value": "Abbrechen"
 			}
+		},
+		"editChartDialog": {
+			"titleLabel": {
+				"text": "Titel:"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Abbrechen"
+			}
+		},
+		"editHyperlinkDialog": {
+			"urlRadioLabel": {
+				"text": "Website"
+			},
+			"referenceRadioLabel": {
+				"text": "Zellreferenz"
+			},
+			"addressLabel": {
+				"text": "Adresse:"
+			},
+			"referenceLabel": {
+				"text": "Zellreferenz:"
+			},
+			"sheetLabel": {
+				"text": "Blatt:"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Abbrechen"
+			}
 		}
 	},
 	"strings": {
 		"vssde-documentIsOpening": "Dokument wird geöffnet...",
-		"vssde-numberFormat-general": "Allgemein",
-		"vssde-numberFormat-number": "Numerisch",
-		"vssde-numberFormat-date": "Datum",
-		"vssde-numberFormat-time": "Zeit",
-		"vssde-numberFormat-currency": "Geld",
-		"vssde-numberFormat-percentage": "Prozentsatz",
-		"vssde-numberFormat-scientific": "Exponentiell",
-		"vssde-numberFormat-text": "Text",
 		"vssde-numberFormat-custom": "Benutzerdefiniert",
-		"vssde-findTextPanel-sheet": "Auf Blatt",
-		"vssde-findTextPanel-workbook": "Im Buch",
-		"vssde-findTextPanel-byRows": "In Zeilen",
-		"vssde-findTextPanel-byColumns": "In Spalten",
-		"vssde-findTextPanel-formulas": "Formeln",
-		"vssde-findTextPanel-values": "Werte",
-		"vssde-findTextPanel-comments": "Kommentare",
 		"vssde-findTextPanel-textIsNotFound": "Der Text '{0}' wurde nicht gefunden.",
 		"vssde-selectFunctionPanel-all": "Alle",
 		"vssde-createXlsxDocument": "Erstellen Sie ein neues XLSX-Dokument",
@@ -675,20 +686,30 @@
 		"vssde-downloadXlsxFile": "XLSX-Datei hochladen",
 		"vssde-exportXlsxToPdf": "Exportieren Sie XLSX in PDF",
 		"vssde-fileSizeExceedsLimit": "Die Größe der hochgeladenen Datei überschreitet die maximale Größe ({0} Bytes).",
+		"vssde-error-noError": "Kein Fehler.",
+		"vssde-error-divisionByZero": "Jede Zahl (einschließlich Null) oder jeder Fehlercode wird durch Null geteilt.",
+		"vssde-error-cellRefCannotBeEvaluated": "Eine Zellreferenz kann nicht ausgewertet werden, da der Wert für die Zelle nicht abgerufen oder berechnet wurde.",
+		"vssde-error-valueIsNotAvailable": "Ein ausgewiesener Wert ist nicht verfügbar.",
+		"vssde-error-wrongName": "Es sieht so aus, als ob ein Name verwendet wird, es wurde jedoch kein solcher Name definiert.",
+		"vssde-error-twoAreasNotIntersecting": "Es ist erforderlich, dass sich zwei Bereiche überschneiden, dies ist jedoch nicht der Fall.",
+		"vssde-error-notCorrectValue": "Ein Argument für eine Funktion hat einen kompatiblen Typ, aber einen Wert, der außerhalb der Domäne liegt, über die diese Funktion definiert ist.",
+		"vssde-error-cannotEvaluateCellRef": "Ein Zellbezug kann nicht ausgewertet werden.",
+		"vssde-error-incompatibleType": "Ein inkompatibles Typargument wird an eine Funktion übergeben oder ein inkompatibler Typoperand wird mit einem Operator verwendet.",
+		"vssde-error-unknownError": "Unbekannter Fehler.",
+		"vssde-error-externalError": "Externer Fehler.",
+		"vssde-uriOpen-question": "Öffnen Sie die URL '{0}'?",
+		"vssde-uriOpen-wrongUri": "Die Adresse dieser Website ist ungültig: {0}",
 		"vssde-createXlsxDocumentConfirmation": "Möchten Sie eine neue Arbeitsmappe erstellen?",
-		"vssde-insertCommentDialog-title": "Kommentar einfügen",
+		"vssde-renameWorksheetDialog-title": "Blatt umbenennen",
 		"vssde-dialog-okButton": "OK",
 		"vssde-dialog-cancelButton": "Abbrechen",
-		"vssde-editCommentDialog-title": "Kommentar bearbeiten",
-		"vssde-editChartDialog-title": "Diagramm bearbeiten",
-		"vssde-editChartPropertiesPanel-spreadsheetEditorDoesNotHaveFocusedChart": "Der Tabellenkalkulationseditor verfügt nicht über ein fokussiertes Diagramm.",
-		"vssde-editChartPropertiesPanel-selectedDrawingIsNotChart": "Die ausgewählte Zeichnung ist kein Diagramm.",
-		"vssde-renameWorksheetDialog-title": "Blatt umbenennen",
 		"vssde-moveWorksheetDialog-title": "Blatt verschieben",
 		"vssde-findTextDialog-title": "Text suchen",
 		"vssde-findTextDialog-findNextButton": "Weiter suchen",
 		"vssde-dialog-closeButton": "Schließen",
 		"vssde-selectFunctionDialog-title": "Funktion einfügen",
+		"vssde-insertCommentDialog-title": "Kommentar einfügen",
+		"vssde-editCommentDialog-title": "Kommentar bearbeiten",
 		"vssde-cellNumberFormatDialog-title": "Zellenformat",
 		"vssde-insertChartDialog-title": "Diagramm einfügen",
 		"vssde-insertChartPanel-chartType-column": "Spalte",
@@ -723,7 +744,7 @@
 		"vssde-insertChartPanel-chartSubtype-area": "Bereich",
 		"vssde-insertChartPanel-chartSubtype-stackedArea": "Gestapelter Bereich",
 		"vssde-insertChartPanel-chartSubtype-100%StackedArea": "100 % Stapelfläche",
-		"vssde-insertChartPanel-fileArg0IsNotFound": "Datei „{0}“ wurde nicht gefunden.",
+		"vssde-insertChartPanel-fileArg0IsNotFound": "Datei '{0}' wurde nicht gefunden.",
 		"vssde-insertChartPanel-supportedChartTypesAreNotFound": "Unterstützte Diagrammtypen wurden nicht gefunden.",
 		"vssde-insertChartPanel-notSupportedChartType": "Nicht unterstützter Diagrammtyp.",
 		"vssde-insertChartPanel-supportedChartSubtypesAreNotFound": "Unterstützte Diagrammuntertypen wurden nicht gefunden.",
@@ -732,6 +753,11 @@
 		"vssde-insertChartPanel-chartTemplateContainsTwoIdenticalNamesForChartTypes": "Die Diagrammvorlage enthält zwei identische Namen für Diagrammtypen.",
 		"vssde-insertChartPanel-pleaseSpecifyCellsWhichContainTheChartDataIncludeNamesForRowsAndColumns": "Bitte geben Sie Zellen an, die die Diagrammdaten enthalten (einschließlich Namen für Zeilen und Spalten).",
 		"vssde-insertChartPanel-chartSubtypeArg0HasMultipleDeclarationsOnDifferentWorksheets": "Der Diagrammuntertyp '{0}' verfügt über mehrere Deklarationen in verschiedenen Arbeitsblättern.",
-		"vssde-insertChartPanel-sheetArg0IsNotFound": "Blatt '{0}' wurde nicht gefunden."
+		"vssde-insertChartPanel-sheetArg0IsNotFound": "Blatt '{0}' wurde nicht gefunden.",
+		"vssde-editChartDialog-title": "Diagramm bearbeiten",
+		"vssde-editChartPropertiesPanel-spreadsheetEditorDoesNotHaveFocusedChart": "Der Tabellenkalkulationseditor verfügt nicht über ein fokussiertes Diagramm.",
+		"vssde-editChartPropertiesPanel-selectedDrawingIsNotChart": "Die ausgewählte Zeichnung ist kein Diagramm.",
+		"vssde-editHyperlinkDialog-addTitle": "Hyperlink hinzufügen",
+		"vssde-editHyperlinkDialog-editTitle": "Hyperlink bearbeiten"
 	}
 }

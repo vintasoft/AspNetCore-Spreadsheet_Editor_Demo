@@ -173,6 +173,9 @@
 		"thickOutsideBordersButton": {
 			"title": "Nene Nje ya Mipaka"
 		},
+		"cellBordersDropDownButton": {
+			"title": "Mipaka ya Kiini"
+		},
 		"autoFitRowHeightButton": {
 			"title": "Weka kiotomati urefu wa safu mlalo"
 		},
@@ -407,51 +410,6 @@
 		"unhideColumnsLabel": {
 			"text": "Onyesha Safu"
 		},
-		"insertCommentDialog": {
-			"authorLabel": {
-				"text": "Mwandishi:"
-			},
-			"showAuthorLabel": {
-				"text": "Onyesha Mwandishi"
-			},
-			"commentLabel": {
-				"text": "Maoni:"
-			},
-			"okButton": {
-				"value": "sawa"
-			},
-			"cancelButton": {
-				"value": "Ghairi"
-			}
-		},
-		"commentEditDialog": {
-			"authorLabel": {
-				"text": "Mwandishi:"
-			},
-			"showAuthorLabel": {
-				"text": "Onyesha Mwandishi"
-			},
-			"commentLabel": {
-				"text": "Maoni:"
-			},
-			"okButton": {
-				"value": "sawa"
-			},
-			"cancelButton": {
-				"value": "Ghairi"
-			}
-		},
-		"editChartDialog": {
-			"titleLabel": {
-				"text": "Kichwa:"
-			},
-			"okButton": {
-				"value": "sawa"
-			},
-			"cancelButton": {
-				"value": "Ghairi"
-			}
-		},
 		"renameWorksheetDialog": {
 			"nameLabel": {
 				"text": "Jina:"
@@ -573,6 +531,40 @@
 				"value": "Ghairi"
 			}
 		},
+		"insertCommentDialog": {
+			"authorLabel": {
+				"text": "Mwandishi:"
+			},
+			"showAuthorLabel": {
+				"text": "Onyesha Mwandishi"
+			},
+			"commentLabel": {
+				"text": "Maoni:"
+			},
+			"okButton": {
+				"value": "sawa"
+			},
+			"cancelButton": {
+				"value": "Ghairi"
+			}
+		},
+		"commentEditDialog": {
+			"authorLabel": {
+				"text": "Mwandishi:"
+			},
+			"showAuthorLabel": {
+				"text": "Onyesha Mwandishi"
+			},
+			"commentLabel": {
+				"text": "Maoni:"
+			},
+			"okButton": {
+				"value": "sawa"
+			},
+			"cancelButton": {
+				"value": "Ghairi"
+			}
+		},
 		"setCellNumberFormatDialog": {
 			"General": {
 				"text": "Mkuu"
@@ -648,26 +640,45 @@
 			"cancelButton": {
 				"value": "Ghairi"
 			}
+		},
+		"editChartDialog": {
+			"titleLabel": {
+				"text": "Kichwa:"
+			},
+			"okButton": {
+				"value": "sawa"
+			},
+			"cancelButton": {
+				"value": "Ghairi"
+			}
+		},
+		"editHyperlinkDialog": {
+			"urlRadioLabel": {
+				"text": "Ukurasa wa Wavuti"
+			},
+			"referenceRadioLabel": {
+				"text": "Rejea ya Kiini"
+			},
+			"addressLabel": {
+				"text": "Anwani:"
+			},
+			"referenceLabel": {
+				"text": "Rejeleo la Kiini:"
+			},
+			"sheetLabel": {
+				"text": "Laha:"
+			},
+			"okButton": {
+				"value": "sawa"
+			},
+			"cancelButton": {
+				"value": "Ghairi"
+			}
 		}
 	},
 	"strings": {
 		"vssde-documentIsOpening": "Hati inafunguliwa...",
-		"vssde-numberFormat-general": "Mkuu",
-		"vssde-numberFormat-number": "Nambari",
-		"vssde-numberFormat-date": "Tarehe",
-		"vssde-numberFormat-time": "Muda",
-		"vssde-numberFormat-currency": "Sarafu",
-		"vssde-numberFormat-percentage": "Asilimia",
-		"vssde-numberFormat-scientific": "Kisayansi",
-		"vssde-numberFormat-text": "Maandishi",
 		"vssde-numberFormat-custom": "Desturi",
-		"vssde-findTextPanel-sheet": "Laha",
-		"vssde-findTextPanel-workbook": "Kitabu cha kazi",
-		"vssde-findTextPanel-byRows": "Kwa Safu",
-		"vssde-findTextPanel-byColumns": "Kwa Safu",
-		"vssde-findTextPanel-formulas": "Mifumo",
-		"vssde-findTextPanel-values": "Maadili",
-		"vssde-findTextPanel-comments": "Maoni",
 		"vssde-findTextPanel-textIsNotFound": "Maandishi '{0}' hayapatikani.",
 		"vssde-selectFunctionPanel-all": "Wote",
 		"vssde-createXlsxDocument": "Unda hati mpya ya XLSX",
@@ -675,20 +686,30 @@
 		"vssde-downloadXlsxFile": "Pakua faili ya XLSX",
 		"vssde-exportXlsxToPdf": "Hamisha XLSX hadi PDF",
 		"vssde-fileSizeExceedsLimit": "Saizi ya faili iliyopakiwa inazidi ukubwa wa juu zaidi (baiti {0}).",
+		"vssde-error-noError": "Hakuna hitilafu.",
+		"vssde-error-divisionByZero": "Nambari yoyote (ikiwa ni pamoja na sifuri) au msimbo wowote wa hitilafu umegawanywa na sifuri.",
+		"vssde-error-cellRefCannotBeEvaluated": "Rejeleo la kisanduku haliwezi kutathminiwa kwa sababu thamani ya kisanduku haijarejeshwa au kuhesabiwa.",
+		"vssde-error-valueIsNotAvailable": "Thamani iliyobainishwa haipatikani.",
+		"vssde-error-wrongName": "Inaonekana jina linatumika lakini hakuna jina kama hilo ambalo limefafanuliwa.",
+		"vssde-error-twoAreasNotIntersecting": "Maeneo mawili yanahitajika ili kukatiza lakini sivyo.",
+		"vssde-error-notCorrectValue": "Hoja kwa chaguo za kukokotoa ina aina inayooana, lakini ina thamani ambayo iko nje ya kikoa ambacho kipengele hicho cha kukokotoa kimefafanuliwa.",
+		"vssde-error-cannotEvaluateCellRef": "Rejeleo la seli haliwezi kutathminiwa.",
+		"vssde-error-incompatibleType": "Hoja ya aina isiyooana hupitishwa kwa chaguo za kukokotoa, au aina ya uendeshaji isiyooana inatumiwa na opereta.",
+		"vssde-error-unknownError": "Hitilafu isiyojulikana.",
+		"vssde-error-externalError": "Hitilafu ya nje.",
+		"vssde-uriOpen-question": "Ungependa kufungua URL '{0}' ?",
+		"vssde-uriOpen-wrongUri": "Anwani ya tovuti hii si sahihi: {0}",
 		"vssde-createXlsxDocumentConfirmation": "Je, ungependa kuunda kitabu kipya cha kazi?",
-		"vssde-insertCommentDialog-title": "Weka maoni",
+		"vssde-renameWorksheetDialog-title": "Badilisha Jina la Karatasi ya Kazi",
 		"vssde-dialog-okButton": "sawa",
 		"vssde-dialog-cancelButton": "Ghairi",
-		"vssde-editCommentDialog-title": "Hariri maoni",
-		"vssde-editChartDialog-title": "Badilisha Chati",
-		"vssde-editChartPropertiesPanel-spreadsheetEditorDoesNotHaveFocusedChart": "Kihariri cha lahajedwali hakina chati iliyolengwa.",
-		"vssde-editChartPropertiesPanel-selectedDrawingIsNotChart": "Mchoro uliochaguliwa sio chati.",
-		"vssde-renameWorksheetDialog-title": "Badilisha Jina la Karatasi ya Kazi",
 		"vssde-moveWorksheetDialog-title": "Hamisha Karatasi ya Kazi",
 		"vssde-findTextDialog-title": "Tafuta Maandishi",
 		"vssde-findTextDialog-findNextButton": "Tafuta Inayofuata",
 		"vssde-dialog-closeButton": "Funga",
 		"vssde-selectFunctionDialog-title": "Ingiza Kazi",
+		"vssde-insertCommentDialog-title": "Weka maoni",
+		"vssde-editCommentDialog-title": "Hariri maoni",
 		"vssde-cellNumberFormatDialog-title": "Umbizo la Kiini",
 		"vssde-insertChartDialog-title": "Weka Chati",
 		"vssde-insertChartPanel-chartType-column": "Safu",
@@ -732,6 +753,11 @@
 		"vssde-insertChartPanel-chartTemplateContainsTwoIdenticalNamesForChartTypes": "Kiolezo cha chati kina majina 2 yanayofanana kwa aina za chati.",
 		"vssde-insertChartPanel-pleaseSpecifyCellsWhichContainTheChartDataIncludeNamesForRowsAndColumns": "Tafadhali bainisha visanduku, ambavyo vina data ya chati (pamoja na majina ya safu mlalo na safu wima).",
 		"vssde-insertChartPanel-chartSubtypeArg0HasMultipleDeclarationsOnDifferentWorksheets": "Aina ndogo ya chati '{0}' ina matamko mengi kwenye laha kazi tofauti.",
-		"vssde-insertChartPanel-sheetArg0IsNotFound": "Laha '{0}' haipatikani."
+		"vssde-insertChartPanel-sheetArg0IsNotFound": "Laha '{0}' haipatikani.",
+		"vssde-editChartDialog-title": "Badilisha Chati",
+		"vssde-editChartPropertiesPanel-spreadsheetEditorDoesNotHaveFocusedChart": "Kihariri cha lahajedwali hakina chati iliyolengwa.",
+		"vssde-editChartPropertiesPanel-selectedDrawingIsNotChart": "Mchoro uliochaguliwa sio chati.",
+		"vssde-editHyperlinkDialog-addTitle": "Ongeza Hyperlink",
+		"vssde-editHyperlinkDialog-editTitle": "Badilisha kiungo"
 	}
 }

@@ -173,6 +173,9 @@
 		"thickOutsideBordersButton": {
 			"title": "두꺼운 외부 테두리"
 		},
+		"cellBordersDropDownButton": {
+			"title": "셀 테두리"
+		},
 		"autoFitRowHeightButton": {
 			"title": "행 높이 자동 맞춤"
 		},
@@ -407,51 +410,6 @@
 		"unhideColumnsLabel": {
 			"text": "열 보기"
 		},
-		"insertCommentDialog": {
-			"authorLabel": {
-				"text": "작가:"
-			},
-			"showAuthorLabel": {
-				"text": "작성자 표시"
-			},
-			"commentLabel": {
-				"text": "논평:"
-			},
-			"okButton": {
-				"value": "확인"
-			},
-			"cancelButton": {
-				"value": "취소"
-			}
-		},
-		"commentEditDialog": {
-			"authorLabel": {
-				"text": "작가:"
-			},
-			"showAuthorLabel": {
-				"text": "작성자 표시"
-			},
-			"commentLabel": {
-				"text": "논평:"
-			},
-			"okButton": {
-				"value": "확인"
-			},
-			"cancelButton": {
-				"value": "취소"
-			}
-		},
-		"editChartDialog": {
-			"titleLabel": {
-				"text": "제목:"
-			},
-			"okButton": {
-				"value": "확인"
-			},
-			"cancelButton": {
-				"value": "취소"
-			}
-		},
 		"renameWorksheetDialog": {
 			"nameLabel": {
 				"text": "이름:"
@@ -573,6 +531,40 @@
 				"value": "취소"
 			}
 		},
+		"insertCommentDialog": {
+			"authorLabel": {
+				"text": "작가:"
+			},
+			"showAuthorLabel": {
+				"text": "작성자 표시"
+			},
+			"commentLabel": {
+				"text": "논평:"
+			},
+			"okButton": {
+				"value": "확인"
+			},
+			"cancelButton": {
+				"value": "취소"
+			}
+		},
+		"commentEditDialog": {
+			"authorLabel": {
+				"text": "작가:"
+			},
+			"showAuthorLabel": {
+				"text": "작성자 표시"
+			},
+			"commentLabel": {
+				"text": "논평:"
+			},
+			"okButton": {
+				"value": "확인"
+			},
+			"cancelButton": {
+				"value": "취소"
+			}
+		},
 		"setCellNumberFormatDialog": {
 			"General": {
 				"text": "일반"
@@ -648,26 +640,45 @@
 			"cancelButton": {
 				"value": "취소"
 			}
+		},
+		"editChartDialog": {
+			"titleLabel": {
+				"text": "제목:"
+			},
+			"okButton": {
+				"value": "확인"
+			},
+			"cancelButton": {
+				"value": "취소"
+			}
+		},
+		"editHyperlinkDialog": {
+			"urlRadioLabel": {
+				"text": "웹 페이지"
+			},
+			"referenceRadioLabel": {
+				"text": "셀 참조"
+			},
+			"addressLabel": {
+				"text": "주소:"
+			},
+			"referenceLabel": {
+				"text": "셀 참조:"
+			},
+			"sheetLabel": {
+				"text": "시트:"
+			},
+			"okButton": {
+				"value": "확인"
+			},
+			"cancelButton": {
+				"value": "취소"
+			}
 		}
 	},
 	"strings": {
 		"vssde-documentIsOpening": "문서를 여는 중...",
-		"vssde-numberFormat-general": "일반",
-		"vssde-numberFormat-number": "숫자",
-		"vssde-numberFormat-date": "날짜",
-		"vssde-numberFormat-time": "시간",
-		"vssde-numberFormat-currency": "돈",
-		"vssde-numberFormat-percentage": "퍼센트",
-		"vssde-numberFormat-scientific": "지수",
-		"vssde-numberFormat-text": "텍스트",
 		"vssde-numberFormat-custom": "사용자 정의",
-		"vssde-findTextPanel-sheet": "시트에",
-		"vssde-findTextPanel-workbook": "책에서",
-		"vssde-findTextPanel-byRows": "인라인",
-		"vssde-findTextPanel-byColumns": "열",
-		"vssde-findTextPanel-formulas": "공식",
-		"vssde-findTextPanel-values": "값",
-		"vssde-findTextPanel-comments": "설명",
 		"vssde-findTextPanel-textIsNotFound": "텍스트 '{0}'을(를) 찾을 수 없습니다.",
 		"vssde-selectFunctionPanel-all": "모두",
 		"vssde-createXlsxDocument": "새 XLSX 문서 만들기",
@@ -675,20 +686,30 @@
 		"vssde-downloadXlsxFile": "XLSX 파일 업로드",
 		"vssde-exportXlsxToPdf": "XLSX를 PDF로 내보내기",
 		"vssde-fileSizeExceedsLimit": "업로드된 파일의 크기가 최대 크기({0}바이트)를 초과합니다.",
+		"vssde-error-noError": "오류가 없습니다.",
+		"vssde-error-divisionByZero": "모든 숫자(0 포함) 또는 오류 코드는 0으로 나뉩니다.",
+		"vssde-error-cellRefCannotBeEvaluated": "셀 값이 검색되거나 계산되지 않았기 때문에 셀 참조를 평가할 수 없습니다.",
+		"vssde-error-valueIsNotAvailable": "지정된 값을 사용할 수 없습니다.",
+		"vssde-error-wrongName": "이름이 사용된 것 같지만 해당 이름이 정의되지 않았습니다.",
+		"vssde-error-twoAreasNotIntersecting": "두 영역이 교차해야 하지만 그렇지 않습니다.",
+		"vssde-error-notCorrectValue": "함수에 대한 인수에는 호환 가능한 유형이 있지만 해당 함수가 정의된 도메인 외부에 있는 값이 있습니다.",
+		"vssde-error-cannotEvaluateCellRef": "셀 참조를 평가할 수 없습니다.",
+		"vssde-error-incompatibleType": "호환되지 않는 유형 인수가 함수에 전달되었거나 호환되지 않는 유형 피연산자가 연산자와 함께 사용되었습니다.",
+		"vssde-error-unknownError": "알수없는 오류.",
+		"vssde-error-externalError": "외부 오류입니다.",
+		"vssde-uriOpen-question": "'{0}' URL을 여시겠습니까?",
+		"vssde-uriOpen-wrongUri": "이 사이트의 주소가 유효하지 않습니다: {0}",
 		"vssde-createXlsxDocumentConfirmation": "새 통합 문서를 만드시겠습니까?",
-		"vssde-insertCommentDialog-title": "설명 삽입",
+		"vssde-renameWorksheetDialog-title": "시트 이름 바꾸기",
 		"vssde-dialog-okButton": "확인",
 		"vssde-dialog-cancelButton": "취소",
-		"vssde-editCommentDialog-title": "댓글 편집",
-		"vssde-editChartDialog-title": "차트 편집",
-		"vssde-editChartPropertiesPanel-spreadsheetEditorDoesNotHaveFocusedChart": "스프레드시트 편집기에는 집중된 차트가 없습니다.",
-		"vssde-editChartPropertiesPanel-selectedDrawingIsNotChart": "선택한 그림은 차트가 아닙니다.",
-		"vssde-renameWorksheetDialog-title": "시트 이름 바꾸기",
 		"vssde-moveWorksheetDialog-title": "시트 이동",
 		"vssde-findTextDialog-title": "텍스트 찾기",
 		"vssde-findTextDialog-findNextButton": "다음 찾기",
 		"vssde-dialog-closeButton": "닫기",
 		"vssde-selectFunctionDialog-title": "함수 삽입",
+		"vssde-insertCommentDialog-title": "설명 삽입",
+		"vssde-editCommentDialog-title": "댓글 편집",
 		"vssde-cellNumberFormatDialog-title": "셀 형식",
 		"vssde-insertChartDialog-title": "차트 삽입",
 		"vssde-insertChartPanel-chartType-column": "열",
@@ -732,6 +753,11 @@
 		"vssde-insertChartPanel-chartTemplateContainsTwoIdenticalNamesForChartTypes": "차트 템플릿에는 차트 유형에 대해 동일한 이름이 2개 포함되어 있습니다.",
 		"vssde-insertChartPanel-pleaseSpecifyCellsWhichContainTheChartDataIncludeNamesForRowsAndColumns": "차트 데이터(행 및 열 이름 포함)가 포함된 셀을 지정하세요.",
 		"vssde-insertChartPanel-chartSubtypeArg0HasMultipleDeclarationsOnDifferentWorksheets": "차트 하위 유형 '{0}'에는 다양한 워크시트에 여러 선언이 있습니다.",
-		"vssde-insertChartPanel-sheetArg0IsNotFound": "시트 '{0}'을(를) 찾을 수 없습니다."
+		"vssde-insertChartPanel-sheetArg0IsNotFound": "시트 '{0}'을(를) 찾을 수 없습니다.",
+		"vssde-editChartDialog-title": "차트 편집",
+		"vssde-editChartPropertiesPanel-spreadsheetEditorDoesNotHaveFocusedChart": "스프레드시트 편집기에는 집중된 차트가 없습니다.",
+		"vssde-editChartPropertiesPanel-selectedDrawingIsNotChart": "선택한 그림은 차트가 아닙니다.",
+		"vssde-editHyperlinkDialog-addTitle": "하이퍼링크 추가",
+		"vssde-editHyperlinkDialog-editTitle": "하이퍼링크 편집"
 	}
 }

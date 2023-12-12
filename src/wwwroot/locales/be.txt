@@ -173,6 +173,9 @@
 		"thickOutsideBordersButton": {
 			"title": "Тоўстыя вонкавыя межы"
 		},
+		"cellBordersDropDownButton": {
+			"title": "Межы вочак"
+		},
 		"autoFitRowHeightButton": {
 			"title": "Аўтападбор вышыні радка"
 		},
@@ -407,51 +410,6 @@
 		"unhideColumnsLabel": {
 			"text": "Паказаць слупкі"
 		},
-		"insertCommentDialog": {
-			"authorLabel": {
-				"text": "Аўтар:"
-			},
-			"showAuthorLabel": {
-				"text": "Паказаць аўтара"
-			},
-			"commentLabel": {
-				"text": "Каментарый:"
-			},
-			"okButton": {
-				"value": "OK"
-			},
-			"cancelButton": {
-				"value": "Адмяніць"
-			}
-		},
-		"commentEditDialog": {
-			"authorLabel": {
-				"text": "Аўтар:"
-			},
-			"showAuthorLabel": {
-				"text": "Паказаць аўтара"
-			},
-			"commentLabel": {
-				"text": "Каментарый:"
-			},
-			"okButton": {
-				"value": "OK"
-			},
-			"cancelButton": {
-				"value": "Адмяніць"
-			}
-		},
-		"editChartDialog": {
-			"titleLabel": {
-				"text": "Назва:"
-			},
-			"okButton": {
-				"value": "OK"
-			},
-			"cancelButton": {
-				"value": "Адмяніць"
-			}
-		},
 		"renameWorksheetDialog": {
 			"nameLabel": {
 				"text": "Імя:"
@@ -573,6 +531,40 @@
 				"value": "Адмяніць"
 			}
 		},
+		"insertCommentDialog": {
+			"authorLabel": {
+				"text": "Аўтар:"
+			},
+			"showAuthorLabel": {
+				"text": "Паказаць аўтара"
+			},
+			"commentLabel": {
+				"text": "Каментарый:"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Адмяніць"
+			}
+		},
+		"commentEditDialog": {
+			"authorLabel": {
+				"text": "Аўтар:"
+			},
+			"showAuthorLabel": {
+				"text": "Паказаць аўтара"
+			},
+			"commentLabel": {
+				"text": "Каментарый:"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Адмяніць"
+			}
+		},
 		"setCellNumberFormatDialog": {
 			"General": {
 				"text": "Агульны"
@@ -648,26 +640,45 @@
 			"cancelButton": {
 				"value": "Адмяніць"
 			}
+		},
+		"editChartDialog": {
+			"titleLabel": {
+				"text": "Назва:"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Адмяніць"
+			}
+		},
+		"editHyperlinkDialog": {
+			"urlRadioLabel": {
+				"text": "Вэб-старонка"
+			},
+			"referenceRadioLabel": {
+				"text": "Спасылка на клетку"
+			},
+			"addressLabel": {
+				"text": "Адрас:"
+			},
+			"referenceLabel": {
+				"text": "Спасылка на клетку:"
+			},
+			"sheetLabel": {
+				"text": "Аркуш:"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Адмяніць"
+			}
 		}
 	},
 	"strings": {
 		"vssde-documentIsOpening": "Адкрываецца дакумент...",
-		"vssde-numberFormat-general": "Агульны",
-		"vssde-numberFormat-number": "Лікавы",
-		"vssde-numberFormat-date": "Дата",
-		"vssde-numberFormat-time": "Час",
-		"vssde-numberFormat-currency": "Грашовы",
-		"vssde-numberFormat-percentage": "Працэнтны",
-		"vssde-numberFormat-scientific": "Экспанентны",
-		"vssde-numberFormat-text": "Тэкставы",
 		"vssde-numberFormat-custom": "Карыстацкі",
-		"vssde-findTextPanel-sheet": "Прасціна",
-		"vssde-findTextPanel-workbook": "Працоўны сшытак",
-		"vssde-findTextPanel-byRows": "Па радах",
-		"vssde-findTextPanel-byColumns": "Па Стоўбцах",
-		"vssde-findTextPanel-formulas": "Формулы",
-		"vssde-findTextPanel-values": "Каштоўнасці",
-		"vssde-findTextPanel-comments": "Каментарыі",
 		"vssde-findTextPanel-textIsNotFound": "Тэкст '{0}' не знойдзены.",
 		"vssde-selectFunctionPanel-all": "Усе",
 		"vssde-createXlsxDocument": "Стварыце новы дакумент XLSX",
@@ -675,20 +686,30 @@
 		"vssde-downloadXlsxFile": "Выгрузіць файл XLSX",
 		"vssde-exportXlsxToPdf": "Экспарт XLSX у PDF",
 		"vssde-fileSizeExceedsLimit": "Памер запампаванага файла перавышае максімальны памер ({0} байт).",
+		"vssde-error-noError": "Няма памылкі.",
+		"vssde-error-divisionByZero": "Любы лік (уключаючы нуль) або любы код памылкі дзеліцца на нуль.",
+		"vssde-error-cellRefCannotBeEvaluated": "Спасылка на ячэйку не можа быць ацэненая, таму што значэнне для ячэйкі не было атрымана або разлічана.",
+		"vssde-error-valueIsNotAvailable": "Прызначанае значэнне недаступнае.",
+		"vssde-error-wrongName": "Падобна на тое, што імя выкарыстоўваецца, але яно не вызначана.",
+		"vssde-error-twoAreasNotIntersecting": "Дзве вобласці павінны перасякацца, але гэтага не адбываецца.",
+		"vssde-error-notCorrectValue": "Аргумент функцыі мае сумяшчальны тып, але мае значэнне, якое знаходзіцца па-за даменам, у якім гэтая функцыя вызначана.",
+		"vssde-error-cannotEvaluateCellRef": "Спасылка на ячэйку не можа быць ацэненая.",
+		"vssde-error-incompatibleType": "Аргумент несумяшчальнага тыпу перадаецца функцыі, або аперанд несумяшчальнага тыпу выкарыстоўваецца з аператарам.",
+		"vssde-error-unknownError": "Невядомая памылка.",
+		"vssde-error-externalError": "Знешняя памылка.",
+		"vssde-uriOpen-question": "Адкрыць URL '{0}'?",
+		"vssde-uriOpen-wrongUri": "Адрас гэтага сайта несапраўдны: {0}",
 		"vssde-createXlsxDocumentConfirmation": "Вы хочаце стварыць новую працоўную кнігу?",
-		"vssde-insertCommentDialog-title": "Уставіць каментар",
+		"vssde-renameWorksheetDialog-title": "Перайменаваць аркуш",
 		"vssde-dialog-okButton": "OK",
 		"vssde-dialog-cancelButton": "Адмяніць",
-		"vssde-editCommentDialog-title": "Рэдагаваць каментар",
-		"vssde-editChartDialog-title": "Рэдагаваць дыяграму",
-		"vssde-editChartPropertiesPanel-spreadsheetEditorDoesNotHaveFocusedChart": "Рэдактар электронных табліц не мае сфакусаванай дыяграмы.",
-		"vssde-editChartPropertiesPanel-selectedDrawingIsNotChart": "Выбраны малюнак не з'яўляецца дыяграмай.",
-		"vssde-renameWorksheetDialog-title": "Перайменаваць аркуш",
 		"vssde-moveWorksheetDialog-title": "Перамясціць аркуш",
 		"vssde-findTextDialog-title": "Знайсці тэкст",
 		"vssde-findTextDialog-findNextButton": "Знайсці далей",
 		"vssde-dialog-closeButton": "Блізка",
 		"vssde-selectFunctionDialog-title": "Функцыя ўстаўкі",
+		"vssde-insertCommentDialog-title": "Уставіць каментар",
+		"vssde-editCommentDialog-title": "Рэдагаваць каментар",
 		"vssde-cellNumberFormatDialog-title": "Фармат ячэйкі",
 		"vssde-insertChartDialog-title": "Уставіць дыяграму",
 		"vssde-insertChartPanel-chartType-column": "Слупок",
@@ -732,6 +753,11 @@
 		"vssde-insertChartPanel-chartTemplateContainsTwoIdenticalNamesForChartTypes": "Шаблон дыяграмы змяшчае 2 аднолькавыя назвы тыпаў дыяграм.",
 		"vssde-insertChartPanel-pleaseSpecifyCellsWhichContainTheChartDataIncludeNamesForRowsAndColumns": "Укажыце ячэйкі, якія змяшчаюць дадзеныя дыяграмы (уключыце назвы радкоў і слупкоў).",
 		"vssde-insertChartPanel-chartSubtypeArg0HasMultipleDeclarationsOnDifferentWorksheets": "Падтып дыяграмы '{0}' мае некалькі дэкларацый на розных аркушах.",
-		"vssde-insertChartPanel-sheetArg0IsNotFound": "Аркуш '{0}' не знойдзены."
+		"vssde-insertChartPanel-sheetArg0IsNotFound": "Аркуш '{0}' не знойдзены.",
+		"vssde-editChartDialog-title": "Рэдагаваць дыяграму",
+		"vssde-editChartPropertiesPanel-spreadsheetEditorDoesNotHaveFocusedChart": "Рэдактар электронных табліц не мае сфакусаванай дыяграмы.",
+		"vssde-editChartPropertiesPanel-selectedDrawingIsNotChart": "Выбраны малюнак не з'яўляецца дыяграмай.",
+		"vssde-editHyperlinkDialog-addTitle": "Дадаць гіперспасылку",
+		"vssde-editHyperlinkDialog-editTitle": "Рэдагаваць гіперспасылку"
 	}
 }
