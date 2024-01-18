@@ -182,6 +182,12 @@
 		"autoFitColumnWidthButton": {
 			"title": "Sütun genişliğini otomatik sığdır"
 		},
+		"addDefinedNameButton": {
+			"title": "Tanımlanmış bir ad ekleyin"
+		},
+		"definedNameManagerButton": {
+			"title": "Tanımlı isimlerin yöneticisi"
+		},
 		"insertRowsButton": {
 			"title": "Satır Ekle"
 		},
@@ -210,7 +216,10 @@
 			"title": "Resim Ekle"
 		},
 		"insertChartButton": {
-			"title": "Grafik Ekle"
+			"title": "Grafik ekle"
+		},
+		"insertDefinedNameButton": {
+			"title": "Tanımlanan adı ekle"
 		},
 		"editCommentButton": {
 			"title": "Yorumu düzenle"

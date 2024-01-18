@@ -182,6 +182,12 @@
 		"autoFitColumnWidthButton": {
 			"title": "Sütüniň giňligini 'AutoFit'"
 		},
+		"addDefinedNameButton": {
+			"title": "Kesgitlenen at goşuň"
+		},
+		"definedNameManagerButton": {
+			"title": "Kesgitlenen atlaryň dolandyryjysy"
+		},
 		"insertRowsButton": {
 			"title": "Setirleri salyň"
 		},
@@ -210,7 +216,10 @@
 			"title": "Surat goşuň"
 		},
 		"insertChartButton": {
-			"title": "Diagramma sal"
+			"title": "Diagramma salyň"
+		},
+		"insertDefinedNameButton": {
+			"title": "Kesgitlenen at goýuň"
 		},
 		"editCommentButton": {
 			"title": "Teswirleri redaktirläň"
@@ -697,7 +706,7 @@
 		"vssde-error-incompatibleType": "Gabat gelmeýän görnüş argumenti bir funksiýa geçirilýär ýa-da operator bilen gabat gelmeýän görnüşli operand ulanylýar.",
 		"vssde-error-unknownError": "Näbelli ýalňyşlyk",
 		"vssde-error-externalError": "Daşarky ýalňyşlyk.",
-		"vssde-uriOpen-question": "'{0}' URL açyň?",
+		"vssde-uriOpen-question": "URL '{0}' açyň?",
 		"vssde-uriOpen-wrongUri": "Bu sahypanyň salgysy dogry däl: {0}",
 		"vssde-createXlsxDocumentConfirmation": "Täze iş kitabyny döretmek isleýärsiňizmi?",
 		"vssde-renameWorksheetDialog-title": "Iş sahypasynyň adyny üýtgediň",

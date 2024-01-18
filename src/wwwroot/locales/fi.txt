@@ -182,6 +182,12 @@
 		"autoFitColumnWidthButton": {
 			"title": "Sovita sarakkeen leveys automaattisesti"
 		},
+		"addDefinedNameButton": {
+			"title": "Lisää määritetty nimi"
+		},
+		"definedNameManagerButton": {
+			"title": "Määriteltyjen nimien johtaja"
+		},
 		"insertRowsButton": {
 			"title": "Lisää rivejä"
 		},
@@ -211,6 +217,9 @@
 		},
 		"insertChartButton": {
 			"title": "Lisää kaavio"
+		},
+		"insertDefinedNameButton": {
+			"title": "Lisää määritetty nimi"
 		},
 		"editCommentButton": {
 			"title": "Muokkaa kommenttia"
@@ -697,7 +706,7 @@
 		"vssde-error-incompatibleType": "Yhteensopimaton tyyppiargumentti välitetään funktiolle tai operaattorin kanssa käytetään yhteensopimatonta tyyppistä operandia.",
 		"vssde-error-unknownError": "Tuntematon virhe.",
 		"vssde-error-externalError": "Ulkoinen virhe.",
-		"vssde-uriOpen-question": "Avataanko URL-osoite '{0}'?",
+		"vssde-uriOpen-question": "Avaa URL-osoite '{0}'?",
 		"vssde-uriOpen-wrongUri": "Tämän sivuston osoite ei ole kelvollinen: {0}",
 		"vssde-createXlsxDocumentConfirmation": "Haluatko luoda uuden työkirjan?",
 		"vssde-renameWorksheetDialog-title": "Nimeä taulukko uudelleen",

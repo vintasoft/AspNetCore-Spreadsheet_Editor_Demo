@@ -182,6 +182,12 @@
 		"autoFitColumnWidthButton": {
 			"title": "Ինքնահաստատում սյունակի լայնությունը"
 		},
+		"addDefinedNameButton": {
+			"title": "Ավելացրեք սահմանված անուն"
+		},
+		"definedNameManagerButton": {
+			"title": "Սահմանված անունների կառավարիչ"
+		},
 		"insertRowsButton": {
 			"title": "Տեղադրեք տողեր"
 		},
@@ -211,6 +217,9 @@
 		},
 		"insertChartButton": {
 			"title": "Տեղադրեք գծապատկեր"
+		},
+		"insertDefinedNameButton": {
+			"title": "Տեղադրեք սահմանված անունը"
 		},
 		"editCommentButton": {
 			"title": "Խմբագրել մեկնաբանությունը"

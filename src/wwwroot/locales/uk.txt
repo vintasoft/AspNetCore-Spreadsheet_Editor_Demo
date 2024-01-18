@@ -182,6 +182,12 @@
 		"autoFitColumnWidthButton": {
 			"title": "Автопідбір ширини стовпця"
 		},
+		"addDefinedNameButton": {
+			"title": "Додайте певне ім’я"
+		},
+		"definedNameManagerButton": {
+			"title": "Менеджер визначених імен"
+		},
 		"insertRowsButton": {
 			"title": "Вставити рядки"
 		},
@@ -210,7 +216,10 @@
 			"title": "Додати малюнок"
 		},
 		"insertChartButton": {
-			"title": "Вставити діаграму"
+			"title": "Вставте діаграму"
+		},
+		"insertDefinedNameButton": {
+			"title": "Вставте визначене ім'я"
 		},
 		"editCommentButton": {
 			"title": "Редагувати коментар"

@@ -182,6 +182,12 @@
 		"autoFitColumnWidthButton": {
 			"title": "Automaticky prispôsobiť šírku stĺpca"
 		},
+		"addDefinedNameButton": {
+			"title": "Pridajte definovaný názov"
+		},
+		"definedNameManagerButton": {
+			"title": "Manažér definovaných mien"
+		},
 		"insertRowsButton": {
 			"title": "Vložte riadky"
 		},
@@ -211,6 +217,9 @@
 		},
 		"insertChartButton": {
 			"title": "Vložiť graf"
+		},
+		"insertDefinedNameButton": {
+			"title": "Vložte definovaný názov"
 		},
 		"editCommentButton": {
 			"title": "Upraviť komentár"
@@ -688,10 +697,10 @@
 		"vssde-fileSizeExceedsLimit": "Veľkosť odovzdaného súboru presahuje maximálnu veľkosť ({0} bajtov).",
 		"vssde-error-noError": "Žiadna chyba.",
 		"vssde-error-divisionByZero": "Akékoľvek číslo (vrátane nuly) alebo akýkoľvek chybový kód sa vydelí nulou.",
-		"vssde-error-cellRefCannotBeEvaluated": "Odkaz na bunku nemožno vyhodnotiť, pretože hodnota bunky nebola získaná ani vypočítaná.",
+		"vssde-error-cellRefCannotBeEvaluated": "Odkaz na bunku nemožno vyhodnotiť, pretože hodnota bunky nebola získaná alebo vypočítaná.",
 		"vssde-error-valueIsNotAvailable": "Určená hodnota nie je k dispozícii.",
 		"vssde-error-wrongName": "Zdá sa, že sa používa názov, ale nebol definovaný.",
-		"vssde-error-twoAreasNotIntersecting": "Dve oblasti sa musia pretínať, ale nie.",
+		"vssde-error-twoAreasNotIntersecting": "Dve oblasti sa musia pretínať, ale nepretínajú sa.",
 		"vssde-error-notCorrectValue": "Argument funkcie má kompatibilný typ, ale má hodnotu, ktorá je mimo domény, v ktorej je funkcia definovaná.",
 		"vssde-error-cannotEvaluateCellRef": "Odkaz na bunku nemožno vyhodnotiť.",
 		"vssde-error-incompatibleType": "Funkcii sa odovzdá argument nekompatibilného typu alebo sa použije operand nekompatibilného typu s operátorom.",

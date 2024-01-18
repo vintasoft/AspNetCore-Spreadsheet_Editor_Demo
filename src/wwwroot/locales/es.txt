@@ -182,6 +182,12 @@
 		"autoFitColumnWidthButton": {
 			"title": "Autoajustar el ancho de la columna"
 		},
+		"addDefinedNameButton": {
+			"title": "Agregar un nombre definido"
+		},
+		"definedNameManagerButton": {
+			"title": "El administrador de nombres definidos"
+		},
 		"insertRowsButton": {
 			"title": "Insertar filas"
 		},
@@ -211,6 +217,9 @@
 		},
 		"insertChartButton": {
 			"title": "Insertar gráfico"
+		},
+		"insertDefinedNameButton": {
+			"title": "Insertar nombre definido"
 		},
 		"editCommentButton": {
 			"title": "Editar comentario"
@@ -697,7 +706,7 @@
 		"vssde-error-incompatibleType": "Se pasa un argumento de tipo incompatible a una función o se utiliza un operando de tipo incompatible con un operador.",
 		"vssde-error-unknownError": "Error desconocido.",
 		"vssde-error-externalError": "Error externo.",
-		"vssde-uriOpen-question": "¿Abrir la URL '{0}'?",
+		"vssde-uriOpen-question": "¿Abrir URL '{0}'?",
 		"vssde-uriOpen-wrongUri": "La dirección de este sitio no es válida: {0}",
 		"vssde-createXlsxDocumentConfirmation": "¿Quieres crear un nuevo libro de trabajo?",
 		"vssde-renameWorksheetDialog-title": "Renombrar hoja",

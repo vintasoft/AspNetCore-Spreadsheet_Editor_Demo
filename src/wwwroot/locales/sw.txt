@@ -182,6 +182,12 @@
 		"autoFitColumnWidthButton": {
 			"title": "Weka kiotomatiki upana wa safu"
 		},
+		"addDefinedNameButton": {
+			"title": "Ongeza jina lililobainishwa"
+		},
+		"definedNameManagerButton": {
+			"title": "Msimamizi wa majina yaliyofafanuliwa"
+		},
 		"insertRowsButton": {
 			"title": "Weka safu"
 		},
@@ -210,7 +216,10 @@
 			"title": "Ongeza picha"
 		},
 		"insertChartButton": {
-			"title": "Weka Chati"
+			"title": "Weka chati"
+		},
+		"insertDefinedNameButton": {
+			"title": "Ingiza jina lililobainishwa"
 		},
 		"editCommentButton": {
 			"title": "Hariri maoni"
@@ -697,7 +706,7 @@
 		"vssde-error-incompatibleType": "Hoja ya aina isiyooana hupitishwa kwa chaguo za kukokotoa, au aina ya uendeshaji isiyooana inatumiwa na opereta.",
 		"vssde-error-unknownError": "Hitilafu isiyojulikana.",
 		"vssde-error-externalError": "Hitilafu ya nje.",
-		"vssde-uriOpen-question": "Ungependa kufungua URL '{0}' ?",
+		"vssde-uriOpen-question": "Ungependa kufungua URL '{0}'?",
 		"vssde-uriOpen-wrongUri": "Anwani ya tovuti hii si sahihi: {0}",
 		"vssde-createXlsxDocumentConfirmation": "Je, ungependa kuunda kitabu kipya cha kazi?",
 		"vssde-renameWorksheetDialog-title": "Badilisha Jina la Karatasi ya Kazi",

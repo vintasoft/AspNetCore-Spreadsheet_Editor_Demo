@@ -182,6 +182,12 @@
 		"autoFitColumnWidthButton": {
 			"title": "Az oszlopszélesség automatikus igazítása"
 		},
+		"addDefinedNameButton": {
+			"title": "Adjon hozzá egy meghatározott nevet"
+		},
+		"definedNameManagerButton": {
+			"title": "A meghatározott nevek kezelője"
+		},
 		"insertRowsButton": {
 			"title": "Sorok beszúrása"
 		},
@@ -211,6 +217,9 @@
 		},
 		"insertChartButton": {
 			"title": "Diagram beszúrása"
+		},
+		"insertDefinedNameButton": {
+			"title": "Adja meg a meghatározott nevet"
 		},
 		"editCommentButton": {
 			"title": "Megjegyzés szerkesztése"

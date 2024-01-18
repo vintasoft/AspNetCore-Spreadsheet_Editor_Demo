@@ -182,6 +182,12 @@
 		"autoFitColumnWidthButton": {
 			"title": "Potriviți automat lățimea coloanei"
 		},
+		"addDefinedNameButton": {
+			"title": "Adăugați un nume definit"
+		},
+		"definedNameManagerButton": {
+			"title": "Managerul numelor definite"
+		},
 		"insertRowsButton": {
 			"title": "Inserați rânduri"
 		},
@@ -210,7 +216,10 @@
 			"title": "Adăugați o imagine"
 		},
 		"insertChartButton": {
-			"title": "Inserați diagramă"
+			"title": "Introduceți diagrama"
+		},
+		"insertDefinedNameButton": {
+			"title": "Introduceți numele definit"
 		},
 		"editCommentButton": {
 			"title": "Editați comentariul"
@@ -691,7 +700,7 @@
 		"vssde-error-cellRefCannotBeEvaluated": "O referință de celulă nu poate fi evaluată deoarece valoarea pentru celulă nu a fost preluată sau calculată.",
 		"vssde-error-valueIsNotAvailable": "O valoare desemnată nu este disponibilă.",
 		"vssde-error-wrongName": "Se pare că este folosit un nume, dar nu a fost definit un astfel de nume.",
-		"vssde-error-twoAreasNotIntersecting": "Sunt necesare două zone pentru a se intersecta, dar nu.",
+		"vssde-error-twoAreasNotIntersecting": "Două zone sunt necesare pentru a se intersecta, dar nu.",
 		"vssde-error-notCorrectValue": "Un argument pentru o funcție are un tip compatibil, dar are o valoare care se află în afara domeniului pe care acea funcție este definită.",
 		"vssde-error-cannotEvaluateCellRef": "O referință de celulă nu poate fi evaluată.",
 		"vssde-error-incompatibleType": "Un argument de tip incompatibil este transmis unei funcții sau un operand de tip incompatibil este utilizat cu un operator.",

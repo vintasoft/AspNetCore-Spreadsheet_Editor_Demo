@@ -182,6 +182,12 @@
 		"autoFitColumnWidthButton": {
 			"title": "列幅を自動調整する"
 		},
+		"addDefinedNameButton": {
+			"title": "定義された名前を追加する"
+		},
+		"definedNameManagerButton": {
+			"title": "定義された名前の管理者"
+		},
 		"insertRowsButton": {
 			"title": "行を挿入"
 		},
@@ -211,6 +217,9 @@
 		},
 		"insertChartButton": {
 			"title": "グラフの挿入"
+		},
+		"insertDefinedNameButton": {
+			"title": "定義された名前を挿入"
 		},
 		"editCommentButton": {
 			"title": "コメントを編集"
@@ -692,12 +701,12 @@
 		"vssde-error-valueIsNotAvailable": "指定値はありません。",
 		"vssde-error-wrongName": "名前が使用されているようですが、そのような名前は定義されていません。",
 		"vssde-error-twoAreasNotIntersecting": "2 つの領域が交差する必要がありますが、交差していません。",
-		"vssde-error-notCorrectValue": "関数の引数は互換性のある型を持っていますが、その関数が定義されているドメインの外にある値を持っています。",
+		"vssde-error-notCorrectValue": "関数の引数には互換性のある型がありますが、その値はその関数が定義されているドメインの外にあります。",
 		"vssde-error-cannotEvaluateCellRef": "セル参照は評価できません。",
 		"vssde-error-incompatibleType": "互換性のない型の引数が関数に渡されているか、互換性のない型のオペランドが演算子で使用されています。",
 		"vssde-error-unknownError": "不明なエラー。",
 		"vssde-error-externalError": "外部エラー。",
-		"vssde-uriOpen-question": "URL '{0}' を開いてください?",
+		"vssde-uriOpen-question": "URL '{0}' を開きますか?",
 		"vssde-uriOpen-wrongUri": "このサイトのアドレスは無効です: {0}",
 		"vssde-createXlsxDocumentConfirmation": "新しいワークブックを作成しますか?",
 		"vssde-renameWorksheetDialog-title": "シートの名前を変更",

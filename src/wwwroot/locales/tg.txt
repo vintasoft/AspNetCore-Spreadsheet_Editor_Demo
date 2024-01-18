@@ -182,6 +182,12 @@
 		"autoFitColumnWidthButton": {
 			"title": "Бари сутунро худкор танзим кунед"
 		},
+		"addDefinedNameButton": {
+			"title": "Номи муайянро илова кунед"
+		},
+		"definedNameManagerButton": {
+			"title": "Менеҷери номҳои муайяншуда"
+		},
 		"insertRowsButton": {
 			"title": "Сатрҳоро ворид кунед"
 		},
@@ -211,6 +217,9 @@
 		},
 		"insertChartButton": {
 			"title": "Дохил кардани диаграмма"
+		},
+		"insertDefinedNameButton": {
+			"title": "Номи муайяншударо ворид кунед"
 		},
 		"editCommentButton": {
 			"title": "Таҳрири шарҳ"
@@ -697,7 +706,7 @@
 		"vssde-error-incompatibleType": "Аргументи навъи номувофиқ ба функсия интиқол дода мешавад ё операнди навъи номувофиқ бо оператор истифода мешавад.",
 		"vssde-error-unknownError": "Хатогии номаълум.",
 		"vssde-error-externalError": "Хатогии беруна.",
-		"vssde-uriOpen-question": "URL '{0}' -ро кушоед?",
+		"vssde-uriOpen-question": "URL-и '{0}' кушоед?",
 		"vssde-uriOpen-wrongUri": "Суроғаи ин сайт дуруст нест: {0}",
 		"vssde-createXlsxDocumentConfirmation": "Оё шумо мехоҳед китоби нави корӣ эҷод кунед?",
 		"vssde-renameWorksheetDialog-title": "Номи варақаи корӣ",

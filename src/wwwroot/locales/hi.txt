@@ -182,6 +182,12 @@
 		"autoFitColumnWidthButton": {
 			"title": "कॉलम की चौड़ाई को स्वतः फ़िट करें"
 		},
+		"addDefinedNameButton": {
+			"title": "एक परिभाषित नाम जोड़ें"
+		},
+		"definedNameManagerButton": {
+			"title": "परिभाषित नामों का प्रबंधक"
+		},
 		"insertRowsButton": {
 			"title": "पंक्तियाँ सम्मिलित करें"
 		},
@@ -210,7 +216,10 @@
 			"title": "चित्र जोड़ें"
 		},
 		"insertChartButton": {
-			"title": "चार्ट सम्मिलित करें"
+			"title": "चार्ट डालें"
+		},
+		"insertDefinedNameButton": {
+			"title": "परिभाषित नाम डालें"
 		},
 		"editCommentButton": {
 			"title": "टिप्पणी संपादित करें"

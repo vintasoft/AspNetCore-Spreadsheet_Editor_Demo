@@ -182,6 +182,12 @@
 		"autoFitColumnWidthButton": {
 			"title": "Faka ngokuzenzakalelayo ububanzi bekholomu"
 		},
+		"addDefinedNameButton": {
+			"title": "Engeza igama elichaziwe"
+		},
+		"definedNameManagerButton": {
+			"title": "Umphathi wamagama achaziwe"
+		},
 		"insertRowsButton": {
 			"title": "Faka imigqa"
 		},
@@ -210,7 +216,10 @@
 			"title": "Engeza isithombe"
 		},
 		"insertChartButton": {
-			"title": "Faka Ishadi"
+			"title": "Faka ishadi"
+		},
+		"insertDefinedNameButton": {
+			"title": "Faka igama elichaziwe"
 		},
 		"editCommentButton": {
 			"title": "Hlela amazwana"

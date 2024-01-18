@@ -182,6 +182,12 @@
 		"autoFitColumnWidthButton": {
 			"title": "Pas die kolomwydte outomaties aan"
 		},
+		"addDefinedNameButton": {
+			"title": "Voeg 'n gedefinieerde naam by"
+		},
+		"definedNameManagerButton": {
+			"title": "Die bestuurder van gedefinieerde name"
+		},
 		"insertRowsButton": {
 			"title": "Voeg rye in"
 		},
@@ -211,6 +217,9 @@
 		},
 		"insertChartButton": {
 			"title": "Voeg grafiek in"
+		},
+		"insertDefinedNameButton": {
+			"title": "Voeg gedefinieerde naam in"
 		},
 		"editCommentButton": {
 			"title": "Wysig opmerking"

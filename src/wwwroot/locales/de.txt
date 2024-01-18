@@ -182,6 +182,12 @@
 		"autoFitColumnWidthButton": {
 			"title": "Passen Sie die Spaltenbreite automatisch an"
 		},
+		"addDefinedNameButton": {
+			"title": "Fügen Sie einen definierten Namen hinzu"
+		},
+		"definedNameManagerButton": {
+			"title": "Der Manager definierter Namen"
+		},
 		"insertRowsButton": {
 			"title": "Zeilen einfügen"
 		},
@@ -211,6 +217,9 @@
 		},
 		"insertChartButton": {
 			"title": "Diagramm einfügen"
+		},
+		"insertDefinedNameButton": {
+			"title": "Geben Sie den definierten Namen ein"
 		},
 		"editCommentButton": {
 			"title": "Kommentar bearbeiten"
@@ -697,7 +706,7 @@
 		"vssde-error-incompatibleType": "Ein inkompatibles Typargument wird an eine Funktion übergeben oder ein inkompatibler Typoperand wird mit einem Operator verwendet.",
 		"vssde-error-unknownError": "Unbekannter Fehler.",
 		"vssde-error-externalError": "Externer Fehler.",
-		"vssde-uriOpen-question": "Öffnen Sie die URL '{0}'?",
+		"vssde-uriOpen-question": "URL '{0}' öffnen?",
 		"vssde-uriOpen-wrongUri": "Die Adresse dieser Website ist ungültig: {0}",
 		"vssde-createXlsxDocumentConfirmation": "Möchten Sie eine neue Arbeitsmappe erstellen?",
 		"vssde-renameWorksheetDialog-title": "Blatt umbenennen",

@@ -182,6 +182,12 @@
 		"autoFitColumnWidthButton": {
 			"title": "Pas de kolombreedte automatisch aan"
 		},
+		"addDefinedNameButton": {
+			"title": "Voeg een gedefinieerde naam toe"
+		},
+		"definedNameManagerButton": {
+			"title": "De beheerder van gedefinieerde namen"
+		},
 		"insertRowsButton": {
 			"title": "Rijen invoegen"
 		},
@@ -211,6 +217,9 @@
 		},
 		"insertChartButton": {
 			"title": "Grafiek invoegen"
+		},
+		"insertDefinedNameButton": {
+			"title": "Gedefinieerde naam invoegen"
 		},
 		"editCommentButton": {
 			"title": "Opmerking bewerken"
@@ -697,7 +706,7 @@
 		"vssde-error-incompatibleType": "Er wordt een incompatibel type-argument doorgegeven aan een functie, of er wordt een incompatibel type-operand gebruikt met een operator.",
 		"vssde-error-unknownError": "Onbekende fout.",
 		"vssde-error-externalError": "Externe fout.",
-		"vssde-uriOpen-question": "Open de URL '{0}'?",
+		"vssde-uriOpen-question": "URL '{0}' openen?",
 		"vssde-uriOpen-wrongUri": "Het adres van deze site is niet geldig: {0}",
 		"vssde-createXlsxDocumentConfirmation": "Wilt u een nieuwe werkmap maken?",
 		"vssde-renameWorksheetDialog-title": "Hernoem blad",

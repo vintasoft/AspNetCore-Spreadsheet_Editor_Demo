@@ -182,6 +182,12 @@
 		"autoFitColumnWidthButton": {
 			"title": "Automātiski pielāgot kolonnas platumu"
 		},
+		"addDefinedNameButton": {
+			"title": "Pievienojiet definētu nosaukumu"
+		},
+		"definedNameManagerButton": {
+			"title": "Noteikto vārdu pārvaldnieks"
+		},
 		"insertRowsButton": {
 			"title": "Ievietojiet rindas"
 		},
@@ -211,6 +217,9 @@
 		},
 		"insertChartButton": {
 			"title": "Ievietot diagrammu"
+		},
+		"insertDefinedNameButton": {
+			"title": "Ievietojiet definēto nosaukumu"
 		},
 		"editCommentButton": {
 			"title": "Rediģēt komentāru"
@@ -697,7 +706,7 @@
 		"vssde-error-incompatibleType": "Funkcijai tiek nodots nesaderīgs tipa arguments vai ar operatoru tiek izmantots nesaderīgs tipa operands.",
 		"vssde-error-unknownError": "Nezināma kļūda.",
 		"vssde-error-externalError": "Ārēja kļūda.",
-		"vssde-uriOpen-question": "Vai atvērt URL '{0}'?",
+		"vssde-uriOpen-question": "Atvērt URL '{0}'?",
 		"vssde-uriOpen-wrongUri": "Šīs vietnes adrese nav derīga: {0}",
 		"vssde-createXlsxDocumentConfirmation": "Vai vēlaties izveidot jaunu darbgrāmatu?",
 		"vssde-renameWorksheetDialog-title": "Pārdēvēt darblapu",

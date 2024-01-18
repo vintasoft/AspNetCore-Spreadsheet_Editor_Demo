@@ -182,6 +182,12 @@
 		"autoFitColumnWidthButton": {
 			"title": "Автоматично напасване на ширината на колоната"
 		},
+		"addDefinedNameButton": {
+			"title": "Добавете дефинирано име"
+		},
+		"definedNameManagerButton": {
+			"title": "Мениджърът на определени имена"
+		},
 		"insertRowsButton": {
 			"title": "Вмъкване на редове"
 		},
@@ -211,6 +217,9 @@
 		},
 		"insertChartButton": {
 			"title": "Вмъкване на диаграма"
+		},
+		"insertDefinedNameButton": {
+			"title": "Въведете определено име"
 		},
 		"editCommentButton": {
 			"title": "Редактиране на коментар"
@@ -691,7 +700,7 @@
 		"vssde-error-cellRefCannotBeEvaluated": "Препратка към клетка не може да бъде оценена, тъй като стойността за клетката не е била извлечена или изчислена.",
 		"vssde-error-valueIsNotAvailable": "Определена стойност не е налична.",
 		"vssde-error-wrongName": "Изглежда, че се използва име, но такова име не е дефинирано.",
-		"vssde-error-twoAreasNotIntersecting": "Изисква се две области да се пресичат, но не се пресичат.",
+		"vssde-error-twoAreasNotIntersecting": "Две области трябва да се пресичат, но не се пресичат.",
 		"vssde-error-notCorrectValue": "Аргумент към функция има съвместим тип, но има стойност, която е извън домейна, върху който е дефинирана тази функция.",
 		"vssde-error-cannotEvaluateCellRef": "Препратка към клетка не може да бъде оценена.",
 		"vssde-error-incompatibleType": "Аргумент от несъвместим тип се предава на функция или операнд от несъвместим тип се използва с оператор.",

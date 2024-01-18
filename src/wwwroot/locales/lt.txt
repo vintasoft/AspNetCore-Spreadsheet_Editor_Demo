@@ -182,6 +182,12 @@
 		"autoFitColumnWidthButton": {
 			"title": "Automatiškai pritaikyti stulpelio plotį"
 		},
+		"addDefinedNameButton": {
+			"title": "Pridėkite apibrėžtą pavadinimą"
+		},
+		"definedNameManagerButton": {
+			"title": "Apibrėžtų vardų valdytojas"
+		},
 		"insertRowsButton": {
 			"title": "Įterpti eilutes"
 		},
@@ -211,6 +217,9 @@
 		},
 		"insertChartButton": {
 			"title": "Įterpti diagramą"
+		},
+		"insertDefinedNameButton": {
+			"title": "Įveskite apibrėžtą pavadinimą"
 		},
 		"editCommentButton": {
 			"title": "Redaguoti komentarą"

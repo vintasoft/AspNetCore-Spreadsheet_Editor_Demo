@@ -182,6 +182,12 @@
 		"autoFitColumnWidthButton": {
 			"title": "Sobitage veeru laius automaatselt"
 		},
+		"addDefinedNameButton": {
+			"title": "Lisage määratletud nimi"
+		},
+		"definedNameManagerButton": {
+			"title": "Määratletud nimede haldur"
+		},
 		"insertRowsButton": {
 			"title": "Sisesta read"
 		},
@@ -211,6 +217,9 @@
 		},
 		"insertChartButton": {
 			"title": "Sisesta diagramm"
+		},
+		"insertDefinedNameButton": {
+			"title": "Sisesta määratletud nimi"
 		},
 		"editCommentButton": {
 			"title": "Muuda kommentaari"

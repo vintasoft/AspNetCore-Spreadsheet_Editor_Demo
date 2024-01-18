@@ -182,6 +182,12 @@
 		"autoFitColumnWidthButton": {
 			"title": "Autotilpass kolonnebredden"
 		},
+		"addDefinedNameButton": {
+			"title": "Legg til et definert navn"
+		},
+		"definedNameManagerButton": {
+			"title": "Lederen av definerte navn"
+		},
 		"insertRowsButton": {
 			"title": "Sett inn rader"
 		},
@@ -211,6 +217,9 @@
 		},
 		"insertChartButton": {
 			"title": "Sett inn diagram"
+		},
+		"insertDefinedNameButton": {
+			"title": "Sett inn definert navn"
 		},
 		"editCommentButton": {
 			"title": "Rediger kommentar"
@@ -697,7 +706,7 @@
 		"vssde-error-incompatibleType": "Et argument for inkompatibel type sendes til en funksjon, eller en operand av inkompatibel type brukes med en operator.",
 		"vssde-error-unknownError": "Ukjent feil.",
 		"vssde-error-externalError": "Ekstern feil.",
-		"vssde-uriOpen-question": "Åpne nettadressen '{0}'?",
+		"vssde-uriOpen-question": "Åpne URL '{0}'?",
 		"vssde-uriOpen-wrongUri": "Adressen til dette nettstedet er ikke gyldig: {0}",
 		"vssde-createXlsxDocumentConfirmation": "Vil du lage en ny arbeidsbok?",
 		"vssde-renameWorksheetDialog-title": "Gi nytt navn til ark",

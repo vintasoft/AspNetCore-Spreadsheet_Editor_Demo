@@ -182,6 +182,12 @@
 		"autoFitColumnWidthButton": {
 			"title": "Аўтападбор шырыні слупка"
 		},
+		"addDefinedNameButton": {
+			"title": "Дадайце вызначанае імя"
+		},
+		"definedNameManagerButton": {
+			"title": "Менеджэр вызначаных імёнаў"
+		},
 		"insertRowsButton": {
 			"title": "Уставіць радкі"
 		},
@@ -211,6 +217,9 @@
 		},
 		"insertChartButton": {
 			"title": "Уставіць дыяграму"
+		},
+		"insertDefinedNameButton": {
+			"title": "Устаўце вызначанае імя"
 		},
 		"editCommentButton": {
 			"title": "Рэдагаваць каментар"
@@ -688,9 +697,9 @@
 		"vssde-fileSizeExceedsLimit": "Памер запампаванага файла перавышае максімальны памер ({0} байт).",
 		"vssde-error-noError": "Няма памылкі.",
 		"vssde-error-divisionByZero": "Любы лік (уключаючы нуль) або любы код памылкі дзеліцца на нуль.",
-		"vssde-error-cellRefCannotBeEvaluated": "Спасылка на ячэйку не можа быць ацэненая, таму што значэнне для ячэйкі не было атрымана або разлічана.",
+		"vssde-error-cellRefCannotBeEvaluated": "Спасылка на ячэйку не можа быць ацэненая, таму што значэнне ячэйкі не было атрымана або разлічана.",
 		"vssde-error-valueIsNotAvailable": "Прызначанае значэнне недаступнае.",
-		"vssde-error-wrongName": "Падобна на тое, што імя выкарыстоўваецца, але яно не вызначана.",
+		"vssde-error-wrongName": "Падобна на тое, што выкарыстоўваецца імя, але яно не вызначана.",
 		"vssde-error-twoAreasNotIntersecting": "Дзве вобласці павінны перасякацца, але гэтага не адбываецца.",
 		"vssde-error-notCorrectValue": "Аргумент функцыі мае сумяшчальны тып, але мае значэнне, якое знаходзіцца па-за даменам, у якім гэтая функцыя вызначана.",
 		"vssde-error-cannotEvaluateCellRef": "Спасылка на ячэйку не можа быць ацэненая.",

@@ -182,6 +182,12 @@
 		"autoFitColumnWidthButton": {
 			"title": "Samodejno prilagodi širino stolpca"
 		},
+		"addDefinedNameButton": {
+			"title": "Dodajte definirano ime"
+		},
+		"definedNameManagerButton": {
+			"title": "Upravitelj definiranih imen"
+		},
 		"insertRowsButton": {
 			"title": "Vstavi vrstice"
 		},
@@ -211,6 +217,9 @@
 		},
 		"insertChartButton": {
 			"title": "Vstavi grafikon"
+		},
+		"insertDefinedNameButton": {
+			"title": "Vnesite definirano ime"
 		},
 		"editCommentButton": {
 			"title": "Uredi komentar"

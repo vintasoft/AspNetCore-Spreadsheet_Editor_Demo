@@ -182,6 +182,12 @@
 		"autoFitColumnWidthButton": {
 			"title": "התאם אוטומטית את רוחב העמודה"
 		},
+		"addDefinedNameButton": {
+			"title": "הוסף שם מוגדר"
+		},
+		"definedNameManagerButton": {
+			"title": "מנהל השמות המוגדרים"
+		},
 		"insertRowsButton": {
 			"title": "הוסף שורות"
 		},
@@ -211,6 +217,9 @@
 		},
 		"insertChartButton": {
 			"title": "הכנס תרשים"
+		},
+		"insertDefinedNameButton": {
+			"title": "הכנס שם מוגדר"
 		},
 		"editCommentButton": {
 			"title": "ערוך תגובה"

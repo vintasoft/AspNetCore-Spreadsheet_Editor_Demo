@@ -182,6 +182,12 @@
 		"autoFitColumnWidthButton": {
 			"title": "Баған енін автоматты сәйкестендіру"
 		},
+		"addDefinedNameButton": {
+			"title": "Анықталған атауды қосыңыз"
+		},
+		"definedNameManagerButton": {
+			"title": "Анықталған атаулардың менеджері"
+		},
 		"insertRowsButton": {
 			"title": "Жолдарды кірістіру"
 		},
@@ -210,7 +216,10 @@
 			"title": "Сурет қосу"
 		},
 		"insertChartButton": {
-			"title": "Диаграмманы кірістіру"
+			"title": "Диаграмманы енгізу"
+		},
+		"insertDefinedNameButton": {
+			"title": "Анықталған атауды енгізіңіз"
 		},
 		"editCommentButton": {
 			"title": "Пікірді өңдеу"

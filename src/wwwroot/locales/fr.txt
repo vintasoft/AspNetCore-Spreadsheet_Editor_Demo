@@ -182,6 +182,12 @@
 		"autoFitColumnWidthButton": {
 			"title": "Ajuster automatiquement la largeur de la colonne"
 		},
+		"addDefinedNameButton": {
+			"title": "Ajouter un nom défini"
+		},
+		"definedNameManagerButton": {
+			"title": "Le gestionnaire des noms définis"
+		},
 		"insertRowsButton": {
 			"title": "Insérer des lignes"
 		},
@@ -211,6 +217,9 @@
 		},
 		"insertChartButton": {
 			"title": "Insérer un graphique"
+		},
+		"insertDefinedNameButton": {
+			"title": "Insérer le nom défini"
 		},
 		"editCommentButton": {
 			"title": "Modifier le commentaire"
@@ -597,13 +606,13 @@
 				"text": "Les cellules de format général n'ont pas de format numérique spécifique."
 			},
 			"numberDecimalPlacesLabel": {
-				"text": "Places décimales:"
+				"text": "Places décimales :"
 			},
 			"useThousandsSeparatorLabel": {
 				"text": "Utilisez le séparateur 1000"
 			},
 			"numberNegativeValuesLabel": {
-				"text": "Valeurs négatives:"
+				"text": "Valeurs négatives :"
 			},
 			"changeTextColorToRedLabel": {
 				"text": "Changer la couleur du texte en rouge"
@@ -612,16 +621,16 @@
 				"text": "Masquer le signe moins"
 			},
 			"currencyDecimalPlacesLabel": {
-				"text": "Places décimales:"
+				"text": "Places décimales :"
 			},
 			"currencySymbolLabel": {
 				"text": "Symbole:"
 			},
 			"percentageDecimalPlacesLabel": {
-				"text": "Places décimales:"
+				"text": "Places décimales :"
 			},
 			"scientificDecimalPlacesLabel": {
-				"text": "Places décimales:"
+				"text": "Places décimales :"
 			},
 			"textFormatDescriptionLabel": {
 				"text": "Les cellules au format texte sont traitées comme du texte même si elles contiennent un nombre."

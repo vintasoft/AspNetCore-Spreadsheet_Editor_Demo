@@ -182,6 +182,12 @@
 		"autoFitColumnWidthButton": {
 			"title": "Ustun kengligini avtomatik moslashtirish"
 		},
+		"addDefinedNameButton": {
+			"title": "Belgilangan nom qo'shing"
+		},
+		"definedNameManagerButton": {
+			"title": "Belgilangan nomlar menejeri"
+		},
 		"insertRowsButton": {
 			"title": "Qatorlarni kiriting"
 		},
@@ -211,6 +217,9 @@
 		},
 		"insertChartButton": {
 			"title": "Diagramma kiritish"
+		},
+		"insertDefinedNameButton": {
+			"title": "Belgilangan nomni kiriting"
 		},
 		"editCommentButton": {
 			"title": "Fikrni tahrirlash"
@@ -697,7 +706,7 @@
 		"vssde-error-incompatibleType": "Mos kelmaydigan turdagi argument funksiyaga uzatiladi yoki operator bilan mos kelmaydigan turdagi operand ishlatiladi.",
 		"vssde-error-unknownError": "Noma'lum xato.",
 		"vssde-error-externalError": "Tashqi xato.",
-		"vssde-uriOpen-question": "'{0}' URL manzilini ochingmi?",
+		"vssde-uriOpen-question": "'{0}' URL manzili ochilsinmi?",
 		"vssde-uriOpen-wrongUri": "Bu sayt manzili noto‘g‘ri: {0}",
 		"vssde-createXlsxDocumentConfirmation": "Yangi ish kitobini yaratmoqchimisiz?",
 		"vssde-renameWorksheetDialog-title": "Ishchi varaq nomini o'zgartirish",

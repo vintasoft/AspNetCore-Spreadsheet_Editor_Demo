@@ -182,6 +182,12 @@
 		"autoFitColumnWidthButton": {
 			"title": "Autopassa kolumnbredden"
 		},
+		"addDefinedNameButton": {
+			"title": "Lägg till ett definierat namn"
+		},
+		"definedNameManagerButton": {
+			"title": "Chef för definierade namn"
+		},
 		"insertRowsButton": {
 			"title": "Infoga rader"
 		},
@@ -211,6 +217,9 @@
 		},
 		"insertChartButton": {
 			"title": "Infoga diagram"
+		},
+		"insertDefinedNameButton": {
+			"title": "Infoga definierat namn"
 		},
 		"editCommentButton": {
 			"title": "Redigera kommentar"

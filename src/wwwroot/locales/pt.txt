@@ -182,6 +182,12 @@
 		"autoFitColumnWidthButton": {
 			"title": "Ajustar automaticamente a largura da coluna"
 		},
+		"addDefinedNameButton": {
+			"title": "Adicione um nome definido"
+		},
+		"definedNameManagerButton": {
+			"title": "O gerente de nomes definidos"
+		},
 		"insertRowsButton": {
 			"title": "Inserir Linhas"
 		},
@@ -211,6 +217,9 @@
 		},
 		"insertChartButton": {
 			"title": "Inserir gráfico"
+		},
+		"insertDefinedNameButton": {
+			"title": "Insira o nome definido"
 		},
 		"editCommentButton": {
 			"title": "Editar comentário"
@@ -697,7 +706,7 @@
 		"vssde-error-incompatibleType": "Um argumento de tipo incompatível é passado para uma função ou um operando de tipo incompatível é usado com um operador.",
 		"vssde-error-unknownError": "Erro desconhecido.",
 		"vssde-error-externalError": "Erro externo.",
-		"vssde-uriOpen-question": "Abra o URL '{0}'?",
+		"vssde-uriOpen-question": "Abrir URL '{0}'?",
 		"vssde-uriOpen-wrongUri": "O endereço deste site não é válido: {0}",
 		"vssde-createXlsxDocumentConfirmation": "Deseja criar uma nova pasta de trabalho?",
 		"vssde-renameWorksheetDialog-title": "Renomear planilha",

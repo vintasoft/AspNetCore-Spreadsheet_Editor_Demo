@@ -182,6 +182,12 @@
 		"autoFitColumnWidthButton": {
 			"title": "სვეტის სიგანის ავტომატური მორგება"
 		},
+		"addDefinedNameButton": {
+			"title": "დაამატეთ განსაზღვრული სახელი"
+		},
+		"definedNameManagerButton": {
+			"title": "განსაზღვრული სახელების მენეჯერი"
+		},
 		"insertRowsButton": {
 			"title": "რიგების ჩასმა"
 		},
@@ -211,6 +217,9 @@
 		},
 		"insertChartButton": {
 			"title": "ჩასმა დიაგრამა"
+		},
+		"insertDefinedNameButton": {
+			"title": "განსაზღვრული სახელის ჩასმა"
 		},
 		"editCommentButton": {
 			"title": "კომენტარის რედაქტირება"

@@ -182,6 +182,12 @@
 		"autoFitColumnWidthButton": {
 			"title": "احتواء تلقائي لعرض العمود"
 		},
+		"addDefinedNameButton": {
+			"title": "أضف اسمًا محددًا"
+		},
+		"definedNameManagerButton": {
+			"title": "مدير الأسماء المحددة"
+		},
 		"insertRowsButton": {
 			"title": "إدراج صفوف"
 		},
@@ -210,7 +216,10 @@
 			"title": "إضافة الصورة"
 		},
 		"insertChartButton": {
-			"title": "إدراج مخطط"
+			"title": "إدراج الرسم البياني"
+		},
+		"insertDefinedNameButton": {
+			"title": "أدخل الاسم المحدد"
 		},
 		"editCommentButton": {
 			"title": "تحرير التعليق"

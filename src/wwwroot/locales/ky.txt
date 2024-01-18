@@ -174,13 +174,19 @@
 			"title": "Калың тышкы чек аралар"
 		},
 		"cellBordersDropDownButton": {
-			"title": "Клетка чек аралары"
+			"title": "Клетканын чек аралары"
 		},
 		"autoFitRowHeightButton": {
 			"title": "Катар бийиктигин автоматтык түрдө тууралоо"
 		},
 		"autoFitColumnWidthButton": {
 			"title": "Мамычанын туурасын автоматтык түрдө тууралоо"
+		},
+		"addDefinedNameButton": {
+			"title": "Белгиленген ысымды кошуңуз"
+		},
+		"definedNameManagerButton": {
+			"title": "Белгиленген ысымдардын менеджери"
 		},
 		"insertRowsButton": {
 			"title": "Саптарды киргизүү"
@@ -210,7 +216,10 @@
 			"title": "Сүрөт кошуу"
 		},
 		"insertChartButton": {
-			"title": "Insert Chart"
+			"title": "Диаграмма киргизүү"
+		},
+		"insertDefinedNameButton": {
+			"title": "Белгиленген ысымды киргизиңиз"
 		},
 		"editCommentButton": {
 			"title": "Пикирди түзөтүү"

@@ -182,6 +182,12 @@
 		"autoFitColumnWidthButton": {
 			"title": "Автоподбор ширины столбца"
 		},
+		"addDefinedNameButton": {
+			"title": "Добавить определенное имя"
+		},
+		"definedNameManagerButton": {
+			"title": "Менеджер определенных имен"
+		},
 		"insertRowsButton": {
 			"title": "Вставить строки"
 		},
@@ -211,6 +217,9 @@
 		},
 		"insertChartButton": {
 			"title": "Вставить диаграмму"
+		},
+		"insertDefinedNameButton": {
+			"title": "Вставить определенное имя"
 		},
 		"editCommentButton": {
 			"title": "Редактировать комментарий"

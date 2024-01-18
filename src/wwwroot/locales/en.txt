@@ -182,6 +182,12 @@
 		"autoFitColumnWidthButton": {
 			"title": "AutoFit the column width"
 		},
+		"addDefinedNameButton": {
+			"title": "Add defined name"
+		},
+		"definedNameManagerButton": {
+			"title": "Defined name manager"
+		},
 		"insertRowsButton": {
 			"title": "Insert rows"
 		},
@@ -210,7 +216,10 @@
 			"title": "Add picture"
 		},
 		"insertChartButton": {
-			"title": "Insert Chart"
+			"title": "Insert chart"
+		},
+		"insertDefinedNameButton": {
+			"title": "Insert defined name"
 		},
 		"editCommentButton": {
 			"title": "Edit comment"

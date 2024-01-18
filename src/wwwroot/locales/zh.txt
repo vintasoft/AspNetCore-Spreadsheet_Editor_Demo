@@ -182,6 +182,12 @@
 		"autoFitColumnWidthButton": {
 			"title": "自动调整列宽"
 		},
+		"addDefinedNameButton": {
+			"title": "添加定义的名称"
+		},
+		"definedNameManagerButton": {
+			"title": "定义名称的管理器"
+		},
 		"insertRowsButton": {
 			"title": "插入行"
 		},
@@ -211,6 +217,9 @@
 		},
 		"insertChartButton": {
 			"title": "插入图表"
+		},
+		"insertDefinedNameButton": {
+			"title": "插入定义的名称"
 		},
 		"editCommentButton": {
 			"title": "编辑评论"
@@ -686,19 +695,19 @@
 		"vssde-downloadXlsxFile": "下载XLSX文件",
 		"vssde-exportXlsxToPdf": "将 XLSX 导出为 PDF",
 		"vssde-fileSizeExceedsLimit": "上传的文件大小超过最大大小（{0} 字节）。",
-		"vssde-error-noError": "沒有錯誤。",
-		"vssde-error-divisionByZero": "任何數字（包括零）或任何錯誤代碼都會除以零。",
-		"vssde-error-cellRefCannotBeEvaluated": "無法計算儲存格引用，因為尚未擷取或計算儲存格的值。",
-		"vssde-error-valueIsNotAvailable": "沒有指定值。",
-		"vssde-error-wrongName": "看起來好像使用了一個名稱，但尚未定義這樣的名稱。",
-		"vssde-error-twoAreasNotIntersecting": "兩個區域需要相交，但實際上並不相交。",
-		"vssde-error-notCorrectValue": "函數的參數具有相容的類型，但其值位於定義函數的域之外。",
-		"vssde-error-cannotEvaluateCellRef": "無法評估單元格引用。",
-		"vssde-error-incompatibleType": "將不相容的類型參數傳遞給函數，或將不相容的類型運算元與運算子一起使用。",
-		"vssde-error-unknownError": "未知錯誤。",
-		"vssde-error-externalError": "外部錯誤。",
-		"vssde-uriOpen-question": "開啟 URL'{0}'？",
-		"vssde-uriOpen-wrongUri": "此網站的位址無效：{0}",
+		"vssde-error-noError": "没有错误。",
+		"vssde-error-divisionByZero": "任何数字（包括零）或任何错误代码都会除以零。",
+		"vssde-error-cellRefCannotBeEvaluated": "无法计算单元格引用，因为尚未检索或计算单元格的值。",
+		"vssde-error-valueIsNotAvailable": "没有指定值。",
+		"vssde-error-wrongName": "看起来好像使用了一个名称，但尚未定义这样的名称。",
+		"vssde-error-twoAreasNotIntersecting": "两个区域需要相交，但实际上并不相交。",
+		"vssde-error-notCorrectValue": "函数的参数具有兼容的类型，但其值位于定义该函数的域之外。",
+		"vssde-error-cannotEvaluateCellRef": "无法评估单元格引用。",
+		"vssde-error-incompatibleType": "将不兼容的类型参数传递给函数，或者将不兼容的类型操作数与运算符一起使用。",
+		"vssde-error-unknownError": "未知错误。",
+		"vssde-error-externalError": "外部错误。",
+		"vssde-uriOpen-question": "打开 URL'{0}'？",
+		"vssde-uriOpen-wrongUri": "此网站的地址无效：{0}",
 		"vssde-createXlsxDocumentConfirmation": "您想创建一个新的工作簿吗？",
 		"vssde-renameWorksheetDialog-title": "重命名工作表",
 		"vssde-dialog-okButton": "好的",

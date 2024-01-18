@@ -182,6 +182,12 @@
 		"autoFitColumnWidthButton": {
 			"title": "열 너비 자동 맞춤"
 		},
+		"addDefinedNameButton": {
+			"title": "정의된 이름 추가"
+		},
+		"definedNameManagerButton": {
+			"title": "정의된 이름의 관리자"
+		},
 		"insertRowsButton": {
 			"title": "행 삽입"
 		},
@@ -211,6 +217,9 @@
 		},
 		"insertChartButton": {
 			"title": "차트 삽입"
+		},
+		"insertDefinedNameButton": {
+			"title": "정의된 이름 삽입"
 		},
 		"editCommentButton": {
 			"title": "댓글 편집"
@@ -697,7 +706,7 @@
 		"vssde-error-incompatibleType": "호환되지 않는 유형 인수가 함수에 전달되었거나 호환되지 않는 유형 피연산자가 연산자와 함께 사용되었습니다.",
 		"vssde-error-unknownError": "알수없는 오류.",
 		"vssde-error-externalError": "외부 오류입니다.",
-		"vssde-uriOpen-question": "'{0}' URL을 여시겠습니까?",
+		"vssde-uriOpen-question": "URL '{0}'을(를) 여시겠습니까?",
 		"vssde-uriOpen-wrongUri": "이 사이트의 주소가 유효하지 않습니다: {0}",
 		"vssde-createXlsxDocumentConfirmation": "새 통합 문서를 만드시겠습니까?",
 		"vssde-renameWorksheetDialog-title": "시트 이름 바꾸기",

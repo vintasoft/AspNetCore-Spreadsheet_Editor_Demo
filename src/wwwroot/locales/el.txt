@@ -182,6 +182,12 @@
 		"autoFitColumnWidthButton": {
 			"title": "Αυτόματη προσαρμογή του πλάτους της στήλης"
 		},
+		"addDefinedNameButton": {
+			"title": "Προσθέστε ένα καθορισμένο όνομα"
+		},
+		"definedNameManagerButton": {
+			"title": "Ο διαχειριστής καθορισμένων ονομάτων"
+		},
 		"insertRowsButton": {
 			"title": "Εισαγωγή σειρών"
 		},
@@ -211,6 +217,9 @@
 		},
 		"insertChartButton": {
 			"title": "Εισαγωγή γραφήματος"
+		},
+		"insertDefinedNameButton": {
+			"title": "Εισαγάγετε το καθορισμένο όνομα"
 		},
 		"editCommentButton": {
 			"title": "Επεξεργασία σχολίου"
@@ -691,13 +700,13 @@
 		"vssde-error-cellRefCannotBeEvaluated": "Δεν είναι δυνατή η αξιολόγηση μιας αναφοράς κελιού επειδή η τιμή για το κελί δεν έχει ανακτηθεί ή υπολογιστεί.",
 		"vssde-error-valueIsNotAvailable": "Δεν είναι διαθέσιμη καθορισμένη τιμή.",
 		"vssde-error-wrongName": "Φαίνεται ότι χρησιμοποιείται ένα όνομα αλλά δεν έχει οριστεί τέτοιο όνομα.",
-		"vssde-error-twoAreasNotIntersecting": "Απαιτούνται δύο περιοχές για να διασταυρωθούν αλλά όχι.",
+		"vssde-error-twoAreasNotIntersecting": "Απαιτούνται δύο περιοχές να διασταυρωθούν αλλά όχι.",
 		"vssde-error-notCorrectValue": "Ένα όρισμα σε μια συνάρτηση έχει έναν συμβατό τύπο, αλλά έχει μια τιμή που βρίσκεται εκτός του τομέα στον οποίο έχει οριστεί αυτή η συνάρτηση.",
 		"vssde-error-cannotEvaluateCellRef": "Δεν είναι δυνατή η αξιολόγηση μιας αναφοράς κελιού.",
 		"vssde-error-incompatibleType": "Ένα όρισμα μη συμβατού τύπου μεταβιβάζεται σε μια συνάρτηση ή ένας τελεστής μη συμβατού τύπου χρησιμοποιείται με έναν τελεστή.",
 		"vssde-error-unknownError": "Αγνωστο σφάλμα.",
 		"vssde-error-externalError": "Εξωτερικό σφάλμα.",
-		"vssde-uriOpen-question": "Άνοιγμα της διεύθυνσης URL '{0}';",
+		"vssde-uriOpen-question": "Άνοιγμα διεύθυνσης URL '{0}' ;",
 		"vssde-uriOpen-wrongUri": "Η διεύθυνση αυτού του ιστότοπου δεν είναι έγκυρη: {0}",
 		"vssde-createXlsxDocumentConfirmation": "Θέλετε να δημιουργήσετε ένα νέο βιβλίο εργασίας;",
 		"vssde-renameWorksheetDialog-title": "Μετονομασία φύλλου",

@@ -182,6 +182,12 @@
 		"autoFitColumnWidthButton": {
 			"title": "Automaticky přizpůsobit šířku sloupce"
 		},
+		"addDefinedNameButton": {
+			"title": "Přidejte definovaný název"
+		},
+		"definedNameManagerButton": {
+			"title": "Správce definovaných jmen"
+		},
 		"insertRowsButton": {
 			"title": "Vložit řádky"
 		},
@@ -211,6 +217,9 @@
 		},
 		"insertChartButton": {
 			"title": "Vložit graf"
+		},
+		"insertDefinedNameButton": {
+			"title": "Vložte definovaný název"
 		},
 		"editCommentButton": {
 			"title": "Upravit komentář"
@@ -473,7 +482,7 @@
 				"text": "Komentáře"
 			},
 			"matchCaseLabel": {
-				"text": "Rozlišují se malá a velká písmena"
+				"text": "rozlišují se malá a velká písmena"
 			},
 			"matchEntireContentLabel": {
 				"text": "Přesná shoda"
@@ -657,7 +666,7 @@
 				"text": "Webová stránka"
 			},
 			"referenceRadioLabel": {
-				"text": "Reference buňky"
+				"text": " Reference buňky"
 			},
 			"addressLabel": {
 				"text": "Adresa:"
