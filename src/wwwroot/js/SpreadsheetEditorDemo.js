@@ -177,7 +177,7 @@ function __changeDemoHeaderVisibility(hide) {
 */
 function __createUiLocalizationDictionary() {
     var tempDialogs = [];
-    __createDocumentViewerDialogsForLocalization(tempDialogs);
+    __createDicomViewerDialogsForLocalization(tempDialogs);
 
     if (_localizer == null)
         // create UI localizer
@@ -197,7 +197,7 @@ function __createUiLocalizationDictionary() {
 /**
  Creates the dialogs, which are used in Web Document Viewer, for localization.
 */
-function __createDocumentViewerDialogsForLocalization(tempDialogs) {
+function __createDicomViewerDialogsForLocalization(tempDialogs) {
     var floatingContainer = document.getElementById("spreadsheetDocumentEditorControlContainer");
 
     var spreadsheetEditorControl = _spreadsheetDocumentEditorControl.get_SpreadsheetEditorControl();
