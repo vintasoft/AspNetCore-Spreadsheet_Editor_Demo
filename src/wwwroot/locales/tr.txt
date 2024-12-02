@@ -15,6 +15,9 @@
 		"reviewLabel": {
 			"text": "Yorumlar"
 		},
+		"showMobileMenuButton": {
+			"title": "Daha fazla"
+		},
 		"createXlsxDocumentButton": {
 			"title": "Yeni XLSX belgesi oluştur"
 		},
@@ -26,9 +29,6 @@
 		},
 		"exportXlsxToPdfButton": {
 			"title": "XLSX'i PDF'ye Aktar"
-		},
-		"showMobileMenuButton": {
-			"title": "Daha fazla"
 		},
 		"boldTextButton": {
 			"title": "Kalın"
@@ -73,7 +73,25 @@
 			"title": "Metni kaydır"
 		},
 		"currencyNumberFormatButton": {
-			"title": "Finansal sayı biçimi"
+			"title": "Finansal sayı biçimi",
+			"enUsCurrencyNumberFormatButton": {
+				"title": "$ İngiliz (ABD)"
+			},
+			"enUkCurrencyNumberFormatButton": {
+				"title": "£ İngilizce (Birleşik Krallık)"
+			},
+			"euCurrencyNumberFormatButton": {
+				"title": "€ Avro (123 €)"
+			},
+			"ruCurrencyNumberFormatButton": {
+				"title": "₽ Rusça"
+			},
+			"chCurrencyNumberFormatButton": {
+				"title": "¥ Çince"
+			},
+			"enInCurrencyNumberFormatButton": {
+				"title": "$ İngiliz (Hindistan)"
+			}
 		},
 		"increaseDecimalButton": {
 			"title": "Ondalık sayıyı artır"
@@ -165,7 +183,19 @@
 			"title": "Hücreleri ayırma"
 		},
 		"fillCells": {
-			"title": "Hücreleri doldur"
+			"title": "Hücreleri doldur",
+			"fillCellsDownButton": {
+				"title": "Doldur"
+			},
+			"fillCellsUpButton": {
+				"title": "Doldur"
+			},
+			"fillCellsLeftButton": {
+				"title": "Solu Doldur"
+			},
+			"fillCellsRightButton": {
+				"title": "Sağdan Doldur"
+			}
 		},
 		"allBordersButton": {
 			"title": "Tüm Kenarlıklar"
@@ -174,7 +204,40 @@
 			"title": "Kalın dış kenarlıklar"
 		},
 		"cellBordersDropDownButton": {
-			"title": "Hücre Sınırları"
+			"title": "Hücre Sınırları",
+			"noBordersButton": {
+				"title": "Sınır yok"
+			},
+			"outsideBordersButton": {
+				"title": "Dış sınırlar"
+			},
+			"bottomBorderButton": {
+				"title": "Alt sınır"
+			},
+			"topBorderButton": {
+				"title": "Üst Kenarlık"
+			},
+			"rightBorderButton": {
+				"title": "Sağ Kenarlık"
+			},
+			"leftBorderButton": {
+				"title": "Sol Kenarlık"
+			},
+			"thickBottomBorderButton": {
+				"title": "Kalın Alt Kenarlık"
+			},
+			"thickLeftBorderButton": {
+				"title": "Kalın Sol Kenarlık"
+			},
+			"doubleBottomBorderButton": {
+				"title": "Çift Alt Kenarlık"
+			},
+			"doubleLeftBorderButton": {
+				"title": "Çift Sol Kenarlık"
+			},
+			"borderColorButton": {
+				"title": "Sınır rengi"
+			}
 		},
 		"autoFitRowHeightButton": {
 			"title": "Satır yüksekliğini otomatik sığdır"
@@ -262,69 +325,6 @@
 		},
 		"zoomInButton": {
 			"title": "Yakınlaştır"
-		},
-		"enUsCurrencyNumberFormatButton": {
-			"title": "$ İngiliz (ABD)"
-		},
-		"enUkCurrencyNumberFormatButton": {
-			"title": "£ İngilizce (Birleşik Krallık)"
-		},
-		"euCurrencyNumberFormatButton": {
-			"title": "€ Avro (123 €)"
-		},
-		"ruCurrencyNumberFormatButton": {
-			"title": "₽ Rusça"
-		},
-		"chCurrencyNumberFormatButton": {
-			"title": "¥ Çince"
-		},
-		"enInCurrencyNumberFormatButton": {
-			"title": "$ İngiliz (Hindistan)"
-		},
-		"fillCellsDownButton": {
-			"title": "Doldur"
-		},
-		"fillCellsUpButton": {
-			"title": "Doldur"
-		},
-		"fillCellsLeftButton": {
-			"title": "Solu Doldur"
-		},
-		"fillCellsRightButton": {
-			"title": "Sağdan Doldur"
-		},
-		"noBordersButton": {
-			"title": "Sınır yok"
-		},
-		"outsideBordersButton": {
-			"title": "Dış sınırlar"
-		},
-		"bottomBorderButton": {
-			"title": "Alt sınır"
-		},
-		"topBorderButton": {
-			"title": "Üst Kenarlık"
-		},
-		"rightBorderButton": {
-			"title": "Sağ Kenarlık"
-		},
-		"leftBorderButton": {
-			"title": "Sol Kenarlık"
-		},
-		"thickBottomBorderButton": {
-			"title": "Kalın Alt Kenarlık"
-		},
-		"thickLeftBorderButton": {
-			"title": "Kalın Sol Kenarlık"
-		},
-		"doubleBottomBorderButton": {
-			"title": "Çift Alt Kenarlık"
-		},
-		"doubleLeftBorderButton": {
-			"title": "Çift Sol Kenarlık"
-		},
-		"borderColorButton": {
-			"title": "Sınır rengi"
 		},
 		"copyWorksheetLabel": {
 			"text": "Sayfayı Kopyala"

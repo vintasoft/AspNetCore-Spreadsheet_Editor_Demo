@@ -15,6 +15,9 @@
 		"reviewLabel": {
 			"text": "Syn"
 		},
+		"showMobileMenuButton": {
+			"title": "Has köp"
+		},
 		"createXlsxDocumentButton": {
 			"title": "Täze XLSX resminama dörediň"
 		},
@@ -26,9 +29,6 @@
 		},
 		"exportXlsxToPdfButton": {
 			"title": "XLSX-ni PDF-e eksport ediň"
-		},
-		"showMobileMenuButton": {
-			"title": "Has köp"
 		},
 		"boldTextButton": {
 			"title": "Goňur tekst"
@@ -73,7 +73,25 @@
 			"title": "Tekstiň gaplanyşy"
 		},
 		"currencyNumberFormatButton": {
-			"title": "Walýuta belgisiniň formaty"
+			"title": "Walýuta belgisiniň formaty",
+			"enUsCurrencyNumberFormatButton": {
+				"title": "Iňlis dili (ABŞ)"
+			},
+			"enUkCurrencyNumberFormatButton": {
+				"title": "£ Iňlis (Beýik Britaniýa)"
+			},
+			"euCurrencyNumberFormatButton": {
+				"title": "€ Euroewro (€ 123)"
+			},
+			"ruCurrencyNumberFormatButton": {
+				"title": "₽ Rus"
+			},
+			"chCurrencyNumberFormatButton": {
+				"title": "¥ Hytaý"
+			},
+			"enInCurrencyNumberFormatButton": {
+				"title": "₹ Iňlis (Hindistan)"
+			}
 		},
 		"increaseDecimalButton": {
 			"title": "Onluk köpeltmek"
@@ -165,7 +183,19 @@
 			"title": "Öýjükleri birleşdiriň"
 		},
 		"fillCells": {
-			"title": "Öýjükleri dolduryň"
+			"title": "Öýjükleri dolduryň",
+			"fillCellsDownButton": {
+				"title": "Doldur"
+			},
+			"fillCellsUpButton": {
+				"title": "Doldur"
+			},
+			"fillCellsLeftButton": {
+				"title": "Çep dolduryň"
+			},
+			"fillCellsRightButton": {
+				"title": "Dogry dolduryň"
+			}
 		},
 		"allBordersButton": {
 			"title": "Allhli serhetler"
@@ -174,7 +204,40 @@
 			"title": "Serhetleriň daşyndaky galyňlyk"
 		},
 		"cellBordersDropDownButton": {
-			"title": "Öýjük araçäkleri"
+			"title": "Öýjük araçäkleri",
+			"noBordersButton": {
+				"title": "Serhet ýok"
+			},
+			"outsideBordersButton": {
+				"title": "Serhetleriň daşynda"
+			},
+			"bottomBorderButton": {
+				"title": "Aşakdaky serhet"
+			},
+			"topBorderButton": {
+				"title": "Iň ýokary serhet"
+			},
+			"rightBorderButton": {
+				"title": "Sag serhet"
+			},
+			"leftBorderButton": {
+				"title": "Çep serhet"
+			},
+			"thickBottomBorderButton": {
+				"title": "Galyň aşaky serhet"
+			},
+			"thickLeftBorderButton": {
+				"title": "Galyň çep serhet"
+			},
+			"doubleBottomBorderButton": {
+				"title": "Iki aşaky serhet"
+			},
+			"doubleLeftBorderButton": {
+				"title": "Iki gezek çep araçäk"
+			},
+			"borderColorButton": {
+				"title": "Serhet reňki"
+			}
 		},
 		"autoFitRowHeightButton": {
 			"title": "Setiriň beýikligini 'AutoFit'"
@@ -262,69 +325,6 @@
 		},
 		"zoomInButton": {
 			"title": "Ýakynlaşdyrmak"
-		},
-		"enUsCurrencyNumberFormatButton": {
-			"title": "Iňlis dili (ABŞ)"
-		},
-		"enUkCurrencyNumberFormatButton": {
-			"title": "£ Iňlis (Beýik Britaniýa)"
-		},
-		"euCurrencyNumberFormatButton": {
-			"title": "€ Euroewro (€ 123)"
-		},
-		"ruCurrencyNumberFormatButton": {
-			"title": "₽ Rus"
-		},
-		"chCurrencyNumberFormatButton": {
-			"title": "¥ Hytaý"
-		},
-		"enInCurrencyNumberFormatButton": {
-			"title": "₹ Iňlis (Hindistan)"
-		},
-		"fillCellsDownButton": {
-			"title": "Doldur"
-		},
-		"fillCellsUpButton": {
-			"title": "Doldur"
-		},
-		"fillCellsLeftButton": {
-			"title": "Çep dolduryň"
-		},
-		"fillCellsRightButton": {
-			"title": "Dogry dolduryň"
-		},
-		"noBordersButton": {
-			"title": "Serhet ýok"
-		},
-		"outsideBordersButton": {
-			"title": "Serhetleriň daşynda"
-		},
-		"bottomBorderButton": {
-			"title": "Aşakdaky serhet"
-		},
-		"topBorderButton": {
-			"title": "Iň ýokary serhet"
-		},
-		"rightBorderButton": {
-			"title": "Sag serhet"
-		},
-		"leftBorderButton": {
-			"title": "Çep serhet"
-		},
-		"thickBottomBorderButton": {
-			"title": "Galyň aşaky serhet"
-		},
-		"thickLeftBorderButton": {
-			"title": "Galyň çep serhet"
-		},
-		"doubleBottomBorderButton": {
-			"title": "Iki aşaky serhet"
-		},
-		"doubleLeftBorderButton": {
-			"title": "Iki gezek çep araçäk"
-		},
-		"borderColorButton": {
-			"title": "Serhet reňki"
 		},
 		"copyWorksheetLabel": {
 			"text": "Iş sahypasyny göçüriň"

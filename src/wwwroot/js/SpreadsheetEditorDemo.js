@@ -81,6 +81,8 @@ function __onCopyFile_success(data) {
 */
 function __onCopyFile_error(data) {
     alert(data.errorMessage);
+    
+    _spreadsheetDocumentEditorControl.updateUI();
 }
 
 
@@ -202,43 +204,43 @@ function __createDicomViewerDialogsForLocalization(tempDialogs) {
 
     var spreadsheetEditorControl = _spreadsheetDocumentEditorControl.get_SpreadsheetEditorControl();
 
-    var renameWorksheetDialog = new Vintasoft.Imaging.Office.UI.Dialogs.WebUiRenameWorksheetDialogJS(spreadsheetEditorControl);
+    var renameWorksheetDialog = new Vintasoft.Imaging.Office.UI.Dialogs.WebUiRenameWorksheetDialogJS();
     renameWorksheetDialog.render(floatingContainer);
     tempDialogs.push(renameWorksheetDialog);
 
-    var moveWorksheetDialog = new Vintasoft.Imaging.Office.UI.Dialogs.WebUiMoveWorksheetDialogJS(spreadsheetEditorControl);
+    var moveWorksheetDialog = new Vintasoft.Imaging.Office.UI.Dialogs.WebUiMoveWorksheetDialogJS();
     moveWorksheetDialog.render(floatingContainer);
     tempDialogs.push(moveWorksheetDialog);
 
-    var findTextDialog = new Vintasoft.Imaging.Office.UI.Dialogs.WebUiFindTextDialogJS(spreadsheetEditorControl);
+    var findTextDialog = new Vintasoft.Imaging.Office.UI.Dialogs.WebUiFindTextDialogJS();
     findTextDialog.render(floatingContainer);
     tempDialogs.push(findTextDialog);
 
-    var selectFunctionDialog = new Vintasoft.Imaging.Office.UI.Dialogs.WebUiSelectFunctionDialogJS(spreadsheetEditorControl);
+    var selectFunctionDialog = new Vintasoft.Imaging.Office.UI.Dialogs.WebUiSelectFunctionDialogJS();
     selectFunctionDialog.render(floatingContainer);
     tempDialogs.push(selectFunctionDialog);
 
-    var insertCommentDialog = new Vintasoft.Imaging.Office.UI.Dialogs.WebUiInsertCommentDialogJS(spreadsheetEditorControl);
+    var insertCommentDialog = new Vintasoft.Imaging.Office.UI.Dialogs.WebUiInsertCommentDialogJS();
     insertCommentDialog.render(floatingContainer);
     tempDialogs.push(insertCommentDialog);
 
-    var editCommentDialog = new Vintasoft.Imaging.Office.UI.Dialogs.WebUiEditCommentDialogJS(spreadsheetEditorControl);
+    var editCommentDialog = new Vintasoft.Imaging.Office.UI.Dialogs.WebUiEditCommentDialogJS();
     editCommentDialog.render(floatingContainer);
     tempDialogs.push(editCommentDialog);
 
-    var cellNumberFormatDialog = new Vintasoft.Imaging.Office.UI.Dialogs.WebUiCellNumberFormatDialogJS(spreadsheetEditorControl);
+    var cellNumberFormatDialog = new Vintasoft.Imaging.Office.UI.Dialogs.WebUiCellNumberFormatDialogJS();
     cellNumberFormatDialog.render(floatingContainer);
     tempDialogs.push(cellNumberFormatDialog);
 
-    var insertChartDialog = new Vintasoft.Imaging.Office.UI.Dialogs.WebUiInsertChartDialogJS(spreadsheetEditorControl, "ChartSource.xlsx");
+    var insertChartDialog = new Vintasoft.Imaging.Office.UI.Dialogs.WebUiInsertChartDialogJS("ChartSource.xlsx");
     insertChartDialog.render(floatingContainer);
     tempDialogs.push(insertChartDialog);
 
-    var editChartPropertiesDialog = new Vintasoft.Imaging.Office.UI.Dialogs.WebUiEditChartPropertiesDialogJS(spreadsheetEditorControl);
+    var editChartPropertiesDialog = new Vintasoft.Imaging.Office.UI.Dialogs.WebUiEditChartPropertiesDialogJS();
     editChartPropertiesDialog.render(floatingContainer);
     tempDialogs.push(editChartPropertiesDialog);
 
-    var editHyperlinkDialog = new Vintasoft.Imaging.Office.UI.Dialogs.WebUiEditHyperlinkDialogJS(spreadsheetEditorControl);
+    var editHyperlinkDialog = new Vintasoft.Imaging.Office.UI.Dialogs.WebUiEditHyperlinkDialogJS();
     editHyperlinkDialog.render(floatingContainer);
     tempDialogs.push(editHyperlinkDialog);
 }

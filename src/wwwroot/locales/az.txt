@@ -15,6 +15,9 @@
 		"reviewLabel": {
 			"text": "Baxış-icmal"
 		},
+		"showMobileMenuButton": {
+			"title": "Daha çox"
+		},
 		"createXlsxDocumentButton": {
 			"title": "Yeni XLSX sənədi yaradın"
 		},
@@ -26,9 +29,6 @@
 		},
 		"exportXlsxToPdfButton": {
 			"title": "XLSX-i PDF-ə ixrac edin"
-		},
-		"showMobileMenuButton": {
-			"title": "Daha çox"
 		},
 		"boldTextButton": {
 			"title": "Qalın mətn"
@@ -73,7 +73,25 @@
 			"title": "Mətnin qablaşdırılması"
 		},
 		"currencyNumberFormatButton": {
-			"title": "Valyuta nömrəsi formatı"
+			"title": "Valyuta nömrəsi formatı",
+			"enUsCurrencyNumberFormatButton": {
+				"title": "$ İngilis (ABŞ)"
+			},
+			"enUkCurrencyNumberFormatButton": {
+				"title": "£ İngilis (Birləşmiş Krallıq)"
+			},
+			"euCurrencyNumberFormatButton": {
+				"title": "€ Avro (€ 123)"
+			},
+			"ruCurrencyNumberFormatButton": {
+				"title": "₽ rus"
+			},
+			"chCurrencyNumberFormatButton": {
+				"title": "¥ Çin"
+			},
+			"enInCurrencyNumberFormatButton": {
+				"title": "₹ İngilis (Hindistan)"
+			}
 		},
 		"increaseDecimalButton": {
 			"title": "Onluğu artırın"
@@ -165,7 +183,19 @@
 			"title": "Hüceyrələri ayırın"
 		},
 		"fillCells": {
-			"title": "Hüceyrələri doldurun"
+			"title": "Hüceyrələri doldurun",
+			"fillCellsDownButton": {
+				"title": "Doldurun"
+			},
+			"fillCellsUpButton": {
+				"title": "Doldurmaq"
+			},
+			"fillCellsLeftButton": {
+				"title": "Sol doldurun"
+			},
+			"fillCellsRightButton": {
+				"title": "Sağa doldurun"
+			}
 		},
 		"allBordersButton": {
 			"title": "Bütün Sərhədlər"
@@ -174,7 +204,40 @@
 			"title": "Qalın Xarici Sərhədlər"
 		},
 		"cellBordersDropDownButton": {
-			"title": "Hüceyrə Sərhədləri"
+			"title": "Hüceyrə Sərhədləri",
+			"noBordersButton": {
+				"title": "Sərhədsiz"
+			},
+			"outsideBordersButton": {
+				"title": "Xarici Sərhədlər"
+			},
+			"bottomBorderButton": {
+				"title": "Aşağı Sərhəd"
+			},
+			"topBorderButton": {
+				"title": "Üst Sərhəd"
+			},
+			"rightBorderButton": {
+				"title": "Sağ Sərhəd"
+			},
+			"leftBorderButton": {
+				"title": "Sol Sərhəd"
+			},
+			"thickBottomBorderButton": {
+				"title": "Qalın Alt Haşiyə"
+			},
+			"thickLeftBorderButton": {
+				"title": "Qalın Sol Sərhəd"
+			},
+			"doubleBottomBorderButton": {
+				"title": "İkiqat alt sərhəd"
+			},
+			"doubleLeftBorderButton": {
+				"title": "İkiqat Sol Haşiyə"
+			},
+			"borderColorButton": {
+				"title": "Sərhəd rəngi"
+			}
 		},
 		"autoFitRowHeightButton": {
 			"title": "Sətir hündürlüyünü avtomatik uyğunlaşdırın"
@@ -262,69 +325,6 @@
 		},
 		"zoomInButton": {
 			"title": "Yaxınlaşdırma"
-		},
-		"enUsCurrencyNumberFormatButton": {
-			"title": "$ İngilis (ABŞ)"
-		},
-		"enUkCurrencyNumberFormatButton": {
-			"title": "£ İngilis (Birləşmiş Krallıq)"
-		},
-		"euCurrencyNumberFormatButton": {
-			"title": "€ Avro (€ 123)"
-		},
-		"ruCurrencyNumberFormatButton": {
-			"title": "₽ rus"
-		},
-		"chCurrencyNumberFormatButton": {
-			"title": "¥ Çin"
-		},
-		"enInCurrencyNumberFormatButton": {
-			"title": "₹ İngilis (Hindistan)"
-		},
-		"fillCellsDownButton": {
-			"title": "Doldurun"
-		},
-		"fillCellsUpButton": {
-			"title": "Doldurmaq"
-		},
-		"fillCellsLeftButton": {
-			"title": "Sol doldurun"
-		},
-		"fillCellsRightButton": {
-			"title": "Sağa doldurun"
-		},
-		"noBordersButton": {
-			"title": "Sərhədsiz"
-		},
-		"outsideBordersButton": {
-			"title": "Xarici Sərhədlər"
-		},
-		"bottomBorderButton": {
-			"title": "Aşağı Sərhəd"
-		},
-		"topBorderButton": {
-			"title": "Üst Sərhəd"
-		},
-		"rightBorderButton": {
-			"title": "Sağ Sərhəd"
-		},
-		"leftBorderButton": {
-			"title": "Sol Sərhəd"
-		},
-		"thickBottomBorderButton": {
-			"title": "Qalın Alt Haşiyə"
-		},
-		"thickLeftBorderButton": {
-			"title": "Qalın Sol Sərhəd"
-		},
-		"doubleBottomBorderButton": {
-			"title": "İkiqat alt sərhəd"
-		},
-		"doubleLeftBorderButton": {
-			"title": "İkiqat Sol Haşiyə"
-		},
-		"borderColorButton": {
-			"title": "Sərhəd rəngi"
 		},
 		"copyWorksheetLabel": {
 			"text": "İş vərəqini kopyalayın"

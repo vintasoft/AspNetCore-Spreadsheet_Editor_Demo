@@ -15,6 +15,9 @@
 		"reviewLabel": {
 			"text": "Comentarios"
 		},
+		"showMobileMenuButton": {
+			"title": "Más"
+		},
 		"createXlsxDocumentButton": {
 			"title": "Crear nuevo documento XLSX"
 		},
@@ -26,9 +29,6 @@
 		},
 		"exportXlsxToPdfButton": {
 			"title": "Exportar XLSX a PDF"
-		},
-		"showMobileMenuButton": {
-			"title": "Más"
 		},
 		"boldTextButton": {
 			"title": "Negrita"
@@ -73,7 +73,25 @@
 			"title": "Ajustar texto"
 		},
 		"currencyNumberFormatButton": {
-			"title": "Formato de número financiero"
+			"title": "Formato de número financiero",
+			"enUsCurrencyNumberFormatButton": {
+				"title": "$ Inglés (EE. UU.)"
+			},
+			"enUkCurrencyNumberFormatButton": {
+				"title": "£ Inglés (Reino Unido)"
+			},
+			"euCurrencyNumberFormatButton": {
+				"title": "€ Euros (123 €)"
+			},
+			"ruCurrencyNumberFormatButton": {
+				"title": "₽ Ruso"
+			},
+			"chCurrencyNumberFormatButton": {
+				"title": "¥ Chino"
+			},
+			"enInCurrencyNumberFormatButton": {
+				"title": "$ Inglés (India)"
+			}
 		},
 		"increaseDecimalButton": {
 			"title": "aumentar decimales"
@@ -165,7 +183,19 @@
 			"title": "Separar celdas"
 		},
 		"fillCells": {
-			"title": "Rellenar celdas"
+			"title": "Rellenar celdas",
+			"fillCellsDownButton": {
+				"title": "Rellenar hacia abajo"
+			},
+			"fillCellsUpButton": {
+				"title": "Llenar"
+			},
+			"fillCellsLeftButton": {
+				"title": "Llenar a la izquierda"
+			},
+			"fillCellsRightButton": {
+				"title": "Rellenar a la derecha"
+			}
 		},
 		"allBordersButton": {
 			"title": "Todos los bordes"
@@ -174,7 +204,40 @@
 			"title": "Bordes exteriores gruesos"
 		},
 		"cellBordersDropDownButton": {
-			"title": "Bordes de celda"
+			"title": "Bordes de celda",
+			"noBordersButton": {
+				"title": "Sin Fronteras"
+			},
+			"outsideBordersButton": {
+				"title": "Límites exteriores"
+			},
+			"bottomBorderButton": {
+				"title": "Borde inferior"
+			},
+			"topBorderButton": {
+				"title": "Borde superior"
+			},
+			"rightBorderButton": {
+				"title": "Borde derecho"
+			},
+			"leftBorderButton": {
+				"title": "Borde izquierdo"
+			},
+			"thickBottomBorderButton": {
+				"title": "borde inferior grueso"
+			},
+			"thickLeftBorderButton": {
+				"title": "Borde izquierdo grueso"
+			},
+			"doubleBottomBorderButton": {
+				"title": "borde inferior doble"
+			},
+			"doubleLeftBorderButton": {
+				"title": "Borde izquierdo doble"
+			},
+			"borderColorButton": {
+				"title": "Color del borde"
+			}
 		},
 		"autoFitRowHeightButton": {
 			"title": "Autoajustar la altura de la fila"
@@ -262,69 +325,6 @@
 		},
 		"zoomInButton": {
 			"title": "Acercar"
-		},
-		"enUsCurrencyNumberFormatButton": {
-			"title": "$ Inglés (EE. UU.)"
-		},
-		"enUkCurrencyNumberFormatButton": {
-			"title": "£ Inglés (Reino Unido)"
-		},
-		"euCurrencyNumberFormatButton": {
-			"title": "€ Euros (123 €)"
-		},
-		"ruCurrencyNumberFormatButton": {
-			"title": "₽ Ruso"
-		},
-		"chCurrencyNumberFormatButton": {
-			"title": "¥ Chino"
-		},
-		"enInCurrencyNumberFormatButton": {
-			"title": "$ Inglés (India)"
-		},
-		"fillCellsDownButton": {
-			"title": "Rellenar hacia abajo"
-		},
-		"fillCellsUpButton": {
-			"title": "Llenar"
-		},
-		"fillCellsLeftButton": {
-			"title": "Llenar a la izquierda"
-		},
-		"fillCellsRightButton": {
-			"title": "Rellenar a la derecha"
-		},
-		"noBordersButton": {
-			"title": "Sin Fronteras"
-		},
-		"outsideBordersButton": {
-			"title": "Límites exteriores"
-		},
-		"bottomBorderButton": {
-			"title": "Borde inferior"
-		},
-		"topBorderButton": {
-			"title": "Borde superior"
-		},
-		"rightBorderButton": {
-			"title": "Borde derecho"
-		},
-		"leftBorderButton": {
-			"title": "Borde izquierdo"
-		},
-		"thickBottomBorderButton": {
-			"title": "borde inferior grueso"
-		},
-		"thickLeftBorderButton": {
-			"title": "Borde izquierdo grueso"
-		},
-		"doubleBottomBorderButton": {
-			"title": "borde inferior doble"
-		},
-		"doubleLeftBorderButton": {
-			"title": "Borde izquierdo doble"
-		},
-		"borderColorButton": {
-			"title": "Color del borde"
 		},
 		"copyWorksheetLabel": {
 			"text": "Copiar hoja"

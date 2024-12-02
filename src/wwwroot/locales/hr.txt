@@ -15,6 +15,9 @@
 		"reviewLabel": {
 			"text": "Komentari"
 		},
+		"showMobileMenuButton": {
+			"title": "Više"
+		},
 		"createXlsxDocumentButton": {
 			"title": "Stvorite novi XLSX dokument"
 		},
@@ -26,9 +29,6 @@
 		},
 		"exportXlsxToPdfButton": {
 			"title": "Izvezite XLSX u PDF"
-		},
-		"showMobileMenuButton": {
-			"title": "Više"
 		},
 		"boldTextButton": {
 			"title": "Podebljano"
@@ -73,7 +73,25 @@
 			"title": "Prelomi tekst"
 		},
 		"currencyNumberFormatButton": {
-			"title": "Format financijskog broja"
+			"title": "Format financijskog broja",
+			"enUsCurrencyNumberFormatButton": {
+				"title": "$ engleski (SAD)"
+			},
+			"enUkCurrencyNumberFormatButton": {
+				"title": "£ engleski (Ujedinjeno Kraljevstvo)"
+			},
+			"euCurrencyNumberFormatButton": {
+				"title": "€ eura (123 €)"
+			},
+			"ruCurrencyNumberFormatButton": {
+				"title": "₽ ruski"
+			},
+			"chCurrencyNumberFormatButton": {
+				"title": "¥ Kineski"
+			},
+			"enInCurrencyNumberFormatButton": {
+				"title": "₹ engleski (Indija)"
+			}
 		},
 		"increaseDecimalButton": {
 			"title": "Povećaj decimalu"
@@ -165,7 +183,19 @@
 			"title": "Poništi spajanje ćelija"
 		},
 		"fillCells": {
-			"title": "Ispunite ćelije"
+			"title": "Ispunite ćelije",
+			"fillCellsDownButton": {
+				"title": "Popunite"
+			},
+			"fillCellsUpButton": {
+				"title": "Napunite"
+			},
+			"fillCellsLeftButton": {
+				"title": "Popuni lijevo"
+			},
+			"fillCellsRightButton": {
+				"title": "Popuni desno"
+			}
 		},
 		"allBordersButton": {
 			"title": "Sve granice"
@@ -174,7 +204,40 @@
 			"title": "Debeli vanjski obrubi"
 		},
 		"cellBordersDropDownButton": {
-			"title": "Granice ćelija"
+			"title": "Granice ćelija",
+			"noBordersButton": {
+				"title": "Bez granica"
+			},
+			"outsideBordersButton": {
+				"title": "Vanjske granice"
+			},
+			"bottomBorderButton": {
+				"title": "Donja granica"
+			},
+			"topBorderButton": {
+				"title": "Gornji obrub"
+			},
+			"rightBorderButton": {
+				"title": "Desna granica"
+			},
+			"leftBorderButton": {
+				"title": "Lijevi rub"
+			},
+			"thickBottomBorderButton": {
+				"title": "Debeli donji rub"
+			},
+			"thickLeftBorderButton": {
+				"title": "Debeli lijevi rub"
+			},
+			"doubleBottomBorderButton": {
+				"title": "Dvostruki donji rub"
+			},
+			"doubleLeftBorderButton": {
+				"title": "Dupli lijevi rub"
+			},
+			"borderColorButton": {
+				"title": "Boja obruba"
+			}
 		},
 		"autoFitRowHeightButton": {
 			"title": "Automatski prilagodi visinu retka"
@@ -262,69 +325,6 @@
 		},
 		"zoomInButton": {
 			"title": "Uvećaj"
-		},
-		"enUsCurrencyNumberFormatButton": {
-			"title": "$ engleski (SAD)"
-		},
-		"enUkCurrencyNumberFormatButton": {
-			"title": "£ engleski (Ujedinjeno Kraljevstvo)"
-		},
-		"euCurrencyNumberFormatButton": {
-			"title": "€ eura (123 €)"
-		},
-		"ruCurrencyNumberFormatButton": {
-			"title": "₽ ruski"
-		},
-		"chCurrencyNumberFormatButton": {
-			"title": "¥ Kineski"
-		},
-		"enInCurrencyNumberFormatButton": {
-			"title": "₹ engleski (Indija)"
-		},
-		"fillCellsDownButton": {
-			"title": "Popunite"
-		},
-		"fillCellsUpButton": {
-			"title": "Napunite"
-		},
-		"fillCellsLeftButton": {
-			"title": "Popuni lijevo"
-		},
-		"fillCellsRightButton": {
-			"title": "Popuni desno"
-		},
-		"noBordersButton": {
-			"title": "Bez granica"
-		},
-		"outsideBordersButton": {
-			"title": "Vanjske granice"
-		},
-		"bottomBorderButton": {
-			"title": "Donja granica"
-		},
-		"topBorderButton": {
-			"title": "Gornji obrub"
-		},
-		"rightBorderButton": {
-			"title": "Desna granica"
-		},
-		"leftBorderButton": {
-			"title": "Lijevi rub"
-		},
-		"thickBottomBorderButton": {
-			"title": "Debeli donji rub"
-		},
-		"thickLeftBorderButton": {
-			"title": "Debeli lijevi rub"
-		},
-		"doubleBottomBorderButton": {
-			"title": "Dvostruki donji rub"
-		},
-		"doubleLeftBorderButton": {
-			"title": "Dupli lijevi rub"
-		},
-		"borderColorButton": {
-			"title": "Boja obruba"
 		},
 		"copyWorksheetLabel": {
 			"text": "Kopiraj list"

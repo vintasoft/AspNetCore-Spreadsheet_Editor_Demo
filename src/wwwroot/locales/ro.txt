@@ -15,6 +15,9 @@
 		"reviewLabel": {
 			"text": "Comentarii"
 		},
+		"showMobileMenuButton": {
+			"title": "Mai multe"
+		},
 		"createXlsxDocumentButton": {
 			"title": "Creați un document XLSX nou"
 		},
@@ -26,9 +29,6 @@
 		},
 		"exportXlsxToPdfButton": {
 			"title": "Exportați XLSX în PDF"
-		},
-		"showMobileMenuButton": {
-			"title": "Mai multe"
 		},
 		"boldTextButton": {
 			"title": "Aldin"
@@ -73,7 +73,25 @@
 			"title": "Încheierea textului"
 		},
 		"currencyNumberFormatButton": {
-			"title": "Format de număr financiar"
+			"title": "Format de număr financiar",
+			"enUsCurrencyNumberFormatButton": {
+				"title": "$ engleză (SUA)"
+			},
+			"enUkCurrencyNumberFormatButton": {
+				"title": "£ engleză (Regatul Unit)"
+			},
+			"euCurrencyNumberFormatButton": {
+				"title": "€ Euro (€ 123)"
+			},
+			"ruCurrencyNumberFormatButton": {
+				"title": "₽ rusă"
+			},
+			"chCurrencyNumberFormatButton": {
+				"title": "¥ Chineză"
+			},
+			"enInCurrencyNumberFormatButton": {
+				"title": "₹ engleză (India)"
+			}
 		},
 		"increaseDecimalButton": {
 			"title": "Mărește zecimală"
@@ -165,7 +183,19 @@
 			"title": "Deconectați celulele"
 		},
 		"fillCells": {
-			"title": "Umpleți celulele"
+			"title": "Umpleți celulele",
+			"fillCellsDownButton": {
+				"title": "Umpleți"
+			},
+			"fillCellsUpButton": {
+				"title": "Umplere"
+			},
+			"fillCellsLeftButton": {
+				"title": "Umplere stânga"
+			},
+			"fillCellsRightButton": {
+				"title": "Completează dreapta"
+			}
 		},
 		"allBordersButton": {
 			"title": "Toate chenarele"
@@ -174,7 +204,40 @@
 			"title": "Chenaruri exterioare groase"
 		},
 		"cellBordersDropDownButton": {
-			"title": "Frontiere de celule"
+			"title": "Frontiere de celule",
+			"noBordersButton": {
+				"title": "Fără Frontiere"
+			},
+			"outsideBordersButton": {
+				"title": "Margini exterioare"
+			},
+			"bottomBorderButton": {
+				"title": "Chenar de jos"
+			},
+			"topBorderButton": {
+				"title": "Chenar de sus"
+			},
+			"rightBorderButton": {
+				"title": "Chenarul din dreapta"
+			},
+			"leftBorderButton": {
+				"title": "Chenarul din stânga"
+			},
+			"thickBottomBorderButton": {
+				"title": "Chenar de jos gros"
+			},
+			"thickLeftBorderButton": {
+				"title": "Chenar din stânga gros"
+			},
+			"doubleBottomBorderButton": {
+				"title": "Bord dublu de jos"
+			},
+			"doubleLeftBorderButton": {
+				"title": "Chenar dublu din stânga"
+			},
+			"borderColorButton": {
+				"title": "Culoarea chenarului"
+			}
 		},
 		"autoFitRowHeightButton": {
 			"title": "Potriviți automat înălțimea rândului"
@@ -262,69 +325,6 @@
 		},
 		"zoomInButton": {
 			"title": "Măriți"
-		},
-		"enUsCurrencyNumberFormatButton": {
-			"title": "$ engleză (SUA)"
-		},
-		"enUkCurrencyNumberFormatButton": {
-			"title": "£ engleză (Regatul Unit)"
-		},
-		"euCurrencyNumberFormatButton": {
-			"title": "€ Euro (€ 123)"
-		},
-		"ruCurrencyNumberFormatButton": {
-			"title": "₽ rusă"
-		},
-		"chCurrencyNumberFormatButton": {
-			"title": "¥ Chineză"
-		},
-		"enInCurrencyNumberFormatButton": {
-			"title": "₹ engleză (India)"
-		},
-		"fillCellsDownButton": {
-			"title": "Umpleți"
-		},
-		"fillCellsUpButton": {
-			"title": "Umplere"
-		},
-		"fillCellsLeftButton": {
-			"title": "Umplere stânga"
-		},
-		"fillCellsRightButton": {
-			"title": "Completează dreapta"
-		},
-		"noBordersButton": {
-			"title": "Fără Frontiere"
-		},
-		"outsideBordersButton": {
-			"title": "Margini exterioare"
-		},
-		"bottomBorderButton": {
-			"title": "Chenar de jos"
-		},
-		"topBorderButton": {
-			"title": "Chenar de sus"
-		},
-		"rightBorderButton": {
-			"title": "Chenarul din dreapta"
-		},
-		"leftBorderButton": {
-			"title": "Chenarul din stânga"
-		},
-		"thickBottomBorderButton": {
-			"title": "Chenar de jos gros"
-		},
-		"thickLeftBorderButton": {
-			"title": "Chenar din stânga gros"
-		},
-		"doubleBottomBorderButton": {
-			"title": "Bord dublu de jos"
-		},
-		"doubleLeftBorderButton": {
-			"title": "Chenar dublu din stânga"
-		},
-		"borderColorButton": {
-			"title": "Culoarea chenarului"
 		},
 		"copyWorksheetLabel": {
 			"text": "Copiere foaia"

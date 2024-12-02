@@ -15,6 +15,9 @@
 		"reviewLabel": {
 			"text": "Pregled"
 		},
+		"showMobileMenuButton": {
+			"title": "Več"
+		},
 		"createXlsxDocumentButton": {
 			"title": "Ustvari nov dokument XLSX"
 		},
@@ -26,9 +29,6 @@
 		},
 		"exportXlsxToPdfButton": {
 			"title": "Izvozi XLSX v PDF"
-		},
-		"showMobileMenuButton": {
-			"title": "Več"
 		},
 		"boldTextButton": {
 			"title": "Krepko besedilo"
@@ -73,7 +73,25 @@
 			"title": "Prelom besedila"
 		},
 		"currencyNumberFormatButton": {
-			"title": "Format številke valute"
+			"title": "Format številke valute",
+			"enUsCurrencyNumberFormatButton": {
+				"title": "$ angleščina (ZDA)"
+			},
+			"enUkCurrencyNumberFormatButton": {
+				"title": "£ angleščina (Združeno kraljestvo)"
+			},
+			"euCurrencyNumberFormatButton": {
+				"title": "€ evro (123 €)"
+			},
+			"ruCurrencyNumberFormatButton": {
+				"title": "₽ ruski"
+			},
+			"chCurrencyNumberFormatButton": {
+				"title": "¥ kitajski"
+			},
+			"enInCurrencyNumberFormatButton": {
+				"title": "₹ angleščina (Indija)"
+			}
 		},
 		"increaseDecimalButton": {
 			"title": "Povečaj decimalko"
@@ -165,7 +183,19 @@
 			"title": "Razdruži celice"
 		},
 		"fillCells": {
-			"title": "Izpolnite celice"
+			"title": "Izpolnite celice",
+			"fillCellsDownButton": {
+				"title": "Izpolni navzdol"
+			},
+			"fillCellsUpButton": {
+				"title": "Napolniti"
+			},
+			"fillCellsLeftButton": {
+				"title": "Izpolnite levo"
+			},
+			"fillCellsRightButton": {
+				"title": "Izpolni desno"
+			}
 		},
 		"allBordersButton": {
 			"title": "Vse meje"
@@ -174,7 +204,40 @@
 			"title": "Debele zunanje meje"
 		},
 		"cellBordersDropDownButton": {
-			"title": "Meje celic"
+			"title": "Meje celic",
+			"noBordersButton": {
+				"title": "Brez meja"
+			},
+			"outsideBordersButton": {
+				"title": "Zunaj meja"
+			},
+			"bottomBorderButton": {
+				"title": "Spodnja meja"
+			},
+			"topBorderButton": {
+				"title": "Zgornja meja"
+			},
+			"rightBorderButton": {
+				"title": "Desna meja"
+			},
+			"leftBorderButton": {
+				"title": "Leva meja"
+			},
+			"thickBottomBorderButton": {
+				"title": "Debela spodnja obroba"
+			},
+			"thickLeftBorderButton": {
+				"title": "Debela leva obroba"
+			},
+			"doubleBottomBorderButton": {
+				"title": "Dvojna spodnja obroba"
+			},
+			"doubleLeftBorderButton": {
+				"title": "Dvojna leva obroba"
+			},
+			"borderColorButton": {
+				"title": "Barva obrobe"
+			}
 		},
 		"autoFitRowHeightButton": {
 			"title": "Samodejno prilagodi višino vrstice"
@@ -262,69 +325,6 @@
 		},
 		"zoomInButton": {
 			"title": "Približaj"
-		},
-		"enUsCurrencyNumberFormatButton": {
-			"title": "$ angleščina (ZDA)"
-		},
-		"enUkCurrencyNumberFormatButton": {
-			"title": "£ angleščina (Združeno kraljestvo)"
-		},
-		"euCurrencyNumberFormatButton": {
-			"title": "€ evro (123 €)"
-		},
-		"ruCurrencyNumberFormatButton": {
-			"title": "₽ ruski"
-		},
-		"chCurrencyNumberFormatButton": {
-			"title": "¥ kitajski"
-		},
-		"enInCurrencyNumberFormatButton": {
-			"title": "₹ angleščina (Indija)"
-		},
-		"fillCellsDownButton": {
-			"title": "Izpolni navzdol"
-		},
-		"fillCellsUpButton": {
-			"title": "Napolniti"
-		},
-		"fillCellsLeftButton": {
-			"title": "Izpolnite levo"
-		},
-		"fillCellsRightButton": {
-			"title": "Izpolni desno"
-		},
-		"noBordersButton": {
-			"title": "Brez meja"
-		},
-		"outsideBordersButton": {
-			"title": "Zunaj meja"
-		},
-		"bottomBorderButton": {
-			"title": "Spodnja meja"
-		},
-		"topBorderButton": {
-			"title": "Zgornja meja"
-		},
-		"rightBorderButton": {
-			"title": "Desna meja"
-		},
-		"leftBorderButton": {
-			"title": "Leva meja"
-		},
-		"thickBottomBorderButton": {
-			"title": "Debela spodnja obroba"
-		},
-		"thickLeftBorderButton": {
-			"title": "Debela leva obroba"
-		},
-		"doubleBottomBorderButton": {
-			"title": "Dvojna spodnja obroba"
-		},
-		"doubleLeftBorderButton": {
-			"title": "Dvojna leva obroba"
-		},
-		"borderColorButton": {
-			"title": "Barva obrobe"
 		},
 		"copyWorksheetLabel": {
 			"text": "Kopiraj delovni list"

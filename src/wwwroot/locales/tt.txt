@@ -15,6 +15,9 @@
 		"reviewLabel": {
 			"text": "Кабатлау"
 		},
+		"showMobileMenuButton": {
+			"title": "Күбрәк"
+		},
 		"createXlsxDocumentButton": {
 			"title": "Яңа XLSX документ ясагыз"
 		},
@@ -26,9 +29,6 @@
 		},
 		"exportXlsxToPdfButton": {
 			"title": "XLSX-ны PDF-ка экспортлагыз"
-		},
-		"showMobileMenuButton": {
-			"title": "Күбрәк"
 		},
 		"boldTextButton": {
 			"title": "Калын текст"
@@ -73,7 +73,25 @@
 			"title": "Текст төрү"
 		},
 		"currencyNumberFormatButton": {
-			"title": "Валюта номеры форматы"
+			"title": "Валюта номеры форматы",
+			"enUsCurrencyNumberFormatButton": {
+				"title": "$ Инглиз (АКШ)"
+			},
+			"enUkCurrencyNumberFormatButton": {
+				"title": "£ Инглиз (Бөекбритания)"
+			},
+			"euCurrencyNumberFormatButton": {
+				"title": "€ Евро (€ 123)"
+			},
+			"ruCurrencyNumberFormatButton": {
+				"title": "₽ рус"
+			},
+			"chCurrencyNumberFormatButton": {
+				"title": "¥ Кытай"
+			},
+			"enInCurrencyNumberFormatButton": {
+				"title": "₹ Инглиз (Indiaиндстан)"
+			}
 		},
 		"increaseDecimalButton": {
 			"title": "Унлыкны арттыру"
@@ -165,7 +183,19 @@
 			"title": "Күзәнәкләрне берләштерү"
 		},
 		"fillCells": {
-			"title": "Күзәнәкләрне тутырыгыз"
+			"title": "Күзәнәкләрне тутырыгыз",
+			"fillCellsDownButton": {
+				"title": "Төшегез"
+			},
+			"fillCellsUpButton": {
+				"title": "Тутырырга"
+			},
+			"fillCellsLeftButton": {
+				"title": "Сулны тутырыгыз"
+			},
+			"fillCellsRightButton": {
+				"title": "Дөрес тутырыгыз"
+			}
 		},
 		"allBordersButton": {
 			"title": "Барлык чикләр"
@@ -174,7 +204,40 @@
 			"title": "Чиктән тыш калын"
 		},
 		"cellBordersDropDownButton": {
-			"title": "Күзәнәк чикләре"
+			"title": "Күзәнәк чикләре",
+			"noBordersButton": {
+				"title": "Чик юк"
+			},
+			"outsideBordersButton": {
+				"title": "Чиктән тыш"
+			},
+			"bottomBorderButton": {
+				"title": "Түбән чик"
+			},
+			"topBorderButton": {
+				"title": "Topгары чик"
+			},
+			"rightBorderButton": {
+				"title": "Уң чик"
+			},
+			"leftBorderButton": {
+				"title": "Сул чик"
+			},
+			"thickBottomBorderButton": {
+				"title": "Калын асты чик"
+			},
+			"thickLeftBorderButton": {
+				"title": "Калын сул чик"
+			},
+			"doubleBottomBorderButton": {
+				"title": "Ике асты чик"
+			},
+			"doubleLeftBorderButton": {
+				"title": "Ике сул чик"
+			},
+			"borderColorButton": {
+				"title": "Чик төсе"
+			}
 		},
 		"autoFitRowHeightButton": {
 			"title": "Рәт биеклеген AutoFit"
@@ -262,69 +325,6 @@
 		},
 		"zoomInButton": {
 			"title": "Зурайтырга"
-		},
-		"enUsCurrencyNumberFormatButton": {
-			"title": "$ Инглиз (АКШ)"
-		},
-		"enUkCurrencyNumberFormatButton": {
-			"title": "£ Инглиз (Бөекбритания)"
-		},
-		"euCurrencyNumberFormatButton": {
-			"title": "€ Евро (€ 123)"
-		},
-		"ruCurrencyNumberFormatButton": {
-			"title": "₽ рус"
-		},
-		"chCurrencyNumberFormatButton": {
-			"title": "¥ Кытай"
-		},
-		"enInCurrencyNumberFormatButton": {
-			"title": "₹ Инглиз (Indiaиндстан)"
-		},
-		"fillCellsDownButton": {
-			"title": "Төшегез"
-		},
-		"fillCellsUpButton": {
-			"title": "Тутырырга"
-		},
-		"fillCellsLeftButton": {
-			"title": "Сулны тутырыгыз"
-		},
-		"fillCellsRightButton": {
-			"title": "Дөрес тутырыгыз"
-		},
-		"noBordersButton": {
-			"title": "Чик юк"
-		},
-		"outsideBordersButton": {
-			"title": "Чиктән тыш"
-		},
-		"bottomBorderButton": {
-			"title": "Түбән чик"
-		},
-		"topBorderButton": {
-			"title": "Topгары чик"
-		},
-		"rightBorderButton": {
-			"title": "Уң чик"
-		},
-		"leftBorderButton": {
-			"title": "Сул чик"
-		},
-		"thickBottomBorderButton": {
-			"title": "Калын асты чик"
-		},
-		"thickLeftBorderButton": {
-			"title": "Калын сул чик"
-		},
-		"doubleBottomBorderButton": {
-			"title": "Ике асты чик"
-		},
-		"doubleLeftBorderButton": {
-			"title": "Ике сул чик"
-		},
-		"borderColorButton": {
-			"title": "Чик төсе"
 		},
 		"copyWorksheetLabel": {
 			"text": "Эш битен күчерү"

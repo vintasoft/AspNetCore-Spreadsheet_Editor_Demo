@@ -15,6 +15,9 @@
 		"reviewLabel": {
 			"text": "Қарау"
 		},
+		"showMobileMenuButton": {
+			"title": "Көбірек"
+		},
 		"createXlsxDocumentButton": {
 			"title": "Жаңа XLSX құжатын жасаңыз"
 		},
@@ -26,9 +29,6 @@
 		},
 		"exportXlsxToPdfButton": {
 			"title": "XLSX файлын PDF файлына экспорттаңыз"
-		},
-		"showMobileMenuButton": {
-			"title": "Көбірек"
 		},
 		"boldTextButton": {
 			"title": "Қалың мәтін"
@@ -73,7 +73,25 @@
 			"title": "Мәтінді орау"
 		},
 		"currencyNumberFormatButton": {
-			"title": "Валюта нөмірі пішімі"
+			"title": "Валюта нөмірі пішімі",
+			"enUsCurrencyNumberFormatButton": {
+				"title": "$ Ағылшын (АҚШ)"
+			},
+			"enUkCurrencyNumberFormatButton": {
+				"title": "£ Ағылшын (Ұлыбритания)"
+			},
+			"euCurrencyNumberFormatButton": {
+				"title": "€ еуро (€ 123)"
+			},
+			"ruCurrencyNumberFormatButton": {
+				"title": "₽ орысша"
+			},
+			"chCurrencyNumberFormatButton": {
+				"title": "¥ қытай"
+			},
+			"enInCurrencyNumberFormatButton": {
+				"title": "₹ ағылшын (Үндістан)"
+			}
 		},
 		"increaseDecimalButton": {
 			"title": "Ондық бөлшекті көбейту"
@@ -165,7 +183,19 @@
 			"title": "Ұяшықтарды біріктіру"
 		},
 		"fillCells": {
-			"title": "Ұяшықтарды толтыру"
+			"title": "Ұяшықтарды толтыру",
+			"fillCellsDownButton": {
+				"title": "Толтыру"
+			},
+			"fillCellsUpButton": {
+				"title": "Толтыру"
+			},
+			"fillCellsLeftButton": {
+				"title": "Солға толтыру"
+			},
+			"fillCellsRightButton": {
+				"title": "Оңға толтыру"
+			}
 		},
 		"allBordersButton": {
 			"title": "Барлық шекаралар"
@@ -174,7 +204,40 @@
 			"title": "Қалың сыртқы шекаралар"
 		},
 		"cellBordersDropDownButton": {
-			"title": "Ұяшықтың шекаралары"
+			"title": "Ұяшықтың шекаралары",
+			"noBordersButton": {
+				"title": "Шекара жоқ"
+			},
+			"outsideBordersButton": {
+				"title": "Сыртқы шекаралар"
+			},
+			"bottomBorderButton": {
+				"title": "Төменгі шекара"
+			},
+			"topBorderButton": {
+				"title": "Жоғарғы шекара"
+			},
+			"rightBorderButton": {
+				"title": "Оң жақ шекара"
+			},
+			"leftBorderButton": {
+				"title": "Сол жақ шекара"
+			},
+			"thickBottomBorderButton": {
+				"title": "Қалың төменгі жиек"
+			},
+			"thickLeftBorderButton": {
+				"title": "Қалың сол жақ жиек"
+			},
+			"doubleBottomBorderButton": {
+				"title": "Қос төменгі жиек"
+			},
+			"doubleLeftBorderButton": {
+				"title": "Қос сол жақ жиек"
+			},
+			"borderColorButton": {
+				"title": "Жиек түсі"
+			}
 		},
 		"autoFitRowHeightButton": {
 			"title": "Жол биіктігін автоматты түрде сәйкестендіру"
@@ -262,69 +325,6 @@
 		},
 		"zoomInButton": {
 			"title": "Үлкейту"
-		},
-		"enUsCurrencyNumberFormatButton": {
-			"title": "$ Ағылшын (АҚШ)"
-		},
-		"enUkCurrencyNumberFormatButton": {
-			"title": "£ Ағылшын (Ұлыбритания)"
-		},
-		"euCurrencyNumberFormatButton": {
-			"title": "€ еуро (€ 123)"
-		},
-		"ruCurrencyNumberFormatButton": {
-			"title": "₽ орысша"
-		},
-		"chCurrencyNumberFormatButton": {
-			"title": "¥ қытай"
-		},
-		"enInCurrencyNumberFormatButton": {
-			"title": "₹ ағылшын (Үндістан)"
-		},
-		"fillCellsDownButton": {
-			"title": "Толтыру"
-		},
-		"fillCellsUpButton": {
-			"title": "Толтыру"
-		},
-		"fillCellsLeftButton": {
-			"title": "Солға толтыру"
-		},
-		"fillCellsRightButton": {
-			"title": "Оңға толтыру"
-		},
-		"noBordersButton": {
-			"title": "Шекара жоқ"
-		},
-		"outsideBordersButton": {
-			"title": "Сыртқы шекаралар"
-		},
-		"bottomBorderButton": {
-			"title": "Төменгі шекара"
-		},
-		"topBorderButton": {
-			"title": "Жоғарғы шекара"
-		},
-		"rightBorderButton": {
-			"title": "Оң жақ шекара"
-		},
-		"leftBorderButton": {
-			"title": "Сол жақ шекара"
-		},
-		"thickBottomBorderButton": {
-			"title": "Қалың төменгі жиек"
-		},
-		"thickLeftBorderButton": {
-			"title": "Қалың сол жақ жиек"
-		},
-		"doubleBottomBorderButton": {
-			"title": "Қос төменгі жиек"
-		},
-		"doubleLeftBorderButton": {
-			"title": "Қос сол жақ жиек"
-		},
-		"borderColorButton": {
-			"title": "Жиек түсі"
 		},
 		"copyWorksheetLabel": {
 			"text": "Жұмыс парағын көшіру"

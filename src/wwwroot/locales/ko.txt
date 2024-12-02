@@ -15,6 +15,9 @@
 		"reviewLabel": {
 			"text": "설명"
 		},
+		"showMobileMenuButton": {
+			"title": "더보기"
+		},
 		"createXlsxDocumentButton": {
 			"title": "새 XLSX 문서 만들기"
 		},
@@ -26,9 +29,6 @@
 		},
 		"exportXlsxToPdfButton": {
 			"title": "XLSX를 PDF로 내보내기"
-		},
-		"showMobileMenuButton": {
-			"title": "더보기"
 		},
 		"boldTextButton": {
 			"title": "굵게"
@@ -73,7 +73,25 @@
 			"title": "텍스트 줄 바꿈"
 		},
 		"currencyNumberFormatButton": {
-			"title": "금융 번호 형식"
+			"title": "금융 번호 형식",
+			"enUsCurrencyNumberFormatButton": {
+				"title": "$ 영어(미국)"
+			},
+			"enUkCurrencyNumberFormatButton": {
+				"title": "₩ 영어(영국)"
+			},
+			"euCurrencyNumberFormatButton": {
+				"title": "€ 유로 (€ 123)"
+			},
+			"ruCurrencyNumberFormatButton": {
+				"title": "₽ 러시아어"
+			},
+			"chCurrencyNumberFormatButton": {
+				"title": "¥ 중국어"
+			},
+			"enInCurrencyNumberFormatButton": {
+				"title": "$ 영어(인도)"
+			}
 		},
 		"increaseDecimalButton": {
 			"title": "소수점 늘리기"
@@ -165,7 +183,19 @@
 			"title": "셀 병합 해제"
 		},
 		"fillCells": {
-			"title": "셀 채우기"
+			"title": "셀 채우기",
+			"fillCellsDownButton": {
+				"title": "채우기"
+			},
+			"fillCellsUpButton": {
+				"title": "채우기"
+			},
+			"fillCellsLeftButton": {
+				"title": "왼쪽 채우기"
+			},
+			"fillCellsRightButton": {
+				"title": "오른쪽 채우기"
+			}
 		},
 		"allBordersButton": {
 			"title": "모든 테두리"
@@ -174,7 +204,40 @@
 			"title": "두꺼운 외부 테두리"
 		},
 		"cellBordersDropDownButton": {
-			"title": "셀 테두리"
+			"title": "셀 테두리",
+			"noBordersButton": {
+				"title": "국경 없음"
+			},
+			"outsideBordersButton": {
+				"title": "외부 경계"
+			},
+			"bottomBorderButton": {
+				"title": "하단 테두리"
+			},
+			"topBorderButton": {
+				"title": "위쪽 테두리"
+			},
+			"rightBorderButton": {
+				"title": "오른쪽 테두리"
+			},
+			"leftBorderButton": {
+				"title": "왼쪽 테두리"
+			},
+			"thickBottomBorderButton": {
+				"title": "두꺼운 하단 테두리"
+			},
+			"thickLeftBorderButton": {
+				"title": "두꺼운 왼쪽 테두리"
+			},
+			"doubleBottomBorderButton": {
+				"title": "이중 하단 테두리"
+			},
+			"doubleLeftBorderButton": {
+				"title": "이중 왼쪽 테두리"
+			},
+			"borderColorButton": {
+				"title": "테두리 색상"
+			}
 		},
 		"autoFitRowHeightButton": {
 			"title": "행 높이 자동 맞춤"
@@ -262,69 +325,6 @@
 		},
 		"zoomInButton": {
 			"title": "확대"
-		},
-		"enUsCurrencyNumberFormatButton": {
-			"title": "$ 영어(미국)"
-		},
-		"enUkCurrencyNumberFormatButton": {
-			"title": "₩ 영어(영국)"
-		},
-		"euCurrencyNumberFormatButton": {
-			"title": "€ 유로 (€ 123)"
-		},
-		"ruCurrencyNumberFormatButton": {
-			"title": "₽ 러시아어"
-		},
-		"chCurrencyNumberFormatButton": {
-			"title": "¥ 중국어"
-		},
-		"enInCurrencyNumberFormatButton": {
-			"title": "$ 영어(인도)"
-		},
-		"fillCellsDownButton": {
-			"title": "채우기"
-		},
-		"fillCellsUpButton": {
-			"title": "채우기"
-		},
-		"fillCellsLeftButton": {
-			"title": "왼쪽 채우기"
-		},
-		"fillCellsRightButton": {
-			"title": "오른쪽 채우기"
-		},
-		"noBordersButton": {
-			"title": "국경 없음"
-		},
-		"outsideBordersButton": {
-			"title": "외부 경계"
-		},
-		"bottomBorderButton": {
-			"title": "하단 테두리"
-		},
-		"topBorderButton": {
-			"title": "위쪽 테두리"
-		},
-		"rightBorderButton": {
-			"title": "오른쪽 테두리"
-		},
-		"leftBorderButton": {
-			"title": "왼쪽 테두리"
-		},
-		"thickBottomBorderButton": {
-			"title": "두꺼운 하단 테두리"
-		},
-		"thickLeftBorderButton": {
-			"title": "두꺼운 왼쪽 테두리"
-		},
-		"doubleBottomBorderButton": {
-			"title": "이중 하단 테두리"
-		},
-		"doubleLeftBorderButton": {
-			"title": "이중 왼쪽 테두리"
-		},
-		"borderColorButton": {
-			"title": "테두리 색상"
 		},
 		"copyWorksheetLabel": {
 			"text": "카피 시트"

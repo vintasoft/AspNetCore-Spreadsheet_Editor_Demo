@@ -15,6 +15,9 @@
 		"reviewLabel": {
 			"text": "Nhận xét"
 		},
+		"showMobileMenuButton": {
+			"title": "Thêm"
+		},
 		"createXlsxDocumentButton": {
 			"title": "Tạo tài liệu XLSX mới"
 		},
@@ -26,9 +29,6 @@
 		},
 		"exportXlsxToPdfButton": {
 			"title": "Xuất XLSX sang PDF"
-		},
-		"showMobileMenuButton": {
-			"title": "Thêm"
 		},
 		"boldTextButton": {
 			"title": "Đậm"
@@ -73,7 +73,25 @@
 			"title": "Gói văn bản"
 		},
 		"currencyNumberFormatButton": {
-			"title": "Định dạng số tài chính"
+			"title": "Định dạng số tài chính",
+			"enUsCurrencyNumberFormatButton": {
+				"title": "$ Tiếng Anh (Mỹ)"
+			},
+			"enUkCurrencyNumberFormatButton": {
+				"title": "£ Tiếng Anh (Vương quốc Anh)"
+			},
+			"euCurrencyNumberFormatButton": {
+				"title": "€ Euro (€123)"
+			},
+			"ruCurrencyNumberFormatButton": {
+				"title": "₽ kiểu Nga"
+			},
+			"chCurrencyNumberFormatButton": {
+				"title": "¥ Trung Quốc"
+			},
+			"enInCurrencyNumberFormatButton": {
+				"title": "$ Tiếng Anh (Ấn Độ)"
+			}
 		},
 		"increaseDecimalButton": {
 			"title": "Tăng số thập phân"
@@ -165,7 +183,19 @@
 			"title": "Hủy hợp nhất các ô"
 		},
 		"fillCells": {
-			"title": "Điền ô"
+			"title": "Điền ô",
+			"fillCellsDownButton": {
+				"title": "Điền xuống"
+			},
+			"fillCellsUpButton": {
+				"title": "Lấp đầy"
+			},
+			"fillCellsLeftButton": {
+				"title": "Điền vào bên trái"
+			},
+			"fillCellsRightButton": {
+				"title": "Điền đúng"
+			}
 		},
 		"allBordersButton": {
 			"title": "Tất cả đường viền"
@@ -174,7 +204,40 @@
 			"title": "Đường viền ngoài dày"
 		},
 		"cellBordersDropDownButton": {
-			"title": "Đường viền ô"
+			"title": "Đường viền ô",
+			"noBordersButton": {
+				"title": "Không biên giới"
+			},
+			"outsideBordersButton": {
+				"title": "Giới hạn bên ngoài"
+			},
+			"bottomBorderButton": {
+				"title": "Đường viền dưới cùng"
+			},
+			"topBorderButton": {
+				"title": "Đường viền trên cùng"
+			},
+			"rightBorderButton": {
+				"title": "Đường viền bên phải"
+			},
+			"leftBorderButton": {
+				"title": "Đường viền trái"
+			},
+			"thickBottomBorderButton": {
+				"title": "Viền Đáy Dày"
+			},
+			"thickLeftBorderButton": {
+				"title": "Đường viền dày bên trái"
+			},
+			"doubleBottomBorderButton": {
+				"title": "Đường viền đáy đôi"
+			},
+			"doubleLeftBorderButton": {
+				"title": "Đường viền đôi bên trái"
+			},
+			"borderColorButton": {
+				"title": "Màu viền"
+			}
 		},
 		"autoFitRowHeightButton": {
 			"title": "AutoFit chiều cao hàng"
@@ -262,69 +325,6 @@
 		},
 		"zoomInButton": {
 			"title": "Phóng to"
-		},
-		"enUsCurrencyNumberFormatButton": {
-			"title": "$ Tiếng Anh (Mỹ)"
-		},
-		"enUkCurrencyNumberFormatButton": {
-			"title": "£ Tiếng Anh (Vương quốc Anh)"
-		},
-		"euCurrencyNumberFormatButton": {
-			"title": "€ Euro (€123)"
-		},
-		"ruCurrencyNumberFormatButton": {
-			"title": "₽ kiểu Nga"
-		},
-		"chCurrencyNumberFormatButton": {
-			"title": "¥ Trung Quốc"
-		},
-		"enInCurrencyNumberFormatButton": {
-			"title": "$ Tiếng Anh (Ấn Độ)"
-		},
-		"fillCellsDownButton": {
-			"title": "Điền xuống"
-		},
-		"fillCellsUpButton": {
-			"title": "Lấp đầy"
-		},
-		"fillCellsLeftButton": {
-			"title": "Điền vào bên trái"
-		},
-		"fillCellsRightButton": {
-			"title": "Điền đúng"
-		},
-		"noBordersButton": {
-			"title": "Không biên giới"
-		},
-		"outsideBordersButton": {
-			"title": "Giới hạn bên ngoài"
-		},
-		"bottomBorderButton": {
-			"title": "Đường viền dưới cùng"
-		},
-		"topBorderButton": {
-			"title": "Đường viền trên cùng"
-		},
-		"rightBorderButton": {
-			"title": "Đường viền bên phải"
-		},
-		"leftBorderButton": {
-			"title": "Đường viền trái"
-		},
-		"thickBottomBorderButton": {
-			"title": "Viền Đáy Dày"
-		},
-		"thickLeftBorderButton": {
-			"title": "Đường viền dày bên trái"
-		},
-		"doubleBottomBorderButton": {
-			"title": "Đường viền đáy đôi"
-		},
-		"doubleLeftBorderButton": {
-			"title": "Đường viền đôi bên trái"
-		},
-		"borderColorButton": {
-			"title": "Màu viền"
 		},
 		"copyWorksheetLabel": {
 			"text": "Sao chép tờ"

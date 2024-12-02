@@ -15,6 +15,9 @@
 		"reviewLabel": {
 			"text": "Apžvalga"
 		},
+		"showMobileMenuButton": {
+			"title": "Daugiau"
+		},
 		"createXlsxDocumentButton": {
 			"title": "Sukurkite naują XLSX dokumentą"
 		},
@@ -26,9 +29,6 @@
 		},
 		"exportXlsxToPdfButton": {
 			"title": "Eksportuokite XLSX į PDF"
-		},
-		"showMobileMenuButton": {
-			"title": "Daugiau"
 		},
 		"boldTextButton": {
 			"title": "Paryškintas tekstas"
@@ -73,7 +73,25 @@
 			"title": "Teksto įvyniojimas"
 		},
 		"currencyNumberFormatButton": {
-			"title": "Valiutos numerio formatas"
+			"title": "Valiutos numerio formatas",
+			"enUsCurrencyNumberFormatButton": {
+				"title": "$ anglų (JAV)"
+			},
+			"enUkCurrencyNumberFormatButton": {
+				"title": "£ anglų (Jungtinė Karalystė)"
+			},
+			"euCurrencyNumberFormatButton": {
+				"title": "€ eurai (123 €)"
+			},
+			"ruCurrencyNumberFormatButton": {
+				"title": "₽ rusų"
+			},
+			"chCurrencyNumberFormatButton": {
+				"title": "¥ kinų"
+			},
+			"enInCurrencyNumberFormatButton": {
+				"title": "₹ anglų k. (Indija)"
+			}
 		},
 		"increaseDecimalButton": {
 			"title": "Padidinti dešimtainį skaičių"
@@ -165,7 +183,19 @@
 			"title": "Atjunkite ląsteles"
 		},
 		"fillCells": {
-			"title": "Užpildykite ląsteles"
+			"title": "Užpildykite ląsteles",
+			"fillCellsDownButton": {
+				"title": "Užpildykite žemyn"
+			},
+			"fillCellsUpButton": {
+				"title": "Pripildyti"
+			},
+			"fillCellsLeftButton": {
+				"title": "Užpildykite kairę"
+			},
+			"fillCellsRightButton": {
+				"title": "Užpildykite dešinėje"
+			}
 		},
 		"allBordersButton": {
 			"title": "Visos sienos"
@@ -174,7 +204,40 @@
 			"title": "Storos išorinės sienos"
 		},
 		"cellBordersDropDownButton": {
-			"title": "Ląstelių kraštinės"
+			"title": "Ląstelių kraštinės",
+			"noBordersButton": {
+				"title": "Jokių sienų"
+			},
+			"outsideBordersButton": {
+				"title": "Už sienų"
+			},
+			"bottomBorderButton": {
+				"title": "Apatinė riba"
+			},
+			"topBorderButton": {
+				"title": "Viršutinė kraštinė"
+			},
+			"rightBorderButton": {
+				"title": "Dešinė siena"
+			},
+			"leftBorderButton": {
+				"title": "Kairė siena"
+			},
+			"thickBottomBorderButton": {
+				"title": "Stora apačia"
+			},
+			"thickLeftBorderButton": {
+				"title": "Stora kairioji sienelė"
+			},
+			"doubleBottomBorderButton": {
+				"title": "Dviguba apačia"
+			},
+			"doubleLeftBorderButton": {
+				"title": "Dviguba kairioji siena"
+			},
+			"borderColorButton": {
+				"title": "Krašto spalva"
+			}
 		},
 		"autoFitRowHeightButton": {
 			"title": "Automatiškai pritaikykite eilutės aukštį"
@@ -262,69 +325,6 @@
 		},
 		"zoomInButton": {
 			"title": "Priartinti"
-		},
-		"enUsCurrencyNumberFormatButton": {
-			"title": "$ anglų (JAV)"
-		},
-		"enUkCurrencyNumberFormatButton": {
-			"title": "£ anglų (Jungtinė Karalystė)"
-		},
-		"euCurrencyNumberFormatButton": {
-			"title": "€ eurai (123 €)"
-		},
-		"ruCurrencyNumberFormatButton": {
-			"title": "₽ rusų"
-		},
-		"chCurrencyNumberFormatButton": {
-			"title": "¥ kinų"
-		},
-		"enInCurrencyNumberFormatButton": {
-			"title": "₹ anglų k. (Indija)"
-		},
-		"fillCellsDownButton": {
-			"title": "Užpildykite žemyn"
-		},
-		"fillCellsUpButton": {
-			"title": "Pripildyti"
-		},
-		"fillCellsLeftButton": {
-			"title": "Užpildykite kairę"
-		},
-		"fillCellsRightButton": {
-			"title": "Užpildykite dešinėje"
-		},
-		"noBordersButton": {
-			"title": "Jokių sienų"
-		},
-		"outsideBordersButton": {
-			"title": "Už sienų"
-		},
-		"bottomBorderButton": {
-			"title": "Apatinė riba"
-		},
-		"topBorderButton": {
-			"title": "Viršutinė kraštinė"
-		},
-		"rightBorderButton": {
-			"title": "Dešinė siena"
-		},
-		"leftBorderButton": {
-			"title": "Kairė siena"
-		},
-		"thickBottomBorderButton": {
-			"title": "Stora apačia"
-		},
-		"thickLeftBorderButton": {
-			"title": "Stora kairioji sienelė"
-		},
-		"doubleBottomBorderButton": {
-			"title": "Dviguba apačia"
-		},
-		"doubleLeftBorderButton": {
-			"title": "Dviguba kairioji siena"
-		},
-		"borderColorButton": {
-			"title": "Krašto spalva"
 		},
 		"copyWorksheetLabel": {
 			"text": "Nukopijuokite darbalapį"

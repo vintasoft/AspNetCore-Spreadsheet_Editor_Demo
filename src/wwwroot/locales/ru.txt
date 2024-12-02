@@ -15,6 +15,9 @@
 		"reviewLabel": {
 			"text": "Комментарии"
 		},
+		"showMobileMenuButton": {
+			"title": "Еще"
+		},
 		"createXlsxDocumentButton": {
 			"title": "Создать новый документ XLSX"
 		},
@@ -26,9 +29,6 @@
 		},
 		"exportXlsxToPdfButton": {
 			"title": "Экспорт XLSX в PDF"
-		},
-		"showMobileMenuButton": {
-			"title": "Еще"
 		},
 		"boldTextButton": {
 			"title": "Полужирный"
@@ -55,7 +55,7 @@
 			"title": "Выровнять по левому краю"
 		},
 		"alignCenterButton": {
-			"title": "Выровнять по центру"
+			"title": "Центр"
 		},
 		"alignRightButton": {
 			"title": "Выровнять по правому краю"
@@ -73,7 +73,25 @@
 			"title": "Переносить текст"
 		},
 		"currencyNumberFormatButton": {
-			"title": "Финансовый числовой формат"
+			"title": "Финансовый числовой формат",
+			"enUsCurrencyNumberFormatButton": {
+				"title": "$ Английский (США)"
+			},
+			"enUkCurrencyNumberFormatButton": {
+				"title": "£ Английский (Великобритания)"
+			},
+			"euCurrencyNumberFormatButton": {
+				"title": "€ Евро (€ 123)"
+			},
+			"ruCurrencyNumberFormatButton": {
+				"title": "₽ Русский"
+			},
+			"chCurrencyNumberFormatButton": {
+				"title": "¥ Китайский"
+			},
+			"enInCurrencyNumberFormatButton": {
+				"title": "₹ Английский (Индия)"
+			}
 		},
 		"increaseDecimalButton": {
 			"title": "Увеличение десятичной дроби"
@@ -165,7 +183,19 @@
 			"title": "Разъединить ячейки"
 		},
 		"fillCells": {
-			"title": "Заполнить ячейки"
+			"title": "Заполнить ячейки",
+			"fillCellsDownButton": {
+				"title": "Заполнить вниз"
+			},
+			"fillCellsUpButton": {
+				"title": "Заполнить вверх"
+			},
+			"fillCellsLeftButton": {
+				"title": "Заполнить слева"
+			},
+			"fillCellsRightButton": {
+				"title": "Заполнить справа"
+			}
 		},
 		"allBordersButton": {
 			"title": "Все границы"
@@ -174,7 +204,40 @@
 			"title": "Толстые внешние границы"
 		},
 		"cellBordersDropDownButton": {
-			"title": "Границы ячеек"
+			"title": "Границы ячеек",
+			"noBordersButton": {
+				"title": "Без границ"
+			},
+			"outsideBordersButton": {
+				"title": "Внешние границы"
+			},
+			"bottomBorderButton": {
+				"title": "Нижняя граница"
+			},
+			"topBorderButton": {
+				"title": "Верхняя граница"
+			},
+			"rightBorderButton": {
+				"title": "Правая граница"
+			},
+			"leftBorderButton": {
+				"title": "Левая граница"
+			},
+			"thickBottomBorderButton": {
+				"title": "Толстая нижняя граница"
+			},
+			"thickLeftBorderButton": {
+				"title": "Толстая левая граница"
+			},
+			"doubleBottomBorderButton": {
+				"title": "Двойная нижняя граница"
+			},
+			"doubleLeftBorderButton": {
+				"title": "Двойная левая граница"
+			},
+			"borderColorButton": {
+				"title": "Цвет границы"
+			}
 		},
 		"autoFitRowHeightButton": {
 			"title": "Автоподбор высоты строки"
@@ -262,69 +325,6 @@
 		},
 		"zoomInButton": {
 			"title": "Увеличить масштаб"
-		},
-		"enUsCurrencyNumberFormatButton": {
-			"title": "$ Английский (США)"
-		},
-		"enUkCurrencyNumberFormatButton": {
-			"title": "£ Английский (Великобритания)"
-		},
-		"euCurrencyNumberFormatButton": {
-			"title": "€ Евро (€ 123)"
-		},
-		"ruCurrencyNumberFormatButton": {
-			"title": "₽ Русский"
-		},
-		"chCurrencyNumberFormatButton": {
-			"title": "¥ Китайский"
-		},
-		"enInCurrencyNumberFormatButton": {
-			"title": "₹ Английский (Индия)"
-		},
-		"fillCellsDownButton": {
-			"title": "Заполнить вниз"
-		},
-		"fillCellsUpButton": {
-			"title": "Заполнить вверх"
-		},
-		"fillCellsLeftButton": {
-			"title": "Заполнить слева"
-		},
-		"fillCellsRightButton": {
-			"title": "Заполнить справа"
-		},
-		"noBordersButton": {
-			"title": "Без границ"
-		},
-		"outsideBordersButton": {
-			"title": "Внешние границы"
-		},
-		"bottomBorderButton": {
-			"title": "Нижняя граница"
-		},
-		"topBorderButton": {
-			"title": "Верхняя граница"
-		},
-		"rightBorderButton": {
-			"title": "Правая граница"
-		},
-		"leftBorderButton": {
-			"title": "Левая граница"
-		},
-		"thickBottomBorderButton": {
-			"title": "Толстая нижняя граница"
-		},
-		"thickLeftBorderButton": {
-			"title": "Толстая левая граница"
-		},
-		"doubleBottomBorderButton": {
-			"title": "Двойная нижняя граница"
-		},
-		"doubleLeftBorderButton": {
-			"title": "Двойная левая граница"
-		},
-		"borderColorButton": {
-			"title": "Цвет границы"
 		},
 		"copyWorksheetLabel": {
 			"text": "Скопировать лист"

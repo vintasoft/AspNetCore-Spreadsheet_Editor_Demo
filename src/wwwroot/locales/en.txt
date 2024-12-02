@@ -15,6 +15,9 @@
 		"reviewLabel": {
 			"text": "Review"
 		},
+		"showMobileMenuButton": {
+			"title": "More"
+		},
 		"createXlsxDocumentButton": {
 			"title": "Create new XLSX document"
 		},
@@ -26,9 +29,6 @@
 		},
 		"exportXlsxToPdfButton": {
 			"title": "Export XLSX to PDF"
-		},
-		"showMobileMenuButton": {
-			"title": "More"
 		},
 		"boldTextButton": {
 			"title": "Bold text"
@@ -73,7 +73,25 @@
 			"title": "Text wrapping"
 		},
 		"currencyNumberFormatButton": {
-			"title": "Currency number format"
+			"title": "Currency number format",
+			"enUsCurrencyNumberFormatButton": {
+				"title": "$ English (USA)"
+			},
+			"enUkCurrencyNumberFormatButton": {
+				"title": "£ English (United Kingdom)"
+			},
+			"euCurrencyNumberFormatButton": {
+				"title": "€ Euro (€ 123)"
+			},
+			"ruCurrencyNumberFormatButton": {
+				"title": "₽ Russian"
+			},
+			"chCurrencyNumberFormatButton": {
+				"title": "¥ Chinese"
+			},
+			"enInCurrencyNumberFormatButton": {
+				"title": "₹ English (India)"
+			}
 		},
 		"increaseDecimalButton": {
 			"title": "Increase decimal"
@@ -165,7 +183,19 @@
 			"title": "Unmerge cells"
 		},
 		"fillCells": {
-			"title": "Fill Cells"
+			"title": "Fill Cells",
+			"fillCellsDownButton": {
+				"title": "Fill Down"
+			},
+			"fillCellsUpButton": {
+				"title": "Fill Up"
+			},
+			"fillCellsLeftButton": {
+				"title": "Fill Left"
+			},
+			"fillCellsRightButton": {
+				"title": "Fill Right"
+			}
 		},
 		"allBordersButton": {
 			"title": "All Borders"
@@ -174,7 +204,40 @@
 			"title": "Thick Outside Borders"
 		},
 		"cellBordersDropDownButton": {
-			"title": "Cell Borders"
+			"title": "Cell Borders",
+			"noBordersButton": {
+				"title": "No Borders"
+			},
+			"outsideBordersButton": {
+				"title": "Outside Borders"
+			},
+			"bottomBorderButton": {
+				"title": "Bottom Border"
+			},
+			"topBorderButton": {
+				"title": "Top Border"
+			},
+			"rightBorderButton": {
+				"title": "Right Border"
+			},
+			"leftBorderButton": {
+				"title": "Left Border"
+			},
+			"thickBottomBorderButton": {
+				"title": "Thick Bottom Border"
+			},
+			"thickLeftBorderButton": {
+				"title": "Thick Left Border"
+			},
+			"doubleBottomBorderButton": {
+				"title": "Double Bottom Border"
+			},
+			"doubleLeftBorderButton": {
+				"title": "Double Left Border"
+			},
+			"borderColorButton": {
+				"title": "Border color"
+			}
 		},
 		"autoFitRowHeightButton": {
 			"title": "AutoFit the row height"
@@ -262,69 +325,6 @@
 		},
 		"zoomInButton": {
 			"title": "Zoom in"
-		},
-		"enUsCurrencyNumberFormatButton": {
-			"title": "$ English (USA)"
-		},
-		"enUkCurrencyNumberFormatButton": {
-			"title": "£ English (United Kingdom)"
-		},
-		"euCurrencyNumberFormatButton": {
-			"title": "€ Euro (€ 123)"
-		},
-		"ruCurrencyNumberFormatButton": {
-			"title": "₽ Russian"
-		},
-		"chCurrencyNumberFormatButton": {
-			"title": "¥ Chinese"
-		},
-		"enInCurrencyNumberFormatButton": {
-			"title": "₹ English (India)"
-		},
-		"fillCellsDownButton": {
-			"title": "Fill Down"
-		},
-		"fillCellsUpButton": {
-			"title": "Fill Up"
-		},
-		"fillCellsLeftButton": {
-			"title": "Fill Left"
-		},
-		"fillCellsRightButton": {
-			"title": "Fill Right"
-		},
-		"noBordersButton": {
-			"title": "No Borders"
-		},
-		"outsideBordersButton": {
-			"title": "Outside Borders"
-		},
-		"bottomBorderButton": {
-			"title": "Bottom Border"
-		},
-		"topBorderButton": {
-			"title": "Top Border"
-		},
-		"rightBorderButton": {
-			"title": "Right Border"
-		},
-		"leftBorderButton": {
-			"title": "Left Border"
-		},
-		"thickBottomBorderButton": {
-			"title": "Thick Bottom Border"
-		},
-		"thickLeftBorderButton": {
-			"title": "Thick Left Border"
-		},
-		"doubleBottomBorderButton": {
-			"title": "Double Bottom Border"
-		},
-		"doubleLeftBorderButton": {
-			"title": "Double Left Border"
-		},
-		"borderColorButton": {
-			"title": "Border color"
 		},
 		"copyWorksheetLabel": {
 			"text": "Copy worksheet"

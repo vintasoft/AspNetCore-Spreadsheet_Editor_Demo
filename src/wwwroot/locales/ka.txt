@@ -15,6 +15,9 @@
 		"reviewLabel": {
 			"text": "Მიმოხილვა"
 		},
+		"showMobileMenuButton": {
+			"title": "მეტი"
+		},
 		"createXlsxDocumentButton": {
 			"title": "შექმენით ახალი XLSX დოკუმენტი"
 		},
@@ -26,9 +29,6 @@
 		},
 		"exportXlsxToPdfButton": {
 			"title": "XLSX-ის ექსპორტი PDF-ში"
-		},
-		"showMobileMenuButton": {
-			"title": "მეტი"
 		},
 		"boldTextButton": {
 			"title": "თამამი ტექსტი"
@@ -73,7 +73,25 @@
 			"title": "ტექსტის შეფუთვა"
 		},
 		"currencyNumberFormatButton": {
-			"title": "ვალუტის ნომრის ფორმატი"
+			"title": "ვალუტის ნომრის ფორმატი",
+			"enUsCurrencyNumberFormatButton": {
+				"title": "$ ინგლისური (აშშ)"
+			},
+			"enUkCurrencyNumberFormatButton": {
+				"title": "£ ინგლისური (გაერთიანებული სამეფო)"
+			},
+			"euCurrencyNumberFormatButton": {
+				"title": "ევრო ევრო (123 ევრო)"
+			},
+			"ruCurrencyNumberFormatButton": {
+				"title": "₽ რუსული"
+			},
+			"chCurrencyNumberFormatButton": {
+				"title": "¥ ჩინური"
+			},
+			"enInCurrencyNumberFormatButton": {
+				"title": "₹ ინგლისური (ინდოეთი)"
+			}
 		},
 		"increaseDecimalButton": {
 			"title": "ათწილადის გაზრდა"
@@ -165,7 +183,19 @@
 			"title": "უჯრედების გაერთიანება"
 		},
 		"fillCells": {
-			"title": "უჯრედების შევსება"
+			"title": "უჯრედების შევსება",
+			"fillCellsDownButton": {
+				"title": "შეავსეთ"
+			},
+			"fillCellsUpButton": {
+				"title": "Ავსება"
+			},
+			"fillCellsLeftButton": {
+				"title": "შეავსეთ მარცხენა"
+			},
+			"fillCellsRightButton": {
+				"title": "შეავსეთ მარჯვნივ"
+			}
 		},
 		"allBordersButton": {
 			"title": "ყველა საზღვარი"
@@ -174,7 +204,40 @@
 			"title": "სქელი გარე საზღვრები"
 		},
 		"cellBordersDropDownButton": {
-			"title": "უჯრედის საზღვრები"
+			"title": "უჯრედის საზღვრები",
+			"noBordersButton": {
+				"title": "საზღვრები არ არის"
+			},
+			"outsideBordersButton": {
+				"title": "საზღვრებს გარეთ"
+			},
+			"bottomBorderButton": {
+				"title": "ქვედა საზღვარი"
+			},
+			"topBorderButton": {
+				"title": "ზედა საზღვარი"
+			},
+			"rightBorderButton": {
+				"title": "მარჯვენა საზღვარი"
+			},
+			"leftBorderButton": {
+				"title": "მარცხენა საზღვარი"
+			},
+			"thickBottomBorderButton": {
+				"title": "სქელი ქვედა საზღვარი"
+			},
+			"thickLeftBorderButton": {
+				"title": "სქელი მარცხენა საზღვარი"
+			},
+			"doubleBottomBorderButton": {
+				"title": "ორმაგი ქვედა საზღვარი"
+			},
+			"doubleLeftBorderButton": {
+				"title": "ორმაგი მარცხენა საზღვარი"
+			},
+			"borderColorButton": {
+				"title": "საზღვრის ფერი"
+			}
 		},
 		"autoFitRowHeightButton": {
 			"title": "მწკრივის სიმაღლის ავტომატური მორგება"
@@ -262,69 +325,6 @@
 		},
 		"zoomInButton": {
 			"title": "Მიახლოება"
-		},
-		"enUsCurrencyNumberFormatButton": {
-			"title": "$ ინგლისური (აშშ)"
-		},
-		"enUkCurrencyNumberFormatButton": {
-			"title": "£ ინგლისური (გაერთიანებული სამეფო)"
-		},
-		"euCurrencyNumberFormatButton": {
-			"title": "ევრო ევრო (123 ევრო)"
-		},
-		"ruCurrencyNumberFormatButton": {
-			"title": "₽ რუსული"
-		},
-		"chCurrencyNumberFormatButton": {
-			"title": "¥ ჩინური"
-		},
-		"enInCurrencyNumberFormatButton": {
-			"title": "₹ ინგლისური (ინდოეთი)"
-		},
-		"fillCellsDownButton": {
-			"title": "შეავსეთ"
-		},
-		"fillCellsUpButton": {
-			"title": "Ავსება"
-		},
-		"fillCellsLeftButton": {
-			"title": "შეავსეთ მარცხენა"
-		},
-		"fillCellsRightButton": {
-			"title": "შეავსეთ მარჯვნივ"
-		},
-		"noBordersButton": {
-			"title": "საზღვრები არ არის"
-		},
-		"outsideBordersButton": {
-			"title": "საზღვრებს გარეთ"
-		},
-		"bottomBorderButton": {
-			"title": "ქვედა საზღვარი"
-		},
-		"topBorderButton": {
-			"title": "ზედა საზღვარი"
-		},
-		"rightBorderButton": {
-			"title": "მარჯვენა საზღვარი"
-		},
-		"leftBorderButton": {
-			"title": "მარცხენა საზღვარი"
-		},
-		"thickBottomBorderButton": {
-			"title": "სქელი ქვედა საზღვარი"
-		},
-		"thickLeftBorderButton": {
-			"title": "სქელი მარცხენა საზღვარი"
-		},
-		"doubleBottomBorderButton": {
-			"title": "ორმაგი ქვედა საზღვარი"
-		},
-		"doubleLeftBorderButton": {
-			"title": "ორმაგი მარცხენა საზღვარი"
-		},
-		"borderColorButton": {
-			"title": "საზღვრის ფერი"
 		},
 		"copyWorksheetLabel": {
 			"text": "დააკოპირეთ სამუშაო ფურცელი"

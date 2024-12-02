@@ -15,6 +15,9 @@
 		"reviewLabel": {
 			"text": "הערות"
 		},
+		"showMobileMenuButton": {
+			"title": "עוד"
+		},
 		"createXlsxDocumentButton": {
 			"title": "צור מסמך XLSX חדש"
 		},
@@ -26,9 +29,6 @@
 		},
 		"exportXlsxToPdfButton": {
 			"title": "ייצוא XLSX ל-PDF"
-		},
-		"showMobileMenuButton": {
-			"title": "עוד"
 		},
 		"boldTextButton": {
 			"title": "מודגש"
@@ -73,7 +73,25 @@
 			"title": "עטוף טקסט"
 		},
 		"currencyNumberFormatButton": {
-			"title": "פורמט מספר פיננסי"
+			"title": "פורמט מספר פיננסי",
+			"enUsCurrencyNumberFormatButton": {
+				"title": "$ אנגלית (ארה'ב)"
+			},
+			"enUkCurrencyNumberFormatButton": {
+				"title": "£ אנגלית (בריטניה)"
+			},
+			"euCurrencyNumberFormatButton": {
+				"title": "€ יורו (€ 123)"
+			},
+			"ruCurrencyNumberFormatButton": {
+				"title": "₽ רוסית"
+			},
+			"chCurrencyNumberFormatButton": {
+				"title": "¥ סינית"
+			},
+			"enInCurrencyNumberFormatButton": {
+				"title": "₹ אנגלית (הודו)"
+			}
 		},
 		"increaseDecimalButton": {
 			"title": "הגדל עשרוני"
@@ -165,7 +183,19 @@
 			"title": "בטל מיזוג תאים"
 		},
 		"fillCells": {
-			"title": "מילוי תאים"
+			"title": "מילוי תאים",
+			"fillCellsDownButton": {
+				"title": "מלא למטה"
+			},
+			"fillCellsUpButton": {
+				"title": "מילוי"
+			},
+			"fillCellsLeftButton": {
+				"title": "מלא שמאלה"
+			},
+			"fillCellsRightButton": {
+				"title": "מלא ימינה"
+			}
 		},
 		"allBordersButton": {
 			"title": "כל הגבולות"
@@ -174,7 +204,40 @@
 			"title": "גבולות חיצוניים עבים"
 		},
 		"cellBordersDropDownButton": {
-			"title": "גבולות תאים"
+			"title": "גבולות תאים",
+			"noBordersButton": {
+				"title": "אין גבולות"
+			},
+			"outsideBordersButton": {
+				"title": "גבולות חיצוניים"
+			},
+			"bottomBorderButton": {
+				"title": "גבול תחתון"
+			},
+			"topBorderButton": {
+				"title": "גבול עליון"
+			},
+			"rightBorderButton": {
+				"title": "גבול ימני"
+			},
+			"leftBorderButton": {
+				"title": "גבול שמאל"
+			},
+			"thickBottomBorderButton": {
+				"title": "גבול תחתון עבה"
+			},
+			"thickLeftBorderButton": {
+				"title": "גבול שמאלי עבה"
+			},
+			"doubleBottomBorderButton": {
+				"title": "גבול תחתון כפול"
+			},
+			"doubleLeftBorderButton": {
+				"title": "גבול שמאל כפול"
+			},
+			"borderColorButton": {
+				"title": "צבע גבול"
+			}
 		},
 		"autoFitRowHeightButton": {
 			"title": "התאם אוטומטית את גובה השורה"
@@ -262,69 +325,6 @@
 		},
 		"zoomInButton": {
 			"title": "התקרב"
-		},
-		"enUsCurrencyNumberFormatButton": {
-			"title": "$ אנגלית (ארה'ב)"
-		},
-		"enUkCurrencyNumberFormatButton": {
-			"title": "£ אנגלית (בריטניה)"
-		},
-		"euCurrencyNumberFormatButton": {
-			"title": "€ יורו (€ 123)"
-		},
-		"ruCurrencyNumberFormatButton": {
-			"title": "₽ רוסית"
-		},
-		"chCurrencyNumberFormatButton": {
-			"title": "¥ סינית"
-		},
-		"enInCurrencyNumberFormatButton": {
-			"title": "₹ אנגלית (הודו)"
-		},
-		"fillCellsDownButton": {
-			"title": "מלא למטה"
-		},
-		"fillCellsUpButton": {
-			"title": "מילוי"
-		},
-		"fillCellsLeftButton": {
-			"title": "מלא שמאלה"
-		},
-		"fillCellsRightButton": {
-			"title": "מלא ימינה"
-		},
-		"noBordersButton": {
-			"title": "אין גבולות"
-		},
-		"outsideBordersButton": {
-			"title": "גבולות חיצוניים"
-		},
-		"bottomBorderButton": {
-			"title": "גבול תחתון"
-		},
-		"topBorderButton": {
-			"title": "גבול עליון"
-		},
-		"rightBorderButton": {
-			"title": "גבול ימני"
-		},
-		"leftBorderButton": {
-			"title": "גבול שמאל"
-		},
-		"thickBottomBorderButton": {
-			"title": "גבול תחתון עבה"
-		},
-		"thickLeftBorderButton": {
-			"title": "גבול שמאלי עבה"
-		},
-		"doubleBottomBorderButton": {
-			"title": "גבול תחתון כפול"
-		},
-		"doubleLeftBorderButton": {
-			"title": "גבול שמאל כפול"
-		},
-		"borderColorButton": {
-			"title": "צבע גבול"
 		},
 		"copyWorksheetLabel": {
 			"text": "העתקת גיליון"

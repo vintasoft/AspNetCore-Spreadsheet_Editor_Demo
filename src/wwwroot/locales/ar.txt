@@ -15,6 +15,9 @@
 		"reviewLabel": {
 			"text": "تعليقات"
 		},
+		"showMobileMenuButton": {
+			"title": "المزيد"
+		},
 		"createXlsxDocumentButton": {
 			"title": "قم بإنشاء مستند XLSX جديد"
 		},
@@ -26,9 +29,6 @@
 		},
 		"exportXlsxToPdfButton": {
 			"title": "قم بتصدير XLSX إلى PDF"
-		},
-		"showMobileMenuButton": {
-			"title": "المزيد"
 		},
 		"boldTextButton": {
 			"title": "غامق"
@@ -73,7 +73,25 @@
 			"title": "التفاف النص"
 		},
 		"currencyNumberFormatButton": {
-			"title": "تنسيق الرقم المالي"
+			"title": "تنسيق الرقم المالي",
+			"enUsCurrencyNumberFormatButton": {
+				"title": "$ الإنجليزية (الولايات المتحدة الأمريكية)"
+			},
+			"enUkCurrencyNumberFormatButton": {
+				"title": "£ الإنجليزية (المملكة المتحدة)"
+			},
+			"euCurrencyNumberFormatButton": {
+				"title": "يورو يورو (123 يورو)"
+			},
+			"ruCurrencyNumberFormatButton": {
+				"title": "₽ روسي"
+			},
+			"chCurrencyNumberFormatButton": {
+				"title": "¥ صيني"
+			},
+			"enInCurrencyNumberFormatButton": {
+				"title": "₹ الإنجليزية (الهند)"
+			}
 		},
 		"increaseDecimalButton": {
 			"title": "زيادة العلامة العشرية"
@@ -165,7 +183,19 @@
 			"title": "فك دمج الخلايا"
 		},
 		"fillCells": {
-			"title": "تعبئة الخلايا"
+			"title": "تعبئة الخلايا",
+			"fillCellsDownButton": {
+				"title": "ملء"
+			},
+			"fillCellsUpButton": {
+				"title": "ملء"
+			},
+			"fillCellsLeftButton": {
+				"title": "ملء اليسار"
+			},
+			"fillCellsRightButton": {
+				"title": "ملء لليمين"
+			}
 		},
 		"allBordersButton": {
 			"title": "كافة الحدود"
@@ -174,7 +204,40 @@
 			"title": "حدود خارجية سميكة"
 		},
 		"cellBordersDropDownButton": {
-			"title": "حدود الخلية"
+			"title": "حدود الخلية",
+			"noBordersButton": {
+				"title": "لا حدود"
+			},
+			"outsideBordersButton": {
+				"title": "الحدود الخارجية"
+			},
+			"bottomBorderButton": {
+				"title": "الحد السفلي"
+			},
+			"topBorderButton": {
+				"title": "أعلى الحدود"
+			},
+			"rightBorderButton": {
+				"title": "الحد الأيمن"
+			},
+			"leftBorderButton": {
+				"title": "الحد الأيسر"
+			},
+			"thickBottomBorderButton": {
+				"title": "حد سفلي سميك"
+			},
+			"thickLeftBorderButton": {
+				"title": "حد أيسر سميك"
+			},
+			"doubleBottomBorderButton": {
+				"title": "حد سفلي مزدوج"
+			},
+			"doubleLeftBorderButton": {
+				"title": "حد أيسر مزدوج"
+			},
+			"borderColorButton": {
+				"title": "لون الحدود"
+			}
 		},
 		"autoFitRowHeightButton": {
 			"title": "احتواء تلقائي لارتفاع الصف"
@@ -262,69 +325,6 @@
 		},
 		"zoomInButton": {
 			"title": "تكبير"
-		},
-		"enUsCurrencyNumberFormatButton": {
-			"title": "$ الإنجليزية (الولايات المتحدة الأمريكية)"
-		},
-		"enUkCurrencyNumberFormatButton": {
-			"title": "£ الإنجليزية (المملكة المتحدة)"
-		},
-		"euCurrencyNumberFormatButton": {
-			"title": "يورو يورو (123 يورو)"
-		},
-		"ruCurrencyNumberFormatButton": {
-			"title": "₽ روسي"
-		},
-		"chCurrencyNumberFormatButton": {
-			"title": "¥ صيني"
-		},
-		"enInCurrencyNumberFormatButton": {
-			"title": "₹ الإنجليزية (الهند)"
-		},
-		"fillCellsDownButton": {
-			"title": "ملء"
-		},
-		"fillCellsUpButton": {
-			"title": "ملء"
-		},
-		"fillCellsLeftButton": {
-			"title": "ملء اليسار"
-		},
-		"fillCellsRightButton": {
-			"title": "ملء لليمين"
-		},
-		"noBordersButton": {
-			"title": "لا حدود"
-		},
-		"outsideBordersButton": {
-			"title": "الحدود الخارجية"
-		},
-		"bottomBorderButton": {
-			"title": "الحد السفلي"
-		},
-		"topBorderButton": {
-			"title": "أعلى الحدود"
-		},
-		"rightBorderButton": {
-			"title": "الحد الأيمن"
-		},
-		"leftBorderButton": {
-			"title": "الحد الأيسر"
-		},
-		"thickBottomBorderButton": {
-			"title": "حد سفلي سميك"
-		},
-		"thickLeftBorderButton": {
-			"title": "حد أيسر سميك"
-		},
-		"doubleBottomBorderButton": {
-			"title": "حد سفلي مزدوج"
-		},
-		"doubleLeftBorderButton": {
-			"title": "حد أيسر مزدوج"
-		},
-		"borderColorButton": {
-			"title": "لون الحدود"
 		},
 		"copyWorksheetLabel": {
 			"text": "نسخ الورقة"

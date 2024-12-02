@@ -15,6 +15,9 @@
 		"reviewLabel": {
 			"text": "Коментари"
 		},
+		"showMobileMenuButton": {
+			"title": "Още"
+		},
 		"createXlsxDocumentButton": {
 			"title": "Създайте нов XLSX документ"
 		},
@@ -26,9 +29,6 @@
 		},
 		"exportXlsxToPdfButton": {
 			"title": "Експортирайте XLSX в PDF"
-		},
-		"showMobileMenuButton": {
-			"title": "Още"
 		},
 		"boldTextButton": {
 			"title": "Удебелен"
@@ -73,7 +73,25 @@
 			"title": "Пренасяне на текст"
 		},
 		"currencyNumberFormatButton": {
-			"title": "Формат на финансовото число"
+			"title": "Формат на финансовото число",
+			"enUsCurrencyNumberFormatButton": {
+				"title": "$ Английски (САЩ)"
+			},
+			"enUkCurrencyNumberFormatButton": {
+				"title": "£ Английски (Обединеното кралство)"
+			},
+			"euCurrencyNumberFormatButton": {
+				"title": "€ Евро (€ 123)"
+			},
+			"ruCurrencyNumberFormatButton": {
+				"title": "₽ Руски"
+			},
+			"chCurrencyNumberFormatButton": {
+				"title": "¥ Китайски"
+			},
+			"enInCurrencyNumberFormatButton": {
+				"title": "₹ Английски (Индия)"
+			}
 		},
 		"increaseDecimalButton": {
 			"title": "Увеличете десетичния знак"
@@ -165,7 +183,19 @@
 			"title": "Премахване на обединяването на клетки"
 		},
 		"fillCells": {
-			"title": "Попълване на клетки"
+			"title": "Попълване на клетки",
+			"fillCellsDownButton": {
+				"title": "Попълнете"
+			},
+			"fillCellsUpButton": {
+				"title": "Напълнете"
+			},
+			"fillCellsLeftButton": {
+				"title": "Попълване отляво"
+			},
+			"fillCellsRightButton": {
+				"title": "Попълнете надясно"
+			}
 		},
 		"allBordersButton": {
 			"title": "Всички граници"
@@ -174,7 +204,40 @@
 			"title": "Дебели външни граници"
 		},
 		"cellBordersDropDownButton": {
-			"title": "Граници на клетките"
+			"title": "Граници на клетките",
+			"noBordersButton": {
+				"title": "Без граници"
+			},
+			"outsideBordersButton": {
+				"title": "Външни граници"
+			},
+			"bottomBorderButton": {
+				"title": "Долна граница"
+			},
+			"topBorderButton": {
+				"title": "Горна граница"
+			},
+			"rightBorderButton": {
+				"title": "Дясна граница"
+			},
+			"leftBorderButton": {
+				"title": "Лява граница"
+			},
+			"thickBottomBorderButton": {
+				"title": "Дебела долна граница"
+			},
+			"thickLeftBorderButton": {
+				"title": "Дебела лява граница"
+			},
+			"doubleBottomBorderButton": {
+				"title": "Двойна долна рамка"
+			},
+			"doubleLeftBorderButton": {
+				"title": "Двойна лява граница"
+			},
+			"borderColorButton": {
+				"title": "Цвят на границата"
+			}
 		},
 		"autoFitRowHeightButton": {
 			"title": "AutoFit височината на реда"
@@ -262,69 +325,6 @@
 		},
 		"zoomInButton": {
 			"title": "Увеличаване"
-		},
-		"enUsCurrencyNumberFormatButton": {
-			"title": "$ Английски (САЩ)"
-		},
-		"enUkCurrencyNumberFormatButton": {
-			"title": "£ Английски (Обединеното кралство)"
-		},
-		"euCurrencyNumberFormatButton": {
-			"title": "€ Евро (€ 123)"
-		},
-		"ruCurrencyNumberFormatButton": {
-			"title": "₽ Руски"
-		},
-		"chCurrencyNumberFormatButton": {
-			"title": "¥ Китайски"
-		},
-		"enInCurrencyNumberFormatButton": {
-			"title": "₹ Английски (Индия)"
-		},
-		"fillCellsDownButton": {
-			"title": "Попълнете"
-		},
-		"fillCellsUpButton": {
-			"title": "Напълнете"
-		},
-		"fillCellsLeftButton": {
-			"title": "Попълване отляво"
-		},
-		"fillCellsRightButton": {
-			"title": "Попълнете надясно"
-		},
-		"noBordersButton": {
-			"title": "Без граници"
-		},
-		"outsideBordersButton": {
-			"title": "Външни граници"
-		},
-		"bottomBorderButton": {
-			"title": "Долна граница"
-		},
-		"topBorderButton": {
-			"title": "Горна граница"
-		},
-		"rightBorderButton": {
-			"title": "Дясна граница"
-		},
-		"leftBorderButton": {
-			"title": "Лява граница"
-		},
-		"thickBottomBorderButton": {
-			"title": "Дебела долна граница"
-		},
-		"thickLeftBorderButton": {
-			"title": "Дебела лява граница"
-		},
-		"doubleBottomBorderButton": {
-			"title": "Двойна долна рамка"
-		},
-		"doubleLeftBorderButton": {
-			"title": "Двойна лява граница"
-		},
-		"borderColorButton": {
-			"title": "Цвят на границата"
 		},
 		"copyWorksheetLabel": {
 			"text": "Копирай лист"

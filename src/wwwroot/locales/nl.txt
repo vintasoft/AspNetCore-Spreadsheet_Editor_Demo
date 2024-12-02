@@ -15,6 +15,9 @@
 		"reviewLabel": {
 			"text": "Opmerkingen"
 		},
+		"showMobileMenuButton": {
+			"title": "Meer"
+		},
 		"createXlsxDocumentButton": {
 			"title": "Maak een nieuw XLSX-document"
 		},
@@ -26,9 +29,6 @@
 		},
 		"exportXlsxToPdfButton": {
 			"title": "Exporteer XLSX naar PDF"
-		},
-		"showMobileMenuButton": {
-			"title": "Meer"
 		},
 		"boldTextButton": {
 			"title": "Vetgedrukt"
@@ -73,7 +73,25 @@
 			"title": "Tekst laten teruglopen"
 		},
 		"currencyNumberFormatButton": {
-			"title": "Financiële getalnotatie"
+			"title": "Financiële getalnotatie",
+			"enUsCurrencyNumberFormatButton": {
+				"title": "$ Engels (VS)"
+			},
+			"enUkCurrencyNumberFormatButton": {
+				"title": "£ Engels (Verenigd Koninkrijk)"
+			},
+			"euCurrencyNumberFormatButton": {
+				"title": "€ Euro (€ 123)"
+			},
+			"ruCurrencyNumberFormatButton": {
+				"title": "₽ Russisch"
+			},
+			"chCurrencyNumberFormatButton": {
+				"title": "¥ Chinees"
+			},
+			"enInCurrencyNumberFormatButton": {
+				"title": "₹ Engels (India)"
+			}
 		},
 		"increaseDecimalButton": {
 			"title": "Decimaal verhogen"
@@ -165,7 +183,19 @@
 			"title": "Samenvoeging van cellen ongedaan maken"
 		},
 		"fillCells": {
-			"title": "Vul cellen"
+			"title": "Vul cellen",
+			"fillCellsDownButton": {
+				"title": "Vul in"
+			},
+			"fillCellsUpButton": {
+				"title": "Vullen"
+			},
+			"fillCellsLeftButton": {
+				"title": "Vul links in"
+			},
+			"fillCellsRightButton": {
+				"title": "Vul rechts in"
+			}
 		},
 		"allBordersButton": {
 			"title": "Alle randen"
@@ -174,7 +204,40 @@
 			"title": "Dikke buitenste randen"
 		},
 		"cellBordersDropDownButton": {
-			"title": "Celgrenzen"
+			"title": "Celgrenzen",
+			"noBordersButton": {
+				"title": "Geen grenzen"
+			},
+			"outsideBordersButton": {
+				"title": "Buitengrenzen"
+			},
+			"bottomBorderButton": {
+				"title": "Onderrand"
+			},
+			"topBorderButton": {
+				"title": "Bovenrand"
+			},
+			"rightBorderButton": {
+				"title": "Rechter grens"
+			},
+			"leftBorderButton": {
+				"title": "Linker grens"
+			},
+			"thickBottomBorderButton": {
+				"title": "Dikke onderrand"
+			},
+			"thickLeftBorderButton": {
+				"title": "Dikke linkerrand"
+			},
+			"doubleBottomBorderButton": {
+				"title": "Dubbele onderrand"
+			},
+			"doubleLeftBorderButton": {
+				"title": "Dubbele linkerrand"
+			},
+			"borderColorButton": {
+				"title": "Rand kleur"
+			}
 		},
 		"autoFitRowHeightButton": {
 			"title": "AutoFit de rijhoogte"
@@ -262,69 +325,6 @@
 		},
 		"zoomInButton": {
 			"title": "Inzoomen"
-		},
-		"enUsCurrencyNumberFormatButton": {
-			"title": "$ Engels (VS)"
-		},
-		"enUkCurrencyNumberFormatButton": {
-			"title": "£ Engels (Verenigd Koninkrijk)"
-		},
-		"euCurrencyNumberFormatButton": {
-			"title": "€ Euro (€ 123)"
-		},
-		"ruCurrencyNumberFormatButton": {
-			"title": "₽ Russisch"
-		},
-		"chCurrencyNumberFormatButton": {
-			"title": "¥ Chinees"
-		},
-		"enInCurrencyNumberFormatButton": {
-			"title": "₹ Engels (India)"
-		},
-		"fillCellsDownButton": {
-			"title": "Vul in"
-		},
-		"fillCellsUpButton": {
-			"title": "Vullen"
-		},
-		"fillCellsLeftButton": {
-			"title": "Vul links in"
-		},
-		"fillCellsRightButton": {
-			"title": "Vul rechts in"
-		},
-		"noBordersButton": {
-			"title": "Geen grenzen"
-		},
-		"outsideBordersButton": {
-			"title": "Buitengrenzen"
-		},
-		"bottomBorderButton": {
-			"title": "Onderrand"
-		},
-		"topBorderButton": {
-			"title": "Bovenrand"
-		},
-		"rightBorderButton": {
-			"title": "Rechter grens"
-		},
-		"leftBorderButton": {
-			"title": "Linker grens"
-		},
-		"thickBottomBorderButton": {
-			"title": "Dikke onderrand"
-		},
-		"thickLeftBorderButton": {
-			"title": "Dikke linkerrand"
-		},
-		"doubleBottomBorderButton": {
-			"title": "Dubbele onderrand"
-		},
-		"doubleLeftBorderButton": {
-			"title": "Dubbele linkerrand"
-		},
-		"borderColorButton": {
-			"title": "Rand kleur"
 		},
 		"copyWorksheetLabel": {
 			"text": "Blad kopiëren"

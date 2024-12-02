@@ -15,6 +15,9 @@
 		"reviewLabel": {
 			"text": "コメント"
 		},
+		"showMobileMenuButton": {
+			"title": "詳細"
+		},
 		"createXlsxDocumentButton": {
 			"title": "新しいXLSXドキュメントを作成する"
 		},
@@ -26,9 +29,6 @@
 		},
 		"exportXlsxToPdfButton": {
 			"title": "XLSX を PDF にエクスポート"
-		},
-		"showMobileMenuButton": {
-			"title": "詳細"
 		},
 		"boldTextButton": {
 			"title": "太字"
@@ -73,7 +73,25 @@
 			"title": "テキストを折り返す"
 		},
 		"currencyNumberFormatButton": {
-			"title": "財務番号の形式"
+			"title": "財務番号の形式",
+			"enUsCurrencyNumberFormatButton": {
+				"title": "$ 英語 (米国)"
+			},
+			"enUkCurrencyNumberFormatButton": {
+				"title": "£ 英語 (イギリス)"
+			},
+			"euCurrencyNumberFormatButton": {
+				"title": "€ ユーロ (€ 123)"
+			},
+			"ruCurrencyNumberFormatButton": {
+				"title": "₽ ロシア料理"
+			},
+			"chCurrencyNumberFormatButton": {
+				"title": "¥ 中華料理"
+			},
+			"enInCurrencyNumberFormatButton": {
+				"title": "₹ 英語 (インド)"
+			}
 		},
 		"increaseDecimalButton": {
 			"title": "小数点を増やす"
@@ -165,7 +183,19 @@
 			"title": "セルの結合を解除する"
 		},
 		"fillCells": {
-			"title": "セルを埋める"
+			"title": "セルを埋める",
+			"fillCellsDownButton": {
+				"title": "いっぱいにしてください"
+			},
+			"fillCellsUpButton": {
+				"title": "満タンにする"
+			},
+			"fillCellsLeftButton": {
+				"title": "左を埋める"
+			},
+			"fillCellsRightButton": {
+				"title": "右に記入"
+			}
 		},
 		"allBordersButton": {
 			"title": "すべての境界線"
@@ -174,7 +204,40 @@
 			"title": "太い外側の境界線"
 		},
 		"cellBordersDropDownButton": {
-			"title": "セルの境界線"
+			"title": "セルの境界線",
+			"noBordersButton": {
+				"title": "国境なし"
+			},
+			"outsideBordersButton": {
+				"title": "外側の境界"
+			},
+			"bottomBorderButton": {
+				"title": "下枠"
+			},
+			"topBorderButton": {
+				"title": "上枠"
+			},
+			"rightBorderButton": {
+				"title": "右枠線"
+			},
+			"leftBorderButton": {
+				"title": "左枠"
+			},
+			"thickBottomBorderButton": {
+				"title": "太い下の境界線"
+			},
+			"thickLeftBorderButton": {
+				"title": "太い左枠"
+			},
+			"doubleBottomBorderButton": {
+				"title": "二重下枠"
+			},
+			"doubleLeftBorderButton": {
+				"title": "左二重境界線"
+			},
+			"borderColorButton": {
+				"title": "ボーダの色"
+			}
 		},
 		"autoFitRowHeightButton": {
 			"title": "行の高さを自動調整する"
@@ -262,69 +325,6 @@
 		},
 		"zoomInButton": {
 			"title": "ズームイン"
-		},
-		"enUsCurrencyNumberFormatButton": {
-			"title": "$ 英語 (米国)"
-		},
-		"enUkCurrencyNumberFormatButton": {
-			"title": "£ 英語 (イギリス)"
-		},
-		"euCurrencyNumberFormatButton": {
-			"title": "€ ユーロ (€ 123)"
-		},
-		"ruCurrencyNumberFormatButton": {
-			"title": "₽ ロシア料理"
-		},
-		"chCurrencyNumberFormatButton": {
-			"title": "¥ 中華料理"
-		},
-		"enInCurrencyNumberFormatButton": {
-			"title": "₹ 英語 (インド)"
-		},
-		"fillCellsDownButton": {
-			"title": "いっぱいにしてください"
-		},
-		"fillCellsUpButton": {
-			"title": "満タンにする"
-		},
-		"fillCellsLeftButton": {
-			"title": "左を埋める"
-		},
-		"fillCellsRightButton": {
-			"title": "右に記入"
-		},
-		"noBordersButton": {
-			"title": "国境なし"
-		},
-		"outsideBordersButton": {
-			"title": "外側の境界"
-		},
-		"bottomBorderButton": {
-			"title": "下枠"
-		},
-		"topBorderButton": {
-			"title": "上枠"
-		},
-		"rightBorderButton": {
-			"title": "右枠線"
-		},
-		"leftBorderButton": {
-			"title": "左枠"
-		},
-		"thickBottomBorderButton": {
-			"title": "太い下の境界線"
-		},
-		"thickLeftBorderButton": {
-			"title": "太い左枠"
-		},
-		"doubleBottomBorderButton": {
-			"title": "二重下枠"
-		},
-		"doubleLeftBorderButton": {
-			"title": "左二重境界線"
-		},
-		"borderColorButton": {
-			"title": "ボーダの色"
 		},
 		"copyWorksheetLabel": {
 			"text": "シートをコピー"

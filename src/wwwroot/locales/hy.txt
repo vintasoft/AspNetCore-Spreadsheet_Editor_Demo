@@ -15,6 +15,9 @@
 		"reviewLabel": {
 			"text": "Վերանայում"
 		},
+		"showMobileMenuButton": {
+			"title": "Ավելին"
+		},
 		"createXlsxDocumentButton": {
 			"title": "Ստեղծեք նոր XLSX փաստաթուղթ"
 		},
@@ -26,9 +29,6 @@
 		},
 		"exportXlsxToPdfButton": {
 			"title": "Արտահանել XLSX-ը PDF"
-		},
-		"showMobileMenuButton": {
-			"title": "Ավելին"
 		},
 		"boldTextButton": {
 			"title": "Հաստ տեքստ"
@@ -73,7 +73,25 @@
 			"title": "Տեքստի փաթաթում"
 		},
 		"currencyNumberFormatButton": {
-			"title": "Արժույթի համարի ձևաչափ"
+			"title": "Արժույթի համարի ձևաչափ",
+			"enUsCurrencyNumberFormatButton": {
+				"title": "$ անգլերեն (ԱՄՆ)"
+			},
+			"enUkCurrencyNumberFormatButton": {
+				"title": "£ Անգլերեն (Միացյալ Թագավորություն)"
+			},
+			"euCurrencyNumberFormatButton": {
+				"title": "€ եվրո (123 €)"
+			},
+			"ruCurrencyNumberFormatButton": {
+				"title": "₽ Ռուսերեն"
+			},
+			"chCurrencyNumberFormatButton": {
+				"title": "¥ չինական"
+			},
+			"enInCurrencyNumberFormatButton": {
+				"title": "₹ անգլերեն (Հնդկաստան)"
+			}
 		},
 		"increaseDecimalButton": {
 			"title": "Մեծացնել տասնորդական"
@@ -165,7 +183,19 @@
 			"title": "Անջատել բջիջները"
 		},
 		"fillCells": {
-			"title": "Լրացրեք բջիջները"
+			"title": "Լրացրեք բջիջները",
+			"fillCellsDownButton": {
+				"title": "Լրացրեք"
+			},
+			"fillCellsUpButton": {
+				"title": "Լրացրեք"
+			},
+			"fillCellsLeftButton": {
+				"title": "Լրացրեք ձախը"
+			},
+			"fillCellsRightButton": {
+				"title": "Լրացրեք աջ"
+			}
 		},
 		"allBordersButton": {
 			"title": "Բոլոր սահմանները"
@@ -174,7 +204,40 @@
 			"title": "Հաստ արտաքին սահմաններ"
 		},
 		"cellBordersDropDownButton": {
-			"title": "Բջջի սահմաններ"
+			"title": "Բջջի սահմաններ",
+			"noBordersButton": {
+				"title": "Սահմաններ չկան"
+			},
+			"outsideBordersButton": {
+				"title": "Սահմաններից դուրս"
+			},
+			"bottomBorderButton": {
+				"title": "Ներքևի սահման"
+			},
+			"topBorderButton": {
+				"title": "Վերևի սահման"
+			},
+			"rightBorderButton": {
+				"title": "Աջ սահման"
+			},
+			"leftBorderButton": {
+				"title": "Ձախ սահման"
+			},
+			"thickBottomBorderButton": {
+				"title": "Հաստ ստորին եզրագիծ"
+			},
+			"thickLeftBorderButton": {
+				"title": "Հաստ ձախ եզրագիծ"
+			},
+			"doubleBottomBorderButton": {
+				"title": "Կրկնակի ստորին սահման"
+			},
+			"doubleLeftBorderButton": {
+				"title": "Կրկնակի ձախ սահման"
+			},
+			"borderColorButton": {
+				"title": "Սահմանի գույնը"
+			}
 		},
 		"autoFitRowHeightButton": {
 			"title": "Ինքնահաստատել տողի բարձրությունը"
@@ -262,69 +325,6 @@
 		},
 		"zoomInButton": {
 			"title": "Խոշորացնել. մոտեցնել"
-		},
-		"enUsCurrencyNumberFormatButton": {
-			"title": "$ անգլերեն (ԱՄՆ)"
-		},
-		"enUkCurrencyNumberFormatButton": {
-			"title": "£ Անգլերեն (Միացյալ Թագավորություն)"
-		},
-		"euCurrencyNumberFormatButton": {
-			"title": "€ եվրո (123 €)"
-		},
-		"ruCurrencyNumberFormatButton": {
-			"title": "₽ Ռուսերեն"
-		},
-		"chCurrencyNumberFormatButton": {
-			"title": "¥ չինական"
-		},
-		"enInCurrencyNumberFormatButton": {
-			"title": "₹ անգլերեն (Հնդկաստան)"
-		},
-		"fillCellsDownButton": {
-			"title": "Լրացրեք"
-		},
-		"fillCellsUpButton": {
-			"title": "Լրացրեք"
-		},
-		"fillCellsLeftButton": {
-			"title": "Լրացրեք ձախը"
-		},
-		"fillCellsRightButton": {
-			"title": "Լրացրեք աջ"
-		},
-		"noBordersButton": {
-			"title": "Սահմաններ չկան"
-		},
-		"outsideBordersButton": {
-			"title": "Սահմաններից դուրս"
-		},
-		"bottomBorderButton": {
-			"title": "Ներքևի սահման"
-		},
-		"topBorderButton": {
-			"title": "Վերևի սահման"
-		},
-		"rightBorderButton": {
-			"title": "Աջ սահման"
-		},
-		"leftBorderButton": {
-			"title": "Ձախ սահման"
-		},
-		"thickBottomBorderButton": {
-			"title": "Հաստ ստորին եզրագիծ"
-		},
-		"thickLeftBorderButton": {
-			"title": "Հաստ ձախ եզրագիծ"
-		},
-		"doubleBottomBorderButton": {
-			"title": "Կրկնակի ստորին սահման"
-		},
-		"doubleLeftBorderButton": {
-			"title": "Կրկնակի ձախ սահման"
-		},
-		"borderColorButton": {
-			"title": "Սահմանի գույնը"
 		},
 		"copyWorksheetLabel": {
 			"text": "Պատճենել աշխատանքային թերթիկը"

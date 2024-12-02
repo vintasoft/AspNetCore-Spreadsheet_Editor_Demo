@@ -15,6 +15,9 @@
 		"reviewLabel": {
 			"text": "Барраси"
 		},
+		"showMobileMenuButton": {
+			"title": "Бештар"
+		},
 		"createXlsxDocumentButton": {
 			"title": "Ҳуҷҷати нави XLSX эҷод кунед"
 		},
@@ -26,9 +29,6 @@
 		},
 		"exportXlsxToPdfButton": {
 			"title": "Содироти XLSX ба PDF"
-		},
-		"showMobileMenuButton": {
-			"title": "Бештар"
 		},
 		"boldTextButton": {
 			"title": "Матни ғафс"
@@ -73,7 +73,25 @@
 			"title": "Печондани матн"
 		},
 		"currencyNumberFormatButton": {
-			"title": "Формати рақами асъор"
+			"title": "Формати рақами асъор",
+			"enUsCurrencyNumberFormatButton": {
+				"title": "$ англисӣ (ИМА)"
+			},
+			"enUkCurrencyNumberFormatButton": {
+				"title": "£ англисӣ (Подшоҳии Муттаҳида)"
+			},
+			"euCurrencyNumberFormatButton": {
+				"title": "€ Евро (€ 123)"
+			},
+			"ruCurrencyNumberFormatButton": {
+				"title": "₽ русӣ"
+			},
+			"chCurrencyNumberFormatButton": {
+				"title": "¥ Чин"
+			},
+			"enInCurrencyNumberFormatButton": {
+				"title": "₹ англисӣ (Ҳиндустон)"
+			}
 		},
 		"increaseDecimalButton": {
 			"title": "Даҳро зиёд кунед"
@@ -165,7 +183,19 @@
 			"title": "Ҳуҷайраҳоро ҷудо кунед"
 		},
 		"fillCells": {
-			"title": "Пур кардани ҳуҷайраҳо"
+			"title": "Пур кардани ҳуҷайраҳо",
+			"fillCellsDownButton": {
+				"title": "Пур кунед"
+			},
+			"fillCellsUpButton": {
+				"title": "Пур кардан"
+			},
+			"fillCellsLeftButton": {
+				"title": "Ба чап пур кунед"
+			},
+			"fillCellsRightButton": {
+				"title": "Пур кардани рост"
+			}
 		},
 		"allBordersButton": {
 			"title": "Ҳама сарҳадҳо"
@@ -174,7 +204,40 @@
 			"title": "Сарҳадҳои ғафси беруна"
 		},
 		"cellBordersDropDownButton": {
-			"title": "Сарҳадҳои ҳуҷайра"
+			"title": "Сарҳадҳои ҳуҷайра",
+			"noBordersButton": {
+				"title": "Сарҳад нест"
+			},
+			"outsideBordersButton": {
+				"title": "Сарҳадҳои беруна"
+			},
+			"bottomBorderButton": {
+				"title": "Сарҳади поён"
+			},
+			"topBorderButton": {
+				"title": "Сарҳади боло"
+			},
+			"rightBorderButton": {
+				"title": "Сарҳади рост"
+			},
+			"leftBorderButton": {
+				"title": "Сарҳади чап"
+			},
+			"thickBottomBorderButton": {
+				"title": "Сарҳади ғафси поён"
+			},
+			"thickLeftBorderButton": {
+				"title": "Сарҳади ғафси чап"
+			},
+			"doubleBottomBorderButton": {
+				"title": "Сарҳади дукаратаи поён"
+			},
+			"doubleLeftBorderButton": {
+				"title": "Сарҳади дукаратаи чап"
+			},
+			"borderColorButton": {
+				"title": "Ранги сарҳад"
+			}
 		},
 		"autoFitRowHeightButton": {
 			"title": "Автомат кардани баландии сатр"
@@ -262,69 +325,6 @@
 		},
 		"zoomInButton": {
 			"title": "Масштаб кардан"
-		},
-		"enUsCurrencyNumberFormatButton": {
-			"title": "$ англисӣ (ИМА)"
-		},
-		"enUkCurrencyNumberFormatButton": {
-			"title": "£ англисӣ (Подшоҳии Муттаҳида)"
-		},
-		"euCurrencyNumberFormatButton": {
-			"title": "€ Евро (€ 123)"
-		},
-		"ruCurrencyNumberFormatButton": {
-			"title": "₽ русӣ"
-		},
-		"chCurrencyNumberFormatButton": {
-			"title": "¥ Чин"
-		},
-		"enInCurrencyNumberFormatButton": {
-			"title": "₹ англисӣ (Ҳиндустон)"
-		},
-		"fillCellsDownButton": {
-			"title": "Пур кунед"
-		},
-		"fillCellsUpButton": {
-			"title": "Пур кардан"
-		},
-		"fillCellsLeftButton": {
-			"title": "Ба чап пур кунед"
-		},
-		"fillCellsRightButton": {
-			"title": "Пур кардани рост"
-		},
-		"noBordersButton": {
-			"title": "Сарҳад нест"
-		},
-		"outsideBordersButton": {
-			"title": "Сарҳадҳои беруна"
-		},
-		"bottomBorderButton": {
-			"title": "Сарҳади поён"
-		},
-		"topBorderButton": {
-			"title": "Сарҳади боло"
-		},
-		"rightBorderButton": {
-			"title": "Сарҳади рост"
-		},
-		"leftBorderButton": {
-			"title": "Сарҳади чап"
-		},
-		"thickBottomBorderButton": {
-			"title": "Сарҳади ғафси поён"
-		},
-		"thickLeftBorderButton": {
-			"title": "Сарҳади ғафси чап"
-		},
-		"doubleBottomBorderButton": {
-			"title": "Сарҳади дукаратаи поён"
-		},
-		"doubleLeftBorderButton": {
-			"title": "Сарҳади дукаратаи чап"
-		},
-		"borderColorButton": {
-			"title": "Ранги сарҳад"
 		},
 		"copyWorksheetLabel": {
 			"text": "Варақаи кориро нусхабардорӣ кунед"

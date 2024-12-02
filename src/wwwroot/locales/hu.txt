@@ -15,6 +15,9 @@
 		"reviewLabel": {
 			"text": "Megjegyzések"
 		},
+		"showMobileMenuButton": {
+			"title": "Továbbiak"
+		},
 		"createXlsxDocumentButton": {
 			"title": "Hozzon létre új XLSX dokumentumot"
 		},
@@ -26,9 +29,6 @@
 		},
 		"exportXlsxToPdfButton": {
 			"title": "XLSX exportálása PDF-be"
-		},
-		"showMobileMenuButton": {
-			"title": "Továbbiak"
 		},
 		"boldTextButton": {
 			"title": "félkövér"
@@ -73,7 +73,25 @@
 			"title": "Szöveg tördelése"
 		},
 		"currencyNumberFormatButton": {
-			"title": "Pénzügyi számformátum"
+			"title": "Pénzügyi számformátum",
+			"enUsCurrencyNumberFormatButton": {
+				"title": "$ angol (USA)"
+			},
+			"enUkCurrencyNumberFormatButton": {
+				"title": "£ angol (Egyesült Királyság)"
+			},
+			"euCurrencyNumberFormatButton": {
+				"title": "€ euró (123 €)"
+			},
+			"ruCurrencyNumberFormatButton": {
+				"title": "₽ orosz"
+			},
+			"chCurrencyNumberFormatButton": {
+				"title": "¥ kínai"
+			},
+			"enInCurrencyNumberFormatButton": {
+				"title": "₹ angol (India)"
+			}
 		},
 		"increaseDecimalButton": {
 			"title": "Tizedesjegy növelése"
@@ -165,7 +183,19 @@
 			"title": "A cellák egyesítésének megszüntetése"
 		},
 		"fillCells": {
-			"title": "Cellák kitöltése"
+			"title": "Cellák kitöltése",
+			"fillCellsDownButton": {
+				"title": "Töltsd le"
+			},
+			"fillCellsUpButton": {
+				"title": "Töltsd fel"
+			},
+			"fillCellsLeftButton": {
+				"title": "Kitöltés balra"
+			},
+			"fillCellsRightButton": {
+				"title": "Töltsd ki jobbra"
+			}
 		},
 		"allBordersButton": {
 			"title": "Minden szegély"
@@ -174,7 +204,40 @@
 			"title": "Vastag külső szegély"
 		},
 		"cellBordersDropDownButton": {
-			"title": "Cell határok"
+			"title": "Cell határok",
+			"noBordersButton": {
+				"title": "Nincs határ"
+			},
+			"outsideBordersButton": {
+				"title": "Külső határok"
+			},
+			"bottomBorderButton": {
+				"title": "Alsó szegély"
+			},
+			"topBorderButton": {
+				"title": "Felső szegély"
+			},
+			"rightBorderButton": {
+				"title": "Jobb határ"
+			},
+			"leftBorderButton": {
+				"title": "Bal határ"
+			},
+			"thickBottomBorderButton": {
+				"title": "Vastag alsó szegély"
+			},
+			"thickLeftBorderButton": {
+				"title": "Vastag bal szegély"
+			},
+			"doubleBottomBorderButton": {
+				"title": "Dupla alsó szegély"
+			},
+			"doubleLeftBorderButton": {
+				"title": "Dupla bal szegély"
+			},
+			"borderColorButton": {
+				"title": "Szegély színe"
+			}
 		},
 		"autoFitRowHeightButton": {
 			"title": "A sormagasság automatikus igazítása"
@@ -262,69 +325,6 @@
 		},
 		"zoomInButton": {
 			"title": "Nagyítás"
-		},
-		"enUsCurrencyNumberFormatButton": {
-			"title": "$ angol (USA)"
-		},
-		"enUkCurrencyNumberFormatButton": {
-			"title": "£ angol (Egyesült Királyság)"
-		},
-		"euCurrencyNumberFormatButton": {
-			"title": "€ euró (123 €)"
-		},
-		"ruCurrencyNumberFormatButton": {
-			"title": "₽ orosz"
-		},
-		"chCurrencyNumberFormatButton": {
-			"title": "¥ kínai"
-		},
-		"enInCurrencyNumberFormatButton": {
-			"title": "₹ angol (India)"
-		},
-		"fillCellsDownButton": {
-			"title": "Töltsd le"
-		},
-		"fillCellsUpButton": {
-			"title": "Töltsd fel"
-		},
-		"fillCellsLeftButton": {
-			"title": "Kitöltés balra"
-		},
-		"fillCellsRightButton": {
-			"title": "Töltsd ki jobbra"
-		},
-		"noBordersButton": {
-			"title": "Nincs határ"
-		},
-		"outsideBordersButton": {
-			"title": "Külső határok"
-		},
-		"bottomBorderButton": {
-			"title": "Alsó szegély"
-		},
-		"topBorderButton": {
-			"title": "Felső szegély"
-		},
-		"rightBorderButton": {
-			"title": "Jobb határ"
-		},
-		"leftBorderButton": {
-			"title": "Bal határ"
-		},
-		"thickBottomBorderButton": {
-			"title": "Vastag alsó szegély"
-		},
-		"thickLeftBorderButton": {
-			"title": "Vastag bal szegély"
-		},
-		"doubleBottomBorderButton": {
-			"title": "Dupla alsó szegély"
-		},
-		"doubleLeftBorderButton": {
-			"title": "Dupla bal szegély"
-		},
-		"borderColorButton": {
-			"title": "Szegély színe"
 		},
 		"copyWorksheetLabel": {
 			"text": "Lap másolása"

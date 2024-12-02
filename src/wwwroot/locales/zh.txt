@@ -15,6 +15,9 @@
 		"reviewLabel": {
 			"text": "审查"
 		},
+		"showMobileMenuButton": {
+			"title": "更多的"
+		},
 		"createXlsxDocumentButton": {
 			"title": "创建新的 XLSX 文档"
 		},
@@ -26,9 +29,6 @@
 		},
 		"exportXlsxToPdfButton": {
 			"title": "将 XLSX 导出为 PDF"
-		},
-		"showMobileMenuButton": {
-			"title": "更多的"
 		},
 		"boldTextButton": {
 			"title": "加粗字体"
@@ -73,7 +73,25 @@
 			"title": "文字换行"
 		},
 		"currencyNumberFormatButton": {
-			"title": "货币数字格式"
+			"title": "货币数字格式",
+			"enUsCurrencyNumberFormatButton": {
+				"title": "$ 英语（美国）"
+			},
+			"enUkCurrencyNumberFormatButton": {
+				"title": "$ 英语（英国）"
+			},
+			"euCurrencyNumberFormatButton": {
+				"title": "€ 欧元 (€ 123)"
+			},
+			"ruCurrencyNumberFormatButton": {
+				"title": "₽ 俄语"
+			},
+			"chCurrencyNumberFormatButton": {
+				"title": "¥ 中文"
+			},
+			"enInCurrencyNumberFormatButton": {
+				"title": "$ 英语（印度）"
+			}
 		},
 		"increaseDecimalButton": {
 			"title": "增加小数点"
@@ -165,7 +183,19 @@
 			"title": "取消合并单元格"
 		},
 		"fillCells": {
-			"title": "填充单元格"
+			"title": "填充单元格",
+			"fillCellsDownButton": {
+				"title": "向下填充"
+			},
+			"fillCellsUpButton": {
+				"title": "填上"
+			},
+			"fillCellsLeftButton": {
+				"title": "向左填充"
+			},
+			"fillCellsRightButton": {
+				"title": "向右填充"
+			}
 		},
 		"allBordersButton": {
 			"title": "所有边框"
@@ -174,7 +204,40 @@
 			"title": "厚外边框"
 		},
 		"cellBordersDropDownButton": {
-			"title": "细胞边界"
+			"title": "细胞边界",
+			"noBordersButton": {
+				"title": "无国界"
+			},
+			"outsideBordersButton": {
+				"title": "境外"
+			},
+			"bottomBorderButton": {
+				"title": "下边框"
+			},
+			"topBorderButton": {
+				"title": "顶部边框"
+			},
+			"rightBorderButton": {
+				"title": "右边框"
+			},
+			"leftBorderButton": {
+				"title": "左边框"
+			},
+			"thickBottomBorderButton": {
+				"title": "厚底边框"
+			},
+			"thickLeftBorderButton": {
+				"title": "粗左边框"
+			},
+			"doubleBottomBorderButton": {
+				"title": "双层底边框"
+			},
+			"doubleLeftBorderButton": {
+				"title": "双左边框"
+			},
+			"borderColorButton": {
+				"title": "边框颜色"
+			}
 		},
 		"autoFitRowHeightButton": {
 			"title": "自动调整行高"
@@ -262,69 +325,6 @@
 		},
 		"zoomInButton": {
 			"title": "放大"
-		},
-		"enUsCurrencyNumberFormatButton": {
-			"title": "$ 英语（美国）"
-		},
-		"enUkCurrencyNumberFormatButton": {
-			"title": "$ 英语（英国）"
-		},
-		"euCurrencyNumberFormatButton": {
-			"title": "€ 欧元 (€ 123)"
-		},
-		"ruCurrencyNumberFormatButton": {
-			"title": "₽ 俄语"
-		},
-		"chCurrencyNumberFormatButton": {
-			"title": "¥ 中文"
-		},
-		"enInCurrencyNumberFormatButton": {
-			"title": "$ 英语（印度）"
-		},
-		"fillCellsDownButton": {
-			"title": "向下填充"
-		},
-		"fillCellsUpButton": {
-			"title": "填上"
-		},
-		"fillCellsLeftButton": {
-			"title": "向左填充"
-		},
-		"fillCellsRightButton": {
-			"title": "向右填充"
-		},
-		"noBordersButton": {
-			"title": "无国界"
-		},
-		"outsideBordersButton": {
-			"title": "境外"
-		},
-		"bottomBorderButton": {
-			"title": "下边框"
-		},
-		"topBorderButton": {
-			"title": "顶部边框"
-		},
-		"rightBorderButton": {
-			"title": "右边框"
-		},
-		"leftBorderButton": {
-			"title": "左边框"
-		},
-		"thickBottomBorderButton": {
-			"title": "厚底边框"
-		},
-		"thickLeftBorderButton": {
-			"title": "粗左边框"
-		},
-		"doubleBottomBorderButton": {
-			"title": "双层底边框"
-		},
-		"doubleLeftBorderButton": {
-			"title": "双左边框"
-		},
-		"borderColorButton": {
-			"title": "边框颜色"
 		},
 		"copyWorksheetLabel": {
 			"text": "复制工作表"

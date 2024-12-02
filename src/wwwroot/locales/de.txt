@@ -15,6 +15,9 @@
 		"reviewLabel": {
 			"text": "Kommentare"
 		},
+		"showMobileMenuButton": {
+			"title": "Mehr"
+		},
 		"createXlsxDocumentButton": {
 			"title": "Erstellen Sie ein neues XLSX-Dokument"
 		},
@@ -26,9 +29,6 @@
 		},
 		"exportXlsxToPdfButton": {
 			"title": "Exportieren Sie XLSX in PDF"
-		},
-		"showMobileMenuButton": {
-			"title": "Mehr"
 		},
 		"boldTextButton": {
 			"title": "Fett"
@@ -73,7 +73,25 @@
 			"title": "Text umbrechen"
 		},
 		"currencyNumberFormatButton": {
-			"title": "Finanzzahlenformat"
+			"title": "Finanzzahlenformat",
+			"enUsCurrencyNumberFormatButton": {
+				"title": "$ Englisch (USA)"
+			},
+			"enUkCurrencyNumberFormatButton": {
+				"title": "£ Englisch (Vereinigtes Königreich)"
+			},
+			"euCurrencyNumberFormatButton": {
+				"title": "€ Euro (€ 123)"
+			},
+			"ruCurrencyNumberFormatButton": {
+				"title": "₽ Russisch"
+			},
+			"chCurrencyNumberFormatButton": {
+				"title": "¥ Chinesisch"
+			},
+			"enInCurrencyNumberFormatButton": {
+				"title": "₹ Englisch (Indien)"
+			}
 		},
 		"increaseDecimalButton": {
 			"title": "Dezimalzahl erhöhen"
@@ -165,7 +183,19 @@
 			"title": "Zellen trennen"
 		},
 		"fillCells": {
-			"title": "Zellen füllen"
+			"title": "Zellen füllen",
+			"fillCellsDownButton": {
+				"title": "Nach unten füllen"
+			},
+			"fillCellsUpButton": {
+				"title": "Auffüllen"
+			},
+			"fillCellsLeftButton": {
+				"title": "Links füllen"
+			},
+			"fillCellsRightButton": {
+				"title": "Rechts ausfüllen"
+			}
 		},
 		"allBordersButton": {
 			"title": "Alle Grenzen"
@@ -174,7 +204,40 @@
 			"title": "Dicke Außenränder"
 		},
 		"cellBordersDropDownButton": {
-			"title": "Zellgrenzen"
+			"title": "Zellgrenzen",
+			"noBordersButton": {
+				"title": "Keine Grenzen"
+			},
+			"outsideBordersButton": {
+				"title": "Äußere Grenzen"
+			},
+			"bottomBorderButton": {
+				"title": "Untere Grenze"
+			},
+			"topBorderButton": {
+				"title": "Oberer Rand"
+			},
+			"rightBorderButton": {
+				"title": "Rechte Grenze"
+			},
+			"leftBorderButton": {
+				"title": "Linker Rand"
+			},
+			"thickBottomBorderButton": {
+				"title": "Dicker unterer Rand"
+			},
+			"thickLeftBorderButton": {
+				"title": "Dicker linker Rand"
+			},
+			"doubleBottomBorderButton": {
+				"title": "Doppelter unterer Rand"
+			},
+			"doubleLeftBorderButton": {
+				"title": "Doppelter linker Rand"
+			},
+			"borderColorButton": {
+				"title": "Randfarbe"
+			}
 		},
 		"autoFitRowHeightButton": {
 			"title": "Automatische Anpassung der Zeilenhöhe"
@@ -262,69 +325,6 @@
 		},
 		"zoomInButton": {
 			"title": "Vergrößern"
-		},
-		"enUsCurrencyNumberFormatButton": {
-			"title": "$ Englisch (USA)"
-		},
-		"enUkCurrencyNumberFormatButton": {
-			"title": "£ Englisch (Vereinigtes Königreich)"
-		},
-		"euCurrencyNumberFormatButton": {
-			"title": "€ Euro (€ 123)"
-		},
-		"ruCurrencyNumberFormatButton": {
-			"title": "₽ Russisch"
-		},
-		"chCurrencyNumberFormatButton": {
-			"title": "¥ Chinesisch"
-		},
-		"enInCurrencyNumberFormatButton": {
-			"title": "₹ Englisch (Indien)"
-		},
-		"fillCellsDownButton": {
-			"title": "Nach unten füllen"
-		},
-		"fillCellsUpButton": {
-			"title": "Auffüllen"
-		},
-		"fillCellsLeftButton": {
-			"title": "Links füllen"
-		},
-		"fillCellsRightButton": {
-			"title": "Rechts ausfüllen"
-		},
-		"noBordersButton": {
-			"title": "Keine Grenzen"
-		},
-		"outsideBordersButton": {
-			"title": "Äußere Grenzen"
-		},
-		"bottomBorderButton": {
-			"title": "Untere Grenze"
-		},
-		"topBorderButton": {
-			"title": "Oberer Rand"
-		},
-		"rightBorderButton": {
-			"title": "Rechte Grenze"
-		},
-		"leftBorderButton": {
-			"title": "Linker Rand"
-		},
-		"thickBottomBorderButton": {
-			"title": "Dicker unterer Rand"
-		},
-		"thickLeftBorderButton": {
-			"title": "Dicker linker Rand"
-		},
-		"doubleBottomBorderButton": {
-			"title": "Doppelter unterer Rand"
-		},
-		"doubleLeftBorderButton": {
-			"title": "Doppelter linker Rand"
-		},
-		"borderColorButton": {
-			"title": "Randfarbe"
 		},
 		"copyWorksheetLabel": {
 			"text": "Blatt kopieren"

@@ -15,6 +15,9 @@
 		"reviewLabel": {
 			"text": "Commentaires"
 		},
+		"showMobileMenuButton": {
+			"title": "Plus"
+		},
 		"createXlsxDocumentButton": {
 			"title": "Créer un nouveau document XLSX"
 		},
@@ -26,9 +29,6 @@
 		},
 		"exportXlsxToPdfButton": {
 			"title": "Exporter XLSX en PDF"
-		},
-		"showMobileMenuButton": {
-			"title": "Plus"
 		},
 		"boldTextButton": {
 			"title": "Gras"
@@ -73,7 +73,25 @@
 			"title": "Envelopper le texte"
 		},
 		"currencyNumberFormatButton": {
-			"title": "Format du numéro financier"
+			"title": "Format du numéro financier",
+			"enUsCurrencyNumberFormatButton": {
+				"title": "$ Anglais (États-Unis)"
+			},
+			"enUkCurrencyNumberFormatButton": {
+				"title": "£ Anglais (Royaume-Uni)"
+			},
+			"euCurrencyNumberFormatButton": {
+				"title": "€ Euro (123 €)"
+			},
+			"ruCurrencyNumberFormatButton": {
+				"title": "₽ Russe"
+			},
+			"chCurrencyNumberFormatButton": {
+				"title": "¥ Chinois"
+			},
+			"enInCurrencyNumberFormatButton": {
+				"title": "₹ Anglais (Inde)"
+			}
 		},
 		"increaseDecimalButton": {
 			"title": "Augmenter la décimale"
@@ -165,7 +183,19 @@
 			"title": "Annuler la fusion des cellules"
 		},
 		"fillCells": {
-			"title": "Remplir les cellules"
+			"title": "Remplir les cellules",
+			"fillCellsDownButton": {
+				"title": "Remplir"
+			},
+			"fillCellsUpButton": {
+				"title": "Remplir"
+			},
+			"fillCellsLeftButton": {
+				"title": "Remplir à gauche"
+			},
+			"fillCellsRightButton": {
+				"title": "Remplir à droite"
+			}
 		},
 		"allBordersButton": {
 			"title": "Toutes les bordures"
@@ -174,7 +204,40 @@
 			"title": "Bordures extérieures épaisses"
 		},
 		"cellBordersDropDownButton": {
-			"title": "Bordures de cellules"
+			"title": "Bordures de cellules",
+			"noBordersButton": {
+				"title": "Pas de frontières"
+			},
+			"outsideBordersButton": {
+				"title": "Bords extérieurs"
+			},
+			"bottomBorderButton": {
+				"title": "Bordure inférieure"
+			},
+			"topBorderButton": {
+				"title": "Bordure supérieure"
+			},
+			"rightBorderButton": {
+				"title": "Bordure droite"
+			},
+			"leftBorderButton": {
+				"title": "Bordure gauche"
+			},
+			"thickBottomBorderButton": {
+				"title": "Bordure inférieure épaisse"
+			},
+			"thickLeftBorderButton": {
+				"title": "Bordure gauche épaisse"
+			},
+			"doubleBottomBorderButton": {
+				"title": "Double bordure inférieure"
+			},
+			"doubleLeftBorderButton": {
+				"title": "Double bordure gauche"
+			},
+			"borderColorButton": {
+				"title": "Couleur de la bordure"
+			}
 		},
 		"autoFitRowHeightButton": {
 			"title": "Ajuster automatiquement la hauteur de ligne"
@@ -262,69 +325,6 @@
 		},
 		"zoomInButton": {
 			"title": "Zoomer"
-		},
-		"enUsCurrencyNumberFormatButton": {
-			"title": "$ Anglais (États-Unis)"
-		},
-		"enUkCurrencyNumberFormatButton": {
-			"title": "£ Anglais (Royaume-Uni)"
-		},
-		"euCurrencyNumberFormatButton": {
-			"title": "€ Euro (123 €)"
-		},
-		"ruCurrencyNumberFormatButton": {
-			"title": "₽ Russe"
-		},
-		"chCurrencyNumberFormatButton": {
-			"title": "¥ Chinois"
-		},
-		"enInCurrencyNumberFormatButton": {
-			"title": "₹ Anglais (Inde)"
-		},
-		"fillCellsDownButton": {
-			"title": "Remplir"
-		},
-		"fillCellsUpButton": {
-			"title": "Remplir"
-		},
-		"fillCellsLeftButton": {
-			"title": "Remplir à gauche"
-		},
-		"fillCellsRightButton": {
-			"title": "Remplir à droite"
-		},
-		"noBordersButton": {
-			"title": "Pas de frontières"
-		},
-		"outsideBordersButton": {
-			"title": "Bords extérieurs"
-		},
-		"bottomBorderButton": {
-			"title": "Bordure inférieure"
-		},
-		"topBorderButton": {
-			"title": "Bordure supérieure"
-		},
-		"rightBorderButton": {
-			"title": "Bordure droite"
-		},
-		"leftBorderButton": {
-			"title": "Bordure gauche"
-		},
-		"thickBottomBorderButton": {
-			"title": "Bordure inférieure épaisse"
-		},
-		"thickLeftBorderButton": {
-			"title": "Bordure gauche épaisse"
-		},
-		"doubleBottomBorderButton": {
-			"title": "Double bordure inférieure"
-		},
-		"doubleLeftBorderButton": {
-			"title": "Double bordure gauche"
-		},
-		"borderColorButton": {
-			"title": "Couleur de la bordure"
 		},
 		"copyWorksheetLabel": {
 			"text": "Copier la feuille"

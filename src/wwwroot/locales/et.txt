@@ -15,6 +15,9 @@
 		"reviewLabel": {
 			"text": "Ülevaade"
 		},
+		"showMobileMenuButton": {
+			"title": "Rohkem"
+		},
 		"createXlsxDocumentButton": {
 			"title": "Looge uus XLSX-dokument"
 		},
@@ -26,9 +29,6 @@
 		},
 		"exportXlsxToPdfButton": {
 			"title": "Ekspordi XLSX PDF-i"
-		},
-		"showMobileMenuButton": {
-			"title": "Rohkem"
 		},
 		"boldTextButton": {
 			"title": "Paks tekst"
@@ -73,7 +73,25 @@
 			"title": "Teksti pakkimine"
 		},
 		"currencyNumberFormatButton": {
-			"title": "Valuuta numbrite vorming"
+			"title": "Valuuta numbrite vorming",
+			"enUsCurrencyNumberFormatButton": {
+				"title": "$ inglise (USA)"
+			},
+			"enUkCurrencyNumberFormatButton": {
+				"title": "Inglise £ (Ühendkuningriik)"
+			},
+			"euCurrencyNumberFormatButton": {
+				"title": "€ Euro (123 €)"
+			},
+			"ruCurrencyNumberFormatButton": {
+				"title": "₽ vene keel"
+			},
+			"chCurrencyNumberFormatButton": {
+				"title": "¥ hiina keel"
+			},
+			"enInCurrencyNumberFormatButton": {
+				"title": "₹ inglise keel (India)"
+			}
 		},
 		"increaseDecimalButton": {
 			"title": "Suurenda kümnendkoha arvu"
@@ -165,7 +183,19 @@
 			"title": "Lahtrite ühendamine"
 		},
 		"fillCells": {
-			"title": "Täida lahtrid"
+			"title": "Täida lahtrid",
+			"fillCellsDownButton": {
+				"title": "Täitke alla"
+			},
+			"fillCellsUpButton": {
+				"title": "Täitma"
+			},
+			"fillCellsLeftButton": {
+				"title": "Täida vasakule"
+			},
+			"fillCellsRightButton": {
+				"title": "Täida paremale"
+			}
 		},
 		"allBordersButton": {
 			"title": "Kõik piirid"
@@ -174,7 +204,40 @@
 			"title": "Paksud välispiirid"
 		},
 		"cellBordersDropDownButton": {
-			"title": "Lahtri piirid"
+			"title": "Lahtri piirid",
+			"noBordersButton": {
+				"title": "Piire pole"
+			},
+			"outsideBordersButton": {
+				"title": "Väljaspool piire"
+			},
+			"bottomBorderButton": {
+				"title": "Alumine piir"
+			},
+			"topBorderButton": {
+				"title": "Ülemine ääris"
+			},
+			"rightBorderButton": {
+				"title": "Parem piir"
+			},
+			"leftBorderButton": {
+				"title": "Vasak piir"
+			},
+			"thickBottomBorderButton": {
+				"title": "Paks alumine ääris"
+			},
+			"thickLeftBorderButton": {
+				"title": "Paks vasak ääris"
+			},
+			"doubleBottomBorderButton": {
+				"title": "Kahepõhjaline ääris"
+			},
+			"doubleLeftBorderButton": {
+				"title": "Topelt vasak ääris"
+			},
+			"borderColorButton": {
+				"title": "Äärise värv"
+			}
 		},
 		"autoFitRowHeightButton": {
 			"title": "Rea kõrguse automaatne sobitamine"
@@ -262,69 +325,6 @@
 		},
 		"zoomInButton": {
 			"title": "Suurenda"
-		},
-		"enUsCurrencyNumberFormatButton": {
-			"title": "$ inglise (USA)"
-		},
-		"enUkCurrencyNumberFormatButton": {
-			"title": "Inglise £ (Ühendkuningriik)"
-		},
-		"euCurrencyNumberFormatButton": {
-			"title": "€ Euro (123 €)"
-		},
-		"ruCurrencyNumberFormatButton": {
-			"title": "₽ vene keel"
-		},
-		"chCurrencyNumberFormatButton": {
-			"title": "¥ hiina keel"
-		},
-		"enInCurrencyNumberFormatButton": {
-			"title": "₹ inglise keel (India)"
-		},
-		"fillCellsDownButton": {
-			"title": "Täitke alla"
-		},
-		"fillCellsUpButton": {
-			"title": "Täitma"
-		},
-		"fillCellsLeftButton": {
-			"title": "Täida vasakule"
-		},
-		"fillCellsRightButton": {
-			"title": "Täida paremale"
-		},
-		"noBordersButton": {
-			"title": "Piire pole"
-		},
-		"outsideBordersButton": {
-			"title": "Väljaspool piire"
-		},
-		"bottomBorderButton": {
-			"title": "Alumine piir"
-		},
-		"topBorderButton": {
-			"title": "Ülemine ääris"
-		},
-		"rightBorderButton": {
-			"title": "Parem piir"
-		},
-		"leftBorderButton": {
-			"title": "Vasak piir"
-		},
-		"thickBottomBorderButton": {
-			"title": "Paks alumine ääris"
-		},
-		"thickLeftBorderButton": {
-			"title": "Paks vasak ääris"
-		},
-		"doubleBottomBorderButton": {
-			"title": "Kahepõhjaline ääris"
-		},
-		"doubleLeftBorderButton": {
-			"title": "Topelt vasak ääris"
-		},
-		"borderColorButton": {
-			"title": "Äärise värv"
 		},
 		"copyWorksheetLabel": {
 			"text": "Kopeeri tööleht"

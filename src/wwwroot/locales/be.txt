@@ -15,6 +15,9 @@
 		"reviewLabel": {
 			"text": "Каментары"
 		},
+		"showMobileMenuButton": {
+			"title": "Яшчэ"
+		},
 		"createXlsxDocumentButton": {
 			"title": "Стварыце новы дакумент XLSX"
 		},
@@ -26,9 +29,6 @@
 		},
 		"exportXlsxToPdfButton": {
 			"title": "Экспарт XLSX у PDF"
-		},
-		"showMobileMenuButton": {
-			"title": "Яшчэ"
 		},
 		"boldTextButton": {
 			"title": "Паўтлусты"
@@ -73,7 +73,25 @@
 			"title": "Пераносіць тэкст"
 		},
 		"currencyNumberFormatButton": {
-			"title": "Фінансавы лікавы фармат"
+			"title": "Фінансавы лікавы фармат",
+			"enUsCurrencyNumberFormatButton": {
+				"title": "$ Англійская (ЗША)"
+			},
+			"enUkCurrencyNumberFormatButton": {
+				"title": "£ Англійская (Вялікабрытанія)"
+			},
+			"euCurrencyNumberFormatButton": {
+				"title": "€ Еўра (€ 123)"
+			},
+			"ruCurrencyNumberFormatButton": {
+				"title": "₽ Рускі"
+			},
+			"chCurrencyNumberFormatButton": {
+				"title": "¥ Кітайскі"
+			},
+			"enInCurrencyNumberFormatButton": {
+				"title": "₹ Англійская (Індыя)"
+			}
 		},
 		"increaseDecimalButton": {
 			"title": "Павялічыць дзесятковы"
@@ -165,7 +183,19 @@
 			"title": "Раз'яднаць вочкі"
 		},
 		"fillCells": {
-			"title": "Запоўніць вочкі"
+			"title": "Запоўніць вочкі",
+			"fillCellsDownButton": {
+				"title": "Запоўніце ўніз"
+			},
+			"fillCellsUpButton": {
+				"title": "Запаўняць"
+			},
+			"fillCellsLeftButton": {
+				"title": "Запоўніць злева"
+			},
+			"fillCellsRightButton": {
+				"title": "Запоўніць справа"
+			}
 		},
 		"allBordersButton": {
 			"title": "Усе межы"
@@ -174,7 +204,40 @@
 			"title": "Тоўстыя вонкавыя межы"
 		},
 		"cellBordersDropDownButton": {
-			"title": "Межы вочак"
+			"title": "Межы вочак",
+			"noBordersButton": {
+				"title": "Няма межаў"
+			},
+			"outsideBordersButton": {
+				"title": "Па-за межамі"
+			},
+			"bottomBorderButton": {
+				"title": "Ніжняя мяжа"
+			},
+			"topBorderButton": {
+				"title": "Верхняя мяжа"
+			},
+			"rightBorderButton": {
+				"title": "Правая мяжа"
+			},
+			"leftBorderButton": {
+				"title": "Левая мяжа"
+			},
+			"thickBottomBorderButton": {
+				"title": "Тоўстая ніжняя мяжа"
+			},
+			"thickLeftBorderButton": {
+				"title": "Тоўстая левая мяжа"
+			},
+			"doubleBottomBorderButton": {
+				"title": "Двайная ніжняя мяжа"
+			},
+			"doubleLeftBorderButton": {
+				"title": "Двайная левая мяжа"
+			},
+			"borderColorButton": {
+				"title": "Колер мяжы"
+			}
 		},
 		"autoFitRowHeightButton": {
 			"title": "Аўтападбор вышыні радка"
@@ -262,69 +325,6 @@
 		},
 		"zoomInButton": {
 			"title": "Павялічыць"
-		},
-		"enUsCurrencyNumberFormatButton": {
-			"title": "$ Англійская (ЗША)"
-		},
-		"enUkCurrencyNumberFormatButton": {
-			"title": "£ Англійская (Вялікабрытанія)"
-		},
-		"euCurrencyNumberFormatButton": {
-			"title": "€ Еўра (€ 123)"
-		},
-		"ruCurrencyNumberFormatButton": {
-			"title": "₽ Рускі"
-		},
-		"chCurrencyNumberFormatButton": {
-			"title": "¥ Кітайскі"
-		},
-		"enInCurrencyNumberFormatButton": {
-			"title": "₹ Англійская (Індыя)"
-		},
-		"fillCellsDownButton": {
-			"title": "Запоўніце ўніз"
-		},
-		"fillCellsUpButton": {
-			"title": "Запаўняць"
-		},
-		"fillCellsLeftButton": {
-			"title": "Запоўніць злева"
-		},
-		"fillCellsRightButton": {
-			"title": "Запоўніць справа"
-		},
-		"noBordersButton": {
-			"title": "Няма межаў"
-		},
-		"outsideBordersButton": {
-			"title": "Па-за межамі"
-		},
-		"bottomBorderButton": {
-			"title": "Ніжняя мяжа"
-		},
-		"topBorderButton": {
-			"title": "Верхняя мяжа"
-		},
-		"rightBorderButton": {
-			"title": "Правая мяжа"
-		},
-		"leftBorderButton": {
-			"title": "Левая мяжа"
-		},
-		"thickBottomBorderButton": {
-			"title": "Тоўстая ніжняя мяжа"
-		},
-		"thickLeftBorderButton": {
-			"title": "Тоўстая левая мяжа"
-		},
-		"doubleBottomBorderButton": {
-			"title": "Двайная ніжняя мяжа"
-		},
-		"doubleLeftBorderButton": {
-			"title": "Двайная левая мяжа"
-		},
-		"borderColorButton": {
-			"title": "Колер мяжы"
 		},
 		"copyWorksheetLabel": {
 			"text": "Скапіяваць ліст"

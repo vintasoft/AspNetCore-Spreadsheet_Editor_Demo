@@ -15,6 +15,9 @@
 		"reviewLabel": {
 			"text": "огляд"
 		},
+		"showMobileMenuButton": {
+			"title": "більше"
+		},
 		"createXlsxDocumentButton": {
 			"title": "Створіть новий документ XLSX"
 		},
@@ -26,9 +29,6 @@
 		},
 		"exportXlsxToPdfButton": {
 			"title": "Експорт XLSX у PDF"
-		},
-		"showMobileMenuButton": {
-			"title": "більше"
 		},
 		"boldTextButton": {
 			"title": "Жирний текст"
@@ -73,7 +73,25 @@
 			"title": "Обтікання текстом"
 		},
 		"currencyNumberFormatButton": {
-			"title": "Формат номера валюти"
+			"title": "Формат номера валюти",
+			"enUsCurrencyNumberFormatButton": {
+				"title": "$ англійська (США)"
+			},
+			"enUkCurrencyNumberFormatButton": {
+				"title": "£ англійська (Велика Британія)"
+			},
+			"euCurrencyNumberFormatButton": {
+				"title": "€ Євро (€ 123)"
+			},
+			"ruCurrencyNumberFormatButton": {
+				"title": "₽ російська"
+			},
+			"chCurrencyNumberFormatButton": {
+				"title": "¥ Китайська"
+			},
+			"enInCurrencyNumberFormatButton": {
+				"title": "₹ англійська (Індія)"
+			}
 		},
 		"increaseDecimalButton": {
 			"title": "Збільшити десятковий дроб"
@@ -165,7 +183,19 @@
 			"title": "Роз’єднати клітинки"
 		},
 		"fillCells": {
-			"title": "Заповнити клітинки"
+			"title": "Заповнити клітинки",
+			"fillCellsDownButton": {
+				"title": "Заповнити вниз"
+			},
+			"fillCellsUpButton": {
+				"title": "Заповнити"
+			},
+			"fillCellsLeftButton": {
+				"title": "Заповнити ліворуч"
+			},
+			"fillCellsRightButton": {
+				"title": "Заповнити праворуч"
+			}
 		},
 		"allBordersButton": {
 			"title": "Усі кордони"
@@ -174,7 +204,40 @@
 			"title": "Товсті зовнішні межі"
 		},
 		"cellBordersDropDownButton": {
-			"title": "Межі клітинок"
+			"title": "Межі клітинок",
+			"noBordersButton": {
+				"title": "Без кордонів"
+			},
+			"outsideBordersButton": {
+				"title": "За кордоном"
+			},
+			"bottomBorderButton": {
+				"title": "Нижня межа"
+			},
+			"topBorderButton": {
+				"title": "Верхня межа"
+			},
+			"rightBorderButton": {
+				"title": "Права межа"
+			},
+			"leftBorderButton": {
+				"title": "Ліва межа"
+			},
+			"thickBottomBorderButton": {
+				"title": "Товста нижня межа"
+			},
+			"thickLeftBorderButton": {
+				"title": "Товста ліва межа"
+			},
+			"doubleBottomBorderButton": {
+				"title": "Подвійна нижня межа"
+			},
+			"doubleLeftBorderButton": {
+				"title": "Подвійна ліва межа"
+			},
+			"borderColorButton": {
+				"title": "Колір рамки"
+			}
 		},
 		"autoFitRowHeightButton": {
 			"title": "Автопідбір висоти рядка"
@@ -262,69 +325,6 @@
 		},
 		"zoomInButton": {
 			"title": "Збільшувати"
-		},
-		"enUsCurrencyNumberFormatButton": {
-			"title": "$ англійська (США)"
-		},
-		"enUkCurrencyNumberFormatButton": {
-			"title": "£ англійська (Велика Британія)"
-		},
-		"euCurrencyNumberFormatButton": {
-			"title": "€ Євро (€ 123)"
-		},
-		"ruCurrencyNumberFormatButton": {
-			"title": "₽ російська"
-		},
-		"chCurrencyNumberFormatButton": {
-			"title": "¥ Китайська"
-		},
-		"enInCurrencyNumberFormatButton": {
-			"title": "₹ англійська (Індія)"
-		},
-		"fillCellsDownButton": {
-			"title": "Заповнити вниз"
-		},
-		"fillCellsUpButton": {
-			"title": "Заповнити"
-		},
-		"fillCellsLeftButton": {
-			"title": "Заповнити ліворуч"
-		},
-		"fillCellsRightButton": {
-			"title": "Заповнити праворуч"
-		},
-		"noBordersButton": {
-			"title": "Без кордонів"
-		},
-		"outsideBordersButton": {
-			"title": "За кордоном"
-		},
-		"bottomBorderButton": {
-			"title": "Нижня межа"
-		},
-		"topBorderButton": {
-			"title": "Верхня межа"
-		},
-		"rightBorderButton": {
-			"title": "Права межа"
-		},
-		"leftBorderButton": {
-			"title": "Ліва межа"
-		},
-		"thickBottomBorderButton": {
-			"title": "Товста нижня межа"
-		},
-		"thickLeftBorderButton": {
-			"title": "Товста ліва межа"
-		},
-		"doubleBottomBorderButton": {
-			"title": "Подвійна нижня межа"
-		},
-		"doubleLeftBorderButton": {
-			"title": "Подвійна ліва межа"
-		},
-		"borderColorButton": {
-			"title": "Колір рамки"
 		},
 		"copyWorksheetLabel": {
 			"text": "Скопіюйте аркуш"

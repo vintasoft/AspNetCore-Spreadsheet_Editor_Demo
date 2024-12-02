@@ -15,6 +15,9 @@
 		"reviewLabel": {
 			"text": "टिप्पणियाँ"
 		},
+		"showMobileMenuButton": {
+			"title": "अधिक"
+		},
 		"createXlsxDocumentButton": {
 			"title": "नया XLSX दस्तावेज़ बनाएँ"
 		},
@@ -26,9 +29,6 @@
 		},
 		"exportXlsxToPdfButton": {
 			"title": "XLSX को पीडीएफ में निर्यात करें"
-		},
-		"showMobileMenuButton": {
-			"title": "अधिक"
 		},
 		"boldTextButton": {
 			"title": "बोल्ड"
@@ -73,7 +73,25 @@
 			"title": "पाठ लपेटें"
 		},
 		"currencyNumberFormatButton": {
-			"title": "वित्तीय संख्या प्रारूप"
+			"title": "वित्तीय संख्या प्रारूप",
+			"enUsCurrencyNumberFormatButton": {
+				"title": "$ अंग्रेजी (यूएसए)"
+			},
+			"enUkCurrencyNumberFormatButton": {
+				"title": "£ अंग्रेजी (यूनाइटेड किंगडम)"
+			},
+			"euCurrencyNumberFormatButton": {
+				"title": "€ यूरो (€ 123)"
+			},
+			"ruCurrencyNumberFormatButton": {
+				"title": "₽ रूसी"
+			},
+			"chCurrencyNumberFormatButton": {
+				"title": "¥ चीनी"
+			},
+			"enInCurrencyNumberFormatButton": {
+				"title": "₹ अंग्रेजी (भारत)"
+			}
 		},
 		"increaseDecimalButton": {
 			"title": "दशमलव बढ़ाएँ"
@@ -165,7 +183,19 @@
 			"title": "कोशिकाओं को अलग करें"
 		},
 		"fillCells": {
-			"title": "कोशिकाएँ भरें"
+			"title": "कोशिकाएँ भरें",
+			"fillCellsDownButton": {
+				"title": "भरें"
+			},
+			"fillCellsUpButton": {
+				"title": "भरें"
+			},
+			"fillCellsLeftButton": {
+				"title": "बायाँ भरें"
+			},
+			"fillCellsRightButton": {
+				"title": "दाएं भरें"
+			}
 		},
 		"allBordersButton": {
 			"title": "सभी सीमाएँ"
@@ -174,7 +204,40 @@
 			"title": "मोटी बाहरी सीमाएँ"
 		},
 		"cellBordersDropDownButton": {
-			"title": "सेल सीमाएँ"
+			"title": "सेल सीमाएँ",
+			"noBordersButton": {
+				"title": "कोई सीमाएं नहीं"
+			},
+			"outsideBordersButton": {
+				"title": "बाहरी सीमा"
+			},
+			"bottomBorderButton": {
+				"title": "निचली सीमा"
+			},
+			"topBorderButton": {
+				"title": "शीर्ष सीमा"
+			},
+			"rightBorderButton": {
+				"title": "दाहिनी सीमा"
+			},
+			"leftBorderButton": {
+				"title": "वाम सीमा"
+			},
+			"thickBottomBorderButton": {
+				"title": "मोटी निचली सीमा"
+			},
+			"thickLeftBorderButton": {
+				"title": "मोटी बाईं सीमा"
+			},
+			"doubleBottomBorderButton": {
+				"title": "डबल बॉटम बॉर्डर"
+			},
+			"doubleLeftBorderButton": {
+				"title": "डबल लेफ्ट बॉर्डर"
+			},
+			"borderColorButton": {
+				"title": "सीमा रंग"
+			}
 		},
 		"autoFitRowHeightButton": {
 			"title": "पंक्ति की ऊँचाई को स्वतः फ़िट करें"
@@ -262,69 +325,6 @@
 		},
 		"zoomInButton": {
 			"title": "ज़ूम इन करें"
-		},
-		"enUsCurrencyNumberFormatButton": {
-			"title": "$ अंग्रेजी (यूएसए)"
-		},
-		"enUkCurrencyNumberFormatButton": {
-			"title": "£ अंग्रेजी (यूनाइटेड किंगडम)"
-		},
-		"euCurrencyNumberFormatButton": {
-			"title": "€ यूरो (€ 123)"
-		},
-		"ruCurrencyNumberFormatButton": {
-			"title": "₽ रूसी"
-		},
-		"chCurrencyNumberFormatButton": {
-			"title": "¥ चीनी"
-		},
-		"enInCurrencyNumberFormatButton": {
-			"title": "₹ अंग्रेजी (भारत)"
-		},
-		"fillCellsDownButton": {
-			"title": "भरें"
-		},
-		"fillCellsUpButton": {
-			"title": "भरें"
-		},
-		"fillCellsLeftButton": {
-			"title": "बायाँ भरें"
-		},
-		"fillCellsRightButton": {
-			"title": "दाएं भरें"
-		},
-		"noBordersButton": {
-			"title": "कोई सीमाएं नहीं"
-		},
-		"outsideBordersButton": {
-			"title": "बाहरी सीमा"
-		},
-		"bottomBorderButton": {
-			"title": "निचली सीमा"
-		},
-		"topBorderButton": {
-			"title": "शीर्ष सीमा"
-		},
-		"rightBorderButton": {
-			"title": "दाहिनी सीमा"
-		},
-		"leftBorderButton": {
-			"title": "वाम सीमा"
-		},
-		"thickBottomBorderButton": {
-			"title": "मोटी निचली सीमा"
-		},
-		"thickLeftBorderButton": {
-			"title": "मोटी बाईं सीमा"
-		},
-		"doubleBottomBorderButton": {
-			"title": "डबल बॉटम बॉर्डर"
-		},
-		"doubleLeftBorderButton": {
-			"title": "डबल लेफ्ट बॉर्डर"
-		},
-		"borderColorButton": {
-			"title": "सीमा रंग"
 		},
 		"copyWorksheetLabel": {
 			"text": "कॉपी शीट"

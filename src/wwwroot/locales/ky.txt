@@ -15,6 +15,9 @@
 		"reviewLabel": {
 			"text": "карап чыгуу"
 		},
+		"showMobileMenuButton": {
+			"title": "Дагы"
+		},
 		"createXlsxDocumentButton": {
 			"title": "Жаңы XLSX документ түзүү"
 		},
@@ -26,9 +29,6 @@
 		},
 		"exportXlsxToPdfButton": {
 			"title": "XLSXти PDFке экспорттоо"
-		},
-		"showMobileMenuButton": {
-			"title": "Дагы"
 		},
 		"boldTextButton": {
 			"title": "Калың текст"
@@ -73,7 +73,25 @@
 			"title": "Текстти таңуу"
 		},
 		"currencyNumberFormatButton": {
-			"title": "Валюта номеринин форматы"
+			"title": "Валюта номеринин форматы",
+			"enUsCurrencyNumberFormatButton": {
+				"title": "$ Англис (АКШ)"
+			},
+			"enUkCurrencyNumberFormatButton": {
+				"title": "£ Англис (Улуу Британия)"
+			},
+			"euCurrencyNumberFormatButton": {
+				"title": "€ Евро (€ 123)"
+			},
+			"ruCurrencyNumberFormatButton": {
+				"title": "₽ орус"
+			},
+			"chCurrencyNumberFormatButton": {
+				"title": "¥ кытай"
+			},
+			"enInCurrencyNumberFormatButton": {
+				"title": "₹ англисче (Индия)"
+			}
 		},
 		"increaseDecimalButton": {
 			"title": "Ондук санды көбөйтүү"
@@ -165,7 +183,19 @@
 			"title": "Клеткаларды бириктирүү"
 		},
 		"fillCells": {
-			"title": "Клеткаларды толтуруу"
+			"title": "Клеткаларды толтуруу",
+			"fillCellsDownButton": {
+				"title": "Толтуруу"
+			},
+			"fillCellsUpButton": {
+				"title": "Толтуруу"
+			},
+			"fillCellsLeftButton": {
+				"title": "Солго толтуруу"
+			},
+			"fillCellsRightButton": {
+				"title": "Оңго толтуруу"
+			}
 		},
 		"allBordersButton": {
 			"title": "Бардык чек аралар"
@@ -174,7 +204,40 @@
 			"title": "Калың тышкы чек аралар"
 		},
 		"cellBordersDropDownButton": {
-			"title": "Клетканын чек аралары"
+			"title": "Клетканын чек аралары",
+			"noBordersButton": {
+				"title": "Чек ара жок"
+			},
+			"outsideBordersButton": {
+				"title": "Тышкы чек аралар"
+			},
+			"bottomBorderButton": {
+				"title": "Төмөнкү чек"
+			},
+			"topBorderButton": {
+				"title": "Жогорку чек"
+			},
+			"rightBorderButton": {
+				"title": "Оң чек"
+			},
+			"leftBorderButton": {
+				"title": "Сол чек"
+			},
+			"thickBottomBorderButton": {
+				"title": "Төмөнкү калың чек"
+			},
+			"thickLeftBorderButton": {
+				"title": "Калың сол чек"
+			},
+			"doubleBottomBorderButton": {
+				"title": "Кош ылдый чек"
+			},
+			"doubleLeftBorderButton": {
+				"title": "Кош сол чек"
+			},
+			"borderColorButton": {
+				"title": "Чектин түсү"
+			}
 		},
 		"autoFitRowHeightButton": {
 			"title": "Катар бийиктигин автоматтык түрдө тууралоо"
@@ -262,69 +325,6 @@
 		},
 		"zoomInButton": {
 			"title": "Чоңойтуу"
-		},
-		"enUsCurrencyNumberFormatButton": {
-			"title": "$ Англис (АКШ)"
-		},
-		"enUkCurrencyNumberFormatButton": {
-			"title": "£ Англис (Улуу Британия)"
-		},
-		"euCurrencyNumberFormatButton": {
-			"title": "€ Евро (€ 123)"
-		},
-		"ruCurrencyNumberFormatButton": {
-			"title": "₽ орус"
-		},
-		"chCurrencyNumberFormatButton": {
-			"title": "¥ кытай"
-		},
-		"enInCurrencyNumberFormatButton": {
-			"title": "₹ англисче (Индия)"
-		},
-		"fillCellsDownButton": {
-			"title": "Толтуруу"
-		},
-		"fillCellsUpButton": {
-			"title": "Толтуруу"
-		},
-		"fillCellsLeftButton": {
-			"title": "Солго толтуруу"
-		},
-		"fillCellsRightButton": {
-			"title": "Оңго толтуруу"
-		},
-		"noBordersButton": {
-			"title": "Чек ара жок"
-		},
-		"outsideBordersButton": {
-			"title": "Тышкы чек аралар"
-		},
-		"bottomBorderButton": {
-			"title": "Төмөнкү чек"
-		},
-		"topBorderButton": {
-			"title": "Жогорку чек"
-		},
-		"rightBorderButton": {
-			"title": "Оң чек"
-		},
-		"leftBorderButton": {
-			"title": "Сол чек"
-		},
-		"thickBottomBorderButton": {
-			"title": "Төмөнкү калың чек"
-		},
-		"thickLeftBorderButton": {
-			"title": "Калың сол чек"
-		},
-		"doubleBottomBorderButton": {
-			"title": "Кош ылдый чек"
-		},
-		"doubleLeftBorderButton": {
-			"title": "Кош сол чек"
-		},
-		"borderColorButton": {
-			"title": "Чектин түсү"
 		},
 		"copyWorksheetLabel": {
 			"text": "Жумуш барагын көчүрүү"

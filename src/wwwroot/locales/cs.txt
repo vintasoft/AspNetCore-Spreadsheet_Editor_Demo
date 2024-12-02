@@ -15,6 +15,9 @@
 		"reviewLabel": {
 			"text": "Komentáře"
 		},
+		"showMobileMenuButton": {
+			"title": "Více"
+		},
 		"createXlsxDocumentButton": {
 			"title": "Vytvořte nový dokument XLSX"
 		},
@@ -26,9 +29,6 @@
 		},
 		"exportXlsxToPdfButton": {
 			"title": "Export XLSX do PDF"
-		},
-		"showMobileMenuButton": {
-			"title": "Více"
 		},
 		"boldTextButton": {
 			"title": "Tučné"
@@ -73,7 +73,25 @@
 			"title": "Zalamování textu"
 		},
 		"currencyNumberFormatButton": {
-			"title": "Formát finančního čísla"
+			"title": "Formát finančního čísla",
+			"enUsCurrencyNumberFormatButton": {
+				"title": "$ angličtina (USA)"
+			},
+			"enUkCurrencyNumberFormatButton": {
+				"title": "£ angličtina (Spojené království)"
+			},
+			"euCurrencyNumberFormatButton": {
+				"title": "€ Euro (123 €)"
+			},
+			"ruCurrencyNumberFormatButton": {
+				"title": "₽ ruština"
+			},
+			"chCurrencyNumberFormatButton": {
+				"title": "¥ čínština"
+			},
+			"enInCurrencyNumberFormatButton": {
+				"title": "₹ angličtina (Indie)"
+			}
 		},
 		"increaseDecimalButton": {
 			"title": "Zvětšit desetinné místo"
@@ -165,7 +183,19 @@
 			"title": "Zrušte sloučení buněk"
 		},
 		"fillCells": {
-			"title": "Vyplňte buňky"
+			"title": "Vyplňte buňky",
+			"fillCellsDownButton": {
+				"title": "Vyplňte"
+			},
+			"fillCellsUpButton": {
+				"title": "Vyplnit"
+			},
+			"fillCellsLeftButton": {
+				"title": "Vyplnit doleva"
+			},
+			"fillCellsRightButton": {
+				"title": "Vyplnit vpravo"
+			}
 		},
 		"allBordersButton": {
 			"title": "Všechny hranice"
@@ -174,7 +204,40 @@
 			"title": "Tlusté vnější okraje"
 		},
 		"cellBordersDropDownButton": {
-			"title": "Hranice buněk"
+			"title": "Hranice buněk",
+			"noBordersButton": {
+				"title": "Žádné hranice"
+			},
+			"outsideBordersButton": {
+				"title": "Vnější hranice"
+			},
+			"bottomBorderButton": {
+				"title": "Dolní okraj"
+			},
+			"topBorderButton": {
+				"title": "Horní okraj"
+			},
+			"rightBorderButton": {
+				"title": "Pravá hranice"
+			},
+			"leftBorderButton": {
+				"title": "Levá hranice"
+			},
+			"thickBottomBorderButton": {
+				"title": "Tlustý spodní okraj"
+			},
+			"thickLeftBorderButton": {
+				"title": "Tlustý levý okraj"
+			},
+			"doubleBottomBorderButton": {
+				"title": "Dvojité spodní ohraničení"
+			},
+			"doubleLeftBorderButton": {
+				"title": "Dvojité levé ohraničení"
+			},
+			"borderColorButton": {
+				"title": "Barva ohraničení"
+			}
 		},
 		"autoFitRowHeightButton": {
 			"title": "Automaticky přizpůsobit výšku řádku"
@@ -262,69 +325,6 @@
 		},
 		"zoomInButton": {
 			"title": "Přiblížit"
-		},
-		"enUsCurrencyNumberFormatButton": {
-			"title": "$ angličtina (USA)"
-		},
-		"enUkCurrencyNumberFormatButton": {
-			"title": "£ angličtina (Spojené království)"
-		},
-		"euCurrencyNumberFormatButton": {
-			"title": "€ Euro (123 €)"
-		},
-		"ruCurrencyNumberFormatButton": {
-			"title": "₽ ruština"
-		},
-		"chCurrencyNumberFormatButton": {
-			"title": "¥ čínština"
-		},
-		"enInCurrencyNumberFormatButton": {
-			"title": "₹ angličtina (Indie)"
-		},
-		"fillCellsDownButton": {
-			"title": "Vyplňte"
-		},
-		"fillCellsUpButton": {
-			"title": "Vyplnit"
-		},
-		"fillCellsLeftButton": {
-			"title": "Vyplnit doleva"
-		},
-		"fillCellsRightButton": {
-			"title": "Vyplnit vpravo"
-		},
-		"noBordersButton": {
-			"title": "Žádné hranice"
-		},
-		"outsideBordersButton": {
-			"title": "Vnější hranice"
-		},
-		"bottomBorderButton": {
-			"title": "Dolní okraj"
-		},
-		"topBorderButton": {
-			"title": "Horní okraj"
-		},
-		"rightBorderButton": {
-			"title": "Pravá hranice"
-		},
-		"leftBorderButton": {
-			"title": "Levá hranice"
-		},
-		"thickBottomBorderButton": {
-			"title": "Tlustý spodní okraj"
-		},
-		"thickLeftBorderButton": {
-			"title": "Tlustý levý okraj"
-		},
-		"doubleBottomBorderButton": {
-			"title": "Dvojité spodní ohraničení"
-		},
-		"doubleLeftBorderButton": {
-			"title": "Dvojité levé ohraničení"
-		},
-		"borderColorButton": {
-			"title": "Barva ohraničení"
 		},
 		"copyWorksheetLabel": {
 			"text": "Kopírovat list"

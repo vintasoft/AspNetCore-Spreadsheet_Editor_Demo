@@ -15,6 +15,9 @@
 		"reviewLabel": {
 			"text": "Σχόλια"
 		},
+		"showMobileMenuButton": {
+			"title": "Περισσότερα"
+		},
 		"createXlsxDocumentButton": {
 			"title": "Δημιουργία νέου εγγράφου XLSX"
 		},
@@ -26,9 +29,6 @@
 		},
 		"exportXlsxToPdfButton": {
 			"title": "Εξαγωγή XLSX σε PDF"
-		},
-		"showMobileMenuButton": {
-			"title": "Περισσότερα"
 		},
 		"boldTextButton": {
 			"title": "Έντονη"
@@ -73,7 +73,25 @@
 			"title": " Αναδίπλωση κειμένου"
 		},
 		"currencyNumberFormatButton": {
-			"title": "Μορφή οικονομικού αριθμού"
+			"title": "Μορφή οικονομικού αριθμού",
+			"enUsCurrencyNumberFormatButton": {
+				"title": "$ Αγγλικά (ΗΠΑ)"
+			},
+			"enUkCurrencyNumberFormatButton": {
+				"title": "£ Αγγλικά (Ηνωμένο Βασίλειο)"
+			},
+			"euCurrencyNumberFormatButton": {
+				"title": "€ Ευρώ (123 €)"
+			},
+			"ruCurrencyNumberFormatButton": {
+				"title": "₽ Ρωσικά"
+			},
+			"chCurrencyNumberFormatButton": {
+				"title": "¥ κινέζικο"
+			},
+			"enInCurrencyNumberFormatButton": {
+				"title": "₹ Αγγλικά (Ινδία)"
+			}
 		},
 		"increaseDecimalButton": {
 			"title": "Αύξηση δεκαδικού"
@@ -165,7 +183,19 @@
 			"title": "Καταργήστε τη συγχώνευση κελιών"
 		},
 		"fillCells": {
-			"title": "Γέμισμα κελιών"
+			"title": "Γέμισμα κελιών",
+			"fillCellsDownButton": {
+				"title": "Συμπλήρωσε"
+			},
+			"fillCellsUpButton": {
+				"title": "Γέμισμα"
+			},
+			"fillCellsLeftButton": {
+				"title": "Γέμισμα αριστερά"
+			},
+			"fillCellsRightButton": {
+				"title": "Δεξιά συμπλήρωση"
+			}
 		},
 		"allBordersButton": {
 			"title": "Όλα τα σύνορα"
@@ -174,7 +204,40 @@
 			"title": "Παχιά εξωτερικά περιγράμματα"
 		},
 		"cellBordersDropDownButton": {
-			"title": "Σύνορα κελιών"
+			"title": "Σύνορα κελιών",
+			"noBordersButton": {
+				"title": "Χωρίς Σύνορα"
+			},
+			"outsideBordersButton": {
+				"title": "Εξωτερικά όρια"
+			},
+			"bottomBorderButton": {
+				"title": "Κάτω περίγραμμα"
+			},
+			"topBorderButton": {
+				"title": "Κορυφαίο περίγραμμα"
+			},
+			"rightBorderButton": {
+				"title": "Δεξιά σύνορα"
+			},
+			"leftBorderButton": {
+				"title": "Αριστερά σύνορα"
+			},
+			"thickBottomBorderButton": {
+				"title": "Χοντρό κάτω περίγραμμα"
+			},
+			"thickLeftBorderButton": {
+				"title": "Χοντρό αριστερό περίγραμμα"
+			},
+			"doubleBottomBorderButton": {
+				"title": "Διπλό κάτω περίγραμμα"
+			},
+			"doubleLeftBorderButton": {
+				"title": "Διπλό αριστερό περίγραμμα"
+			},
+			"borderColorButton": {
+				"title": "Χρώμα πλαισίου"
+			}
 		},
 		"autoFitRowHeightButton": {
 			"title": "Αυτόματη προσαρμογή του ύψους της σειράς"
@@ -262,69 +325,6 @@
 		},
 		"zoomInButton": {
 			"title": "Μεγέθυνση"
-		},
-		"enUsCurrencyNumberFormatButton": {
-			"title": "$ Αγγλικά (ΗΠΑ)"
-		},
-		"enUkCurrencyNumberFormatButton": {
-			"title": "£ Αγγλικά (Ηνωμένο Βασίλειο)"
-		},
-		"euCurrencyNumberFormatButton": {
-			"title": "€ Ευρώ (123 €)"
-		},
-		"ruCurrencyNumberFormatButton": {
-			"title": "₽ Ρωσικά"
-		},
-		"chCurrencyNumberFormatButton": {
-			"title": "¥ κινέζικο"
-		},
-		"enInCurrencyNumberFormatButton": {
-			"title": "₹ Αγγλικά (Ινδία)"
-		},
-		"fillCellsDownButton": {
-			"title": "Συμπλήρωσε"
-		},
-		"fillCellsUpButton": {
-			"title": "Γέμισμα"
-		},
-		"fillCellsLeftButton": {
-			"title": "Γέμισμα αριστερά"
-		},
-		"fillCellsRightButton": {
-			"title": "Δεξιά συμπλήρωση"
-		},
-		"noBordersButton": {
-			"title": "Χωρίς Σύνορα"
-		},
-		"outsideBordersButton": {
-			"title": "Εξωτερικά όρια"
-		},
-		"bottomBorderButton": {
-			"title": "Κάτω περίγραμμα"
-		},
-		"topBorderButton": {
-			"title": "Κορυφαίο περίγραμμα"
-		},
-		"rightBorderButton": {
-			"title": "Δεξιά σύνορα"
-		},
-		"leftBorderButton": {
-			"title": "Αριστερά σύνορα"
-		},
-		"thickBottomBorderButton": {
-			"title": "Χοντρό κάτω περίγραμμα"
-		},
-		"thickLeftBorderButton": {
-			"title": "Χοντρό αριστερό περίγραμμα"
-		},
-		"doubleBottomBorderButton": {
-			"title": "Διπλό κάτω περίγραμμα"
-		},
-		"doubleLeftBorderButton": {
-			"title": "Διπλό αριστερό περίγραμμα"
-		},
-		"borderColorButton": {
-			"title": "Χρώμα πλαισίου"
 		},
 		"copyWorksheetLabel": {
 			"text": "Αντιγραφή φύλλου"

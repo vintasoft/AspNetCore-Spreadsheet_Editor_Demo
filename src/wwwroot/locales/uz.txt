@@ -15,6 +15,9 @@
 		"reviewLabel": {
 			"text": "Ko‘rib chiqish"
 		},
+		"showMobileMenuButton": {
+			"title": "Ko'proq"
+		},
 		"createXlsxDocumentButton": {
 			"title": "Yangi XLSX hujjatini yarating"
 		},
@@ -26,9 +29,6 @@
 		},
 		"exportXlsxToPdfButton": {
 			"title": "XLSX-ni PDF-ga eksport qiling"
-		},
-		"showMobileMenuButton": {
-			"title": "Ko'proq"
 		},
 		"boldTextButton": {
 			"title": "Qalin matn"
@@ -73,7 +73,25 @@
 			"title": "Matnni oʻrash"
 		},
 		"currencyNumberFormatButton": {
-			"title": "Valyuta raqami formati"
+			"title": "Valyuta raqami formati",
+			"enUsCurrencyNumberFormatButton": {
+				"title": "$ Ingliz (AQSh)"
+			},
+			"enUkCurrencyNumberFormatButton": {
+				"title": "£ Ingliz (Birlashgan Qirollik)"
+			},
+			"euCurrencyNumberFormatButton": {
+				"title": "€ evro (€ 123)"
+			},
+			"ruCurrencyNumberFormatButton": {
+				"title": "₽ rus"
+			},
+			"chCurrencyNumberFormatButton": {
+				"title": "¥ Xitoy"
+			},
+			"enInCurrencyNumberFormatButton": {
+				"title": "₹ ingliz (Hindiston)"
+			}
 		},
 		"increaseDecimalButton": {
 			"title": "O'nli kasrni oshiring"
@@ -165,7 +183,19 @@
 			"title": "Hujayralarni birlashtirish"
 		},
 		"fillCells": {
-			"title": "Hujayralarni to'ldirish"
+			"title": "Hujayralarni to'ldirish",
+			"fillCellsDownButton": {
+				"title": "Toʻldirish"
+			},
+			"fillCellsUpButton": {
+				"title": "Toʻldirish"
+			},
+			"fillCellsLeftButton": {
+				"title": "Chapga to'ldirish"
+			},
+			"fillCellsRightButton": {
+				"title": "O'ngga to'ldirish"
+			}
 		},
 		"allBordersButton": {
 			"title": "Barcha chegaralar"
@@ -174,7 +204,40 @@
 			"title": "Qalin tashqi chegaralar"
 		},
 		"cellBordersDropDownButton": {
-			"title": "Hujayra chegaralari"
+			"title": "Hujayra chegaralari",
+			"noBordersButton": {
+				"title": "Chegaralar yo'q"
+			},
+			"outsideBordersButton": {
+				"title": "Chegaralar tashqarisi"
+			},
+			"bottomBorderButton": {
+				"title": "Pastki chegara"
+			},
+			"topBorderButton": {
+				"title": "Yuqori chegara"
+			},
+			"rightBorderButton": {
+				"title": "O'ng chegara"
+			},
+			"leftBorderButton": {
+				"title": "Chap chegara"
+			},
+			"thickBottomBorderButton": {
+				"title": "Qalin pastki chegara"
+			},
+			"thickLeftBorderButton": {
+				"title": "Qalin chap chegara"
+			},
+			"doubleBottomBorderButton": {
+				"title": "Ikkita pastki chegara"
+			},
+			"doubleLeftBorderButton": {
+				"title": "Ikki tomonlama chap chegara"
+			},
+			"borderColorButton": {
+				"title": "Chegara rangi"
+			}
 		},
 		"autoFitRowHeightButton": {
 			"title": "Qator balandligini avtomatik moslash"
@@ -262,69 +325,6 @@
 		},
 		"zoomInButton": {
 			"title": "Kattalashtirish"
-		},
-		"enUsCurrencyNumberFormatButton": {
-			"title": "$ Ingliz (AQSh)"
-		},
-		"enUkCurrencyNumberFormatButton": {
-			"title": "£ Ingliz (Birlashgan Qirollik)"
-		},
-		"euCurrencyNumberFormatButton": {
-			"title": "€ evro (€ 123)"
-		},
-		"ruCurrencyNumberFormatButton": {
-			"title": "₽ rus"
-		},
-		"chCurrencyNumberFormatButton": {
-			"title": "¥ Xitoy"
-		},
-		"enInCurrencyNumberFormatButton": {
-			"title": "₹ ingliz (Hindiston)"
-		},
-		"fillCellsDownButton": {
-			"title": "Toʻldirish"
-		},
-		"fillCellsUpButton": {
-			"title": "Toʻldirish"
-		},
-		"fillCellsLeftButton": {
-			"title": "Chapga to'ldirish"
-		},
-		"fillCellsRightButton": {
-			"title": "O'ngga to'ldirish"
-		},
-		"noBordersButton": {
-			"title": "Chegaralar yo'q"
-		},
-		"outsideBordersButton": {
-			"title": "Chegaralar tashqarisi"
-		},
-		"bottomBorderButton": {
-			"title": "Pastki chegara"
-		},
-		"topBorderButton": {
-			"title": "Yuqori chegara"
-		},
-		"rightBorderButton": {
-			"title": "O'ng chegara"
-		},
-		"leftBorderButton": {
-			"title": "Chap chegara"
-		},
-		"thickBottomBorderButton": {
-			"title": "Qalin pastki chegara"
-		},
-		"thickLeftBorderButton": {
-			"title": "Qalin chap chegara"
-		},
-		"doubleBottomBorderButton": {
-			"title": "Ikkita pastki chegara"
-		},
-		"doubleLeftBorderButton": {
-			"title": "Ikki tomonlama chap chegara"
-		},
-		"borderColorButton": {
-			"title": "Chegara rangi"
 		},
 		"copyWorksheetLabel": {
 			"text": "Ishchi varaqni nusxalash"

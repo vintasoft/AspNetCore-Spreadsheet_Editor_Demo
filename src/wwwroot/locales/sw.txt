@@ -15,6 +15,9 @@
 		"reviewLabel": {
 			"text": "Kagua"
 		},
+		"showMobileMenuButton": {
+			"title": "Zaidi"
+		},
 		"createXlsxDocumentButton": {
 			"title": "Unda hati mpya ya XLSX"
 		},
@@ -26,9 +29,6 @@
 		},
 		"exportXlsxToPdfButton": {
 			"title": "Hamisha XLSX hadi PDF"
-		},
-		"showMobileMenuButton": {
-			"title": "Zaidi"
 		},
 		"boldTextButton": {
 			"title": "Maandishi mazito"
@@ -73,7 +73,25 @@
 			"title": "Ufungaji wa maandishi"
 		},
 		"currencyNumberFormatButton": {
-			"title": "Umbizo la nambari ya sarafu"
+			"title": "Umbizo la nambari ya sarafu",
+			"enUsCurrencyNumberFormatButton": {
+				"title": "$ Kiingereza (Marekani)"
+			},
+			"enUkCurrencyNumberFormatButton": {
+				"title": "£ Kiingereza (Uingereza)"
+			},
+			"euCurrencyNumberFormatButton": {
+				"title": "Euro Euro (€ 123)"
+			},
+			"ruCurrencyNumberFormatButton": {
+				"title": "₽ Kirusi"
+			},
+			"chCurrencyNumberFormatButton": {
+				"title": "¥ Kichina"
+			},
+			"enInCurrencyNumberFormatButton": {
+				"title": "₹ Kiingereza (India)"
+			}
 		},
 		"increaseDecimalButton": {
 			"title": "Ongeza desimali"
@@ -165,7 +183,19 @@
 			"title": "Tenganisha seli"
 		},
 		"fillCells": {
-			"title": "Jaza Seli"
+			"title": "Jaza Seli",
+			"fillCellsDownButton": {
+				"title": "Jaza Chini"
+			},
+			"fillCellsUpButton": {
+				"title": "Jaza"
+			},
+			"fillCellsLeftButton": {
+				"title": "Jaza Kushoto"
+			},
+			"fillCellsRightButton": {
+				"title": "Jaza Kulia"
+			}
 		},
 		"allBordersButton": {
 			"title": "Mipaka Yote"
@@ -174,7 +204,40 @@
 			"title": "Nene Nje ya Mipaka"
 		},
 		"cellBordersDropDownButton": {
-			"title": "Mipaka ya Kiini"
+			"title": "Mipaka ya Kiini",
+			"noBordersButton": {
+				"title": "Hakuna Mipaka"
+			},
+			"outsideBordersButton": {
+				"title": "Nje ya Mipaka"
+			},
+			"bottomBorderButton": {
+				"title": "Mpaka wa Chini"
+			},
+			"topBorderButton": {
+				"title": "Mpaka wa Juu"
+			},
+			"rightBorderButton": {
+				"title": "Mpaka wa kulia"
+			},
+			"leftBorderButton": {
+				"title": "Mpaka wa Kushoto"
+			},
+			"thickBottomBorderButton": {
+				"title": "Mpaka Nene wa Chini"
+			},
+			"thickLeftBorderButton": {
+				"title": "Mpaka Nene wa Kushoto"
+			},
+			"doubleBottomBorderButton": {
+				"title": "Mpaka wa Chini Mbili"
+			},
+			"doubleLeftBorderButton": {
+				"title": "Mpaka wa Kushoto Mbili"
+			},
+			"borderColorButton": {
+				"title": "Rangi ya mpaka"
+			}
 		},
 		"autoFitRowHeightButton": {
 			"title": "Weka kiotomati urefu wa safu mlalo"
@@ -262,69 +325,6 @@
 		},
 		"zoomInButton": {
 			"title": "Vuta karibu"
-		},
-		"enUsCurrencyNumberFormatButton": {
-			"title": "$ Kiingereza (Marekani)"
-		},
-		"enUkCurrencyNumberFormatButton": {
-			"title": "£ Kiingereza (Uingereza)"
-		},
-		"euCurrencyNumberFormatButton": {
-			"title": "Euro Euro (€ 123)"
-		},
-		"ruCurrencyNumberFormatButton": {
-			"title": "₽ Kirusi"
-		},
-		"chCurrencyNumberFormatButton": {
-			"title": "¥ Kichina"
-		},
-		"enInCurrencyNumberFormatButton": {
-			"title": "₹ Kiingereza (India)"
-		},
-		"fillCellsDownButton": {
-			"title": "Jaza Chini"
-		},
-		"fillCellsUpButton": {
-			"title": "Jaza"
-		},
-		"fillCellsLeftButton": {
-			"title": "Jaza Kushoto"
-		},
-		"fillCellsRightButton": {
-			"title": "Jaza Kulia"
-		},
-		"noBordersButton": {
-			"title": "Hakuna Mipaka"
-		},
-		"outsideBordersButton": {
-			"title": "Nje ya Mipaka"
-		},
-		"bottomBorderButton": {
-			"title": "Mpaka wa Chini"
-		},
-		"topBorderButton": {
-			"title": "Mpaka wa Juu"
-		},
-		"rightBorderButton": {
-			"title": "Mpaka wa kulia"
-		},
-		"leftBorderButton": {
-			"title": "Mpaka wa Kushoto"
-		},
-		"thickBottomBorderButton": {
-			"title": "Mpaka Nene wa Chini"
-		},
-		"thickLeftBorderButton": {
-			"title": "Mpaka Nene wa Kushoto"
-		},
-		"doubleBottomBorderButton": {
-			"title": "Mpaka wa Chini Mbili"
-		},
-		"doubleLeftBorderButton": {
-			"title": "Mpaka wa Kushoto Mbili"
-		},
-		"borderColorButton": {
-			"title": "Rangi ya mpaka"
 		},
 		"copyWorksheetLabel": {
 			"text": "Nakili karatasi ya kazi"

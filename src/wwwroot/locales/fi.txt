@@ -15,6 +15,9 @@
 		"reviewLabel": {
 			"text": "Kommentit"
 		},
+		"showMobileMenuButton": {
+			"title": "Lisää"
+		},
 		"createXlsxDocumentButton": {
 			"title": "Luo uusi XLSX-dokumentti"
 		},
@@ -26,9 +29,6 @@
 		},
 		"exportXlsxToPdfButton": {
 			"title": "Vie XLSX PDF-muotoon"
-		},
-		"showMobileMenuButton": {
-			"title": "Lisää"
 		},
 		"boldTextButton": {
 			"title": "Lihavoitu"
@@ -73,7 +73,25 @@
 			"title": "Rivitä teksti"
 		},
 		"currencyNumberFormatButton": {
-			"title": "Talousluvun muoto"
+			"title": "Talousluvun muoto",
+			"enUsCurrencyNumberFormatButton": {
+				"title": "$ englanti (USA)"
+			},
+			"enUkCurrencyNumberFormatButton": {
+				"title": "£ englanti (Iso-Britannia)"
+			},
+			"euCurrencyNumberFormatButton": {
+				"title": "€ euroa (123 €)"
+			},
+			"ruCurrencyNumberFormatButton": {
+				"title": "₽ venäjää"
+			},
+			"chCurrencyNumberFormatButton": {
+				"title": "¥ kiinalainen"
+			},
+			"enInCurrencyNumberFormatButton": {
+				"title": "₹ englanti (Intia)"
+			}
 		},
 		"increaseDecimalButton": {
 			"title": "Lisää desimaalilukua"
@@ -165,7 +183,19 @@
 			"title": "Pura solujen yhdistäminen"
 		},
 		"fillCells": {
-			"title": "Täytä solut"
+			"title": "Täytä solut",
+			"fillCellsDownButton": {
+				"title": "Täytä"
+			},
+			"fillCellsUpButton": {
+				"title": "Täytä"
+			},
+			"fillCellsLeftButton": {
+				"title": "Täytä vasen"
+			},
+			"fillCellsRightButton": {
+				"title": "Täytä oikealle"
+			}
 		},
 		"allBordersButton": {
 			"title": "Kaikki reunat"
@@ -174,7 +204,40 @@
 			"title": "Paksut ulkoreunat"
 		},
 		"cellBordersDropDownButton": {
-			"title": "Solun reunat"
+			"title": "Solun reunat",
+			"noBordersButton": {
+				"title": "Ei rajoja"
+			},
+			"outsideBordersButton": {
+				"title": "Ulkorajat"
+			},
+			"bottomBorderButton": {
+				"title": "Alareuna"
+			},
+			"topBorderButton": {
+				"title": "Yläreuna"
+			},
+			"rightBorderButton": {
+				"title": "Oikea reuna"
+			},
+			"leftBorderButton": {
+				"title": "Vasen reuna"
+			},
+			"thickBottomBorderButton": {
+				"title": "Paksu alareuna"
+			},
+			"thickLeftBorderButton": {
+				"title": "Paksu vasen reuna"
+			},
+			"doubleBottomBorderButton": {
+				"title": "Kaksoispohjareuna"
+			},
+			"doubleLeftBorderButton": {
+				"title": "Kaksoisvasen reuna"
+			},
+			"borderColorButton": {
+				"title": "Reunuksen väri"
+			}
 		},
 		"autoFitRowHeightButton": {
 			"title": "Sovita rivin korkeus automaattisesti"
@@ -262,69 +325,6 @@
 		},
 		"zoomInButton": {
 			"title": "Lähennä"
-		},
-		"enUsCurrencyNumberFormatButton": {
-			"title": "$ englanti (USA)"
-		},
-		"enUkCurrencyNumberFormatButton": {
-			"title": "£ englanti (Iso-Britannia)"
-		},
-		"euCurrencyNumberFormatButton": {
-			"title": "€ euroa (123 €)"
-		},
-		"ruCurrencyNumberFormatButton": {
-			"title": "₽ venäjää"
-		},
-		"chCurrencyNumberFormatButton": {
-			"title": "¥ kiinalainen"
-		},
-		"enInCurrencyNumberFormatButton": {
-			"title": "₹ englanti (Intia)"
-		},
-		"fillCellsDownButton": {
-			"title": "Täytä"
-		},
-		"fillCellsUpButton": {
-			"title": "Täytä"
-		},
-		"fillCellsLeftButton": {
-			"title": "Täytä vasen"
-		},
-		"fillCellsRightButton": {
-			"title": "Täytä oikealle"
-		},
-		"noBordersButton": {
-			"title": "Ei rajoja"
-		},
-		"outsideBordersButton": {
-			"title": "Ulkorajat"
-		},
-		"bottomBorderButton": {
-			"title": "Alareuna"
-		},
-		"topBorderButton": {
-			"title": "Yläreuna"
-		},
-		"rightBorderButton": {
-			"title": "Oikea reuna"
-		},
-		"leftBorderButton": {
-			"title": "Vasen reuna"
-		},
-		"thickBottomBorderButton": {
-			"title": "Paksu alareuna"
-		},
-		"thickLeftBorderButton": {
-			"title": "Paksu vasen reuna"
-		},
-		"doubleBottomBorderButton": {
-			"title": "Kaksoispohjareuna"
-		},
-		"doubleLeftBorderButton": {
-			"title": "Kaksoisvasen reuna"
-		},
-		"borderColorButton": {
-			"title": "Reunuksen väri"
 		},
 		"copyWorksheetLabel": {
 			"text": "Kopioi arkki"

@@ -15,6 +15,9 @@
 		"reviewLabel": {
 			"text": "Preskúmanie"
 		},
+		"showMobileMenuButton": {
+			"title": "Viac"
+		},
 		"createXlsxDocumentButton": {
 			"title": "Vytvorte nový dokument XLSX"
 		},
@@ -26,9 +29,6 @@
 		},
 		"exportXlsxToPdfButton": {
 			"title": "Export XLSX do PDF"
-		},
-		"showMobileMenuButton": {
-			"title": "Viac"
 		},
 		"boldTextButton": {
 			"title": "Tučný text"
@@ -73,7 +73,25 @@
 			"title": "Zalamovanie textu"
 		},
 		"currencyNumberFormatButton": {
-			"title": "Formát čísla meny"
+			"title": "Formát čísla meny",
+			"enUsCurrencyNumberFormatButton": {
+				"title": "$ angličtina (USA)"
+			},
+			"enUkCurrencyNumberFormatButton": {
+				"title": "£ angličtina (Spojené kráľovstvo)"
+			},
+			"euCurrencyNumberFormatButton": {
+				"title": "€ Euro (123 €)"
+			},
+			"ruCurrencyNumberFormatButton": {
+				"title": "₽ ruština"
+			},
+			"chCurrencyNumberFormatButton": {
+				"title": "¥ čínština"
+			},
+			"enInCurrencyNumberFormatButton": {
+				"title": "₹ angličtina (India)"
+			}
 		},
 		"increaseDecimalButton": {
 			"title": "Zvýšiť desatinné číslo"
@@ -165,7 +183,19 @@
 			"title": "Zrušte zlúčenie buniek"
 		},
 		"fillCells": {
-			"title": "Vyplniť bunky"
+			"title": "Vyplniť bunky",
+			"fillCellsDownButton": {
+				"title": "Vyplniť dole"
+			},
+			"fillCellsUpButton": {
+				"title": "Naplniť"
+			},
+			"fillCellsLeftButton": {
+				"title": "Vyplňte doľava"
+			},
+			"fillCellsRightButton": {
+				"title": "Vyplňte vpravo"
+			}
 		},
 		"allBordersButton": {
 			"title": "Všetky hranice"
@@ -174,7 +204,40 @@
 			"title": "Hrubé vonkajšie hranice"
 		},
 		"cellBordersDropDownButton": {
-			"title": "Hranice buniek"
+			"title": "Hranice buniek",
+			"noBordersButton": {
+				"title": "Bez hraníc"
+			},
+			"outsideBordersButton": {
+				"title": "Mimo hraníc"
+			},
+			"bottomBorderButton": {
+				"title": "Spodný okraj"
+			},
+			"topBorderButton": {
+				"title": "Horný okraj"
+			},
+			"rightBorderButton": {
+				"title": "Pravá hranica"
+			},
+			"leftBorderButton": {
+				"title": "Ľavá hranica"
+			},
+			"thickBottomBorderButton": {
+				"title": "Hrubý spodný okraj"
+			},
+			"thickLeftBorderButton": {
+				"title": "Hrubý ľavý okraj"
+			},
+			"doubleBottomBorderButton": {
+				"title": "Dvojité spodné ohraničenie"
+			},
+			"doubleLeftBorderButton": {
+				"title": "Dvojité ľavé ohraničenie"
+			},
+			"borderColorButton": {
+				"title": "Farba okraja"
+			}
 		},
 		"autoFitRowHeightButton": {
 			"title": "Automaticky prispôsobiť výšku riadku"
@@ -262,69 +325,6 @@
 		},
 		"zoomInButton": {
 			"title": "Priblížiť"
-		},
-		"enUsCurrencyNumberFormatButton": {
-			"title": "$ angličtina (USA)"
-		},
-		"enUkCurrencyNumberFormatButton": {
-			"title": "£ angličtina (Spojené kráľovstvo)"
-		},
-		"euCurrencyNumberFormatButton": {
-			"title": "€ Euro (123 €)"
-		},
-		"ruCurrencyNumberFormatButton": {
-			"title": "₽ ruština"
-		},
-		"chCurrencyNumberFormatButton": {
-			"title": "¥ čínština"
-		},
-		"enInCurrencyNumberFormatButton": {
-			"title": "₹ angličtina (India)"
-		},
-		"fillCellsDownButton": {
-			"title": "Vyplniť dole"
-		},
-		"fillCellsUpButton": {
-			"title": "Naplniť"
-		},
-		"fillCellsLeftButton": {
-			"title": "Vyplňte doľava"
-		},
-		"fillCellsRightButton": {
-			"title": "Vyplňte vpravo"
-		},
-		"noBordersButton": {
-			"title": "Bez hraníc"
-		},
-		"outsideBordersButton": {
-			"title": "Mimo hraníc"
-		},
-		"bottomBorderButton": {
-			"title": "Spodný okraj"
-		},
-		"topBorderButton": {
-			"title": "Horný okraj"
-		},
-		"rightBorderButton": {
-			"title": "Pravá hranica"
-		},
-		"leftBorderButton": {
-			"title": "Ľavá hranica"
-		},
-		"thickBottomBorderButton": {
-			"title": "Hrubý spodný okraj"
-		},
-		"thickLeftBorderButton": {
-			"title": "Hrubý ľavý okraj"
-		},
-		"doubleBottomBorderButton": {
-			"title": "Dvojité spodné ohraničenie"
-		},
-		"doubleLeftBorderButton": {
-			"title": "Dvojité ľavé ohraničenie"
-		},
-		"borderColorButton": {
-			"title": "Farba okraja"
 		},
 		"copyWorksheetLabel": {
 			"text": "Skopírujte pracovný list"

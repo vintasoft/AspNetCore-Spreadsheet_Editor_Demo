@@ -15,6 +15,9 @@
 		"reviewLabel": {
 			"text": "Pārskats"
 		},
+		"showMobileMenuButton": {
+			"title": "Vairāk"
+		},
 		"createXlsxDocumentButton": {
 			"title": "Izveidojiet jaunu XLSX dokumentu"
 		},
@@ -26,9 +29,6 @@
 		},
 		"exportXlsxToPdfButton": {
 			"title": "Eksportējiet XLSX uz PDF"
-		},
-		"showMobileMenuButton": {
-			"title": "Vairāk"
 		},
 		"boldTextButton": {
 			"title": "Treknrakstā teksts"
@@ -73,7 +73,25 @@
 			"title": "Teksta ietīšana"
 		},
 		"currencyNumberFormatButton": {
-			"title": "Valūtas numura formāts"
+			"title": "Valūtas numura formāts",
+			"enUsCurrencyNumberFormatButton": {
+				"title": "$ angļu (ASV)"
+			},
+			"enUkCurrencyNumberFormatButton": {
+				"title": "£ angļu (Apvienotā Karaliste)"
+			},
+			"euCurrencyNumberFormatButton": {
+				"title": "eiro eiro (123 eiro)"
+			},
+			"ruCurrencyNumberFormatButton": {
+				"title": "₽ krievu"
+			},
+			"chCurrencyNumberFormatButton": {
+				"title": "¥ ķīniešu"
+			},
+			"enInCurrencyNumberFormatButton": {
+				"title": "₹ angļu (Indija)"
+			}
 		},
 		"increaseDecimalButton": {
 			"title": "Palielināt decimāldaļu"
@@ -165,7 +183,19 @@
 			"title": "Atvienojiet šūnas"
 		},
 		"fillCells": {
-			"title": "Aizpildiet šūnas"
+			"title": "Aizpildiet šūnas",
+			"fillCellsDownButton": {
+				"title": "Aizpildiet uz leju"
+			},
+			"fillCellsUpButton": {
+				"title": "Piepildīt"
+			},
+			"fillCellsLeftButton": {
+				"title": "Aizpildiet pa kreisi"
+			},
+			"fillCellsRightButton": {
+				"title": "Aizpildiet pa labi"
+			}
 		},
 		"allBordersButton": {
 			"title": "Visas robežas"
@@ -174,7 +204,40 @@
 			"title": "Biezas ārējās robežas"
 		},
 		"cellBordersDropDownButton": {
-			"title": "Šūnu apmales"
+			"title": "Šūnu apmales",
+			"noBordersButton": {
+				"title": "Bez robežām"
+			},
+			"outsideBordersButton": {
+				"title": "Ārpus robežām"
+			},
+			"bottomBorderButton": {
+				"title": "Apakšējā robeža"
+			},
+			"topBorderButton": {
+				"title": "Augšējā apmale"
+			},
+			"rightBorderButton": {
+				"title": "Labā robeža"
+			},
+			"leftBorderButton": {
+				"title": "Kreisā robeža"
+			},
+			"thickBottomBorderButton": {
+				"title": "Bieza apakšējā robeža"
+			},
+			"thickLeftBorderButton": {
+				"title": "Bieza kreisā robeža"
+			},
+			"doubleBottomBorderButton": {
+				"title": "Divpusējā apmale"
+			},
+			"doubleLeftBorderButton": {
+				"title": "Dubultā kreisā robeža"
+			},
+			"borderColorButton": {
+				"title": "Apmales krāsa"
+			}
 		},
 		"autoFitRowHeightButton": {
 			"title": "Automātiski pielāgojiet rindas augstumu"
@@ -262,69 +325,6 @@
 		},
 		"zoomInButton": {
 			"title": "Pietuvināt"
-		},
-		"enUsCurrencyNumberFormatButton": {
-			"title": "$ angļu (ASV)"
-		},
-		"enUkCurrencyNumberFormatButton": {
-			"title": "£ angļu (Apvienotā Karaliste)"
-		},
-		"euCurrencyNumberFormatButton": {
-			"title": "eiro eiro (123 eiro)"
-		},
-		"ruCurrencyNumberFormatButton": {
-			"title": "₽ krievu"
-		},
-		"chCurrencyNumberFormatButton": {
-			"title": "¥ ķīniešu"
-		},
-		"enInCurrencyNumberFormatButton": {
-			"title": "₹ angļu (Indija)"
-		},
-		"fillCellsDownButton": {
-			"title": "Aizpildiet uz leju"
-		},
-		"fillCellsUpButton": {
-			"title": "Piepildīt"
-		},
-		"fillCellsLeftButton": {
-			"title": "Aizpildiet pa kreisi"
-		},
-		"fillCellsRightButton": {
-			"title": "Aizpildiet pa labi"
-		},
-		"noBordersButton": {
-			"title": "Bez robežām"
-		},
-		"outsideBordersButton": {
-			"title": "Ārpus robežām"
-		},
-		"bottomBorderButton": {
-			"title": "Apakšējā robeža"
-		},
-		"topBorderButton": {
-			"title": "Augšējā apmale"
-		},
-		"rightBorderButton": {
-			"title": "Labā robeža"
-		},
-		"leftBorderButton": {
-			"title": "Kreisā robeža"
-		},
-		"thickBottomBorderButton": {
-			"title": "Bieza apakšējā robeža"
-		},
-		"thickLeftBorderButton": {
-			"title": "Bieza kreisā robeža"
-		},
-		"doubleBottomBorderButton": {
-			"title": "Divpusējā apmale"
-		},
-		"doubleLeftBorderButton": {
-			"title": "Dubultā kreisā robeža"
-		},
-		"borderColorButton": {
-			"title": "Apmales krāsa"
 		},
 		"copyWorksheetLabel": {
 			"text": "Kopēt darblapu"

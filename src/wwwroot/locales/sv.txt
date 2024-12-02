@@ -15,6 +15,9 @@
 		"reviewLabel": {
 			"text": "Kommentarer"
 		},
+		"showMobileMenuButton": {
+			"title": "Mer"
+		},
 		"createXlsxDocumentButton": {
 			"title": "Skapa nytt XLSX-dokument"
 		},
@@ -26,9 +29,6 @@
 		},
 		"exportXlsxToPdfButton": {
 			"title": "Exportera XLSX till PDF"
-		},
-		"showMobileMenuButton": {
-			"title": "Mer"
 		},
 		"boldTextButton": {
 			"title": "Fet"
@@ -73,7 +73,25 @@
 			"title": "Sätt in text"
 		},
 		"currencyNumberFormatButton": {
-			"title": "Finansnummerformat"
+			"title": "Finansnummerformat",
+			"enUsCurrencyNumberFormatButton": {
+				"title": "$ engelska (USA)"
+			},
+			"enUkCurrencyNumberFormatButton": {
+				"title": "£ engelska (Storbritannien)"
+			},
+			"euCurrencyNumberFormatButton": {
+				"title": "€ Euro (€ 123)"
+			},
+			"ruCurrencyNumberFormatButton": {
+				"title": "₽ ryska"
+			},
+			"chCurrencyNumberFormatButton": {
+				"title": "¥ kinesiska"
+			},
+			"enInCurrencyNumberFormatButton": {
+				"title": "₹ engelska (Indien)"
+			}
 		},
 		"increaseDecimalButton": {
 			"title": "Öka decimaltal"
@@ -165,7 +183,19 @@
 			"title": "Ta bort sammanslagningen av celler"
 		},
 		"fillCells": {
-			"title": "Fyll celler"
+			"title": "Fyll celler",
+			"fillCellsDownButton": {
+				"title": "Fyll ner"
+			},
+			"fillCellsUpButton": {
+				"title": "Fyll på"
+			},
+			"fillCellsLeftButton": {
+				"title": "Fyll vänster"
+			},
+			"fillCellsRightButton": {
+				"title": "Fyll höger"
+			}
 		},
 		"allBordersButton": {
 			"title": "Alla gränser"
@@ -174,7 +204,40 @@
 			"title": "Tjocka yttre kanter"
 		},
 		"cellBordersDropDownButton": {
-			"title": "Cellgränser"
+			"title": "Cellgränser",
+			"noBordersButton": {
+				"title": "Inga gränser"
+			},
+			"outsideBordersButton": {
+				"title": "Ytre gränser"
+			},
+			"bottomBorderButton": {
+				"title": "Nedre kant"
+			},
+			"topBorderButton": {
+				"title": "Top Border"
+			},
+			"rightBorderButton": {
+				"title": "Höger gräns"
+			},
+			"leftBorderButton": {
+				"title": "Vänster gräns"
+			},
+			"thickBottomBorderButton": {
+				"title": "Tjock bottenkant"
+			},
+			"thickLeftBorderButton": {
+				"title": "Tjock vänsterkant"
+			},
+			"doubleBottomBorderButton": {
+				"title": "Dubbel bottenkant"
+			},
+			"doubleLeftBorderButton": {
+				"title": "Dubbel vänsterkant"
+			},
+			"borderColorButton": {
+				"title": "Gräns ​​färg"
+			}
 		},
 		"autoFitRowHeightButton": {
 			"title": "Autopassa radhöjden"
@@ -262,69 +325,6 @@
 		},
 		"zoomInButton": {
 			"title": "Zooma in"
-		},
-		"enUsCurrencyNumberFormatButton": {
-			"title": "$ engelska (USA)"
-		},
-		"enUkCurrencyNumberFormatButton": {
-			"title": "£ engelska (Storbritannien)"
-		},
-		"euCurrencyNumberFormatButton": {
-			"title": "€ Euro (€ 123)"
-		},
-		"ruCurrencyNumberFormatButton": {
-			"title": "₽ ryska"
-		},
-		"chCurrencyNumberFormatButton": {
-			"title": "¥ kinesiska"
-		},
-		"enInCurrencyNumberFormatButton": {
-			"title": "₹ engelska (Indien)"
-		},
-		"fillCellsDownButton": {
-			"title": "Fyll ner"
-		},
-		"fillCellsUpButton": {
-			"title": "Fyll på"
-		},
-		"fillCellsLeftButton": {
-			"title": "Fyll vänster"
-		},
-		"fillCellsRightButton": {
-			"title": "Fyll höger"
-		},
-		"noBordersButton": {
-			"title": "Inga gränser"
-		},
-		"outsideBordersButton": {
-			"title": "Ytre gränser"
-		},
-		"bottomBorderButton": {
-			"title": "Nedre kant"
-		},
-		"topBorderButton": {
-			"title": "Top Border"
-		},
-		"rightBorderButton": {
-			"title": "Höger gräns"
-		},
-		"leftBorderButton": {
-			"title": "Vänster gräns"
-		},
-		"thickBottomBorderButton": {
-			"title": "Tjock bottenkant"
-		},
-		"thickLeftBorderButton": {
-			"title": "Tjock vänsterkant"
-		},
-		"doubleBottomBorderButton": {
-			"title": "Dubbel bottenkant"
-		},
-		"doubleLeftBorderButton": {
-			"title": "Dubbel vänsterkant"
-		},
-		"borderColorButton": {
-			"title": "Gräns ​​färg"
 		},
 		"copyWorksheetLabel": {
 			"text": "Kopiera ark"

@@ -15,6 +15,9 @@
 		"reviewLabel": {
 			"text": "Buyekeza"
 		},
+		"showMobileMenuButton": {
+			"title": "Okuningi"
+		},
 		"createXlsxDocumentButton": {
 			"title": "Dala idokhumenti entsha ye-XLSX"
 		},
@@ -26,9 +29,6 @@
 		},
 		"exportXlsxToPdfButton": {
 			"title": "Thumela i-XLSX ku-PDF"
-		},
-		"showMobileMenuButton": {
-			"title": "Okuningi"
 		},
 		"boldTextButton": {
 			"title": "Umbhalo ogqamile"
@@ -73,7 +73,25 @@
 			"title": "Ukugoqa umbhalo"
 		},
 		"currencyNumberFormatButton": {
-			"title": "Ifomethi yenombolo yohlobo lwemali"
+			"title": "Ifomethi yenombolo yohlobo lwemali",
+			"enUsCurrencyNumberFormatButton": {
+				"title": "$ IsiNgisi (USA)"
+			},
+			"enUkCurrencyNumberFormatButton": {
+				"title": "£ IsiNgisi (United Kingdom)"
+			},
+			"euCurrencyNumberFormatButton": {
+				"title": "I-Euro (€ 123)"
+			},
+			"ruCurrencyNumberFormatButton": {
+				"title": "₽ IsiRashiya"
+			},
+			"chCurrencyNumberFormatButton": {
+				"title": "¥ IsiShayina"
+			},
+			"enInCurrencyNumberFormatButton": {
+				"title": "₹ isiNgisi (India)"
+			}
 		},
 		"increaseDecimalButton": {
 			"title": "Khulisa idesimali"
@@ -165,7 +183,19 @@
 			"title": "Susa ukuhlanganisa amaseli"
 		},
 		"fillCells": {
-			"title": "Gcwalisa Amaseli"
+			"title": "Gcwalisa Amaseli",
+			"fillCellsDownButton": {
+				"title": "Gcwalisa Phansi"
+			},
+			"fillCellsUpButton": {
+				"title": "Gcwalisa"
+			},
+			"fillCellsLeftButton": {
+				"title": "Gcwalisa Kwesobunxele"
+			},
+			"fillCellsRightButton": {
+				"title": "Gcwalisa Kwesokudla"
+			}
 		},
 		"allBordersButton": {
 			"title": "Yonke Imingcele"
@@ -174,7 +204,40 @@
 			"title": "Aminyene Ngaphandle Kwemingcele"
 		},
 		"cellBordersDropDownButton": {
-			"title": "Imingcele Yeseli"
+			"title": "Imingcele Yeseli",
+			"noBordersButton": {
+				"title": "Ayikho Imingcele"
+			},
+			"outsideBordersButton": {
+				"title": "Ngaphandle Kwemingcele"
+			},
+			"bottomBorderButton": {
+				"title": "Umngcele Ongezansi"
+			},
+			"topBorderButton": {
+				"title": "Umngcele ophezulu"
+			},
+			"rightBorderButton": {
+				"title": "Umngcele Wesokudla"
+			},
+			"leftBorderButton": {
+				"title": "Umngcele Wesokunxele"
+			},
+			"thickBottomBorderButton": {
+				"title": "Umngcele Ozansi Owugqinsi"
+			},
+			"thickLeftBorderButton": {
+				"title": "Umngcele Wesokunxele Owugqinsi"
+			},
+			"doubleBottomBorderButton": {
+				"title": "I-Double Bottom Border"
+			},
+			"doubleLeftBorderButton": {
+				"title": "I-Double Left Border"
+			},
+			"borderColorButton": {
+				"title": "Umbala womngcele"
+			}
 		},
 		"autoFitRowHeightButton": {
 			"title": "Faka ngokuzenzakalelayo ubude bomugqa"
@@ -262,69 +325,6 @@
 		},
 		"zoomInButton": {
 			"title": "Sondeza isithombe"
-		},
-		"enUsCurrencyNumberFormatButton": {
-			"title": "$ IsiNgisi (USA)"
-		},
-		"enUkCurrencyNumberFormatButton": {
-			"title": "£ IsiNgisi (United Kingdom)"
-		},
-		"euCurrencyNumberFormatButton": {
-			"title": "I-Euro (€ 123)"
-		},
-		"ruCurrencyNumberFormatButton": {
-			"title": "₽ IsiRashiya"
-		},
-		"chCurrencyNumberFormatButton": {
-			"title": "¥ IsiShayina"
-		},
-		"enInCurrencyNumberFormatButton": {
-			"title": "₹ isiNgisi (India)"
-		},
-		"fillCellsDownButton": {
-			"title": "Gcwalisa Phansi"
-		},
-		"fillCellsUpButton": {
-			"title": "Gcwalisa"
-		},
-		"fillCellsLeftButton": {
-			"title": "Gcwalisa Kwesobunxele"
-		},
-		"fillCellsRightButton": {
-			"title": "Gcwalisa Kwesokudla"
-		},
-		"noBordersButton": {
-			"title": "Ayikho Imingcele"
-		},
-		"outsideBordersButton": {
-			"title": "Ngaphandle Kwemingcele"
-		},
-		"bottomBorderButton": {
-			"title": "Umngcele Ongezansi"
-		},
-		"topBorderButton": {
-			"title": "Umngcele ophezulu"
-		},
-		"rightBorderButton": {
-			"title": "Umngcele Wesokudla"
-		},
-		"leftBorderButton": {
-			"title": "Umngcele Wesokunxele"
-		},
-		"thickBottomBorderButton": {
-			"title": "Umngcele Ozansi Owugqinsi"
-		},
-		"thickLeftBorderButton": {
-			"title": "Umngcele Wesokunxele Owugqinsi"
-		},
-		"doubleBottomBorderButton": {
-			"title": "I-Double Bottom Border"
-		},
-		"doubleLeftBorderButton": {
-			"title": "I-Double Left Border"
-		},
-		"borderColorButton": {
-			"title": "Umbala womngcele"
 		},
 		"copyWorksheetLabel": {
 			"text": "Kopisha ishidi lokusebenza"

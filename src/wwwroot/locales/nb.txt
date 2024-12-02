@@ -15,6 +15,9 @@
 		"reviewLabel": {
 			"text": "Kommentarer"
 		},
+		"showMobileMenuButton": {
+			"title": "Mer"
+		},
 		"createXlsxDocumentButton": {
 			"title": "Opprett nytt XLSX-dokument"
 		},
@@ -26,9 +29,6 @@
 		},
 		"exportXlsxToPdfButton": {
 			"title": "Eksporter XLSX til PDF"
-		},
-		"showMobileMenuButton": {
-			"title": "Mer"
 		},
 		"boldTextButton": {
 			"title": "Fet"
@@ -73,7 +73,25 @@
 			"title": "Bruk tekst"
 		},
 		"currencyNumberFormatButton": {
-			"title": "Finansnummerformat"
+			"title": "Finansnummerformat",
+			"enUsCurrencyNumberFormatButton": {
+				"title": "$ engelsk (USA)"
+			},
+			"enUkCurrencyNumberFormatButton": {
+				"title": "£ engelsk (Storbritannia)"
+			},
+			"euCurrencyNumberFormatButton": {
+				"title": "€ Euro (€ 123)"
+			},
+			"ruCurrencyNumberFormatButton": {
+				"title": "₽ russisk"
+			},
+			"chCurrencyNumberFormatButton": {
+				"title": "¥ kinesisk"
+			},
+			"enInCurrencyNumberFormatButton": {
+				"title": "₹ engelsk (India)"
+			}
 		},
 		"increaseDecimalButton": {
 			"title": "Øk desimal"
@@ -165,7 +183,19 @@
 			"title": "Fjern sammenslåing av celler"
 		},
 		"fillCells": {
-			"title": "Fyll celler"
+			"title": "Fyll celler",
+			"fillCellsDownButton": {
+				"title": "Fyll ned"
+			},
+			"fillCellsUpButton": {
+				"title": "Fyll opp"
+			},
+			"fillCellsLeftButton": {
+				"title": "Fyll til venstre"
+			},
+			"fillCellsRightButton": {
+				"title": "Fyll til høyre"
+			}
 		},
 		"allBordersButton": {
 			"title": "Alle grenser"
@@ -174,7 +204,40 @@
 			"title": "Tykke ytre kanter"
 		},
 		"cellBordersDropDownButton": {
-			"title": "Cellegrenser"
+			"title": "Cellegrenser",
+			"noBordersButton": {
+				"title": "Ingen grenser"
+			},
+			"outsideBordersButton": {
+				"title": "Ytre grenser"
+			},
+			"bottomBorderButton": {
+				"title": "Nedre kant"
+			},
+			"topBorderButton": {
+				"title": "Øvre kant"
+			},
+			"rightBorderButton": {
+				"title": "Høyre kantlinje"
+			},
+			"leftBorderButton": {
+				"title": "Venstre kantlinje"
+			},
+			"thickBottomBorderButton": {
+				"title": "Tykk bunnkant"
+			},
+			"thickLeftBorderButton": {
+				"title": "Tykk venstre kant"
+			},
+			"doubleBottomBorderButton": {
+				"title": "Dobbel bunnkant"
+			},
+			"doubleLeftBorderButton": {
+				"title": "Dobbel venstre kant"
+			},
+			"borderColorButton": {
+				"title": "Grensefarge"
+			}
 		},
 		"autoFitRowHeightButton": {
 			"title": "Autotilpass radhøyden"
@@ -262,69 +325,6 @@
 		},
 		"zoomInButton": {
 			"title": "Zoom inn"
-		},
-		"enUsCurrencyNumberFormatButton": {
-			"title": "$ engelsk (USA)"
-		},
-		"enUkCurrencyNumberFormatButton": {
-			"title": "£ engelsk (Storbritannia)"
-		},
-		"euCurrencyNumberFormatButton": {
-			"title": "€ Euro (€ 123)"
-		},
-		"ruCurrencyNumberFormatButton": {
-			"title": "₽ russisk"
-		},
-		"chCurrencyNumberFormatButton": {
-			"title": "¥ kinesisk"
-		},
-		"enInCurrencyNumberFormatButton": {
-			"title": "₹ engelsk (India)"
-		},
-		"fillCellsDownButton": {
-			"title": "Fyll ned"
-		},
-		"fillCellsUpButton": {
-			"title": "Fyll opp"
-		},
-		"fillCellsLeftButton": {
-			"title": "Fyll til venstre"
-		},
-		"fillCellsRightButton": {
-			"title": "Fyll til høyre"
-		},
-		"noBordersButton": {
-			"title": "Ingen grenser"
-		},
-		"outsideBordersButton": {
-			"title": "Ytre grenser"
-		},
-		"bottomBorderButton": {
-			"title": "Nedre kant"
-		},
-		"topBorderButton": {
-			"title": "Øvre kant"
-		},
-		"rightBorderButton": {
-			"title": "Høyre kantlinje"
-		},
-		"leftBorderButton": {
-			"title": "Venstre kantlinje"
-		},
-		"thickBottomBorderButton": {
-			"title": "Tykk bunnkant"
-		},
-		"thickLeftBorderButton": {
-			"title": "Tykk venstre kant"
-		},
-		"doubleBottomBorderButton": {
-			"title": "Dobbel bunnkant"
-		},
-		"doubleLeftBorderButton": {
-			"title": "Dobbel venstre kant"
-		},
-		"borderColorButton": {
-			"title": "Grensefarge"
 		},
 		"copyWorksheetLabel": {
 			"text": "Kopier ark"
