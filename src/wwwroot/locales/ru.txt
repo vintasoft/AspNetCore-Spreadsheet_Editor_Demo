@@ -506,16 +506,16 @@
 					"text": "Финансовые"
 				},
 				"DateAndTime": {
-					"text": "DateAndTime"
+					"text": "Дата и время"
 				},
 				"MathAndTrig": {
-					"text": "MathAndTrig"
+					"text": "Математические"
 				},
 				"Statistical": {
 					"text": "Статистические"
 				},
 				"LookupAndReference": {
-					"text": "LookupAndReference"
+					"text": "Ссылки и массивы"
 				},
 				"Text": {
 					"text": "Текстовый"

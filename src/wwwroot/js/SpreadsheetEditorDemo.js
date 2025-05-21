@@ -334,6 +334,19 @@ function __main() {
     // change the visibility of demo header
     __changeDemoHeaderVisibility(window.innerHeight < 500);
 
+    // get UI-elements of the spreadsheet document editor control
+    var items = _spreadsheetDocumentEditorControl.get_Items();
+    // get buttons, which allow to upload and open file
+    var uploadAndOpenFileButtons = items.getItemsByRegisteredId("vssde-uploadAndOpenFileButton");
+    // if buttons found
+    if (uploadAndOpenFileButtons != null && uploadAndOpenFileButtons.length > 0) {
+        // for each button
+        for (var i = 0; i < uploadAndOpenFileButtons.length; i++) {
+            // change file extension filter for dialog that will be opened if user clicked button
+            uploadAndOpenFileButtons[i].set_FileExtensionFilter(".xlsx, .xls, .ods");
+        }
+    }
+
     // enable the localization of application UI
     __enableUiLocalization();
 
@@ -347,7 +360,7 @@ function __main() {
         // open the default XLSX document
         __openDefaultSpreadsheetDocument();
 
-        // create the dictionary for localization of application UI
+        //// create the dictionary for localization of application UI
         //__createUiLocalizationDictionary();
     });
 }
