@@ -2,7 +2,7 @@
 
 	<PropertyGroup>
 		<TargetFramework>net8.0</TargetFramework>
-		<Version>14.1.21.1</Version>
+		<Version>15.0.0.1</Version>
 		<EnableDefaultItems>false</EnableDefaultItems>
 	</PropertyGroup>
 
@@ -13,15 +13,15 @@
 
 	<ItemGroup>
     <PackageReference Include="Vintasoft.Shared" Version="4.6.1.1" />
-    <PackageReference Include="Vintasoft.Imaging" Version="14.1.21.1" />
-    <PackageReference Include="Vintasoft.Imaging.Drawing.SkiaSharp" Version="14.1.21.1" />
-    <PackageReference Include="Vintasoft.Imaging.Office.OpenXml" Version="6.1.21.1" />
-    <PackageReference Include="Vintasoft.Imaging.Pdf" Version="11.1.21.1" />
+    <PackageReference Include="Vintasoft.Imaging" Version="15.0.0.1" />
+    <PackageReference Include="Vintasoft.Imaging.Drawing.SkiaSharp" Version="15.0.0.1" />
+    <PackageReference Include="Vintasoft.Imaging.Office.OpenXml" Version="7.0.0.1" />
+    <PackageReference Include="Vintasoft.Imaging.Pdf" Version="12.0.0.1" />
     <PackageReference Include="Vintasoft.Shared.Web" Version="4.6.1.1" />
-    <PackageReference Include="Vintasoft.Imaging.Web.Services" Version="14.1.21.1" />
-    <PackageReference Include="Vintasoft.Imaging.AspNetCore.ApiControllers" Version="14.1.21.1" />
-    <PackageReference Include="Vintasoft.Imaging.Office.Web.Services" Version="6.1.21.1" />
-    <PackageReference Include="Vintasoft.Imaging.Office.AspNetCore.ApiControllers" Version="6.1.21.1" />
+    <PackageReference Include="Vintasoft.Imaging.Web.Services" Version="15.0.0.1" />
+    <PackageReference Include="Vintasoft.Imaging.AspNetCore.ApiControllers" Version="15.0.0.1" />
+    <PackageReference Include="Vintasoft.Imaging.Office.Web.Services" Version="7.0.0.1" />
+    <PackageReference Include="Vintasoft.Imaging.Office.AspNetCore.ApiControllers" Version="7.0.0.1" />
 	</ItemGroup>
 <ItemGroup>
   <Compile Include="Controllers\API\File\MyVintasoftFileApiController.cs" />

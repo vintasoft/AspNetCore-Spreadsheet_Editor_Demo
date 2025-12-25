@@ -25,7 +25,7 @@
 			"title": "Загрузить и открыть файл XLSX"
 		},
 		"downloadXlsxFileButton": {
-			"title": "Выгрузить файл XLSX"
+			"title": "Скачать XLSX файл"
 		},
 		"exportXlsxToPdfButton": {
 			"title": "Экспорт XLSX в PDF"
@@ -692,7 +692,7 @@
 		"vssde-selectFunctionPanel-all": "Все",
 		"vssde-createXlsxDocument": "Создать новый документ XLSX",
 		"vssde-uploadXlsxFile": "Загрузить XLSX-файл",
-		"vssde-downloadXlsxFile": "Выгрузить файл XLSX",
+		"vssde-downloadXlsxFile": "Скачать XLSX файл",
 		"vssde-exportXlsxToPdf": "Экспорт XLSX в PDF",
 		"vssde-fileSizeExceedsLimit": "Размер загруженного файла превышает максимальный размер ({0} байт).",
 		"vssde-error-noError": "Нет ошибки.",
