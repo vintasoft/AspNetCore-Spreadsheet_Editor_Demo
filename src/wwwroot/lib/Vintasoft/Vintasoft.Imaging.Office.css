@@ -3377,7 +3377,7 @@
         margin-bottom: 15px;
     }
 
-    .vsde-documentEditorSettingsPanel .vsde-documentEditorSettingsPanel-asyncModeCheckBox {
+    .vsde-documentEditorSettingsPanel .vsde-documentEditorSettingsPanel-isRulerEnabledCheckBox {
         margin-left: 0px;
         margin-bottom: 15px;
     }
@@ -3388,17 +3388,94 @@
 }
 
     .vsde-printDocxDocumentSettingsPanel .vsde-printDocxDocumentSettingsPanel-pagesLabel {
+        padding-right: 5px;
+        margin-top: 10px;
     }
 
     .vsde-printDocxDocumentSettingsPanel .vsde-printDocxDocumentSettingsPanel-pagesSelect {
         width: 100%;
-        margin-bottom: 10px;
+    }
+
+    .vsde-printDocxDocumentSettingsPanel .vsde-printDocxDocumentSettingsPanel-pagesDiv {
+        text-align: left !important;
+        padding-bottom: 5px;
     }
 
     .vsde-printDocxDocumentSettingsPanel .vsde-printDocxDocumentSettingsPanel-pageRangeLabel {
+        padding-right: 5px;
+        margin-top: 10px;
     }
 
     .vsde-printDocxDocumentSettingsPanel .vsde-printDocxDocumentSettingsPanel-pageRangeTextInput {
         width: 100%;
-        margin-bottom: 10px;
+    }
+
+    .vsde-printDocxDocumentSettingsPanel .vsde-printDocxDocumentSettingsPanel-pageRangeDiv {
+        text-align: left !important;
+        padding-bottom: 5px;
+    }
+
+    .vsde-printDocxDocumentSettingsPanel .vsde-printDocxDocumentSettingsPanel-pageSettingsLabel {
+        margin-top: 10px;
+    }
+
+    .vsde-printDocxDocumentSettingsPanel .vsde-printDocxDocumentSettingsPanel-pageSettingsDiv {
+        text-align: left !important;
+        padding-bottom: 5px;
+    }
+
+    .vsde-printDocxDocumentSettingsPanel .vsde-printDocxDocumentSettingsPanel-columnCountLabel {
+        margin-top: 10px;
+    }
+
+    .vsde-printDocxDocumentSettingsPanel .vsde-printDocxDocumentSettingsPanel-columnCountInput {
+        width: 100%;
+    }
+
+    .vsde-printDocxDocumentSettingsPanel .vsde-printDocxDocumentSettingsPanel-columnCountDiv {
+        text-align: left !important;
+        padding-left: 10px;
+        padding-bottom: 5px;
+    }
+
+    .vsde-printDocxDocumentSettingsPanel .vsde-printDocxDocumentSettingsPanel-rowCountLabel {
+        margin-top: 10px;
+    }
+
+    .vsde-printDocxDocumentSettingsPanel .vsde-printDocxDocumentSettingsPanel-rowCountInput {
+        width: 100%;
+    }
+
+    .vsde-printDocxDocumentSettingsPanel .vsde-printDocxDocumentSettingsPanel-rowCountDiv {
+        text-align: left !important;
+        padding-left: 10px;
+        padding-bottom: 5px;
+    }
+
+    .vsde-printDocxDocumentSettingsPanel .vsde-printDocxDocumentSettingsPanel-imagePaddingLabel {
+        margin-top: 10px;
+    }
+
+    .vsde-printDocxDocumentSettingsPanel .vsde-printDocxDocumentSettingsPanel-imagePaddingNumericInput {
+        width: 100%;
+    }
+
+    .vsde-printDocxDocumentSettingsPanel .vsde-printDocxDocumentSettingsPanel-imagePaddingDiv {
+        text-align: left !important;
+        padding-left: 10px;
+        padding-bottom: 5px;
+    }
+
+    .vsde-printDocxDocumentSettingsPanel .vsde-printDocxDocumentSettingsPanel-centerHorizontallyCheckbox {
+    }
+
+    .vsde-printDocxDocumentSettingsPanel .vsde-printDocxDocumentSettingsPanel-centerHorizontallyLabel {
+        margin-top: 10px;
+        margin-left: 5px;
+    }
+
+    .vsde-printDocxDocumentSettingsPanel .vsde-printDocxDocumentSettingsPanel-centerHorizontallyDiv {
+        text-align: left !important;
+        padding-left: 10px;
+        padding-bottom: 5px;
     }
