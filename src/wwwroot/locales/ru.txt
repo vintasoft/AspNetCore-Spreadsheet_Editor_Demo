@@ -771,7 +771,7 @@
 		"vssde-insertChartPanel-chartSubtype-3D100%StackedBar": "Объемная нормированная линейчатая с накоплением",
 		"vssde-insertChartPanel-chartSubtype-area": "С областями",
 		"vssde-insertChartPanel-chartSubtype-stackedArea": "С областями и накоплением",
-		"vssde-insertChartPanel-chartSubtype-100%StackedArea": "Нормировання с областями и накоплением",
+		"vssde-insertChartPanel-chartSubtype-100%StackedArea": "Нормированная с областями и накоплением",
 		"vssde-insertChartPanel-chartSubtype-3DArea": "Объемная с областями",
 		"vssde-insertChartPanel-chartSubtype-3DStackedArea": "Объемная с областями и накоплением",
 		"vssde-insertChartPanel-chartSubtype-3D100%StackedArea": "Объемная нормированная с областями и накоплением",
